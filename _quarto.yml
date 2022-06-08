@@ -2,17 +2,37 @@ project:
   type: website
 
 website:
-  title: "blog-main"
+  title: "William Okech"
   navbar:
     right:
       - about.qmd
+      - text: Posts
+        href: /
+      - text: Resume
+        href: /
       - icon: github
-        href: https://github.com/
+        href: https://github.com/wokech
       - icon: twitter
-        href: https://twitter.com
+        href: https://twitter.com/willyokech
+  page-footer:
+    left: "Blog made using [Quarto](https://quarto.org/), by William Okech. License: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)."
+    right:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/willyokech
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/williamokech/
+    - icon: github
+      text: Github
+      href: https://github.com/wokech
+    - icon: envelope
+      text: Email
+      href: mailto:willyokech@gmail.com
+      
 format:
   html:
-    theme: minty
+    theme: sandstone
     css: styles.css
 
 editor: visual
