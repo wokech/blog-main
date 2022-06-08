@@ -20,7 +20,7 @@ This blog aims to introduce new R/RStudio users to the fundamentals of R and lay
 
 R is a programming language and open-source (freely available) software invented by Ross Ihaka and Robert Gentleman in 1993 (published as open-source in 1995) when they were based at the University of Auckland (Fun fact: R represents the first letter of the first names of the creators). The software is utilized by individuals working for various organizations, from academic institutions and healthcare organizations to financial services and information technology companies. In May 2022, the [TIOBE](https://www.tiobe.com/tiobe-index/) index (a measure of programming language popularity) demonstrated that R was the 13th most popular programming language. R's popularity may result from its highly extensible nature, allowing users to perform statistical data analysis, generate visualizations, and report findings.
 
-## What are the benefits of using R? 
+## What are the benefits of using R?
 
 As mentioned in the previous section, R is open-source software and highly extensible. Thousands of extensions (also known as packages) can be installed, allowing one to increase the number of available applications. Other advantages of R include: 1. A [large](https://community.rstudio.com/) [community](https://www.r-project.org/help.html) of [users and developers](https://stackoverflow.com/) that provides learning support and assists with technical challenges, 2. R helps perform reproducible research. 3. R is cross-platform, which means it can be used on Linux, Windows, and Mac operating systems. 4. R can be used to generate [high-quality](https://r-graph-gallery.com/) [graphics](https://r-charts.com/) from datasets of varying dimensions.
 
@@ -28,7 +28,7 @@ As mentioned in the previous section, R is open-source software and highly exten
 
 To install R on your personal computer, visit The R Project for Statistical Computing's Comprehensive R Archive Network [(CRAN)](https://cran.r-project.org/), download the most recent version, and install it according to the website's instructions. Once you download R, you can now experiment with some of its features.
 
-![](r_interface.png){fig-align="center" width="90%"}
+![](r_interface.png){fig-align="center" width="90%", fig-alt = "d"}
 
 The standard R interface (Windows)
 
@@ -46,8 +46,10 @@ Once installed, the basic layout of RStudio reveals that there is a script (text
 
 ## What are the primary benefits of RStudio?
 
-RStudio allows one to create projects (a collection of related files stored within their working directory). Additionally, RStudio can be customized using options available under the "Tools" tab. Lastly, RStudio has Git integration that allows for version control where you can back up your code at different timepoints and effortlessly transfer code between computers (Cite: R for Everyone by Jason Lander).
+RStudio allows one to create projects (a collection of related files stored within their working directory). Additionally, RStudio can be customized using options available under the "Tools" tab. Lastly, RStudio has Git integration that allows for version control where you can back up your code at different timepoints and effortlessly transfer code between computers.
 
 ## Conclusion
 
 Hopefully, this was a helpful introduction to R and RStudio. In subsequent blog posts, we will focus on simple arithmetic, RStudio basics, and data types and structures in R.
+
+## 
