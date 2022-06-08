@@ -12,8 +12,11 @@ website:
         href: https://twitter.com
 format:
   html:
-    theme: cosmo
+    theme: minty
     css: styles.css
 
 editor: visual
 
+comments:
+  giscus:
+    repo: wokech/blog-main
