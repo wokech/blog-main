@@ -3,6 +3,7 @@ title: "Beginner’s Guide to R and RStudio"
 subtitle: "This blog post introduces readers to the basics of R and RStudio."
 author: "William Okech"
 date: "2022-06-08"
+image: "r_and_rstudio.png"
 categories: [RStudio, R, Tutorial, Blog]
 toc: true
 draft: false
@@ -28,9 +29,9 @@ As mentioned in the previous section, R is open-source software and highly exten
 
 To install R on your personal computer, visit The R Project for Statistical Computing's Comprehensive R Archive Network [(CRAN)](https://cran.r-project.org/), download the most recent version, and install it according to the website's instructions. Once you download R, you can now experiment with some of its features.
 
-![](r_interface.png){fig-align="center" width="90%", fig-alt = "d"}
+![](r_interface.png){fig-align="center" width="90%"}
 
-The standard R interface (Windows)
+Figure 1: The standard R interface (Windows)
 
 When you open R, you will notice that it has a basic graphical user interface (GUI), and the console displays a command-line interface (CLI; where each command is executed one at a time). This may be intimidating for new users; however, there is a workaround for those who are not comfortable working at the command line. For those who are not experienced programmers, we can all use R with an application called RStudio.
 
@@ -40,13 +41,13 @@ RStudio is an integrated development environment (IDE) for R that JJ Allaire dev
 
 ![](rstudio_interface.png){fig-align="center" width="90%"}
 
-RStudio interface with four main panes (Windows)
+Figure 2: RStudio interface with four main panes (Windows)
 
 Once installed, the basic layout of RStudio reveals that there is a script (text editor), console, navigation, and environment/history window pane. The script pane (text editor) in the upper-left allows one to write, open, edit, and execute more extended programs than we can when using the standalone R software. The console pane (bottom-left) displays the script's output and offers a command-line interface for typing code that is immediately executed. The environment pane (upper-right) displays information about the created objects, the history of executed code, and any external connections. Finally, the navigation pane (bottom-right) shows multiple tabs. Its primary tabs include the "Plot" tab, which shows graphics created by code, the "Packages" tab where the packages are installed, and the "Help" tab, which provides assistance for all things R and allows one to search the R documentation.
 
 ## What are the primary benefits of RStudio?
 
-RStudio allows one to create projects (a collection of related files stored within their working directory). Additionally, RStudio can be customized using options available under the "Tools" tab. Lastly, RStudio has Git integration that allows for version control where you can back up your code at different timepoints and effortlessly transfer code between computers.
+RStudio allows one to create projects (a collection of related files stored within their working directory). Additionally, RStudio can be customized using options available under the "Tools" tab. Lastly, RStudio has Git integration that allows for version control where you can back up your code at different timepoints and effortlessly transfer code between computers.^[Summary of the benefits of R and RStudio obtained from Lander, J. P. (2017). R for everyone: Advanced analytics and graphics. Addison-Wesley.]
 
 ## Conclusion
 

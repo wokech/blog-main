@@ -16,14 +16,15 @@ about:
     - icon: envelope
       text: Email
       href: mailto:willyokech@gmail.com
+    - icon: page_facing_up
+      text: Resume/CV
+      href: 
 ---
 
 ::: {#hero-heading}
-
 Hello! My name is William Okech, and I am a research scientist from Kenya.
 
 My PhD is in Biomedical Engineering, and I'm interested in data visualization and developing interactive dashboards using R and Python.
 
 Additionally, I'm a \[Carpentry Instructor\](https://carpentries.org/instructors/) and I intend to use this blog to introduce readers to the basics of R and Python.
-
 :::
