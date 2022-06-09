@@ -16,9 +16,6 @@ about:
     - icon: envelope
       text: Email
       href: mailto:willyokech@gmail.com
-    - icon: page_facing_up
-      text: Resume/CV
-      href: 
 ---
 
 ::: {#hero-heading}

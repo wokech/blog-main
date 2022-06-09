@@ -8,14 +8,12 @@ website:
       - about.qmd
       - text: Posts
         href: /
-      - text: Resume
-        href: /
       - icon: github
         href: https://github.com/wokech
       - icon: twitter
         href: https://twitter.com/willyokech
   page-footer:
-    left: "Blog made using [Quarto](https://quarto.org/), by William Okech. License: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)."
+    left: "Blog made using [Quarto](https://quarto.org/), by William Okech. License: [MIT](https://opensource.org/licenses/MIT)."
     right:
     - icon: twitter
       text: Twitter
