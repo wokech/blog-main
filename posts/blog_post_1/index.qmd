@@ -47,7 +47,9 @@ Once installed, the basic layout of RStudio reveals that there is a script (text
 
 ## What are the primary benefits of RStudio?
 
-RStudio allows one to create projects (a collection of related files stored within their working directory). Additionally, RStudio can be customized using options available under the "Tools" tab. Lastly, RStudio has Git integration that allows for version control where you can back up your code at different timepoints and effortlessly transfer code between computers.^[Summary of the benefits of R and RStudio obtained from Lander, J. P. (2017). R for everyone: Advanced analytics and graphics. Addison-Wesley.]
+RStudio allows one to create projects (a collection of related files stored within their working directory). Additionally, RStudio can be customized using options available under the "Tools" tab. Lastly, RStudio has Git integration that allows for version control where you can back up your code at different timepoints and effortlessly transfer code between computers.[^1]
+
+[^1]: Summary of the benefits of R and RStudio obtained from Lander, J. P. (2017). R for everyone: Advanced analytics and graphics. Addison-Wesley.
 
 ## Conclusion
 
