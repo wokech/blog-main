@@ -13,7 +13,7 @@ website:
       - icon: twitter
         href: https://twitter.com/willyokech
   page-footer:
-    left: "Blog made using [Quarto](https://quarto.org/), by William Okech. License: [MIT](https://opensource.org/licenses/MIT)."
+    left: "Blog made using [Quarto](https://quarto.org/), by William Okech. License: [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/)"
     right:
     - icon: twitter
       text: Twitter
