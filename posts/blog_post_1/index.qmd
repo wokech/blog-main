@@ -1,5 +1,5 @@
 ---
-title: "Beginner’s Guide to R and RStudio"
+title: "A Beginner’s Guide to R and RStudio"
 subtitle: "This blog post introduces readers to the basics of R and RStudio."
 author: "William Okech"
 date: "2022-06-08"

@@ -21,7 +21,7 @@ about:
 ::: {#hero-heading}
 Hello! My name is William Okech, and I am a research scientist from Kenya.
 
-My PhD is in Biomedical Engineering, and I'm interested in data visualization and developing interactive dashboards using R.
+My PhD is in Biomedical Engineering, and I'm interested in data visualization and developing interactive dashboards using R/RStudio.
 
-Additionally, I'm a [Carpentry Instructor](https://carpentries.org/instructors/) and I intend to use this blog to introduce readers to the basics of R.
+Additionally, I'm a [Carpentry Instructor](https://carpentries.org/instructors/) and I intend to use this blog to introduce readers to the basics of data analysis using R/RStudio.
 :::
