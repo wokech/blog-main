@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>William Okech - Blog posts</title>
+<title>William Okech - R and RStudio Basics Series</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -65,9 +65,9 @@ ul.task-list{list-style: none;}
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-reading-time','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -124,15 +124,13 @@ ul.task-list{list-style: none;}
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Blog">Blog <span class="quarto-category-count">(3)</span></div><div class="category" data-category="R">R <span class="quarto-category-count">(3)</span></div><div class="category" data-category="RStudio">RStudio <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Tutorial">Tutorial <span class="quarto-category-count">(3)</span></div></div></div>
+    
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Blog posts</h1>
+<h1 class="title">R and RStudio Basics Series</h1>
 </div>
 
 
@@ -146,23 +144,9 @@ ul.task-list{list-style: none;}
 
 </header>
 
-<div class="column" style="width:80%;">
-<section id="series" class="level1">
-<h1>Series</h1>
-<ul>
-<li><a href="series_1.html">The basics of R and RStudio</a></li>
-</ul>
-</section>
-</div>
-<div class="column" style="width:20%;">
-
-</div>
-<section id="all-blog-posts" class="level1">
-<h1>All Blog Posts</h1>
 
 
 
-</section>
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="listing-actions-group">
@@ -180,9 +164,6 @@ ul.task-list{list-style: none;}
          <option value="listing-date-sort" data-direction="desc">
           Date - Newest
         </option>
-         <option value="listing-author" data-direction="asc">
-          Author
-        </option>
      </select>
   </div>
     <div class="input-group input-group-sm quarto-listing-filter">
@@ -192,9 +173,6 @@ ul.task-list{list-style: none;}
 </div>
 <div class="list quarto-listing-default">
 <div class="quarto-post image-right" data-index="0" data-categories="RStudio,R,Tutorial,Blog" data-listing-date-sort="1655845200000" data-listing-file-modified-sort="1655936335036" data-listing-reading-time-sort="1.685">
-<div class="thumbnail">
-<p><a href="./posts/series_1/new_post_3/post_3.html"> <img src="./posts/series_1/new_post_3/blog_series_pt_2.png" class="thumnail-image"> </a></p>
-</div>
 <div class="body">
 <a href="./posts/series_1/new_post_3/post_3.html">
 <h3 class="no-anchor listing-title">
@@ -229,16 +207,13 @@ Variables are instrumental in programming because they are used as “containers
 <div class="listing-date">
 Jun 22, 2022
 </div>
-<div class="listing-author">
-William Okech
+<div class="listing-reading-time">
+1 min
 </div>
 </a>
 </div>
 </div>
 <div class="quarto-post image-right" data-index="1" data-categories="RStudio,R,Tutorial,Blog" data-listing-date-sort="1655240400000" data-listing-file-modified-sort="1655935368580" data-listing-reading-time-sort="2.205">
-<div class="thumbnail">
-<p><a href="./posts/series_1/new_post_2/post_2.html"> <img src="./posts/series_1/new_post_2/main_pic.png" class="thumnail-image"> </a></p>
-</div>
 <div class="body">
 <a href="./posts/series_1/new_post_2/post_2.html">
 <h3 class="no-anchor listing-title">
@@ -273,16 +248,13 @@ This is the first in a series of blog posts looking at the basics of R and RStud
 <div class="listing-date">
 Jun 15, 2022
 </div>
-<div class="listing-author">
-William Okech
+<div class="listing-reading-time">
+2 min
 </div>
 </a>
 </div>
 </div>
 <div class="quarto-post image-right" data-index="2" data-categories="RStudio,R,Tutorial,Blog" data-listing-date-sort="1654635600000" data-listing-file-modified-sort="1655935420175" data-listing-reading-time-sort="3.62">
-<div class="thumbnail">
-<p><a href="./posts/series_1/new_post_1/post_1.html"> <img src="./posts/series_1/new_post_1/r_and_rstudio.png" class="thumnail-image"> </a></p>
-</div>
 <div class="body">
 <a href="./posts/series_1/new_post_1/post_1.html">
 <h3 class="no-anchor listing-title">
@@ -317,8 +289,8 @@ In this 1st post, the reader will be introduced to the R programming language an
 <div class="listing-date">
 Jun 8, 2022
 </div>
-<div class="listing-author">
-William Okech
+<div class="listing-reading-time">
+3 min
 </div>
 </a>
 </div>

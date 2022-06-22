@@ -11,3 +11,14 @@ page-layout: full
 title-block-banner: false
 comments: false
 ---
+
+::: {.column width="80%"}
+# Series
+
+-   [The basics of R and RStudio](series_1.html)
+:::
+
+::: {.column width="20%"}
+:::
+
+# All Blog Posts

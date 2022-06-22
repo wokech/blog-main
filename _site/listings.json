@@ -2,13 +2,23 @@
   {
     "listing": "/index.html",
     "items": [
-      "/posts/blog_post_1/index.html"
+      "/posts/series_1/new_post_3/post_3.html",
+      "/posts/series_1/new_post_2/post_2.html",
+      "/posts/series_1/new_post_1/post_1.html"
     ]
   },
   {
     "listing": "/blog.html",
     "items": [
       "/posts/blog_post_1/index.html"
+    ]
+  },
+  {
+    "listing": "/series_1.html",
+    "items": [
+      "/posts/series_1/new_post_3/post_3.html",
+      "/posts/series_1/new_post_2/post_2.html",
+      "/posts/series_1/new_post_1/post_1.html"
     ]
   }
 ]

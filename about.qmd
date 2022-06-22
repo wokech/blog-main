@@ -16,6 +16,7 @@ about:
     - icon: envelope
       text: Email
       href: mailto:willyokech@gmail.com
+comments: false
 ---
 
 ::: {#hero-heading}

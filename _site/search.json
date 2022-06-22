@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "Blog posts",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\n\nThis blog post introduces readers to the basics of R and RStudio.\n\n\n\n\nRStudio\n\n\nR\n\n\nTutorial\n\n\nBlog\n\n\n\n\n\n\n\n\n\n\n\nJun 8, 2022\n\n\nWilliam Okech\n\n\n\n\n\n\nNo matching items"
+    "text": "All Blog Posts\n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nThe Basics of R and RStudio\n\n\nPart 2: Variables\n\n\n\n\nRStudio\n\n\nR\n\n\nTutorial\n\n\nBlog\n\n\n\n\n\n\n\n\n\n\n\nJun 22, 2022\n\n\nWilliam Okech\n\n\n\n\n\n\n  \n\n\n\n\nThe Basics of R and RStudio\n\n\nPart 1: Simple Arithmetic\n\n\n\n\nRStudio\n\n\nR\n\n\nTutorial\n\n\nBlog\n\n\n\n\n\n\n\n\n\n\n\nJun 15, 2022\n\n\nWilliam Okech\n\n\n\n\n\n\n  \n\n\n\n\nGetting started with R and RStudio\n\n\nSoftware Installation\n\n\n\n\nRStudio\n\n\nR\n\n\nTutorial\n\n\nBlog\n\n\n\n\n\n\n\n\n\n\n\nJun 8, 2022\n\n\nWilliam Okech\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/blog_post_1/index.html",
@@ -26,5 +26,96 @@
     "title": "Blog posts",
     "section": "",
     "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\n\nThis blog post introduces readers to the basics of R and RStudio.\n\n\n\n\nRStudio\n\n\nR\n\n\nTutorial\n\n\nBlog\n\n\n\n\n\n\n\n\n\n\n\nJun 8, 2022\n\n\nWilliam Okech\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/series_1/new_post_1/post_1.html",
+    "href": "posts/series_1/new_post_1/post_1.html",
+    "title": "Getting started with R and RStudio",
+    "section": "",
+    "text": "Footnotes\n\n\nSummary of the benefits of R and RStudio obtained from Lander, J. P. (2017). R for everyone: Advanced analytics and graphics. Addison-Wesley.↩︎"
+  },
+  {
+    "objectID": "posts/series_1/new_post_1/post_1.html#what-arithmetic-operators-are-used-in-r",
+    "href": "posts/series_1/new_post_1/post_1.html#what-arithmetic-operators-are-used-in-r",
+    "title": "The Basics of R and RStudio",
+    "section": "What arithmetic operators are used in R?",
+    "text": "What arithmetic operators are used in R?\nVarious arithmetic operators can be used in R. These operators include:\n\n\n\nArithmetic Operator\nDescription\n\n\n\n\n+\nAddition\n\n\n-\nSubtraction\n\n\n*\nMultiplication\n\n\n/\nDivision\n\n\n** or ^\nExponentiation\n\n\n%%\nModulus (remainder after division)\n\n\n%/%\nInteger division"
+  },
+  {
+    "objectID": "posts/series_1/new_post_1/post_1.html#examples",
+    "href": "posts/series_1/new_post_1/post_1.html#examples",
+    "title": "The Basics of R and RStudio",
+    "section": "Examples",
+    "text": "Examples\nAddition\n\n10+30\n\n[1] 40\n\n\nSubtraction\n\n30-24\n\n[1] 6\n\n\nMultiplication\n\n20*4\n\n[1] 80\n\n\nDivision\n\n93/4\n\n[1] 23.25\n\n\nExponentiation\n\n3^6\n\n[1] 729\n\n\nModulus (remainder with division)\n\n94%%5\n\n[1] 4\n\n\nInteger Division\n\n54%/%7\n\n[1] 7\n\n\nSlightly more complex arithmetic operations\n\n5-1+(4*3)/16*3\n\n[1] 6.25"
+  },
+  {
+    "objectID": "posts/series_1/new_post_1/post_1.html#summary",
+    "href": "posts/series_1/new_post_1/post_1.html#summary",
+    "title": "The Basics of R and RStudio",
+    "section": "Summary",
+    "text": "Summary\nAfter going through this post, I hope that you can now perform simple arithmetic calculations in R."
+  },
+  {
+    "objectID": "series_1.html",
+    "href": "series_1.html",
+    "title": "R and RStudio Basics Series",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\nPart 2: Variables\n\n\n\n\nRStudio\n\n\nR\n\n\nTutorial\n\n\nBlog\n\n\n\n\n\n\n\n\n\n\n\nJun 22, 2022\n\n\n1 min\n\n\n\n\n\n\n\n\n\nPart 1: Simple Arithmetic\n\n\n\n\nRStudio\n\n\nR\n\n\nTutorial\n\n\nBlog\n\n\n\n\n\n\n\n\n\n\n\nJun 15, 2022\n\n\n2 min\n\n\n\n\n\n\n\n\n\nSoftware Installation\n\n\n\n\nRStudio\n\n\nR\n\n\nTutorial\n\n\nBlog\n\n\n\n\n\n\n\n\n\n\n\nJun 8, 2022\n\n\n3 min\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/series_1/new_post_2/post_2.html",
+    "href": "posts/series_1/new_post_2/post_2.html",
+    "title": "The Basics of R and RStudio",
+    "section": "",
+    "text": "This is the first in a series of blog posts looking at the basics of R and RStudio.These programs allow us to perform various basic and complex calculations. To get started, first, we will open R or RStudio. In R, go to the console, and in RStudio, head to the console pane. Next, type in a basic arithmetic calculation such as “1 + 1” after the angle bracket (>) and hit “Enter.”\nAn example of a basic calculation:\n\n1+1\n\n[1] 2\n\n\nThe output will be observed next to the square bracket containing the number 1 ([1])."
+  },
+  {
+    "objectID": "posts/series_1/new_post_3/post_3.html",
+    "href": "posts/series_1/new_post_3/post_3.html",
+    "title": "The Basics of R and RStudio",
+    "section": "",
+    "text": "Variables are instrumental in programming because they are used as “containers” to store data values. To assign a value to a variable, we can use <− or =. However, most R users prefer to <−.\nExamples of variable assignment\n\nvariable_1 <- 5\nvariable_1\n\n[1] 5\n\n\n\nvariable_2 = 10\nvariable_2\n\n[1] 10\n\n\n\n15 -> variable_3\nvariable_3\n\n[1] 15\n\n\n\nvariable_4 <- variable_5 <- 30\nvariable_4\n\n[1] 30\n\nvariable_5\n\n[1] 30\n\n\nThe output of the variable can then be obtained by:\n\nTyping the variable name and then pressing “Enter,”\nTyping “print” with the variable name in brackets, print(variable), and\nType “View” with the variable name in brackets, View(variable).\n\nBoth print() and View() are some of the many built-in functions1 available in R.\nIn RStudio, the list of variables that have been loaded can be viewed in the environment pane.\n\n\n\n\n\nA screenshot of the environment pane with the stored variables.\n\nprint(variable_1)\n\n[1] 5\n\n\n\nView(variable_2)\n\nOutput of view will be seen in the text editor"
+  },
+  {
+    "objectID": "posts/series_1/new_post_3/post_3.html#the-assign-and-rm-functions",
+    "href": "posts/series_1/new_post_3/post_3.html#the-assign-and-rm-functions",
+    "title": "The Basics of R and RStudio",
+    "section": "The assign() and rm() functions",
+    "text": "The assign() and rm() functions\nIn addition to using the assignment operators, we can use the assign() function to assign a value to a variable.\n\nassign(\"variable_6\", 555)\nvariable_6\n\n[1] 555\n\n\nTo remove the assignment of the value to the variable, either delete the variable in the “environment pane” or use the rm() function.\n\nvariable_7 <- 159\n\n\nrm(variable_7)\n\nView the environment pane to confirm whether variable_7 has been removed."
+  },
+  {
+    "objectID": "posts/series_1/new_post_2/post_2.html#what-arithmetic-operators-are-used-in-r",
+    "href": "posts/series_1/new_post_2/post_2.html#what-arithmetic-operators-are-used-in-r",
+    "title": "The Basics of R and RStudio",
+    "section": "What arithmetic operators are used in R?",
+    "text": "What arithmetic operators are used in R?\nVarious arithmetic operators can be used in R. These operators include:\n\n\n\nArithmetic Operator\nDescription\n\n\n\n\n+\nAddition\n\n\n-\nSubtraction\n\n\n*\nMultiplication\n\n\n/\nDivision\n\n\n** or ^\nExponentiation\n\n\n%%\nModulus (remainder after division)\n\n\n%/%\nInteger division"
+  },
+  {
+    "objectID": "posts/series_1/new_post_2/post_2.html#examples",
+    "href": "posts/series_1/new_post_2/post_2.html#examples",
+    "title": "The Basics of R and RStudio",
+    "section": "Examples",
+    "text": "Examples\nAddition\n\n10+30\n\n[1] 40\n\n\nSubtraction\n\n30-24\n\n[1] 6\n\n\nMultiplication\n\n20*4\n\n[1] 80\n\n\nDivision\n\n93/4\n\n[1] 23.25\n\n\nExponentiation\n\n3^6\n\n[1] 729\n\n\nModulus (remainder with division)\n\n94%%5\n\n[1] 4\n\n\nInteger Division\n\n54%/%7\n\n[1] 7\n\n\nSlightly more complex arithmetic operations\n\n5-1+(4*3)/16*3\n\n[1] 6.25"
+  },
+  {
+    "objectID": "posts/series_1/new_post_2/post_2.html#summary",
+    "href": "posts/series_1/new_post_2/post_2.html#summary",
+    "title": "The Basics of R and RStudio",
+    "section": "Summary",
+    "text": "Summary\nAfter going through this post, I hope that you can now perform simple arithmetic calculations in R."
+  },
+  {
+    "objectID": "posts/series_1/new_post_3/post_3.html#naming-variables",
+    "href": "posts/series_1/new_post_3/post_3.html#naming-variables",
+    "title": "The Basics of R and RStudio",
+    "section": "Naming variables",
+    "text": "Naming variables\nYou may be wondering what rules are used for naming variables. First, we need to give the variables meaningful names such as current_temp, time_24_hr, or weight_lbs. However, we need to be mindful of the (variable style guide) which provides us with the appropriate conventions for naming variables.\nSome rules to keep in mind are:\n\nR is case-sensitive (variable is not the same as Variable),\nNames similar to typical outputs or functions (TRUE, FALSE, if, or else) cannot be used,\nAppropriate variable names can contain letters, numbers, dots, and underscores. However, you cannot start with an underscore, number, or dot followed by a number."
+  },
+  {
+    "objectID": "posts/series_1/new_post_3/post_3.html#examples-of-valid-and-invalid-names",
+    "href": "posts/series_1/new_post_3/post_3.html#examples-of-valid-and-invalid-names",
+    "title": "The Basics of R and RStudio",
+    "section": "Examples of valid and invalid names",
+    "text": "Examples of valid and invalid names\nValid names: time_24_hr or .time24_hr\nInvalid names: _24_hr.time or 24_hr_time or .24_hr_time"
   }
 ]
