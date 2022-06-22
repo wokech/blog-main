@@ -30,7 +30,7 @@ website:
       
 format:
   html:
-    theme: sandstone
+    theme: lumen
     css: styles.css
 
 editor: visual
