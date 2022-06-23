@@ -1,8 +1,8 @@
 ---
-title: "R and RStudio Basics Series"
+title: "R and RStudio: Getting Started and The Basics"
 listing:
   contents: posts/series_1
-  sort: "date desc"
+  sort: "date"
   type: default
   categories: false
   sort-ui: true

@@ -87,14 +87,19 @@ View the environment pane to confirm whether `variable_7` has been removed.
 
 You may be wondering what rules are used for naming variables. First, we need to give the variables meaningful names such as current_temp, time_24_hr, or weight_lbs. However, we need to be mindful of the (variable style guide) which provides us with the appropriate conventions for naming variables.
 
-Some rules to keep in mind are: 
+Some rules to keep in mind are:
 
-1. R is case-sensitive (variable is not the same as Variable), 
-2. Names similar to typical outputs or functions (TRUE, FALSE, if, or else) cannot be used, 
-3. Appropriate variable names can contain letters, numbers, dots, and underscores. However, you cannot start with an underscore, number, or dot followed by a number.
+1.  R is case-sensitive (variable is not the same as Variable),
+2.  Names similar to typical outputs or functions (TRUE, FALSE, if, or else) cannot be used,
+3.  Appropriate variable names can contain letters, numbers, dots, and underscores. However, you cannot start with an underscore, number, or dot followed by a number.
 
 ## Examples of valid and invalid names
 
-Valid names: time_24_hr or .time24_hr
+**Valid names**
+- time_24_hr
+- .time24_hr
 
-Invalid names: _24_hr.time or 24_hr_time or .24_hr_time
+**Invalid names** 
+- _24_hr.time
+- 24_hr_time
+- .24_hr_time

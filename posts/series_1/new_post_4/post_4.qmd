@@ -1,0 +1,143 @@
+---
+title: "The Basics of R and RStudio"
+subtitle: "Part 3: Data Types"
+author: "William Okech"
+date: "2022-06-23"
+image: ""
+categories: [RStudio, R, Tutorial, Blog]
+toc: true
+draft: false
+---
+
+## Introduction
+
+R and RStudio utilize very many data types to store different kinds of data. The most common data types in R are listed below.
+
+| **Data Type** | **Description**                                                                                                                                                                           |
+|------------------------|------------------------------------------------|
+| Numeric       | The most common data type. The values can be numbers or decimals (all real numbers).                                                                                                      |
+| Integer       | Special case of numeric data without decimals.                                                                                                                                            |
+| Logical       | Boolean data type with only 2 values.                                                                                                                                                     |
+| Complex       | Specifies imaginary values in R.                                                                                                                                                          |
+| Character     | Assigns a character or string to a variable. The character variables are enclosed in single quotes ('character') while the string variables are enclosed in double quotes ("string").     |
+| Factor        | Special type of character variable that represents a categorical such as gender.                                                                                                          |
+| Raw           | Specifies values as raw bytes. It uses built-in functions to convert between raw and character (charToRaw() or rawToChar()).|
+| Dates         | Specifies the date variable. Date stores a date and POSIXct stores a date and time. The output is indicated as the number of days (Date) or number of seconds (POSIXct) since 01/01/1970. |
+
+## Data Type Examples
+
+**Numeric**
+
+```{r}
+89.98
+
+55
+```
+
+**Integer**
+
+```{r}
+5L
+
+5768L
+```
+
+**Logical**
+
+```{r}
+TRUE
+
+FALSE
+```
+
+**Complex**
+
+```{r}
+10 + 30i
+
+287 + 34i
+```
+
+**Character/String**
+
+```{r}
+'abc'
+
+"def"
+
+"I like learning R"
+```
+
+**Dates (Current time or date on the system)**
+
+```{r}
+"2022-06-23 14:39:21 EAT"
+
+"2022-06-23"
+```
+
+## Examining data types
+
+There exist several functions to examine the features of the various data types. Thse include:
+
+1. class() – what is the data type of the object (high-level)?
+2. typeof() – what is the data type of the object (low-level)?
+3. length() – how long is the object?
+4. attributes() – any metadata available?
+
+Let's look at how these functions work with a few examples
+
+```{r}
+a <- 45.84
+b <- 858L
+c <- TRUE
+d <- 89 + 34i
+e <- 'abc'
+```
+
+```{r}
+typeof(a)
+typeof(b)
+typeof(c)
+typeof(d)
+typeof(e)
+```
+
+```{r}
+class(a)
+class(b)
+class(c)
+class(d)
+class(e)
+```
+
+To test whether the variable is of a specific type, we can use the is.___() functions.
+
+First, we test the variable `a` which is numeric.
+
+```{r}
+is.numeric(a)
+is.integer(a)
+is.logical(a)
+is.character(a)
+```
+
+Second, we test the variable `c` which is logical.
+
+```{r}
+is.numeric(c)
+is.integer(c)
+is.logical(c)
+is.character(c)
+```
+
+To convert between data types we can use the as.___() functions.
+These include: as.Date(), as.numeric(), and as.POSIXct(). Additionally, other helpful functions include: factor() and nchar().
+
+Examples
+```{r}
+as.integer(a)
+as.logical(0)
+as.logical(1)
+nchar(e)
+```

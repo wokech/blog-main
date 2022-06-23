@@ -9,9 +9,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Blog posts",
+    "title": "About",
     "section": "",
-    "text": "All Blog Posts\n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nThe Basics of R and RStudio\n\n\nPart 2: Variables\n\n\n\n\nRStudio\n\n\nR\n\n\nTutorial\n\n\nBlog\n\n\n\n\n\n\n\n\n\n\n\nJun 22, 2022\n\n\nWilliam Okech\n\n\n\n\n\n\n  \n\n\n\n\nThe Basics of R and RStudio\n\n\nPart 1: Simple Arithmetic\n\n\n\n\nRStudio\n\n\nR\n\n\nTutorial\n\n\nBlog\n\n\n\n\n\n\n\n\n\n\n\nJun 15, 2022\n\n\nWilliam Okech\n\n\n\n\n\n\n  \n\n\n\n\nGetting started with R and RStudio\n\n\nSoftware Installation\n\n\n\n\nRStudio\n\n\nR\n\n\nTutorial\n\n\nBlog\n\n\n\n\n\n\n\n\n\n\n\nJun 8, 2022\n\n\nWilliam Okech\n\n\n\n\n\n\nNo matching items"
+    "text": "Hello! My name is William Okech, and I am a research scientist from Kenya.\nMy PhD is in Biomedical Engineering, and I’m interested in data visualization and developing interactive dashboards using R/RStudio.\nAdditionally, I’m a Carpentry Instructor and I intend to use this blog to introduce readers to the basics of data analysis using R/RStudio."
   },
   {
     "objectID": "posts/blog_post_1/index.html",
@@ -25,12 +25,12 @@
     "href": "blog.html",
     "title": "Blog posts",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\n\nThis blog post introduces readers to the basics of R and RStudio.\n\n\n\n\nRStudio\n\n\nR\n\n\nTutorial\n\n\nBlog\n\n\n\n\n\n\n\n\n\n\n\nJun 8, 2022\n\n\nWilliam Okech\n\n\n\n\n\n\nNo matching items"
+    "text": "All Blog Posts\n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Basics of R and RStudio\n\n\nPart 3: Data Types\n\n\n\n\nRStudio\n\n\nR\n\n\nTutorial\n\n\nBlog\n\n\n\n\n\n\n\n\n\n\n\nJun 23, 2022\n\n\nWilliam Okech\n\n\n\n\n\n\n  \n\n\n\n\nThe Basics of R and RStudio\n\n\nPart 2: Variables\n\n\n\n\nRStudio\n\n\nR\n\n\nTutorial\n\n\nBlog\n\n\n\n\n\n\n\n\n\n\n\nJun 22, 2022\n\n\nWilliam Okech\n\n\n\n\n\n\n  \n\n\n\n\nThe Basics of R and RStudio\n\n\nPart 1: Simple Arithmetic\n\n\n\n\nRStudio\n\n\nR\n\n\nTutorial\n\n\nBlog\n\n\n\n\n\n\n\n\n\n\n\nJun 15, 2022\n\n\nWilliam Okech\n\n\n\n\n\n\n  \n\n\n\n\nGetting Started with R and RStudio\n\n\nSoftware Installation\n\n\n\n\nRStudio\n\n\nR\n\n\nTutorial\n\n\nBlog\n\n\n\n\n\n\n\n\n\n\n\nJun 8, 2022\n\n\nWilliam Okech\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/series_1/new_post_1/post_1.html",
     "href": "posts/series_1/new_post_1/post_1.html",
-    "title": "Getting started with R and RStudio",
+    "title": "Getting Started with R and RStudio",
     "section": "",
     "text": "Footnotes\n\n\nSummary of the benefits of R and RStudio obtained from Lander, J. P. (2017). R for everyone: Advanced analytics and graphics. Addison-Wesley.↩︎"
   },
@@ -58,9 +58,9 @@
   {
     "objectID": "series_1.html",
     "href": "series_1.html",
-    "title": "R and RStudio Basics Series",
+    "title": "R and RStudio: Getting Started and The Basics",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\nPart 2: Variables\n\n\n\n\nRStudio\n\n\nR\n\n\nTutorial\n\n\nBlog\n\n\n\n\n\n\n\n\n\n\n\nJun 22, 2022\n\n\n1 min\n\n\n\n\n\n\n\n\n\nPart 1: Simple Arithmetic\n\n\n\n\nRStudio\n\n\nR\n\n\nTutorial\n\n\nBlog\n\n\n\n\n\n\n\n\n\n\n\nJun 15, 2022\n\n\n2 min\n\n\n\n\n\n\n\n\n\nSoftware Installation\n\n\n\n\nRStudio\n\n\nR\n\n\nTutorial\n\n\nBlog\n\n\n\n\n\n\n\n\n\n\n\nJun 8, 2022\n\n\n3 min\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\nSoftware Installation\n\n\n\n\nRStudio\n\n\nR\n\n\nTutorial\n\n\nBlog\n\n\n\n\n\n\n\n\n\n\n\nJun 8, 2022\n\n\n3 min\n\n\n\n\n\n\n\n\n\nPart 1: Simple Arithmetic\n\n\n\n\nRStudio\n\n\nR\n\n\nTutorial\n\n\nBlog\n\n\n\n\n\n\n\n\n\n\n\nJun 15, 2022\n\n\n2 min\n\n\n\n\n\n\n\n\n\nPart 2: Variables\n\n\n\n\nRStudio\n\n\nR\n\n\nTutorial\n\n\nBlog\n\n\n\n\n\n\n\n\n\n\n\nJun 22, 2022\n\n\n1 min\n\n\n\n\n\n\n\n\n\nPart 3: Data Types\n\n\n\n\nRStudio\n\n\nR\n\n\nTutorial\n\n\nBlog\n\n\n\n\n\n\n\n\n\n\n\nJun 23, 2022\n\n\n5 min\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/series_1/new_post_2/post_2.html",
@@ -117,5 +117,26 @@
     "title": "The Basics of R and RStudio",
     "section": "Examples of valid and invalid names",
     "text": "Examples of valid and invalid names\nValid names: time_24_hr or .time24_hr\nInvalid names: _24_hr.time or 24_hr_time or .24_hr_time"
+  },
+  {
+    "objectID": "posts/series_1/new_post_4/post_4.html",
+    "href": "posts/series_1/new_post_4/post_4.html",
+    "title": "The Basics of R and RStudio",
+    "section": "",
+    "text": "R and RStudio utilize very many data types to store different kinds of data. The most common data types in R are listed below.\n\n\n\n\n\n\n\nData Type\nDescription\n\n\n\n\nNumeric\nThe most common data type. The values can be numbers or decimals (all real numbers).\n\n\nInteger\nSpecial case of numeric data without decimals.\n\n\nLogical\nBoolean data type with only 2 values.\n\n\nComplex\nSpecifies imaginary values in R.\n\n\nCharacter\nAssigns a character or string to a variable. The character variables are enclosed in single quotes (‘character’) while the string variables are enclosed in double quotes (“string”).\n\n\nFactor\nSpecial type of character variable that represents a categorical such as gender.\n\n\nRaw\nSpecifies values as raw bytes. It uses built-in functions to convert between raw and character (charToRaw() or rawToChar()).\n\n\nDates\nSpecifies the date variable. Date stores a date and POSIXct stores a date and time. The output is indicated as the number of days (Date) or number of seconds (POSIXct) since 01/01/1970."
+  },
+  {
+    "objectID": "posts/series_1/new_post_4/post_4.html#data-type-examples",
+    "href": "posts/series_1/new_post_4/post_4.html#data-type-examples",
+    "title": "The Basics of R and RStudio",
+    "section": "Data Type Examples",
+    "text": "Data Type Examples\nNumeric\n\n89.98\n\n[1] 89.98\n\n55\n\n[1] 55\n\n\nInteger\n\n5L\n\n[1] 5\n\n5768L\n\n[1] 5768\n\n\nLogical\n\nTRUE\n\n[1] TRUE\n\nFALSE\n\n[1] FALSE\n\n\nComplex\n\n10 + 30i\n\n[1] 10+30i\n\n287 + 34i\n\n[1] 287+34i\n\n\nCharacter/String\n\n'abc'\n\n[1] \"abc\"\n\n\"def\"\n\n[1] \"def\"\n\n\"I like learning R\"\n\n[1] \"I like learning R\"\n\n\nDates (Current time or date on the system)\n\n\"2022-06-23 14:39:21 EAT\"\n\n[1] \"2022-06-23 14:39:21 EAT\"\n\n\"2022-06-23\"\n\n[1] \"2022-06-23\""
+  },
+  {
+    "objectID": "posts/series_1/new_post_4/post_4.html#examining-data-types",
+    "href": "posts/series_1/new_post_4/post_4.html#examining-data-types",
+    "title": "The Basics of R and RStudio",
+    "section": "Examining data types",
+    "text": "Examining data types\nThere exist several functions to examine the features of the various data types. Thse include:\n\nclass() – what is the data type of the object (high-level)?\ntypeof() – what is the data type of the object (low-level)?\nlength() – how long is the object?\nattributes() – any metadata available?\n\nLet’s look at how these functions work with a few examples\n\na <- 45.84\nb <- 858L\nc <- TRUE\nd <- 89 + 34i\ne <- 'abc'\n\n\ntypeof(a)\n\n[1] \"double\"\n\ntypeof(b)\n\n[1] \"integer\"\n\ntypeof(c)\n\n[1] \"logical\"\n\ntypeof(d)\n\n[1] \"complex\"\n\ntypeof(e)\n\n[1] \"character\"\n\n\n\nclass(a)\n\n[1] \"numeric\"\n\nclass(b)\n\n[1] \"integer\"\n\nclass(c)\n\n[1] \"logical\"\n\nclass(d)\n\n[1] \"complex\"\n\nclass(e)\n\n[1] \"character\"\n\n\nTo test whether the variable is of a specific type, we can use the is.___() functions.\nFirst, we test the variable a which is numeric.\n\nis.numeric(a)\n\n[1] TRUE\n\nis.integer(a)\n\n[1] FALSE\n\nis.logical(a)\n\n[1] FALSE\n\nis.character(a)\n\n[1] FALSE\n\n\nSecond, we test the variable c which is logical.\n\nis.numeric(c)\n\n[1] FALSE\n\nis.integer(c)\n\n[1] FALSE\n\nis.logical(c)\n\n[1] TRUE\n\nis.character(c)\n\n[1] FALSE\n\n\nTo convert between data types we can use the as.___() functions. These include: as.Date(), as.numeric(), and as.POSIXct(). Additionally, other helpful functions include: factor() and nchar().\nExamples\n\nas.integer(a)\n\n[1] 45\n\nas.logical(0)\n\n[1] FALSE\n\nas.logical(1)\n\n[1] TRUE\n\nnchar(e)\n\n[1] 3"
   }
 ]

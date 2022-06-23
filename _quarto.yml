@@ -5,9 +5,9 @@ website:
   title: "William Okech"
   navbar:
     right:
-      - about.qmd
+      - index.qmd
       - text: Posts
-        href: /
+        file: blog.qmd
       - icon: github
         href: https://github.com/wokech
       - icon: twitter
