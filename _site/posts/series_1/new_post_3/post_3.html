@@ -141,7 +141,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
     <a class="nav-link" href="../../../index.html">About</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../blog.html">Posts</a>
+    <a class="nav-link" href="../../../blog.qmd">Posts</a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/wokech"><i class="bi bi-github" role="img">
@@ -203,9 +203,9 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
    
   <ul>
   <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
-  <li><a href="#the-assign-and-rm-functions" id="toc-the-assign-and-rm-functions" class="nav-link" data-scroll-target="#the-assign-and-rm-functions">The assign() and rm() functions</a></li>
+  <li><a href="#the-assign-and-rm-functions" id="toc-the-assign-and-rm-functions" class="nav-link" data-scroll-target="#the-assign-and-rm-functions">The <code>assign()</code> and <code>rm()</code> functions</a></li>
   <li><a href="#naming-variables" id="toc-naming-variables" class="nav-link" data-scroll-target="#naming-variables">Naming variables</a></li>
-  <li><a href="#examples-of-valid-and-invalid-names" id="toc-examples-of-valid-and-invalid-names" class="nav-link" data-scroll-target="#examples-of-valid-and-invalid-names">Examples of valid and invalid names</a></li>
+  <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary">Summary</a></li>
   </ul>
 </nav>
     </div>
@@ -217,8 +217,11 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 <section id="introduction" class="level2">
 <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
-<p>Variables are instrumental in programming because they are used as “containers” to store data values. To assign a value to a variable, we can use <code>&lt;−</code> or <code>=</code>. However, most R users prefer to <code>&lt;−</code>.</p>
+<p>Variables are instrumental in programming because they are used as “containers” to store data values. To assign a value to a variable, we can use <code>&lt;−</code> or <code>=</code>. However, most R users prefer to use <code>&lt;−</code>.</p>
 <p>Examples of variable assignment</p>
+<ol type="1">
+<li>Using <code>&lt;-</code></li>
+</ol>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>variable_1 <span class="ot">&lt;-</span> <span class="dv">5</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>variable_1</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -226,6 +229,9 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <pre><code>[1] 5</code></pre>
 </div>
 </div>
+<ol start="2" type="1">
+<li>Using <code>=</code></li>
+</ol>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>variable_2 <span class="ot">=</span> <span class="dv">10</span></span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>variable_2</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -233,6 +239,9 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <pre><code>[1] 10</code></pre>
 </div>
 </div>
+<ol start="3" type="1">
+<li>Reverse the value and variable with <code>-&gt;</code></li>
+</ol>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="dv">15</span> <span class="ot">-&gt;</span> variable_3</span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>variable_3</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -240,6 +249,9 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <pre><code>[1] 15</code></pre>
 </div>
 </div>
+<ol start="4" type="1">
+<li>Assign two variables to one value</li>
+</ol>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>variable_4 <span class="ot">&lt;-</span> variable_5 <span class="ot">&lt;-</span> <span class="dv">30</span></span>
 <span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>variable_4</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -254,10 +266,10 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>The output of the variable can then be obtained by:</p>
 <ol type="1">
 <li>Typing the variable name and then pressing “Enter,”</li>
-<li>Typing “print” with the variable name in brackets, print(variable), and</li>
-<li>Type “View” with the variable name in brackets, View(variable).</li>
+<li>Typing “print” with the variable name in brackets, <code>print(variable)</code>, and</li>
+<li>Typing “View” with the variable name in brackets, <code>View(variable)</code>.</li>
 </ol>
-<p>Both print() and View() are some of the many built-in functions<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> available in R.</p>
+<p>Both <code>print()</code> and <code>View()</code> are some of the many built-in functions<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> available in R.</p>
 <p>In RStudio, the list of variables that have been loaded can be viewed in the environment pane.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -274,11 +286,11 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div class="cell">
 <div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="fu">View</span>(variable_2)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<p>Output of view will be seen in the text editor</p>
+<p>Output of <code>View()</code> will be seen in the script pane</p>
 </section>
 <section id="the-assign-and-rm-functions" class="level2">
-<h2 class="anchored" data-anchor-id="the-assign-and-rm-functions">The assign() and rm() functions</h2>
-<p>In addition to using the assignment operators, we can use the assign() function to assign a value to a variable.</p>
+<h2 class="anchored" data-anchor-id="the-assign-and-rm-functions">The <code>assign()</code> and <code>rm()</code> functions</h2>
+<p>In addition to using the assignment operators (<code>&lt;-</code> and <code>=</code>), we can use the <code>assign()</code> function to assign a value to a variable.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="fu">assign</span>(<span class="st">"variable_6"</span>, <span class="dv">555</span>)</span>
 <span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>variable_6</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -286,29 +298,31 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <pre><code>[1] 555</code></pre>
 </div>
 </div>
-<p>To remove the assignment of the value to the variable, either delete the variable in the “environment pane” or use the rm() function.</p>
+<p>To remove the assignment of the value to the variable, either delete the variable in the “environment pane” or use the <code>rm()</code> function.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>variable_7 <span class="ot">&lt;-</span> <span class="dv">159</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="fu">rm</span>(variable_7)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<p>View the environment pane to confirm whether <code>variable_7</code> has been removed.</p>
+<p>After running <code>rm()</code> look at the environment pane to confirm whether <code>variable_7</code> has been removed.</p>
 </section>
 <section id="naming-variables" class="level2">
 <h2 class="anchored" data-anchor-id="naming-variables">Naming variables</h2>
-<p>You may be wondering what rules are used for naming variables. First, we need to give the variables meaningful names such as current_temp, time_24_hr, or weight_lbs. However, we need to be mindful of the (variable style guide) which provides us with the appropriate conventions for naming variables.</p>
+<p>At this point, you may be wondering what conventions are used for naming variables. First, variables need to have meaningful names such as current_temp, time_24_hr, or weight_lbs. However, we need to be mindful of the <a href="https://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html">variable</a> <a href="http://adv-r.had.co.nz/Style.html">style guide</a> which provides us with the appropriate rules for naming variables.</p>
 <p>Some rules to keep in mind are:</p>
 <ol type="1">
-<li>R is case-sensitive (variable is not the same as Variable),</li>
-<li>Names similar to typical outputs or functions (TRUE, FALSE, if, or else) cannot be used,</li>
+<li>R is case-sensitive (<code>variable</code> is not the same as <code>Variable</code>),</li>
+<li>Names similar to typical outputs or functions (<code>TRUE</code>, <code>FALSE</code>, <code>if</code>, or <code>else</code>) cannot be used,</li>
 <li>Appropriate variable names can contain letters, numbers, dots, and underscores. However, you cannot start with an underscore, number, or dot followed by a number.</li>
 </ol>
+<p><strong>Examples of valid and invalid names</strong></p>
+<p>Valid names = time_24_hr / .time24_hr</p>
+<p>Invalid names = _24_hr.time / 24_hr_time / .24_hr_time</p>
 </section>
-<section id="examples-of-valid-and-invalid-names" class="level2">
-<h2 class="anchored" data-anchor-id="examples-of-valid-and-invalid-names">Examples of valid and invalid names</h2>
-<p>Valid names: time_24_hr or .time24_hr</p>
-<p>Invalid names: _24_hr.time or 24_hr_time or .24_hr_time</p>
+<section id="summary" class="level2">
+<h2 class="anchored" data-anchor-id="summary">Summary</h2>
+<p>Overall, variables are very useful for programming in R/RStudio. These variables need to be named appropriately according to accepted conventions.</p>
 
 
 </section>

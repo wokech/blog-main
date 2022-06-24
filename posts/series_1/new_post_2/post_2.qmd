@@ -11,7 +11,7 @@ draft: false
 
 ## Introduction
 
-This is the first in a series of blog posts looking at the basics of R and RStudio.These programs allow us to perform various basic and complex calculations. To get started, first, we will open R or RStudio. In R, go to the console, and in RStudio, head to the console pane. Next, type in a basic arithmetic calculation such as "1 + 1" after the angle bracket (\>) and hit "Enter."
+This is the first in a series of blog posts looking at the basics of R and RStudio. These programs allow us to perform various basic and complex calculations. To get started, first, we will open R or RStudio. In R, go to the console, and in RStudio, head to the console pane. Next, type in a basic arithmetic calculation such as "1 + 1" after the angle bracket (\>) and hit "Enter."
 
 An example of a basic calculation:
 
@@ -23,9 +23,9 @@ The output will be observed next to the square bracket containing the number 1 (
 
 ![](r_console_1plus1.png){fig-align="center" width="90%"}
 
-## What arithmetic operators are used in R?
+## What arithmetic operators are available in R/RStudio?
 
-Various arithmetic operators can be used in R. These operators include:
+Various arithmetic operators (listed below) can be used in R/RStudio.
 
 | Arithmetic Operator |            Description             |
 |:-------------------:|:----------------------------------:|
@@ -89,4 +89,4 @@ Slightly more complex arithmetic operations
 
 ## Summary
 
-After going through this post, I hope that you can now perform simple arithmetic calculations in R.
+After going through this post, I hope that you can now perform simple arithmetic calculations in R/RStudio.

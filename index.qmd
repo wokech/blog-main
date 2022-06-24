@@ -1,28 +1,24 @@
 ---
-title: "About"
-image: william_profile.jpg
-about:
-  template: jolla
-  links:
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com/willyokech
-    - icon: linkedin
-      text: LinkedIn
-      href: https://www.linkedin.com/in/williamokech/
-    - icon: github
-      text: Github
-      href: https://github.com/wokech
-    - icon: envelope
-      text: Email
-      href: mailto:willyokech@gmail.com
+title: "Blog posts"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: true
+  filter-ui: true
+page-layout: full
+title-block-banner: false
 comments: false
 ---
 
-::: {#hero-heading}
-Hello! My name is William Okech, and I am a research scientist from Kenya.
+::: {.column width="80%"}
+# Series
 
-My PhD is in Biomedical Engineering, and I'm interested in data visualization and developing interactive dashboards using R/RStudio.
-
-Additionally, I'm a [Carpentry Instructor](https://carpentries.org/instructors/) and I intend to use this blog to introduce readers to the basics of data analysis using R/RStudio.
+-   [R and RStudio: Getting Started and The Basics](series_1.html)
 :::
+
+::: {.column width="20%"}
+:::
+
+# All Blog Posts

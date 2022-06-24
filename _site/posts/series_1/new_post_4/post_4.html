@@ -138,10 +138,10 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../../index.html">About</a>
+    <a class="nav-link" href="../../../about.html">About</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../blog.html">Posts</a>
+    <a class="nav-link" href="../../../">Posts</a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/wokech"><i class="bi bi-github" role="img">
@@ -219,8 +219,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>R and RStudio utilize very many data types to store different kinds of data. The most common data types in R are listed below.</p>
 <table class="table">
 <colgroup>
-<col style="width: 33%">
-<col style="width: 66%">
+<col style="width: 36%">
+<col style="width: 63%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -239,7 +239,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </tr>
 <tr class="odd">
 <td>Logical</td>
-<td>Boolean data type with only 2 values.</td>
+<td>Boolean data type with only 2 values (<code>TRUE</code> or <code>FALSE</code>).</td>
 </tr>
 <tr class="even">
 <td>Complex</td>
@@ -310,7 +310,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <pre><code>[1] 287+34i</code></pre>
 </div>
 </div>
-<p><strong>Character/String</strong></p>
+<p><strong>Character or String</strong></p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="st">'abc'</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -325,7 +325,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <pre><code>[1] "I like learning R"</code></pre>
 </div>
 </div>
-<p><strong>Dates (Current time or date on the system)</strong></p>
+<p><strong>Dates</strong></p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb23"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="st">"2022-06-23 14:39:21 EAT"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -339,12 +339,12 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </section>
 <section id="examining-data-types" class="level2">
 <h2 class="anchored" data-anchor-id="examining-data-types">Examining data types</h2>
-<p>There exist several functions to examine the features of the various data types. Thse include:</p>
+<p>Several functions exist to examine the features of the various data types. These include:</p>
 <ol type="1">
-<li>class() – what is the data type of the object (high-level)?</li>
-<li>typeof() – what is the data type of the object (low-level)?</li>
-<li>length() – how long is the object?</li>
-<li>attributes() – any metadata available?</li>
+<li><code>typeof()</code> – what is the data type of the object (low-level)?</li>
+<li><code>class()</code> – what is the data type of the object (high-level)?</li>
+<li><code>length()</code> – how long is the object?</li>
+<li><code>attributes()</code> – any metadata available?</li>
 </ol>
 <p>Let’s look at how these functions work with a few examples</p>
 <div class="cell">
@@ -354,6 +354,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb27-4"><a href="#cb27-4" aria-hidden="true" tabindex="-1"></a>d <span class="ot">&lt;-</span> <span class="dv">89</span> <span class="sc">+</span> 34i</span>
 <span id="cb27-5"><a href="#cb27-5" aria-hidden="true" tabindex="-1"></a>e <span class="ot">&lt;-</span> <span class="st">'abc'</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
+<p>Examine the data type at a low-level with <code>typeof()</code></p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb28"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="fu">typeof</span>(a)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -376,6 +377,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <pre><code>[1] "character"</code></pre>
 </div>
 </div>
+<p>Examine the data type at a high-level with <code>class()</code></p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb38"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a><span class="fu">class</span>(a)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -398,7 +400,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <pre><code>[1] "character"</code></pre>
 </div>
 </div>
-<p>To test whether the variable is of a specific type, we can use the is.___() functions.</p>
+<p>To test whether the variable is of a specific type, we can use the “is.___()” functions.</p>
 <p>First, we test the variable <code>a</code> which is numeric.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb48"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb48-1"><a href="#cb48-1" aria-hidden="true" tabindex="-1"></a><span class="fu">is.numeric</span>(a)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -437,7 +439,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <pre><code>[1] FALSE</code></pre>
 </div>
 </div>
-<p>To convert between data types we can use the as.___() functions. These include: as.Date(), as.numeric(), and as.POSIXct(). Additionally, other helpful functions include: factor() and nchar().</p>
+<p>To convert between data types we can use the “as.___()” functions. These include: as.Date(), as.numeric(), and as.POSIXct(). Additionally, other helpful functions include: factor() and nchar().</p>
 <p>Examples</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb64"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb64-1"><a href="#cb64-1" aria-hidden="true" tabindex="-1"></a><span class="fu">as.integer</span>(a)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>

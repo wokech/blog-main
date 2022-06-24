@@ -9,9 +9,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "About",
+    "title": "Blog posts",
     "section": "",
-    "text": "Hello! My name is William Okech, and I am a research scientist from Kenya.\nMy PhD is in Biomedical Engineering, and I’m interested in data visualization and developing interactive dashboards using R/RStudio.\nAdditionally, I’m a Carpentry Instructor and I intend to use this blog to introduce readers to the basics of data analysis using R/RStudio."
+    "text": "All Blog Posts\n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Basics of R and RStudio\n\n\nPart 3: Data Types\n\n\n\n\nRStudio\n\n\nR\n\n\nTutorial\n\n\nBlog\n\n\n\n\n\n\n\n\n\n\n\nJun 23, 2022\n\n\nWilliam Okech\n\n\n\n\n\n\n  \n\n\n\n\nThe Basics of R and RStudio\n\n\nPart 2: Variables\n\n\n\n\nRStudio\n\n\nR\n\n\nTutorial\n\n\nBlog\n\n\n\n\n\n\n\n\n\n\n\nJun 22, 2022\n\n\nWilliam Okech\n\n\n\n\n\n\n  \n\n\n\n\nThe Basics of R and RStudio\n\n\nPart 1: Simple Arithmetic\n\n\n\n\nRStudio\n\n\nR\n\n\nTutorial\n\n\nBlog\n\n\n\n\n\n\n\n\n\n\n\nJun 15, 2022\n\n\nWilliam Okech\n\n\n\n\n\n\n  \n\n\n\n\nGetting Started with R and RStudio\n\n\nSoftware Installation\n\n\n\n\nRStudio\n\n\nR\n\n\nTutorial\n\n\nBlog\n\n\n\n\n\n\n\n\n\n\n\nJun 8, 2022\n\n\nWilliam Okech\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/blog_post_1/index.html",
@@ -60,28 +60,28 @@
     "href": "series_1.html",
     "title": "R and RStudio: Getting Started and The Basics",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\nSoftware Installation\n\n\n\n\nRStudio\n\n\nR\n\n\nTutorial\n\n\nBlog\n\n\n\n\n\n\n\n\n\n\n\nJun 8, 2022\n\n\n3 min\n\n\n\n\n\n\n\n\n\nPart 1: Simple Arithmetic\n\n\n\n\nRStudio\n\n\nR\n\n\nTutorial\n\n\nBlog\n\n\n\n\n\n\n\n\n\n\n\nJun 15, 2022\n\n\n2 min\n\n\n\n\n\n\n\n\n\nPart 2: Variables\n\n\n\n\nRStudio\n\n\nR\n\n\nTutorial\n\n\nBlog\n\n\n\n\n\n\n\n\n\n\n\nJun 22, 2022\n\n\n1 min\n\n\n\n\n\n\n\n\n\nPart 3: Data Types\n\n\n\n\nRStudio\n\n\nR\n\n\nTutorial\n\n\nBlog\n\n\n\n\n\n\n\n\n\n\n\nJun 23, 2022\n\n\n5 min\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\nSoftware Installation\n\n\n\n\nRStudio\n\n\nR\n\n\nTutorial\n\n\nBlog\n\n\n\n\n\n\n\n\n\n\n\nJun 8, 2022\n\n\n3 min\n\n\n\n\n\n\n\n\n\nPart 1: Simple Arithmetic\n\n\n\n\nRStudio\n\n\nR\n\n\nTutorial\n\n\nBlog\n\n\n\n\n\n\n\n\n\n\n\nJun 15, 2022\n\n\n2 min\n\n\n\n\n\n\n\n\n\nPart 2: Variables\n\n\n\n\nRStudio\n\n\nR\n\n\nTutorial\n\n\nBlog\n\n\n\n\n\n\n\n\n\n\n\nJun 22, 2022\n\n\n1 min\n\n\n\n\n\n\n\n\n\nPart 3: Data Types\n\n\n\n\nRStudio\n\n\nR\n\n\nTutorial\n\n\nBlog\n\n\n\n\n\n\n\n\n\n\n\nJun 23, 2022\n\n\n6 min\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/series_1/new_post_2/post_2.html",
     "href": "posts/series_1/new_post_2/post_2.html",
     "title": "The Basics of R and RStudio",
     "section": "",
-    "text": "This is the first in a series of blog posts looking at the basics of R and RStudio.These programs allow us to perform various basic and complex calculations. To get started, first, we will open R or RStudio. In R, go to the console, and in RStudio, head to the console pane. Next, type in a basic arithmetic calculation such as “1 + 1” after the angle bracket (>) and hit “Enter.”\nAn example of a basic calculation:\n\n1+1\n\n[1] 2\n\n\nThe output will be observed next to the square bracket containing the number 1 ([1])."
+    "text": "This is the first in a series of blog posts looking at the basics of R and RStudio. These programs allow us to perform various basic and complex calculations. To get started, first, we will open R or RStudio. In R, go to the console, and in RStudio, head to the console pane. Next, type in a basic arithmetic calculation such as “1 + 1” after the angle bracket (>) and hit “Enter.”\nAn example of a basic calculation:\n\n1+1\n\n[1] 2\n\n\nThe output will be observed next to the square bracket containing the number 1 ([1])."
   },
   {
     "objectID": "posts/series_1/new_post_3/post_3.html",
     "href": "posts/series_1/new_post_3/post_3.html",
     "title": "The Basics of R and RStudio",
     "section": "",
-    "text": "Variables are instrumental in programming because they are used as “containers” to store data values. To assign a value to a variable, we can use <− or =. However, most R users prefer to <−.\nExamples of variable assignment\n\nvariable_1 <- 5\nvariable_1\n\n[1] 5\n\n\n\nvariable_2 = 10\nvariable_2\n\n[1] 10\n\n\n\n15 -> variable_3\nvariable_3\n\n[1] 15\n\n\n\nvariable_4 <- variable_5 <- 30\nvariable_4\n\n[1] 30\n\nvariable_5\n\n[1] 30\n\n\nThe output of the variable can then be obtained by:\n\nTyping the variable name and then pressing “Enter,”\nTyping “print” with the variable name in brackets, print(variable), and\nType “View” with the variable name in brackets, View(variable).\n\nBoth print() and View() are some of the many built-in functions1 available in R.\nIn RStudio, the list of variables that have been loaded can be viewed in the environment pane.\n\n\n\n\n\nA screenshot of the environment pane with the stored variables.\n\nprint(variable_1)\n\n[1] 5\n\n\n\nView(variable_2)\n\nOutput of view will be seen in the text editor"
+    "text": "Variables are instrumental in programming because they are used as “containers” to store data values. To assign a value to a variable, we can use <− or =. However, most R users prefer to use <−.\nExamples of variable assignment\n\nUsing <-\n\n\nvariable_1 <- 5\nvariable_1\n\n[1] 5\n\n\n\nUsing =\n\n\nvariable_2 = 10\nvariable_2\n\n[1] 10\n\n\n\nReverse the value and variable with ->\n\n\n15 -> variable_3\nvariable_3\n\n[1] 15\n\n\n\nAssign two variables to one value\n\n\nvariable_4 <- variable_5 <- 30\nvariable_4\n\n[1] 30\n\nvariable_5\n\n[1] 30\n\n\nThe output of the variable can then be obtained by:\n\nTyping the variable name and then pressing “Enter,”\nTyping “print” with the variable name in brackets, print(variable), and\nTyping “View” with the variable name in brackets, View(variable).\n\nBoth print() and View() are some of the many built-in functions1 available in R.\nIn RStudio, the list of variables that have been loaded can be viewed in the environment pane.\n\n\n\n\n\nA screenshot of the environment pane with the stored variables.\n\nprint(variable_1)\n\n[1] 5\n\n\n\nView(variable_2)\n\nOutput of View() will be seen in the script pane"
   },
   {
     "objectID": "posts/series_1/new_post_3/post_3.html#the-assign-and-rm-functions",
     "href": "posts/series_1/new_post_3/post_3.html#the-assign-and-rm-functions",
     "title": "The Basics of R and RStudio",
     "section": "The assign() and rm() functions",
-    "text": "The assign() and rm() functions\nIn addition to using the assignment operators, we can use the assign() function to assign a value to a variable.\n\nassign(\"variable_6\", 555)\nvariable_6\n\n[1] 555\n\n\nTo remove the assignment of the value to the variable, either delete the variable in the “environment pane” or use the rm() function.\n\nvariable_7 <- 159\n\n\nrm(variable_7)\n\nView the environment pane to confirm whether variable_7 has been removed."
+    "text": "The assign() and rm() functions\nIn addition to using the assignment operators (<- and =), we can use the assign() function to assign a value to a variable.\n\nassign(\"variable_6\", 555)\nvariable_6\n\n[1] 555\n\n\nTo remove the assignment of the value to the variable, either delete the variable in the “environment pane” or use the rm() function.\n\nvariable_7 <- 159\n\n\nrm(variable_7)\n\nAfter running rm() look at the environment pane to confirm whether variable_7 has been removed."
   },
   {
     "objectID": "posts/series_1/new_post_2/post_2.html#what-arithmetic-operators-are-used-in-r",
@@ -102,41 +102,55 @@
     "href": "posts/series_1/new_post_2/post_2.html#summary",
     "title": "The Basics of R and RStudio",
     "section": "Summary",
-    "text": "Summary\nAfter going through this post, I hope that you can now perform simple arithmetic calculations in R."
+    "text": "Summary\nAfter going through this post, I hope that you can now perform simple arithmetic calculations in R/RStudio."
   },
   {
     "objectID": "posts/series_1/new_post_3/post_3.html#naming-variables",
     "href": "posts/series_1/new_post_3/post_3.html#naming-variables",
     "title": "The Basics of R and RStudio",
     "section": "Naming variables",
-    "text": "Naming variables\nYou may be wondering what rules are used for naming variables. First, we need to give the variables meaningful names such as current_temp, time_24_hr, or weight_lbs. However, we need to be mindful of the (variable style guide) which provides us with the appropriate conventions for naming variables.\nSome rules to keep in mind are:\n\nR is case-sensitive (variable is not the same as Variable),\nNames similar to typical outputs or functions (TRUE, FALSE, if, or else) cannot be used,\nAppropriate variable names can contain letters, numbers, dots, and underscores. However, you cannot start with an underscore, number, or dot followed by a number."
+    "text": "Naming variables\nAt this point, you may be wondering what conventions are used for naming variables. First, variables need to have meaningful names such as current_temp, time_24_hr, or weight_lbs. However, we need to be mindful of the variable style guide which provides us with the appropriate rules for naming variables.\nSome rules to keep in mind are:\n\nR is case-sensitive (variable is not the same as Variable),\nNames similar to typical outputs or functions (TRUE, FALSE, if, or else) cannot be used,\nAppropriate variable names can contain letters, numbers, dots, and underscores. However, you cannot start with an underscore, number, or dot followed by a number.\n\nExamples of valid and invalid names\nValid names = time_24_hr / .time24_hr\nInvalid names = _24_hr.time / 24_hr_time / .24_hr_time"
   },
   {
     "objectID": "posts/series_1/new_post_3/post_3.html#examples-of-valid-and-invalid-names",
     "href": "posts/series_1/new_post_3/post_3.html#examples-of-valid-and-invalid-names",
     "title": "The Basics of R and RStudio",
     "section": "Examples of valid and invalid names",
-    "text": "Examples of valid and invalid names\nValid names: time_24_hr or .time24_hr\nInvalid names: _24_hr.time or 24_hr_time or .24_hr_time"
+    "text": "Examples of valid and invalid names\nValid names\n\ntime_24_hr\n.time24_hr\n\nInvalid names\n\n_24_hr.time\n24_hr_time\n.24_hr_time"
   },
   {
     "objectID": "posts/series_1/new_post_4/post_4.html",
     "href": "posts/series_1/new_post_4/post_4.html",
     "title": "The Basics of R and RStudio",
     "section": "",
-    "text": "R and RStudio utilize very many data types to store different kinds of data. The most common data types in R are listed below.\n\n\n\n\n\n\n\nData Type\nDescription\n\n\n\n\nNumeric\nThe most common data type. The values can be numbers or decimals (all real numbers).\n\n\nInteger\nSpecial case of numeric data without decimals.\n\n\nLogical\nBoolean data type with only 2 values.\n\n\nComplex\nSpecifies imaginary values in R.\n\n\nCharacter\nAssigns a character or string to a variable. The character variables are enclosed in single quotes (‘character’) while the string variables are enclosed in double quotes (“string”).\n\n\nFactor\nSpecial type of character variable that represents a categorical such as gender.\n\n\nRaw\nSpecifies values as raw bytes. It uses built-in functions to convert between raw and character (charToRaw() or rawToChar()).\n\n\nDates\nSpecifies the date variable. Date stores a date and POSIXct stores a date and time. The output is indicated as the number of days (Date) or number of seconds (POSIXct) since 01/01/1970."
+    "text": "R and RStudio utilize very many data types to store different kinds of data. The most common data types in R are listed below.\n\n\n\n\n\n\n\nData Type\nDescription\n\n\n\n\nNumeric\nThe most common data type. The values can be numbers or decimals (all real numbers).\n\n\nInteger\nSpecial case of numeric data without decimals.\n\n\nLogical\nBoolean data type with only 2 values (TRUE or FALSE).\n\n\nComplex\nSpecifies imaginary values in R.\n\n\nCharacter\nAssigns a character or string to a variable. The character variables are enclosed in single quotes (‘character’) while the string variables are enclosed in double quotes (“string”).\n\n\nFactor\nSpecial type of character variable that represents a categorical such as gender.\n\n\nRaw\nSpecifies values as raw bytes. It uses built-in functions to convert between raw and character (charToRaw() or rawToChar()).\n\n\nDates\nSpecifies the date variable. Date stores a date and POSIXct stores a date and time. The output is indicated as the number of days (Date) or number of seconds (POSIXct) since 01/01/1970."
   },
   {
     "objectID": "posts/series_1/new_post_4/post_4.html#data-type-examples",
     "href": "posts/series_1/new_post_4/post_4.html#data-type-examples",
     "title": "The Basics of R and RStudio",
     "section": "Data Type Examples",
-    "text": "Data Type Examples\nNumeric\n\n89.98\n\n[1] 89.98\n\n55\n\n[1] 55\n\n\nInteger\n\n5L\n\n[1] 5\n\n5768L\n\n[1] 5768\n\n\nLogical\n\nTRUE\n\n[1] TRUE\n\nFALSE\n\n[1] FALSE\n\n\nComplex\n\n10 + 30i\n\n[1] 10+30i\n\n287 + 34i\n\n[1] 287+34i\n\n\nCharacter/String\n\n'abc'\n\n[1] \"abc\"\n\n\"def\"\n\n[1] \"def\"\n\n\"I like learning R\"\n\n[1] \"I like learning R\"\n\n\nDates (Current time or date on the system)\n\n\"2022-06-23 14:39:21 EAT\"\n\n[1] \"2022-06-23 14:39:21 EAT\"\n\n\"2022-06-23\"\n\n[1] \"2022-06-23\""
+    "text": "Data Type Examples\nNumeric\n\n89.98\n\n[1] 89.98\n\n55\n\n[1] 55\n\n\nInteger\n\n5L\n\n[1] 5\n\n5768L\n\n[1] 5768\n\n\nLogical\n\nTRUE\n\n[1] TRUE\n\nFALSE\n\n[1] FALSE\n\n\nComplex\n\n10 + 30i\n\n[1] 10+30i\n\n287 + 34i\n\n[1] 287+34i\n\n\nCharacter or String\n\n'abc'\n\n[1] \"abc\"\n\n\"def\"\n\n[1] \"def\"\n\n\"I like learning R\"\n\n[1] \"I like learning R\"\n\n\nDates\n\n\"2022-06-23 14:39:21 EAT\"\n\n[1] \"2022-06-23 14:39:21 EAT\"\n\n\"2022-06-23\"\n\n[1] \"2022-06-23\""
   },
   {
     "objectID": "posts/series_1/new_post_4/post_4.html#examining-data-types",
     "href": "posts/series_1/new_post_4/post_4.html#examining-data-types",
     "title": "The Basics of R and RStudio",
     "section": "Examining data types",
-    "text": "Examining data types\nThere exist several functions to examine the features of the various data types. Thse include:\n\nclass() – what is the data type of the object (high-level)?\ntypeof() – what is the data type of the object (low-level)?\nlength() – how long is the object?\nattributes() – any metadata available?\n\nLet’s look at how these functions work with a few examples\n\na <- 45.84\nb <- 858L\nc <- TRUE\nd <- 89 + 34i\ne <- 'abc'\n\n\ntypeof(a)\n\n[1] \"double\"\n\ntypeof(b)\n\n[1] \"integer\"\n\ntypeof(c)\n\n[1] \"logical\"\n\ntypeof(d)\n\n[1] \"complex\"\n\ntypeof(e)\n\n[1] \"character\"\n\n\n\nclass(a)\n\n[1] \"numeric\"\n\nclass(b)\n\n[1] \"integer\"\n\nclass(c)\n\n[1] \"logical\"\n\nclass(d)\n\n[1] \"complex\"\n\nclass(e)\n\n[1] \"character\"\n\n\nTo test whether the variable is of a specific type, we can use the is.___() functions.\nFirst, we test the variable a which is numeric.\n\nis.numeric(a)\n\n[1] TRUE\n\nis.integer(a)\n\n[1] FALSE\n\nis.logical(a)\n\n[1] FALSE\n\nis.character(a)\n\n[1] FALSE\n\n\nSecond, we test the variable c which is logical.\n\nis.numeric(c)\n\n[1] FALSE\n\nis.integer(c)\n\n[1] FALSE\n\nis.logical(c)\n\n[1] TRUE\n\nis.character(c)\n\n[1] FALSE\n\n\nTo convert between data types we can use the as.___() functions. These include: as.Date(), as.numeric(), and as.POSIXct(). Additionally, other helpful functions include: factor() and nchar().\nExamples\n\nas.integer(a)\n\n[1] 45\n\nas.logical(0)\n\n[1] FALSE\n\nas.logical(1)\n\n[1] TRUE\n\nnchar(e)\n\n[1] 3"
+    "text": "Examining data types\nSeveral functions exist to examine the features of the various data types. These include:\n\ntypeof() – what is the data type of the object (low-level)?\nclass() – what is the data type of the object (high-level)?\nlength() – how long is the object?\nattributes() – any metadata available?\n\nLet’s look at how these functions work with a few examples\n\na <- 45.84\nb <- 858L\nc <- TRUE\nd <- 89 + 34i\ne <- 'abc'\n\nExamine the data type at a low-level with typeof()\n\ntypeof(a)\n\n[1] \"double\"\n\ntypeof(b)\n\n[1] \"integer\"\n\ntypeof(c)\n\n[1] \"logical\"\n\ntypeof(d)\n\n[1] \"complex\"\n\ntypeof(e)\n\n[1] \"character\"\n\n\nExamine the data type at a high-level with class()\n\nclass(a)\n\n[1] \"numeric\"\n\nclass(b)\n\n[1] \"integer\"\n\nclass(c)\n\n[1] \"logical\"\n\nclass(d)\n\n[1] \"complex\"\n\nclass(e)\n\n[1] \"character\"\n\n\nTo test whether the variable is of a specific type, we can use the “is.___()” functions.\nFirst, we test the variable a which is numeric.\n\nis.numeric(a)\n\n[1] TRUE\n\nis.integer(a)\n\n[1] FALSE\n\nis.logical(a)\n\n[1] FALSE\n\nis.character(a)\n\n[1] FALSE\n\n\nSecond, we test the variable c which is logical.\n\nis.numeric(c)\n\n[1] FALSE\n\nis.integer(c)\n\n[1] FALSE\n\nis.logical(c)\n\n[1] TRUE\n\nis.character(c)\n\n[1] FALSE\n\n\nTo convert between data types we can use the “as.___()” functions. These include: as.Date(), as.numeric(), and as.POSIXct(). Additionally, other helpful functions include: factor() and nchar().\nExamples\n\nas.integer(a)\n\n[1] 45\n\nas.logical(0)\n\n[1] FALSE\n\nas.logical(1)\n\n[1] TRUE\n\nnchar(e)\n\n[1] 3"
+  },
+  {
+    "objectID": "posts/series_1/new_post_2/post_2.html#what-arithmetic-operators-are-available-in-rrstudio",
+    "href": "posts/series_1/new_post_2/post_2.html#what-arithmetic-operators-are-available-in-rrstudio",
+    "title": "The Basics of R and RStudio",
+    "section": "What arithmetic operators are available in R/RStudio?",
+    "text": "What arithmetic operators are available in R/RStudio?\nVarious arithmetic operators (listed below) can be used in R/RStudio.\n\n\n\nArithmetic Operator\nDescription\n\n\n\n\n+\nAddition\n\n\n-\nSubtraction\n\n\n*\nMultiplication\n\n\n/\nDivision\n\n\n** or ^\nExponentiation\n\n\n%%\nModulus (remainder after division)\n\n\n%/%\nInteger division"
+  },
+  {
+    "objectID": "posts/series_1/new_post_3/post_3.html#summary",
+    "href": "posts/series_1/new_post_3/post_3.html#summary",
+    "title": "The Basics of R and RStudio",
+    "section": "Summary",
+    "text": "Summary\nOverall, variables are very useful for programming in R/RStudio. These variables need to be named appropriately according to accepted conventions."
   }
 ]
