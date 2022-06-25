@@ -8,6 +8,8 @@ website:
       - about.qmd
       - text: Posts
         file: /
+      - text: Resume
+        file: blog_cv/blog_cv_jun_2022.pdf
       - icon: github
         href: https://github.com/wokech
       - icon: twitter

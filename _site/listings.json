@@ -25,5 +25,9 @@
       "/posts/series_1/new_post_3/post_3.html",
       "/posts/series_1/new_post_4/post_4.html"
     ]
+  },
+  {
+    "listing": "/series_2.html",
+    "items": []
   }
 ]

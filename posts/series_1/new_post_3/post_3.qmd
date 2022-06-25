@@ -105,8 +105,8 @@ Some rules to keep in mind are:
 
 Valid names = time_24_hr / .time24_hr
 
-Invalid names = _24_hr.time / 24_hr_time / .24_hr_time
+Invalid names = \_24_hr.time / 24_hr_time / .24_hr_time
 
 ## Summary
 
-Overall, variables are very useful for programming in R/RStudio. These variables need to be named appropriately according to accepted conventions. 
+Overall, variables are very useful for programming in R/RStudio. These variables need to be named appropriately according to accepted conventions.

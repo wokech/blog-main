@@ -3,7 +3,7 @@ title: "The Basics of R and RStudio"
 subtitle: "Part 3: Data Types"
 author: "William Okech"
 date: "2022-06-23"
-image: ""
+image: "blog_series_pt_4.png"
 categories: [RStudio, R, Tutorial, Blog]
 toc: true
 draft: false
@@ -115,7 +115,7 @@ class(d)
 class(e)
 ```
 
-To test whether the variable is of a specific type, we can use the "is.___()" functions.
+To test whether the variable is of a specific type, we can use the "is.\_\_\_()" functions.
 
 First, we test the variable `a` which is numeric.
 
@@ -135,7 +135,7 @@ is.logical(c)
 is.character(c)
 ```
 
-To convert between data types we can use the "as.___()" functions. These include: `as.Date()`, `as.numeric()`, and `as.factor()`. Additionally, other helpful functions include factor() which adds levels to the data and nchar() which provides the length of the data.
+To convert between data types we can use the "as.\_\_\_()" functions. These include: `as.Date()`, `as.numeric()`, and `as.factor()`. Additionally, other helpful functions include factor() which adds levels to the data and nchar() which provides the length of the data.
 
 Examples
 
@@ -147,4 +147,3 @@ nchar(e)
 ```
 
 ## Summary
-
