@@ -3,7 +3,7 @@ title: "Getting Started with R and RStudio"
 subtitle: "Software Installation"
 author: "William Okech"
 date: "2022-06-08"
-image: "r_and_rstudio.png"
+image: ""
 categories: [RStudio, R, Tutorial, Blog]
 toc: true
 draft: false
