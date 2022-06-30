@@ -23,6 +23,13 @@ The output will be observed next to the square bracket containing the number 1 (
 
 ![](r_console_1plus1.png){fig-align="center" width="90%"}
 
+Additionally, to include comments into the code block we use the hash (#) symbol. Anything written after the code block will be commented out and not run.
+
+```{r}
+# A simple arithmetic calculation (which is not run because of the hash symbol)
+1+1
+```
+
 ## What arithmetic operators are available in R/RStudio?
 
 Various arithmetic operators (listed below) can be used in R/RStudio.
