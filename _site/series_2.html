@@ -67,7 +67,7 @@ ul.task-list{list-style: none;}
     const options = {
       valueNames: ['listing-date','listing-title','listing-reading-time','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: [],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -175,7 +175,50 @@ ul.task-list{list-style: none;}
     </div>
 </div>
 <div class="list quarto-listing-default">
-
+<div class="quarto-post image-right" data-index="0" data-categories="RStudio,R,Data Stories,Blog,Kenya Census" data-listing-date-sort="1656536400000" data-listing-file-modified-sort="1656579505120" data-listing-reading-time-sort="4.085">
+<div class="body">
+<a href="./posts/series_2/new_post_1/post_1.html">
+<h3 class="no-anchor listing-title">
+Kenya Census Insights (Demographics)
+</h3>
+<div class="listing-subtitle">
+Are there more men than women in Kenya?
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('RStudio'); return false;">
+RStudio
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
+R
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Data Stories'); return false;">
+Data Stories
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Blog'); return false;">
+Blog
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Kenya Census'); return false;">
+Kenya Census
+</div>
+</div>
+<a href="./posts/series_2/new_post_1/post_1.html">
+<div class="listing-description">
+To answer this question, I reviewed the Kenya Population and Housing Census (2019)<sup>1</sup><sup>2</sup> report, which provides data on population by sex and age at the county and sub-county levels. This analysis was inspired by Rose Mintzer-Sweeney’s article “Sex and the Census,” published on the Datawrapper website <sup>3</sup>. Various biological, cultural, public health, and economic factors can influence the global human sex ratio. For instance, at birth, the human sex ratio is “male-biased,” with approximately 105 males born per 100 girls. However, with increasing age, the susceptibility to infectious diseases, sex-selective abortions, and higher life expectancies for women can cause fluctuations in the human sex ratio <sup>4</sup>.The total Kenyan population in 2019 (according to the census) was 47,564,296. When I compared the number of males to females at the national level (Figure 1), I found that there were 98 males for every 100 females in the country<sup>5</sup>.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/series_2/new_post_1/post_1.html">
+<div class="listing-date">
+Jun 30, 2022
+</div>
+<div class="listing-reading-time">
+4 min
+</div>
+</a>
+</div>
+</div>
 </div>
 <div class="listing-no-matching d-none">
 No matching items
