@@ -1,25 +1,28 @@
 ---
-title: "Blog posts"
-listing:
-  contents: posts
-  sort: "date desc"
-  type: default
-  categories: true
-  sort-ui: true
-  filter-ui: true
-page-layout: full
-title-block-banner: false
+title: "William Okech"
+image: william_profile.jpg
+about:
+  template: jolla
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/willyokech
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/williamokech/
+    - icon: github
+      text: Github
+      href: https://github.com/wokech
+    - icon: envelope
+      text: Email
+      href: mailto:willyokech@gmail.com
 comments: false
 ---
 
-::: {.column width="80%"}
-# Series
+::: {#hero-heading}
+I am a research scientist and scientific editor from Kenya.
 
-1.  [R and RStudio: Getting Started and The Basics](series_1.html)
-2.  [Data Stories: Insights from the Kenya Census (2019)](series_2.html)
+My PhD is in Biomedical Engineering, and I'm interested in data visualization (R/RStudio) and developing interactive dashboards (Shiny).
+
+Additionally, I'm a [Carpentry Instructor](https://carpentries.org/instructors/) and I intend to use this blog to introduce readers to the basics of data analysis and visualization.
 :::
-
-::: {.column width="20%"}
-:::
-
-# All Blog Posts
