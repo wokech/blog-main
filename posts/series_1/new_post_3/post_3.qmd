@@ -3,7 +3,7 @@ title: "The Basics of R and RStudio"
 subtitle: "Part 2: Variables"
 author: "William Okech"
 date: "2022-06-22"
-image: ""
+image: "r_and_rstudio.png"
 categories: [RStudio, R, Tutorial, Blog]
 toc: true
 draft: false

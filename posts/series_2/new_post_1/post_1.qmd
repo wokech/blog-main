@@ -11,13 +11,15 @@ draft: false
 warning: false
 ---
 
-To answer this question, I reviewed the Kenya Population and Housing Census (2019)[^1][^2] report, which provides data on population by sex and age at the county and sub-county levels. This analysis was inspired by Rose Mintzer-Sweeney's article "Sex and the Census," published on the Datawrapper website [^3]. Various biological, cultural, public health, and economic factors can influence the global human sex ratio. For instance, at birth, the human sex ratio is "male-biased," with approximately 105 males born per 100 girls. However, with increasing age, the susceptibility to infectious diseases, sex-selective abortions, and higher life expectancies for women can cause fluctuations in the human sex ratio [^4].The total Kenyan population in 2019 (according to the census) was 47,564,296. When I compared the number of males to females at the national level (Figure 1), I found that there were 98 males for every 100 females in the country[^5].
+To answer this question, I reviewed the Kenya Population and Housing Census (2019)[^1][^2] report, which provides data on population by sex and age at the county and sub-county levels. This analysis was inspired by Rose Mintzer-Sweeney's article "Sex and the Census," published on the Datawrapper website [^3].
 
 [^1]: Kenya National Bureau of Statistics. The 2019 Kenya Population and Housing Census. Volume I: Population by County and Sub-County and Volume III: Distribution of Population by Age and Sex.
 
 [^2]: Shelmith Kariuki (2020). rKenyaCensus: 2019 Kenya Population and Housing Census Results. R package version 0.0.2.
 
 [^3]: Rose Mintzer-Sweeney's article: https://blog.datawrapper.de/gender-ratio-american-history/
+
+Various biological, cultural, public health, and economic factors can influence the global human sex ratio. For instance, at birth, the human sex ratio is "male-biased," with approximately 105 males born per 100 girls. However, with increasing age, the susceptibility to infectious diseases, sex-selective abortions, and higher life expectancies for women can cause fluctuations in the human sex ratio [^4].The total Kenyan population in 2019 (according to the census) was 47,564,296. When I compared the number of males to females at the national level (Figure 1), I found that there were 98 males for every 100 females in the country[^5].
 
 [^4]: Hannah Ritchie and Max Roser (2019) - "Gender Ratio." Published online at OurWorldInData.org. Retrieved from: 'https://ourworldindata.org/gender-ratio' \[Online Resource\]
 

@@ -59,7 +59,7 @@ geom_line(color = "darkblue", size = 1.5) +
 theme_classic() +
 labs(x = "Age (yrs)",
 y = "Number of males per 100 females",
-title = "Figure 2; The human sex ratio as a function of age",
+title = "Figure 2: The human sex ratio as a function of age",
 caption = "Visualization: @willyokech | Source: rKenyaCensus") +
 theme(axis.title.x =element_text(size = 14),
 axis.title.y =element_text(size = 14, vjust = 2),
@@ -103,8 +103,8 @@ library(sf) # simple features
 library(tmap)
 #install.packages("leaflet") # Used for creating interactive maps
 library(leaflet)
-# Load the shapefiles that are downloaded from online source
-KenyaSHP <- read_sf("kenyan-counties/County.shp", quiet = TRUE, stringsAsFactors = FALSE,as_tibble = TRUE)
+# Load the shapefiles that are downloaded from downloaded file
+KenyaSHP <- read_sf("posts/series_2/new_post_1/kenyan-counties/County.shp", quiet = TRUE, stringsAsFactors = FALSE,as_tibble = TRUE)
 # Change the projection of the shapefiles (if necessary)
 KenyaSHP <- st_transform(KenyaSHP, crs = 4326)
 
@@ -229,8 +229,7 @@ top_subcounty_plot <- top_subcounty %>%
 ggplot(aes(x = reorder(county_sub, m_f_ratio_100), y = m_f_ratio_100)) +
 geom_bar(stat = "identity", width = 0.5, fill = "lightblue") +
 coord_flip() +
-scale_y_break(c(25, 75)) +
-scale_y_continuous(breaks=seq(0,160,20)) +
+scale_y_break(c(40, 80)) +
 theme_classic()+
 labs(x = "Sub-county",
 y = "Number of males per 100 females",
@@ -245,7 +244,7 @@ plot.subtitle = element_text(family = "URW Palladio L, Italic",size = 10, hjust 
 legend.title = element_text("URW Palladio L, Italic",size = 8, vjust = 1),
 plot.caption = element_text(family = "URW Palladio L, Italic",size = 10)) +
 geom_hline(yintercept = 100, linetype="dashed", color = "purple", size=0.5) +
-geom_text(aes(x = 5 , y = 100, label = "Male:Female ratio = 1:1"), size = 4, angle=90, vjust = -1.5)
+geom_text(aes(x = 5 , y = 100, label = "Male:Female ratio = 1:1"), size = 4, angle=90, vjust = 1.5)
 
 # Find the bottom 10 subcounties
 bottom_subcounty <- df_2_ratio_subcounty %>%
@@ -257,8 +256,7 @@ bottom_subcounty_plot <- bottom_subcounty %>%
 ggplot(aes(x = reorder(county_sub, m_f_ratio_100), y = m_f_ratio_100)) +
 geom_bar(stat = "identity", width = 0.5, fill = "blue") +
 coord_flip() +
-scale_y_break(c(25, 75)) +
-scale_y_continuous(breaks=seq(0,120,20)) +
+scale_y_break(c(40, 80)) +
 theme_classic()+
 labs(x = "Sub-county",
 y = "Number of males per 100 females",
