@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-0.9.505">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="William Okech">
+<meta name="dcterms.date" content="2022-06-08">
+
+<title>William Okech - A Beginner’s Guide to R and RStudio</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">William Okech</span>
+  </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html">About</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../">Posts</a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/wokech"><i class="bi bi-github" role="img">
+</i> 
+ </a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/willyokech"><i class="bi bi-twitter" role="img">
+</i> 
+ </a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">A Beginner’s Guide to R and RStudio</h1>
+            <p class="subtitle lead">This blog post introduces readers to the basics of R and RStudio.</p>
+                                <div class="quarto-categories">
+                <div class="quarto-category">RStudio</div>
+                <div class="quarto-category">R</div>
+                <div class="quarto-category">Tutorial</div>
+                <div class="quarto-category">Blog</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>William Okech </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">June 8, 2022</p>
+      </div>
+    </div>
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#welcome" id="toc-welcome" class="nav-link active" data-scroll-target="#welcome">Welcome!</a>
+  <ul class="collapse">
+  <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#what-is-r" id="toc-what-is-r" class="nav-link" data-scroll-target="#what-is-r">What is R?</a></li>
+  <li><a href="#what-are-the-benefits-of-using-r" id="toc-what-are-the-benefits-of-using-r" class="nav-link" data-scroll-target="#what-are-the-benefits-of-using-r">What are the benefits of using R?</a></li>
+  <li><a href="#im-looking-for-r.-where-can-i-get-it" id="toc-im-looking-for-r.-where-can-i-get-it" class="nav-link" data-scroll-target="#im-looking-for-r.-where-can-i-get-it">I’m looking for R. Where can I get it?</a></li>
+  <li><a href="#what-is-rstudio-and-how-does-it-differ-from-r" id="toc-what-is-rstudio-and-how-does-it-differ-from-r" class="nav-link" data-scroll-target="#what-is-rstudio-and-how-does-it-differ-from-r">What is RStudio and how does it differ from R?</a></li>
+  <li><a href="#what-are-the-primary-benefits-of-rstudio" id="toc-what-are-the-primary-benefits-of-rstudio" class="nav-link" data-scroll-target="#what-are-the-primary-benefits-of-rstudio">What are the primary benefits of RStudio?</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
+  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"></a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+<section id="welcome" class="level1">
+<h1>Welcome!</h1>
+<p>The goal of this blog is to introduce readers to the basics of data analysis and visualization using R and Python. In this 1st post, the reader will be introduced to the R programming language and RStudio software.</p>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>This blog aims to introduce new R/RStudio users to the fundamentals of R and lay the groundwork for more in-depth statistical analysis, data visualization, and reporting methods. I hope to present the topics in a straightforward manner so that anyone new to programming is not intimidated.</p>
+</section>
+<section id="what-is-r" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-r">What is R?</h2>
+<p>R is a programming language and open-source (freely available) software invented by Ross Ihaka and Robert Gentleman in 1993 (published as open-source in 1995) when they were based at the University of Auckland (Fun fact: R represents the first letter of the first names of the creators). The software is utilized by individuals working for various organizations, from academic institutions and healthcare organizations to financial services and information technology companies. In May 2022, the <a href="https://www.tiobe.com/tiobe-index/">TIOBE</a> index (a measure of programming language popularity) demonstrated that R was the 13th most popular programming language. R’s popularity may result from its highly extensible nature, allowing users to perform statistical data analysis, generate visualizations, and report findings.</p>
+</section>
+<section id="what-are-the-benefits-of-using-r" class="level2">
+<h2 class="anchored" data-anchor-id="what-are-the-benefits-of-using-r">What are the benefits of using R?</h2>
+<p>As mentioned in the previous section, R is open-source software and highly extensible. Thousands of extensions (also known as packages) can be installed, allowing one to increase the number of available applications. Other advantages of R include: 1. A <a href="https://community.rstudio.com/">large</a> <a href="https://www.r-project.org/help.html">community</a> of <a href="https://stackoverflow.com/">users and developers</a> that provides learning support and assists with technical challenges, 2. R helps perform reproducible research. 3. R is cross-platform, which means it can be used on Linux, Windows, and Mac operating systems. 4. R can be used to generate <a href="https://r-graph-gallery.com/">high-quality</a> <a href="https://r-charts.com/">graphics</a> from datasets of varying dimensions.</p>
+</section>
+<section id="im-looking-for-r.-where-can-i-get-it" class="level2">
+<h2 class="anchored" data-anchor-id="im-looking-for-r.-where-can-i-get-it">I’m looking for R. Where can I get it?</h2>
+<p>To install R on your personal computer, visit The R Project for Statistical Computing’s Comprehensive R Archive Network <a href="https://cran.r-project.org/">(CRAN)</a>, download the most recent version, and install it according to the website’s instructions. Once you download R, you can now experiment with some of its features.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="r_interface.png" class="img-fluid figure-img" style="width:90.0%"></p>
+</figure>
+</div>
+<p>Figure 1: The standard R interface (Windows)</p>
+<p>When you open R, you will notice that it has a basic graphical user interface (GUI), and the console displays a command-line interface (CLI; where each command is executed one at a time). This may be intimidating for new users; however, there is a workaround for those who are not comfortable working at the command line. For those who are not experienced programmers, we can all use R with an application called RStudio.</p>
+</section>
+<section id="what-is-rstudio-and-how-does-it-differ-from-r" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-rstudio-and-how-does-it-differ-from-r">What is RStudio and how does it differ from R?</h2>
+<p>RStudio is an integrated development environment (IDE) for R that JJ Allaire developed. This software contains tools that make programming in R easier. RStudio extends R’s capabilities by making it easier to import data, write scripts, and generate visualizations and reports. The RStudio IDE is available for download from the <a href="https://www.rstudio.com/products/rstudio/download/">RStudio</a> website.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="rstudio_interface.png" class="img-fluid figure-img" style="width:90.0%"></p>
+</figure>
+</div>
+<p>Figure 2: RStudio interface with four main panes (Windows)</p>
+<p>Once installed, the basic layout of RStudio reveals that there is a script (text editor), console, navigation, and environment/history window pane. The script pane (text editor) in the upper-left allows one to write, open, edit, and execute more extended programs than we can when using the standalone R software. The console pane (bottom-left) displays the script’s output and offers a command-line interface for typing code that is immediately executed. The environment pane (upper-right) displays information about the created objects, the history of executed code, and any external connections. Finally, the navigation pane (bottom-right) shows multiple tabs. Its primary tabs include the “Plot” tab, which shows graphics created by code, the “Packages” tab where the packages are installed, and the “Help” tab, which provides assistance for all things R and allows one to search the R documentation.</p>
+</section>
+<section id="what-are-the-primary-benefits-of-rstudio" class="level2">
+<h2 class="anchored" data-anchor-id="what-are-the-primary-benefits-of-rstudio">What are the primary benefits of RStudio?</h2>
+<p>RStudio allows one to create projects (a collection of related files stored within their working directory). Additionally, RStudio can be customized using options available under the “Tools” tab. Lastly, RStudio has Git integration that allows for version control where you can back up your code at different timepoints and effortlessly transfer code between computers.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<p>Hopefully, this was a helpful introduction to R and RStudio. In subsequent blog posts, we will focus on simple arithmetic, RStudio basics, and data types and structures in R.</p>
+</section>
+<section id="section" class="level2">
+<h2 class="anchored" data-anchor-id="section"></h2>
+
+
+</section>
+</section>
+
+
+<div id="quarto-appendix" class="default"><section class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1" role="doc-endnote"><p>Summary of the benefits of R and RStudio obtained from Lander, J. P. (2017). R for everyone: Advanced analytics and graphics. Addison-Wesley.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+<script src="https://giscus.app/client.js" data-repo="wokech/blog-main" data-repo-id="R_kgDOHeENyQ" data-category="General" data-category-id="DIC_kwDOHeENyc4CPinB" data-mapping="title" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" crossorigin="anonymous" async="">
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">Blog made using <a href="https://quarto.org/">Quarto</a>, by William Okech. License: <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></div>   
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="https://twitter.com/willyokech">Twitter</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://www.linkedin.com/in/williamokech/">LinkedIn</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://github.com/wokech">Github</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="mailto:willyokech@gmail.com">Email</a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+</body></html>
