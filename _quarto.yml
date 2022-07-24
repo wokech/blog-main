@@ -8,8 +8,6 @@ website:
     right:
       - about.qmd
       - blog.qmd
-      - text: Posts
-        file: /
       - text: Resume
         file: blog_cv/blog_cv_jun_2022.pdf
       - text: Resources
@@ -40,7 +38,7 @@ website:
       
 format:
   html:
-    theme: lumen
+    theme: spacelab
     css: styles.css
 
 editor: visual

@@ -20,9 +20,5 @@ comments: false
 ---
 
 ::: {#hero-heading}
-I am a research scientist and scientific editor from Kenya.
-
-My PhD is in Biomedical Engineering, and I'm interested in data visualization (R/RStudio) and developing interactive dashboards (Shiny).
-
-Additionally, I'm a [Carpentry Instructor](https://carpentries.org/instructors/) and I intend to use this blog to introduce readers to the basics of data analysis and visualization.
+I am a research scientist from Kenya interested in data visualization (R/RStudio) and developing interactive dashboards (Shiny). This blog aims to introduce readers to the basics of data analysis and visualization.
 :::
