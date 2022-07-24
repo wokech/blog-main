@@ -11,7 +11,9 @@ draft: false
 
 ## Introduction
 
-This is the first in a series of blog posts looking at the basics of R and RStudio. These programs allow us to perform various basic and complex calculations. To get started, first, we will open R or RStudio. In R, go to the console, and in RStudio, head to the console pane. Next, type in a basic arithmetic calculation such as "1 + 1" after the angle bracket (\>) and hit "Enter."
+This is the first in a series of blog posts looking at the basics of R and RStudio. These programs allow us to perform various basic and complex calculations.
+
+To get started, first, we will open R or RStudio. In R, go to the console, and in RStudio, head to the console pane. Next, type in a basic arithmetic calculation such as "1 + 1" after the angle bracket (\>) and hit "Enter."
 
 An example of a basic calculation:
 
