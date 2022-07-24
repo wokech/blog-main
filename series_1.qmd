@@ -1,0 +1,14 @@
+---
+title: "R and RStudio: Getting Started and The Basics"
+listing:
+  contents: posts/series_1
+  sort: "date"
+  type: default
+  categories: false
+  sort-ui: true
+  filter-ui: true
+  fields: [date, title, reading-time, description, categories]
+page-layout: full
+title-block-banner: false
+comments: false
+---
