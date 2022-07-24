@@ -1,0 +1,50 @@
+project:
+  type: website
+
+website:
+  title: "William Okech"
+  site-url: "https://williamokech.netlify.app/"
+  navbar:
+    right:
+      - about.qmd
+      - blog.qmd
+      - text: Posts
+        file: /
+      - text: Resume
+        file: blog_cv/blog_cv_jun_2022.pdf
+      - text: Resources
+        file: resources.qmd
+      - text: Reading List
+        file: reading_list.qmd
+      - icon: github
+        href: https://github.com/wokech
+        aria-label: Github
+      - icon: twitter
+        href: https://twitter.com/willyokech
+        aria-label: Twitter
+  page-footer:
+    left: "Blog made using [Quarto](https://quarto.org/), by William Okech. License: [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/)"
+    right:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/willyokech
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/williamokech/
+    - icon: github
+      text: Github
+      href: https://github.com/wokech
+    - icon: envelope
+      text: Email
+      href: mailto:willyokech@gmail.com
+      
+format:
+  html:
+    theme: lumen
+    css: styles.css
+
+editor: visual
+
+comments:
+  giscus:
+    repo: wokech/blog-main
