@@ -2,11 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://williamokech.netlify.app/index.html</loc>
-    <lastmod>2022-07-24T16:30:07.191Z</lastmod>
+    <lastmod>2022-07-24T16:47:19.589Z</lastmod>
   </url>
   <url>
     <loc>https://williamokech.netlify.app/reading_list.html</loc>
-    <lastmod>2022-07-24T16:20:42.513Z</lastmod>
+    <lastmod>2022-07-24T16:48:36.059Z</lastmod>
   </url>
   <url>
     <loc>https://williamokech.netlify.app/resources.html</loc>
@@ -14,14 +14,38 @@
   </url>
   <url>
     <loc>https://williamokech.netlify.app/about.html</loc>
-    <lastmod>2022-07-24T16:30:24.009Z</lastmod>
+    <lastmod>2022-07-24T16:48:11.616Z</lastmod>
   </url>
   <url>
     <loc>https://williamokech.netlify.app/blog.html</loc>
-    <lastmod>2022-07-24T16:30:29.213Z</lastmod>
+    <lastmod>2022-07-24T16:48:18.272Z</lastmod>
   </url>
   <url>
     <loc>https://williamokech.netlify.app/series_1.html</loc>
-    <lastmod>2022-07-24T16:30:37.877Z</lastmod>
+    <lastmod>2022-07-24T16:45:54.858Z</lastmod>
+  </url>
+  <url>
+    <loc>https://williamokech.netlify.app/posts/series_1/new_post_2/post_2.html</loc>
+    <lastmod>2022-07-24T16:44:10.483Z</lastmod>
+  </url>
+  <url>
+    <loc>https://williamokech.netlify.app/posts/series_1/new_post_3/post_3.html</loc>
+    <lastmod>2022-07-24T16:44:47.475Z</lastmod>
+  </url>
+  <url>
+    <loc>https://williamokech.netlify.app/posts/series_1/new_post_4/post_4.html</loc>
+    <lastmod>2022-07-24T16:45:25.468Z</lastmod>
+  </url>
+  <url>
+    <loc>https://williamokech.netlify.app/posts/series_1/new_post_1/post_1.html</loc>
+    <lastmod>2022-07-24T16:45:58.651Z</lastmod>
+  </url>
+  <url>
+    <loc>https://williamokech.netlify.app/posts/series_2/new_post_1/post_1.html</loc>
+    <lastmod>2022-07-24T16:47:26.831Z</lastmod>
+  </url>
+  <url>
+    <loc>https://williamokech.netlify.app/series_2.html</loc>
+    <lastmod>2022-07-24T16:47:22.678Z</lastmod>
   </url>
 </urlset>

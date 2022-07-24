@@ -74,7 +74,7 @@
     "href": "posts/series_1/new_post_3/post_3.html",
     "title": "The Basics of R and RStudio",
     "section": "",
-    "text": "blog_series_pt_2.png){fig-align=“center” width=“50%”}"
+    "text": "Variables are instrumental in programming because they are used as “containers” to store data values. To assign a value to a variable, we can use <− or =. However, most R users prefer to use <−.\nExamples of variable assignment\n\nUsing <-\n\n\nvariable_1 <- 5\nvariable_1\n\n[1] 5\n\n\n\nUsing =\n\n\nvariable_2 = 10\nvariable_2\n\n[1] 10\n\n\n\nReverse the value and variable with ->\n\n\n15 -> variable_3\nvariable_3\n\n[1] 15\n\n\n\nAssign two variables to one value\n\n\nvariable_4 <- variable_5 <- 30\nvariable_4\n\n[1] 30\n\nvariable_5\n\n[1] 30\n\n\nThe output of the variable can then be obtained by:\n\nTyping the variable name and then pressing “Enter,”\nTyping “print” with the variable name in brackets, print(variable), and\nTyping “View” with the variable name in brackets, View(variable).\n\nBoth print() and View() are some of the many built-in functions1 available in R.\nIn RStudio, the list of variables that have been loaded can be viewed in the environment pane.\n\n\n\n\n\nA screenshot of the environment pane with the stored variables.\n\nprint(variable_1)\n\n[1] 5\n\n\n\nView(variable_2)\n\nOutput of View() will be seen in the script pane"
   },
   {
     "objectID": "posts/series_1/new_post_3/post_3.html#the-assign-and-rm-functions",
