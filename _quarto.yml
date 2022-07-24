@@ -45,9 +45,6 @@ format:
 
 editor: visual
 
-execute:
-  freeze: true
-
 comments:
   giscus:
     repo: wokech/blog-main
