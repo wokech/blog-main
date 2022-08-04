@@ -4,16 +4,29 @@ project:
 website:
   title: "William Okech"
   site-url: "https://williamokech.netlify.app/"
+  description: "This is William Okech's personal Blog."
   navbar:
     right:
       - about.qmd
       - blog.qmd
       - text: Resume
         file: blog_cv/blog_cv_jun_2022.pdf
-      - text: Resources
-        file: resources.qmd
-      - text: Reading List
-        file: reading_list.qmd
+      - text: Data Analysis Tools 
+        menu: 
+          - href: resources/r_rstudio_shiny.qmd
+          - href: resources/python.qmd
+          - href: resources/data_viz.qmd
+          - href: resources/git_github.qmd
+          - href: resources/quarto_links.qmd
+      - text: Data Science Resources
+        menu: 
+          - href: resources/ml_and_ai.qmd
+          - href: resources/sports_data_sci.qmd
+          - href: resources/env_data_sci_gis.qmd
+      - text: Miscellaneous
+        menu:
+          - href: resources/biox.qmd
+          - href: resources/non_ac_reading.qmd
       - icon: github
         href: https://github.com/wokech
         aria-label: Github
