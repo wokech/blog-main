@@ -33,6 +33,7 @@ website:
       - icon: twitter
         href: https://twitter.com/willyokech
         aria-label: Twitter
+  google-analytics: "G-1VX0Q2FQEV"
   page-footer:
     left: "Blog made using [Quarto](https://quarto.org/), by William Okech. License: [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/)"
     right:
