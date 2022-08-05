@@ -53,6 +53,15 @@ ul.task-list{list-style: none;}
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-1VX0Q2FQEV"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-1VX0Q2FQEV', { 'anonymize_ip': true});
+</script>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -72,38 +81,70 @@ ul.task-list{list-style: none;}
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link active" href="./about.html" aria-current="page">About Me</a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about-me" role="button" data-bs-toggle="dropdown" aria-expanded="false">About Me</a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-about-me">    
+        <li>
+    <a class="dropdown-item" href="./about.html">
+ <span class="dropdown-text">About Me</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./blog_cv/blog_cv_jun_2022.pdf">
+ <span class="dropdown-text">Resume</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="./blog.html">Blog posts</a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./blog_cv/blog_cv_jun_2022.pdf">Resume</a>
-  </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-resources" role="button" data-bs-toggle="dropdown" aria-expanded="false">Resources</a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-resources">    
-        <li class="dropdown-header">text:R/RStudio/Shiny</li>
-        <li class="dropdown-header">href:resources/r_rstudio_shiny.html</li>
-        <li class="dropdown-header">text:Python</li>
-        <li class="dropdown-header">href:resources/python.html</li>
-        <li class="dropdown-header">text:Data Visuaization</li>
-        <li class="dropdown-header">href:resources/data_viz.html</li>
-        <li class="dropdown-header">text:Git/GitHub</li>
-        <li class="dropdown-header">href:resources/git_github.html</li>
-        <li class="dropdown-header">text:Quarto</li>
-        <li class="dropdown-header">href:resources/quarto_links.html</li>
-        <li class="dropdown-header">text:Machine Learning/Artificial Intelligence</li>
-        <li class="dropdown-header">href:resources/ml_and_ai.html</li>
-        <li class="dropdown-header">text:Sports Data Science</li>
-        <li class="dropdown-header">href:resources/sports_data_sci.html</li>
-        <li class="dropdown-header">text:Environmental Data Science/GIS</li>
-        <li class="dropdown-header">href:resources/env_data_sci_gis.html</li>
-        <li class="dropdown-header">text:BioX (All things Bio)</li>
-        <li class="dropdown-header">href:resources/biox.html</li>
-        <li class="dropdown-header">Non-Academic Reading</li>
-        <li class="dropdown-header">href:resources/non_ac_reading.html</li>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-data-analysis-tools" role="button" data-bs-toggle="dropdown" aria-expanded="false">Data Analysis Tools</a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-data-analysis-tools">    
+        <li>
+    <a class="dropdown-item" href="./resources/r_rstudio_shiny.html">
+ <span class="dropdown-text">R, RStudio, and Shiny</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./resources/python.html">
+ <span class="dropdown-text">Python</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./resources/data_viz.html">
+ <span class="dropdown-text">Data Visualization</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./resources/git_github.html">
+ <span class="dropdown-text">Git and GitHub</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./resources/quarto_links.html">
+ <span class="dropdown-text">Quarto</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./resources/ml_and_ai.html">
+ <span class="dropdown-text">Machine Learning and Artificial Intelligence</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./resources/sports_data_sci.html">
+ <span class="dropdown-text">Sports Data Science</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./resources/env_data_sci_gis.html">
+ <span class="dropdown-text">Environmental Data Science and GIS</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-miscellaneous" role="button" data-bs-toggle="dropdown" aria-expanded="false">Miscellaneous</a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-miscellaneous">    
+        <li>
+    <a class="dropdown-item" href="./resources/biox.html">
+ <span class="dropdown-text">BioX (All things Biology)</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./resources/non_ac_reading.html">
+ <span class="dropdown-text">Non-Academic Reading</span></a>
+  </li>  
     </ul>
   </li>
   <li class="nav-item compact">
@@ -113,6 +154,11 @@ ul.task-list{list-style: none;}
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://twitter.com/willyokech"><i class="bi bi-twitter" role="img" aria-label="Twitter">
+</i> 
+ </a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="./blog.xml"><i class="bi bi-rss" role="img">
 </i> 
  </a>
   </li>  

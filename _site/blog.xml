@@ -1,0 +1,706 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>William Okech</title>
+<link>https://williamokech.netlify.app/blog.html</link>
+<atom:link href="https://williamokech.netlify.app/blog.xml" rel="self" type="application/rss+xml"/>
+<description>This is William Okech's personal Blog.</description>
+<generator>quarto-0.9.505</generator>
+<lastBuildDate>Wed, 29 Jun 2022 21:00:00 GMT</lastBuildDate>
+<item>
+  <title>Kenya Census Insights (Demographics)</title>
+  <dc:creator>William Okech</dc:creator>
+  <link>https://williamokech.netlify.app/posts/series_2/new_post_1/post_1.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>To answer this question, I reviewed the Kenya Population and Housing Census (2019)<sup>1</sup><sup>2</sup> report, which provides data on population by sex and age at the county and sub-county levels. This analysis was inspired by Rose Mintzer-Sweeney’s article “Sex and the Census,” published on the Datawrapper website <sup>3</sup>.</p>
+<p>Various biological, cultural, public health, and economic factors can influence the global human sex ratio. For instance, at birth, the human sex ratio is “male-biased,” with approximately 105 males born per 100 girls. However, with increasing age, the susceptibility to infectious diseases, sex-selective abortions, and higher life expectancies for women can cause fluctuations in the human sex ratio <sup>4</sup>.The total Kenyan population in 2019 (according to the census) was 47,564,296. When I compared the number of males to females at the national level (Figure 1), I found that there were 98 males for every 100 females in the country<sup>5</sup>.</p>
+<p><img src="https://williamokech.netlify.app/posts/series_2/new_post_1/images/national_sex_ratio.png" class="img-fluid"></p>
+<p>Knowing there were more females than males, I sought to determine whether these differences persisted across all age groups (Figure 2).</p>
+<p><img src="https://williamokech.netlify.app/posts/series_2/new_post_1/images/age_sex_ratio.png" class="img-fluid"></p>
+<p>As expected, I observed a higher number of males compared with females between 0 to 18 years. One reason could be the higher male-to-female ratio seen at birth globally <sup>6</sup>. Between the ages of 19 to 34 years, the male-to-female ratio decreases rapidly, while from 35 to 56 years, the ratio increases rapidly. The cause of this fluctuation is not apparent, but various public health factors may be responsible for the shifts observed within these age groups. Finally, the number of males compared with females steadily decreases after age 60. The decrease in the number of males to females could result from increases in life expectancy favoring women. This is demonstrated in the Economic Survey 2022, which shows that the male life expectancy is 60.6 vs.&nbsp;66.5 for females<sup>7</sup> or a prevalence of medical conditions that disproportionately affect men.</p>
+<p>By focusing on the national human sex ratio, we may assume that the male-to-female ratio across all the regions in Kenya is equal. Kenya has 47 diverse counties with different population densities, climatic conditions, economic opportunities, and levels of development. Not surprisingly, we find (Figure 3) that there is a wide range of human sex ratios (90–120 males per 100 females) across the different counties (administrative units).</p>
+<p><img src="https://williamokech.netlify.app/posts/series_2/new_post_1/images/barplot_map.png" class="img-fluid"></p>
+<p>The highest sex ratio is found in Garissa county (120 males per 100 females), and the lowest is observed in Siaya county (90 males per 100 females). Many counties with low sex ratios (more females) are primarily located in the west of Kenya, and counties with high sex ratios (more males) are found in the north of Kenya. According to the Economic Survey (2022) [^8], male life expectancy in the west of Kenya is the lowest in the country. Homa Bay and Migori recorded a life expectancy of 50.5 years, which was approximately 10 years lower than that of females in the respective counties. This is against a difference of 3 to 5 years lower for males in some of the counties in the north of Kenya.</p>
+<p>Within each of Kenya’s 47 counties are smaller administrative units known as sub-counties. For the final analysis, I thought it would be interesting to see whether the patterns observed at the county level were consistent across the various sub-counties.</p>
+<p><img src="https://williamokech.netlify.app/posts/series_2/new_post_1/images/top_bottom_plot.png" class="img-fluid"></p>
+<p>Having just observed that counties in the north of Kenya had the highest number of males per 100 females, I was surprised to find that Mandera Central (Mandera County) and Tarbaj (Wajir County) sub-counties in the north were among the sub-counties with the lowest number of males per 100 females (Figure 4). Why females tend to concentrate within specific regions in these two counties may be an interesting aspect to investigate in future studies.</p>
+<p>Overall, many factors may affect the human sex ratio at the county and sub-county levels and cause the differences in the human sex ratio seen with age. High rural-urban migration, public health factors (including the prevalence of various communicable and non-communicable diseases), climate, and location’s primary source of employment may skew the number of males to females in certain sub-counties. Therefore, future work should focus on the causes of these variations in the human sex ratio and the implications for administrative planning at the national, county, and sub-county levels.</p>
+<section id="section" class="level2">
+<h2 class="anchored" data-anchor-id="section"></h2>
+
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>Kenya National Bureau of Statistics. The 2019 Kenya Population and Housing Census. Volume I: Population by County and Sub-County and Volume III: Distribution of Population by Age and Sex.↩︎</p></li>
+<li id="fn2"><p>Shelmith Kariuki (2020). rKenyaCensus: 2019 Kenya Population and Housing Census Results. R package version 0.0.2.↩︎</p></li>
+<li id="fn3"><p>Rose Mintzer-Sweeney’s article: https://blog.datawrapper.de/gender-ratio-american-history/↩︎</p></li>
+<li id="fn4"><p>Hannah Ritchie and Max Roser (2019) - “Gender Ratio.” Published online at OurWorldInData.org. Retrieved from: ‘https://ourworldindata.org/gender-ratio’ [Online Resource]↩︎</p></li>
+<li id="fn5"><p>Additionally, there were also 1,524 individuals classified as intersex, but their low numbers prevented their inclusion in the analysis.↩︎</p></li>
+<li id="fn6"><p>Hannah Ritchie and Max Roser (2019) - “Gender Ratio.” Published online at OurWorldInData.org. Retrieved from: ‘https://ourworldindata.org/gender-ratio’ [Online Resource]↩︎</p></li>
+<li id="fn7"><p>Kenya National Bureau of Statistics. The Economic Survey 2022↩︎</p></li>
+</ol>
+</section></div> ]]></description>
+  <category>RStudio</category>
+  <category>R</category>
+  <category>Data Stories</category>
+  <category>Blog</category>
+  <category>Kenya Census</category>
+  <guid>https://williamokech.netlify.app/posts/series_2/new_post_1/post_1.html</guid>
+  <pubDate>Wed, 29 Jun 2022 21:00:00 GMT</pubDate>
+  <media:content url="https://williamokech.netlify.app/posts/series_2/new_post_1/male-female-ratio.png" medium="image" type="image/png" height="133" width="144"/>
+</item>
+<item>
+  <title>The Basics of R and RStudio</title>
+  <dc:creator>William Okech</dc:creator>
+  <link>https://williamokech.netlify.app/posts/series_1/new_post_4/post_4.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>R and RStudio utilize very many data types to store different kinds of data. The most common data types in R are listed below.</p>
+<table class="table">
+<colgroup>
+<col style="width: 7%">
+<col style="width: 92%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Data Type</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Numeric</td>
+<td>The most common data type. The values can be numbers or decimals (all real numbers).</td>
+</tr>
+<tr class="even">
+<td>Integer</td>
+<td>Special case of numeric data without decimals.</td>
+</tr>
+<tr class="odd">
+<td>Logical</td>
+<td>Boolean data type with only 2 values (<code>TRUE</code> or <code>FALSE</code>).</td>
+</tr>
+<tr class="even">
+<td>Complex</td>
+<td>Specifies imaginary values in R.</td>
+</tr>
+<tr class="odd">
+<td>Character</td>
+<td>Assigns a character or string to a variable. The character variables are enclosed in single quotes (‘character’) while the string variables are enclosed in double quotes (“string”).</td>
+</tr>
+<tr class="even">
+<td>Factor</td>
+<td>Special type of character variable that represents a categorical such as gender.</td>
+</tr>
+<tr class="odd">
+<td>Raw</td>
+<td>Specifies values as raw bytes. It uses built-in functions to convert between raw and character (charToRaw() or rawToChar()).</td>
+</tr>
+<tr class="even">
+<td>Dates</td>
+<td>Specifies the date variable. Date stores a date and POSIXct stores a date and time. The output is indicated as the number of days (Date) or number of seconds (POSIXct) since 01/01/1970.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="data-type-examples" class="level2">
+<h2 class="anchored" data-anchor-id="data-type-examples">Data Type Examples</h2>
+<p><strong>Numeric</strong></p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="fl" style="color: #AD0000;">89.98</span></span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 89.98</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><span class="dv" style="color: #AD0000;">55</span></span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 55</code></pre>
+</div>
+</div>
+<p><strong>Integer</strong></p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1">5L</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 5</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb7" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1">5768L</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 5768</code></pre>
+</div>
+</div>
+<p><strong>Logical</strong></p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb9" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><span class="cn" style="color: #8f5902;">TRUE</span></span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] TRUE</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb11" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><span class="cn" style="color: #8f5902;">FALSE</span></span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] FALSE</code></pre>
+</div>
+</div>
+<p><strong>Complex</strong></p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb13" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><span class="dv" style="color: #AD0000;">10</span> <span class="sc" style="color: #5E5E5E;">+</span> 30i</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 10+30i</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb15" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><span class="dv" style="color: #AD0000;">287</span> <span class="sc" style="color: #5E5E5E;">+</span> 34i</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 287+34i</code></pre>
+</div>
+</div>
+<p><strong>Character or String</strong></p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb17" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><span class="st" style="color: #20794D;">'abc'</span></span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "abc"</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb19" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><span class="st" style="color: #20794D;">"def"</span></span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "def"</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb21" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb21-1"><span class="st" style="color: #20794D;">"I like learning R"</span></span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "I like learning R"</code></pre>
+</div>
+</div>
+<p><strong>Dates</strong></p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb23" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1"><span class="st" style="color: #20794D;">"2022-06-23 14:39:21 EAT"</span></span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "2022-06-23 14:39:21 EAT"</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb25" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb25-1"><span class="st" style="color: #20794D;">"2022-06-23"</span></span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "2022-06-23"</code></pre>
+</div>
+</div>
+</section>
+<section id="examining-data-types" class="level2">
+<h2 class="anchored" data-anchor-id="examining-data-types">Examining data types</h2>
+<p>Several functions exist to examine the features of the various data types. These include:</p>
+<ol type="1">
+<li><code>typeof()</code> – what is the data type of the object (low-level)?</li>
+<li><code>class()</code> – what is the data type of the object (high-level)?</li>
+<li><code>length()</code> – how long is the object?</li>
+<li><code>attributes()</code> – any metadata available?</li>
+</ol>
+<p>Let’s look at how these functions work with a few examples</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb27" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb27-1">a <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fl" style="color: #AD0000;">45.84</span></span>
+<span id="cb27-2">b <span class="ot" style="color: #003B4F;">&lt;-</span> 858L</span>
+<span id="cb27-3">c <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="cn" style="color: #8f5902;">TRUE</span></span>
+<span id="cb27-4">d <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="dv" style="color: #AD0000;">89</span> <span class="sc" style="color: #5E5E5E;">+</span> 34i</span>
+<span id="cb27-5">e <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="st" style="color: #20794D;">'abc'</span></span></code></pre></div>
+</div>
+<p>Examine the data type at a low-level with <code>typeof()</code></p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb28" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb28-1"><span class="fu" style="color: #4758AB;">typeof</span>(a)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "double"</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb30" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb30-1"><span class="fu" style="color: #4758AB;">typeof</span>(b)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "integer"</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb32" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb32-1"><span class="fu" style="color: #4758AB;">typeof</span>(c)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "logical"</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb34" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb34-1"><span class="fu" style="color: #4758AB;">typeof</span>(d)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "complex"</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb36" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb36-1"><span class="fu" style="color: #4758AB;">typeof</span>(e)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "character"</code></pre>
+</div>
+</div>
+<p>Examine the data type at a high-level with <code>class()</code></p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb38" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb38-1"><span class="fu" style="color: #4758AB;">class</span>(a)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "numeric"</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb40" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb40-1"><span class="fu" style="color: #4758AB;">class</span>(b)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "integer"</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb42" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb42-1"><span class="fu" style="color: #4758AB;">class</span>(c)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "logical"</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb44" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb44-1"><span class="fu" style="color: #4758AB;">class</span>(d)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "complex"</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb46" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb46-1"><span class="fu" style="color: #4758AB;">class</span>(e)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "character"</code></pre>
+</div>
+</div>
+<p>To test whether the variable is of a specific type, we can use the “is.___()” functions.</p>
+<p>First, we test the variable <code>a</code> which is numeric.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb48" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb48-1"><span class="fu" style="color: #4758AB;">is.numeric</span>(a)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] TRUE</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb50" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb50-1"><span class="fu" style="color: #4758AB;">is.integer</span>(a)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] FALSE</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb52" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb52-1"><span class="fu" style="color: #4758AB;">is.logical</span>(a)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] FALSE</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb54" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb54-1"><span class="fu" style="color: #4758AB;">is.character</span>(a)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] FALSE</code></pre>
+</div>
+</div>
+<p>Second, we test the variable <code>c</code> which is logical.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb56" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb56-1"><span class="fu" style="color: #4758AB;">is.numeric</span>(c)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] FALSE</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb58" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb58-1"><span class="fu" style="color: #4758AB;">is.integer</span>(c)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] FALSE</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb60" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb60-1"><span class="fu" style="color: #4758AB;">is.logical</span>(c)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] TRUE</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb62" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb62-1"><span class="fu" style="color: #4758AB;">is.character</span>(c)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] FALSE</code></pre>
+</div>
+</div>
+<p>To convert between data types we can use the “as.___()” functions. These include: <code>as.Date()</code>, <code>as.numeric()</code>, and <code>as.factor()</code>. Additionally, other helpful functions include factor() which adds levels to the data and nchar() which provides the length of the data.</p>
+<p>Examples</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb64" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb64-1"><span class="fu" style="color: #4758AB;">as.integer</span>(a)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 45</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb66" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb66-1"><span class="fu" style="color: #4758AB;">as.logical</span>(<span class="dv" style="color: #AD0000;">0</span>)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] FALSE</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb68" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb68-1"><span class="fu" style="color: #4758AB;">as.logical</span>(<span class="dv" style="color: #AD0000;">1</span>)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] TRUE</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb70" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb70-1"><span class="fu" style="color: #4758AB;">nchar</span>(e)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 3</code></pre>
+</div>
+</div>
+</section>
+<section id="summary" class="level2">
+<h2 class="anchored" data-anchor-id="summary">Summary</h2>
+
+
+</section>
+
+ ]]></description>
+  <category>RStudio</category>
+  <category>R</category>
+  <category>Tutorial</category>
+  <category>Blog</category>
+  <guid>https://williamokech.netlify.app/posts/series_1/new_post_4/post_4.html</guid>
+  <pubDate>Wed, 22 Jun 2022 21:00:00 GMT</pubDate>
+  <media:content url="https://williamokech.netlify.app/posts/series_1/new_post_4/r_and_rstudio.png" medium="image" type="image/png" height="26" width="144"/>
+</item>
+<item>
+  <title>The Basics of R and RStudio</title>
+  <dc:creator>William Okech</dc:creator>
+  <link>https://williamokech.netlify.app/posts/series_1/new_post_3/post_3.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>Variables are instrumental in programming because they are used as “containers” to store data values. To assign a value to a variable, we can use <code>&lt;−</code> or <code>=</code>. However, most R users prefer to use <code>&lt;−</code>.</p>
+<p>Examples of variable assignment</p>
+<ol type="1">
+<li>Using <code>&lt;-</code></li>
+</ol>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1">variable_1 <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="dv" style="color: #AD0000;">5</span></span>
+<span id="cb1-2">variable_1</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 5</code></pre>
+</div>
+</div>
+<ol start="2" type="1">
+<li>Using <code>=</code></li>
+</ol>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1">variable_2 <span class="ot" style="color: #003B4F;">=</span> <span class="dv" style="color: #AD0000;">10</span></span>
+<span id="cb3-2">variable_2</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 10</code></pre>
+</div>
+</div>
+<ol start="3" type="1">
+<li>Reverse the value and variable with <code>-&gt;</code></li>
+</ol>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><span class="dv" style="color: #AD0000;">15</span> <span class="ot" style="color: #003B4F;">-&gt;</span> variable_3</span>
+<span id="cb5-2">variable_3</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 15</code></pre>
+</div>
+</div>
+<ol start="4" type="1">
+<li>Assign two variables to one value</li>
+</ol>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb7" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1">variable_4 <span class="ot" style="color: #003B4F;">&lt;-</span> variable_5 <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="dv" style="color: #AD0000;">30</span></span>
+<span id="cb7-2">variable_4</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 30</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb9" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1">variable_5</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 30</code></pre>
+</div>
+</div>
+<p>The output of the variable can then be obtained by:</p>
+<ol type="1">
+<li>Typing the variable name and then pressing “Enter,”</li>
+<li>Typing “print” with the variable name in brackets, <code>print(variable)</code>, and</li>
+<li>Typing “View” with the variable name in brackets, <code>View(variable)</code>.</li>
+</ol>
+<p>Both <code>print()</code> and <code>View()</code> are some of the many built-in functions<sup>1</sup> available in R.</p>
+<p>In RStudio, the list of variables that have been loaded can be viewed in the environment pane.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://williamokech.netlify.app/posts/series_1/new_post_3/env_pane_1.png" class="img-fluid figure-img" style="width:90.0%"></p>
+</figure>
+</div>
+<p>A screenshot of the environment pane with the stored variables.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb11" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><span class="fu" style="color: #4758AB;">print</span>(variable_1)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 5</code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb13" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><span class="fu" style="color: #4758AB;">View</span>(variable_2)</span></code></pre></div>
+</div>
+<p>Output of <code>View()</code> will be seen in the script pane</p>
+</section>
+<section id="the-assign-and-rm-functions" class="level2">
+<h2 class="anchored" data-anchor-id="the-assign-and-rm-functions">The <code>assign()</code> and <code>rm()</code> functions</h2>
+<p>In addition to using the assignment operators (<code>&lt;-</code> and <code>=</code>), we can use the <code>assign()</code> function to assign a value to a variable.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb14" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><span class="fu" style="color: #4758AB;">assign</span>(<span class="st" style="color: #20794D;">"variable_6"</span>, <span class="dv" style="color: #AD0000;">555</span>)</span>
+<span id="cb14-2">variable_6</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 555</code></pre>
+</div>
+</div>
+<p>To remove the assignment of the value to the variable, either delete the variable in the “environment pane” or use the <code>rm()</code> function.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb16" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1">variable_7 <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="dv" style="color: #AD0000;">159</span></span></code></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb17" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><span class="fu" style="color: #4758AB;">rm</span>(variable_7)</span></code></pre></div>
+</div>
+<p>After running <code>rm()</code> look at the environment pane to confirm whether <code>variable_7</code> has been removed.</p>
+</section>
+<section id="naming-variables" class="level2">
+<h2 class="anchored" data-anchor-id="naming-variables">Naming variables</h2>
+<p>At this point, you may be wondering what conventions are used for naming variables. First, variables need to have meaningful names such as current_temp, time_24_hr, or weight_lbs. However, we need to be mindful of the <a href="https://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html">variable</a> <a href="http://adv-r.had.co.nz/Style.html">style guide</a> which provides us with the appropriate rules for naming variables.</p>
+<p>Some rules to keep in mind are:</p>
+<ol type="1">
+<li>R is case-sensitive (<code>variable</code> is not the same as <code>Variable</code>),</li>
+<li>Names similar to typical outputs or functions (<code>TRUE</code>, <code>FALSE</code>, <code>if</code>, or <code>else</code>) cannot be used,</li>
+<li>Appropriate variable names can contain letters, numbers, dots, and underscores. However, you cannot start with an underscore, number, or dot followed by a number.</li>
+</ol>
+<p><strong>Examples of valid and invalid names</strong></p>
+<p>Valid names = time_24_hr / .time24_hr</p>
+<p>Invalid names = _24_hr.time / 24_hr_time / .24_hr_time</p>
+</section>
+<section id="summary" class="level2">
+<h2 class="anchored" data-anchor-id="summary">Summary</h2>
+<p>Overall, variables are very useful for programming in R/RStudio. These variables need to be named appropriately according to accepted conventions.</p>
+
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>Functions are a collection of statements (organized and reusable code) that perform a specific task, and R has many built-in functions.↩︎</p></li>
+</ol>
+</section></div> ]]></description>
+  <category>RStudio</category>
+  <category>R</category>
+  <category>Tutorial</category>
+  <category>Blog</category>
+  <guid>https://williamokech.netlify.app/posts/series_1/new_post_3/post_3.html</guid>
+  <pubDate>Tue, 21 Jun 2022 21:00:00 GMT</pubDate>
+  <media:content url="https://williamokech.netlify.app/posts/series_1/new_post_3/r_and_rstudio.png" medium="image" type="image/png" height="26" width="144"/>
+</item>
+<item>
+  <title>The Basics of R and RStudio</title>
+  <dc:creator>William Okech</dc:creator>
+  <link>https://williamokech.netlify.app/posts/series_1/new_post_2/post_2.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>This is the first in a series of blog posts looking at the basics of R and RStudio. These programs allow us to perform various basic and complex calculations. To get started, first, we will open R or RStudio. In R, go to the console, and in RStudio, head to the console pane. Next, type in a basic arithmetic calculation such as “1 + 1” after the angle bracket (&gt;) and hit “Enter.”</p>
+<p>An example of a basic calculation:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="dv" style="color: #AD0000;">1</span><span class="sc" style="color: #5E5E5E;">+</span><span class="dv" style="color: #AD0000;">1</span></span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 2</code></pre>
+</div>
+</div>
+<p>The output will be observed next to the square bracket containing the number 1 ([1]).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://williamokech.netlify.app/posts/series_1/new_post_2/r_console_1plus1.png" class="img-fluid figure-img" style="width:90.0%"></p>
+</figure>
+</div>
+<p>Additionally, to include comments into the code block we use the hash (#) symbol. Anything written after the code block will be commented out and not run.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><span class="co" style="color: #5E5E5E;"># A simple arithmetic calculation (which is not run because of the hash symbol)</span></span>
+<span id="cb3-2"><span class="dv" style="color: #AD0000;">1</span><span class="sc" style="color: #5E5E5E;">+</span><span class="dv" style="color: #AD0000;">1</span></span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 2</code></pre>
+</div>
+</div>
+</section>
+<section id="what-arithmetic-operators-are-available-in-rrstudio" class="level2">
+<h2 class="anchored" data-anchor-id="what-arithmetic-operators-are-available-in-rrstudio">What arithmetic operators are available in R/RStudio?</h2>
+<p>Various arithmetic operators (listed below) can be used in R/RStudio.</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">Arithmetic Operator</th>
+<th style="text-align: center;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">+</td>
+<td style="text-align: center;">Addition</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">Subtraction</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">*</td>
+<td style="text-align: center;">Multiplication</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">/</td>
+<td style="text-align: center;">Division</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">** or ^</td>
+<td style="text-align: center;">Exponentiation</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">%%</td>
+<td style="text-align: center;">Modulus (remainder after division)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">%/%</td>
+<td style="text-align: center;">Integer division</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="examples" class="level2">
+<h2 class="anchored" data-anchor-id="examples">Examples</h2>
+<p>Addition</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><span class="dv" style="color: #AD0000;">10</span><span class="sc" style="color: #5E5E5E;">+</span><span class="dv" style="color: #AD0000;">30</span></span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 40</code></pre>
+</div>
+</div>
+<p>Subtraction</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb7" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><span class="dv" style="color: #AD0000;">30-24</span></span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 6</code></pre>
+</div>
+</div>
+<p>Multiplication</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb9" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><span class="dv" style="color: #AD0000;">20</span><span class="sc" style="color: #5E5E5E;">*</span><span class="dv" style="color: #AD0000;">4</span></span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 80</code></pre>
+</div>
+</div>
+<p>Division</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb11" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><span class="dv" style="color: #AD0000;">93</span><span class="sc" style="color: #5E5E5E;">/</span><span class="dv" style="color: #AD0000;">4</span></span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 23.25</code></pre>
+</div>
+</div>
+<p>Exponentiation</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb13" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><span class="dv" style="color: #AD0000;">3</span><span class="sc" style="color: #5E5E5E;">^</span><span class="dv" style="color: #AD0000;">6</span></span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 729</code></pre>
+</div>
+</div>
+<p>Modulus (remainder with division)</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb15" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><span class="dv" style="color: #AD0000;">94</span><span class="sc" style="color: #5E5E5E;">%%</span><span class="dv" style="color: #AD0000;">5</span></span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 4</code></pre>
+</div>
+</div>
+<p>Integer Division</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb17" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><span class="dv" style="color: #AD0000;">54</span><span class="sc" style="color: #5E5E5E;">%/%</span><span class="dv" style="color: #AD0000;">7</span></span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 7</code></pre>
+</div>
+</div>
+<p>Slightly more complex arithmetic operations</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb19" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><span class="dv" style="color: #AD0000;">5-1</span><span class="sc" style="color: #5E5E5E;">+</span>(<span class="dv" style="color: #AD0000;">4</span><span class="sc" style="color: #5E5E5E;">*</span><span class="dv" style="color: #AD0000;">3</span>)<span class="sc" style="color: #5E5E5E;">/</span><span class="dv" style="color: #AD0000;">16</span><span class="sc" style="color: #5E5E5E;">*</span><span class="dv" style="color: #AD0000;">3</span></span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 6.25</code></pre>
+</div>
+</div>
+</section>
+<section id="summary" class="level2">
+<h2 class="anchored" data-anchor-id="summary">Summary</h2>
+<p>After going through this post, I hope that you can now perform simple arithmetic calculations in R/RStudio.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>RStudio</category>
+  <category>R</category>
+  <category>Tutorial</category>
+  <category>Blog</category>
+  <guid>https://williamokech.netlify.app/posts/series_1/new_post_2/post_2.html</guid>
+  <pubDate>Tue, 14 Jun 2022 21:00:00 GMT</pubDate>
+  <media:content url="https://williamokech.netlify.app/posts/series_1/new_post_2/r_and_rstudio.png" medium="image" type="image/png" height="26" width="144"/>
+</item>
+<item>
+  <title>Getting Started with R and RStudio</title>
+  <dc:creator>William Okech</dc:creator>
+  <link>https://williamokech.netlify.app/posts/series_1/new_post_1/post_1.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="welcome" class="level1">
+<h1>Welcome!</h1>
+<p>In this 1st post, the reader will be introduced to the R programming language and RStudio software.</p>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>This blog aims to introduce new R/RStudio users to the fundamentals of R and lay the groundwork for more in-depth statistical analysis, data visualization, and reporting methods. I hope to present the topics in a straightforward manner so that anyone new to programming is not intimidated.</p>
+</section>
+<section id="what-is-r" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-r">What is R?</h2>
+<p>R is a programming language and open-source (freely available) software invented by Ross Ihaka and Robert Gentleman in 1993 (published as open-source in 1995) when they were based at the University of Auckland. <em>Fun fact: R represents the first letter of the first names of the creators</em>. The software is utilized by individuals working for various organizations ranging from academic institutions and healthcare organizations to financial services and information technology companies. In May 2022, the <a href="https://www.tiobe.com/tiobe-index/">TIOBE</a> index (a measure of programming language popularity) demonstrated that R was the 13th most popular programming language. R’s popularity may result from its highly extensible nature that allows users to perform statistical data analysis, generate visualizations, and report findings.</p>
+</section>
+<section id="what-are-the-benefits-of-using-r" class="level2">
+<h2 class="anchored" data-anchor-id="what-are-the-benefits-of-using-r">What are the benefits of using R?</h2>
+<p>As mentioned in the previous section, R is an open-source software that is highly extensible. Thousands of extensions (also known as packages) can be installed, allowing one to increase the number of available applications. The main advantages of R include: 1. A <a href="https://community.rstudio.com/">large</a> <a href="https://www.r-project.org/help.html">community</a> of <a href="https://stackoverflow.com/">users and developers</a> that can provide learning support and assist with technical challenges, 2. The ability to perform reproducible research. 3. Its cross-platform nature, which means that it can be used on Linux, Windows, and Mac operating systems. 4. The ability to generate <a href="https://r-graph-gallery.com/">high-quality</a> <a href="https://r-charts.com/">graphics</a> from datasets of varying dimensions.</p>
+</section>
+<section id="im-looking-for-r.-where-can-i-get-it" class="level2">
+<h2 class="anchored" data-anchor-id="im-looking-for-r.-where-can-i-get-it">I’m looking for R. Where can I get it?</h2>
+<p>To install R on your personal computer, visit The R Project for Statistical Computing’s Comprehensive R Archive Network <a href="https://cran.r-project.org/">(CRAN)</a>, download the most recent version, and install it according to the website’s instructions. Once you download R, you can now experiment with some of its features.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://williamokech.netlify.app/posts/series_1/new_post_1/r_interface.png" class="img-fluid figure-img" style="width:90.0%"></p>
+</figure>
+</div>
+<p>Figure 1: The standard R interface (Windows)</p>
+<p>When you open R, you will notice that it has a basic graphical user interface (GUI), and the console displays a command-line interface (CLI; where each command is executed one at a time). This may be intimidating for new users; however, there is a workaround for those who are not comfortable working at the command line. For those who are not experienced programmers, R can be used with an application called RStudio.</p>
+</section>
+<section id="what-is-rstudio-and-how-does-it-differ-from-r" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-rstudio-and-how-does-it-differ-from-r">What is RStudio and how does it differ from R?</h2>
+<p>RStudio is an integrated development environment (IDE) for R that was developed by JJ Allaire. This software contains tools that make programming in R easier. RStudio extends R’s capabilities by making it easier to import data, write scripts, and generate visualizations and reports. The RStudio IDE is available for download from the <a href="https://www.rstudio.com/products/rstudio/download/">RStudio</a> website.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://williamokech.netlify.app/posts/series_1/new_post_1/rstudio_interface.png" class="img-fluid figure-img" style="width:90.0%"></p>
+</figure>
+</div>
+<p>Figure 2: RStudio interface with four main panes (Windows)</p>
+<p>Once installed, the basic layout of RStudio reveals that there is a script (text editor), console, navigation, and environment/history window pane. The script pane (text editor) in the upper-left allows one to write, open, edit, and execute more extended programs compared with using the standalone R software. The console pane (bottom-left) displays the script’s output and offers a command-line interface for typing code that is immediately executed. The environment pane (upper-right) displays information about the created objects, the history of executed code, and any external connections. Finally, the navigation pane (bottom-right) shows multiple tabs. Its primary tabs include the “Plot” tab, which shows graphics created by code, the “Packages” tab where the packages are installed, and the “Help” tab, which provides assistance for all things R and allows one to search the R documentation.</p>
+</section>
+<section id="what-are-the-primary-benefits-of-rstudio" class="level2">
+<h2 class="anchored" data-anchor-id="what-are-the-primary-benefits-of-rstudio">What are the primary benefits of RStudio?</h2>
+<p>RStudio allows one to create projects (a collection of related files stored within a working directory). Additionally, RStudio can be customized using options available under the “Tools” tab. Lastly, RStudio has Git integration that allows for version control where you can back up your code at different timepoints and effortlessly transfer code between computers.<sup>1</sup></p>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<p>Hopefully, this was a helpful introduction to R and RStudio. In subsequent blog posts, we will focus on:</p>
+<ol type="1">
+<li><a href="../../../posts/series_1/new_post_2/post_2.html">Part 1: Simple arithmetic</a>,</li>
+<li><a href="../../../posts/series_1/new_post_3/post_3.html">Part 2: Variables</a>,</li>
+<li><a href="../../../posts/series_1/new_post_4/post_4.html">Part 3: Data types</a>,</li>
+<li><a href="">Operators</a>,</li>
+<li><a href="">Vectors</a>,</li>
+<li><a href="">Missing data</a></li>
+</ol>
+</section>
+<section id="section" class="level2">
+<h2 class="anchored" data-anchor-id="section"></h2>
+
+
+</section>
+</section>
+
+
+<div id="quarto-appendix" class="default"><section class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>Summary of the benefits of R and RStudio obtained from Lander, J. P. (2017). R for everyone: Advanced analytics and graphics. Addison-Wesley.↩︎</p></li>
+</ol>
+</section></div> ]]></description>
+  <category>RStudio</category>
+  <category>R</category>
+  <category>Tutorial</category>
+  <category>Blog</category>
+  <guid>https://williamokech.netlify.app/posts/series_1/new_post_1/post_1.html</guid>
+  <pubDate>Tue, 07 Jun 2022 21:00:00 GMT</pubDate>
+  <media:content url="https://williamokech.netlify.app/posts/series_1/new_post_1/r_and_rstudio.png" medium="image" type="image/png" height="26" width="144"/>
+</item>
+</channel>
+</rss>

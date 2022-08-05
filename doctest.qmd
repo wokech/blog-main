@@ -1,0 +1,12 @@
+---
+title: "Quarto Demo"
+author: "Appsilon"
+date: "2022-5-24"
+format:
+    docx:
+        toc: true
+        toc-depth: 2
+        toc-title: Table of contents
+        number-sections: true
+        highlight-style: github
+---

@@ -7,10 +7,12 @@ website:
   description: "This is William Okech's personal Blog."
   navbar:
     right:
-      - about.qmd
+      - text: About Me
+        menu: 
+          - about.qmd
+          - text: Resume
+            file: blog_cv/blog_cv_jun_2022.pdf
       - blog.qmd
-      - text: Resume
-        file: blog_cv/blog_cv_jun_2022.pdf
       - text: Data Analysis Tools 
         menu: 
           - href: resources/r_rstudio_shiny.qmd
@@ -18,8 +20,6 @@ website:
           - href: resources/data_viz.qmd
           - href: resources/git_github.qmd
           - href: resources/quarto_links.qmd
-      - text: Data Science Resources
-        menu: 
           - href: resources/ml_and_ai.qmd
           - href: resources/sports_data_sci.qmd
           - href: resources/env_data_sci_gis.qmd
@@ -33,7 +33,15 @@ website:
       - icon: twitter
         href: https://twitter.com/willyokech
         aria-label: Twitter
-  google-analytics: "G-1VX0Q2FQEV"
+      - icon: rss
+        href: blog.xml
+  cookie-consent:
+    type: express
+    style: headline
+    palette: dark
+  google-analytics:
+    tracking-id: "G-1VX0Q2FQEV"
+    anonymize-ip: true
   page-footer:
     left: "Blog made using [Quarto](https://quarto.org/), by William Okech. License: [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/)"
     right:
