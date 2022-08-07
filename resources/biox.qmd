@@ -1,3 +1,5 @@
 ---
-title: "BioX (All things Biology)"
+title: "Bio-X: All things Biology"
 ---
+
+## Introduction

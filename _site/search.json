@@ -222,5 +222,61 @@
     "title": "Untitled",
     "section": "",
     "text": "1 + 1"
+  },
+  {
+    "objectID": "resources/data_analysis_tools.html",
+    "href": "resources/data_analysis_tools.html",
+    "title": "Data Analysis Tools",
+    "section": "",
+    "text": "Python\n\n\nData Visualization\n\n\nGit and GitHub\n\n\nQuarto"
+  },
+  {
+    "objectID": "resources/ds_ml_ai.html",
+    "href": "resources/ds_ml_ai.html",
+    "title": "Data Science, Machine Learning, and Artificial Intelligence Tools",
+    "section": "",
+    "text": "Environmental and Spatial Data Science\n\n\nSports Data Science"
+  },
+  {
+    "objectID": "resources/non_ac_reading.html",
+    "href": "resources/non_ac_reading.html",
+    "title": "Non-Academic Reading List",
+    "section": "",
+    "text": "Interesting Books"
+  },
+  {
+    "objectID": "resources/non_ac_reading.html#interesting-books",
+    "href": "resources/non_ac_reading.html#interesting-books",
+    "title": "Non-Academic Reading List",
+    "section": "Interesting Books",
+    "text": "Interesting Books"
+  },
+  {
+    "objectID": "resources/data_analysis_tools.html#python",
+    "href": "resources/data_analysis_tools.html#python",
+    "title": "Data Analysis Tools",
+    "section": "Python",
+    "text": "Python"
+  },
+  {
+    "objectID": "resources/data_analysis_tools.html#data-visualization",
+    "href": "resources/data_analysis_tools.html#data-visualization",
+    "title": "Data Analysis Tools",
+    "section": "Data Visualization",
+    "text": "Data Visualization"
+  },
+  {
+    "objectID": "resources/data_analysis_tools.html#git-and-github",
+    "href": "resources/data_analysis_tools.html#git-and-github",
+    "title": "Data Analysis Tools",
+    "section": "Git and GitHub",
+    "text": "Git and GitHub"
+  },
+  {
+    "objectID": "resources/data_analysis_tools.html#quarto",
+    "href": "resources/data_analysis_tools.html#quarto",
+    "title": "Data Analysis Tools",
+    "section": "Quarto",
+    "text": "Quarto"
   }
 ]

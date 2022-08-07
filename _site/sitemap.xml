@@ -14,11 +14,11 @@
   </url>
   <url>
     <loc>https://williamokech.netlify.app/about.html</loc>
-    <lastmod>2022-08-05T21:56:28.278Z</lastmod>
+    <lastmod>2022-08-07T21:05:38.009Z</lastmod>
   </url>
   <url>
     <loc>https://williamokech.netlify.app/blog.html</loc>
-    <lastmod>2022-08-06T19:38:38.116Z</lastmod>
+    <lastmod>2022-08-07T21:05:43.731Z</lastmod>
   </url>
   <url>
     <loc>https://williamokech.netlify.app/series_1.html</loc>
@@ -50,7 +50,7 @@
   </url>
   <url>
     <loc>https://williamokech.netlify.app/resources/biox.html</loc>
-    <lastmod>2022-08-04T20:57:58.538Z</lastmod>
+    <lastmod>2022-08-07T21:06:11.049Z</lastmod>
   </url>
   <url>
     <loc>https://williamokech.netlify.app/resources/data_viz.html</loc>
@@ -70,7 +70,7 @@
   </url>
   <url>
     <loc>https://williamokech.netlify.app/resources/non_ac_reading.html</loc>
-    <lastmod>2022-08-04T20:15:30.181Z</lastmod>
+    <lastmod>2022-08-07T21:07:55.419Z</lastmod>
   </url>
   <url>
     <loc>https://williamokech.netlify.app/resources/python.html</loc>
@@ -87,5 +87,13 @@
   <url>
     <loc>https://williamokech.netlify.app/resources/sports_data_sci.html</loc>
     <lastmod>2022-08-04T20:15:37.105Z</lastmod>
+  </url>
+  <url>
+    <loc>https://williamokech.netlify.app/resources/data_analysis_tools.html</loc>
+    <lastmod>2022-08-07T21:08:13.604Z</lastmod>
+  </url>
+  <url>
+    <loc>https://williamokech.netlify.app/resources/ds_ml_ai.html</loc>
+    <lastmod>2022-08-07T21:06:02.535Z</lastmod>
   </url>
 </urlset>

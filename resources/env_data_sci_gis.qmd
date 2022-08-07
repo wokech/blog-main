@@ -1,4 +1,0 @@
----
-title: "Environmental Data Science and GIS"
----
-

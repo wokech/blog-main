@@ -1,0 +1,13 @@
+---
+title: "Data Analysis Tools"
+---
+
+## R, RStudio, and Shiny
+
+## Python
+
+## Data Visualization
+
+## Git and GitHub
+
+## Quarto
