@@ -278,5 +278,19 @@
     "title": "Data Analysis Tools",
     "section": "Quarto",
     "text": "Quarto"
+  },
+  {
+    "objectID": "resources/ds_ml_ai.html#environmental-and-spatial-data-science",
+    "href": "resources/ds_ml_ai.html#environmental-and-spatial-data-science",
+    "title": "Data Science, Machine Learning, and Artificial Intelligence Tools",
+    "section": "Environmental and Spatial Data Science",
+    "text": "Environmental and Spatial Data Science"
+  },
+  {
+    "objectID": "resources/ds_ml_ai.html#sports-data-science",
+    "href": "resources/ds_ml_ai.html#sports-data-science",
+    "title": "Data Science, Machine Learning, and Artificial Intelligence Tools",
+    "section": "Sports Data Science",
+    "text": "Sports Data Science"
   }
 ]

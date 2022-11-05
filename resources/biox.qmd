@@ -1,12 +1,5 @@
 ---
-title: "Bio-X: All things Biology"
+title: "Bio-X: All things Biotech/Techbio"
 ---
 
-
 ## Introduction
-
-
-
-
-
-

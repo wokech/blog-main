@@ -16,7 +16,6 @@ website:
       - text: Resources 
         menu: 
           - href: resources/data_analysis_tools.qmd
-          - href: resources/ds_ml_ai.qmd
           - href: resources/biox.qmd
           - href: resources/non_ac_reading.qmd
       - icon: github

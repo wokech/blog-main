@@ -1,11 +1,3 @@
 ---
 title: "About Me"
 ---
-
-# Projects
-
-# Publications
-
-# Education
-
-# Employment History
