@@ -58,8 +58,8 @@ Hopefully, this was a helpful introduction to R and RStudio. In subsequent blog 
 1.  [Part 1: Simple arithmetic](/posts/series_1/new_post_2/post_2.html),
 2.  [Part 2: Variables](/posts/series_1/new_post_3/post_3.html),
 3.  [Part 3: Data types](/posts/series_1/new_post_4/post_4.html),
-4.  [Operators](),
-5.  [Vectors](),
-6.  [Missing data]()
+4.  [Part 4: Operators...coming soon](),
+5.  [Part 5: Vectors...coming soon](),
+6.  [Part 6: Missing data...coming soon]()
 
 ## 

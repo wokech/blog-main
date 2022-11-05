@@ -1,5 +1,5 @@
 ---
-title: "Bio-X: All things Biotech/Techbio"
+title: "Bio-X: All things Bio"
 ---
 
-## Introduction
+Links to helpful websites related to Synthetic Biology and Machine Learning for Health

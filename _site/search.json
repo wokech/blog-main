@@ -4,14 +4,14 @@
     "href": "about.html",
     "title": "About Me",
     "section": "",
-    "text": "Publications\n\n\nEducation\n\n\nEmployment History"
+    "text": "Resume"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "William Okech",
     "section": "",
-    "text": "I am a research scientist from Kenya interested in data visualization (R/RStudio) and developing interactive dashboards (Shiny). This blog aims to introduce readers to the basics of data analysis and visualization."
+    "text": "I am a research scientist with a background in Biomedical Engineering. My primary interests include the following:\n• Synthetic Biology\n• Machine Learning for Health\n• Data Analysis and Visualization\nThis blog aims to promote data-driven decision-making and introduce readers to data analysis and visualization basics. Additionally, I will provide a periodic summary of recent advances in Synthetic Biology and Machine Learning for Health."
   },
   {
     "objectID": "posts/blog_post_1/index.html",
@@ -228,7 +228,7 @@
     "href": "resources/data_analysis_tools.html",
     "title": "Data Analysis Tools",
     "section": "",
-    "text": "Python\n\n\nData Visualization\n\n\nGit and GitHub\n\n\nQuarto"
+    "text": "Links to helpful websites and tutorials related to Data Analysis"
   },
   {
     "objectID": "resources/ds_ml_ai.html",
@@ -292,5 +292,26 @@
     "title": "Data Science, Machine Learning, and Artificial Intelligence Tools",
     "section": "Sports Data Science",
     "text": "Sports Data Science"
+  },
+  {
+    "objectID": "resources/reading_list.html#book-recommendations",
+    "href": "resources/reading_list.html#book-recommendations",
+    "title": "Personal Reading List",
+    "section": "Book Recommendations",
+    "text": "Book Recommendations"
+  },
+  {
+    "objectID": "resources/biox.html",
+    "href": "resources/biox.html",
+    "title": "Bio-X: All things Bio",
+    "section": "",
+    "text": "Links to helpful websites related to Synthetic Biology and Machine Learning for Health"
+  },
+  {
+    "objectID": "resources/data_analysis_tools.html#r-rstudio-and-shiny",
+    "href": "resources/data_analysis_tools.html#r-rstudio-and-shiny",
+    "title": "Data Analysis Tools",
+    "section": "R, RStudio, and Shiny",
+    "text": "R, RStudio, and Shiny"
   }
 ]

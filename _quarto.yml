@@ -7,17 +7,14 @@ website:
   description: "This is William Okech's personal Blog."
   navbar:
     right:
-      - text: About Me
-        menu: 
-          - about.qmd
-          - text: Resume
-            file: blog_cv/blog_cv_jun_2022.pdf
+      - text: Resume
+        file: blog_cv/blog_cv_jun_2022.pdf
       - blog.qmd
       - text: Resources 
         menu: 
           - href: resources/data_analysis_tools.qmd
           - href: resources/biox.qmd
-          - href: resources/non_ac_reading.qmd
+          - href: resources/reading_list.qmd
       - icon: github
         href: https://github.com/wokech
         aria-label: Github
