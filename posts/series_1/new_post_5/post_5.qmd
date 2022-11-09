@@ -29,7 +29,7 @@ Arithmetic operators are used to perform mathematical operations. These operator
 
 ### 2. Relational Operators
 
-These are used to find the relationship between 2 variables and compare objects. The output of these comparisons is Boolean (`TRUE` or `FALSE`). The table below describes the most common relational operators.
+Relational operators are used to find the relationship between 2 variables and compare objects. The output of these comparisons is Boolean (`TRUE` or `FALSE`). The table below describes the most common relational operators.
 
 | Relational Operator |       Description        |
 |:-------------------:|:------------------------:|
@@ -40,7 +40,7 @@ These are used to find the relationship between 2 variables and compare objects.
 |         ==          |         Equal to         |
 |         !=          |       Not Equal to       |
 
-## Examples
+### Examples
 
 ```{r}
 x <- 227
@@ -85,7 +85,7 @@ x != 227
 
 ### 3. Logical Operators
 
-This is used to specify multiple conditions between objects. Logical operators work with basic data types such as logical, numeric, and complex data types. This returns `TRUE` or `FALSE` values. Numbers greater that `1` are `TRUE` and `0` equals `FALSE`. The table below describes the most common logical operators.
+Logical operators are used to specify multiple conditions between objects. Logical operators work with basic data types such as logical, numeric, and complex data types. This returns `TRUE` or `FALSE` values. Numbers greater that `1` are `TRUE` and `0` equals `FALSE`. The table below describes the most common logical operators.
 
 | Logical Operator |       Description        |
 |:----------------:|:------------------------:|
@@ -95,7 +95,7 @@ This is used to specify multiple conditions between objects. Logical operators w
 |        &         | Element-wise logical AND |
 |        &&        |       Logical AND        |
 
-## Examples
+### Examples
 
 ```{r}
 vector_1 <- c(0,2)
@@ -142,12 +142,12 @@ These operators assign values to variables. A more comprehensive review can be o
 These are helpful operators for working in that can perform a variety of functions. A few common miscellaneous operators are described below.
 
 | Miscellaneous Operator |                          Description                           |
-|:------------------:|:--------------------------------------------------:|
+|:-------------------:|:-------------------------------------------------:|
 |          %\*%          | Matrix multiplication (to be discussed in subsequent chapters) |
 |          %in%          |               Does an element belong to a vector               |
 |           :            |                      Generate a sequence                       |
 
-## Examples
+### Examples
 
 Sequence
 
@@ -157,6 +157,7 @@ b <- 4:10
 ```
 
 Element in a vector
+
 ```{r}
 a %in% b
 9 %in% b

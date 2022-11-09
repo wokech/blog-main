@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://williamokech.netlify.app/index.html</loc>
-    <lastmod>2022-11-05T18:48:28.683Z</lastmod>
+    <lastmod>2022-11-09T15:02:40.582Z</lastmod>
   </url>
   <url>
     <loc>https://williamokech.netlify.app/reading_list.html</loc>
@@ -18,11 +18,11 @@
   </url>
   <url>
     <loc>https://williamokech.netlify.app/blog.html</loc>
-    <lastmod>2022-11-05T18:48:42.427Z</lastmod>
+    <lastmod>2022-11-09T15:02:42.514Z</lastmod>
   </url>
   <url>
     <loc>https://williamokech.netlify.app/series_1.html</loc>
-    <lastmod>2022-11-05T17:13:39.568Z</lastmod>
+    <lastmod>2022-11-09T15:02:44.157Z</lastmod>
   </url>
   <url>
     <loc>https://williamokech.netlify.app/posts/series_1/new_post_2/post_2.html</loc>
@@ -90,7 +90,7 @@
   </url>
   <url>
     <loc>https://williamokech.netlify.app/resources/data_analysis_tools.html</loc>
-    <lastmod>2022-11-05T18:40:49.973Z</lastmod>
+    <lastmod>2022-11-09T15:01:17.785Z</lastmod>
   </url>
   <url>
     <loc>https://williamokech.netlify.app/resources/ds_ml_ai.html</loc>
@@ -99,5 +99,9 @@
   <url>
     <loc>https://williamokech.netlify.app/resources/reading_list.html</loc>
     <lastmod>2022-11-05T18:48:25.616Z</lastmod>
+  </url>
+  <url>
+    <loc>https://williamokech.netlify.app/posts/series_1/new_post_5/post_5.html</loc>
+    <lastmod>2022-11-09T15:02:50.206Z</lastmod>
   </url>
 </urlset>

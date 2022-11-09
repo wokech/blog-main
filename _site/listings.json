@@ -12,6 +12,7 @@
   {
     "listing": "/blog.html",
     "items": [
+      "/posts/series_1/new_post_5/post_5.html",
       "/posts/series_2/new_post_1/post_1.html",
       "/posts/series_1/new_post_4/post_4.html",
       "/posts/series_1/new_post_3/post_3.html",
@@ -25,7 +26,8 @@
       "/posts/series_1/new_post_1/post_1.html",
       "/posts/series_1/new_post_2/post_2.html",
       "/posts/series_1/new_post_3/post_3.html",
-      "/posts/series_1/new_post_4/post_4.html"
+      "/posts/series_1/new_post_4/post_4.html",
+      "/posts/series_1/new_post_5/post_5.html"
     ]
   },
   {

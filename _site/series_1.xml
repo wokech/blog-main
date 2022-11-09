@@ -10,7 +10,267 @@
 <atom:link href="https://williamokech.netlify.app/series_1.xml" rel="self" type="application/rss+xml"/>
 <description>This is William Okech's personal Blog.</description>
 <generator>quarto-0.9.505</generator>
-<lastBuildDate>Wed, 22 Jun 2022 21:00:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 08 Nov 2022 21:00:00 GMT</lastBuildDate>
+<item>
+  <title>The Basics of R and RStudio</title>
+  <dc:creator>William Okech</dc:creator>
+  <link>https://williamokech.netlify.app/posts/series_1/new_post_5/post_5.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>R has many different types of operators that can perform different tasks. Here we will focus on 5 major types of operators. The major types of operators are:</p>
+<ol type="1">
+<li><p>Arithmetic,</p></li>
+<li><p>Relational,</p></li>
+<li><p>Logical,</p></li>
+<li><p>Assignment, and</p></li>
+<li><p>Miscellaneous.</p></li>
+</ol>
+<section id="arithmetic-operators" class="level3">
+<h3 class="anchored" data-anchor-id="arithmetic-operators">1. Arithmetic Operators</h3>
+<p>Arithmetic operators are used to perform mathematical operations. These operators have been highlighted in <a href="../../../posts/series_1/new_post_2/post_2.html">Part 1</a> of the series.</p>
+</section>
+<section id="relational-operators" class="level3">
+<h3 class="anchored" data-anchor-id="relational-operators">2. Relational Operators</h3>
+<p>Relational operators are used to find the relationship between 2 variables and compare objects. The output of these comparisons is Boolean (<code>TRUE</code> or <code>FALSE</code>). The table below describes the most common relational operators.</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">Relational Operator</th>
+<th style="text-align: center;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">&lt;</td>
+<td style="text-align: center;">Less than</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">&gt;</td>
+<td style="text-align: center;">Greater than</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">&lt;=</td>
+<td style="text-align: center;">Less than or equal to</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">&gt;=</td>
+<td style="text-align: center;">Greater than or equal to</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">==</td>
+<td style="text-align: center;">Equal to</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">!=</td>
+<td style="text-align: center;">Not Equal to</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="examples" class="level2">
+<h2 class="anchored" data-anchor-id="examples">Examples</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1">x <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="dv" style="color: #AD0000;">227</span></span>
+<span id="cb1-2">y <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="dv" style="color: #AD0000;">639</span></span></code></pre></div>
+</div>
+<p>Less than</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1">x<span class="sc" style="color: #5E5E5E;">&lt;</span>y</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] TRUE</code></pre>
+</div>
+</div>
+<p>Greater than</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1">x<span class="sc" style="color: #5E5E5E;">&gt;</span>y</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] FALSE</code></pre>
+</div>
+</div>
+<p>Less than or equal to</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1">x <span class="sc" style="color: #5E5E5E;">&lt;=</span> <span class="dv" style="color: #AD0000;">300</span></span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] TRUE</code></pre>
+</div>
+</div>
+<p>Greater than or equal to</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb8" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1">y <span class="sc" style="color: #5E5E5E;">&gt;=</span> <span class="dv" style="color: #AD0000;">700</span></span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] FALSE</code></pre>
+</div>
+</div>
+<p>Equal to</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb10" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1">y <span class="sc" style="color: #5E5E5E;">==</span> <span class="dv" style="color: #AD0000;">639</span></span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] TRUE</code></pre>
+</div>
+</div>
+<p>Not Equal to</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb12" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1">x <span class="sc" style="color: #5E5E5E;">!=</span> <span class="dv" style="color: #AD0000;">227</span></span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] FALSE</code></pre>
+</div>
+</div>
+<section id="logical-operators" class="level3">
+<h3 class="anchored" data-anchor-id="logical-operators">3. Logical Operators</h3>
+<p>Logical operators are used to specify multiple conditions between objects. Logical operators work with basic data types such as logical, numeric, and complex data types. This returns <code>TRUE</code> or <code>FALSE</code> values. Numbers greater that <code>1</code> are <code>TRUE</code> and <code>0</code> equals <code>FALSE</code>. The table below describes the most common logical operators.</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">Logical Operator</th>
+<th style="text-align: center;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">!</td>
+<td style="text-align: center;">Logical NOT</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">|</td>
+<td style="text-align: center;">Element-wise logical OR</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">||</td>
+<td style="text-align: center;">Logical OR</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">&amp;</td>
+<td style="text-align: center;">Element-wise logical AND</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">&amp;&amp;</td>
+<td style="text-align: center;">Logical AND</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="examples-1" class="level2">
+<h2 class="anchored" data-anchor-id="examples-1">Examples</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb14" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1">vector_1 <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">c</span>(<span class="dv" style="color: #AD0000;">0</span>,<span class="dv" style="color: #AD0000;">2</span>)</span>
+<span id="cb14-2">vector_2 <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">c</span>(<span class="dv" style="color: #AD0000;">1</span>,<span class="dv" style="color: #AD0000;">0</span>)</span></code></pre></div>
+</div>
+<p>Logical NOT</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb15" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><span class="sc" style="color: #5E5E5E;">!</span>vector_1</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1]  TRUE FALSE</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb17" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><span class="sc" style="color: #5E5E5E;">!</span>vector_2</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] FALSE  TRUE</code></pre>
+</div>
+</div>
+<p>Logical OR</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb19" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1">vector_1 <span class="sc" style="color: #5E5E5E;">|</span> vector_2</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] TRUE TRUE</code></pre>
+</div>
+</div>
+<p>Logical AND</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb21" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb21-1">vector_1 <span class="sc" style="color: #5E5E5E;">&amp;</span> vector_2</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] FALSE FALSE</code></pre>
+</div>
+</div>
+<p>Element-wise logical OR</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb23" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1">vector_1 <span class="sc" style="color: #5E5E5E;">||</span> vector_2</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] TRUE</code></pre>
+</div>
+</div>
+<p>Element-wise logical AND</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb25" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb25-1">vector_1 <span class="sc" style="color: #5E5E5E;">&amp;&amp;</span> vector_2</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] FALSE</code></pre>
+</div>
+</div>
+<section id="assignment-operators" class="level3">
+<h3 class="anchored" data-anchor-id="assignment-operators">4. Assignment Operators</h3>
+<p>These operators assign values to variables. A more comprehensive review can be obtained in <a href="../../../posts/series_1/new_post_3/post_3.html">Part 2</a> of the series.</p>
+</section>
+<section id="miscellaneous-operators" class="level3">
+<h3 class="anchored" data-anchor-id="miscellaneous-operators">5. Miscellaneous Operators</h3>
+<p>These are helpful operators for working in that can perform a variety of functions. A few common miscellaneous operators are described below.</p>
+<table class="table">
+<colgroup>
+<col style="width: 27%">
+<col style="width: 72%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Miscellaneous Operator</th>
+<th style="text-align: center;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">%*%</td>
+<td style="text-align: center;">Matrix multiplication (to be discussed in subsequent chapters)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">%in%</td>
+<td style="text-align: center;">Does an element belong to a vector</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">:</td>
+<td style="text-align: center;">Generate a sequence</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="examples-2" class="level2">
+<h2 class="anchored" data-anchor-id="examples-2">Examples</h2>
+<p>Sequence</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb27" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb27-1">a <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="dv" style="color: #AD0000;">1</span><span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">8</span></span>
+<span id="cb27-2">b <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="dv" style="color: #AD0000;">4</span><span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">10</span></span></code></pre></div>
+</div>
+<p>Element in a vector</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb28" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb28-1">a <span class="sc" style="color: #5E5E5E;">%in%</span> b</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] FALSE FALSE FALSE  TRUE  TRUE  TRUE  TRUE  TRUE</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb30" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb30-1"><span class="dv" style="color: #AD0000;">9</span> <span class="sc" style="color: #5E5E5E;">%in%</span> b</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] TRUE</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb32" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb32-1"><span class="dv" style="color: #AD0000;">9</span> <span class="sc" style="color: #5E5E5E;">%in%</span> a</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] FALSE</code></pre>
+</div>
+</div>
+
+
+</section>
+
+ ]]></description>
+  <category>RStudio</category>
+  <category>R</category>
+  <category>Tutorial</category>
+  <category>Blog</category>
+  <guid>https://williamokech.netlify.app/posts/series_1/new_post_5/post_5.html</guid>
+  <pubDate>Tue, 08 Nov 2022 21:00:00 GMT</pubDate>
+  <media:content url="https://williamokech.netlify.app/posts/series_1/new_post_5/r_and_rstudio.png" medium="image" type="image/png" height="26" width="144"/>
+</item>
 <item>
   <title>The Basics of R and RStudio</title>
   <dc:creator>William Okech</dc:creator>
