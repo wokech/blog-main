@@ -1,0 +1,28 @@
+---
+title: "The Basics of R and RStudio"
+subtitle: "Part 6: Missing Data"
+author: "William Okech"
+date: "2022-11-12"
+image: "r_and_rstudio.png"
+categories: [RStudio, R, Tutorial, Blog]
+toc: true
+draft: false
+---
+
+## Introduction
+
+R has two types of missing data, NA and NULL.[^1]
+
+[^1]: Adapted from Lander, J. P. (2014) R for everyone: Advanced analytics and graphics. Addison-Wesley.
+
+### NA
+
+R uses `NA` to represent missing data. The `NA` appears as another element of a vector. To test each element for missingness we use `is.na()`. Generally, we can use tools such as `mi`, `mice`, and `Amelia` (which will be discussed later) to deal with missing data. The deletion of this missing data may lead to bias or data loss, so we need to be very careful when handling it. In subsequent blog posts, we will look at the use of imputation to deal with missing data.
+
+### NULL
+
+`NULL` represents nothingness or the "absence of anything". [^2]
+
+[^2]: Adapted from Lander, J. P. (2014) R for everyone: Advanced analytics and graphics. Addison-Wesley.
+
+It does not mean missing but represents nothing. `NULL` cannot exist within a vector because it disappears.
