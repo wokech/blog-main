@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="William Okech">
-<meta name="dcterms.date" content="2022-11-12">
+<meta name="dcterms.date" content="2022-11-14">
 
 <title>William Okech - The Basics of R and RStudio</title>
 <style>
@@ -173,7 +173,7 @@ cookieconsent.run({
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">November 12, 2022</p>
+        <p class="date">November 14, 2022</p>
       </div>
     </div>
       
@@ -188,11 +188,10 @@ cookieconsent.run({
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a>
-  <ul class="collapse">
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
   <li><a href="#na" id="toc-na" class="nav-link" data-scroll-target="#na">NA</a></li>
   <li><a href="#null" id="toc-null" class="nav-link" data-scroll-target="#null">NULL</a></li>
-  </ul></li>
+  <li><a href="#supplementary-reading" id="toc-supplementary-reading" class="nav-link" data-scroll-target="#supplementary-reading">Supplementary Reading</a></li>
   </ul>
 </nav>
     </div>
@@ -205,17 +204,24 @@ cookieconsent.run({
 <section id="introduction" class="level2">
 <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
 <p>R has two types of missing data, NA and NULL.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
-<section id="na" class="level3">
-<h3 class="anchored" data-anchor-id="na">NA</h3>
+</section>
+<section id="na" class="level2">
+<h2 class="anchored" data-anchor-id="na">NA</h2>
 <p>R uses <code>NA</code> to represent missing data. The <code>NA</code> appears as another element of a vector. To test each element for missingness we use <code>is.na()</code>. Generally, we can use tools such as <code>mi</code>, <code>mice</code>, and <code>Amelia</code> (which will be discussed later) to deal with missing data. The deletion of this missing data may lead to bias or data loss, so we need to be very careful when handling it. In subsequent blog posts, we will look at the use of imputation to deal with missing data.</p>
 </section>
-<section id="null" class="level3">
-<h3 class="anchored" data-anchor-id="null">NULL</h3>
+<section id="null" class="level2">
+<h2 class="anchored" data-anchor-id="null">NULL</h2>
 <p><code>NULL</code> represents nothingness or the “absence of anything”. <a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p>
 <p>It does not mean missing but represents nothing. <code>NULL</code> cannot exist within a vector because it disappears.</p>
-
-
 </section>
+<section id="supplementary-reading" class="level2">
+<h2 class="anchored" data-anchor-id="supplementary-reading">Supplementary Reading</h2>
+<ol type="1">
+<li>A great post from the blog “Data Science by Design” on the role of Missingness.</li>
+</ol>
+<p>https://datasciencebydesign.org/blog/when-we-miss-missingness</p>
+
+
 </section>
 
 

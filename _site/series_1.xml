@@ -10,7 +10,528 @@
 <atom:link href="https://williamokech.netlify.app/series_1.xml" rel="self" type="application/rss+xml"/>
 <description>This is William Okech's personal Blog.</description>
 <generator>quarto-0.9.505</generator>
-<lastBuildDate>Fri, 11 Nov 2022 21:00:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 15 Nov 2022 21:00:00 GMT</lastBuildDate>
+<item>
+  <title>The Basics of R and RStudio</title>
+  <dc:creator>William Okech</dc:creator>
+  <link>https://williamokech.netlify.app/posts/series_1/new_post_8/post_8.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>Data structures in R are tools for storing and organizing multiple values.</p>
+<p>They help to organize stored data in a way that the data can be used more effectively. Data structures vary according to the number of dimensions and the data types (heterogeneous or homogeneous) contained. The primary data structures are:</p>
+<ol type="1">
+<li><p>Vectors (<a href="posts/series_1/new_post_6/post_6.html">link</a>)</p></li>
+<li><p>Lists</p></li>
+<li><p>Data frames</p></li>
+<li><p>Matrices</p></li>
+<li><p>Arrays</p></li>
+<li><p>Factors</p></li>
+</ol>
+</section>
+<section id="data-structures" class="level2">
+<h2 class="anchored" data-anchor-id="data-structures">Data structures</h2>
+<section id="vectors" class="level3">
+<h3 class="anchored" data-anchor-id="vectors">1. Vectors</h3>
+<p>Discussed in a previous <a href="posts/series_1/new_post_6/post_6.html">post</a></p>
+</section>
+<section id="lists" class="level3">
+<h3 class="anchored" data-anchor-id="lists">2. Lists</h3>
+<p>Lists are objects/containers that hold elements of the same or different types. They can containing strings, numbers, vectors, matrices, functions, or other lists. Lists are created with the <code>list()</code> function</p>
+<section id="examples" class="level4">
+<h4 class="anchored" data-anchor-id="examples">Examples</h4>
+</section>
+<section id="a.-three-element-list" class="level4">
+<h4 class="anchored" data-anchor-id="a.-three-element-list">a. Three element list</h4>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1">list_1 <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">list</span>(<span class="dv" style="color: #AD0000;">10</span>, <span class="dv" style="color: #AD0000;">30</span>, <span class="dv" style="color: #AD0000;">50</span>)</span></code></pre></div>
+</div>
+</section>
+<section id="b.-single-element-list" class="level4">
+<h4 class="anchored" data-anchor-id="b.-single-element-list">b. Single element list</h4>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1">list_2 <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">list</span>(<span class="fu" style="color: #4758AB;">c</span>(<span class="dv" style="color: #AD0000;">10</span>, <span class="dv" style="color: #AD0000;">30</span>, <span class="dv" style="color: #AD0000;">50</span>))</span></code></pre></div>
+</div>
+</section>
+<section id="c.-three-element-list" class="level4">
+<h4 class="anchored" data-anchor-id="c.-three-element-list">c.&nbsp;Three element list</h4>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1">list_3 <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">list</span>(<span class="dv" style="color: #AD0000;">1</span><span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">3</span>, <span class="fu" style="color: #4758AB;">c</span>(<span class="dv" style="color: #AD0000;">50</span>,<span class="dv" style="color: #AD0000;">40</span>), <span class="dv" style="color: #AD0000;">3</span><span class="sc" style="color: #5E5E5E;">:-</span><span class="dv" style="color: #AD0000;">5</span>)</span></code></pre></div>
+</div>
+</section>
+<section id="d.-list-with-elements-of-different-types" class="level4">
+<h4 class="anchored" data-anchor-id="d.-list-with-elements-of-different-types">d.&nbsp;List with elements of different types</h4>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1">list_4 <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">list</span>(<span class="fu" style="color: #4758AB;">c</span>(<span class="st" style="color: #20794D;">"a"</span>, <span class="st" style="color: #20794D;">"b"</span>, <span class="st" style="color: #20794D;">"c"</span>), <span class="dv" style="color: #AD0000;">5</span><span class="sc" style="color: #5E5E5E;">:-</span><span class="dv" style="color: #AD0000;">1</span>)</span></code></pre></div>
+</div>
+</section>
+<section id="e.-list-which-contains-a-list" class="level4">
+<h4 class="anchored" data-anchor-id="e.-list-which-contains-a-list">e. List which contains a list</h4>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1">list_5 <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">list</span>(<span class="fu" style="color: #4758AB;">c</span>(<span class="st" style="color: #20794D;">"a"</span>, <span class="st" style="color: #20794D;">"b"</span>, <span class="st" style="color: #20794D;">"c"</span>), <span class="dv" style="color: #AD0000;">5</span><span class="sc" style="color: #5E5E5E;">:-</span><span class="dv" style="color: #AD0000;">1</span>, list_1)</span></code></pre></div>
+</div>
+</section>
+<section id="f.-set-names-for-the-list-elements" class="level4">
+<h4 class="anchored" data-anchor-id="f.-set-names-for-the-list-elements">f.&nbsp;Set names for the list elements</h4>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><span class="fu" style="color: #4758AB;">names</span>(list_5)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>NULL</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb8" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><span class="fu" style="color: #4758AB;">names</span>(list_5) <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">c</span>(<span class="st" style="color: #20794D;">"character vector"</span>, <span class="st" style="color: #20794D;">"numeric vector"</span>, <span class="st" style="color: #20794D;">"list"</span>)</span>
+<span id="cb8-2"><span class="fu" style="color: #4758AB;">names</span>(list_5)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "character vector" "numeric vector"   "list"            </code></pre>
+</div>
+</div>
+</section>
+<section id="g.-access-elements" class="level4">
+<h4 class="anchored" data-anchor-id="g.-access-elements">g. Access elements</h4>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb10" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1">list_5[[<span class="dv" style="color: #AD0000;">1</span>]]</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "a" "b" "c"</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb12" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1">list_5[[<span class="st" style="color: #20794D;">"character vector"</span>]]</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "a" "b" "c"</code></pre>
+</div>
+</div>
+</section>
+<section id="h.-length-of-list" class="level4">
+<h4 class="anchored" data-anchor-id="h.-length-of-list">h. Length of list</h4>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb14" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><span class="fu" style="color: #4758AB;">length</span>(list_1)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 3</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb16" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><span class="fu" style="color: #4758AB;">length</span>(list_5)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 3</code></pre>
+</div>
+</div>
+</section>
+</section>
+<section id="data-frames" class="level3">
+<h3 class="anchored" data-anchor-id="data-frames">3. Data frames</h3>
+<p>A data frame is one of the most common data objects used to store tabular data in R. Tabular data has rows representing observations and columns representing variables. Dataframes contain lists of equal-length vectors. Each column holds a different type of data, but within each column, the elements must be of the same type. The most common data frame characteristics are listed below:</p>
+<p>• Columns should have a name;</p>
+<p>• Row names should be unique;</p>
+<p>• Various data can be stored (such as numeric, factor, and character);</p>
+<p>• The individual columns should contain the same number of data items.</p>
+</section>
+<section id="creation-of-data-frames" class="level3">
+<h3 class="anchored" data-anchor-id="creation-of-data-frames">Creation of data frames</h3>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb18" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1">level <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">c</span>(<span class="st" style="color: #20794D;">"Low"</span>, <span class="st" style="color: #20794D;">"Mid"</span>, <span class="st" style="color: #20794D;">"High"</span>)</span>
+<span id="cb18-2">language <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">c</span>(<span class="st" style="color: #20794D;">"R"</span>, <span class="st" style="color: #20794D;">"RStudio"</span>, <span class="st" style="color: #20794D;">"Shiny"</span>)</span>
+<span id="cb18-3">age <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">c</span>(<span class="dv" style="color: #AD0000;">25</span>, <span class="dv" style="color: #AD0000;">36</span>, <span class="dv" style="color: #AD0000;">47</span>)</span>
+<span id="cb18-4"></span>
+<span id="cb18-5">df_1 <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">data.frame</span>(level, language, age)</span></code></pre></div>
+</div>
+</section>
+<section id="functions-used-to-manipulate-data-frames" class="level3">
+<h3 class="anchored" data-anchor-id="functions-used-to-manipulate-data-frames">Functions used to manipulate data frames</h3>
+<section id="a.-number-of-rows" class="level4">
+<h4 class="anchored" data-anchor-id="a.-number-of-rows">a. Number of rows</h4>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb19" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><span class="fu" style="color: #4758AB;">nrow</span>(df_1)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 3</code></pre>
+</div>
+</div>
+</section>
+<section id="b.-number-of-columns" class="level4">
+<h4 class="anchored" data-anchor-id="b.-number-of-columns">b. Number of columns</h4>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb21" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb21-1"><span class="fu" style="color: #4758AB;">ncol</span>(df_1)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 3</code></pre>
+</div>
+</div>
+</section>
+<section id="c.-dimensions" class="level4">
+<h4 class="anchored" data-anchor-id="c.-dimensions">c.&nbsp;Dimensions</h4>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb23" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1"><span class="fu" style="color: #4758AB;">dim</span>(df_1)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 3 3</code></pre>
+</div>
+</div>
+</section>
+<section id="d.-class-of-data-frame" class="level4">
+<h4 class="anchored" data-anchor-id="d.-class-of-data-frame">d.&nbsp;Class of data frame</h4>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb25" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb25-1"><span class="fu" style="color: #4758AB;">class</span>(df_1)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "data.frame"</code></pre>
+</div>
+</div>
+</section>
+<section id="e.-column-names" class="level4">
+<h4 class="anchored" data-anchor-id="e.-column-names">e. Column names</h4>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb27" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb27-1"><span class="fu" style="color: #4758AB;">colnames</span>(df_1)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "level"    "language" "age"     </code></pre>
+</div>
+</div>
+</section>
+<section id="f.-row-names" class="level4">
+<h4 class="anchored" data-anchor-id="f.-row-names">f.&nbsp;Row names</h4>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb29" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb29-1"><span class="fu" style="color: #4758AB;">rownames</span>(df_1)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "1" "2" "3"</code></pre>
+</div>
+</div>
+</section>
+<section id="g.-top-and-bottom-values" class="level4">
+<h4 class="anchored" data-anchor-id="g.-top-and-bottom-values">g. Top and bottom values</h4>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb31" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb31-1"><span class="fu" style="color: #4758AB;">head</span>(df_1, <span class="at" style="color: #657422;">n=</span><span class="dv" style="color: #AD0000;">2</span>)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>  level language age
+1   Low        R  25
+2   Mid  RStudio  36</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb33" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb33-1"><span class="fu" style="color: #4758AB;">tail</span>(df_1, <span class="at" style="color: #657422;">n=</span><span class="dv" style="color: #AD0000;">2</span>)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>  level language age
+2   Mid  RStudio  36
+3  High    Shiny  47</code></pre>
+</div>
+</div>
+</section>
+<section id="h.-access-columns" class="level4">
+<h4 class="anchored" data-anchor-id="h.-access-columns">h. Access columns</h4>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb35" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb35-1">df_1<span class="sc" style="color: #5E5E5E;">$</span>level</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Low"  "Mid"  "High"</code></pre>
+</div>
+</div>
+</section>
+<section id="i.-access-individual-elements" class="level4">
+<h4 class="anchored" data-anchor-id="i.-access-individual-elements">i. Access individual elements</h4>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb37" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb37-1">df_1[<span class="dv" style="color: #AD0000;">3</span>,<span class="dv" style="color: #AD0000;">2</span>]</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Shiny"</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb39" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb39-1">df_1[<span class="dv" style="color: #AD0000;">2</span>, <span class="dv" style="color: #AD0000;">1</span><span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">2</span>]</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>  level language
+2   Mid  RStudio</code></pre>
+</div>
+</div>
+</section>
+<section id="j.-access-columns-with-index" class="level4">
+<h4 class="anchored" data-anchor-id="j.-access-columns-with-index">j. Access columns with index</h4>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb41" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb41-1">df_1[, <span class="dv" style="color: #AD0000;">3</span>]</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 25 36 47</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb43" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb43-1">df_1[, <span class="fu" style="color: #4758AB;">c</span>(<span class="st" style="color: #20794D;">"language"</span>)]</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "R"       "RStudio" "Shiny"  </code></pre>
+</div>
+</div>
+</section>
+<section id="k.-access-rows-with-index" class="level4">
+<h4 class="anchored" data-anchor-id="k.-access-rows-with-index">k. Access rows with index</h4>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb45" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb45-1">df_1[<span class="dv" style="color: #AD0000;">2</span>, ]</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>  level language age
+2   Mid  RStudio  36</code></pre>
+</div>
+</div>
+</section>
+</section>
+<section id="matrices" class="level3">
+<h3 class="anchored" data-anchor-id="matrices">4. Matrices</h3>
+<p>A matrix is a rectangular two-dimensional (2D) homogeneous data set containing rows and columns. It contains real numbers that are arranged in a fixed number of rows and columns. Matrices are generally used for various mathematical and statistical applications.</p>
+<section id="a.-creation-of-matrices" class="level4">
+<h4 class="anchored" data-anchor-id="a.-creation-of-matrices">a. Creation of matrices</h4>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb47" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb47-1">m1 <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">matrix</span>(<span class="dv" style="color: #AD0000;">1</span><span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">9</span>, <span class="at" style="color: #657422;">nrow =</span> <span class="dv" style="color: #AD0000;">3</span>, <span class="at" style="color: #657422;">ncol =</span> <span class="dv" style="color: #AD0000;">3</span>) </span>
+<span id="cb47-2">m2 <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">matrix</span>(<span class="dv" style="color: #AD0000;">21</span><span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">29</span>, <span class="at" style="color: #657422;">nrow =</span> <span class="dv" style="color: #AD0000;">3</span>, <span class="at" style="color: #657422;">ncol =</span> <span class="dv" style="color: #AD0000;">3</span>) </span>
+<span id="cb47-3">m3 <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">matrix</span>(<span class="dv" style="color: #AD0000;">1</span><span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">12</span>, <span class="at" style="color: #657422;">nrow =</span> <span class="dv" style="color: #AD0000;">2</span>, <span class="at" style="color: #657422;">ncol =</span> <span class="dv" style="color: #AD0000;">6</span>)</span></code></pre></div>
+</div>
+</section>
+<section id="b.-obtain-the-dimensions-of-the-matrices" class="level4">
+<h4 class="anchored" data-anchor-id="b.-obtain-the-dimensions-of-the-matrices">b. Obtain the dimensions of the matrices</h4>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb48" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb48-1"><span class="co" style="color: #5E5E5E;"># m1</span></span>
+<span id="cb48-2"><span class="fu" style="color: #4758AB;">nrow</span>(m1)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 3</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb50" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb50-1"><span class="fu" style="color: #4758AB;">ncol</span>(m1)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 3</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb52" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb52-1"><span class="fu" style="color: #4758AB;">dim</span>(m1)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 3 3</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb54" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb54-1"><span class="co" style="color: #5E5E5E;"># m3</span></span>
+<span id="cb54-2"><span class="fu" style="color: #4758AB;">nrow</span>(m3)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 2</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb56" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb56-1"><span class="fu" style="color: #4758AB;">ncol</span>(m3)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 6</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb58" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb58-1"><span class="fu" style="color: #4758AB;">dim</span>(m3)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 2 6</code></pre>
+</div>
+</div>
+</section>
+<section id="c.-arithmetic-with-matrices" class="level4">
+<h4 class="anchored" data-anchor-id="c.-arithmetic-with-matrices">c.&nbsp;Arithmetic with matrices</h4>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb60" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb60-1">m1<span class="sc" style="color: #5E5E5E;">+</span>m2</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>     [,1] [,2] [,3]
+[1,]   22   28   34
+[2,]   24   30   36
+[3,]   26   32   38</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb62" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb62-1">m1<span class="sc" style="color: #5E5E5E;">-</span>m2</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>     [,1] [,2] [,3]
+[1,]  -20  -20  -20
+[2,]  -20  -20  -20
+[3,]  -20  -20  -20</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb64" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb64-1">m1<span class="sc" style="color: #5E5E5E;">*</span>m2</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>     [,1] [,2] [,3]
+[1,]   21   96  189
+[2,]   44  125  224
+[3,]   69  156  261</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb66" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb66-1">m1<span class="sc" style="color: #5E5E5E;">/</span>m2</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>           [,1]      [,2]      [,3]
+[1,] 0.04761905 0.1666667 0.2592593
+[2,] 0.09090909 0.2000000 0.2857143
+[3,] 0.13043478 0.2307692 0.3103448</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb68" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb68-1">m1 <span class="sc" style="color: #5E5E5E;">==</span> m2</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>      [,1]  [,2]  [,3]
+[1,] FALSE FALSE FALSE
+[2,] FALSE FALSE FALSE
+[3,] FALSE FALSE FALSE</code></pre>
+</div>
+</div>
+</section>
+<section id="d.-matrix-multiplication" class="level4">
+<h4 class="anchored" data-anchor-id="d.-matrix-multiplication">d.&nbsp;Matrix multiplication</h4>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb70" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb70-1">m5 <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">matrix</span>(<span class="dv" style="color: #AD0000;">1</span><span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">10</span>, <span class="at" style="color: #657422;">nrow =</span> <span class="dv" style="color: #AD0000;">5</span>)</span>
+<span id="cb70-2">m6 <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">matrix</span>(<span class="dv" style="color: #AD0000;">43</span><span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">34</span>, <span class="at" style="color: #657422;">nrow =</span> <span class="dv" style="color: #AD0000;">5</span>)</span>
+<span id="cb70-3"></span>
+<span id="cb70-4">m5<span class="sc" style="color: #5E5E5E;">*</span>m6</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>     [,1] [,2]
+[1,]   43  228
+[2,]   84  259
+[3,]  123  288
+[4,]  160  315
+[5,]  195  340</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb72" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb72-1"><span class="co" style="color: #5E5E5E;"># m5%*%m6 will not work because of the dimesions.</span></span>
+<span id="cb72-2"><span class="co" style="color: #5E5E5E;"># the vector m6 needs to be transposed.</span></span>
+<span id="cb72-3"></span>
+<span id="cb72-4"><span class="co" style="color: #5E5E5E;"># Transpose</span></span>
+<span id="cb72-5">m5<span class="sc" style="color: #5E5E5E;">%*%</span><span class="fu" style="color: #4758AB;">t</span>(m6)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>     [,1] [,2] [,3] [,4] [,5]
+[1,]  271  264  257  250  243
+[2,]  352  343  334  325  316
+[3,]  433  422  411  400  389
+[4,]  514  501  488  475  462
+[5,]  595  580  565  550  535</code></pre>
+</div>
+</div>
+</section>
+<section id="e.-generate-an-identity-matrix" class="level4">
+<h4 class="anchored" data-anchor-id="e.-generate-an-identity-matrix">e. Generate an identity matrix</h4>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb74" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb74-1"><span class="fu" style="color: #4758AB;">diag</span>(<span class="dv" style="color: #AD0000;">5</span>)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>     [,1] [,2] [,3] [,4] [,5]
+[1,]    1    0    0    0    0
+[2,]    0    1    0    0    0
+[3,]    0    0    1    0    0
+[4,]    0    0    0    1    0
+[5,]    0    0    0    0    1</code></pre>
+</div>
+</div>
+</section>
+<section id="f.-column-and-row-names" class="level4">
+<h4 class="anchored" data-anchor-id="f.-column-and-row-names">f.&nbsp;Column and row names</h4>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb76" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb76-1"><span class="fu" style="color: #4758AB;">colnames</span>(m5)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>NULL</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb78" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb78-1"><span class="fu" style="color: #4758AB;">rownames</span>(m6)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>NULL</code></pre>
+</div>
+</div>
+</section>
+</section>
+<section id="arrays" class="level3">
+<h3 class="anchored" data-anchor-id="arrays">5. Arrays</h3>
+<p>An array is a multidimensional vector that stores homogeneous data. It can be thought of as a stacked matrix and stores data in more than 2 dimensions (n-dimensional). An array is composed of rows by columns by dimensions. Example: an array with dimensions, dim = c(2,3,3), has 2 rows, 3 columns, and 3 matrices.</p>
+<section id="a.-creating-arrays" class="level4">
+<h4 class="anchored" data-anchor-id="a.-creating-arrays">a. Creating arrays</h4>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb80" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb80-1">arr_1 <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">array</span>(<span class="dv" style="color: #AD0000;">1</span><span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">12</span>, <span class="at" style="color: #657422;">dim =</span> <span class="fu" style="color: #4758AB;">c</span>(<span class="dv" style="color: #AD0000;">2</span>,<span class="dv" style="color: #AD0000;">3</span>,<span class="dv" style="color: #AD0000;">2</span>))</span>
+<span id="cb80-2"></span>
+<span id="cb80-3">arr_1</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>, , 1
+
+     [,1] [,2] [,3]
+[1,]    1    3    5
+[2,]    2    4    6
+
+, , 2
+
+     [,1] [,2] [,3]
+[1,]    7    9   11
+[2,]    8   10   12</code></pre>
+</div>
+</div>
+</section>
+<section id="b.-filter-array-by-index" class="level4">
+<h4 class="anchored" data-anchor-id="b.-filter-array-by-index">b. Filter array by index</h4>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb82" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb82-1">arr_1[<span class="dv" style="color: #AD0000;">1</span>, , ]</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>     [,1] [,2]
+[1,]    1    7
+[2,]    3    9
+[3,]    5   11</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb84" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb84-1">arr_1[<span class="dv" style="color: #AD0000;">1</span>, ,<span class="dv" style="color: #AD0000;">1</span>]</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 1 3 5</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb86" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb86-1">arr_1[, , <span class="dv" style="color: #AD0000;">1</span>]</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>     [,1] [,2] [,3]
+[1,]    1    3    5
+[2,]    2    4    6</code></pre>
+</div>
+</div>
+</section>
+</section>
+<section id="factors" class="level3">
+<h3 class="anchored" data-anchor-id="factors">6. Factors</h3>
+<p>Factors are used to store integers or strings which are categorical. They categorize data and store the data in different levels. This form of data storage is useful for statistical modeling. Examples include TRUE or FALSE and male or female.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb88" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb88-1">vector <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">c</span>(<span class="st" style="color: #20794D;">"Male"</span>, <span class="st" style="color: #20794D;">"Female"</span>)</span>
+<span id="cb88-2">factor_1 <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">factor</span>(vector)</span>
+<span id="cb88-3">factor_1</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] Male   Female
+Levels: Female Male</code></pre>
+</div>
+</div>
+<p>OR</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb90" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb90-1">factor_2 <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">as.factor</span>(vector)</span>
+<span id="cb90-2">factor_2</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] Male   Female
+Levels: Female Male</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb92" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb92-1"><span class="fu" style="color: #4758AB;">as.numeric</span>(factor_2)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 2 1</code></pre>
+</div>
+</div>
+</section>
+</section>
+<section id="supplementary-reading" class="level2">
+<h2 class="anchored" data-anchor-id="supplementary-reading">Supplementary Reading</h2>
+<p>Coming soon…</p>
+
+
+</section>
+
+ ]]></description>
+  <category>RStudio</category>
+  <category>R</category>
+  <category>Tutorial</category>
+  <category>Blog</category>
+  <guid>https://williamokech.netlify.app/posts/series_1/new_post_8/post_8.html</guid>
+  <pubDate>Tue, 15 Nov 2022 21:00:00 GMT</pubDate>
+  <media:content url="https://williamokech.netlify.app/posts/series_1/new_post_8/r_and_rstudio.png" medium="image" type="image/png" height="26" width="144"/>
+</item>
+<item>
+  <title>The Basics of R and RStudio</title>
+  <dc:creator>William Okech</dc:creator>
+  <link>https://williamokech.netlify.app/posts/series_1/new_post_7/post_7.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>R has two types of missing data, NA and NULL.<sup>1</sup></p>
+</section>
+<section id="na" class="level2">
+<h2 class="anchored" data-anchor-id="na">NA</h2>
+<p>R uses <code>NA</code> to represent missing data. The <code>NA</code> appears as another element of a vector. To test each element for missingness we use <code>is.na()</code>. Generally, we can use tools such as <code>mi</code>, <code>mice</code>, and <code>Amelia</code> (which will be discussed later) to deal with missing data. The deletion of this missing data may lead to bias or data loss, so we need to be very careful when handling it. In subsequent blog posts, we will look at the use of imputation to deal with missing data.</p>
+</section>
+<section id="null" class="level2">
+<h2 class="anchored" data-anchor-id="null">NULL</h2>
+<p><code>NULL</code> represents nothingness or the “absence of anything”. <sup>2</sup></p>
+<p>It does not mean missing but represents nothing. <code>NULL</code> cannot exist within a vector because it disappears.</p>
+</section>
+<section id="supplementary-reading" class="level2">
+<h2 class="anchored" data-anchor-id="supplementary-reading">Supplementary Reading</h2>
+<ol type="1">
+<li>A great post from the blog “Data Science by Design” on the role of Missingness.</li>
+</ol>
+<p>https://datasciencebydesign.org/blog/when-we-miss-missingness</p>
+
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>Adapted from Lander, J. P. (2014) R for everyone: Advanced analytics and graphics. Addison-Wesley.↩︎</p></li>
+<li id="fn2"><p>Adapted from Lander, J. P. (2014) R for everyone: Advanced analytics and graphics. Addison-Wesley.↩︎</p></li>
+</ol>
+</section></div> ]]></description>
+  <category>RStudio</category>
+  <category>R</category>
+  <category>Tutorial</category>
+  <category>Blog</category>
+  <guid>https://williamokech.netlify.app/posts/series_1/new_post_7/post_7.html</guid>
+  <pubDate>Sun, 13 Nov 2022 21:00:00 GMT</pubDate>
+  <media:content url="https://williamokech.netlify.app/posts/series_1/new_post_7/r_and_rstudio.png" medium="image" type="image/png" height="26" width="144"/>
+</item>
 <item>
   <title>The Basics of R and RStudio</title>
   <dc:creator>William Okech</dc:creator>
@@ -324,425 +845,6 @@ shorter object length</code></pre>
   <guid>https://williamokech.netlify.app/posts/series_1/new_post_6/post_6.html</guid>
   <pubDate>Fri, 11 Nov 2022 21:00:00 GMT</pubDate>
   <media:content url="https://williamokech.netlify.app/posts/series_1/new_post_6/r_and_rstudio.png" medium="image" type="image/png" height="26" width="144"/>
-</item>
-<item>
-  <title>The Basics of R and RStudio</title>
-  <dc:creator>William Okech</dc:creator>
-  <link>https://williamokech.netlify.app/posts/series_1/new_post_7/post_7.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<section id="introduction" class="level2">
-<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
-<p>R has two types of missing data, NA and NULL.<sup>1</sup></p>
-<section id="na" class="level3">
-<h3 class="anchored" data-anchor-id="na">NA</h3>
-<p>R uses <code>NA</code> to represent missing data. The <code>NA</code> appears as another element of a vector. To test each element for missingness we use <code>is.na()</code>. Generally, we can use tools such as <code>mi</code>, <code>mice</code>, and <code>Amelia</code> (which will be discussed later) to deal with missing data. The deletion of this missing data may lead to bias or data loss, so we need to be very careful when handling it. In subsequent blog posts, we will look at the use of imputation to deal with missing data.</p>
-</section>
-<section id="null" class="level3">
-<h3 class="anchored" data-anchor-id="null">NULL</h3>
-<p><code>NULL</code> represents nothingness or the “absence of anything”. <sup>2</sup></p>
-<p>It does not mean missing but represents nothing. <code>NULL</code> cannot exist within a vector because it disappears.</p>
-
-
-</section>
-</section>
-
-
-<div id="quarto-appendix" class="default"><section class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
-
-<ol>
-<li id="fn1"><p>Adapted from Lander, J. P. (2014) R for everyone: Advanced analytics and graphics. Addison-Wesley.↩︎</p></li>
-<li id="fn2"><p>Adapted from Lander, J. P. (2014) R for everyone: Advanced analytics and graphics. Addison-Wesley.↩︎</p></li>
-</ol>
-</section></div> ]]></description>
-  <category>RStudio</category>
-  <category>R</category>
-  <category>Tutorial</category>
-  <category>Blog</category>
-  <guid>https://williamokech.netlify.app/posts/series_1/new_post_7/post_7.html</guid>
-  <pubDate>Fri, 11 Nov 2022 21:00:00 GMT</pubDate>
-  <media:content url="https://williamokech.netlify.app/posts/series_1/new_post_7/r_and_rstudio.png" medium="image" type="image/png" height="26" width="144"/>
-</item>
-<item>
-  <title>The Basics of R and RStudio</title>
-  <dc:creator>William Okech</dc:creator>
-  <link>https://williamokech.netlify.app/posts/series_1/new_post_8/post_8.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<section id="introduction" class="level2">
-<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
-<p>Data structures in R are tools for storing and organizing multiple values. They help to organize stored data in a way that the data can be used more effectively. Data structures vary according to the number of dimensions and the data types (heterogeneous or homogeneous) contained. The primary data structures are:</p>
-<ol type="1">
-<li><p>Vectors <a href="posts/series_1/new_post_6/post_6.html">Link</a></p></li>
-<li><p>Lists</p></li>
-<li><p>Data frames</p></li>
-<li><p>Matrices</p></li>
-<li><p>Arrays</p></li>
-<li><p>Factors</p></li>
-</ol>
-</section>
-<section id="data-structures" class="level2">
-<h2 class="anchored" data-anchor-id="data-structures">Data structures</h2>
-<section id="vectors" class="level3">
-<h3 class="anchored" data-anchor-id="vectors">1. Vectors</h3>
-<p>Discussed previously (link)</p>
-</section>
-<section id="lists" class="level3">
-<h3 class="anchored" data-anchor-id="lists">2. Lists</h3>
-<p>Lists are objects/containers that hold elements of the same or different types. They can containing strings, numbers, vectors, matrices, functions, or other lists. Lists are created with the <code>list()</code> function</p>
-<p>Examples</p>
-<p>Three element list</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1">list_1 <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">list</span>(<span class="dv" style="color: #AD0000;">10</span>, <span class="dv" style="color: #AD0000;">30</span>, <span class="dv" style="color: #AD0000;">50</span>)</span></code></pre></div>
-</div>
-<p>Single element list</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1">list_2 <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">list</span>(<span class="fu" style="color: #4758AB;">c</span>(<span class="dv" style="color: #AD0000;">10</span>, <span class="dv" style="color: #AD0000;">30</span>, <span class="dv" style="color: #AD0000;">50</span>))</span></code></pre></div>
-</div>
-<p>Three element list</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1">list_3 <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">list</span>(<span class="dv" style="color: #AD0000;">1</span><span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">3</span>, <span class="fu" style="color: #4758AB;">c</span>(<span class="dv" style="color: #AD0000;">50</span>,<span class="dv" style="color: #AD0000;">40</span>), <span class="dv" style="color: #AD0000;">3</span><span class="sc" style="color: #5E5E5E;">:-</span><span class="dv" style="color: #AD0000;">5</span>)</span></code></pre></div>
-</div>
-<p>List with elements of different types</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1">list_4 <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">list</span>(<span class="fu" style="color: #4758AB;">c</span>(<span class="st" style="color: #20794D;">"a"</span>, <span class="st" style="color: #20794D;">"b"</span>, <span class="st" style="color: #20794D;">"c"</span>), <span class="dv" style="color: #AD0000;">5</span><span class="sc" style="color: #5E5E5E;">:-</span><span class="dv" style="color: #AD0000;">1</span>)</span></code></pre></div>
-</div>
-<p>List which contains a list</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1">list_5 <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">list</span>(<span class="fu" style="color: #4758AB;">c</span>(<span class="st" style="color: #20794D;">"a"</span>, <span class="st" style="color: #20794D;">"b"</span>, <span class="st" style="color: #20794D;">"c"</span>), <span class="dv" style="color: #AD0000;">5</span><span class="sc" style="color: #5E5E5E;">:-</span><span class="dv" style="color: #AD0000;">1</span>, list_1)</span></code></pre></div>
-</div>
-<p>Set names for the list elements</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><span class="fu" style="color: #4758AB;">names</span>(list_5)</span></code></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>NULL</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb8" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><span class="fu" style="color: #4758AB;">names</span>(list_5) <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">c</span>(<span class="st" style="color: #20794D;">"character vector"</span>, <span class="st" style="color: #20794D;">"numeric vector"</span>, <span class="st" style="color: #20794D;">"list"</span>)</span>
-<span id="cb8-2"><span class="fu" style="color: #4758AB;">names</span>(list_5)</span></code></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] "character vector" "numeric vector"   "list"            </code></pre>
-</div>
-</div>
-<p>Access elements</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb10" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1">list_5[[<span class="dv" style="color: #AD0000;">1</span>]]</span></code></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] "a" "b" "c"</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb12" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1">list_5[[<span class="st" style="color: #20794D;">"character vector"</span>]]</span></code></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] "a" "b" "c"</code></pre>
-</div>
-</div>
-<p>Length of list</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb14" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><span class="fu" style="color: #4758AB;">length</span>(list_1)</span></code></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 3</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb16" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><span class="fu" style="color: #4758AB;">length</span>(list_5)</span></code></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 3</code></pre>
-</div>
-</div>
-</section>
-<section id="data-frames" class="level3">
-<h3 class="anchored" data-anchor-id="data-frames">3. Data frames</h3>
-<p>A data frame is one of the most common data objects used to store tabular data in R. Tabular data has rows representing observations and columns representing variables. Dataframes contain lists of equal-length vectors. Each column holds a different type of data, but within each column, the elements must be of the same type. The most common data frame characteristics are listed below:</p>
-<p>• Columns should have a name;</p>
-<p>• Row names should be unique;</p>
-<p>• Various data can be stored (such as numeric, factor, and character);</p>
-<p>• The individual columns should contain the same number of data items.</p>
-<p>Creation of data frames</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb18" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1">level <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">c</span>(<span class="st" style="color: #20794D;">"Low"</span>, <span class="st" style="color: #20794D;">"Mid"</span>, <span class="st" style="color: #20794D;">"High"</span>)</span>
-<span id="cb18-2">language <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">c</span>(<span class="st" style="color: #20794D;">"R"</span>, <span class="st" style="color: #20794D;">"RStudio"</span>, <span class="st" style="color: #20794D;">"Shiny"</span>)</span>
-<span id="cb18-3">age <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">c</span>(<span class="dv" style="color: #AD0000;">25</span>, <span class="dv" style="color: #AD0000;">36</span>, <span class="dv" style="color: #AD0000;">47</span>)</span>
-<span id="cb18-4"></span>
-<span id="cb18-5">df_1 <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">data.frame</span>(level, language, age)</span></code></pre></div>
-</div>
-<p>Functions used to manipulate data frames</p>
-<p>Number of rows</p>
-<div class="cell">
-
-</div>
-<p>Number of columns</p>
-<div class="cell">
-
-</div>
-<p>Dimensions</p>
-<div class="cell">
-
-</div>
-<p>Class of data frame</p>
-<div class="cell">
-
-</div>
-<p>Column names</p>
-<div class="cell">
-
-</div>
-<p>Row names</p>
-<div class="cell">
-
-</div>
-<p>Top and bottom values</p>
-<div class="cell">
-
-</div>
-<p>Access columns</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb19" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1">df_1<span class="sc" style="color: #5E5E5E;">$</span>level</span></code></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] "Low"  "Mid"  "High"</code></pre>
-</div>
-</div>
-<p>Access individual elements</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb21" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb21-1">df_1[<span class="dv" style="color: #AD0000;">3</span>,<span class="dv" style="color: #AD0000;">2</span>]</span></code></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] "Shiny"</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb23" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1">df_1[<span class="dv" style="color: #AD0000;">2</span>, <span class="dv" style="color: #AD0000;">1</span><span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">2</span>]</span></code></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>  level language
-2   Mid  RStudio</code></pre>
-</div>
-</div>
-<p>Access columns with index</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb25" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb25-1">df_1[, <span class="dv" style="color: #AD0000;">3</span>]</span></code></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 25 36 47</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb27" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb27-1">df_1[, <span class="fu" style="color: #4758AB;">c</span>(<span class="st" style="color: #20794D;">"language"</span>)]</span></code></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] "R"       "RStudio" "Shiny"  </code></pre>
-</div>
-</div>
-<p>Access rows with index</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb29" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb29-1">df_1[<span class="dv" style="color: #AD0000;">2</span>, ]</span></code></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>  level language age
-2   Mid  RStudio  36</code></pre>
-</div>
-</div>
-</section>
-<section id="matrices" class="level3">
-<h3 class="anchored" data-anchor-id="matrices">4. Matrices</h3>
-<p>A matrix is a rectangular two-dimensional (2D) homogeneous data set containing rows and columns. It contains real numbers that are arranged in a fixed number of rows and columns. Matrices are generally used for various mathematical and statistical applications.</p>
-<p>Creation of matrices</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb31" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb31-1">m1 <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">matrix</span>(<span class="dv" style="color: #AD0000;">1</span><span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">9</span>, <span class="at" style="color: #657422;">nrow =</span> <span class="dv" style="color: #AD0000;">3</span>, <span class="at" style="color: #657422;">ncol =</span> <span class="dv" style="color: #AD0000;">3</span>) </span>
-<span id="cb31-2">m2 <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">matrix</span>(<span class="dv" style="color: #AD0000;">21</span><span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">29</span>, <span class="at" style="color: #657422;">nrow =</span> <span class="dv" style="color: #AD0000;">3</span>, <span class="at" style="color: #657422;">ncol =</span> <span class="dv" style="color: #AD0000;">3</span>) </span>
-<span id="cb31-3">m3 <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">matrix</span>(<span class="dv" style="color: #AD0000;">1</span><span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">12</span>, <span class="at" style="color: #657422;">nrow =</span> <span class="dv" style="color: #AD0000;">2</span>, <span class="at" style="color: #657422;">ncol =</span> <span class="dv" style="color: #AD0000;">6</span>)</span></code></pre></div>
-</div>
-<p>Obtain the dimensions of the matrices</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb32" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb32-1"><span class="co" style="color: #5E5E5E;"># m1</span></span>
-<span id="cb32-2"><span class="fu" style="color: #4758AB;">nrow</span>(m1)</span></code></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 3</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb34" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb34-1"><span class="fu" style="color: #4758AB;">ncol</span>(m1)</span></code></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 3</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb36" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb36-1"><span class="fu" style="color: #4758AB;">dim</span>(m1)</span></code></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 3 3</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb38" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb38-1"><span class="co" style="color: #5E5E5E;"># m3</span></span>
-<span id="cb38-2"><span class="fu" style="color: #4758AB;">nrow</span>(m3)</span></code></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb40" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb40-1"><span class="fu" style="color: #4758AB;">ncol</span>(m3)</span></code></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 6</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb42" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb42-1"><span class="fu" style="color: #4758AB;">dim</span>(m3)</span></code></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2 6</code></pre>
-</div>
-</div>
-<p>Arithmetic with matrices</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb44" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb44-1">m1<span class="sc" style="color: #5E5E5E;">+</span>m2</span></code></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>     [,1] [,2] [,3]
-[1,]   22   28   34
-[2,]   24   30   36
-[3,]   26   32   38</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb46" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb46-1">m1<span class="sc" style="color: #5E5E5E;">-</span>m2</span></code></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>     [,1] [,2] [,3]
-[1,]  -20  -20  -20
-[2,]  -20  -20  -20
-[3,]  -20  -20  -20</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb48" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb48-1">m1<span class="sc" style="color: #5E5E5E;">*</span>m2</span></code></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>     [,1] [,2] [,3]
-[1,]   21   96  189
-[2,]   44  125  224
-[3,]   69  156  261</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb50" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb50-1">m1<span class="sc" style="color: #5E5E5E;">/</span>m2</span></code></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>           [,1]      [,2]      [,3]
-[1,] 0.04761905 0.1666667 0.2592593
-[2,] 0.09090909 0.2000000 0.2857143
-[3,] 0.13043478 0.2307692 0.3103448</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb52" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb52-1">m1 <span class="sc" style="color: #5E5E5E;">==</span> m2</span></code></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>      [,1]  [,2]  [,3]
-[1,] FALSE FALSE FALSE
-[2,] FALSE FALSE FALSE
-[3,] FALSE FALSE FALSE</code></pre>
-</div>
-</div>
-<p>Matrix multiplication</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb54" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb54-1">m5 <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">matrix</span>(<span class="dv" style="color: #AD0000;">1</span><span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">10</span>, <span class="at" style="color: #657422;">nrow =</span> <span class="dv" style="color: #AD0000;">5</span>)</span>
-<span id="cb54-2">m6 <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">matrix</span>(<span class="dv" style="color: #AD0000;">43</span><span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">34</span>, <span class="at" style="color: #657422;">nrow =</span> <span class="dv" style="color: #AD0000;">5</span>)</span>
-<span id="cb54-3"></span>
-<span id="cb54-4">m5<span class="sc" style="color: #5E5E5E;">*</span>m6</span></code></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>     [,1] [,2]
-[1,]   43  228
-[2,]   84  259
-[3,]  123  288
-[4,]  160  315
-[5,]  195  340</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb56" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb56-1"><span class="co" style="color: #5E5E5E;"># m5%*%m6 will not work because of the dimesions.</span></span>
-<span id="cb56-2"><span class="co" style="color: #5E5E5E;"># the vector m6 needs to be transposed.</span></span>
-<span id="cb56-3"></span>
-<span id="cb56-4"><span class="co" style="color: #5E5E5E;"># Transpose</span></span>
-<span id="cb56-5">m5<span class="sc" style="color: #5E5E5E;">%*%</span><span class="fu" style="color: #4758AB;">t</span>(m6)</span></code></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>     [,1] [,2] [,3] [,4] [,5]
-[1,]  271  264  257  250  243
-[2,]  352  343  334  325  316
-[3,]  433  422  411  400  389
-[4,]  514  501  488  475  462
-[5,]  595  580  565  550  535</code></pre>
-</div>
-</div>
-<p>Generate an identity matrix</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb58" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb58-1"><span class="fu" style="color: #4758AB;">diag</span>(<span class="dv" style="color: #AD0000;">5</span>)</span></code></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>     [,1] [,2] [,3] [,4] [,5]
-[1,]    1    0    0    0    0
-[2,]    0    1    0    0    0
-[3,]    0    0    1    0    0
-[4,]    0    0    0    1    0
-[5,]    0    0    0    0    1</code></pre>
-</div>
-</div>
-<p>Column and row names</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb60" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb60-1"><span class="fu" style="color: #4758AB;">colnames</span>(m5)</span></code></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>NULL</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb62" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb62-1"><span class="fu" style="color: #4758AB;">rownames</span>(m6)</span></code></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>NULL</code></pre>
-</div>
-</div>
-</section>
-<section id="arrays" class="level3">
-<h3 class="anchored" data-anchor-id="arrays">5. Arrays</h3>
-<p>An array is a multidimensional vector that stores homogeneous data. It can be thought of as a stacked matrix and stores data in more than 2 dimensions (n-dimensional). An array is composed of rows by columns by dimensions. Example: an array with dimensions, dim = c(2,3,3), has 2 rows, 3 columns, and 3 matrices.</p>
-<p>Creating arrays</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb64" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb64-1">arr_1 <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">array</span>(<span class="dv" style="color: #AD0000;">1</span><span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">12</span>, <span class="at" style="color: #657422;">dim =</span> <span class="fu" style="color: #4758AB;">c</span>(<span class="dv" style="color: #AD0000;">2</span>,<span class="dv" style="color: #AD0000;">3</span>,<span class="dv" style="color: #AD0000;">2</span>))</span>
-<span id="cb64-2"></span>
-<span id="cb64-3">arr_1</span></code></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>, , 1
-
-     [,1] [,2] [,3]
-[1,]    1    3    5
-[2,]    2    4    6
-
-, , 2
-
-     [,1] [,2] [,3]
-[1,]    7    9   11
-[2,]    8   10   12</code></pre>
-</div>
-</div>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb66" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb66-1">arr_1[<span class="dv" style="color: #AD0000;">1</span>, , ]</span></code></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>     [,1] [,2]
-[1,]    1    7
-[2,]    3    9
-[3,]    5   11</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb68" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb68-1">arr_1[<span class="dv" style="color: #AD0000;">1</span>, ,<span class="dv" style="color: #AD0000;">1</span>]</span></code></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 1 3 5</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb70" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb70-1">arr_1[, , <span class="dv" style="color: #AD0000;">1</span>]</span></code></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>     [,1] [,2] [,3]
-[1,]    1    3    5
-[2,]    2    4    6</code></pre>
-</div>
-</div>
-</section>
-<section id="factors" class="level3">
-<h3 class="anchored" data-anchor-id="factors">6. Factors</h3>
-<p>Factors are used to store integers or strings which are categorical. They categorize data and store the data in different levels. This form of data storage is useful for statistical modeling. Examples include TRUE or FALSE and male or female.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb72" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb72-1">vector <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">c</span>(<span class="st" style="color: #20794D;">"Male"</span>, <span class="st" style="color: #20794D;">"Female"</span>)</span>
-<span id="cb72-2">factor_1 <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">factor</span>(vector)</span>
-<span id="cb72-3">factor_1</span></code></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] Male   Female
-Levels: Female Male</code></pre>
-</div>
-</div>
-<p>OR</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb74" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb74-1">factor_2 <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">as.factor</span>(vector)</span>
-<span id="cb74-2">factor_2</span></code></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] Male   Female
-Levels: Female Male</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb76" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb76-1"><span class="fu" style="color: #4758AB;">as.numeric</span>(factor_2)</span></code></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2 1</code></pre>
-</div>
-</div>
-
-
-</section>
-</section>
-
- ]]></description>
-  <category>RStudio</category>
-  <category>R</category>
-  <category>Tutorial</category>
-  <category>Blog</category>
-  <guid>https://williamokech.netlify.app/posts/series_1/new_post_8/post_8.html</guid>
-  <pubDate>Fri, 11 Nov 2022 21:00:00 GMT</pubDate>
-  <media:content url="https://williamokech.netlify.app/posts/series_1/new_post_8/r_and_rstudio.png" medium="image" type="image/png" height="26" width="144"/>
 </item>
 <item>
   <title>The Basics of R and RStudio</title>
@@ -1581,13 +1683,12 @@ Levels: Female Male</code></pre>
 <section id="what-is-r" class="level2">
 <h2 class="anchored" data-anchor-id="what-is-r">What is R?</h2>
 <p>R is a programming language and open-source (freely available) software invented by Ross Ihaka and Robert Gentleman in 1993 (published as open-source in 1995) when they were based at the University of Auckland. <em>Fun fact: R represents the first letter of the first names of the creators</em>. The software is utilized by individuals working for various organizations ranging from academic institutions and healthcare organizations to financial services and information technology companies. In May 2022, the <a href="https://www.tiobe.com/tiobe-index/">TIOBE</a> index (a measure of programming language popularity) demonstrated that R was the 13th most popular programming language. R’s popularity may result from its highly extensible nature that allows users to perform statistical data analysis, generate visualizations, and report findings.</p>
-</section>
-<section id="what-are-the-benefits-of-using-r" class="level2">
-<h2 class="anchored" data-anchor-id="what-are-the-benefits-of-using-r">What are the benefits of using R?</h2>
+<section id="what-are-the-benefits-of-using-r" class="level3">
+<h3 class="anchored" data-anchor-id="what-are-the-benefits-of-using-r">What are the benefits of using R?</h3>
 <p>As mentioned in the previous section, R is an open-source software that is highly extensible. Thousands of extensions (also known as packages) can be installed, allowing one to increase the number of available applications. The main advantages of R include: 1. A <a href="https://community.rstudio.com/">large</a> <a href="https://www.r-project.org/help.html">community</a> of <a href="https://stackoverflow.com/">users and developers</a> that can provide learning support and assist with technical challenges, 2. The ability to perform reproducible research. 3. Its cross-platform nature, which means that it can be used on Linux, Windows, and Mac operating systems. 4. The ability to generate <a href="https://r-graph-gallery.com/">high-quality</a> <a href="https://r-charts.com/">graphics</a> from datasets of varying dimensions.</p>
 </section>
-<section id="im-looking-for-r.-where-can-i-get-it" class="level2">
-<h2 class="anchored" data-anchor-id="im-looking-for-r.-where-can-i-get-it">I’m looking for R. Where can I get it?</h2>
+<section id="im-looking-for-r.-where-can-i-find-it" class="level3">
+<h3 class="anchored" data-anchor-id="im-looking-for-r.-where-can-i-find-it">I’m looking for R. Where can I find it?</h3>
 <p>To install R on your personal computer, visit The R Project for Statistical Computing’s Comprehensive R Archive Network <a href="https://cran.r-project.org/">(CRAN)</a>, download the most recent version, and install it according to the website’s instructions. Once you download R, you can now experiment with some of its features.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -1596,6 +1697,7 @@ Levels: Female Male</code></pre>
 </div>
 <p>Figure 1: The standard R interface (Windows)</p>
 <p>When you open R, you will notice that it has a basic graphical user interface (GUI), and the console displays a command-line interface (CLI; where each command is executed one at a time). This may be intimidating for new users; however, there is a workaround for those who are not comfortable working at the command line. For those who are not experienced programmers, R can be used with an application called RStudio.</p>
+</section>
 </section>
 <section id="what-is-rstudio-and-how-does-it-differ-from-r" class="level2">
 <h2 class="anchored" data-anchor-id="what-is-rstudio-and-how-does-it-differ-from-r">What is RStudio and how does it differ from R?</h2>
@@ -1607,10 +1709,14 @@ Levels: Female Male</code></pre>
 </div>
 <p>Figure 2: RStudio interface with four main panes (Windows)</p>
 <p>Once installed, the basic layout of RStudio reveals that there is a script (text editor), console, navigation, and environment/history window pane. The script pane (text editor) in the upper-left allows one to write, open, edit, and execute more extended programs compared with using the standalone R software. The console pane (bottom-left) displays the script’s output and offers a command-line interface for typing code that is immediately executed. The environment pane (upper-right) displays information about the created objects, the history of executed code, and any external connections. Finally, the navigation pane (bottom-right) shows multiple tabs. Its primary tabs include the “Plot” tab, which shows graphics created by code, the “Packages” tab where the packages are installed, and the “Help” tab, which provides assistance for all things R and allows one to search the R documentation.</p>
-</section>
-<section id="what-are-the-primary-benefits-of-rstudio" class="level2">
-<h2 class="anchored" data-anchor-id="what-are-the-primary-benefits-of-rstudio">What are the primary benefits of RStudio?</h2>
+<section id="what-are-the-primary-benefits-of-rstudio" class="level3">
+<h3 class="anchored" data-anchor-id="what-are-the-primary-benefits-of-rstudio">What are the primary benefits of RStudio?</h3>
 <p>RStudio allows one to create projects (a collection of related files stored within a working directory). Additionally, RStudio can be customized using options available under the “Tools” tab. Lastly, RStudio has Git integration that allows for version control where you can back up your code at different timepoints and effortlessly transfer code between computers.<sup>1</sup></p>
+</section>
+</section>
+<section id="supplementary-reading" class="level2">
+<h2 class="anchored" data-anchor-id="supplementary-reading">Supplementary Reading</h2>
+<p>Coming soon…</p>
 </section>
 <section id="conclusion" class="level2">
 <h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>

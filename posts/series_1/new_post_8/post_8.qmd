@@ -148,7 +148,7 @@ colnames(df_1)
 #### f. Row names
 
 ```{r}
-row_names(df_1)
+rownames(df_1)
 ```
 
 #### g. Top and bottom values
