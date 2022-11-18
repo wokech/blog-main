@@ -251,10 +251,22 @@ cookieconsent.run({
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a>
+  <ul class="collapse">
+  <li><a href="#examples-of-variable-assignment" id="toc-examples-of-variable-assignment" class="nav-link" data-scroll-target="#examples-of-variable-assignment">Examples of variable assignment</a></li>
+  <li><a href="#using--" id="toc-using--" class="nav-link" data-scroll-target="#using--">1. Using <code>&lt;-</code></a></li>
+  <li><a href="#using" id="toc-using" class="nav-link" data-scroll-target="#using">2. Using <code>=</code></a></li>
+  <li><a href="#reverse-the-value-and-variable-with--" id="toc-reverse-the-value-and-variable-with--" class="nav-link" data-scroll-target="#reverse-the-value-and-variable-with--">3. Reverse the value and variable with <code>-&gt;</code></a></li>
+  <li><a href="#assign-two-variables-to-one-value" id="toc-assign-two-variables-to-one-value" class="nav-link" data-scroll-target="#assign-two-variables-to-one-value">4. Assign two variables to one value</a></li>
+  </ul></li>
   <li><a href="#the-assign-and-rm-functions" id="toc-the-assign-and-rm-functions" class="nav-link" data-scroll-target="#the-assign-and-rm-functions">The <code>assign()</code> and <code>rm()</code> functions</a></li>
   <li><a href="#naming-variables" id="toc-naming-variables" class="nav-link" data-scroll-target="#naming-variables">Naming variables</a></li>
-  <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary">Summary</a></li>
+  <li><a href="#valid-and-invalid-names" id="toc-valid-and-invalid-names" class="nav-link" data-scroll-target="#valid-and-invalid-names">Valid and invalid names</a>
+  <ul class="collapse">
+  <li><a href="#valid-names" id="toc-valid-names" class="nav-link" data-scroll-target="#valid-names">Valid names:</a></li>
+  <li><a href="#invalid-names" id="toc-invalid-names" class="nav-link" data-scroll-target="#invalid-names">Invalid names:</a></li>
+  </ul></li>
+  <li><a href="#supplementary-reading" id="toc-supplementary-reading" class="nav-link" data-scroll-target="#supplementary-reading">Supplementary Reading</a></li>
   </ul>
 </nav>
     </div>
@@ -266,11 +278,13 @@ cookieconsent.run({
 
 <section id="introduction" class="level2">
 <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
-<p>Variables are instrumental in programming because they are used as “containers” to store data values. To assign a value to a variable, we can use <code>&lt;−</code> or <code>=</code>. However, most R users prefer to use <code>&lt;−</code>.</p>
-<p>Examples of variable assignment</p>
-<ol type="1">
-<li>Using <code>&lt;-</code></li>
-</ol>
+<p>Variables are instrumental in programming because they are used as “containers” to store data values.</p>
+<p>To assign a value to a variable, we can use <code>&lt;−</code> or <code>=</code>. However, most R users prefer to use <code>&lt;−</code>.</p>
+<section id="examples-of-variable-assignment" class="level3">
+<h3 class="anchored" data-anchor-id="examples-of-variable-assignment">Examples of variable assignment</h3>
+</section>
+<section id="using--" class="level3">
+<h3 class="anchored" data-anchor-id="using--">1. Using <code>&lt;-</code></h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>variable_1 <span class="ot">&lt;-</span> <span class="dv">5</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>variable_1</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -278,9 +292,9 @@ cookieconsent.run({
 <pre><code>[1] 5</code></pre>
 </div>
 </div>
-<ol start="2" type="1">
-<li>Using <code>=</code></li>
-</ol>
+</section>
+<section id="using" class="level3">
+<h3 class="anchored" data-anchor-id="using">2. Using <code>=</code></h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>variable_2 <span class="ot">=</span> <span class="dv">10</span></span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>variable_2</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -288,9 +302,9 @@ cookieconsent.run({
 <pre><code>[1] 10</code></pre>
 </div>
 </div>
-<ol start="3" type="1">
-<li>Reverse the value and variable with <code>-&gt;</code></li>
-</ol>
+</section>
+<section id="reverse-the-value-and-variable-with--" class="level3">
+<h3 class="anchored" data-anchor-id="reverse-the-value-and-variable-with--">3. Reverse the value and variable with <code>-&gt;</code></h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="dv">15</span> <span class="ot">-&gt;</span> variable_3</span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>variable_3</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -298,9 +312,9 @@ cookieconsent.run({
 <pre><code>[1] 15</code></pre>
 </div>
 </div>
-<ol start="4" type="1">
-<li>Assign two variables to one value</li>
-</ol>
+</section>
+<section id="assign-two-variables-to-one-value" class="level3">
+<h3 class="anchored" data-anchor-id="assign-two-variables-to-one-value">4. Assign two variables to one value</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>variable_4 <span class="ot">&lt;-</span> variable_5 <span class="ot">&lt;-</span> <span class="dv">30</span></span>
 <span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>variable_4</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -337,6 +351,7 @@ cookieconsent.run({
 </div>
 <p>Output of <code>View()</code> will be seen in the script pane</p>
 </section>
+</section>
 <section id="the-assign-and-rm-functions" class="level2">
 <h2 class="anchored" data-anchor-id="the-assign-and-rm-functions">The <code>assign()</code> and <code>rm()</code> functions</h2>
 <p>In addition to using the assignment operators (<code>&lt;-</code> and <code>=</code>), we can use the <code>assign()</code> function to assign a value to a variable.</p>
@@ -365,13 +380,28 @@ cookieconsent.run({
 <li>Names similar to typical outputs or functions (<code>TRUE</code>, <code>FALSE</code>, <code>if</code>, or <code>else</code>) cannot be used,</li>
 <li>Appropriate variable names can contain letters, numbers, dots, and underscores. However, you cannot start with an underscore, number, or dot followed by a number.</li>
 </ol>
-<p><strong>Examples of valid and invalid names</strong></p>
-<p>Valid names = time_24_hr / .time24_hr</p>
-<p>Invalid names = _24_hr.time / 24_hr_time / .24_hr_time</p>
 </section>
-<section id="summary" class="level2">
-<h2 class="anchored" data-anchor-id="summary">Summary</h2>
-<p>Overall, variables are very useful for programming in R/RStudio. These variables need to be named appropriately according to accepted conventions.</p>
+<section id="valid-and-invalid-names" class="level2">
+<h2 class="anchored" data-anchor-id="valid-and-invalid-names">Valid and invalid names</h2>
+<section id="valid-names" class="level3">
+<h3 class="anchored" data-anchor-id="valid-names">Valid names:</h3>
+<ul>
+<li>time_24_hr</li>
+<li>.time24_hr</li>
+</ul>
+</section>
+<section id="invalid-names" class="level3">
+<h3 class="anchored" data-anchor-id="invalid-names">Invalid names:</h3>
+<ul>
+<li>_24_hr.time</li>
+<li>24_hr_time</li>
+<li>.24_hr_time</li>
+</ul>
+</section>
+</section>
+<section id="supplementary-reading" class="level2">
+<h2 class="anchored" data-anchor-id="supplementary-reading">Supplementary Reading</h2>
+<p>Coming soon…</p>
 
 
 </section>

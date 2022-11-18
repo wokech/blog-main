@@ -74,7 +74,7 @@
     "href": "posts/series_1/new_post_3/post_3.html",
     "title": "The Basics of R and RStudio",
     "section": "",
-    "text": "Variables are instrumental in programming because they are used as “containers” to store data values. To assign a value to a variable, we can use <− or =. However, most R users prefer to use <−.\nExamples of variable assignment\n\nUsing <-\n\n\nvariable_1 <- 5\nvariable_1\n\n[1] 5\n\n\n\nUsing =\n\n\nvariable_2 = 10\nvariable_2\n\n[1] 10\n\n\n\nReverse the value and variable with ->\n\n\n15 -> variable_3\nvariable_3\n\n[1] 15\n\n\n\nAssign two variables to one value\n\n\nvariable_4 <- variable_5 <- 30\nvariable_4\n\n[1] 30\n\nvariable_5\n\n[1] 30\n\n\nThe output of the variable can then be obtained by:\n\nTyping the variable name and then pressing “Enter,”\nTyping “print” with the variable name in brackets, print(variable), and\nTyping “View” with the variable name in brackets, View(variable).\n\nBoth print() and View() are some of the many built-in functions1 available in R.\nIn RStudio, the list of variables that have been loaded can be viewed in the environment pane.\n\n\n\n\n\nA screenshot of the environment pane with the stored variables.\n\nprint(variable_1)\n\n[1] 5\n\n\n\nView(variable_2)\n\nOutput of View() will be seen in the script pane"
+    "text": "Variables are instrumental in programming because they are used as “containers” to store data values.\nTo assign a value to a variable, we can use <− or =. However, most R users prefer to use <−.\n\n\n\n\n\n\nvariable_1 <- 5\nvariable_1\n\n[1] 5\n\n\n\n\n\n\nvariable_2 = 10\nvariable_2\n\n[1] 10\n\n\n\n\n\n\n15 -> variable_3\nvariable_3\n\n[1] 15\n\n\n\n\n\n\nvariable_4 <- variable_5 <- 30\nvariable_4\n\n[1] 30\n\nvariable_5\n\n[1] 30\n\n\nThe output of the variable can then be obtained by:\n\nTyping the variable name and then pressing “Enter,”\nTyping “print” with the variable name in brackets, print(variable), and\nTyping “View” with the variable name in brackets, View(variable).\n\nBoth print() and View() are some of the many built-in functions1 available in R.\nIn RStudio, the list of variables that have been loaded can be viewed in the environment pane.\n\n\n\n\n\nA screenshot of the environment pane with the stored variables.\n\nprint(variable_1)\n\n[1] 5\n\n\n\nView(variable_2)\n\nOutput of View() will be seen in the script pane"
   },
   {
     "objectID": "posts/series_1/new_post_3/post_3.html#the-assign-and-rm-functions",
@@ -95,7 +95,7 @@
     "href": "posts/series_1/new_post_2/post_2.html#examples",
     "title": "The Basics of R and RStudio",
     "section": "Examples",
-    "text": "Examples\nAddition\n\n10+30\n\n[1] 40\n\n\nSubtraction\n\n30-24\n\n[1] 6\n\n\nMultiplication\n\n20*4\n\n[1] 80\n\n\nDivision\n\n93/4\n\n[1] 23.25\n\n\nExponentiation\n\n3^6\n\n[1] 729\n\n\nModulus (remainder with division)\n\n94%%5\n\n[1] 4\n\n\nInteger Division\n\n54%/%7\n\n[1] 7\n\n\nSlightly more complex arithmetic operations\n\n5-1+(4*3)/16*3\n\n[1] 6.25"
+    "text": "Examples\n\nAddition\n\n10+30\n\n[1] 40\n\n\n\n\nSubtraction\n\n30-24\n\n[1] 6\n\n\n\n\nMultiplication\n\n20*4\n\n[1] 80\n\n\n\n\nDivision\n\n93/4\n\n[1] 23.25\n\n\n\n\nExponentiation\n\n3^6\n\n[1] 729\n\n\n\n\nModulus (remainder with division)\n\n94%%5\n\n[1] 4\n\n\n\n\nInteger Division\n\n54%/%7\n\n[1] 7\n\n\n\n\nSlightly more complex arithmetic operations\n\n5-1+(4*3)/16*3\n\n[1] 6.25"
   },
   {
     "objectID": "posts/series_1/new_post_2/post_2.html#summary",
@@ -109,7 +109,7 @@
     "href": "posts/series_1/new_post_3/post_3.html#naming-variables",
     "title": "The Basics of R and RStudio",
     "section": "Naming variables",
-    "text": "Naming variables\nAt this point, you may be wondering what conventions are used for naming variables. First, variables need to have meaningful names such as current_temp, time_24_hr, or weight_lbs. However, we need to be mindful of the variable style guide which provides us with the appropriate rules for naming variables.\nSome rules to keep in mind are:\n\nR is case-sensitive (variable is not the same as Variable),\nNames similar to typical outputs or functions (TRUE, FALSE, if, or else) cannot be used,\nAppropriate variable names can contain letters, numbers, dots, and underscores. However, you cannot start with an underscore, number, or dot followed by a number.\n\nExamples of valid and invalid names\nValid names = time_24_hr / .time24_hr\nInvalid names = _24_hr.time / 24_hr_time / .24_hr_time"
+    "text": "Naming variables\nAt this point, you may be wondering what conventions are used for naming variables. First, variables need to have meaningful names such as current_temp, time_24_hr, or weight_lbs. However, we need to be mindful of the variable style guide which provides us with the appropriate rules for naming variables.\nSome rules to keep in mind are:\n\nR is case-sensitive (variable is not the same as Variable),\nNames similar to typical outputs or functions (TRUE, FALSE, if, or else) cannot be used,\nAppropriate variable names can contain letters, numbers, dots, and underscores. However, you cannot start with an underscore, number, or dot followed by a number."
   },
   {
     "objectID": "posts/series_1/new_post_3/post_3.html#examples-of-valid-and-invalid-names",
@@ -123,7 +123,7 @@
     "href": "posts/series_1/new_post_4/post_4.html",
     "title": "The Basics of R and RStudio",
     "section": "",
-    "text": "R and RStudio utilize very many data types to store different kinds of data. The most common data types in R are listed below.\n\n\n\n\n\n\n\nData Type\nDescription\n\n\n\n\nNumeric\nThe most common data type. The values can be numbers or decimals (all real numbers).\n\n\nInteger\nSpecial case of numeric data without decimals.\n\n\nLogical\nBoolean data type with only 2 values (TRUE or FALSE).\n\n\nComplex\nSpecifies imaginary values in R.\n\n\nCharacter\nAssigns a character or string to a variable. The character variables are enclosed in single quotes (‘character’) while the string variables are enclosed in double quotes (“string”).\n\n\nFactor\nSpecial type of character variable that represents a categorical such as gender.\n\n\nRaw\nSpecifies values as raw bytes. It uses built-in functions to convert between raw and character (charToRaw() or rawToChar()).\n\n\nDates\nSpecifies the date variable. Date stores a date and POSIXct stores a date and time. The output is indicated as the number of days (Date) or number of seconds (POSIXct) since 01/01/1970."
+    "text": "R and RStudio utilize multiple data types to store different kinds of data.\nThe most common data types in R are listed below.\n\n\n\n\n\n\n\nData Type\nDescription\n\n\n\n\nNumeric\nThe most common data type. The values can be numbers or decimals (all real numbers).\n\n\nInteger\nSpecial case of numeric data without decimals.\n\n\nLogical\nBoolean data type with only 2 values (TRUE or FALSE).\n\n\nComplex\nSpecifies imaginary values in R.\n\n\nCharacter\nAssigns a character or string to a variable. The character variables are enclosed in single quotes (‘character’) while the string variables are enclosed in double quotes (“string”).\n\n\nFactor\nSpecial type of character variable that represents a categorical such as gender.\n\n\nRaw\nSpecifies values as raw bytes. It uses built-in functions to convert between raw and character (charToRaw() or rawToChar()).\n\n\nDates\nSpecifies the date variable. Date stores a date and POSIXct stores a date and time. The output is indicated as the number of days (Date) or number of seconds (POSIXct) since 01/01/1970."
   },
   {
     "objectID": "posts/series_1/new_post_4/post_4.html#data-type-examples",
@@ -319,7 +319,7 @@
     "href": "posts/series_1/new_post_5/post_5.html",
     "title": "The Basics of R and RStudio",
     "section": "",
-    "text": "R has many different types of operators that can perform different tasks. Here we will focus on 5 major types of operators. The major types of operators are:\n\nArithmetic,\nRelational,\nLogical,\nAssignment, and\nMiscellaneous.\n\n\n\nArithmetic operators are used to perform mathematical operations. These operators have been highlighted in Part 1 of the series.\n\n\n\nRelational operators are used to find the relationship between 2 variables and compare objects. The output of these comparisons is Boolean (TRUE or FALSE). The table below describes the most common relational operators.\n\n\n\nRelational Operator\nDescription\n\n\n\n\n<\nLess than\n\n\n>\nGreater than\n\n\n<=\nLess than or equal to\n\n\n>=\nGreater than or equal to\n\n\n==\nEqual to\n\n\n!=\nNot Equal to"
+    "text": "R has many different types of operators that can perform different tasks.\nHere we will focus on 5 major types of operators. The major types of operators are:\n\nArithmetic,\nRelational,\nLogical,\nAssignment, and\nMiscellaneous."
   },
   {
     "objectID": "posts/series_1/new_post_5/post_5.html#examples",
@@ -347,14 +347,14 @@
     "href": "posts/series_1/new_post_6/post_6.html",
     "title": "The Basics of R and RStudio",
     "section": "",
-    "text": "A vector is a collection of elements of the same data type, and they are a basic data structure in R programming. Vectors cannot be of mixed data type. The most common way to create a vector is with c(), where “c” stands for combine. In R, vectors do not have dimensions; therefore, they cannot be defined by columns or rows. Vectors can be divided into atomic vectors and lists (discussed in Part 7). The atomic vectors include logical, character, and numeric (integer or double).\nAdditionally, R is a vectorized language because mathematical operations are applied to each element of the vector without the need to loop through the vector.\nExamples • Numbers: c(2, 10, 16, -5) • Characters: c(“R”, “RStudio”, “Shiny”, “Quarto”) • Logicals: c(“TRUE”, “FALSE”, “TRUE”)\nTo generate a vector with a sequence of consecutive numbers, we can use :, sequence(), or seq().\nExamples\nGenerate a sequence using :\n\na <- 9:18\na\n\n [1]  9 10 11 12 13 14 15 16 17 18\n\na_rev <- 18:9\na_rev\n\n [1] 18 17 16 15 14 13 12 11 10  9\n\na_rev_minus <- 5:-3\na_rev_minus\n\n[1]  5  4  3  2  1  0 -1 -2 -3\n\n\nGenerate a sequence using sequence()\n\nb <- sequence(7)\nb\n\n[1] 1 2 3 4 5 6 7\n\nc<- sequence(c(5,9))\nc\n\n [1] 1 2 3 4 5 1 2 3 4 5 6 7 8 9\n\n\nThe seq() function has four main arguments: seq(from, to, by, length.out), where “from” and “to” are the starting and ending elements of the sequence. Additionally, “by” is the difference between the elements, and “length.out” is the maximum length of the vector.\n\nd <- seq(2,20,by=2)\nd\n\n [1]  2  4  6  8 10 12 14 16 18 20\n\nf <- seq(2,20, length.out=5)\nf\n\n[1]  2.0  6.5 11.0 15.5 20.0\n\nh<- seq(20,2,by=-2)\nh\n\n [1] 20 18 16 14 12 10  8  6  4  2\n\nj <- seq(20, 2, length.out=3)\nj\n\n[1] 20 11  2\n\n\nTo create a repeating vector, we can use rep().\nExamples\n\nk <- rep(c(0,3,6), times = 3)\nk\n\n[1] 0 3 6 0 3 6 0 3 6\n\nl <- rep(2:6, each = 3)\nl\n\n [1] 2 2 2 3 3 3 4 4 4 5 5 5 6 6 6\n\nm <- rep(7:10, length.out = 20)\nm\n\n [1]  7  8  9 10  7  8  9 10  7  8  9 10  7  8  9 10  7  8  9 10"
+    "text": "A vector is a collection of elements of the same data type, and they are a basic data structure in R programming.\nVectors cannot be of mixed data type. The most common way to create a vector is with c(), where “c” stands for combine. In R, vectors do not have dimensions; therefore, they cannot be defined by columns or rows. Vectors can be divided into atomic vectors and lists (discussed in Part 7). The atomic vectors include logical, character, and numeric (integer or double).\nAdditionally, R is a vectorized language because mathematical operations are applied to each element of the vector without the need to loop through the vector.Examples of vectors are shown below:\n• Numbers: c(2, 10, 16, -5)\n• Characters: c(\"R\", \"RStudio\", \"Shiny\", \"Quarto\")\n• Logicals: c(\"TRUE\", \"FALSE\", \"TRUE\")"
   },
   {
     "objectID": "posts/series_1/new_post_6/post_6.html#vector-operations",
     "href": "posts/series_1/new_post_6/post_6.html#vector-operations",
     "title": "The Basics of R and RStudio",
     "section": "Vector Operations",
-    "text": "Vector Operations\nVectors of equal length can be operated on together. If one vector is shorter, it will get recycled, as its elements are repeated until it matches the elements of the longer vector. When using vectors of unequal lengths, it would be ideal if the longer vector is a multiple of the shorter vector.\nExamples of vector operations:\n\nvec_1 <- 1:10\n\nvec_1*12 # multiplication\n\n [1]  12  24  36  48  60  72  84  96 108 120\n\nvec_1+12 # addition\n\n [1] 13 14 15 16 17 18 19 20 21 22\n\nvec_1-12 # subtraction\n\n [1] -11 -10  -9  -8  -7  -6  -5  -4  -3  -2\n\nvec_1/3 # division\n\n [1] 0.3333333 0.6666667 1.0000000 1.3333333 1.6666667 2.0000000 2.3333333\n [8] 2.6666667 3.0000000 3.3333333\n\nvec_1^4 # power\n\n [1]     1    16    81   256   625  1296  2401  4096  6561 10000\n\nsqrt(vec_1) # square root\n\n [1] 1.000000 1.414214 1.732051 2.000000 2.236068 2.449490 2.645751 2.828427\n [9] 3.000000 3.162278\n\n\nAdditionally, we can perform operations on two vectors of equal length. Create two vectors\n\nvec_3 <- 5:14\nvec_3\n\n [1]  5  6  7  8  9 10 11 12 13 14\n\nvec_4 <- 12:3\nvec_4\n\n [1] 12 11 10  9  8  7  6  5  4  3\n\n\nPerform various operations\n\nvec_3 + vec_4\n\n [1] 17 17 17 17 17 17 17 17 17 17\n\nvec_3 - vec_4\n\n [1] -7 -5 -3 -1  1  3  5  7  9 11\n\nvec_3 / vec_4\n\n [1] 0.4166667 0.5454545 0.7000000 0.8888889 1.1250000 1.4285714 1.8333333\n [8] 2.4000000 3.2500000 4.6666667\n\nvec_3 * vec_4\n\n [1] 60 66 70 72 72 70 66 60 52 42\n\nvec_3 ^ vec_4\n\n [1] 244140625 362797056 282475249 134217728  43046721  10000000   1771561\n [8]    248832     28561      2744\n\n\n\nFunctions applied to vectors\nThe functions listed below can be applied to vectors:\n\nany()\nall()\nnchar()\nlength()\ntypeof()\n\n\nany(vec_3 > vec_4)\n\n[1] TRUE\n\nany(vec_3 < vec_4)\n\n[1] TRUE\n\n\n\nall(vec_3 > vec_4)\n\n[1] FALSE\n\nall(vec_3 < vec_4)\n\n[1] FALSE\n\n\n\nlength(vec_3)\n\n[1] 10\n\nlength(vec_4)\n\n[1] 10\n\n\n\ntypeof(vec_3)\n\n[1] \"integer\"\n\ntypeof(vec_4)\n\n[1] \"integer\"\n\n\nDetermine the number of letters in a character\n\nvec_5 <- c(\"R\", \"RStudio\", \"Shiny\", \"Quarto\")\nnchar(vec_5)\n\n[1] 1 7 5 6\n\n\nRecycling of vectors\n\nvec_3 + c(10, 20)\n\n [1] 15 26 17 28 19 30 21 32 23 34\n\nvec_3 + c(10, 20, 30) # will result in a warning as the longer vector is not a multiple of the shorter one\n\nWarning in vec_3 + c(10, 20, 30): longer object length is not a multiple of\nshorter object length\n\n\n [1] 15 26 37 18 29 40 21 32 43 24\n\n\nAccessing elements of a vector\nTo access the elements of a vector, we can use numeric-, character-, or logical-based indexing.\nExamples\nName the columns of a vector with names()\nCreate the vector\n\nvec_name <- 1:5\nvec_name\n\n[1] 1 2 3 4 5\n\n\nName individual elements\n\nnames(vec_name) <- c(\"a\", \"c\", \"e\", \"g\", \"i\")\nvec_name\n\na c e g i \n1 2 3 4 5 \n\n\n\nvec_index <- 1:5\nvec_index\n\n[1] 1 2 3 4 5\n\n\nLogical vector as an index\n\nvec_index[c(TRUE, FALSE, TRUE, FALSE, TRUE)]\n\n[1] 1 3 5\n\n\nFilter vector based on an index\n\nvec_index[1:3]\n\n[1] 1 2 3\n\n\nAccess a vector using its position\n\nvec_index[4]\n\n[1] 4\n\nvec_index[c(2,4)]\n\n[1] 2 4\n\n\nModify a vector using indexing\n\nvec_index\n\n[1] 1 2 3 4 5\n\nvec_index[5] <- 1000\nvec_index\n\n[1]    1    2    3    4 1000"
+    "text": "Vector Operations\nVectors of equal length can be operated on together. If one vector is shorter, it will get recycled, as its elements are repeated until it matches the elements of the longer vector. When using vectors of unequal lengths, it would be ideal if the longer vector is a multiple of the shorter vector.\n\nBasic Vector Operations\n\nvec_1 <- 1:10\n\nvec_1*12 # multiplication\n\n [1]  12  24  36  48  60  72  84  96 108 120\n\nvec_1+12 # addition\n\n [1] 13 14 15 16 17 18 19 20 21 22\n\nvec_1-12 # subtraction\n\n [1] -11 -10  -9  -8  -7  -6  -5  -4  -3  -2\n\nvec_1/3 # division\n\n [1] 0.3333333 0.6666667 1.0000000 1.3333333 1.6666667 2.0000000 2.3333333\n [8] 2.6666667 3.0000000 3.3333333\n\nvec_1^4 # power\n\n [1]     1    16    81   256   625  1296  2401  4096  6561 10000\n\nsqrt(vec_1) # square root\n\n [1] 1.000000 1.414214 1.732051 2.000000 2.236068 2.449490 2.645751 2.828427\n [9] 3.000000 3.162278\n\n\n\n\nOperations on vectors of equal length\nAdditionally, we can perform operations on two vectors of equal length.\n\nCreate two vectors\n\n\nvec_3 <- 5:14\nvec_3\n\n [1]  5  6  7  8  9 10 11 12 13 14\n\nvec_4 <- 12:3\nvec_4\n\n [1] 12 11 10  9  8  7  6  5  4  3\n\n\n\nPerform various arithmetic operations\n\n\nvec_3 + vec_4\n\n [1] 17 17 17 17 17 17 17 17 17 17\n\nvec_3 - vec_4\n\n [1] -7 -5 -3 -1  1  3  5  7  9 11\n\nvec_3 / vec_4\n\n [1] 0.4166667 0.5454545 0.7000000 0.8888889 1.1250000 1.4285714 1.8333333\n [8] 2.4000000 3.2500000 4.6666667\n\nvec_3 * vec_4\n\n [1] 60 66 70 72 72 70 66 60 52 42\n\nvec_3 ^ vec_4\n\n [1] 244140625 362797056 282475249 134217728  43046721  10000000   1771561\n [8]    248832     28561      2744"
   },
   {
     "objectID": "posts/series_1/new_post_8/post_8.html",
@@ -404,5 +404,138 @@
     "title": "The Basics of R and RStudio",
     "section": "Supplementary Reading",
     "text": "Supplementary Reading\n\nA great post from the blog “Data Science by Design” on the role of Missingness.\n\nhttps://datasciencebydesign.org/blog/when-we-miss-missingness"
+  },
+  {
+    "objectID": "posts/series_1/new_post_6/post_6.html#sequence-generation",
+    "href": "posts/series_1/new_post_6/post_6.html#sequence-generation",
+    "title": "The Basics of R and RStudio",
+    "section": "Sequence Generation",
+    "text": "Sequence Generation\nTo generate a vector with a sequence of consecutive numbers, we can use :, sequence(), or seq().\n\nGenerate a sequence using :\n\na <- 9:18\na\n\n [1]  9 10 11 12 13 14 15 16 17 18\n\na_rev <- 18:9\na_rev\n\n [1] 18 17 16 15 14 13 12 11 10  9\n\na_rev_minus <- 5:-3\na_rev_minus\n\n[1]  5  4  3  2  1  0 -1 -2 -3\n\n\n\n\nGenerate a sequence using sequence()\n\nb <- sequence(7)\nb\n\n[1] 1 2 3 4 5 6 7\n\nc <- sequence(c(5,9))\nc\n\n [1] 1 2 3 4 5 1 2 3 4 5 6 7 8 9\n\n\n\n\nGenerate a sequence using seq()\nThe seq() function has four main arguments: seq(from, to, by, length.out), where “from” and “to” are the starting and ending elements of the sequence. Additionally, “by” is the difference between the elements, and “length.out” is the maximum length of the vector.\n\nd <- seq(2,20,by=2)\nd\n\n [1]  2  4  6  8 10 12 14 16 18 20\n\nf <- seq(2,20, length.out=5)\nf\n\n[1]  2.0  6.5 11.0 15.5 20.0\n\nh <- seq(20,2,by=-2)\nh\n\n [1] 20 18 16 14 12 10  8  6  4  2\n\nj <- seq(20, 2, length.out=3)\nj\n\n[1] 20 11  2"
+  },
+  {
+    "objectID": "posts/series_1/new_post_6/post_6.html#repeating-vectors",
+    "href": "posts/series_1/new_post_6/post_6.html#repeating-vectors",
+    "title": "The Basics of R and RStudio",
+    "section": "Repeating vectors",
+    "text": "Repeating vectors\nTo create a repeating vector, we can use rep().\n\nk <- rep(c(0,3,6), times = 3)\nk\n\n[1] 0 3 6 0 3 6 0 3 6\n\nl <- rep(2:6, each = 3)\nl\n\n [1] 2 2 2 3 3 3 4 4 4 5 5 5 6 6 6\n\nm <- rep(7:10, length.out = 20)\nm\n\n [1]  7  8  9 10  7  8  9 10  7  8  9 10  7  8  9 10  7  8  9 10"
+  },
+  {
+    "objectID": "posts/series_1/new_post_6/post_6.html#functions-that-can-be-applied-to-vectors",
+    "href": "posts/series_1/new_post_6/post_6.html#functions-that-can-be-applied-to-vectors",
+    "title": "The Basics of R and RStudio",
+    "section": "Functions that can be applied to vectors",
+    "text": "Functions that can be applied to vectors\nThe functions listed below can be applied to vectors:\n\nany()\nall()\nnchar()\nlength()\ntypeof()\n\n\nExamples\n\nany(vec_3 > vec_4)\n\n[1] TRUE\n\nany(vec_3 < vec_4)\n\n[1] TRUE\n\n\n\nall(vec_3 > vec_4)\n\n[1] FALSE\n\nall(vec_3 < vec_4)\n\n[1] FALSE\n\n\n\nlength(vec_3)\n\n[1] 10\n\nlength(vec_4)\n\n[1] 10\n\n\n\ntypeof(vec_3)\n\n[1] \"integer\"\n\ntypeof(vec_4)\n\n[1] \"integer\"\n\n\nDetermine the number of letters in a character\n\nvec_5 <- c(\"R\", \"RStudio\", \"Shiny\", \"Quarto\")\nnchar(vec_5)\n\n[1] 1 7 5 6"
+  },
+  {
+    "objectID": "posts/series_1/new_post_6/post_6.html#recycling-of-vectors",
+    "href": "posts/series_1/new_post_6/post_6.html#recycling-of-vectors",
+    "title": "The Basics of R and RStudio",
+    "section": "Recycling of vectors",
+    "text": "Recycling of vectors\n\nvec_3 + c(10, 20)\n\n [1] 15 26 17 28 19 30 21 32 23 34\n\nvec_3 + c(10, 20, 30) # will result in a warning as the longer vector is not a multiple of the shorter one\n\nWarning in vec_3 + c(10, 20, 30): longer object length is not a multiple of\nshorter object length\n\n\n [1] 15 26 37 18 29 40 21 32 43 24"
+  },
+  {
+    "objectID": "posts/series_1/new_post_6/post_6.html#accessing-elements-of-a-vector",
+    "href": "posts/series_1/new_post_6/post_6.html#accessing-elements-of-a-vector",
+    "title": "The Basics of R and RStudio",
+    "section": "Accessing elements of a vector",
+    "text": "Accessing elements of a vector\nTo access the elements of a vector, we can use numeric-, character-, or logical-based indexing.\n\nExamples\n\n1. Name the columns of a vector with names().\nCreate the vector.\n\nvec_name <- 1:5\nvec_name\n\n[1] 1 2 3 4 5\n\n\nName the individual elements.\n\nnames(vec_name) <- c(\"a\", \"c\", \"e\", \"g\", \"i\")\nvec_name\n\na c e g i \n1 2 3 4 5 \n\n\n\n\n2. Use the vector index to filter\n\nvec_index <- 1:5\nvec_index\n\n[1] 1 2 3 4 5\n\n\n\na) Logical vector as an index\n\nvec_index[c(TRUE, FALSE, TRUE, FALSE, TRUE)]\n\n[1] 1 3 5\n\n\n\n\nb) Filter vector based on an index\n\nvec_index[1:3]\n\n[1] 1 2 3\n\n\n\n\nc) Access a vector using its position\n\nvec_index[4]\n\n[1] 4\n\nvec_index[c(2,4)]\n\n[1] 2 4\n\n\n\n\nd) Modify a vector using indexing\n\nvec_index\n\n[1] 1 2 3 4 5\n\nvec_index[5] <- 1000\nvec_index\n\n[1]    1    2    3    4 1000"
+  },
+  {
+    "objectID": "posts/series_1/new_post_2/post_2.html#arithmetic-operators-available-in-rrstudio",
+    "href": "posts/series_1/new_post_2/post_2.html#arithmetic-operators-available-in-rrstudio",
+    "title": "The Basics of R and RStudio",
+    "section": "Arithmetic operators available in R/RStudio",
+    "text": "Arithmetic operators available in R/RStudio\nVarious arithmetic operators (listed below) can be used in R/RStudio.\n\n\n\nArithmetic Operator\nDescription\n\n\n\n\n+\nAddition\n\n\n-\nSubtraction\n\n\n*\nMultiplication\n\n\n/\nDivision\n\n\n** or ^\nExponentiation\n\n\n%%\nModulus (remainder after division)\n\n\n%/%\nInteger division"
+  },
+  {
+    "objectID": "posts/series_1/new_post_2/post_2.html#supplementary-reading",
+    "href": "posts/series_1/new_post_2/post_2.html#supplementary-reading",
+    "title": "The Basics of R and RStudio",
+    "section": "Supplementary Reading",
+    "text": "Supplementary Reading\nComing soon…"
+  },
+  {
+    "objectID": "posts/series_1/new_post_3/post_3.html#valid-and-invalid-names",
+    "href": "posts/series_1/new_post_3/post_3.html#valid-and-invalid-names",
+    "title": "The Basics of R and RStudio",
+    "section": "Valid and invalid names",
+    "text": "Valid and invalid names\n\nValid names:\n\ntime_24_hr\n.time24_hr\n\n\n\nInvalid names:\n\n_24_hr.time\n24_hr_time\n.24_hr_time"
+  },
+  {
+    "objectID": "posts/series_1/new_post_3/post_3.html#supplementary-reading",
+    "href": "posts/series_1/new_post_3/post_3.html#supplementary-reading",
+    "title": "The Basics of R and RStudio",
+    "section": "Supplementary Reading",
+    "text": "Supplementary Reading\nComing soon…"
+  },
+  {
+    "objectID": "posts/series_1/new_post_4/post_4.html#data-types",
+    "href": "posts/series_1/new_post_4/post_4.html#data-types",
+    "title": "The Basics of R and RStudio",
+    "section": "Data types",
+    "text": "Data types\n\nNumeric\n\n89.98\n\n[1] 89.98\n\n55\n\n[1] 55\n\n\n\n\nInteger\n\n5L\n\n[1] 5\n\n5768L\n\n[1] 5768\n\n\n\n\nLogical\n\nTRUE\n\n[1] TRUE\n\nFALSE\n\n[1] FALSE\n\n\n\n\nComplex\n\n10 + 30i\n\n[1] 10+30i\n\n287 + 34i\n\n[1] 287+34i\n\n\n\n\nCharacter or String\n\n'abc'\n\n[1] \"abc\"\n\n\"def\"\n\n[1] \"def\"\n\n\"I like learning R\"\n\n[1] \"I like learning R\"\n\n\n\n\nDates\n\n\"2022-06-23 14:39:21 EAT\"\n\n[1] \"2022-06-23 14:39:21 EAT\"\n\n\"2022-06-23\"\n\n[1] \"2022-06-23\""
+  },
+  {
+    "objectID": "posts/series_1/new_post_4/post_4.html#examining-various-data-types",
+    "href": "posts/series_1/new_post_4/post_4.html#examining-various-data-types",
+    "title": "The Basics of R and RStudio",
+    "section": "Examining various data types",
+    "text": "Examining various data types\nSeveral functions exist to examine the features of the various data types. These include:\n\ntypeof() – what is the data type of the object (low-level)?\nclass() – what is the data type of the object (high-level)?\nlength() – how long is the object?\nattributes() – any metadata available?\n\nLet’s look at how these functions work with a few examples\n\na <- 45.84\nb <- 858L\nc <- TRUE\nd <- 89 + 34i\ne <- 'abc'\n\nExamine the data type at a low-level with typeof()\n\ntypeof(a)\n\n[1] \"double\"\n\ntypeof(b)\n\n[1] \"integer\"\n\ntypeof(c)\n\n[1] \"logical\"\n\ntypeof(d)\n\n[1] \"complex\"\n\ntypeof(e)\n\n[1] \"character\"\n\n\nExamine the data type at a high-level with class()\n\nclass(a)\n\n[1] \"numeric\"\n\nclass(b)\n\n[1] \"integer\"\n\nclass(c)\n\n[1] \"logical\"\n\nclass(d)\n\n[1] \"complex\"\n\nclass(e)\n\n[1] \"character\"\n\n\nTo test whether the variable is of a specific type, we can use the “is.___()” functions.\nFirst, we test the variable a which is numeric.\n\nis.numeric(a)\n\n[1] TRUE\n\nis.integer(a)\n\n[1] FALSE\n\nis.logical(a)\n\n[1] FALSE\n\nis.character(a)\n\n[1] FALSE\n\n\nSecond, we test the variable c which is logical.\n\nis.numeric(c)\n\n[1] FALSE\n\nis.integer(c)\n\n[1] FALSE\n\nis.logical(c)\n\n[1] TRUE\n\nis.character(c)\n\n[1] FALSE"
+  },
+  {
+    "objectID": "posts/series_1/new_post_4/post_4.html#converting-between-various-data-types",
+    "href": "posts/series_1/new_post_4/post_4.html#converting-between-various-data-types",
+    "title": "The Basics of R and RStudio",
+    "section": "Converting between various data types",
+    "text": "Converting between various data types\nTo convert between data types we can use the “as.___()” functions. These include: as.Date(), as.numeric(), and as.factor(). Additionally, other helpful functions include factor() which adds levels to the data and nchar() which provides the length of the data.\n\nExamples\n\nas.integer(a)\n\n[1] 45\n\nas.logical(0)\n\n[1] FALSE\n\nas.logical(1)\n\n[1] TRUE\n\nnchar(e)\n\n[1] 3"
+  },
+  {
+    "objectID": "posts/series_1/new_post_4/post_4.html#supplementary-reading",
+    "href": "posts/series_1/new_post_4/post_4.html#supplementary-reading",
+    "title": "The Basics of R and RStudio",
+    "section": "Supplementary Reading",
+    "text": "Supplementary Reading\nComing soon…"
+  },
+  {
+    "objectID": "posts/series_1/new_post_5/post_5.html#arithmetic-operators",
+    "href": "posts/series_1/new_post_5/post_5.html#arithmetic-operators",
+    "title": "The Basics of R and RStudio",
+    "section": "1. Arithmetic Operators",
+    "text": "1. Arithmetic Operators\nArithmetic operators are used to perform mathematical operations. These operators have been highlighted in Part 1 of the series."
+  },
+  {
+    "objectID": "posts/series_1/new_post_5/post_5.html#relational-operators",
+    "href": "posts/series_1/new_post_5/post_5.html#relational-operators",
+    "title": "The Basics of R and RStudio",
+    "section": "2. Relational Operators",
+    "text": "2. Relational Operators\nRelational operators are used to find the relationship between 2 variables and compare objects. The output of these comparisons is Boolean (TRUE or FALSE). The table below describes the most common relational operators.\n\n\n\nRelational Operator\nDescription\n\n\n\n\n<\nLess than\n\n\n>\nGreater than\n\n\n<=\nLess than or equal to\n\n\n>=\nGreater than or equal to\n\n\n==\nEqual to\n\n\n!=\nNot Equal to\n\n\n\n\nExamples\n\nx <- 227\ny <- 639\n\nLess than\n\nx<y\n\n[1] TRUE\n\n\nGreater than\n\nx>y\n\n[1] FALSE\n\n\nLess than or equal to\n\nx <= 300\n\n[1] TRUE\n\n\nGreater than or equal to\n\ny >= 700\n\n[1] FALSE\n\n\nEqual to\n\ny == 639\n\n[1] TRUE\n\n\nNot Equal to\n\nx != 227\n\n[1] FALSE"
+  },
+  {
+    "objectID": "posts/series_1/new_post_5/post_5.html#logical-operators",
+    "href": "posts/series_1/new_post_5/post_5.html#logical-operators",
+    "title": "The Basics of R and RStudio",
+    "section": "3. Logical Operators",
+    "text": "3. Logical Operators\nLogical operators are used to specify multiple conditions between objects. Logical operators work with basic data types such as logical, numeric, and complex data types. This returns TRUE or FALSE values. Numbers greater that 1 are TRUE and 0 equals FALSE. The table below describes the most common logical operators.\n\n\n\nLogical Operator\nDescription\n\n\n\n\n!\nLogical NOT\n\n\n|\nElement-wise logical OR\n\n\n||\nLogical OR\n\n\n&\nElement-wise logical AND\n\n\n&&\nLogical AND\n\n\n\n\nExamples\n\nvector_1 <- c(0,2)\nvector_2 <- c(1,0)\n\nLogical NOT\n\n!vector_1\n\n[1]  TRUE FALSE\n\n!vector_2\n\n[1] FALSE  TRUE\n\n\nLogical OR\n\nvector_1 | vector_2\n\n[1] TRUE TRUE\n\n\nLogical AND\n\nvector_1 & vector_2\n\n[1] FALSE FALSE\n\n\nElement-wise logical OR\n\nvector_1 || vector_2\n\n[1] TRUE\n\n\nElement-wise logical AND\n\nvector_1 && vector_2\n\n[1] FALSE"
+  },
+  {
+    "objectID": "posts/series_1/new_post_5/post_5.html#assignment-operators",
+    "href": "posts/series_1/new_post_5/post_5.html#assignment-operators",
+    "title": "The Basics of R and RStudio",
+    "section": "4. Assignment Operators",
+    "text": "4. Assignment Operators\nThese operators assign values to variables. A more comprehensive review can be obtained in Part 2 of the series."
+  },
+  {
+    "objectID": "posts/series_1/new_post_5/post_5.html#miscellaneous-operators",
+    "href": "posts/series_1/new_post_5/post_5.html#miscellaneous-operators",
+    "title": "The Basics of R and RStudio",
+    "section": "5. Miscellaneous Operators",
+    "text": "5. Miscellaneous Operators\nThese are helpful operators for working in that can perform a variety of functions. A few common miscellaneous operators are described below.\n\n\n\n\n\n\n\nMiscellaneous Operator\nDescription\n\n\n\n\n%*%\nMatrix multiplication (to be discussed in subsequent chapters)\n\n\n%in%\nDoes an element belong to a vector\n\n\n:\nGenerate a sequence\n\n\n\n\nExamples\nSequence\n\na <- 1:8\na\n\n[1] 1 2 3 4 5 6 7 8\n\nb <- 4:10\nb\n\n[1]  4  5  6  7  8  9 10\n\n\nElement in a vector\n\na %in% b\n\n[1] FALSE FALSE FALSE  TRUE  TRUE  TRUE  TRUE  TRUE\n\n9 %in% b\n\n[1] TRUE\n\n9 %in% a\n\n[1] FALSE"
+  },
+  {
+    "objectID": "posts/series_1/new_post_5/post_5.html#supplementary-reading",
+    "href": "posts/series_1/new_post_5/post_5.html#supplementary-reading",
+    "title": "The Basics of R and RStudio",
+    "section": "Supplementary Reading",
+    "text": "Supplementary Reading\nComing soon…"
   }
 ]

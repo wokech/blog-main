@@ -543,12 +543,18 @@ Levels: Female Male</code></pre>
 
 <section id="introduction" class="level2">
 <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
-<p>A vector is a collection of elements of the same data type, and they are a basic data structure in R programming. Vectors cannot be of mixed data type. The most common way to create a vector is with <code>c()</code>, where “c” stands for combine. In R, vectors do not have dimensions; therefore, they cannot be defined by columns or rows. Vectors can be divided into atomic vectors and lists (discussed in <a href="posts/series_1/new_post_8/post_8.html">Part 7</a>). The atomic vectors include logical, character, and numeric (integer or double).</p>
-<p>Additionally, R is a vectorized language because mathematical operations are applied to each element of the vector without the need to loop through the vector.</p>
-<p>Examples • Numbers: c(2, 10, 16, -5) • Characters: c(“R”, “RStudio”, “Shiny”, “Quarto”) • Logicals: c(“TRUE”, “FALSE”, “TRUE”)</p>
+<p>A vector is a collection of elements of the same data type, and they are a basic data structure in R programming.</p>
+<p>Vectors cannot be of mixed data type. The most common way to create a vector is with <code>c()</code>, where “c” stands for combine. In R, vectors do not have dimensions; therefore, they cannot be defined by columns or rows. Vectors can be divided into atomic vectors and lists (discussed in <a href="posts/series_1/new_post_8/post_8.html">Part 7</a>). The atomic vectors include logical, character, and numeric (integer or double).</p>
+<p>Additionally, R is a vectorized language because mathematical operations are applied to each element of the vector without the need to loop through the vector.Examples of vectors are shown below:</p>
+<p>• Numbers: <code>c(2, 10, 16, -5)</code></p>
+<p>• Characters: <code>c("R", "RStudio", "Shiny", "Quarto")</code></p>
+<p>• Logicals: <code>c("TRUE", "FALSE", "TRUE")</code></p>
+</section>
+<section id="sequence-generation" class="level2">
+<h2 class="anchored" data-anchor-id="sequence-generation">Sequence Generation</h2>
 <p>To generate a vector with a sequence of consecutive numbers, we can use <code>:</code>, <code>sequence()</code>, or <code>seq()</code>.</p>
-<p>Examples</p>
-<p>Generate a sequence using <code>:</code></p>
+<section id="generate-a-sequence-using" class="level3">
+<h3 class="anchored" data-anchor-id="generate-a-sequence-using">Generate a sequence using <code>:</code></h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1">a <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="dv" style="color: #AD0000;">9</span><span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">18</span></span>
 <span id="cb1-2">a</span></code></pre></div>
@@ -566,19 +572,24 @@ Levels: Female Male</code></pre>
 <pre><code>[1]  5  4  3  2  1  0 -1 -2 -3</code></pre>
 </div>
 </div>
-<p>Generate a sequence using <code>sequence()</code></p>
+</section>
+<section id="generate-a-sequence-using-sequence" class="level3">
+<h3 class="anchored" data-anchor-id="generate-a-sequence-using-sequence">Generate a sequence using <code>sequence()</code></h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb7" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1">b <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">sequence</span>(<span class="dv" style="color: #AD0000;">7</span>)</span>
 <span id="cb7-2">b</span></code></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 1 2 3 4 5 6 7</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb9" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1">c<span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">sequence</span>(<span class="fu" style="color: #4758AB;">c</span>(<span class="dv" style="color: #AD0000;">5</span>,<span class="dv" style="color: #AD0000;">9</span>))</span>
+<div class="sourceCode cell-code" id="cb9" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1">c <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">sequence</span>(<span class="fu" style="color: #4758AB;">c</span>(<span class="dv" style="color: #AD0000;">5</span>,<span class="dv" style="color: #AD0000;">9</span>))</span>
 <span id="cb9-2">c</span></code></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code> [1] 1 2 3 4 5 1 2 3 4 5 6 7 8 9</code></pre>
 </div>
 </div>
+</section>
+<section id="generate-a-sequence-using-seq" class="level3">
+<h3 class="anchored" data-anchor-id="generate-a-sequence-using-seq">Generate a sequence using <code>seq()</code></h3>
 <p>The <code>seq()</code> function has four main arguments: seq(from, to, by, length.out), where “from” and “to” are the starting and ending elements of the sequence. Additionally, “by” is the difference between the elements, and “length.out” is the maximum length of the vector.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb11" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1">d <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">seq</span>(<span class="dv" style="color: #AD0000;">2</span>,<span class="dv" style="color: #AD0000;">20</span>,<span class="at" style="color: #657422;">by=</span><span class="dv" style="color: #AD0000;">2</span>)</span>
@@ -591,7 +602,7 @@ Levels: Female Male</code></pre>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1]  2.0  6.5 11.0 15.5 20.0</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb15" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1">h<span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">seq</span>(<span class="dv" style="color: #AD0000;">20</span>,<span class="dv" style="color: #AD0000;">2</span>,<span class="at" style="color: #657422;">by=</span><span class="sc" style="color: #5E5E5E;">-</span><span class="dv" style="color: #AD0000;">2</span>)</span>
+<div class="sourceCode cell-code" id="cb15" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1">h <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">seq</span>(<span class="dv" style="color: #AD0000;">20</span>,<span class="dv" style="color: #AD0000;">2</span>,<span class="at" style="color: #657422;">by=</span><span class="sc" style="color: #5E5E5E;">-</span><span class="dv" style="color: #AD0000;">2</span>)</span>
 <span id="cb15-2">h</span></code></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code> [1] 20 18 16 14 12 10  8  6  4  2</code></pre>
@@ -602,8 +613,11 @@ Levels: Female Male</code></pre>
 <pre><code>[1] 20 11  2</code></pre>
 </div>
 </div>
+</section>
+</section>
+<section id="repeating-vectors" class="level2">
+<h2 class="anchored" data-anchor-id="repeating-vectors">Repeating vectors</h2>
 <p>To create a repeating vector, we can use <code>rep()</code>.</p>
-<p>Examples</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb19" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1">k <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">rep</span>(<span class="fu" style="color: #4758AB;">c</span>(<span class="dv" style="color: #AD0000;">0</span>,<span class="dv" style="color: #AD0000;">3</span>,<span class="dv" style="color: #AD0000;">6</span>), <span class="at" style="color: #657422;">times =</span> <span class="dv" style="color: #AD0000;">3</span>)</span>
 <span id="cb19-2">k</span></code></pre></div>
@@ -625,7 +639,8 @@ Levels: Female Male</code></pre>
 <section id="vector-operations" class="level2">
 <h2 class="anchored" data-anchor-id="vector-operations">Vector Operations</h2>
 <p>Vectors of equal length can be operated on together. If one vector is shorter, it will get recycled, as its elements are repeated until it matches the elements of the longer vector. When using vectors of unequal lengths, it would be ideal if the longer vector is a multiple of the shorter vector.</p>
-<p>Examples of vector operations:</p>
+<section id="basic-vector-operations" class="level3">
+<h3 class="anchored" data-anchor-id="basic-vector-operations">Basic Vector Operations</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb25" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb25-1">vec_1 <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="dv" style="color: #AD0000;">1</span><span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">10</span></span>
 <span id="cb25-2"></span>
@@ -656,7 +671,13 @@ Levels: Female Male</code></pre>
  [9] 3.000000 3.162278</code></pre>
 </div>
 </div>
-<p>Additionally, we can perform operations on two vectors of equal length. Create two vectors</p>
+</section>
+<section id="operations-on-vectors-of-equal-length" class="level3">
+<h3 class="anchored" data-anchor-id="operations-on-vectors-of-equal-length">Operations on vectors of equal length</h3>
+<p>Additionally, we can perform operations on two vectors of equal length.</p>
+<ol type="1">
+<li>Create two vectors</li>
+</ol>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb37" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb37-1">vec_3 <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="dv" style="color: #AD0000;">5</span><span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">14</span></span>
 <span id="cb37-2">vec_3</span></code></pre></div>
@@ -669,7 +690,9 @@ Levels: Female Male</code></pre>
 <pre><code> [1] 12 11 10  9  8  7  6  5  4  3</code></pre>
 </div>
 </div>
-<p>Perform various operations</p>
+<ol start="2" type="1">
+<li>Perform various arithmetic operations</li>
+</ol>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb41" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb41-1">vec_3 <span class="sc" style="color: #5E5E5E;">+</span> vec_4</span></code></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -694,8 +717,10 @@ Levels: Female Male</code></pre>
  [8]    248832     28561      2744</code></pre>
 </div>
 </div>
-<section id="functions-applied-to-vectors" class="level3">
-<h3 class="anchored" data-anchor-id="functions-applied-to-vectors">Functions applied to vectors</h3>
+</section>
+</section>
+<section id="functions-that-can-be-applied-to-vectors" class="level2">
+<h2 class="anchored" data-anchor-id="functions-that-can-be-applied-to-vectors">Functions that can be applied to vectors</h2>
 <p>The functions listed below can be applied to vectors:</p>
 <ol type="1">
 <li><p><code>any()</code></p></li>
@@ -704,6 +729,8 @@ Levels: Female Male</code></pre>
 <li><p><code>length()</code></p></li>
 <li><p><code>typeof()</code></p></li>
 </ol>
+<section id="examples" class="level3">
+<h3 class="anchored" data-anchor-id="examples">Examples</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb51" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb51-1"><span class="fu" style="color: #4758AB;">any</span>(vec_3 <span class="sc" style="color: #5E5E5E;">&gt;</span> vec_4)</span></code></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -752,7 +779,10 @@ Levels: Female Male</code></pre>
 <pre><code>[1] 1 7 5 6</code></pre>
 </div>
 </div>
-<p>Recycling of vectors</p>
+</section>
+</section>
+<section id="recycling-of-vectors" class="level2">
+<h2 class="anchored" data-anchor-id="recycling-of-vectors">Recycling of vectors</h2>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb69" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb69-1">vec_3 <span class="sc" style="color: #5E5E5E;">+</span> <span class="fu" style="color: #4758AB;">c</span>(<span class="dv" style="color: #AD0000;">10</span>, <span class="dv" style="color: #AD0000;">20</span>)</span></code></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -767,11 +797,15 @@ shorter object length</code></pre>
 <pre><code> [1] 15 26 37 18 29 40 21 32 43 24</code></pre>
 </div>
 </div>
-<p>Accessing elements of a vector</p>
+</section>
+<section id="accessing-elements-of-a-vector" class="level2">
+<h2 class="anchored" data-anchor-id="accessing-elements-of-a-vector">Accessing elements of a vector</h2>
 <p>To access the elements of a vector, we can use numeric-, character-, or logical-based indexing.</p>
-<p>Examples</p>
-<p>Name the columns of a vector with <code>names()</code></p>
-<p>Create the vector</p>
+<section id="examples-1" class="level3">
+<h3 class="anchored" data-anchor-id="examples-1">Examples</h3>
+<section id="name-the-columns-of-a-vector-with-names." class="level4">
+<h4 class="anchored" data-anchor-id="name-the-columns-of-a-vector-with-names.">1. Name the columns of a vector with <code>names()</code>.</h4>
+<p>Create the vector.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb74" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb74-1">vec_name <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="dv" style="color: #AD0000;">1</span><span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">5</span></span>
 <span id="cb74-2">vec_name</span></code></pre></div>
@@ -779,7 +813,7 @@ shorter object length</code></pre>
 <pre><code>[1] 1 2 3 4 5</code></pre>
 </div>
 </div>
-<p>Name individual elements</p>
+<p>Name the individual elements.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb76" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb76-1"><span class="fu" style="color: #4758AB;">names</span>(vec_name) <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">c</span>(<span class="st" style="color: #20794D;">"a"</span>, <span class="st" style="color: #20794D;">"c"</span>, <span class="st" style="color: #20794D;">"e"</span>, <span class="st" style="color: #20794D;">"g"</span>, <span class="st" style="color: #20794D;">"i"</span>)</span>
 <span id="cb76-2">vec_name</span></code></pre></div>
@@ -788,6 +822,9 @@ shorter object length</code></pre>
 1 2 3 4 5 </code></pre>
 </div>
 </div>
+</section>
+<section id="use-the-vector-index-to-filter" class="level4">
+<h4 class="anchored" data-anchor-id="use-the-vector-index-to-filter">2. Use the vector index to filter</h4>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb78" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb78-1">vec_index <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="dv" style="color: #AD0000;">1</span><span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">5</span></span>
 <span id="cb78-2">vec_index</span></code></pre></div>
@@ -795,21 +832,26 @@ shorter object length</code></pre>
 <pre><code>[1] 1 2 3 4 5</code></pre>
 </div>
 </div>
-<p>Logical vector as an index</p>
+<section id="a-logical-vector-as-an-index" class="level5">
+<h5 class="anchored" data-anchor-id="a-logical-vector-as-an-index">a) Logical vector as an index</h5>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb80" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb80-1">vec_index[<span class="fu" style="color: #4758AB;">c</span>(<span class="cn" style="color: #8f5902;">TRUE</span>, <span class="cn" style="color: #8f5902;">FALSE</span>, <span class="cn" style="color: #8f5902;">TRUE</span>, <span class="cn" style="color: #8f5902;">FALSE</span>, <span class="cn" style="color: #8f5902;">TRUE</span>)]</span></code></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 1 3 5</code></pre>
 </div>
 </div>
-<p>Filter vector based on an index</p>
+</section>
+<section id="b-filter-vector-based-on-an-index" class="level5">
+<h5 class="anchored" data-anchor-id="b-filter-vector-based-on-an-index">b) Filter vector based on an index</h5>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb82" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb82-1">vec_index[<span class="dv" style="color: #AD0000;">1</span><span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">3</span>]</span></code></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 1 2 3</code></pre>
 </div>
 </div>
-<p>Access a vector using its position</p>
+</section>
+<section id="c-access-a-vector-using-its-position" class="level5">
+<h5 class="anchored" data-anchor-id="c-access-a-vector-using-its-position">c) Access a vector using its position</h5>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb84" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb84-1">vec_index[<span class="dv" style="color: #AD0000;">4</span>]</span></code></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -820,7 +862,9 @@ shorter object length</code></pre>
 <pre><code>[1] 2 4</code></pre>
 </div>
 </div>
-<p>Modify a vector using indexing</p>
+</section>
+<section id="d-modify-a-vector-using-indexing" class="level5">
+<h5 class="anchored" data-anchor-id="d-modify-a-vector-using-indexing">d) Modify a vector using indexing</h5>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb88" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb88-1">vec_index</span></code></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -834,6 +878,8 @@ shorter object length</code></pre>
 </div>
 
 
+</section>
+</section>
 </section>
 </section>
 
@@ -857,7 +903,8 @@ shorter object length</code></pre>
 
 <section id="introduction" class="level2">
 <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
-<p>R has many different types of operators that can perform different tasks. Here we will focus on 5 major types of operators. The major types of operators are:</p>
+<p>R has many different types of operators that can perform different tasks.</p>
+<p>Here we will focus on 5 major types of operators. The major types of operators are:</p>
 <ol type="1">
 <li><p>Arithmetic,</p></li>
 <li><p>Relational,</p></li>
@@ -865,12 +912,13 @@ shorter object length</code></pre>
 <li><p>Assignment, and</p></li>
 <li><p>Miscellaneous.</p></li>
 </ol>
-<section id="arithmetic-operators" class="level3">
-<h3 class="anchored" data-anchor-id="arithmetic-operators">1. Arithmetic Operators</h3>
+</section>
+<section id="arithmetic-operators" class="level2">
+<h2 class="anchored" data-anchor-id="arithmetic-operators">1. Arithmetic Operators</h2>
 <p>Arithmetic operators are used to perform mathematical operations. These operators have been highlighted in <a href="../../../posts/series_1/new_post_2/post_2.html">Part 1</a> of the series.</p>
 </section>
-<section id="relational-operators" class="level3">
-<h3 class="anchored" data-anchor-id="relational-operators">2. Relational Operators</h3>
+<section id="relational-operators" class="level2">
+<h2 class="anchored" data-anchor-id="relational-operators">2. Relational Operators</h2>
 <p>Relational operators are used to find the relationship between 2 variables and compare objects. The output of these comparisons is Boolean (<code>TRUE</code> or <code>FALSE</code>). The table below describes the most common relational operators.</p>
 <table class="table">
 <thead>
@@ -906,10 +954,8 @@ shorter object length</code></pre>
 </tr>
 </tbody>
 </table>
-</section>
-</section>
-<section id="examples" class="level2">
-<h2 class="anchored" data-anchor-id="examples">Examples</h2>
+<section id="examples" class="level3">
+<h3 class="anchored" data-anchor-id="examples">Examples</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1">x <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="dv" style="color: #AD0000;">227</span></span>
 <span id="cb1-2">y <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="dv" style="color: #AD0000;">639</span></span></code></pre></div>
@@ -956,8 +1002,10 @@ shorter object length</code></pre>
 <pre><code>[1] FALSE</code></pre>
 </div>
 </div>
-<section id="logical-operators" class="level3">
-<h3 class="anchored" data-anchor-id="logical-operators">3. Logical Operators</h3>
+</section>
+</section>
+<section id="logical-operators" class="level2">
+<h2 class="anchored" data-anchor-id="logical-operators">3. Logical Operators</h2>
 <p>Logical operators are used to specify multiple conditions between objects. Logical operators work with basic data types such as logical, numeric, and complex data types. This returns <code>TRUE</code> or <code>FALSE</code> values. Numbers greater that <code>1</code> are <code>TRUE</code> and <code>0</code> equals <code>FALSE</code>. The table below describes the most common logical operators.</p>
 <table class="table">
 <thead>
@@ -989,10 +1037,8 @@ shorter object length</code></pre>
 </tr>
 </tbody>
 </table>
-</section>
-</section>
-<section id="examples-1" class="level2">
-<h2 class="anchored" data-anchor-id="examples-1">Examples</h2>
+<section id="examples-1" class="level3">
+<h3 class="anchored" data-anchor-id="examples-1">Examples</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb14" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1">vector_1 <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">c</span>(<span class="dv" style="color: #AD0000;">0</span>,<span class="dv" style="color: #AD0000;">2</span>)</span>
 <span id="cb14-2">vector_2 <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">c</span>(<span class="dv" style="color: #AD0000;">1</span>,<span class="dv" style="color: #AD0000;">0</span>)</span></code></pre></div>
@@ -1036,12 +1082,14 @@ shorter object length</code></pre>
 <pre><code>[1] FALSE</code></pre>
 </div>
 </div>
-<section id="assignment-operators" class="level3">
-<h3 class="anchored" data-anchor-id="assignment-operators">4. Assignment Operators</h3>
+</section>
+</section>
+<section id="assignment-operators" class="level2">
+<h2 class="anchored" data-anchor-id="assignment-operators">4. Assignment Operators</h2>
 <p>These operators assign values to variables. A more comprehensive review can be obtained in <a href="../../../posts/series_1/new_post_3/post_3.html">Part 2</a> of the series.</p>
 </section>
-<section id="miscellaneous-operators" class="level3">
-<h3 class="anchored" data-anchor-id="miscellaneous-operators">5. Miscellaneous Operators</h3>
+<section id="miscellaneous-operators" class="level2">
+<h2 class="anchored" data-anchor-id="miscellaneous-operators">5. Miscellaneous Operators</h2>
 <p>These are helpful operators for working in that can perform a variety of functions. A few common miscellaneous operators are described below.</p>
 <table class="table">
 <colgroup>
@@ -1069,30 +1117,41 @@ shorter object length</code></pre>
 </tr>
 </tbody>
 </table>
-</section>
-</section>
-<section id="examples-2" class="level2">
-<h2 class="anchored" data-anchor-id="examples-2">Examples</h2>
+<section id="examples-2" class="level3">
+<h3 class="anchored" data-anchor-id="examples-2">Examples</h3>
 <p>Sequence</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb27" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb27-1">a <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="dv" style="color: #AD0000;">1</span><span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">8</span></span>
-<span id="cb27-2">b <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="dv" style="color: #AD0000;">4</span><span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">10</span></span></code></pre></div>
+<span id="cb27-2">a</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 1 2 3 4 5 6 7 8</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb29" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb29-1">b <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="dv" style="color: #AD0000;">4</span><span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">10</span></span>
+<span id="cb29-2">b</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1]  4  5  6  7  8  9 10</code></pre>
+</div>
 </div>
 <p>Element in a vector</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb28" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb28-1">a <span class="sc" style="color: #5E5E5E;">%in%</span> b</span></code></pre></div>
+<div class="sourceCode cell-code" id="cb31" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb31-1">a <span class="sc" style="color: #5E5E5E;">%in%</span> b</span></code></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] FALSE FALSE FALSE  TRUE  TRUE  TRUE  TRUE  TRUE</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb30" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb30-1"><span class="dv" style="color: #AD0000;">9</span> <span class="sc" style="color: #5E5E5E;">%in%</span> b</span></code></pre></div>
+<div class="sourceCode cell-code" id="cb33" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb33-1"><span class="dv" style="color: #AD0000;">9</span> <span class="sc" style="color: #5E5E5E;">%in%</span> b</span></code></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] TRUE</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb32" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb32-1"><span class="dv" style="color: #AD0000;">9</span> <span class="sc" style="color: #5E5E5E;">%in%</span> a</span></code></pre></div>
+<div class="sourceCode cell-code" id="cb35" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb35-1"><span class="dv" style="color: #AD0000;">9</span> <span class="sc" style="color: #5E5E5E;">%in%</span> a</span></code></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] FALSE</code></pre>
 </div>
 </div>
+</section>
+</section>
+<section id="supplementary-reading" class="level2">
+<h2 class="anchored" data-anchor-id="supplementary-reading">Supplementary Reading</h2>
+<p>Coming soon…</p>
 
 
 </section>
@@ -1117,7 +1176,8 @@ shorter object length</code></pre>
 
 <section id="introduction" class="level2">
 <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
-<p>R and RStudio utilize very many data types to store different kinds of data. The most common data types in R are listed below.</p>
+<p>R and RStudio utilize multiple data types to store different kinds of data.</p>
+<p>The most common data types in R are listed below.</p>
 <table class="table">
 <colgroup>
 <col style="width: 7%">
@@ -1165,9 +1225,10 @@ shorter object length</code></pre>
 </tbody>
 </table>
 </section>
-<section id="data-type-examples" class="level2">
-<h2 class="anchored" data-anchor-id="data-type-examples">Data Type Examples</h2>
-<p><strong>Numeric</strong></p>
+<section id="data-types" class="level2">
+<h2 class="anchored" data-anchor-id="data-types">Data types</h2>
+<section id="numeric" class="level3">
+<h3 class="anchored" data-anchor-id="numeric">Numeric</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="fl" style="color: #AD0000;">89.98</span></span></code></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -1178,7 +1239,9 @@ shorter object length</code></pre>
 <pre><code>[1] 55</code></pre>
 </div>
 </div>
-<p><strong>Integer</strong></p>
+</section>
+<section id="integer" class="level3">
+<h3 class="anchored" data-anchor-id="integer">Integer</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1">5L</span></code></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -1189,7 +1252,9 @@ shorter object length</code></pre>
 <pre><code>[1] 5768</code></pre>
 </div>
 </div>
-<p><strong>Logical</strong></p>
+</section>
+<section id="logical" class="level3">
+<h3 class="anchored" data-anchor-id="logical">Logical</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb9" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><span class="cn" style="color: #8f5902;">TRUE</span></span></code></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -1200,7 +1265,9 @@ shorter object length</code></pre>
 <pre><code>[1] FALSE</code></pre>
 </div>
 </div>
-<p><strong>Complex</strong></p>
+</section>
+<section id="complex" class="level3">
+<h3 class="anchored" data-anchor-id="complex">Complex</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb13" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><span class="dv" style="color: #AD0000;">10</span> <span class="sc" style="color: #5E5E5E;">+</span> 30i</span></code></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -1211,7 +1278,9 @@ shorter object length</code></pre>
 <pre><code>[1] 287+34i</code></pre>
 </div>
 </div>
-<p><strong>Character or String</strong></p>
+</section>
+<section id="character-or-string" class="level3">
+<h3 class="anchored" data-anchor-id="character-or-string">Character or String</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb17" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><span class="st" style="color: #20794D;">'abc'</span></span></code></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -1226,7 +1295,9 @@ shorter object length</code></pre>
 <pre><code>[1] "I like learning R"</code></pre>
 </div>
 </div>
-<p><strong>Dates</strong></p>
+</section>
+<section id="dates" class="level3">
+<h3 class="anchored" data-anchor-id="dates">Dates</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb23" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1"><span class="st" style="color: #20794D;">"2022-06-23 14:39:21 EAT"</span></span></code></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -1238,8 +1309,9 @@ shorter object length</code></pre>
 </div>
 </div>
 </section>
-<section id="examining-data-types" class="level2">
-<h2 class="anchored" data-anchor-id="examining-data-types">Examining data types</h2>
+</section>
+<section id="examining-various-data-types" class="level2">
+<h2 class="anchored" data-anchor-id="examining-various-data-types">Examining various data types</h2>
 <p>Several functions exist to examine the features of the various data types. These include:</p>
 <ol type="1">
 <li><code>typeof()</code> – what is the data type of the object (low-level)?</li>
@@ -1340,8 +1412,12 @@ shorter object length</code></pre>
 <pre><code>[1] FALSE</code></pre>
 </div>
 </div>
+</section>
+<section id="converting-between-various-data-types" class="level2">
+<h2 class="anchored" data-anchor-id="converting-between-various-data-types">Converting between various data types</h2>
 <p>To convert between data types we can use the “as.___()” functions. These include: <code>as.Date()</code>, <code>as.numeric()</code>, and <code>as.factor()</code>. Additionally, other helpful functions include factor() which adds levels to the data and nchar() which provides the length of the data.</p>
-<p>Examples</p>
+<section id="examples" class="level3">
+<h3 class="anchored" data-anchor-id="examples">Examples</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb64" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb64-1"><span class="fu" style="color: #4758AB;">as.integer</span>(a)</span></code></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -1361,8 +1437,10 @@ shorter object length</code></pre>
 </div>
 </div>
 </section>
-<section id="summary" class="level2">
-<h2 class="anchored" data-anchor-id="summary">Summary</h2>
+</section>
+<section id="supplementary-reading" class="level2">
+<h2 class="anchored" data-anchor-id="supplementary-reading">Supplementary Reading</h2>
+<p>Coming soon…</p>
 
 
 </section>
@@ -1387,11 +1465,13 @@ shorter object length</code></pre>
 
 <section id="introduction" class="level2">
 <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
-<p>Variables are instrumental in programming because they are used as “containers” to store data values. To assign a value to a variable, we can use <code>&lt;−</code> or <code>=</code>. However, most R users prefer to use <code>&lt;−</code>.</p>
-<p>Examples of variable assignment</p>
-<ol type="1">
-<li>Using <code>&lt;-</code></li>
-</ol>
+<p>Variables are instrumental in programming because they are used as “containers” to store data values.</p>
+<p>To assign a value to a variable, we can use <code>&lt;−</code> or <code>=</code>. However, most R users prefer to use <code>&lt;−</code>.</p>
+<section id="examples-of-variable-assignment" class="level3">
+<h3 class="anchored" data-anchor-id="examples-of-variable-assignment">Examples of variable assignment</h3>
+</section>
+<section id="using--" class="level3">
+<h3 class="anchored" data-anchor-id="using--">1. Using <code>&lt;-</code></h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1">variable_1 <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="dv" style="color: #AD0000;">5</span></span>
 <span id="cb1-2">variable_1</span></code></pre></div>
@@ -1399,9 +1479,9 @@ shorter object length</code></pre>
 <pre><code>[1] 5</code></pre>
 </div>
 </div>
-<ol start="2" type="1">
-<li>Using <code>=</code></li>
-</ol>
+</section>
+<section id="using" class="level3">
+<h3 class="anchored" data-anchor-id="using">2. Using <code>=</code></h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1">variable_2 <span class="ot" style="color: #003B4F;">=</span> <span class="dv" style="color: #AD0000;">10</span></span>
 <span id="cb3-2">variable_2</span></code></pre></div>
@@ -1409,9 +1489,9 @@ shorter object length</code></pre>
 <pre><code>[1] 10</code></pre>
 </div>
 </div>
-<ol start="3" type="1">
-<li>Reverse the value and variable with <code>-&gt;</code></li>
-</ol>
+</section>
+<section id="reverse-the-value-and-variable-with--" class="level3">
+<h3 class="anchored" data-anchor-id="reverse-the-value-and-variable-with--">3. Reverse the value and variable with <code>-&gt;</code></h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><span class="dv" style="color: #AD0000;">15</span> <span class="ot" style="color: #003B4F;">-&gt;</span> variable_3</span>
 <span id="cb5-2">variable_3</span></code></pre></div>
@@ -1419,9 +1499,9 @@ shorter object length</code></pre>
 <pre><code>[1] 15</code></pre>
 </div>
 </div>
-<ol start="4" type="1">
-<li>Assign two variables to one value</li>
-</ol>
+</section>
+<section id="assign-two-variables-to-one-value" class="level3">
+<h3 class="anchored" data-anchor-id="assign-two-variables-to-one-value">4. Assign two variables to one value</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb7" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1">variable_4 <span class="ot" style="color: #003B4F;">&lt;-</span> variable_5 <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="dv" style="color: #AD0000;">30</span></span>
 <span id="cb7-2">variable_4</span></code></pre></div>
@@ -1458,6 +1538,7 @@ shorter object length</code></pre>
 </div>
 <p>Output of <code>View()</code> will be seen in the script pane</p>
 </section>
+</section>
 <section id="the-assign-and-rm-functions" class="level2">
 <h2 class="anchored" data-anchor-id="the-assign-and-rm-functions">The <code>assign()</code> and <code>rm()</code> functions</h2>
 <p>In addition to using the assignment operators (<code>&lt;-</code> and <code>=</code>), we can use the <code>assign()</code> function to assign a value to a variable.</p>
@@ -1486,13 +1567,28 @@ shorter object length</code></pre>
 <li>Names similar to typical outputs or functions (<code>TRUE</code>, <code>FALSE</code>, <code>if</code>, or <code>else</code>) cannot be used,</li>
 <li>Appropriate variable names can contain letters, numbers, dots, and underscores. However, you cannot start with an underscore, number, or dot followed by a number.</li>
 </ol>
-<p><strong>Examples of valid and invalid names</strong></p>
-<p>Valid names = time_24_hr / .time24_hr</p>
-<p>Invalid names = _24_hr.time / 24_hr_time / .24_hr_time</p>
 </section>
-<section id="summary" class="level2">
-<h2 class="anchored" data-anchor-id="summary">Summary</h2>
-<p>Overall, variables are very useful for programming in R/RStudio. These variables need to be named appropriately according to accepted conventions.</p>
+<section id="valid-and-invalid-names" class="level2">
+<h2 class="anchored" data-anchor-id="valid-and-invalid-names">Valid and invalid names</h2>
+<section id="valid-names" class="level3">
+<h3 class="anchored" data-anchor-id="valid-names">Valid names:</h3>
+<ul>
+<li>time_24_hr</li>
+<li>.time24_hr</li>
+</ul>
+</section>
+<section id="invalid-names" class="level3">
+<h3 class="anchored" data-anchor-id="invalid-names">Invalid names:</h3>
+<ul>
+<li>_24_hr.time</li>
+<li>24_hr_time</li>
+<li>.24_hr_time</li>
+</ul>
+</section>
+</section>
+<section id="supplementary-reading" class="level2">
+<h2 class="anchored" data-anchor-id="supplementary-reading">Supplementary Reading</h2>
+<p>Coming soon…</p>
 
 
 </section>
@@ -1547,8 +1643,8 @@ shorter object length</code></pre>
 </div>
 </div>
 </section>
-<section id="what-arithmetic-operators-are-available-in-rrstudio" class="level2">
-<h2 class="anchored" data-anchor-id="what-arithmetic-operators-are-available-in-rrstudio">What arithmetic operators are available in R/RStudio?</h2>
+<section id="arithmetic-operators-available-in-rrstudio" class="level2">
+<h2 class="anchored" data-anchor-id="arithmetic-operators-available-in-rrstudio">Arithmetic operators available in R/RStudio</h2>
 <p>Various arithmetic operators (listed below) can be used in R/RStudio.</p>
 <table class="table">
 <thead>
@@ -1591,56 +1687,71 @@ shorter object length</code></pre>
 </section>
 <section id="examples" class="level2">
 <h2 class="anchored" data-anchor-id="examples">Examples</h2>
-<p>Addition</p>
+<section id="addition" class="level3">
+<h3 class="anchored" data-anchor-id="addition">Addition</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><span class="dv" style="color: #AD0000;">10</span><span class="sc" style="color: #5E5E5E;">+</span><span class="dv" style="color: #AD0000;">30</span></span></code></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 40</code></pre>
 </div>
 </div>
-<p>Subtraction</p>
+</section>
+<section id="subtraction" class="level3">
+<h3 class="anchored" data-anchor-id="subtraction">Subtraction</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb7" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><span class="dv" style="color: #AD0000;">30-24</span></span></code></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 6</code></pre>
 </div>
 </div>
-<p>Multiplication</p>
+</section>
+<section id="multiplication" class="level3">
+<h3 class="anchored" data-anchor-id="multiplication">Multiplication</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb9" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><span class="dv" style="color: #AD0000;">20</span><span class="sc" style="color: #5E5E5E;">*</span><span class="dv" style="color: #AD0000;">4</span></span></code></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 80</code></pre>
 </div>
 </div>
-<p>Division</p>
+</section>
+<section id="division" class="level3">
+<h3 class="anchored" data-anchor-id="division">Division</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb11" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><span class="dv" style="color: #AD0000;">93</span><span class="sc" style="color: #5E5E5E;">/</span><span class="dv" style="color: #AD0000;">4</span></span></code></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 23.25</code></pre>
 </div>
 </div>
-<p>Exponentiation</p>
+</section>
+<section id="exponentiation" class="level3">
+<h3 class="anchored" data-anchor-id="exponentiation">Exponentiation</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb13" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><span class="dv" style="color: #AD0000;">3</span><span class="sc" style="color: #5E5E5E;">^</span><span class="dv" style="color: #AD0000;">6</span></span></code></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 729</code></pre>
 </div>
 </div>
-<p>Modulus (remainder with division)</p>
+</section>
+<section id="modulus-remainder-with-division" class="level3">
+<h3 class="anchored" data-anchor-id="modulus-remainder-with-division">Modulus (remainder with division)</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb15" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><span class="dv" style="color: #AD0000;">94</span><span class="sc" style="color: #5E5E5E;">%%</span><span class="dv" style="color: #AD0000;">5</span></span></code></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 4</code></pre>
 </div>
 </div>
-<p>Integer Division</p>
+</section>
+<section id="integer-division" class="level3">
+<h3 class="anchored" data-anchor-id="integer-division">Integer Division</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb17" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><span class="dv" style="color: #AD0000;">54</span><span class="sc" style="color: #5E5E5E;">%/%</span><span class="dv" style="color: #AD0000;">7</span></span></code></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 7</code></pre>
 </div>
 </div>
-<p>Slightly more complex arithmetic operations</p>
+</section>
+<section id="slightly-more-complex-arithmetic-operations" class="level3">
+<h3 class="anchored" data-anchor-id="slightly-more-complex-arithmetic-operations">Slightly more complex arithmetic operations</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb19" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><span class="dv" style="color: #AD0000;">5-1</span><span class="sc" style="color: #5E5E5E;">+</span>(<span class="dv" style="color: #AD0000;">4</span><span class="sc" style="color: #5E5E5E;">*</span><span class="dv" style="color: #AD0000;">3</span>)<span class="sc" style="color: #5E5E5E;">/</span><span class="dv" style="color: #AD0000;">16</span><span class="sc" style="color: #5E5E5E;">*</span><span class="dv" style="color: #AD0000;">3</span></span></code></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -1648,9 +1759,10 @@ shorter object length</code></pre>
 </div>
 </div>
 </section>
-<section id="summary" class="level2">
-<h2 class="anchored" data-anchor-id="summary">Summary</h2>
-<p>After going through this post, I hope that you can now perform simple arithmetic calculations in R/RStudio.</p>
+</section>
+<section id="supplementary-reading" class="level2">
+<h2 class="anchored" data-anchor-id="supplementary-reading">Supplementary Reading</h2>
+<p>Coming soon…</p>
 
 
 </section>

@@ -251,21 +251,22 @@ cookieconsent.run({
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a>
-  <ul class="collapse">
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
   <li><a href="#arithmetic-operators" id="toc-arithmetic-operators" class="nav-link" data-scroll-target="#arithmetic-operators">1. Arithmetic Operators</a></li>
-  <li><a href="#relational-operators" id="toc-relational-operators" class="nav-link" data-scroll-target="#relational-operators">2. Relational Operators</a></li>
-  </ul></li>
-  <li><a href="#examples" id="toc-examples" class="nav-link" data-scroll-target="#examples">Examples</a>
+  <li><a href="#relational-operators" id="toc-relational-operators" class="nav-link" data-scroll-target="#relational-operators">2. Relational Operators</a>
   <ul class="collapse">
-  <li><a href="#logical-operators" id="toc-logical-operators" class="nav-link" data-scroll-target="#logical-operators">3. Logical Operators</a></li>
+  <li><a href="#examples" id="toc-examples" class="nav-link" data-scroll-target="#examples">Examples</a></li>
   </ul></li>
-  <li><a href="#examples-1" id="toc-examples-1" class="nav-link" data-scroll-target="#examples-1">Examples</a>
+  <li><a href="#logical-operators" id="toc-logical-operators" class="nav-link" data-scroll-target="#logical-operators">3. Logical Operators</a>
   <ul class="collapse">
+  <li><a href="#examples-1" id="toc-examples-1" class="nav-link" data-scroll-target="#examples-1">Examples</a></li>
+  </ul></li>
   <li><a href="#assignment-operators" id="toc-assignment-operators" class="nav-link" data-scroll-target="#assignment-operators">4. Assignment Operators</a></li>
-  <li><a href="#miscellaneous-operators" id="toc-miscellaneous-operators" class="nav-link" data-scroll-target="#miscellaneous-operators">5. Miscellaneous Operators</a></li>
-  </ul></li>
+  <li><a href="#miscellaneous-operators" id="toc-miscellaneous-operators" class="nav-link" data-scroll-target="#miscellaneous-operators">5. Miscellaneous Operators</a>
+  <ul class="collapse">
   <li><a href="#examples-2" id="toc-examples-2" class="nav-link" data-scroll-target="#examples-2">Examples</a></li>
+  </ul></li>
+  <li><a href="#supplementary-reading" id="toc-supplementary-reading" class="nav-link" data-scroll-target="#supplementary-reading">Supplementary Reading</a></li>
   </ul>
 </nav>
     </div>
@@ -277,7 +278,8 @@ cookieconsent.run({
 
 <section id="introduction" class="level2">
 <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
-<p>R has many different types of operators that can perform different tasks. Here we will focus on 5 major types of operators. The major types of operators are:</p>
+<p>R has many different types of operators that can perform different tasks.</p>
+<p>Here we will focus on 5 major types of operators. The major types of operators are:</p>
 <ol type="1">
 <li><p>Arithmetic,</p></li>
 <li><p>Relational,</p></li>
@@ -285,12 +287,13 @@ cookieconsent.run({
 <li><p>Assignment, and</p></li>
 <li><p>Miscellaneous.</p></li>
 </ol>
-<section id="arithmetic-operators" class="level3">
-<h3 class="anchored" data-anchor-id="arithmetic-operators">1. Arithmetic Operators</h3>
+</section>
+<section id="arithmetic-operators" class="level2">
+<h2 class="anchored" data-anchor-id="arithmetic-operators">1. Arithmetic Operators</h2>
 <p>Arithmetic operators are used to perform mathematical operations. These operators have been highlighted in <a href="../../../posts/series_1/new_post_2/post_2.html">Part 1</a> of the series.</p>
 </section>
-<section id="relational-operators" class="level3">
-<h3 class="anchored" data-anchor-id="relational-operators">2. Relational Operators</h3>
+<section id="relational-operators" class="level2">
+<h2 class="anchored" data-anchor-id="relational-operators">2. Relational Operators</h2>
 <p>Relational operators are used to find the relationship between 2 variables and compare objects. The output of these comparisons is Boolean (<code>TRUE</code> or <code>FALSE</code>). The table below describes the most common relational operators.</p>
 <table class="table">
 <thead>
@@ -326,10 +329,8 @@ cookieconsent.run({
 </tr>
 </tbody>
 </table>
-</section>
-</section>
-<section id="examples" class="level2">
-<h2 class="anchored" data-anchor-id="examples">Examples</h2>
+<section id="examples" class="level3">
+<h3 class="anchored" data-anchor-id="examples">Examples</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>x <span class="ot">&lt;-</span> <span class="dv">227</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>y <span class="ot">&lt;-</span> <span class="dv">639</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -376,8 +377,10 @@ cookieconsent.run({
 <pre><code>[1] FALSE</code></pre>
 </div>
 </div>
-<section id="logical-operators" class="level3">
-<h3 class="anchored" data-anchor-id="logical-operators">3. Logical Operators</h3>
+</section>
+</section>
+<section id="logical-operators" class="level2">
+<h2 class="anchored" data-anchor-id="logical-operators">3. Logical Operators</h2>
 <p>Logical operators are used to specify multiple conditions between objects. Logical operators work with basic data types such as logical, numeric, and complex data types. This returns <code>TRUE</code> or <code>FALSE</code> values. Numbers greater that <code>1</code> are <code>TRUE</code> and <code>0</code> equals <code>FALSE</code>. The table below describes the most common logical operators.</p>
 <table class="table">
 <thead>
@@ -409,10 +412,8 @@ cookieconsent.run({
 </tr>
 </tbody>
 </table>
-</section>
-</section>
-<section id="examples-1" class="level2">
-<h2 class="anchored" data-anchor-id="examples-1">Examples</h2>
+<section id="examples-1" class="level3">
+<h3 class="anchored" data-anchor-id="examples-1">Examples</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>vector_1 <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">0</span>,<span class="dv">2</span>)</span>
 <span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>vector_2 <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">1</span>,<span class="dv">0</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -456,12 +457,14 @@ cookieconsent.run({
 <pre><code>[1] FALSE</code></pre>
 </div>
 </div>
-<section id="assignment-operators" class="level3">
-<h3 class="anchored" data-anchor-id="assignment-operators">4. Assignment Operators</h3>
+</section>
+</section>
+<section id="assignment-operators" class="level2">
+<h2 class="anchored" data-anchor-id="assignment-operators">4. Assignment Operators</h2>
 <p>These operators assign values to variables. A more comprehensive review can be obtained in <a href="../../../posts/series_1/new_post_3/post_3.html">Part 2</a> of the series.</p>
 </section>
-<section id="miscellaneous-operators" class="level3">
-<h3 class="anchored" data-anchor-id="miscellaneous-operators">5. Miscellaneous Operators</h3>
+<section id="miscellaneous-operators" class="level2">
+<h2 class="anchored" data-anchor-id="miscellaneous-operators">5. Miscellaneous Operators</h2>
 <p>These are helpful operators for working in that can perform a variety of functions. A few common miscellaneous operators are described below.</p>
 <table class="table">
 <colgroup>
@@ -489,30 +492,41 @@ cookieconsent.run({
 </tr>
 </tbody>
 </table>
-</section>
-</section>
-<section id="examples-2" class="level2">
-<h2 class="anchored" data-anchor-id="examples-2">Examples</h2>
+<section id="examples-2" class="level3">
+<h3 class="anchored" data-anchor-id="examples-2">Examples</h3>
 <p>Sequence</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb27"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>a <span class="ot">&lt;-</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">8</span></span>
-<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a>b <span class="ot">&lt;-</span> <span class="dv">4</span><span class="sc">:</span><span class="dv">10</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a>a</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 1 2 3 4 5 6 7 8</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb29"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a>b <span class="ot">&lt;-</span> <span class="dv">4</span><span class="sc">:</span><span class="dv">10</span></span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a>b</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1]  4  5  6  7  8  9 10</code></pre>
+</div>
 </div>
 <p>Element in a vector</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb28"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a>a <span class="sc">%in%</span> b</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb31"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a>a <span class="sc">%in%</span> b</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] FALSE FALSE FALSE  TRUE  TRUE  TRUE  TRUE  TRUE</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb30"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a><span class="dv">9</span> <span class="sc">%in%</span> b</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb33"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a><span class="dv">9</span> <span class="sc">%in%</span> b</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] TRUE</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb32"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a><span class="dv">9</span> <span class="sc">%in%</span> a</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb35"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a><span class="dv">9</span> <span class="sc">%in%</span> a</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] FALSE</code></pre>
 </div>
 </div>
+</section>
+</section>
+<section id="supplementary-reading" class="level2">
+<h2 class="anchored" data-anchor-id="supplementary-reading">Supplementary Reading</h2>
+<p>Coming soon…</p>
 
 
 </section>

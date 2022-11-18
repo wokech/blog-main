@@ -252,9 +252,26 @@ cookieconsent.run({
    
   <ul>
   <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#sequence-generation" id="toc-sequence-generation" class="nav-link" data-scroll-target="#sequence-generation">Sequence Generation</a>
+  <ul class="collapse">
+  <li><a href="#generate-a-sequence-using" id="toc-generate-a-sequence-using" class="nav-link" data-scroll-target="#generate-a-sequence-using">Generate a sequence using <code>:</code></a></li>
+  <li><a href="#generate-a-sequence-using-sequence" id="toc-generate-a-sequence-using-sequence" class="nav-link" data-scroll-target="#generate-a-sequence-using-sequence">Generate a sequence using <code>sequence()</code></a></li>
+  <li><a href="#generate-a-sequence-using-seq" id="toc-generate-a-sequence-using-seq" class="nav-link" data-scroll-target="#generate-a-sequence-using-seq">Generate a sequence using <code>seq()</code></a></li>
+  </ul></li>
+  <li><a href="#repeating-vectors" id="toc-repeating-vectors" class="nav-link" data-scroll-target="#repeating-vectors">Repeating vectors</a></li>
   <li><a href="#vector-operations" id="toc-vector-operations" class="nav-link" data-scroll-target="#vector-operations">Vector Operations</a>
   <ul class="collapse">
-  <li><a href="#functions-applied-to-vectors" id="toc-functions-applied-to-vectors" class="nav-link" data-scroll-target="#functions-applied-to-vectors">Functions applied to vectors</a></li>
+  <li><a href="#basic-vector-operations" id="toc-basic-vector-operations" class="nav-link" data-scroll-target="#basic-vector-operations">Basic Vector Operations</a></li>
+  <li><a href="#operations-on-vectors-of-equal-length" id="toc-operations-on-vectors-of-equal-length" class="nav-link" data-scroll-target="#operations-on-vectors-of-equal-length">Operations on vectors of equal length</a></li>
+  </ul></li>
+  <li><a href="#functions-that-can-be-applied-to-vectors" id="toc-functions-that-can-be-applied-to-vectors" class="nav-link" data-scroll-target="#functions-that-can-be-applied-to-vectors">Functions that can be applied to vectors</a>
+  <ul class="collapse">
+  <li><a href="#examples" id="toc-examples" class="nav-link" data-scroll-target="#examples">Examples</a></li>
+  </ul></li>
+  <li><a href="#recycling-of-vectors" id="toc-recycling-of-vectors" class="nav-link" data-scroll-target="#recycling-of-vectors">Recycling of vectors</a></li>
+  <li><a href="#accessing-elements-of-a-vector" id="toc-accessing-elements-of-a-vector" class="nav-link" data-scroll-target="#accessing-elements-of-a-vector">Accessing elements of a vector</a>
+  <ul class="collapse">
+  <li><a href="#examples-1" id="toc-examples-1" class="nav-link" data-scroll-target="#examples-1">Examples</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -267,12 +284,18 @@ cookieconsent.run({
 
 <section id="introduction" class="level2">
 <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
-<p>A vector is a collection of elements of the same data type, and they are a basic data structure in R programming. Vectors cannot be of mixed data type. The most common way to create a vector is with <code>c()</code>, where “c” stands for combine. In R, vectors do not have dimensions; therefore, they cannot be defined by columns or rows. Vectors can be divided into atomic vectors and lists (discussed in <a href="posts/series_1/new_post_8/post_8.html">Part 7</a>). The atomic vectors include logical, character, and numeric (integer or double).</p>
-<p>Additionally, R is a vectorized language because mathematical operations are applied to each element of the vector without the need to loop through the vector.</p>
-<p>Examples • Numbers: c(2, 10, 16, -5) • Characters: c(“R”, “RStudio”, “Shiny”, “Quarto”) • Logicals: c(“TRUE”, “FALSE”, “TRUE”)</p>
+<p>A vector is a collection of elements of the same data type, and they are a basic data structure in R programming.</p>
+<p>Vectors cannot be of mixed data type. The most common way to create a vector is with <code>c()</code>, where “c” stands for combine. In R, vectors do not have dimensions; therefore, they cannot be defined by columns or rows. Vectors can be divided into atomic vectors and lists (discussed in <a href="posts/series_1/new_post_8/post_8.html">Part 7</a>). The atomic vectors include logical, character, and numeric (integer or double).</p>
+<p>Additionally, R is a vectorized language because mathematical operations are applied to each element of the vector without the need to loop through the vector.Examples of vectors are shown below:</p>
+<p>• Numbers: <code>c(2, 10, 16, -5)</code></p>
+<p>• Characters: <code>c("R", "RStudio", "Shiny", "Quarto")</code></p>
+<p>• Logicals: <code>c("TRUE", "FALSE", "TRUE")</code></p>
+</section>
+<section id="sequence-generation" class="level2">
+<h2 class="anchored" data-anchor-id="sequence-generation">Sequence Generation</h2>
 <p>To generate a vector with a sequence of consecutive numbers, we can use <code>:</code>, <code>sequence()</code>, or <code>seq()</code>.</p>
-<p>Examples</p>
-<p>Generate a sequence using <code>:</code></p>
+<section id="generate-a-sequence-using" class="level3">
+<h3 class="anchored" data-anchor-id="generate-a-sequence-using">Generate a sequence using <code>:</code></h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>a <span class="ot">&lt;-</span> <span class="dv">9</span><span class="sc">:</span><span class="dv">18</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>a</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -290,19 +313,24 @@ cookieconsent.run({
 <pre><code>[1]  5  4  3  2  1  0 -1 -2 -3</code></pre>
 </div>
 </div>
-<p>Generate a sequence using <code>sequence()</code></p>
+</section>
+<section id="generate-a-sequence-using-sequence" class="level3">
+<h3 class="anchored" data-anchor-id="generate-a-sequence-using-sequence">Generate a sequence using <code>sequence()</code></h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>b <span class="ot">&lt;-</span> <span class="fu">sequence</span>(<span class="dv">7</span>)</span>
 <span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>b</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 1 2 3 4 5 6 7</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>c<span class="ot">&lt;-</span> <span class="fu">sequence</span>(<span class="fu">c</span>(<span class="dv">5</span>,<span class="dv">9</span>))</span>
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>c <span class="ot">&lt;-</span> <span class="fu">sequence</span>(<span class="fu">c</span>(<span class="dv">5</span>,<span class="dv">9</span>))</span>
 <span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>c</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code> [1] 1 2 3 4 5 1 2 3 4 5 6 7 8 9</code></pre>
 </div>
 </div>
+</section>
+<section id="generate-a-sequence-using-seq" class="level3">
+<h3 class="anchored" data-anchor-id="generate-a-sequence-using-seq">Generate a sequence using <code>seq()</code></h3>
 <p>The <code>seq()</code> function has four main arguments: seq(from, to, by, length.out), where “from” and “to” are the starting and ending elements of the sequence. Additionally, “by” is the difference between the elements, and “length.out” is the maximum length of the vector.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>d <span class="ot">&lt;-</span> <span class="fu">seq</span>(<span class="dv">2</span>,<span class="dv">20</span>,<span class="at">by=</span><span class="dv">2</span>)</span>
@@ -315,7 +343,7 @@ cookieconsent.run({
 <div class="cell-output cell-output-stdout">
 <pre><code>[1]  2.0  6.5 11.0 15.5 20.0</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>h<span class="ot">&lt;-</span> <span class="fu">seq</span>(<span class="dv">20</span>,<span class="dv">2</span>,<span class="at">by=</span><span class="sc">-</span><span class="dv">2</span>)</span>
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>h <span class="ot">&lt;-</span> <span class="fu">seq</span>(<span class="dv">20</span>,<span class="dv">2</span>,<span class="at">by=</span><span class="sc">-</span><span class="dv">2</span>)</span>
 <span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>h</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code> [1] 20 18 16 14 12 10  8  6  4  2</code></pre>
@@ -326,8 +354,11 @@ cookieconsent.run({
 <pre><code>[1] 20 11  2</code></pre>
 </div>
 </div>
+</section>
+</section>
+<section id="repeating-vectors" class="level2">
+<h2 class="anchored" data-anchor-id="repeating-vectors">Repeating vectors</h2>
 <p>To create a repeating vector, we can use <code>rep()</code>.</p>
-<p>Examples</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>k <span class="ot">&lt;-</span> <span class="fu">rep</span>(<span class="fu">c</span>(<span class="dv">0</span>,<span class="dv">3</span>,<span class="dv">6</span>), <span class="at">times =</span> <span class="dv">3</span>)</span>
 <span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>k</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -349,7 +380,8 @@ cookieconsent.run({
 <section id="vector-operations" class="level2">
 <h2 class="anchored" data-anchor-id="vector-operations">Vector Operations</h2>
 <p>Vectors of equal length can be operated on together. If one vector is shorter, it will get recycled, as its elements are repeated until it matches the elements of the longer vector. When using vectors of unequal lengths, it would be ideal if the longer vector is a multiple of the shorter vector.</p>
-<p>Examples of vector operations:</p>
+<section id="basic-vector-operations" class="level3">
+<h3 class="anchored" data-anchor-id="basic-vector-operations">Basic Vector Operations</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb25"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a>vec_1 <span class="ot">&lt;-</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">10</span></span>
 <span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a></span>
@@ -380,7 +412,13 @@ cookieconsent.run({
  [9] 3.000000 3.162278</code></pre>
 </div>
 </div>
-<p>Additionally, we can perform operations on two vectors of equal length. Create two vectors</p>
+</section>
+<section id="operations-on-vectors-of-equal-length" class="level3">
+<h3 class="anchored" data-anchor-id="operations-on-vectors-of-equal-length">Operations on vectors of equal length</h3>
+<p>Additionally, we can perform operations on two vectors of equal length.</p>
+<ol type="1">
+<li>Create two vectors</li>
+</ol>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb37"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a>vec_3 <span class="ot">&lt;-</span> <span class="dv">5</span><span class="sc">:</span><span class="dv">14</span></span>
 <span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a>vec_3</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -393,7 +431,9 @@ cookieconsent.run({
 <pre><code> [1] 12 11 10  9  8  7  6  5  4  3</code></pre>
 </div>
 </div>
-<p>Perform various operations</p>
+<ol start="2" type="1">
+<li>Perform various arithmetic operations</li>
+</ol>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb41"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a>vec_3 <span class="sc">+</span> vec_4</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -418,8 +458,10 @@ cookieconsent.run({
  [8]    248832     28561      2744</code></pre>
 </div>
 </div>
-<section id="functions-applied-to-vectors" class="level3">
-<h3 class="anchored" data-anchor-id="functions-applied-to-vectors">Functions applied to vectors</h3>
+</section>
+</section>
+<section id="functions-that-can-be-applied-to-vectors" class="level2">
+<h2 class="anchored" data-anchor-id="functions-that-can-be-applied-to-vectors">Functions that can be applied to vectors</h2>
 <p>The functions listed below can be applied to vectors:</p>
 <ol type="1">
 <li><p><code>any()</code></p></li>
@@ -428,6 +470,8 @@ cookieconsent.run({
 <li><p><code>length()</code></p></li>
 <li><p><code>typeof()</code></p></li>
 </ol>
+<section id="examples" class="level3">
+<h3 class="anchored" data-anchor-id="examples">Examples</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb51"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb51-1"><a href="#cb51-1" aria-hidden="true" tabindex="-1"></a><span class="fu">any</span>(vec_3 <span class="sc">&gt;</span> vec_4)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -476,7 +520,10 @@ cookieconsent.run({
 <pre><code>[1] 1 7 5 6</code></pre>
 </div>
 </div>
-<p>Recycling of vectors</p>
+</section>
+</section>
+<section id="recycling-of-vectors" class="level2">
+<h2 class="anchored" data-anchor-id="recycling-of-vectors">Recycling of vectors</h2>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb69"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb69-1"><a href="#cb69-1" aria-hidden="true" tabindex="-1"></a>vec_3 <span class="sc">+</span> <span class="fu">c</span>(<span class="dv">10</span>, <span class="dv">20</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -491,11 +538,15 @@ shorter object length</code></pre>
 <pre><code> [1] 15 26 37 18 29 40 21 32 43 24</code></pre>
 </div>
 </div>
-<p>Accessing elements of a vector</p>
+</section>
+<section id="accessing-elements-of-a-vector" class="level2">
+<h2 class="anchored" data-anchor-id="accessing-elements-of-a-vector">Accessing elements of a vector</h2>
 <p>To access the elements of a vector, we can use numeric-, character-, or logical-based indexing.</p>
-<p>Examples</p>
-<p>Name the columns of a vector with <code>names()</code></p>
-<p>Create the vector</p>
+<section id="examples-1" class="level3">
+<h3 class="anchored" data-anchor-id="examples-1">Examples</h3>
+<section id="name-the-columns-of-a-vector-with-names." class="level4">
+<h4 class="anchored" data-anchor-id="name-the-columns-of-a-vector-with-names.">1. Name the columns of a vector with <code>names()</code>.</h4>
+<p>Create the vector.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb74"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb74-1"><a href="#cb74-1" aria-hidden="true" tabindex="-1"></a>vec_name <span class="ot">&lt;-</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">5</span></span>
 <span id="cb74-2"><a href="#cb74-2" aria-hidden="true" tabindex="-1"></a>vec_name</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -503,7 +554,7 @@ shorter object length</code></pre>
 <pre><code>[1] 1 2 3 4 5</code></pre>
 </div>
 </div>
-<p>Name individual elements</p>
+<p>Name the individual elements.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb76"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb76-1"><a href="#cb76-1" aria-hidden="true" tabindex="-1"></a><span class="fu">names</span>(vec_name) <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"a"</span>, <span class="st">"c"</span>, <span class="st">"e"</span>, <span class="st">"g"</span>, <span class="st">"i"</span>)</span>
 <span id="cb76-2"><a href="#cb76-2" aria-hidden="true" tabindex="-1"></a>vec_name</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -512,6 +563,9 @@ shorter object length</code></pre>
 1 2 3 4 5 </code></pre>
 </div>
 </div>
+</section>
+<section id="use-the-vector-index-to-filter" class="level4">
+<h4 class="anchored" data-anchor-id="use-the-vector-index-to-filter">2. Use the vector index to filter</h4>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb78"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb78-1"><a href="#cb78-1" aria-hidden="true" tabindex="-1"></a>vec_index <span class="ot">&lt;-</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">5</span></span>
 <span id="cb78-2"><a href="#cb78-2" aria-hidden="true" tabindex="-1"></a>vec_index</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -519,21 +573,26 @@ shorter object length</code></pre>
 <pre><code>[1] 1 2 3 4 5</code></pre>
 </div>
 </div>
-<p>Logical vector as an index</p>
+<section id="a-logical-vector-as-an-index" class="level5">
+<h5 class="anchored" data-anchor-id="a-logical-vector-as-an-index">a) Logical vector as an index</h5>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb80"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb80-1"><a href="#cb80-1" aria-hidden="true" tabindex="-1"></a>vec_index[<span class="fu">c</span>(<span class="cn">TRUE</span>, <span class="cn">FALSE</span>, <span class="cn">TRUE</span>, <span class="cn">FALSE</span>, <span class="cn">TRUE</span>)]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 1 3 5</code></pre>
 </div>
 </div>
-<p>Filter vector based on an index</p>
+</section>
+<section id="b-filter-vector-based-on-an-index" class="level5">
+<h5 class="anchored" data-anchor-id="b-filter-vector-based-on-an-index">b) Filter vector based on an index</h5>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb82"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb82-1"><a href="#cb82-1" aria-hidden="true" tabindex="-1"></a>vec_index[<span class="dv">1</span><span class="sc">:</span><span class="dv">3</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 1 2 3</code></pre>
 </div>
 </div>
-<p>Access a vector using its position</p>
+</section>
+<section id="c-access-a-vector-using-its-position" class="level5">
+<h5 class="anchored" data-anchor-id="c-access-a-vector-using-its-position">c) Access a vector using its position</h5>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb84"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb84-1"><a href="#cb84-1" aria-hidden="true" tabindex="-1"></a>vec_index[<span class="dv">4</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -544,7 +603,9 @@ shorter object length</code></pre>
 <pre><code>[1] 2 4</code></pre>
 </div>
 </div>
-<p>Modify a vector using indexing</p>
+</section>
+<section id="d-modify-a-vector-using-indexing" class="level5">
+<h5 class="anchored" data-anchor-id="d-modify-a-vector-using-indexing">d) Modify a vector using indexing</h5>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb88"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb88-1"><a href="#cb88-1" aria-hidden="true" tabindex="-1"></a>vec_index</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -558,6 +619,8 @@ shorter object length</code></pre>
 </div>
 
 
+</section>
+</section>
 </section>
 </section>
 

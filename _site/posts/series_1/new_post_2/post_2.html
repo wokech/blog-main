@@ -252,9 +252,19 @@ cookieconsent.run({
    
   <ul>
   <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
-  <li><a href="#what-arithmetic-operators-are-available-in-rrstudio" id="toc-what-arithmetic-operators-are-available-in-rrstudio" class="nav-link" data-scroll-target="#what-arithmetic-operators-are-available-in-rrstudio">What arithmetic operators are available in R/RStudio?</a></li>
-  <li><a href="#examples" id="toc-examples" class="nav-link" data-scroll-target="#examples">Examples</a></li>
-  <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary">Summary</a></li>
+  <li><a href="#arithmetic-operators-available-in-rrstudio" id="toc-arithmetic-operators-available-in-rrstudio" class="nav-link" data-scroll-target="#arithmetic-operators-available-in-rrstudio">Arithmetic operators available in R/RStudio</a></li>
+  <li><a href="#examples" id="toc-examples" class="nav-link" data-scroll-target="#examples">Examples</a>
+  <ul class="collapse">
+  <li><a href="#addition" id="toc-addition" class="nav-link" data-scroll-target="#addition">Addition</a></li>
+  <li><a href="#subtraction" id="toc-subtraction" class="nav-link" data-scroll-target="#subtraction">Subtraction</a></li>
+  <li><a href="#multiplication" id="toc-multiplication" class="nav-link" data-scroll-target="#multiplication">Multiplication</a></li>
+  <li><a href="#division" id="toc-division" class="nav-link" data-scroll-target="#division">Division</a></li>
+  <li><a href="#exponentiation" id="toc-exponentiation" class="nav-link" data-scroll-target="#exponentiation">Exponentiation</a></li>
+  <li><a href="#modulus-remainder-with-division" id="toc-modulus-remainder-with-division" class="nav-link" data-scroll-target="#modulus-remainder-with-division">Modulus (remainder with division)</a></li>
+  <li><a href="#integer-division" id="toc-integer-division" class="nav-link" data-scroll-target="#integer-division">Integer Division</a></li>
+  <li><a href="#slightly-more-complex-arithmetic-operations" id="toc-slightly-more-complex-arithmetic-operations" class="nav-link" data-scroll-target="#slightly-more-complex-arithmetic-operations">Slightly more complex arithmetic operations</a></li>
+  </ul></li>
+  <li><a href="#supplementary-reading" id="toc-supplementary-reading" class="nav-link" data-scroll-target="#supplementary-reading">Supplementary Reading</a></li>
   </ul>
 </nav>
     </div>
@@ -290,8 +300,8 @@ cookieconsent.run({
 </div>
 </div>
 </section>
-<section id="what-arithmetic-operators-are-available-in-rrstudio" class="level2">
-<h2 class="anchored" data-anchor-id="what-arithmetic-operators-are-available-in-rrstudio">What arithmetic operators are available in R/RStudio?</h2>
+<section id="arithmetic-operators-available-in-rrstudio" class="level2">
+<h2 class="anchored" data-anchor-id="arithmetic-operators-available-in-rrstudio">Arithmetic operators available in R/RStudio</h2>
 <p>Various arithmetic operators (listed below) can be used in R/RStudio.</p>
 <table class="table">
 <thead>
@@ -334,56 +344,71 @@ cookieconsent.run({
 </section>
 <section id="examples" class="level2">
 <h2 class="anchored" data-anchor-id="examples">Examples</h2>
-<p>Addition</p>
+<section id="addition" class="level3">
+<h3 class="anchored" data-anchor-id="addition">Addition</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="dv">10</span><span class="sc">+</span><span class="dv">30</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 40</code></pre>
 </div>
 </div>
-<p>Subtraction</p>
+</section>
+<section id="subtraction" class="level3">
+<h3 class="anchored" data-anchor-id="subtraction">Subtraction</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="dv">30-24</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 6</code></pre>
 </div>
 </div>
-<p>Multiplication</p>
+</section>
+<section id="multiplication" class="level3">
+<h3 class="anchored" data-anchor-id="multiplication">Multiplication</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="dv">20</span><span class="sc">*</span><span class="dv">4</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 80</code></pre>
 </div>
 </div>
-<p>Division</p>
+</section>
+<section id="division" class="level3">
+<h3 class="anchored" data-anchor-id="division">Division</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="dv">93</span><span class="sc">/</span><span class="dv">4</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 23.25</code></pre>
 </div>
 </div>
-<p>Exponentiation</p>
+</section>
+<section id="exponentiation" class="level3">
+<h3 class="anchored" data-anchor-id="exponentiation">Exponentiation</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="dv">3</span><span class="sc">^</span><span class="dv">6</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 729</code></pre>
 </div>
 </div>
-<p>Modulus (remainder with division)</p>
+</section>
+<section id="modulus-remainder-with-division" class="level3">
+<h3 class="anchored" data-anchor-id="modulus-remainder-with-division">Modulus (remainder with division)</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="dv">94</span><span class="sc">%%</span><span class="dv">5</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 4</code></pre>
 </div>
 </div>
-<p>Integer Division</p>
+</section>
+<section id="integer-division" class="level3">
+<h3 class="anchored" data-anchor-id="integer-division">Integer Division</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="dv">54</span><span class="sc">%/%</span><span class="dv">7</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 7</code></pre>
 </div>
 </div>
-<p>Slightly more complex arithmetic operations</p>
+</section>
+<section id="slightly-more-complex-arithmetic-operations" class="level3">
+<h3 class="anchored" data-anchor-id="slightly-more-complex-arithmetic-operations">Slightly more complex arithmetic operations</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="dv">5-1</span><span class="sc">+</span>(<span class="dv">4</span><span class="sc">*</span><span class="dv">3</span>)<span class="sc">/</span><span class="dv">16</span><span class="sc">*</span><span class="dv">3</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -391,9 +416,10 @@ cookieconsent.run({
 </div>
 </div>
 </section>
-<section id="summary" class="level2">
-<h2 class="anchored" data-anchor-id="summary">Summary</h2>
-<p>After going through this post, I hope that you can now perform simple arithmetic calculations in R/RStudio.</p>
+</section>
+<section id="supplementary-reading" class="level2">
+<h2 class="anchored" data-anchor-id="supplementary-reading">Supplementary Reading</h2>
+<p>Coming soon…</p>
 
 
 </section>

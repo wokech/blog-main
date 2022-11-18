@@ -252,9 +252,21 @@ cookieconsent.run({
    
   <ul>
   <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
-  <li><a href="#data-type-examples" id="toc-data-type-examples" class="nav-link" data-scroll-target="#data-type-examples">Data Type Examples</a></li>
-  <li><a href="#examining-data-types" id="toc-examining-data-types" class="nav-link" data-scroll-target="#examining-data-types">Examining data types</a></li>
-  <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary">Summary</a></li>
+  <li><a href="#data-types" id="toc-data-types" class="nav-link" data-scroll-target="#data-types">Data types</a>
+  <ul class="collapse">
+  <li><a href="#numeric" id="toc-numeric" class="nav-link" data-scroll-target="#numeric">Numeric</a></li>
+  <li><a href="#integer" id="toc-integer" class="nav-link" data-scroll-target="#integer">Integer</a></li>
+  <li><a href="#logical" id="toc-logical" class="nav-link" data-scroll-target="#logical">Logical</a></li>
+  <li><a href="#complex" id="toc-complex" class="nav-link" data-scroll-target="#complex">Complex</a></li>
+  <li><a href="#character-or-string" id="toc-character-or-string" class="nav-link" data-scroll-target="#character-or-string">Character or String</a></li>
+  <li><a href="#dates" id="toc-dates" class="nav-link" data-scroll-target="#dates">Dates</a></li>
+  </ul></li>
+  <li><a href="#examining-various-data-types" id="toc-examining-various-data-types" class="nav-link" data-scroll-target="#examining-various-data-types">Examining various data types</a></li>
+  <li><a href="#converting-between-various-data-types" id="toc-converting-between-various-data-types" class="nav-link" data-scroll-target="#converting-between-various-data-types">Converting between various data types</a>
+  <ul class="collapse">
+  <li><a href="#examples" id="toc-examples" class="nav-link" data-scroll-target="#examples">Examples</a></li>
+  </ul></li>
+  <li><a href="#supplementary-reading" id="toc-supplementary-reading" class="nav-link" data-scroll-target="#supplementary-reading">Supplementary Reading</a></li>
   </ul>
 </nav>
     </div>
@@ -266,7 +278,8 @@ cookieconsent.run({
 
 <section id="introduction" class="level2">
 <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
-<p>R and RStudio utilize very many data types to store different kinds of data. The most common data types in R are listed below.</p>
+<p>R and RStudio utilize multiple data types to store different kinds of data.</p>
+<p>The most common data types in R are listed below.</p>
 <table class="table">
 <colgroup>
 <col style="width: 7%">
@@ -314,9 +327,10 @@ cookieconsent.run({
 </tbody>
 </table>
 </section>
-<section id="data-type-examples" class="level2">
-<h2 class="anchored" data-anchor-id="data-type-examples">Data Type Examples</h2>
-<p><strong>Numeric</strong></p>
+<section id="data-types" class="level2">
+<h2 class="anchored" data-anchor-id="data-types">Data types</h2>
+<section id="numeric" class="level3">
+<h3 class="anchored" data-anchor-id="numeric">Numeric</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fl">89.98</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -327,7 +341,9 @@ cookieconsent.run({
 <pre><code>[1] 55</code></pre>
 </div>
 </div>
-<p><strong>Integer</strong></p>
+</section>
+<section id="integer" class="level3">
+<h3 class="anchored" data-anchor-id="integer">Integer</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>5L</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -338,7 +354,9 @@ cookieconsent.run({
 <pre><code>[1] 5768</code></pre>
 </div>
 </div>
-<p><strong>Logical</strong></p>
+</section>
+<section id="logical" class="level3">
+<h3 class="anchored" data-anchor-id="logical">Logical</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="cn">TRUE</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -349,7 +367,9 @@ cookieconsent.run({
 <pre><code>[1] FALSE</code></pre>
 </div>
 </div>
-<p><strong>Complex</strong></p>
+</section>
+<section id="complex" class="level3">
+<h3 class="anchored" data-anchor-id="complex">Complex</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="dv">10</span> <span class="sc">+</span> 30i</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -360,7 +380,9 @@ cookieconsent.run({
 <pre><code>[1] 287+34i</code></pre>
 </div>
 </div>
-<p><strong>Character or String</strong></p>
+</section>
+<section id="character-or-string" class="level3">
+<h3 class="anchored" data-anchor-id="character-or-string">Character or String</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="st">'abc'</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -375,7 +397,9 @@ cookieconsent.run({
 <pre><code>[1] "I like learning R"</code></pre>
 </div>
 </div>
-<p><strong>Dates</strong></p>
+</section>
+<section id="dates" class="level3">
+<h3 class="anchored" data-anchor-id="dates">Dates</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb23"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="st">"2022-06-23 14:39:21 EAT"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -387,8 +411,9 @@ cookieconsent.run({
 </div>
 </div>
 </section>
-<section id="examining-data-types" class="level2">
-<h2 class="anchored" data-anchor-id="examining-data-types">Examining data types</h2>
+</section>
+<section id="examining-various-data-types" class="level2">
+<h2 class="anchored" data-anchor-id="examining-various-data-types">Examining various data types</h2>
 <p>Several functions exist to examine the features of the various data types. These include:</p>
 <ol type="1">
 <li><code>typeof()</code> – what is the data type of the object (low-level)?</li>
@@ -489,8 +514,12 @@ cookieconsent.run({
 <pre><code>[1] FALSE</code></pre>
 </div>
 </div>
+</section>
+<section id="converting-between-various-data-types" class="level2">
+<h2 class="anchored" data-anchor-id="converting-between-various-data-types">Converting between various data types</h2>
 <p>To convert between data types we can use the “as.___()” functions. These include: <code>as.Date()</code>, <code>as.numeric()</code>, and <code>as.factor()</code>. Additionally, other helpful functions include factor() which adds levels to the data and nchar() which provides the length of the data.</p>
-<p>Examples</p>
+<section id="examples" class="level3">
+<h3 class="anchored" data-anchor-id="examples">Examples</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb64"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb64-1"><a href="#cb64-1" aria-hidden="true" tabindex="-1"></a><span class="fu">as.integer</span>(a)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -510,8 +539,10 @@ cookieconsent.run({
 </div>
 </div>
 </section>
-<section id="summary" class="level2">
-<h2 class="anchored" data-anchor-id="summary">Summary</h2>
+</section>
+<section id="supplementary-reading" class="level2">
+<h2 class="anchored" data-anchor-id="supplementary-reading">Supplementary Reading</h2>
+<p>Coming soon…</p>
 
 
 </section>
