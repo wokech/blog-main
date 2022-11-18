@@ -18,7 +18,7 @@ comments: false
 # Series
 
 1.  [R and RStudio: Getting Started and The Basics](series_1.html)
-2.  [Data Stories: Insights from the Kenya Census (2019)](series_2.html)
+2.  [Data Stories](series_2.html)
 :::
 
 ::: {.column width="20%"}
