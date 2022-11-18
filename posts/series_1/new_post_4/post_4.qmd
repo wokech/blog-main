@@ -11,10 +11,12 @@ draft: false
 
 ## Introduction
 
-R and RStudio utilize very many data types to store different kinds of data. The most common data types in R are listed below.
+R and RStudio utilize multiple data types to store different kinds of data.
+
+The most common data types in R are listed below.
 
 | **Data Type** | **Description**                                                                                                                                                                           |
-|---------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|-------------|-----------------------------------------------------------|
 | Numeric       | The most common data type. The values can be numbers or decimals (all real numbers).                                                                                                      |
 | Integer       | Special case of numeric data without decimals.                                                                                                                                            |
 | Logical       | Boolean data type with only 2 values (`TRUE` or `FALSE`).                                                                                                                                 |

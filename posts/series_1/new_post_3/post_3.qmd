@@ -11,7 +11,9 @@ draft: false
 
 ## Introduction
 
-Variables are instrumental in programming because they are used as "containers" to store data values. To assign a value to a variable, we can use `<−` or `=`. However, most R users prefer to use `<−`.
+Variables are instrumental in programming because they are used as "containers" to store data values.
+
+To assign a value to a variable, we can use `<−` or `=`. However, most R users prefer to use `<−`.
 
 ### Examples of variable assignment
 
