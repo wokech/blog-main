@@ -1,5 +1,5 @@
 ---
-title: "Data Stories: Insights from the Kenya Census (2019)"
+title: "Data Stories"
 listing:
   contents: posts/series_2
   sort: "date"

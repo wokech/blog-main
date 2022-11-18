@@ -2,7 +2,7 @@
 title: "The Basics of R and RStudio"
 subtitle: "Part 7: Data Structures"
 author: "William Okech"
-date: "2022-11-12"
+date: "2022-11-16"
 image: "r_and_rstudio.png"
 categories: [RStudio, R, Tutorial, Blog]
 toc: true
@@ -13,7 +13,7 @@ draft: false
 
 Data structures in R are tools for storing and organizing multiple values. They help to organize stored data in a way that the data can be used more effectively. Data structures vary according to the number of dimensions and the data types (heterogeneous or homogeneous) contained. The primary data structures are:
 
-1.  Vectors [Link](posts/series_1/new_post_6/post_6.html)
+1.  Vectors ([link](posts/series_1/new_post_6/post_6.html))
 
 2.  Lists
 
@@ -29,60 +29,60 @@ Data structures in R are tools for storing and organizing multiple values. They 
 
 ### 1. Vectors
 
-Discussed previously (link)
+Discussed in a previous [post](posts/series_1/new_post_6/post_6.html)
 
 ### 2. Lists
 
 Lists are objects/containers that hold elements of the same or different types. They can containing strings, numbers, vectors, matrices, functions, or other lists. Lists are created with the `list()` function
 
-Examples
+#### Examples
 
-Three element list
+#### a. Three element list
 
 ```{r}
 list_1 <- list(10, 30, 50)
 ```
 
-Single element list
+#### b. Single element list
 
 ```{r}
 list_2 <- list(c(10, 30, 50))
 ```
 
-Three element list
+#### c. Three element list
 
 ```{r}
 list_3 <- list(1:3, c(50,40), 3:-5)
 ```
 
-List with elements of different types
+#### d. List with elements of different types
 
 ```{r}
 list_4 <- list(c("a", "b", "c"), 5:-1)
 ```
 
-List which contains a list
+#### e. List which contains a list
 
 ```{r}
 list_5 <- list(c("a", "b", "c"), 5:-1, list_1)
 ```
 
-Set names for the list elements
+#### f. Set names for the list elements
 
 ```{r}
 names(list_5)
 names(list_5) <- c("character vector", "numeric vector", "list")
-names()
+names(list_5)
 ```
 
-Access elements
+#### g. Access elements
 
 ```{r}
 list_5[[1]]
 list_5[["character vector"]]
 ```
 
-Length of list
+#### h. Length of list
 
 ```{r}
 length(list_1)
@@ -101,60 +101,68 @@ A data frame is one of the most common data objects used to store tabular data i
 
 • The individual columns should contain the same number of data items.
 
-Creation of data frames
+### Creation of data frames
 
 ```{r}
-level <- c(“Low”, “Mid”, “High”)
-language <- c(“R”, “RStudio”, “Shiny”)
+level <- c("Low", "Mid", "High")
+language <- c("R", "RStudio", "Shiny")
 age <- c(25, 36, 47)
 
 df_1 <- data.frame(level, language, age)
 ```
 
-Functions used to manipulate data frames
+### Functions used to manipulate data frames
 
-Number of rows
-
-```{r}
-```
-
-Number of columns
+#### a. Number of rows
 
 ```{r}
+nrow(df_1)
 ```
 
-Dimensions
+#### b. Number of columns
 
 ```{r}
+ncol(df_1)
 ```
 
-Class of data frame
+#### c. Dimensions
 
 ```{r}
+dim(df_1)
 ```
 
-Column names
+#### d. Class of data frame
 
 ```{r}
+class(df_1)
 ```
 
-Row names
+#### e. Column names
 
 ```{r}
+colnames(df_1)
 ```
 
-Top and bottom values
+#### f. Row names
 
 ```{r}
+row_names(df_1)
 ```
 
-Access columns
+#### g. Top and bottom values
+
+```{r}
+head(df_1, n=2)
+tail(df_1, n=2)
+```
+
+#### h. Access columns
 
 ```{r}
 df_1$level
 ```
 
-Access individual elements
+#### i. Access individual elements
 
 ```{r}
 
@@ -163,14 +171,14 @@ df_1[2, 1:2]
 
 ```
 
-Access columns with index
+#### j. Access columns with index
 
 ```{r}
 df_1[, 3]
 df_1[, c("language")]
 ```
 
-Access rows with index
+#### k. Access rows with index
 
 ```{r}
 df_1[2, ]
@@ -180,11 +188,15 @@ df_1[2, ]
 
 A matrix is a rectangular two-dimensional (2D) homogeneous data set containing rows and columns. It contains real numbers that are arranged in a fixed number of rows and columns. Matrices are generally used for various mathematical and statistical applications.
 
-Creation of matrices
+#### a. Creation of matrices
 
-m1 \<- matrix(1:9, nrow = 3, ncol = 3) m2 \<- matrix(21:29, nrow = 3, ncol = 3) m3 \<- matrix(1:12, nrow = 2, ncol = 6)
+```{r}
+m1 <- matrix(1:9, nrow = 3, ncol = 3) 
+m2 <- matrix(21:29, nrow = 3, ncol = 3) 
+m3 <- matrix(1:12, nrow = 2, ncol = 6)
+```
 
-Obtain the dimensions of the matrices
+#### b. Obtain the dimensions of the matrices
 
 ```{r}
 # m1
@@ -198,7 +210,7 @@ ncol(m3)
 dim(m3)
 ```
 
-Arithmetic with matrices
+#### c. Arithmetic with matrices
 
 ```{r}
 m1+m2
@@ -208,41 +220,50 @@ m1/m2
 m1 == m2
 ```
 
-Matrix multiplication
+#### d. Matrix multiplication
 
 ```{r}
 m5 <- matrix(1:10, nrow = 5)
 m6 <- matrix(43:34, nrow = 5)
 
 m5*m6
-m5%*%m6
 
-Transpose
+# m5%*%m6 will not work because of the dimesions.
+# the vector m6 needs to be transposed.
+
+# Transpose
 m5%*%t(m6)
 ```
 
-Generate an identity matrix
+#### e. Generate an identity matrix
 
 ```{r}
-diag()
+diag(5)
 ```
 
-Column and row names
+#### f. Column and row names
 
 ```{r}
-colnames()
-rownames()
+colnames(m5)
+rownames(m6)
 ```
 
 ### 5. Arrays
 
 An array is a multidimensional vector that stores homogeneous data. It can be thought of as a stacked matrix and stores data in more than 2 dimensions (n-dimensional). An array is composed of rows by columns by dimensions. Example: an array with dimensions, dim = c(2,3,3), has 2 rows, 3 columns, and 3 matrices.
 
-Creating arrays
+#### a. Creating arrays
 
 ```{r}
 arr_1 <- array(1:12, dim = c(2,3,2))
 
+arr_1
+
+```
+
+#### b. Filter array by index
+
+```{r}
 arr_1[1, , ]
 
 arr_1[1, ,1]
@@ -264,5 +285,10 @@ OR
 
 ```{r}
 factor_2 <- as.factor(vector)
+factor_2
 as.numeric(factor_2)
 ```
+
+## Supplementary Reading
+
+Coming soon...

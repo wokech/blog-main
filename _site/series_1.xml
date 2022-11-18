@@ -10,7 +10,740 @@
 <atom:link href="https://williamokech.netlify.app/series_1.xml" rel="self" type="application/rss+xml"/>
 <description>This is William Okech's personal Blog.</description>
 <generator>quarto-0.9.505</generator>
-<lastBuildDate>Tue, 08 Nov 2022 21:00:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 11 Nov 2022 21:00:00 GMT</lastBuildDate>
+<item>
+  <title>The Basics of R and RStudio</title>
+  <dc:creator>William Okech</dc:creator>
+  <link>https://williamokech.netlify.app/posts/series_1/new_post_6/post_6.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>A vector is a collection of elements of the same data type, and they are a basic data structure in R programming. Vectors cannot be of mixed data type. The most common way to create a vector is with <code>c()</code>, where “c” stands for combine. In R, vectors do not have dimensions; therefore, they cannot be defined by columns or rows. Vectors can be divided into atomic vectors and lists (discussed in <a href="posts/series_1/new_post_8/post_8.html">Part 7</a>). The atomic vectors include logical, character, and numeric (integer or double).</p>
+<p>Additionally, R is a vectorized language because mathematical operations are applied to each element of the vector without the need to loop through the vector.</p>
+<p>Examples • Numbers: c(2, 10, 16, -5) • Characters: c(“R”, “RStudio”, “Shiny”, “Quarto”) • Logicals: c(“TRUE”, “FALSE”, “TRUE”)</p>
+<p>To generate a vector with a sequence of consecutive numbers, we can use <code>:</code>, <code>sequence()</code>, or <code>seq()</code>.</p>
+<p>Examples</p>
+<p>Generate a sequence using <code>:</code></p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1">a <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="dv" style="color: #AD0000;">9</span><span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">18</span></span>
+<span id="cb1-2">a</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code> [1]  9 10 11 12 13 14 15 16 17 18</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1">a_rev <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="dv" style="color: #AD0000;">18</span><span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">9</span></span>
+<span id="cb3-2">a_rev</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code> [1] 18 17 16 15 14 13 12 11 10  9</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1">a_rev_minus <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="dv" style="color: #AD0000;">5</span><span class="sc" style="color: #5E5E5E;">:-</span><span class="dv" style="color: #AD0000;">3</span></span>
+<span id="cb5-2">a_rev_minus</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1]  5  4  3  2  1  0 -1 -2 -3</code></pre>
+</div>
+</div>
+<p>Generate a sequence using <code>sequence()</code></p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb7" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1">b <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">sequence</span>(<span class="dv" style="color: #AD0000;">7</span>)</span>
+<span id="cb7-2">b</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 1 2 3 4 5 6 7</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb9" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1">c<span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">sequence</span>(<span class="fu" style="color: #4758AB;">c</span>(<span class="dv" style="color: #AD0000;">5</span>,<span class="dv" style="color: #AD0000;">9</span>))</span>
+<span id="cb9-2">c</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code> [1] 1 2 3 4 5 1 2 3 4 5 6 7 8 9</code></pre>
+</div>
+</div>
+<p>The <code>seq()</code> function has four main arguments: seq(from, to, by, length.out), where “from” and “to” are the starting and ending elements of the sequence. Additionally, “by” is the difference between the elements, and “length.out” is the maximum length of the vector.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb11" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1">d <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">seq</span>(<span class="dv" style="color: #AD0000;">2</span>,<span class="dv" style="color: #AD0000;">20</span>,<span class="at" style="color: #657422;">by=</span><span class="dv" style="color: #AD0000;">2</span>)</span>
+<span id="cb11-2">d</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code> [1]  2  4  6  8 10 12 14 16 18 20</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb13" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1">f <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">seq</span>(<span class="dv" style="color: #AD0000;">2</span>,<span class="dv" style="color: #AD0000;">20</span>, <span class="at" style="color: #657422;">length.out=</span><span class="dv" style="color: #AD0000;">5</span>)</span>
+<span id="cb13-2">f</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1]  2.0  6.5 11.0 15.5 20.0</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb15" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1">h<span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">seq</span>(<span class="dv" style="color: #AD0000;">20</span>,<span class="dv" style="color: #AD0000;">2</span>,<span class="at" style="color: #657422;">by=</span><span class="sc" style="color: #5E5E5E;">-</span><span class="dv" style="color: #AD0000;">2</span>)</span>
+<span id="cb15-2">h</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code> [1] 20 18 16 14 12 10  8  6  4  2</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb17" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1">j <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">seq</span>(<span class="dv" style="color: #AD0000;">20</span>, <span class="dv" style="color: #AD0000;">2</span>, <span class="at" style="color: #657422;">length.out=</span><span class="dv" style="color: #AD0000;">3</span>)</span>
+<span id="cb17-2">j</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 20 11  2</code></pre>
+</div>
+</div>
+<p>To create a repeating vector, we can use <code>rep()</code>.</p>
+<p>Examples</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb19" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1">k <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">rep</span>(<span class="fu" style="color: #4758AB;">c</span>(<span class="dv" style="color: #AD0000;">0</span>,<span class="dv" style="color: #AD0000;">3</span>,<span class="dv" style="color: #AD0000;">6</span>), <span class="at" style="color: #657422;">times =</span> <span class="dv" style="color: #AD0000;">3</span>)</span>
+<span id="cb19-2">k</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 0 3 6 0 3 6 0 3 6</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb21" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb21-1">l <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">rep</span>(<span class="dv" style="color: #AD0000;">2</span><span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">6</span>, <span class="at" style="color: #657422;">each =</span> <span class="dv" style="color: #AD0000;">3</span>)</span>
+<span id="cb21-2">l</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code> [1] 2 2 2 3 3 3 4 4 4 5 5 5 6 6 6</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb23" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1">m <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">rep</span>(<span class="dv" style="color: #AD0000;">7</span><span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">10</span>, <span class="at" style="color: #657422;">length.out =</span> <span class="dv" style="color: #AD0000;">20</span>)</span>
+<span id="cb23-2">m</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code> [1]  7  8  9 10  7  8  9 10  7  8  9 10  7  8  9 10  7  8  9 10</code></pre>
+</div>
+</div>
+</section>
+<section id="vector-operations" class="level2">
+<h2 class="anchored" data-anchor-id="vector-operations">Vector Operations</h2>
+<p>Vectors of equal length can be operated on together. If one vector is shorter, it will get recycled, as its elements are repeated until it matches the elements of the longer vector. When using vectors of unequal lengths, it would be ideal if the longer vector is a multiple of the shorter vector.</p>
+<p>Examples of vector operations:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb25" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb25-1">vec_1 <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="dv" style="color: #AD0000;">1</span><span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">10</span></span>
+<span id="cb25-2"></span>
+<span id="cb25-3">vec_1<span class="sc" style="color: #5E5E5E;">*</span><span class="dv" style="color: #AD0000;">12</span> <span class="co" style="color: #5E5E5E;"># multiplication</span></span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code> [1]  12  24  36  48  60  72  84  96 108 120</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb27" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb27-1">vec_1<span class="sc" style="color: #5E5E5E;">+</span><span class="dv" style="color: #AD0000;">12</span> <span class="co" style="color: #5E5E5E;"># addition</span></span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code> [1] 13 14 15 16 17 18 19 20 21 22</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb29" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb29-1">vec_1<span class="dv" style="color: #AD0000;">-12</span> <span class="co" style="color: #5E5E5E;"># subtraction</span></span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code> [1] -11 -10  -9  -8  -7  -6  -5  -4  -3  -2</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb31" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb31-1">vec_1<span class="sc" style="color: #5E5E5E;">/</span><span class="dv" style="color: #AD0000;">3</span> <span class="co" style="color: #5E5E5E;"># division</span></span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code> [1] 0.3333333 0.6666667 1.0000000 1.3333333 1.6666667 2.0000000 2.3333333
+ [8] 2.6666667 3.0000000 3.3333333</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb33" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb33-1">vec_1<span class="sc" style="color: #5E5E5E;">^</span><span class="dv" style="color: #AD0000;">4</span> <span class="co" style="color: #5E5E5E;"># power</span></span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code> [1]     1    16    81   256   625  1296  2401  4096  6561 10000</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb35" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb35-1"><span class="fu" style="color: #4758AB;">sqrt</span>(vec_1) <span class="co" style="color: #5E5E5E;"># square root</span></span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code> [1] 1.000000 1.414214 1.732051 2.000000 2.236068 2.449490 2.645751 2.828427
+ [9] 3.000000 3.162278</code></pre>
+</div>
+</div>
+<p>Additionally, we can perform operations on two vectors of equal length. Create two vectors</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb37" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb37-1">vec_3 <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="dv" style="color: #AD0000;">5</span><span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">14</span></span>
+<span id="cb37-2">vec_3</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code> [1]  5  6  7  8  9 10 11 12 13 14</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb39" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb39-1">vec_4 <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="dv" style="color: #AD0000;">12</span><span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">3</span></span>
+<span id="cb39-2">vec_4</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code> [1] 12 11 10  9  8  7  6  5  4  3</code></pre>
+</div>
+</div>
+<p>Perform various operations</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb41" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb41-1">vec_3 <span class="sc" style="color: #5E5E5E;">+</span> vec_4</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code> [1] 17 17 17 17 17 17 17 17 17 17</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb43" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb43-1">vec_3 <span class="sc" style="color: #5E5E5E;">-</span> vec_4</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code> [1] -7 -5 -3 -1  1  3  5  7  9 11</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb45" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb45-1">vec_3 <span class="sc" style="color: #5E5E5E;">/</span> vec_4</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code> [1] 0.4166667 0.5454545 0.7000000 0.8888889 1.1250000 1.4285714 1.8333333
+ [8] 2.4000000 3.2500000 4.6666667</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb47" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb47-1">vec_3 <span class="sc" style="color: #5E5E5E;">*</span> vec_4</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code> [1] 60 66 70 72 72 70 66 60 52 42</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb49" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb49-1">vec_3 <span class="sc" style="color: #5E5E5E;">^</span> vec_4</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code> [1] 244140625 362797056 282475249 134217728  43046721  10000000   1771561
+ [8]    248832     28561      2744</code></pre>
+</div>
+</div>
+<section id="functions-applied-to-vectors" class="level3">
+<h3 class="anchored" data-anchor-id="functions-applied-to-vectors">Functions applied to vectors</h3>
+<p>The functions listed below can be applied to vectors:</p>
+<ol type="1">
+<li><p><code>any()</code></p></li>
+<li><p><code>all()</code></p></li>
+<li><p><code>nchar()</code></p></li>
+<li><p><code>length()</code></p></li>
+<li><p><code>typeof()</code></p></li>
+</ol>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb51" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb51-1"><span class="fu" style="color: #4758AB;">any</span>(vec_3 <span class="sc" style="color: #5E5E5E;">&gt;</span> vec_4)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] TRUE</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb53" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb53-1"><span class="fu" style="color: #4758AB;">any</span>(vec_3 <span class="sc" style="color: #5E5E5E;">&lt;</span> vec_4)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] TRUE</code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb55" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb55-1"><span class="fu" style="color: #4758AB;">all</span>(vec_3 <span class="sc" style="color: #5E5E5E;">&gt;</span> vec_4)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] FALSE</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb57" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb57-1"><span class="fu" style="color: #4758AB;">all</span>(vec_3 <span class="sc" style="color: #5E5E5E;">&lt;</span> vec_4)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] FALSE</code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb59" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb59-1"><span class="fu" style="color: #4758AB;">length</span>(vec_3)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 10</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb61" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb61-1"><span class="fu" style="color: #4758AB;">length</span>(vec_4)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 10</code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb63" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb63-1"><span class="fu" style="color: #4758AB;">typeof</span>(vec_3)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "integer"</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb65" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb65-1"><span class="fu" style="color: #4758AB;">typeof</span>(vec_4)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "integer"</code></pre>
+</div>
+</div>
+<p>Determine the number of letters in a character</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb67" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb67-1">vec_5 <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">c</span>(<span class="st" style="color: #20794D;">"R"</span>, <span class="st" style="color: #20794D;">"RStudio"</span>, <span class="st" style="color: #20794D;">"Shiny"</span>, <span class="st" style="color: #20794D;">"Quarto"</span>)</span>
+<span id="cb67-2"><span class="fu" style="color: #4758AB;">nchar</span>(vec_5)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 1 7 5 6</code></pre>
+</div>
+</div>
+<p>Recycling of vectors</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb69" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb69-1">vec_3 <span class="sc" style="color: #5E5E5E;">+</span> <span class="fu" style="color: #4758AB;">c</span>(<span class="dv" style="color: #AD0000;">10</span>, <span class="dv" style="color: #AD0000;">20</span>)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code> [1] 15 26 17 28 19 30 21 32 23 34</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb71" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb71-1">vec_3 <span class="sc" style="color: #5E5E5E;">+</span> <span class="fu" style="color: #4758AB;">c</span>(<span class="dv" style="color: #AD0000;">10</span>, <span class="dv" style="color: #AD0000;">20</span>, <span class="dv" style="color: #AD0000;">30</span>) <span class="co" style="color: #5E5E5E;"># will result in a warning as the longer vector is not a multiple of the shorter one</span></span></code></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning in vec_3 + c(10, 20, 30): longer object length is not a multiple of
+shorter object length</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code> [1] 15 26 37 18 29 40 21 32 43 24</code></pre>
+</div>
+</div>
+<p>Accessing elements of a vector</p>
+<p>To access the elements of a vector, we can use numeric-, character-, or logical-based indexing.</p>
+<p>Examples</p>
+<p>Name the columns of a vector with <code>names()</code></p>
+<p>Create the vector</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb74" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb74-1">vec_name <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="dv" style="color: #AD0000;">1</span><span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">5</span></span>
+<span id="cb74-2">vec_name</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 1 2 3 4 5</code></pre>
+</div>
+</div>
+<p>Name individual elements</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb76" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb76-1"><span class="fu" style="color: #4758AB;">names</span>(vec_name) <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">c</span>(<span class="st" style="color: #20794D;">"a"</span>, <span class="st" style="color: #20794D;">"c"</span>, <span class="st" style="color: #20794D;">"e"</span>, <span class="st" style="color: #20794D;">"g"</span>, <span class="st" style="color: #20794D;">"i"</span>)</span>
+<span id="cb76-2">vec_name</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>a c e g i 
+1 2 3 4 5 </code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb78" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb78-1">vec_index <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="dv" style="color: #AD0000;">1</span><span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">5</span></span>
+<span id="cb78-2">vec_index</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 1 2 3 4 5</code></pre>
+</div>
+</div>
+<p>Logical vector as an index</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb80" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb80-1">vec_index[<span class="fu" style="color: #4758AB;">c</span>(<span class="cn" style="color: #8f5902;">TRUE</span>, <span class="cn" style="color: #8f5902;">FALSE</span>, <span class="cn" style="color: #8f5902;">TRUE</span>, <span class="cn" style="color: #8f5902;">FALSE</span>, <span class="cn" style="color: #8f5902;">TRUE</span>)]</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 1 3 5</code></pre>
+</div>
+</div>
+<p>Filter vector based on an index</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb82" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb82-1">vec_index[<span class="dv" style="color: #AD0000;">1</span><span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">3</span>]</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 1 2 3</code></pre>
+</div>
+</div>
+<p>Access a vector using its position</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb84" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb84-1">vec_index[<span class="dv" style="color: #AD0000;">4</span>]</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 4</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb86" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb86-1">vec_index[<span class="fu" style="color: #4758AB;">c</span>(<span class="dv" style="color: #AD0000;">2</span>,<span class="dv" style="color: #AD0000;">4</span>)]</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 2 4</code></pre>
+</div>
+</div>
+<p>Modify a vector using indexing</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb88" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb88-1">vec_index</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 1 2 3 4 5</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb90" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb90-1">vec_index[<span class="dv" style="color: #AD0000;">5</span>] <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="dv" style="color: #AD0000;">1000</span></span>
+<span id="cb90-2">vec_index</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1]    1    2    3    4 1000</code></pre>
+</div>
+</div>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>RStudio</category>
+  <category>R</category>
+  <category>Tutorial</category>
+  <category>Blog</category>
+  <guid>https://williamokech.netlify.app/posts/series_1/new_post_6/post_6.html</guid>
+  <pubDate>Fri, 11 Nov 2022 21:00:00 GMT</pubDate>
+  <media:content url="https://williamokech.netlify.app/posts/series_1/new_post_6/r_and_rstudio.png" medium="image" type="image/png" height="26" width="144"/>
+</item>
+<item>
+  <title>The Basics of R and RStudio</title>
+  <dc:creator>William Okech</dc:creator>
+  <link>https://williamokech.netlify.app/posts/series_1/new_post_7/post_7.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>R has two types of missing data, NA and NULL.<sup>1</sup></p>
+<section id="na" class="level3">
+<h3 class="anchored" data-anchor-id="na">NA</h3>
+<p>R uses <code>NA</code> to represent missing data. The <code>NA</code> appears as another element of a vector. To test each element for missingness we use <code>is.na()</code>. Generally, we can use tools such as <code>mi</code>, <code>mice</code>, and <code>Amelia</code> (which will be discussed later) to deal with missing data. The deletion of this missing data may lead to bias or data loss, so we need to be very careful when handling it. In subsequent blog posts, we will look at the use of imputation to deal with missing data.</p>
+</section>
+<section id="null" class="level3">
+<h3 class="anchored" data-anchor-id="null">NULL</h3>
+<p><code>NULL</code> represents nothingness or the “absence of anything”. <sup>2</sup></p>
+<p>It does not mean missing but represents nothing. <code>NULL</code> cannot exist within a vector because it disappears.</p>
+
+
+</section>
+</section>
+
+
+<div id="quarto-appendix" class="default"><section class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>Adapted from Lander, J. P. (2014) R for everyone: Advanced analytics and graphics. Addison-Wesley.↩︎</p></li>
+<li id="fn2"><p>Adapted from Lander, J. P. (2014) R for everyone: Advanced analytics and graphics. Addison-Wesley.↩︎</p></li>
+</ol>
+</section></div> ]]></description>
+  <category>RStudio</category>
+  <category>R</category>
+  <category>Tutorial</category>
+  <category>Blog</category>
+  <guid>https://williamokech.netlify.app/posts/series_1/new_post_7/post_7.html</guid>
+  <pubDate>Fri, 11 Nov 2022 21:00:00 GMT</pubDate>
+  <media:content url="https://williamokech.netlify.app/posts/series_1/new_post_7/r_and_rstudio.png" medium="image" type="image/png" height="26" width="144"/>
+</item>
+<item>
+  <title>The Basics of R and RStudio</title>
+  <dc:creator>William Okech</dc:creator>
+  <link>https://williamokech.netlify.app/posts/series_1/new_post_8/post_8.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>Data structures in R are tools for storing and organizing multiple values. They help to organize stored data in a way that the data can be used more effectively. Data structures vary according to the number of dimensions and the data types (heterogeneous or homogeneous) contained. The primary data structures are:</p>
+<ol type="1">
+<li><p>Vectors <a href="posts/series_1/new_post_6/post_6.html">Link</a></p></li>
+<li><p>Lists</p></li>
+<li><p>Data frames</p></li>
+<li><p>Matrices</p></li>
+<li><p>Arrays</p></li>
+<li><p>Factors</p></li>
+</ol>
+</section>
+<section id="data-structures" class="level2">
+<h2 class="anchored" data-anchor-id="data-structures">Data structures</h2>
+<section id="vectors" class="level3">
+<h3 class="anchored" data-anchor-id="vectors">1. Vectors</h3>
+<p>Discussed previously (link)</p>
+</section>
+<section id="lists" class="level3">
+<h3 class="anchored" data-anchor-id="lists">2. Lists</h3>
+<p>Lists are objects/containers that hold elements of the same or different types. They can containing strings, numbers, vectors, matrices, functions, or other lists. Lists are created with the <code>list()</code> function</p>
+<p>Examples</p>
+<p>Three element list</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1">list_1 <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">list</span>(<span class="dv" style="color: #AD0000;">10</span>, <span class="dv" style="color: #AD0000;">30</span>, <span class="dv" style="color: #AD0000;">50</span>)</span></code></pre></div>
+</div>
+<p>Single element list</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1">list_2 <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">list</span>(<span class="fu" style="color: #4758AB;">c</span>(<span class="dv" style="color: #AD0000;">10</span>, <span class="dv" style="color: #AD0000;">30</span>, <span class="dv" style="color: #AD0000;">50</span>))</span></code></pre></div>
+</div>
+<p>Three element list</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1">list_3 <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">list</span>(<span class="dv" style="color: #AD0000;">1</span><span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">3</span>, <span class="fu" style="color: #4758AB;">c</span>(<span class="dv" style="color: #AD0000;">50</span>,<span class="dv" style="color: #AD0000;">40</span>), <span class="dv" style="color: #AD0000;">3</span><span class="sc" style="color: #5E5E5E;">:-</span><span class="dv" style="color: #AD0000;">5</span>)</span></code></pre></div>
+</div>
+<p>List with elements of different types</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1">list_4 <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">list</span>(<span class="fu" style="color: #4758AB;">c</span>(<span class="st" style="color: #20794D;">"a"</span>, <span class="st" style="color: #20794D;">"b"</span>, <span class="st" style="color: #20794D;">"c"</span>), <span class="dv" style="color: #AD0000;">5</span><span class="sc" style="color: #5E5E5E;">:-</span><span class="dv" style="color: #AD0000;">1</span>)</span></code></pre></div>
+</div>
+<p>List which contains a list</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1">list_5 <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">list</span>(<span class="fu" style="color: #4758AB;">c</span>(<span class="st" style="color: #20794D;">"a"</span>, <span class="st" style="color: #20794D;">"b"</span>, <span class="st" style="color: #20794D;">"c"</span>), <span class="dv" style="color: #AD0000;">5</span><span class="sc" style="color: #5E5E5E;">:-</span><span class="dv" style="color: #AD0000;">1</span>, list_1)</span></code></pre></div>
+</div>
+<p>Set names for the list elements</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><span class="fu" style="color: #4758AB;">names</span>(list_5)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>NULL</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb8" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><span class="fu" style="color: #4758AB;">names</span>(list_5) <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">c</span>(<span class="st" style="color: #20794D;">"character vector"</span>, <span class="st" style="color: #20794D;">"numeric vector"</span>, <span class="st" style="color: #20794D;">"list"</span>)</span>
+<span id="cb8-2"><span class="fu" style="color: #4758AB;">names</span>(list_5)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "character vector" "numeric vector"   "list"            </code></pre>
+</div>
+</div>
+<p>Access elements</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb10" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1">list_5[[<span class="dv" style="color: #AD0000;">1</span>]]</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "a" "b" "c"</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb12" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1">list_5[[<span class="st" style="color: #20794D;">"character vector"</span>]]</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "a" "b" "c"</code></pre>
+</div>
+</div>
+<p>Length of list</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb14" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><span class="fu" style="color: #4758AB;">length</span>(list_1)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 3</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb16" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><span class="fu" style="color: #4758AB;">length</span>(list_5)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 3</code></pre>
+</div>
+</div>
+</section>
+<section id="data-frames" class="level3">
+<h3 class="anchored" data-anchor-id="data-frames">3. Data frames</h3>
+<p>A data frame is one of the most common data objects used to store tabular data in R. Tabular data has rows representing observations and columns representing variables. Dataframes contain lists of equal-length vectors. Each column holds a different type of data, but within each column, the elements must be of the same type. The most common data frame characteristics are listed below:</p>
+<p>• Columns should have a name;</p>
+<p>• Row names should be unique;</p>
+<p>• Various data can be stored (such as numeric, factor, and character);</p>
+<p>• The individual columns should contain the same number of data items.</p>
+<p>Creation of data frames</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb18" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1">level <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">c</span>(<span class="st" style="color: #20794D;">"Low"</span>, <span class="st" style="color: #20794D;">"Mid"</span>, <span class="st" style="color: #20794D;">"High"</span>)</span>
+<span id="cb18-2">language <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">c</span>(<span class="st" style="color: #20794D;">"R"</span>, <span class="st" style="color: #20794D;">"RStudio"</span>, <span class="st" style="color: #20794D;">"Shiny"</span>)</span>
+<span id="cb18-3">age <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">c</span>(<span class="dv" style="color: #AD0000;">25</span>, <span class="dv" style="color: #AD0000;">36</span>, <span class="dv" style="color: #AD0000;">47</span>)</span>
+<span id="cb18-4"></span>
+<span id="cb18-5">df_1 <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">data.frame</span>(level, language, age)</span></code></pre></div>
+</div>
+<p>Functions used to manipulate data frames</p>
+<p>Number of rows</p>
+<div class="cell">
+
+</div>
+<p>Number of columns</p>
+<div class="cell">
+
+</div>
+<p>Dimensions</p>
+<div class="cell">
+
+</div>
+<p>Class of data frame</p>
+<div class="cell">
+
+</div>
+<p>Column names</p>
+<div class="cell">
+
+</div>
+<p>Row names</p>
+<div class="cell">
+
+</div>
+<p>Top and bottom values</p>
+<div class="cell">
+
+</div>
+<p>Access columns</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb19" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1">df_1<span class="sc" style="color: #5E5E5E;">$</span>level</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Low"  "Mid"  "High"</code></pre>
+</div>
+</div>
+<p>Access individual elements</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb21" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb21-1">df_1[<span class="dv" style="color: #AD0000;">3</span>,<span class="dv" style="color: #AD0000;">2</span>]</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Shiny"</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb23" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1">df_1[<span class="dv" style="color: #AD0000;">2</span>, <span class="dv" style="color: #AD0000;">1</span><span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">2</span>]</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>  level language
+2   Mid  RStudio</code></pre>
+</div>
+</div>
+<p>Access columns with index</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb25" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb25-1">df_1[, <span class="dv" style="color: #AD0000;">3</span>]</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 25 36 47</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb27" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb27-1">df_1[, <span class="fu" style="color: #4758AB;">c</span>(<span class="st" style="color: #20794D;">"language"</span>)]</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "R"       "RStudio" "Shiny"  </code></pre>
+</div>
+</div>
+<p>Access rows with index</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb29" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb29-1">df_1[<span class="dv" style="color: #AD0000;">2</span>, ]</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>  level language age
+2   Mid  RStudio  36</code></pre>
+</div>
+</div>
+</section>
+<section id="matrices" class="level3">
+<h3 class="anchored" data-anchor-id="matrices">4. Matrices</h3>
+<p>A matrix is a rectangular two-dimensional (2D) homogeneous data set containing rows and columns. It contains real numbers that are arranged in a fixed number of rows and columns. Matrices are generally used for various mathematical and statistical applications.</p>
+<p>Creation of matrices</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb31" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb31-1">m1 <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">matrix</span>(<span class="dv" style="color: #AD0000;">1</span><span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">9</span>, <span class="at" style="color: #657422;">nrow =</span> <span class="dv" style="color: #AD0000;">3</span>, <span class="at" style="color: #657422;">ncol =</span> <span class="dv" style="color: #AD0000;">3</span>) </span>
+<span id="cb31-2">m2 <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">matrix</span>(<span class="dv" style="color: #AD0000;">21</span><span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">29</span>, <span class="at" style="color: #657422;">nrow =</span> <span class="dv" style="color: #AD0000;">3</span>, <span class="at" style="color: #657422;">ncol =</span> <span class="dv" style="color: #AD0000;">3</span>) </span>
+<span id="cb31-3">m3 <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">matrix</span>(<span class="dv" style="color: #AD0000;">1</span><span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">12</span>, <span class="at" style="color: #657422;">nrow =</span> <span class="dv" style="color: #AD0000;">2</span>, <span class="at" style="color: #657422;">ncol =</span> <span class="dv" style="color: #AD0000;">6</span>)</span></code></pre></div>
+</div>
+<p>Obtain the dimensions of the matrices</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb32" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb32-1"><span class="co" style="color: #5E5E5E;"># m1</span></span>
+<span id="cb32-2"><span class="fu" style="color: #4758AB;">nrow</span>(m1)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 3</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb34" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb34-1"><span class="fu" style="color: #4758AB;">ncol</span>(m1)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 3</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb36" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb36-1"><span class="fu" style="color: #4758AB;">dim</span>(m1)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 3 3</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb38" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb38-1"><span class="co" style="color: #5E5E5E;"># m3</span></span>
+<span id="cb38-2"><span class="fu" style="color: #4758AB;">nrow</span>(m3)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 2</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb40" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb40-1"><span class="fu" style="color: #4758AB;">ncol</span>(m3)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 6</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb42" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb42-1"><span class="fu" style="color: #4758AB;">dim</span>(m3)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 2 6</code></pre>
+</div>
+</div>
+<p>Arithmetic with matrices</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb44" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb44-1">m1<span class="sc" style="color: #5E5E5E;">+</span>m2</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>     [,1] [,2] [,3]
+[1,]   22   28   34
+[2,]   24   30   36
+[3,]   26   32   38</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb46" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb46-1">m1<span class="sc" style="color: #5E5E5E;">-</span>m2</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>     [,1] [,2] [,3]
+[1,]  -20  -20  -20
+[2,]  -20  -20  -20
+[3,]  -20  -20  -20</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb48" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb48-1">m1<span class="sc" style="color: #5E5E5E;">*</span>m2</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>     [,1] [,2] [,3]
+[1,]   21   96  189
+[2,]   44  125  224
+[3,]   69  156  261</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb50" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb50-1">m1<span class="sc" style="color: #5E5E5E;">/</span>m2</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>           [,1]      [,2]      [,3]
+[1,] 0.04761905 0.1666667 0.2592593
+[2,] 0.09090909 0.2000000 0.2857143
+[3,] 0.13043478 0.2307692 0.3103448</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb52" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb52-1">m1 <span class="sc" style="color: #5E5E5E;">==</span> m2</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>      [,1]  [,2]  [,3]
+[1,] FALSE FALSE FALSE
+[2,] FALSE FALSE FALSE
+[3,] FALSE FALSE FALSE</code></pre>
+</div>
+</div>
+<p>Matrix multiplication</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb54" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb54-1">m5 <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">matrix</span>(<span class="dv" style="color: #AD0000;">1</span><span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">10</span>, <span class="at" style="color: #657422;">nrow =</span> <span class="dv" style="color: #AD0000;">5</span>)</span>
+<span id="cb54-2">m6 <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">matrix</span>(<span class="dv" style="color: #AD0000;">43</span><span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">34</span>, <span class="at" style="color: #657422;">nrow =</span> <span class="dv" style="color: #AD0000;">5</span>)</span>
+<span id="cb54-3"></span>
+<span id="cb54-4">m5<span class="sc" style="color: #5E5E5E;">*</span>m6</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>     [,1] [,2]
+[1,]   43  228
+[2,]   84  259
+[3,]  123  288
+[4,]  160  315
+[5,]  195  340</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb56" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb56-1"><span class="co" style="color: #5E5E5E;"># m5%*%m6 will not work because of the dimesions.</span></span>
+<span id="cb56-2"><span class="co" style="color: #5E5E5E;"># the vector m6 needs to be transposed.</span></span>
+<span id="cb56-3"></span>
+<span id="cb56-4"><span class="co" style="color: #5E5E5E;"># Transpose</span></span>
+<span id="cb56-5">m5<span class="sc" style="color: #5E5E5E;">%*%</span><span class="fu" style="color: #4758AB;">t</span>(m6)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>     [,1] [,2] [,3] [,4] [,5]
+[1,]  271  264  257  250  243
+[2,]  352  343  334  325  316
+[3,]  433  422  411  400  389
+[4,]  514  501  488  475  462
+[5,]  595  580  565  550  535</code></pre>
+</div>
+</div>
+<p>Generate an identity matrix</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb58" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb58-1"><span class="fu" style="color: #4758AB;">diag</span>(<span class="dv" style="color: #AD0000;">5</span>)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>     [,1] [,2] [,3] [,4] [,5]
+[1,]    1    0    0    0    0
+[2,]    0    1    0    0    0
+[3,]    0    0    1    0    0
+[4,]    0    0    0    1    0
+[5,]    0    0    0    0    1</code></pre>
+</div>
+</div>
+<p>Column and row names</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb60" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb60-1"><span class="fu" style="color: #4758AB;">colnames</span>(m5)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>NULL</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb62" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb62-1"><span class="fu" style="color: #4758AB;">rownames</span>(m6)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>NULL</code></pre>
+</div>
+</div>
+</section>
+<section id="arrays" class="level3">
+<h3 class="anchored" data-anchor-id="arrays">5. Arrays</h3>
+<p>An array is a multidimensional vector that stores homogeneous data. It can be thought of as a stacked matrix and stores data in more than 2 dimensions (n-dimensional). An array is composed of rows by columns by dimensions. Example: an array with dimensions, dim = c(2,3,3), has 2 rows, 3 columns, and 3 matrices.</p>
+<p>Creating arrays</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb64" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb64-1">arr_1 <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">array</span>(<span class="dv" style="color: #AD0000;">1</span><span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">12</span>, <span class="at" style="color: #657422;">dim =</span> <span class="fu" style="color: #4758AB;">c</span>(<span class="dv" style="color: #AD0000;">2</span>,<span class="dv" style="color: #AD0000;">3</span>,<span class="dv" style="color: #AD0000;">2</span>))</span>
+<span id="cb64-2"></span>
+<span id="cb64-3">arr_1</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>, , 1
+
+     [,1] [,2] [,3]
+[1,]    1    3    5
+[2,]    2    4    6
+
+, , 2
+
+     [,1] [,2] [,3]
+[1,]    7    9   11
+[2,]    8   10   12</code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb66" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb66-1">arr_1[<span class="dv" style="color: #AD0000;">1</span>, , ]</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>     [,1] [,2]
+[1,]    1    7
+[2,]    3    9
+[3,]    5   11</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb68" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb68-1">arr_1[<span class="dv" style="color: #AD0000;">1</span>, ,<span class="dv" style="color: #AD0000;">1</span>]</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 1 3 5</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb70" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb70-1">arr_1[, , <span class="dv" style="color: #AD0000;">1</span>]</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>     [,1] [,2] [,3]
+[1,]    1    3    5
+[2,]    2    4    6</code></pre>
+</div>
+</div>
+</section>
+<section id="factors" class="level3">
+<h3 class="anchored" data-anchor-id="factors">6. Factors</h3>
+<p>Factors are used to store integers or strings which are categorical. They categorize data and store the data in different levels. This form of data storage is useful for statistical modeling. Examples include TRUE or FALSE and male or female.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb72" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb72-1">vector <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">c</span>(<span class="st" style="color: #20794D;">"Male"</span>, <span class="st" style="color: #20794D;">"Female"</span>)</span>
+<span id="cb72-2">factor_1 <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">factor</span>(vector)</span>
+<span id="cb72-3">factor_1</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] Male   Female
+Levels: Female Male</code></pre>
+</div>
+</div>
+<p>OR</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb74" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb74-1">factor_2 <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">as.factor</span>(vector)</span>
+<span id="cb74-2">factor_2</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] Male   Female
+Levels: Female Male</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb76" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb76-1"><span class="fu" style="color: #4758AB;">as.numeric</span>(factor_2)</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 2 1</code></pre>
+</div>
+</div>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>RStudio</category>
+  <category>R</category>
+  <category>Tutorial</category>
+  <category>Blog</category>
+  <guid>https://williamokech.netlify.app/posts/series_1/new_post_8/post_8.html</guid>
+  <pubDate>Fri, 11 Nov 2022 21:00:00 GMT</pubDate>
+  <media:content url="https://williamokech.netlify.app/posts/series_1/new_post_8/r_and_rstudio.png" medium="image" type="image/png" height="26" width="144"/>
+</item>
 <item>
   <title>The Basics of R and RStudio</title>
   <dc:creator>William Okech</dc:creator>
@@ -886,13 +1619,11 @@
 <li><a href="../../../posts/series_1/new_post_2/post_2.html">Part 1: Simple arithmetic</a>,</li>
 <li><a href="../../../posts/series_1/new_post_3/post_3.html">Part 2: Variables</a>,</li>
 <li><a href="../../../posts/series_1/new_post_4/post_4.html">Part 3: Data types</a>,</li>
-<li><a href="">Part 4: Operators…coming soon</a>,</li>
-<li><a href="">Part 5: Vectors…coming soon</a>,</li>
-<li><a href="">Part 6: Missing data…coming soon</a></li>
+<li><a href="posts/series_1/new_post_5/post_5.html">Part 4: Operators</a>,</li>
+<li><a href="posts/series_1/new_post_6/post_6.html">Part 5: Vectors</a>,</li>
+<li><a href="posts/series_1/new_post_7/post_7.html">Part 6: Missing data</a></li>
+<li><a href="posts/series_1/new_post_8/post_8.html">Part 7: Data Structures</a></li>
 </ol>
-</section>
-<section id="section" class="level2">
-<h2 class="anchored" data-anchor-id="section"></h2>
 
 
 </section>
@@ -902,7 +1633,7 @@
 <div id="quarto-appendix" class="default"><section class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
 
 <ol>
-<li id="fn1"><p>Summary of the benefits of R and RStudio obtained from Lander, J. P. (2017). R for everyone: Advanced analytics and graphics. Addison-Wesley.↩︎</p></li>
+<li id="fn1"><p>Summary of the benefits of R and RStudio obtained from Lander, J. P. (2014). R for everyone: Advanced analytics and graphics. Addison-Wesley.↩︎</p></li>
 </ol>
 </section></div> ]]></description>
   <category>RStudio</category>

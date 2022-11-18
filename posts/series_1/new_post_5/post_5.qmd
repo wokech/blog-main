@@ -23,11 +23,11 @@ R has many different types of operators that can perform different tasks. Here w
 
 5.  Miscellaneous.
 
-### 1. Arithmetic Operators
+## 1. Arithmetic Operators
 
 Arithmetic operators are used to perform mathematical operations. These operators have been highlighted in [Part 1](/posts/series_1/new_post_2/post_2.html) of the series.
 
-### 2. Relational Operators
+## 2. Relational Operators
 
 Relational operators are used to find the relationship between 2 variables and compare objects. The output of these comparisons is Boolean (`TRUE` or `FALSE`). The table below describes the most common relational operators.
 
@@ -83,7 +83,7 @@ Not Equal to
 x != 227
 ```
 
-### 3. Logical Operators
+## 3. Logical Operators
 
 Logical operators are used to specify multiple conditions between objects. Logical operators work with basic data types such as logical, numeric, and complex data types. This returns `TRUE` or `FALSE` values. Numbers greater that `1` are `TRUE` and `0` equals `FALSE`. The table below describes the most common logical operators.
 
@@ -133,16 +133,16 @@ Element-wise logical AND
 vector_1 && vector_2
 ```
 
-### 4. Assignment Operators
+## 4. Assignment Operators
 
 These operators assign values to variables. A more comprehensive review can be obtained in [Part 2](/posts/series_1/new_post_3/post_3.html) of the series.
 
-### 5. Miscellaneous Operators
+## 5. Miscellaneous Operators
 
 These are helpful operators for working in that can perform a variety of functions. A few common miscellaneous operators are described below.
 
 | Miscellaneous Operator |                          Description                           |
-|:----------------------:|:--------------------------------------------------------------:|
+|:-------------------:|:-------------------------------------------------:|
 |          %\*%          | Matrix multiplication (to be discussed in subsequent chapters) |
 |          %in%          |               Does an element belong to a vector               |
 |           :            |                      Generate a sequence                       |
@@ -153,7 +153,9 @@ Sequence
 
 ```{r}
 a <- 1:8
+a
 b <- 4:10
+b
 ```
 
 Element in a vector
@@ -164,3 +166,7 @@ a %in% b
 9 %in% a
 
 ```
+
+## Supplementary Reading
+
+Coming soon...

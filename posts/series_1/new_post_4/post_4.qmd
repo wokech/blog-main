@@ -24,9 +24,9 @@ R and RStudio utilize very many data types to store different kinds of data. The
 | Raw           | Specifies values as raw bytes. It uses built-in functions to convert between raw and character (charToRaw() or rawToChar()).                                                              |
 | Dates         | Specifies the date variable. Date stores a date and POSIXct stores a date and time. The output is indicated as the number of days (Date) or number of seconds (POSIXct) since 01/01/1970. |
 
-## Data Type Examples
+## Data types
 
-**Numeric**
+### Numeric
 
 ```{r}
 89.98
@@ -34,7 +34,7 @@ R and RStudio utilize very many data types to store different kinds of data. The
 55
 ```
 
-**Integer**
+### Integer
 
 ```{r}
 5L
@@ -42,7 +42,7 @@ R and RStudio utilize very many data types to store different kinds of data. The
 5768L
 ```
 
-**Logical**
+### Logical
 
 ```{r}
 TRUE
@@ -50,7 +50,7 @@ TRUE
 FALSE
 ```
 
-**Complex**
+### Complex
 
 ```{r}
 10 + 30i
@@ -58,7 +58,7 @@ FALSE
 287 + 34i
 ```
 
-**Character or String**
+### Character or String
 
 ```{r}
 'abc'
@@ -68,7 +68,7 @@ FALSE
 "I like learning R"
 ```
 
-**Dates**
+### Dates
 
 ```{r}
 "2022-06-23 14:39:21 EAT"
@@ -76,7 +76,7 @@ FALSE
 "2022-06-23"
 ```
 
-## Examining data types
+## Examining various data types
 
 Several functions exist to examine the features of the various data types. These include:
 
@@ -135,9 +135,11 @@ is.logical(c)
 is.character(c)
 ```
 
+## Converting between various data types
+
 To convert between data types we can use the "as.\_\_\_()" functions. These include: `as.Date()`, `as.numeric()`, and `as.factor()`. Additionally, other helpful functions include factor() which adds levels to the data and nchar() which provides the length of the data.
 
-Examples
+### Examples
 
 ```{r}
 as.integer(a)
@@ -146,4 +148,6 @@ as.logical(1)
 nchar(e)
 ```
 
-## Summary
+## Supplementary Reading
+
+Coming soon...

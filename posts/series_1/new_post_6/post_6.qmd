@@ -13,15 +13,19 @@ draft: false
 
 A vector is a collection of elements of the same data type, and they are a basic data structure in R programming. Vectors cannot be of mixed data type. The most common way to create a vector is with `c()`, where "c" stands for combine. In R, vectors do not have dimensions; therefore, they cannot be defined by columns or rows. Vectors can be divided into atomic vectors and lists (discussed in [Part 7](posts/series_1/new_post_8/post_8.html)). The atomic vectors include logical, character, and numeric (integer or double).
 
-Additionally, R is a vectorized language because mathematical operations are applied to each element of the vector without the need to loop through the vector.
+Additionally, R is a vectorized language because mathematical operations are applied to each element of the vector without the need to loop through the vector.Examples of vectors are shown below:
 
-Examples • Numbers: c(2, 10, 16, -5) • Characters: c("R", "RStudio", "Shiny", "Quarto") • Logicals: c("TRUE", "FALSE", "TRUE")
+• Numbers: `c(2, 10, 16, -5)`
+
+• Characters: `c("R", "RStudio", "Shiny", "Quarto")`
+
+• Logicals: `c("TRUE", "FALSE", "TRUE")`
+
+## Sequence Generation
 
 To generate a vector with a sequence of consecutive numbers, we can use `:`, `sequence()`, or `seq()`.
 
-Examples
-
-Generate a sequence using `:`
+### Generate a sequence using `:`
 
 ```{r}
 a <- 9:18
@@ -32,14 +36,16 @@ a_rev_minus <- 5:-3
 a_rev_minus
 ```
 
-Generate a sequence using `sequence()`
+### Generate a sequence using `sequence()`
 
 ```{r}
 b <- sequence(7)
 b
-c<- sequence(c(5,9))
+c <- sequence(c(5,9))
 c
 ```
+
+### Generate a sequence using `seq()`
 
 The `seq()` function has four main arguments: seq(from, to, by, length.out), where "from" and "to" are the starting and ending elements of the sequence. Additionally, "by" is the difference between the elements, and "length.out" is the maximum length of the vector.
 
@@ -48,15 +54,15 @@ d <- seq(2,20,by=2)
 d
 f <- seq(2,20, length.out=5)
 f
-h<- seq(20,2,by=-2)
+h <- seq(20,2,by=-2)
 h
 j <- seq(20, 2, length.out=3)
 j
 ```
 
-To create a repeating vector, we can use `rep()`.
+## Repeating vectors
 
-Examples
+To create a repeating vector, we can use `rep()`.
 
 ```{r}
 k <- rep(c(0,3,6), times = 3)
@@ -71,7 +77,7 @@ m
 
 Vectors of equal length can be operated on together. If one vector is shorter, it will get recycled, as its elements are repeated until it matches the elements of the longer vector. When using vectors of unequal lengths, it would be ideal if the longer vector is a multiple of the shorter vector.
 
-Examples of vector operations:
+### Basic Vector Operations
 
 ```{r}
 vec_1 <- 1:10
@@ -84,7 +90,11 @@ vec_1^4 # power
 sqrt(vec_1) # square root
 ```
 
-Additionally, we can perform operations on two vectors of equal length. Create two vectors
+### Operations on vectors of equal length
+
+Additionally, we can perform operations on two vectors of equal length.
+
+1.  Create two vectors
 
 ```{r}
 vec_3 <- 5:14
@@ -93,7 +103,7 @@ vec_4 <- 12:3
 vec_4
 ```
 
-Perform various operations
+2.  Perform various arithmetic operations
 
 ```{r}
 vec_3 + vec_4
@@ -103,7 +113,7 @@ vec_3 * vec_4
 vec_3 ^ vec_4
 ```
 
-### Functions applied to vectors
+## Functions that can be applied to vectors
 
 The functions listed below can be applied to vectors:
 
@@ -116,6 +126,8 @@ The functions listed below can be applied to vectors:
 4.  `length()`
 
 5.  `typeof()`
+
+### Examples
 
 ```{r}
 any(vec_3 > vec_4)
@@ -144,60 +156,62 @@ vec_5 <- c("R", "RStudio", "Shiny", "Quarto")
 nchar(vec_5)
 ```
 
-Recycling of vectors
+## Recycling of vectors
 
 ```{r}
 vec_3 + c(10, 20)
 vec_3 + c(10, 20, 30) # will result in a warning as the longer vector is not a multiple of the shorter one
 ```
 
-Accessing elements of a vector
+## Accessing elements of a vector
 
 To access the elements of a vector, we can use numeric-, character-, or logical-based indexing.
 
-Examples
+### Examples
 
-Name the columns of a vector with `names()`
+#### 1. Name the columns of a vector with `names()`.
 
-Create the vector
+Create the vector.
 
 ```{r}
 vec_name <- 1:5
 vec_name
 ```
 
-Name individual elements
+Name the individual elements.
 
 ```{r}
 names(vec_name) <- c("a", "c", "e", "g", "i")
 vec_name
 ```
 
+#### 2. Use the vector index to filter
+
 ```{r}
 vec_index <- 1:5
 vec_index
 ```
 
-Logical vector as an index
+##### a) Logical vector as an index
 
 ```{r}
 vec_index[c(TRUE, FALSE, TRUE, FALSE, TRUE)]
 ```
 
-Filter vector based on an index
+##### b) Filter vector based on an index
 
 ```{r}
 vec_index[1:3]
 ```
 
-Access a vector using its position
+##### c) Access a vector using its position
 
 ```{r}
 vec_index[4]
 vec_index[c(2,4)]
 ```
 
-Modify a vector using indexing
+##### d) Modify a vector using indexing
 
 ```{r}
 vec_index

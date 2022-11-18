@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://williamokech.netlify.app/index.html</loc>
-    <lastmod>2022-11-12T20:34:35.103Z</lastmod>
+    <lastmod>2022-11-12T21:56:47.566Z</lastmod>
   </url>
   <url>
     <loc>https://williamokech.netlify.app/reading_list.html</loc>
@@ -18,11 +18,11 @@
   </url>
   <url>
     <loc>https://williamokech.netlify.app/blog.html</loc>
-    <lastmod>2022-11-12T20:34:38.083Z</lastmod>
+    <lastmod>2022-11-12T21:57:52.849Z</lastmod>
   </url>
   <url>
     <loc>https://williamokech.netlify.app/series_1.html</loc>
-    <lastmod>2022-11-09T15:02:44.157Z</lastmod>
+    <lastmod>2022-11-12T21:56:52.129Z</lastmod>
   </url>
   <url>
     <loc>https://williamokech.netlify.app/posts/series_1/new_post_2/post_2.html</loc>
@@ -103,5 +103,13 @@
   <url>
     <loc>https://williamokech.netlify.app/posts/series_1/new_post_5/post_5.html</loc>
     <lastmod>2022-11-09T15:02:50.206Z</lastmod>
+  </url>
+  <url>
+    <loc>https://williamokech.netlify.app/posts/series_1/new_post_6/post_6.html</loc>
+    <lastmod>2022-11-12T22:15:13.419Z</lastmod>
+  </url>
+  <url>
+    <loc>https://williamokech.netlify.app/posts/series_1/new_post_8/post_8.html</loc>
+    <lastmod>2022-11-12T21:57:20.597Z</lastmod>
   </url>
 </urlset>

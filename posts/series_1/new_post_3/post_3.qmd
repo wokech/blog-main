@@ -13,30 +13,30 @@ draft: false
 
 Variables are instrumental in programming because they are used as "containers" to store data values. To assign a value to a variable, we can use `<−` or `=`. However, most R users prefer to use `<−`.
 
-Examples of variable assignment
+### Examples of variable assignment
 
-1.  Using `<-`
+### 1. Using `<-`
 
 ```{r}
 variable_1 <- 5
 variable_1
 ```
 
-2.  Using `=`
+### 2. Using `=`
 
 ```{r}
 variable_2 = 10
 variable_2
 ```
 
-3.  Reverse the value and variable with `->`
+### 3. Reverse the value and variable with `->`
 
 ```{r}
 15 -> variable_3
 variable_3
 ```
 
-4.  Assign two variables to one value
+### 4. Assign two variables to one value
 
 ```{r}
 variable_4 <- variable_5 <- 30
@@ -101,12 +101,19 @@ Some rules to keep in mind are:
 2.  Names similar to typical outputs or functions (`TRUE`, `FALSE`, `if`, or `else`) cannot be used,
 3.  Appropriate variable names can contain letters, numbers, dots, and underscores. However, you cannot start with an underscore, number, or dot followed by a number.
 
-**Examples of valid and invalid names**
+## Valid and invalid names
 
-Valid names = time_24_hr / .time24_hr
+### Valid names:
 
-Invalid names = \_24_hr.time / 24_hr_time / .24_hr_time
+-   time_24_hr
+-   .time24_hr
 
-## Summary
+### Invalid names:
 
-Overall, variables are very useful for programming in R/RStudio. These variables need to be named appropriately according to accepted conventions.
+-   \_24_hr.time
+-   24_hr_time
+-   .24_hr_time
+
+## Supplementary Reading
+
+Coming soon...

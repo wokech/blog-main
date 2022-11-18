@@ -1,6 +1,6 @@
 ---
-title: "Kenya Census Insights (Demographics)"
-subtitle: "Are there more men than women in Kenya?"
+title: "Are there more men than women in Kenya?"
+subtitle: "Insights from the Kenya Population and Housing Census (2019)"
 author: "William Okech"
 date: "2022-06-30"
 image: "male-female-ratio.png"

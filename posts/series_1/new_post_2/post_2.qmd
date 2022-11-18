@@ -32,7 +32,7 @@ Additionally, to include comments into the code block we use the hash (#) symbol
 1+1
 ```
 
-## What arithmetic operators are available in R/RStudio?
+## Arithmetic operators available in R/RStudio
 
 Various arithmetic operators (listed below) can be used in R/RStudio.
 
@@ -48,54 +48,54 @@ Various arithmetic operators (listed below) can be used in R/RStudio.
 
 ## Examples
 
-Addition
+### Addition
 
 ```{r}
 10+30
 ```
 
-Subtraction
+### Subtraction
 
 ```{r}
 30-24
 ```
 
-Multiplication
+### Multiplication
 
 ```{r}
 20*4
 ```
 
-Division
+### Division
 
 ```{r}
 93/4
 ```
 
-Exponentiation
+### Exponentiation
 
 ```{r}
 3^6
 ```
 
-Modulus (remainder with division)
+### Modulus (remainder with division)
 
 ```{r}
 94%%5
 ```
 
-Integer Division
+### Integer Division
 
 ```{r}
 54%/%7
 ```
 
-Slightly more complex arithmetic operations
+### Slightly more complex arithmetic operations
 
 ```{r}
 5-1+(4*3)/16*3
 ```
 
-## Summary
+## Supplementary Reading
 
-After going through this post, I hope that you can now perform simple arithmetic calculations in R/RStudio.
+Coming soon...
