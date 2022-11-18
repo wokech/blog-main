@@ -42,44 +42,44 @@ Relational operators are used to find the relationship between 2 variables and c
 |         ==          |         Equal to         |
 |         !=          |       Not Equal to       |
 
-### Examples
+Assign values to variables
 
 ```{r}
 x <- 227
 y <- 639
 ```
 
-Less than
+### a. Less than
 
 ```{r}
-x<y
+x < y
 ```
 
-Greater than
+### b. Greater than
 
 ```{r}
-x>y
+x > y
 ```
 
-Less than or equal to
+### c. Less than or equal to
 
 ```{r}
 x <= 300
 ```
 
-Greater than or equal to
+### d. Greater than or equal to
 
 ```{r}
 y >= 700
 ```
 
-Equal to
+### e. Equal to
 
 ```{r}
 y == 639
 ```
 
-Not Equal to
+### f. Not Equal to
 
 ```{r}
 x != 227
@@ -97,39 +97,39 @@ Logical operators are used to specify multiple conditions between objects. Logic
 |        &         | Element-wise logical AND |
 |        &&        |       Logical AND        |
 
-### Examples
+Assign vectors to variables
 
 ```{r}
 vector_1 <- c(0,2)
 vector_2 <- c(1,0)
 ```
 
-Logical NOT
+### a. Logical NOT
 
 ```{r}
 !vector_1
 !vector_2
 ```
 
-Logical OR
+### b. Logical OR
 
 ```{r}
 vector_1 | vector_2
 ```
 
-Logical AND
+### c. Logical AND
 
 ```{r}
 vector_1 & vector_2
 ```
 
-Element-wise logical OR
+### d. Element-wise logical OR
 
 ```{r}
 vector_1 || vector_2
 ```
 
-Element-wise logical AND
+### d. Element-wise logical AND
 
 ```{r}
 vector_1 && vector_2
@@ -144,14 +144,13 @@ These operators assign values to variables. A more comprehensive review can be o
 These are helpful operators for working in that can perform a variety of functions. A few common miscellaneous operators are described below.
 
 | Miscellaneous Operator |                          Description                           |
-|:----------------------:|:--------------------------------------------------------------:|
+|:------------------:|:--------------------------------------------------:|
 |          %\*%          | Matrix multiplication (to be discussed in subsequent chapters) |
 |          %in%          |               Does an element belong to a vector               |
 |           :            |                      Generate a sequence                       |
 
-### Examples
 
-Sequence
+### a. Sequence
 
 ```{r}
 a <- 1:8
@@ -160,7 +159,7 @@ b <- 4:10
 b
 ```
 
-Element in a vector
+### b. Element in a vector
 
 ```{r}
 a %in% b

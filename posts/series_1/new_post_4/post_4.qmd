@@ -16,7 +16,7 @@ R and RStudio utilize multiple data types to store different kinds of data.
 The most common data types in R are listed below.
 
 | **Data Type** | **Description**                                                                                                                                                                           |
-|---------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|-------------------|-----------------------------------------------------|
 | Numeric       | The most common data type. The values can be numbers or decimals (all real numbers).                                                                                                      |
 | Integer       | Special case of numeric data without decimals.                                                                                                                                            |
 | Logical       | Boolean data type with only 2 values (`TRUE` or `FALSE`).                                                                                                                                 |
@@ -28,7 +28,7 @@ The most common data types in R are listed below.
 
 ## Data types
 
-### Numeric
+### 1. Numeric
 
 ```{r}
 89.98
@@ -36,7 +36,7 @@ The most common data types in R are listed below.
 55
 ```
 
-### Integer
+### 2. Integer
 
 ```{r}
 5L
@@ -44,7 +44,7 @@ The most common data types in R are listed below.
 5768L
 ```
 
-### Logical
+### 3. Logical
 
 ```{r}
 TRUE
@@ -52,7 +52,7 @@ TRUE
 FALSE
 ```
 
-### Complex
+### 4. Complex
 
 ```{r}
 10 + 30i
@@ -60,7 +60,7 @@ FALSE
 287 + 34i
 ```
 
-### Character or String
+### 5. Character or String
 
 ```{r}
 'abc'
@@ -70,7 +70,7 @@ FALSE
 "I like learning R"
 ```
 
-### Dates
+### 6. Dates
 
 ```{r}
 "2022-06-23 14:39:21 EAT"
@@ -97,7 +97,7 @@ d <- 89 + 34i
 e <- 'abc'
 ```
 
-Examine the data type at a low-level with `typeof()`
+### 1. Examine the data type at a low-level with `typeof()`
 
 ```{r}
 typeof(a)
@@ -107,7 +107,7 @@ typeof(d)
 typeof(e)
 ```
 
-Examine the data type at a high-level with `class()`
+### 2. Examine the data type at a high-level with `class()`
 
 ```{r}
 class(a)
@@ -117,7 +117,9 @@ class(d)
 class(e)
 ```
 
-To test whether the variable is of a specific type, we can use the "is.\_\_\_()" functions.
+### 3. Use the `is.____()` functions to determine the data type
+
+To test whether the variable is of a specific type, we can use the `is.____()` functions.
 
 First, we test the variable `a` which is numeric.
 
@@ -139,7 +141,7 @@ is.character(c)
 
 ## Converting between various data types
 
-To convert between data types we can use the "as.\_\_\_()" functions. These include: `as.Date()`, `as.numeric()`, and `as.factor()`. Additionally, other helpful functions include factor() which adds levels to the data and nchar() which provides the length of the data.
+To convert between data types we can use the `as.____()` functions. These include: `as.Date()`, `as.numeric()`, and `as.factor()`. Additionally, other helpful functions include factor() which adds levels to the data and `nchar()` which provides the length of the data.
 
 ### Examples
 

@@ -74,7 +74,7 @@
     "href": "posts/series_1/new_post_3/post_3.html",
     "title": "The Basics of R and RStudio",
     "section": "",
-    "text": "Variables are instrumental in programming because they are used as “containers” to store data values.\nTo assign a value to a variable, we can use <− or =. However, most R users prefer to use <−.\n\n\n\n\n\n\nvariable_1 <- 5\nvariable_1\n\n[1] 5\n\n\n\n\n\n\nvariable_2 = 10\nvariable_2\n\n[1] 10\n\n\n\n\n\n\n15 -> variable_3\nvariable_3\n\n[1] 15\n\n\n\n\n\n\nvariable_4 <- variable_5 <- 30\nvariable_4\n\n[1] 30\n\nvariable_5\n\n[1] 30\n\n\nThe output of the variable can then be obtained by:\n\nTyping the variable name and then pressing “Enter,”\nTyping “print” with the variable name in brackets, print(variable), and\nTyping “View” with the variable name in brackets, View(variable).\n\nBoth print() and View() are some of the many built-in functions1 available in R.\nIn RStudio, the list of variables that have been loaded can be viewed in the environment pane.\n\n\n\n\n\nA screenshot of the environment pane with the stored variables.\n\nprint(variable_1)\n\n[1] 5\n\n\n\nView(variable_2)\n\nOutput of View() will be seen in the script pane"
+    "text": "Variables are instrumental in programming because they are used as “containers” to store data values.\nTo assign a value to a variable, we can use <− or =. However, most R users prefer to use <−."
   },
   {
     "objectID": "posts/series_1/new_post_3/post_3.html#the-assign-and-rm-functions",
@@ -403,7 +403,7 @@
     "href": "posts/series_1/new_post_7/post_7.html#supplementary-reading",
     "title": "The Basics of R and RStudio",
     "section": "Supplementary Reading",
-    "text": "Supplementary Reading\n\nA great post from the blog “Data Science by Design” on the role of Missingness.\n\nhttps://datasciencebydesign.org/blog/when-we-miss-missingness"
+    "text": "Supplementary Reading\n\nAn excellent post from the blog “Data Science by Design” on the role of missingness."
   },
   {
     "objectID": "posts/series_1/new_post_6/post_6.html#sequence-generation",
@@ -508,14 +508,14 @@
     "href": "posts/series_1/new_post_5/post_5.html#relational-operators",
     "title": "The Basics of R and RStudio",
     "section": "2. Relational Operators",
-    "text": "2. Relational Operators\nRelational operators are used to find the relationship between 2 variables and compare objects. The output of these comparisons is Boolean (TRUE or FALSE). The table below describes the most common relational operators.\n\n\n\nRelational Operator\nDescription\n\n\n\n\n<\nLess than\n\n\n>\nGreater than\n\n\n<=\nLess than or equal to\n\n\n>=\nGreater than or equal to\n\n\n==\nEqual to\n\n\n!=\nNot Equal to\n\n\n\n\nExamples\n\nx <- 227\ny <- 639\n\nLess than\n\nx<y\n\n[1] TRUE\n\n\nGreater than\n\nx>y\n\n[1] FALSE\n\n\nLess than or equal to\n\nx <= 300\n\n[1] TRUE\n\n\nGreater than or equal to\n\ny >= 700\n\n[1] FALSE\n\n\nEqual to\n\ny == 639\n\n[1] TRUE\n\n\nNot Equal to\n\nx != 227\n\n[1] FALSE"
+    "text": "2. Relational Operators\nRelational operators are used to find the relationship between 2 variables and compare objects. The output of these comparisons is Boolean (TRUE or FALSE). The table below describes the most common relational operators.\n\n\n\nRelational Operator\nDescription\n\n\n\n\n<\nLess than\n\n\n>\nGreater than\n\n\n<=\nLess than or equal to\n\n\n>=\nGreater than or equal to\n\n\n==\nEqual to\n\n\n!=\nNot Equal to\n\n\n\nAssign values to variables\n\nx <- 227\ny <- 639\n\n\na. Less than\n\nx < y\n\n[1] TRUE\n\n\n\n\nb. Greater than\n\nx > y\n\n[1] FALSE\n\n\n\n\nc. Less than or equal to\n\nx <= 300\n\n[1] TRUE\n\n\n\n\nd. Greater than or equal to\n\ny >= 700\n\n[1] FALSE\n\n\n\n\ne. Equal to\n\ny == 639\n\n[1] TRUE\n\n\n\n\nf. Not Equal to\n\nx != 227\n\n[1] FALSE"
   },
   {
     "objectID": "posts/series_1/new_post_5/post_5.html#logical-operators",
     "href": "posts/series_1/new_post_5/post_5.html#logical-operators",
     "title": "The Basics of R and RStudio",
     "section": "3. Logical Operators",
-    "text": "3. Logical Operators\nLogical operators are used to specify multiple conditions between objects. Logical operators work with basic data types such as logical, numeric, and complex data types. This returns TRUE or FALSE values. Numbers greater that 1 are TRUE and 0 equals FALSE. The table below describes the most common logical operators.\n\n\n\nLogical Operator\nDescription\n\n\n\n\n!\nLogical NOT\n\n\n|\nElement-wise logical OR\n\n\n||\nLogical OR\n\n\n&\nElement-wise logical AND\n\n\n&&\nLogical AND\n\n\n\n\nExamples\n\nvector_1 <- c(0,2)\nvector_2 <- c(1,0)\n\nLogical NOT\n\n!vector_1\n\n[1]  TRUE FALSE\n\n!vector_2\n\n[1] FALSE  TRUE\n\n\nLogical OR\n\nvector_1 | vector_2\n\n[1] TRUE TRUE\n\n\nLogical AND\n\nvector_1 & vector_2\n\n[1] FALSE FALSE\n\n\nElement-wise logical OR\n\nvector_1 || vector_2\n\n[1] TRUE\n\n\nElement-wise logical AND\n\nvector_1 && vector_2\n\n[1] FALSE"
+    "text": "3. Logical Operators\nLogical operators are used to specify multiple conditions between objects. Logical operators work with basic data types such as logical, numeric, and complex data types. This returns TRUE or FALSE values. Numbers greater that 1 are TRUE and 0 equals FALSE. The table below describes the most common logical operators.\n\n\n\nLogical Operator\nDescription\n\n\n\n\n!\nLogical NOT\n\n\n|\nElement-wise logical OR\n\n\n||\nLogical OR\n\n\n&\nElement-wise logical AND\n\n\n&&\nLogical AND\n\n\n\nAssign vectors to variables\n\nvector_1 <- c(0,2)\nvector_2 <- c(1,0)\n\n\na. Logical NOT\n\n!vector_1\n\n[1]  TRUE FALSE\n\n!vector_2\n\n[1] FALSE  TRUE\n\n\n\n\nb. Logical OR\n\nvector_1 | vector_2\n\n[1] TRUE TRUE\n\n\n\n\nc. Logical AND\n\nvector_1 & vector_2\n\n[1] FALSE FALSE\n\n\n\n\nd. Element-wise logical OR\n\nvector_1 || vector_2\n\n[1] TRUE\n\n\n\n\nd. Element-wise logical AND\n\nvector_1 && vector_2\n\n[1] FALSE"
   },
   {
     "objectID": "posts/series_1/new_post_5/post_5.html#assignment-operators",
@@ -529,7 +529,7 @@
     "href": "posts/series_1/new_post_5/post_5.html#miscellaneous-operators",
     "title": "The Basics of R and RStudio",
     "section": "5. Miscellaneous Operators",
-    "text": "5. Miscellaneous Operators\nThese are helpful operators for working in that can perform a variety of functions. A few common miscellaneous operators are described below.\n\n\n\n\n\n\n\nMiscellaneous Operator\nDescription\n\n\n\n\n%*%\nMatrix multiplication (to be discussed in subsequent chapters)\n\n\n%in%\nDoes an element belong to a vector\n\n\n:\nGenerate a sequence\n\n\n\n\nExamples\nSequence\n\na <- 1:8\na\n\n[1] 1 2 3 4 5 6 7 8\n\nb <- 4:10\nb\n\n[1]  4  5  6  7  8  9 10\n\n\nElement in a vector\n\na %in% b\n\n[1] FALSE FALSE FALSE  TRUE  TRUE  TRUE  TRUE  TRUE\n\n9 %in% b\n\n[1] TRUE\n\n9 %in% a\n\n[1] FALSE"
+    "text": "5. Miscellaneous Operators\nThese are helpful operators for working in that can perform a variety of functions. A few common miscellaneous operators are described below.\n\n\n\n\n\n\n\nMiscellaneous Operator\nDescription\n\n\n\n\n%*%\nMatrix multiplication (to be discussed in subsequent chapters)\n\n\n%in%\nDoes an element belong to a vector\n\n\n:\nGenerate a sequence\n\n\n\n\na. Sequence\n\na <- 1:8\na\n\n[1] 1 2 3 4 5 6 7 8\n\nb <- 4:10\nb\n\n[1]  4  5  6  7  8  9 10\n\n\n\n\nb. Element in a vector\n\na %in% b\n\n[1] FALSE FALSE FALSE  TRUE  TRUE  TRUE  TRUE  TRUE\n\n9 %in% b\n\n[1] TRUE\n\n9 %in% a\n\n[1] FALSE"
   },
   {
     "objectID": "posts/series_1/new_post_5/post_5.html#supplementary-reading",
@@ -537,5 +537,19 @@
     "title": "The Basics of R and RStudio",
     "section": "Supplementary Reading",
     "text": "Supplementary Reading\nComing soon…"
+  },
+  {
+    "objectID": "posts/series_1/new_post_3/post_3.html#variable-assignment",
+    "href": "posts/series_1/new_post_3/post_3.html#variable-assignment",
+    "title": "The Basics of R and RStudio",
+    "section": "Variable assignment",
+    "text": "Variable assignment\n\n1. Using <-\n\nvariable_1 <- 5\nvariable_1\n\n[1] 5\n\n\n\n\n2. Using =\n\nvariable_2 = 10\nvariable_2\n\n[1] 10\n\n\n\n\n3. Reverse the value and variable with ->\n\n15 -> variable_3\nvariable_3\n\n[1] 15\n\n\n\n\n4. Assign two variables to one value\n\nvariable_4 <- variable_5 <- 30\nvariable_4\n\n[1] 30\n\nvariable_5\n\n[1] 30"
+  },
+  {
+    "objectID": "posts/series_1/new_post_3/post_3.html#variable-output",
+    "href": "posts/series_1/new_post_3/post_3.html#variable-output",
+    "title": "The Basics of R and RStudio",
+    "section": "Variable output",
+    "text": "Variable output\nThe output of the variable can then be obtained by:\n\nTyping the variable name and then pressing “Enter,”\nTyping “print” with the variable name in brackets, print(variable), and\nTyping “View” with the variable name in brackets, View(variable).\n\nBoth print() and View() are some of the many built-in functions1 available in R.\nIn RStudio, the list of variables that have been loaded can be viewed in the environment pane.\n\n\n\n\n\nA screenshot of the environment pane with the stored variables.\n\nprint(variable_1)\n\n[1] 5\n\n\n\nView(variable_2)\n\nOutput of View() will be seen in the script pane"
   }
 ]

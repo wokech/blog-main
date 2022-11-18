@@ -509,9 +509,8 @@ Levels: Female Male</code></pre>
 <section id="supplementary-reading" class="level2">
 <h2 class="anchored" data-anchor-id="supplementary-reading">Supplementary Reading</h2>
 <ol type="1">
-<li>A great post from the blog “Data Science by Design” on the role of Missingness.</li>
+<li>An excellent post from the blog <a href="https://datasciencebydesign.org/blog/when-we-miss-missingness">“Data Science by Design”</a> on the role of missingness.</li>
 </ol>
-<p>https://datasciencebydesign.org/blog/when-we-miss-missingness</p>
 
 
 </section>
@@ -954,48 +953,58 @@ shorter object length</code></pre>
 </tr>
 </tbody>
 </table>
-<section id="examples" class="level3">
-<h3 class="anchored" data-anchor-id="examples">Examples</h3>
+<p>Assign values to variables</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1">x <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="dv" style="color: #AD0000;">227</span></span>
 <span id="cb1-2">y <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="dv" style="color: #AD0000;">639</span></span></code></pre></div>
 </div>
-<p>Less than</p>
+<section id="a.-less-than" class="level3">
+<h3 class="anchored" data-anchor-id="a.-less-than">a. Less than</h3>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1">x<span class="sc" style="color: #5E5E5E;">&lt;</span>y</span></code></pre></div>
+<div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1">x <span class="sc" style="color: #5E5E5E;">&lt;</span> y</span></code></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] TRUE</code></pre>
 </div>
 </div>
-<p>Greater than</p>
+</section>
+<section id="b.-greater-than" class="level3">
+<h3 class="anchored" data-anchor-id="b.-greater-than">b. Greater than</h3>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1">x<span class="sc" style="color: #5E5E5E;">&gt;</span>y</span></code></pre></div>
+<div class="sourceCode cell-code" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1">x <span class="sc" style="color: #5E5E5E;">&gt;</span> y</span></code></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] FALSE</code></pre>
 </div>
 </div>
-<p>Less than or equal to</p>
+</section>
+<section id="c.-less-than-or-equal-to" class="level3">
+<h3 class="anchored" data-anchor-id="c.-less-than-or-equal-to">c.&nbsp;Less than or equal to</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1">x <span class="sc" style="color: #5E5E5E;">&lt;=</span> <span class="dv" style="color: #AD0000;">300</span></span></code></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] TRUE</code></pre>
 </div>
 </div>
-<p>Greater than or equal to</p>
+</section>
+<section id="d.-greater-than-or-equal-to" class="level3">
+<h3 class="anchored" data-anchor-id="d.-greater-than-or-equal-to">d.&nbsp;Greater than or equal to</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb8" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1">y <span class="sc" style="color: #5E5E5E;">&gt;=</span> <span class="dv" style="color: #AD0000;">700</span></span></code></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] FALSE</code></pre>
 </div>
 </div>
-<p>Equal to</p>
+</section>
+<section id="e.-equal-to" class="level3">
+<h3 class="anchored" data-anchor-id="e.-equal-to">e. Equal to</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb10" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1">y <span class="sc" style="color: #5E5E5E;">==</span> <span class="dv" style="color: #AD0000;">639</span></span></code></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] TRUE</code></pre>
 </div>
 </div>
-<p>Not Equal to</p>
+</section>
+<section id="f.-not-equal-to" class="level3">
+<h3 class="anchored" data-anchor-id="f.-not-equal-to">f.&nbsp;Not Equal to</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb12" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1">x <span class="sc" style="color: #5E5E5E;">!=</span> <span class="dv" style="color: #AD0000;">227</span></span></code></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -1037,13 +1046,13 @@ shorter object length</code></pre>
 </tr>
 </tbody>
 </table>
-<section id="examples-1" class="level3">
-<h3 class="anchored" data-anchor-id="examples-1">Examples</h3>
+<p>Assign vectors to variables</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb14" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1">vector_1 <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">c</span>(<span class="dv" style="color: #AD0000;">0</span>,<span class="dv" style="color: #AD0000;">2</span>)</span>
 <span id="cb14-2">vector_2 <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">c</span>(<span class="dv" style="color: #AD0000;">1</span>,<span class="dv" style="color: #AD0000;">0</span>)</span></code></pre></div>
 </div>
-<p>Logical NOT</p>
+<section id="a.-logical-not" class="level3">
+<h3 class="anchored" data-anchor-id="a.-logical-not">a. Logical NOT</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb15" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><span class="sc" style="color: #5E5E5E;">!</span>vector_1</span></code></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -1054,28 +1063,36 @@ shorter object length</code></pre>
 <pre><code>[1] FALSE  TRUE</code></pre>
 </div>
 </div>
-<p>Logical OR</p>
+</section>
+<section id="b.-logical-or" class="level3">
+<h3 class="anchored" data-anchor-id="b.-logical-or">b. Logical OR</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb19" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1">vector_1 <span class="sc" style="color: #5E5E5E;">|</span> vector_2</span></code></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] TRUE TRUE</code></pre>
 </div>
 </div>
-<p>Logical AND</p>
+</section>
+<section id="c.-logical-and" class="level3">
+<h3 class="anchored" data-anchor-id="c.-logical-and">c.&nbsp;Logical AND</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb21" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb21-1">vector_1 <span class="sc" style="color: #5E5E5E;">&amp;</span> vector_2</span></code></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] FALSE FALSE</code></pre>
 </div>
 </div>
-<p>Element-wise logical OR</p>
+</section>
+<section id="d.-element-wise-logical-or" class="level3">
+<h3 class="anchored" data-anchor-id="d.-element-wise-logical-or">d.&nbsp;Element-wise logical OR</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb23" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1">vector_1 <span class="sc" style="color: #5E5E5E;">||</span> vector_2</span></code></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] TRUE</code></pre>
 </div>
 </div>
-<p>Element-wise logical AND</p>
+</section>
+<section id="d.-element-wise-logical-and" class="level3">
+<h3 class="anchored" data-anchor-id="d.-element-wise-logical-and">d.&nbsp;Element-wise logical AND</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb25" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb25-1">vector_1 <span class="sc" style="color: #5E5E5E;">&amp;&amp;</span> vector_2</span></code></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -1117,9 +1134,8 @@ shorter object length</code></pre>
 </tr>
 </tbody>
 </table>
-<section id="examples-2" class="level3">
-<h3 class="anchored" data-anchor-id="examples-2">Examples</h3>
-<p>Sequence</p>
+<section id="a.-sequence" class="level3">
+<h3 class="anchored" data-anchor-id="a.-sequence">a. Sequence</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb27" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb27-1">a <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="dv" style="color: #AD0000;">1</span><span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">8</span></span>
 <span id="cb27-2">a</span></code></pre></div>
@@ -1132,7 +1148,9 @@ shorter object length</code></pre>
 <pre><code>[1]  4  5  6  7  8  9 10</code></pre>
 </div>
 </div>
-<p>Element in a vector</p>
+</section>
+<section id="b.-element-in-a-vector" class="level3">
+<h3 class="anchored" data-anchor-id="b.-element-in-a-vector">b. Element in a vector</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb31" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb31-1">a <span class="sc" style="color: #5E5E5E;">%in%</span> b</span></code></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -1467,9 +1485,9 @@ shorter object length</code></pre>
 <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
 <p>Variables are instrumental in programming because they are used as “containers” to store data values.</p>
 <p>To assign a value to a variable, we can use <code>&lt;−</code> or <code>=</code>. However, most R users prefer to use <code>&lt;−</code>.</p>
-<section id="examples-of-variable-assignment" class="level3">
-<h3 class="anchored" data-anchor-id="examples-of-variable-assignment">Examples of variable assignment</h3>
 </section>
+<section id="variable-assignment" class="level2">
+<h2 class="anchored" data-anchor-id="variable-assignment">Variable assignment</h2>
 <section id="using--" class="level3">
 <h3 class="anchored" data-anchor-id="using--">1. Using <code>&lt;-</code></h3>
 <div class="cell">
@@ -1513,6 +1531,10 @@ shorter object length</code></pre>
 <pre><code>[1] 30</code></pre>
 </div>
 </div>
+</section>
+</section>
+<section id="variable-output" class="level2">
+<h2 class="anchored" data-anchor-id="variable-output">Variable output</h2>
 <p>The output of the variable can then be obtained by:</p>
 <ol type="1">
 <li>Typing the variable name and then pressing “Enter,”</li>
@@ -1537,7 +1559,6 @@ shorter object length</code></pre>
 <div class="sourceCode cell-code" id="cb13" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><span class="fu" style="color: #4758AB;">View</span>(variable_2)</span></code></pre></div>
 </div>
 <p>Output of <code>View()</code> will be seen in the script pane</p>
-</section>
 </section>
 <section id="the-assign-and-rm-functions" class="level2">
 <h2 class="anchored" data-anchor-id="the-assign-and-rm-functions">The <code>assign()</code> and <code>rm()</code> functions</h2>

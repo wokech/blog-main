@@ -29,6 +29,4 @@ It does not mean missing but represents nothing. `NULL` cannot exist within a ve
 
 ## Supplementary Reading
 
-1.  A great post from the blog "Data Science by Design" on the role of Missingness.
-
-https://datasciencebydesign.org/blog/when-we-miss-missingness
+1.  An excellent post from the blog ["Data Science by Design"](https://datasciencebydesign.org/blog/when-we-miss-missingness) on the role of missingness.

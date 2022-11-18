@@ -15,7 +15,7 @@ Variables are instrumental in programming because they are used as "containers" 
 
 To assign a value to a variable, we can use `<−` or `=`. However, most R users prefer to use `<−`.
 
-### Examples of variable assignment
+## Variable assignment
 
 ### 1. Using `<-`
 
@@ -46,6 +46,8 @@ variable_4
 variable_5
 ```
 
+## Variable output
+
 The output of the variable can then be obtained by:
 
 1.  Typing the variable name and then pressing "Enter,"
@@ -60,7 +62,7 @@ In RStudio, the list of variables that have been loaded can be viewed in the env
 
 ![](env_pane_1.png){fig-align="center" width="90%"}
 
-A screenshot of the environment pane with the stored variables.
+Figure 1: A screenshot of the environment pane with the stored variables.
 
 ```{r}
 print(variable_1)

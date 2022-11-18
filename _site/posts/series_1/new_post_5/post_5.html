@@ -255,16 +255,26 @@ cookieconsent.run({
   <li><a href="#arithmetic-operators" id="toc-arithmetic-operators" class="nav-link" data-scroll-target="#arithmetic-operators">1. Arithmetic Operators</a></li>
   <li><a href="#relational-operators" id="toc-relational-operators" class="nav-link" data-scroll-target="#relational-operators">2. Relational Operators</a>
   <ul class="collapse">
-  <li><a href="#examples" id="toc-examples" class="nav-link" data-scroll-target="#examples">Examples</a></li>
+  <li><a href="#a.-less-than" id="toc-a.-less-than" class="nav-link" data-scroll-target="#a.-less-than">a. Less than</a></li>
+  <li><a href="#b.-greater-than" id="toc-b.-greater-than" class="nav-link" data-scroll-target="#b.-greater-than">b. Greater than</a></li>
+  <li><a href="#c.-less-than-or-equal-to" id="toc-c.-less-than-or-equal-to" class="nav-link" data-scroll-target="#c.-less-than-or-equal-to">c.&nbsp;Less than or equal to</a></li>
+  <li><a href="#d.-greater-than-or-equal-to" id="toc-d.-greater-than-or-equal-to" class="nav-link" data-scroll-target="#d.-greater-than-or-equal-to">d.&nbsp;Greater than or equal to</a></li>
+  <li><a href="#e.-equal-to" id="toc-e.-equal-to" class="nav-link" data-scroll-target="#e.-equal-to">e. Equal to</a></li>
+  <li><a href="#f.-not-equal-to" id="toc-f.-not-equal-to" class="nav-link" data-scroll-target="#f.-not-equal-to">f.&nbsp;Not Equal to</a></li>
   </ul></li>
   <li><a href="#logical-operators" id="toc-logical-operators" class="nav-link" data-scroll-target="#logical-operators">3. Logical Operators</a>
   <ul class="collapse">
-  <li><a href="#examples-1" id="toc-examples-1" class="nav-link" data-scroll-target="#examples-1">Examples</a></li>
+  <li><a href="#a.-logical-not" id="toc-a.-logical-not" class="nav-link" data-scroll-target="#a.-logical-not">a. Logical NOT</a></li>
+  <li><a href="#b.-logical-or" id="toc-b.-logical-or" class="nav-link" data-scroll-target="#b.-logical-or">b. Logical OR</a></li>
+  <li><a href="#c.-logical-and" id="toc-c.-logical-and" class="nav-link" data-scroll-target="#c.-logical-and">c.&nbsp;Logical AND</a></li>
+  <li><a href="#d.-element-wise-logical-or" id="toc-d.-element-wise-logical-or" class="nav-link" data-scroll-target="#d.-element-wise-logical-or">d.&nbsp;Element-wise logical OR</a></li>
+  <li><a href="#d.-element-wise-logical-and" id="toc-d.-element-wise-logical-and" class="nav-link" data-scroll-target="#d.-element-wise-logical-and">d.&nbsp;Element-wise logical AND</a></li>
   </ul></li>
   <li><a href="#assignment-operators" id="toc-assignment-operators" class="nav-link" data-scroll-target="#assignment-operators">4. Assignment Operators</a></li>
   <li><a href="#miscellaneous-operators" id="toc-miscellaneous-operators" class="nav-link" data-scroll-target="#miscellaneous-operators">5. Miscellaneous Operators</a>
   <ul class="collapse">
-  <li><a href="#examples-2" id="toc-examples-2" class="nav-link" data-scroll-target="#examples-2">Examples</a></li>
+  <li><a href="#a.-sequence" id="toc-a.-sequence" class="nav-link" data-scroll-target="#a.-sequence">a. Sequence</a></li>
+  <li><a href="#b.-element-in-a-vector" id="toc-b.-element-in-a-vector" class="nav-link" data-scroll-target="#b.-element-in-a-vector">b. Element in a vector</a></li>
   </ul></li>
   <li><a href="#supplementary-reading" id="toc-supplementary-reading" class="nav-link" data-scroll-target="#supplementary-reading">Supplementary Reading</a></li>
   </ul>
@@ -329,48 +339,58 @@ cookieconsent.run({
 </tr>
 </tbody>
 </table>
-<section id="examples" class="level3">
-<h3 class="anchored" data-anchor-id="examples">Examples</h3>
+<p>Assign values to variables</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>x <span class="ot">&lt;-</span> <span class="dv">227</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>y <span class="ot">&lt;-</span> <span class="dv">639</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<p>Less than</p>
+<section id="a.-less-than" class="level3">
+<h3 class="anchored" data-anchor-id="a.-less-than">a. Less than</h3>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>x<span class="sc">&lt;</span>y</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>x <span class="sc">&lt;</span> y</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] TRUE</code></pre>
 </div>
 </div>
-<p>Greater than</p>
+</section>
+<section id="b.-greater-than" class="level3">
+<h3 class="anchored" data-anchor-id="b.-greater-than">b. Greater than</h3>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>x<span class="sc">&gt;</span>y</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>x <span class="sc">&gt;</span> y</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] FALSE</code></pre>
 </div>
 </div>
-<p>Less than or equal to</p>
+</section>
+<section id="c.-less-than-or-equal-to" class="level3">
+<h3 class="anchored" data-anchor-id="c.-less-than-or-equal-to">c.&nbsp;Less than or equal to</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>x <span class="sc">&lt;=</span> <span class="dv">300</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] TRUE</code></pre>
 </div>
 </div>
-<p>Greater than or equal to</p>
+</section>
+<section id="d.-greater-than-or-equal-to" class="level3">
+<h3 class="anchored" data-anchor-id="d.-greater-than-or-equal-to">d.&nbsp;Greater than or equal to</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>y <span class="sc">&gt;=</span> <span class="dv">700</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] FALSE</code></pre>
 </div>
 </div>
-<p>Equal to</p>
+</section>
+<section id="e.-equal-to" class="level3">
+<h3 class="anchored" data-anchor-id="e.-equal-to">e. Equal to</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>y <span class="sc">==</span> <span class="dv">639</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] TRUE</code></pre>
 </div>
 </div>
-<p>Not Equal to</p>
+</section>
+<section id="f.-not-equal-to" class="level3">
+<h3 class="anchored" data-anchor-id="f.-not-equal-to">f.&nbsp;Not Equal to</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>x <span class="sc">!=</span> <span class="dv">227</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -412,13 +432,13 @@ cookieconsent.run({
 </tr>
 </tbody>
 </table>
-<section id="examples-1" class="level3">
-<h3 class="anchored" data-anchor-id="examples-1">Examples</h3>
+<p>Assign vectors to variables</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>vector_1 <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">0</span>,<span class="dv">2</span>)</span>
 <span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>vector_2 <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">1</span>,<span class="dv">0</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<p>Logical NOT</p>
+<section id="a.-logical-not" class="level3">
+<h3 class="anchored" data-anchor-id="a.-logical-not">a. Logical NOT</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="sc">!</span>vector_1</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -429,28 +449,36 @@ cookieconsent.run({
 <pre><code>[1] FALSE  TRUE</code></pre>
 </div>
 </div>
-<p>Logical OR</p>
+</section>
+<section id="b.-logical-or" class="level3">
+<h3 class="anchored" data-anchor-id="b.-logical-or">b. Logical OR</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>vector_1 <span class="sc">|</span> vector_2</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] TRUE TRUE</code></pre>
 </div>
 </div>
-<p>Logical AND</p>
+</section>
+<section id="c.-logical-and" class="level3">
+<h3 class="anchored" data-anchor-id="c.-logical-and">c.&nbsp;Logical AND</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb21"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>vector_1 <span class="sc">&amp;</span> vector_2</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] FALSE FALSE</code></pre>
 </div>
 </div>
-<p>Element-wise logical OR</p>
+</section>
+<section id="d.-element-wise-logical-or" class="level3">
+<h3 class="anchored" data-anchor-id="d.-element-wise-logical-or">d.&nbsp;Element-wise logical OR</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb23"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>vector_1 <span class="sc">||</span> vector_2</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] TRUE</code></pre>
 </div>
 </div>
-<p>Element-wise logical AND</p>
+</section>
+<section id="d.-element-wise-logical-and" class="level3">
+<h3 class="anchored" data-anchor-id="d.-element-wise-logical-and">d.&nbsp;Element-wise logical AND</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb25"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a>vector_1 <span class="sc">&amp;&amp;</span> vector_2</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -492,9 +520,8 @@ cookieconsent.run({
 </tr>
 </tbody>
 </table>
-<section id="examples-2" class="level3">
-<h3 class="anchored" data-anchor-id="examples-2">Examples</h3>
-<p>Sequence</p>
+<section id="a.-sequence" class="level3">
+<h3 class="anchored" data-anchor-id="a.-sequence">a. Sequence</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb27"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>a <span class="ot">&lt;-</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">8</span></span>
 <span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a>a</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -507,7 +534,9 @@ cookieconsent.run({
 <pre><code>[1]  4  5  6  7  8  9 10</code></pre>
 </div>
 </div>
-<p>Element in a vector</p>
+</section>
+<section id="b.-element-in-a-vector" class="level3">
+<h3 class="anchored" data-anchor-id="b.-element-in-a-vector">b. Element in a vector</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb31"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a>a <span class="sc">%in%</span> b</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
