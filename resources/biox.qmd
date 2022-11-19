@@ -2,4 +2,8 @@
 title: "Bio-X: All things Bio"
 ---
 
-Links to helpful websites related to Synthetic Biology and Machine Learning for Health
+# Helpful websites and tutorials
+
+## Synthetic Biology
+
+## Machine Learning for Health
