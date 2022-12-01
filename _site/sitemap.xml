@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://williamokech.netlify.app/index.html</loc>
-    <lastmod>2022-11-19T07:35:43.173Z</lastmod>
+    <lastmod>2022-12-01T10:28:10.710Z</lastmod>
   </url>
   <url>
     <loc>https://williamokech.netlify.app/reading_list.html</loc>
@@ -18,7 +18,7 @@
   </url>
   <url>
     <loc>https://williamokech.netlify.app/blog.html</loc>
-    <lastmod>2022-11-19T07:27:14.508Z</lastmod>
+    <lastmod>2022-12-01T10:28:13.789Z</lastmod>
   </url>
   <url>
     <loc>https://williamokech.netlify.app/series_1.html</loc>
@@ -46,7 +46,7 @@
   </url>
   <url>
     <loc>https://williamokech.netlify.app/series_2.html</loc>
-    <lastmod>2022-11-18T20:37:42.714Z</lastmod>
+    <lastmod>2022-12-01T10:28:16.163Z</lastmod>
   </url>
   <url>
     <loc>https://williamokech.netlify.app/resources/biox.html</loc>
@@ -119,5 +119,9 @@
   <url>
     <loc>https://williamokech.netlify.app/resources/medical_writing.html</loc>
     <lastmod>2022-11-19T07:35:54.270Z</lastmod>
+  </url>
+  <url>
+    <loc>https://williamokech.netlify.app/posts/series_2/new_post_2/post_2.html</loc>
+    <lastmod>2022-12-01T10:28:08.719Z</lastmod>
   </url>
 </urlset>

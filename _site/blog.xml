@@ -10,7 +10,81 @@
 <atom:link href="https://williamokech.netlify.app/blog.xml" rel="self" type="application/rss+xml"/>
 <description>This is William Okech's personal Blog.</description>
 <generator>quarto-0.9.505</generator>
-<lastBuildDate>Tue, 15 Nov 2022 21:00:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 30 Nov 2022 21:00:00 GMT</lastBuildDate>
+<item>
+  <title>A roof over your head</title>
+  <dc:creator>William Okech</dc:creator>
+  <link>https://williamokech.netlify.app/posts/series_2/new_post_2/post_2.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="introduction" class="level1">
+<h1>Introduction</h1>
+<p>An aerial view of most settlements in Kenya will demonstrate that most residential home roofs are constructed using iron sheets. Indeed, this is confirmed by the Kenya Population and Housing Census (2019) report <sup>1</sup> <sup>2</sup> where we see that 4 out of every 5 households (total number = 12,043,016) in Kenya is roofed using iron sheets (Figure 1). Overall, the top 5 building materials are iron sheets (80.3%), concrete (8.2%), grass/twigs (5.1%), makuti (sun-dried coconut palm leaves; 1.6%), and asbestos (1.4%). Despite the widespread use of iron sheets, it is surprising to note that 1.4% (2.2% urban and 0.9% rural) of residential household roofs (which is approximately 170,000) are covered with asbestos-based roofing materials (NB: this figure does not include public buildings such as educational institutions and government facilities).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://williamokech.netlify.app/posts/series_2/new_post_2/images/national_treemap.png" class="img-fluid figure-img" style="width:90.0%"></p>
+</figure>
+</div>
+<p>Figure 1: Roof types in Kenya (visualizations generated in RStudio)</p>
+</section>
+<section id="asbestos-and-its-potential-risks" class="level1">
+<h1>Asbestos and its potential risks</h1>
+<p>Asbestos refers to a class of six minerals that naturally form a bundle of fibers. These fibers have many properties that make them attractive, including a lack of electrical conductivity, and chemical, heat, and fire resistance. Historically, asbestos has been used for various commercial and industrial applications, including roofing shingles, automobile brakes, and textured paints for walls and ceilings <sup>3</sup>. However, using asbestos for products that come into regular contact with humans is quite problematic. Why? Asbestos is a known human carcinogen, and the primary risk factor for most mesotheliomas is asbestos exposure <sup>4</sup> <sup>5</sup>. Furthermore, asbestos exposure (depending on the frequency, amount, and type) can cause asbestosis, pleural disease, and cancer. If asbestos-based materials remain intact, there is minimal risk to the user, but if materials are damaged via natural degradation or during home demolition and remodeling, tiny asbestos fibers will be released into the air <sup>6</sup> <sup>7</sup>. In Kenya, Legal Notice No.&nbsp;121 of the Environmental Management and Coordination (Waste Management) Regulations (2006)<sup>8</sup> states that waste containing asbestos is classified as hazardous. Why should Kenyans be concerned about this? In the 2013/2014 financial year, Kenya spent approximately one-tenth of its total health budget on asbestos-related cancers <sup>9</sup> <sup>10</sup> <sup>11</sup>.</p>
+<p>Where do we find high numbers of asbestos-based roofs in Kenya? As previously stated, 1.4% of households in Kenya have asbestos-based roofs. Figure 2 demonstrates the percentage of households with asbestos-based roofs in every county in Kenya. Interestingly, 4 (Nairobi, Kajiado, Machakos, and Kiambu) out of the top 6 counties (from a total of 47) fall within the Nairobi Metropolitan region.</p>
+</section>
+<section id="where-do-we-find-high-numbers-of-asbestos-based-roofs-in-kenya" class="level1">
+<h1>Where do we find high numbers of asbestos-based roofs in Kenya?</h1>
+<p>As previously stated, 1.4% of households in Kenya have asbestos-based roofs. Figure 2 demonstrates the percentage of households with asbestos-based roofs in every county in Kenya. Interestingly, 4 (Nairobi, Kajiado, Machakos, and Kiambu) out of the top 6 counties (from a total of 47) fall within the Nairobi Metropolitan region.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://williamokech.netlify.app/posts/series_2/new_post_2/images/all_counties_asbestos_barplot_map.png" class="img-fluid figure-img" style="width:90.0%"></p>
+</figure>
+</div>
+<p>Figure 2: Percentage(%) of households with asbestos-based roofs distributed by county (visualizations generated using RStudio)</p>
+<p>Next, I investigated the subcounties with the highest number of households with asbestos-based roofs. The top 5 subcounties are located within Nairobi county, with Embakasi subcounty taking the lead with just over 8,000 households.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://williamokech.netlify.app/posts/series_2/new_post_2/images/top_households_asbestos_raw.png" class="img-fluid figure-img" style="width:90.0%"></p>
+</figure>
+</div>
+<p>Figure 3: The top ten subcounties with the highest number of households that have asbestos-based roofs (visualizations generated using RStudio)</p>
+</section>
+<section id="conclusion" class="level1">
+<h1>Conclusion</h1>
+<p>Overall, this study demonstrates that a notable proportion of Kenyan households used asbestos-based roofing materials, with Nairobi Metropolitan county accounting for the largest number of households. It is widely acknowledged that asbestos is harmful to our health, and asbestos-related diseases impose a significant burden on the economy. However, the impact of these roofs on the health of residents may not be fully apparent as asbestos exposure may also occur in various settings such as educational facilities and government institutions. To lessen the impact of asbestos exposure, it would be beneficial for local/county governments to educate residents about the dangers of asbestos and facilitate the complex and costly removal of asbestos-based roofing materials.</p>
+
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>Kenya National Bureau of Statistics. The 2019 Kenya Population and Housing Census. Volume I: Population by County and Sub-County and Volume III: Distribution of Population by Age and Sex.↩︎</p></li>
+<li id="fn2"><p>Shelmith Kariuki (2020). rKenyaCensus: 2019 Kenya Population and Housing Census Results. R package version 0.0.2.↩︎</p></li>
+<li id="fn3"><p>Learn About Asbestos (no date) EPA. Environmental Protection Agency. Available at: https://www.epa.gov/asbestos/learn-about-asbestos (Accessed: December 1, 2022).↩︎</p></li>
+<li id="fn4"><p>Asbestos exposure and cancer risk fact sheet (no date) National Cancer Institute. Available at: https://www.cancer.gov/about-cancer/causes-prevention/risk/substances/asbestos/asbestos-fact-sheet (Accessed: December 1, 2022).↩︎</p></li>
+<li id="fn5"><p>Asbestos (no date) World Health Organization. World Health Organization. Available at: https://www.iarc.who.int/risk-factor/asbestos/ (Accessed: December 1, 2022).↩︎</p></li>
+<li id="fn6"><p>Learn About Asbestos (no date) EPA. Environmental Protection Agency. Available at: https://www.epa.gov/asbestos/learn-about-asbestos (Accessed: December 1, 2022).↩︎</p></li>
+<li id="fn7"><p>Asbestos and your health (2016) Centers for Disease Control and Prevention. Centers for Disease Control and Prevention. Available at: https://www.atsdr.cdc.gov/asbestos/index.html (Accessed: December 1, 2022).↩︎</p></li>
+<li id="fn8"><p>Act Title: ENVIRONMENTAL MANAGEMENT AND CO-ORDINATION (no date) No.&nbsp;8 of 1999. Available at: http://kenyalaw.org:8181/exist/kenyalex/sublegview.xql?subleg=No.+8+of+1999 (Accessed: December 1, 2022).↩︎</p></li>
+<li id="fn9"><p>Okoth, D. (2013) Slow transition from use of asbestos raises concern as cancer cases rise, The Standard. Available at: https://www.standardmedia.co.ke/lifestyle/article/2000096118/slow-transition-from-use-of-asbestos-raises-concern-as-cancer-cases-rise (Accessed: December 1, 2022).↩︎</p></li>
+<li id="fn10"><p>GCR, S. (2016) Kenya faces cancer epidemic caused by asbestos roofs, Global Construction Review. Available at: https://www.globalconstructionreview.com/kenya-faces-cancer-epid7emic-caus7ed-asbe7stos/ (Accessed: December 1, 2022).↩︎</p></li>
+<li id="fn11"><p>Irungu, S. (2020) Exposure to the noxious asbestos needs to be alleviated with a lot of care, Kenya Climate Innovation Center (KCIC). Available at: https://www.kenyacic.org/2019/11/exposure-to-the-noxious-asbestos-needs-to-be-alleviated-with-a-lot-of-care/ (Accessed: December 1, 2022).↩︎</p></li>
+</ol>
+</section></div> ]]></description>
+  <category>RStudio</category>
+  <category>R</category>
+  <category>Data Stories</category>
+  <category>Blog</category>
+  <category>Kenya Census</category>
+  <guid>https://williamokech.netlify.app/posts/series_2/new_post_2/post_2.html</guid>
+  <pubDate>Wed, 30 Nov 2022 21:00:00 GMT</pubDate>
+  <media:content url="https://williamokech.netlify.app/posts/series_2/new_post_2/images/national_treemap.png" medium="image" type="image/png" height="96" width="144"/>
+</item>
 <item>
   <title>The Basics of R and RStudio</title>
   <dc:creator>William Okech</dc:creator>
