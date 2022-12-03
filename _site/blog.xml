@@ -1156,6 +1156,11 @@ shorter object length</code></pre>
 <h3 class="anchored" data-anchor-id="d.-element-wise-logical-or">d.&nbsp;Element-wise logical OR</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb23" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1">vector_1 <span class="sc" style="color: #5E5E5E;">||</span> vector_2</span></code></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning in vector_1 || vector_2: 'length(x) = 2 &gt; 1' in coercion to 'logical(1)'
+
+Warning in vector_1 || vector_2: 'length(x) = 2 &gt; 1' in coercion to 'logical(1)'</code></pre>
+</div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] TRUE</code></pre>
 </div>
@@ -1164,7 +1169,10 @@ shorter object length</code></pre>
 <section id="d.-element-wise-logical-and" class="level3">
 <h3 class="anchored" data-anchor-id="d.-element-wise-logical-and">d.&nbsp;Element-wise logical AND</h3>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb25" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb25-1">vector_1 <span class="sc" style="color: #5E5E5E;">&amp;&amp;</span> vector_2</span></code></pre></div>
+<div class="sourceCode cell-code" id="cb26" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb26-1">vector_1 <span class="sc" style="color: #5E5E5E;">&amp;&amp;</span> vector_2</span></code></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning in vector_1 &amp;&amp; vector_2: 'length(x) = 2 &gt; 1' in coercion to 'logical(1)'</code></pre>
+</div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] FALSE</code></pre>
 </div>
@@ -1207,13 +1215,13 @@ shorter object length</code></pre>
 <section id="a.-sequence" class="level3">
 <h3 class="anchored" data-anchor-id="a.-sequence">a. Sequence</h3>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb27" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb27-1">a <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="dv" style="color: #AD0000;">1</span><span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">8</span></span>
-<span id="cb27-2">a</span></code></pre></div>
+<div class="sourceCode cell-code" id="cb29" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb29-1">a <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="dv" style="color: #AD0000;">1</span><span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">8</span></span>
+<span id="cb29-2">a</span></code></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 1 2 3 4 5 6 7 8</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb29" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb29-1">b <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="dv" style="color: #AD0000;">4</span><span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">10</span></span>
-<span id="cb29-2">b</span></code></pre></div>
+<div class="sourceCode cell-code" id="cb31" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb31-1">b <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="dv" style="color: #AD0000;">4</span><span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">10</span></span>
+<span id="cb31-2">b</span></code></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1]  4  5  6  7  8  9 10</code></pre>
 </div>
@@ -1222,26 +1230,22 @@ shorter object length</code></pre>
 <section id="b.-element-in-a-vector" class="level3">
 <h3 class="anchored" data-anchor-id="b.-element-in-a-vector">b. Element in a vector</h3>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb31" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb31-1">a <span class="sc" style="color: #5E5E5E;">%in%</span> b</span></code></pre></div>
+<div class="sourceCode cell-code" id="cb33" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb33-1">a <span class="sc" style="color: #5E5E5E;">%in%</span> b</span></code></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] FALSE FALSE FALSE  TRUE  TRUE  TRUE  TRUE  TRUE</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb33" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb33-1"><span class="dv" style="color: #AD0000;">9</span> <span class="sc" style="color: #5E5E5E;">%in%</span> b</span></code></pre></div>
+<div class="sourceCode cell-code" id="cb35" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb35-1"><span class="dv" style="color: #AD0000;">9</span> <span class="sc" style="color: #5E5E5E;">%in%</span> b</span></code></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] TRUE</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb35" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb35-1"><span class="dv" style="color: #AD0000;">9</span> <span class="sc" style="color: #5E5E5E;">%in%</span> a</span></code></pre></div>
+<div class="sourceCode cell-code" id="cb37" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb37-1"><span class="dv" style="color: #AD0000;">9</span> <span class="sc" style="color: #5E5E5E;">%in%</span> a</span></code></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] FALSE</code></pre>
 </div>
 </div>
-</section>
-</section>
-<section id="supplementary-reading" class="level2">
-<h2 class="anchored" data-anchor-id="supplementary-reading">Supplementary Reading</h2>
-<p>Coming soon…</p>
 
 
+</section>
 </section>
 
  ]]></description>
@@ -1671,7 +1675,7 @@ shorter object length</code></pre>
 <p><img src="https://williamokech.netlify.app/posts/series_1/new_post_3/env_pane_1.png" class="img-fluid figure-img" style="width:90.0%"></p>
 </figure>
 </div>
-<p>A screenshot of the environment pane with the stored variables.</p>
+<p>Figure 1: A screenshot of the environment pane with the stored variables.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb11" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><span class="fu" style="color: #4758AB;">print</span>(variable_1)</span></code></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -1728,13 +1732,9 @@ shorter object length</code></pre>
 <li>24_hr_time</li>
 <li>.24_hr_time</li>
 </ul>
-</section>
-</section>
-<section id="supplementary-reading" class="level2">
-<h2 class="anchored" data-anchor-id="supplementary-reading">Supplementary Reading</h2>
-<p>Coming soon…</p>
 
 
+</section>
 </section>
 
 
