@@ -290,7 +290,3 @@ factor_2 <- as.factor(vector)
 factor_2
 as.numeric(factor_2)
 ```
-
-## Supplementary Reading
-
-Coming soon...

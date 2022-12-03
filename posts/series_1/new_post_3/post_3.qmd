@@ -117,7 +117,3 @@ Some rules to keep in mind are:
 -   \_24_hr.time
 -   24_hr_time
 -   .24_hr_time
-
-## Supplementary Reading
-
-Coming soon...

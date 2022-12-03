@@ -144,11 +144,10 @@ These operators assign values to variables. A more comprehensive review can be o
 These are helpful operators for working in that can perform a variety of functions. A few common miscellaneous operators are described below.
 
 | Miscellaneous Operator |                          Description                           |
-|:------------------:|:--------------------------------------------------:|
+|:----------------------:|:--------------------------------------------------------------:|
 |          %\*%          | Matrix multiplication (to be discussed in subsequent chapters) |
 |          %in%          |               Does an element belong to a vector               |
 |           :            |                      Generate a sequence                       |
-
 
 ### a. Sequence
 
@@ -167,7 +166,3 @@ a %in% b
 9 %in% a
 
 ```
-
-## Supplementary Reading
-
-Coming soon...

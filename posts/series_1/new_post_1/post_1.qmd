@@ -51,10 +51,6 @@ RStudio allows one to create projects (a collection of related files stored with
 
 [^1]: Summary of the benefits of R and RStudio obtained from Lander, J. P. (2014). R for everyone: Advanced analytics and graphics. Addison-Wesley.
 
-## Supplementary Reading
-
-Coming soon...
-
 ## Conclusion
 
 Hopefully, this was a helpful introduction to R and RStudio. In subsequent blog posts, we will focus on:

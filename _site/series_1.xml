@@ -466,13 +466,9 @@ Levels: Female Male</code></pre>
 <pre><code>[1] 2 1</code></pre>
 </div>
 </div>
-</section>
-</section>
-<section id="supplementary-reading" class="level2">
-<h2 class="anchored" data-anchor-id="supplementary-reading">Supplementary Reading</h2>
-<p>Coming soon…</p>
 
 
+</section>
 </section>
 
  ]]></description>
@@ -1246,7 +1242,7 @@ shorter object length</code></pre>
 <section id="data-types" class="level2">
 <h2 class="anchored" data-anchor-id="data-types">Data types</h2>
 <section id="numeric" class="level3">
-<h3 class="anchored" data-anchor-id="numeric">Numeric</h3>
+<h3 class="anchored" data-anchor-id="numeric">1. Numeric</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="fl" style="color: #AD0000;">89.98</span></span></code></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -1259,7 +1255,7 @@ shorter object length</code></pre>
 </div>
 </section>
 <section id="integer" class="level3">
-<h3 class="anchored" data-anchor-id="integer">Integer</h3>
+<h3 class="anchored" data-anchor-id="integer">2. Integer</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1">5L</span></code></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -1272,7 +1268,7 @@ shorter object length</code></pre>
 </div>
 </section>
 <section id="logical" class="level3">
-<h3 class="anchored" data-anchor-id="logical">Logical</h3>
+<h3 class="anchored" data-anchor-id="logical">3. Logical</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb9" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><span class="cn" style="color: #8f5902;">TRUE</span></span></code></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -1285,7 +1281,7 @@ shorter object length</code></pre>
 </div>
 </section>
 <section id="complex" class="level3">
-<h3 class="anchored" data-anchor-id="complex">Complex</h3>
+<h3 class="anchored" data-anchor-id="complex">4. Complex</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb13" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><span class="dv" style="color: #AD0000;">10</span> <span class="sc" style="color: #5E5E5E;">+</span> 30i</span></code></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -1298,7 +1294,7 @@ shorter object length</code></pre>
 </div>
 </section>
 <section id="character-or-string" class="level3">
-<h3 class="anchored" data-anchor-id="character-or-string">Character or String</h3>
+<h3 class="anchored" data-anchor-id="character-or-string">5. Character or String</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb17" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><span class="st" style="color: #20794D;">'abc'</span></span></code></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -1315,7 +1311,7 @@ shorter object length</code></pre>
 </div>
 </section>
 <section id="dates" class="level3">
-<h3 class="anchored" data-anchor-id="dates">Dates</h3>
+<h3 class="anchored" data-anchor-id="dates">6. Dates</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb23" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1"><span class="st" style="color: #20794D;">"2022-06-23 14:39:21 EAT"</span></span></code></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -1345,7 +1341,8 @@ shorter object length</code></pre>
 <span id="cb27-4">d <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="dv" style="color: #AD0000;">89</span> <span class="sc" style="color: #5E5E5E;">+</span> 34i</span>
 <span id="cb27-5">e <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="st" style="color: #20794D;">'abc'</span></span></code></pre></div>
 </div>
-<p>Examine the data type at a low-level with <code>typeof()</code></p>
+<section id="examine-the-data-type-at-a-low-level-with-typeof" class="level3">
+<h3 class="anchored" data-anchor-id="examine-the-data-type-at-a-low-level-with-typeof">1. Examine the data type at a low-level with <code>typeof()</code></h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb28" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb28-1"><span class="fu" style="color: #4758AB;">typeof</span>(a)</span></code></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -1368,7 +1365,9 @@ shorter object length</code></pre>
 <pre><code>[1] "character"</code></pre>
 </div>
 </div>
-<p>Examine the data type at a high-level with <code>class()</code></p>
+</section>
+<section id="examine-the-data-type-at-a-high-level-with-class" class="level3">
+<h3 class="anchored" data-anchor-id="examine-the-data-type-at-a-high-level-with-class">2. Examine the data type at a high-level with <code>class()</code></h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb38" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb38-1"><span class="fu" style="color: #4758AB;">class</span>(a)</span></code></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -1391,7 +1390,10 @@ shorter object length</code></pre>
 <pre><code>[1] "character"</code></pre>
 </div>
 </div>
-<p>To test whether the variable is of a specific type, we can use the “is.___()” functions.</p>
+</section>
+<section id="use-the-is.____-functions-to-determine-the-data-type" class="level3">
+<h3 class="anchored" data-anchor-id="use-the-is.____-functions-to-determine-the-data-type">3. Use the <code>is.____()</code> functions to determine the data type</h3>
+<p>To test whether the variable is of a specific type, we can use the <code>is.____()</code> functions.</p>
 <p>First, we test the variable <code>a</code> which is numeric.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb48" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb48-1"><span class="fu" style="color: #4758AB;">is.numeric</span>(a)</span></code></pre></div>
@@ -1431,9 +1433,10 @@ shorter object length</code></pre>
 </div>
 </div>
 </section>
+</section>
 <section id="converting-between-various-data-types" class="level2">
 <h2 class="anchored" data-anchor-id="converting-between-various-data-types">Converting between various data types</h2>
-<p>To convert between data types we can use the “as.___()” functions. These include: <code>as.Date()</code>, <code>as.numeric()</code>, and <code>as.factor()</code>. Additionally, other helpful functions include factor() which adds levels to the data and nchar() which provides the length of the data.</p>
+<p>To convert between data types we can use the <code>as.____()</code> functions. These include: <code>as.Date()</code>, <code>as.numeric()</code>, and <code>as.factor()</code>. Additionally, other helpful functions include factor() which adds levels to the data and <code>nchar()</code> which provides the length of the data.</p>
 <section id="examples" class="level3">
 <h3 class="anchored" data-anchor-id="examples">Examples</h3>
 <div class="cell">
@@ -1454,13 +1457,9 @@ shorter object length</code></pre>
 <pre><code>[1] 3</code></pre>
 </div>
 </div>
-</section>
-</section>
-<section id="supplementary-reading" class="level2">
-<h2 class="anchored" data-anchor-id="supplementary-reading">Supplementary Reading</h2>
-<p>Coming soon…</p>
 
 
+</section>
 </section>
 
  ]]></description>
@@ -1779,13 +1778,9 @@ shorter object length</code></pre>
 <pre><code>[1] 6.25</code></pre>
 </div>
 </div>
-</section>
-</section>
-<section id="supplementary-reading" class="level2">
-<h2 class="anchored" data-anchor-id="supplementary-reading">Supplementary Reading</h2>
-<p>Coming soon…</p>
 
 
+</section>
 </section>
 
  ]]></description>
@@ -1846,10 +1841,6 @@ shorter object length</code></pre>
 <h3 class="anchored" data-anchor-id="what-are-the-primary-benefits-of-rstudio">What are the primary benefits of RStudio?</h3>
 <p>RStudio allows one to create projects (a collection of related files stored within a working directory). Additionally, RStudio can be customized using options available under the “Tools” tab. Lastly, RStudio has Git integration that allows for version control where you can back up your code at different timepoints and effortlessly transfer code between computers.<sup>1</sup></p>
 </section>
-</section>
-<section id="supplementary-reading" class="level2">
-<h2 class="anchored" data-anchor-id="supplementary-reading">Supplementary Reading</h2>
-<p>Coming soon…</p>
 </section>
 <section id="conclusion" class="level2">
 <h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
