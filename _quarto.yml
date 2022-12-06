@@ -22,6 +22,9 @@ website:
       - icon: twitter
         href: https://twitter.com/willyokech
         aria-label: Twitter
+      - icon: medium
+        href: https://medium.com/@willyokech
+        aria-label: Medium
       - icon: rss
         href: blog.xml
   cookie-consent:
@@ -43,9 +46,13 @@ website:
     - icon: github
       text: Github
       href: https://github.com/wokech
+    - icon: medium
+      text: Medium
+      href: https://medium.com/@willyokech
     - icon: envelope
       text: Email
       href: mailto:willyokech@gmail.com
+    
       
 format:
   html:
