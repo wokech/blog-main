@@ -1,5 +1,5 @@
 ---
-title: "Recommended Readings (Life)"
+title: "Recommended Readings (General)"
 toc: true
 ---
 
