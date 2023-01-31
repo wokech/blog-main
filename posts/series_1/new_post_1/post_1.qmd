@@ -58,7 +58,7 @@ Hopefully, this was a helpful introduction to R and RStudio. In subsequent blog 
 1.  [Part 1: Simple arithmetic](/posts/series_1/new_post_2/post_2.html),
 2.  [Part 2: Variables](/posts/series_1/new_post_3/post_3.html),
 3.  [Part 3: Data types](/posts/series_1/new_post_4/post_4.html),
-4.  [Part 4: Operators](posts/series_1/new_post_5/post_5.html),
-5.  [Part 5: Vectors](posts/series_1/new_post_6/post_6.html),
-6.  [Part 6: Missing data](posts/series_1/new_post_7/post_7.html)
-7.  [Part 7: Data Structures](posts/series_1/new_post_8/post_8.html)
+4.  [Part 4: Operators](/posts/series_1/new_post_5/post_5.html),
+5.  [Part 5: Vectors](/posts/series_1/new_post_6/post_6.html),
+6.  [Part 6: Missing data](/posts/series_1/new_post_7/post_7.html)
+7.  [Part 7: Data Structures](/posts/series_1/new_post_8/post_8.html)
