@@ -22,7 +22,8 @@
 
 <section id="introduction" class="level1">
 <h1>Introduction</h1>
-<p>An aerial view of most settlements in Kenya will demonstrate that many residential home roofs are constructed using iron sheets. Indeed, this is confirmed by the Kenya Population and Housing Census (2019) report <sup>1</sup> <sup>2</sup> where we see that 4 out of every 5 households (total number = 12,043,016) in Kenya is roofed using iron sheets (Figure 1). Overall, the top 5 building materials are iron sheets (80.3%), concrete (8.2%), grass/twigs (5.1%), makuti (sun-dried coconut palm leaves; 1.6%), and asbestos (1.4%). Despite the widespread use of iron sheets, it is surprising to note that 1.4% (2.2% urban and 0.9% rural) of residential household roofs (which is approximately 170,000) are covered with asbestos-based roofing materials (NB: this figure does not include public buildings such as educational institutions and government facilities).</p>
+<p>An aerial view of most settlements in Kenya will demonstrate that many residential home roofs are constructed using iron sheets.</p>
+<p>Indeed, this is confirmed by the Kenya Population and Housing Census (2019) report <sup>1</sup> <sup>2</sup> where we see that 4 out of every 5 households (total number = 12,043,016) in Kenya is roofed using iron sheets (Figure 1). Overall, the top 5 building materials are iron sheets (80.3%), concrete (8.2%), grass/twigs (5.1%), makuti (sun-dried coconut palm leaves; 1.6%), and asbestos (1.4%). Despite the widespread use of iron sheets, it is surprising to note that 1.4% (2.2% urban and 0.9% rural) of residential household roofs (which is approximately 170,000) are covered with asbestos-based roofing materials (NB: this figure does not include public buildings such as educational institutions and government facilities).</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://williamokech.netlify.app/posts/series_2/new_post_2/images/national_treemap.png" class="img-fluid figure-img" style="width:90.0%"></p>
@@ -60,7 +61,7 @@
 </section>
 
 
-<div id="quarto-appendix" class="default"><section class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
 
 <ol>
 <li id="fn1"><p>Kenya National Bureau of Statistics. The 2019 Kenya Population and Housing Census. Volume I: Population by County and Sub-County and Volume III: Distribution of Population by Age and Sex.↩︎</p></li>
