@@ -2,8 +2,20 @@
 title: "Bio-X: All things Bio"
 ---
 
-# Helpful websites and tutorials
+## Biomechanics
 
-## Synthetic Biology
+### Tutorials
+
+### Helpful Websites
+
+## Synthetic Biology and Biotechnology
+
+### Tutorials
+
+### Helpful Websites
 
 ## Machine Learning for Health
+
+### Tutorials
+
+### Helpful Websites

@@ -1,15 +1,24 @@
 ---
-title: "Data Analysis Tools"
+title: "Data Analysis and Visualization Tools"
 ---
-
-# Helpful websites and tutorials
 
 ## R, RStudio, and Shiny
 
+### Tutorials and helpful websites
+
 ## Python
+
+### Tutorials and helpful websites
 
 ## Data Visualization
 
+### Tutorials and helpful websites
+
 ## Git and GitHub
 
+### Tutorials and helpful websites
+
 ## Quarto
+
+### Tutorials and helpful websites
+

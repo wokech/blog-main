@@ -5,14 +5,26 @@ toc: true
 
 ## General
 
-1)  [The importance of stupidity in scientific research.](https://pubmed.ncbi.nlm.nih.gov/18492790/) Schwartz MA, J Cell Sci. (2008).
-2)  [The Emotional Toll of Graduate School.](https://blogs.scientificamerican.com/observations/the-emotional-toll-of-graduate-school/) Puri P, Sci Am. (2019).
-3)  [PhDs: the tortuous truth.](https://www.nature.com/articles/d41586-019-03459-7) Woolston C, Nature (2019).
-4)  [Unskilled and unaware of it: how difficulties in recognizing one's own incompetence lead to inflated self-assessments (Dunning-Kruger Effect).](https://pubmed.ncbi.nlm.nih.gov/10626367/) Kruger J and Dunning D, J Pers Soc Psychol. (1999).
-5)  [How to choose a good scientific problem.](https://pubmed.ncbi.nlm.nih.gov/19782018/) Alon U, Mol Cell. (2009).
-6)  [PLOS "Ten Simple Rules" Collection provides a quick, concentrated guide for mastering some of the professional challenges research scientists face in their careers.](https://collections.plos.org/collection/ten-simple-rules/) PLoS.
-7)  [How to succeed in science: a concise guide for young biomedical scientists. Part I: taking the plunge.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2685175/) Yewdell JW, Nat Rev Mol Cell Biol. (2008).
-8)  [How to succeed in science: a concise guide for young biomedical scientists. Part II: making discoveries.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2675886/) Yewdell JW, Nat Rev Mol Cell Biol. (2008).
+1)	[How to succeed in science: a concise guide for young biomedical scientists. Part I: taking the plunge.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2685175/) Yewdell JW, Nat Rev Mol Cell Biol. (2008).
+2)	[How to succeed in science: a concise guide for young biomedical scientists. Part II: making discoveries.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2675886/) Yewdell JW, Nat Rev Mol Cell Biol. (2008).
+3)	[The importance of stupidity in scientific research.](https://pubmed.ncbi.nlm.nih.gov/18492790/) 
+Schwartz MA, J Cell Sci. (2008).
+4)	[Unskilled and unaware of it: how difficulties in recognizing one's own incompetence lead to inflated self-assessments (Dunning-Kruger Effect).](https://pubmed.ncbi.nlm.nih.gov/10626367/) Kruger J and Dunning D, J Pers Soc Psychol. (1999).
+5)	[How to choose a good scientific problem.](https://pubmed.ncbi.nlm.nih.gov/19782018/) Alon U, Mol Cell. (2009).
+6)	[PLOS “Ten Simple Rules” Collection provides a quick, concentrated guide for mastering some of the professional challenges research scientists face in their careers.](https://collections.plos.org/collection/ten-simple-rules/) PloS.
+
+## Challenges
+
+1)	[The Emotional Toll of Graduate School.]( https://blogs.scientificamerican.com/observations/the-emotional-toll-of-graduate-school/ ) Puri P, Sci Am. (2019).
+2)	[PhDs: the tortuous truth.](https://www.nature.com/articles/d41586-019-03459-7) Woolston C, Nature (2019).
+3)	[Why doing a PhD is often a waste of time](https://medium.economist.com/why-doing-a-phd-is-often-a-waste-of-time-349206f9addb) The Economist, Medium (2016).
+4)	[There’s an awful cost to getting a PhD that no one talks about](https://qz.com/547641/theres-an-awful-cost-to-getting-a-phd-that-no-one-talks-about) Walker J, Quartz (2015).
+
+## Transformative Research Papers
+
+1)	[A Programmable Dual-RNA-Guided DNA Endonuclease in Adaptive Bacterial Immunity](https://www.science.org/doi/10.1126/science.1225829) Jinek et al., Science (2012) from the Doudna and Charpentier Lab
+2)	[Induction of pluripotent stem cells from mouse embryonic and adult fibroblast cultures by defined factors](https://www.cell.com/cell/fulltext/S0092-8674(06)00976-7) Takahashi et al., Cell (2006) from the Yamanaka Lab
+3)	[Matrix Elasticity Directs Stem Cell Lineage Specification](https://www.sciencedirect.com/science/article/pii/S0092867406009615) Engler et al., Cell (2006) from the Discher Lab
 
 ## Statistics
 
@@ -31,3 +43,17 @@ toc: true
 3)  [Whitesides' Group: Writing a Paper.](https://onlinelibrary.wiley.com/doi/abs/10.1002/adma.200400767) Whitesides GM, Adv. Mat. (2004).
 4)  [How to write a first-class paper.](https://www.nature.com/articles/d41586-018-02404-4) Gewin V, Nature (2018).
 5)  [Writing readable prose: When planning a scientific manuscript, following a few simple rules has a large impact.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1559667/) Bredan AS & van Roy F, EMBO Rep. (2006).
+6)	[Ten simple rules for structuring papers](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005619) Mensh B & Kording K, PLoS Comp Biol. (2017).
+7)	[Write accessibly](https://www.nature.com/articles/s41551-021-00816-8) Editors, Nat Biomed Eng. (2021).
+
+## Science Integrity
+
+1)	[Science Integrity Digest](https://scienceintegritydigest.com/) Bik E
+2)	[Brookes Lab](https://psblab.org/) Brookes P. [Sample Post focused on "Fake Data"](https://psblab.org/?p=651) 
+3)	[PubPeer: The Online Journal Club](https://pubpeer.com/) 
+4)	[For Better Science](https://forbetterscience.com/) Schneider L
+5)	[Retraction Watch](https://retractionwatch.com/) 
+6)	[Automatic detection of image manipulations in the biomedical literature](https://www.nature.com/articles/s41419-018-0430-3) Bucci EM, Cell Death and Disease (2018).
+7)	[Learning to identify image manipulations in scientific publications](https://arxiv.org/abs/2102.01874) Mazaheri G et al., arXiv (2021).
+8)	[Publishing ethics in the era of paper mills](https://journals.biologists.com/bio/article/9/10/bio056556/222806/Publishing-ethics-in-the-era-of-paper-mills) Hackett R and Kelly S, Biol Open (2020).
+
