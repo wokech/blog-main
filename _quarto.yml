@@ -8,14 +8,13 @@ website:
   navbar:
     right:
       - text: Resume
-        file: blog_cv/blog_cv_jun_2022.pdf
+        file: blog_cv/Resume_William_Okech_Website_2023.pdf
       - blog.qmd
       - text: Resources 
         menu: 
           - href: resources/data_analysis_tools.qmd
           - href: resources/biox.qmd
           - href: resources/reading_list.qmd
-          - href: resources/medical_writing.qmd
       - icon: github
         href: https://github.com/wokech
         aria-label: Github
