@@ -14,7 +14,8 @@ website:
         menu: 
           - href: resources/data_analysis_tools.qmd
           - href: resources/biox.qmd
-          - href: resources/reading_list.qmd
+          - href: resources/reading_stem.qmd
+          - href: resources/reading_life.qmd
       - icon: github
         href: https://github.com/wokech
         aria-label: Github

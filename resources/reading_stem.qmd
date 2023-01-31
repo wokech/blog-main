@@ -1,0 +1,33 @@
+---
+title: "Recommended Readings (STEM)"
+toc: true
+---
+
+## General
+
+1)  [The importance of stupidity in scientific research.](https://pubmed.ncbi.nlm.nih.gov/18492790/) Schwartz MA, J Cell Sci. (2008).
+2)  [The Emotional Toll of Graduate School.](https://blogs.scientificamerican.com/observations/the-emotional-toll-of-graduate-school/) Puri P, Sci Am. (2019).
+3)  [PhDs: the tortuous truth.](https://www.nature.com/articles/d41586-019-03459-7) Woolston C, Nature (2019).
+4)  [Unskilled and unaware of it: how difficulties in recognizing one's own incompetence lead to inflated self-assessments (Dunning-Kruger Effect).](https://pubmed.ncbi.nlm.nih.gov/10626367/) Kruger J and Dunning D, J Pers Soc Psychol. (1999).
+5)  [How to choose a good scientific problem.](https://pubmed.ncbi.nlm.nih.gov/19782018/) Alon U, Mol Cell. (2009).
+6)  [PLOS "Ten Simple Rules" Collection provides a quick, concentrated guide for mastering some of the professional challenges research scientists face in their careers.](https://collections.plos.org/collection/ten-simple-rules/) PLoS.
+7)  [How to succeed in science: a concise guide for young biomedical scientists. Part I: taking the plunge.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2685175/) Yewdell JW, Nat Rev Mol Cell Biol. (2008).
+8)  [How to succeed in science: a concise guide for young biomedical scientists. Part II: making discoveries.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2675886/) Yewdell JW, Nat Rev Mol Cell Biol. (2008).
+
+## Statistics
+
+1)  [What exactly is 'N' in cell culture and animal experiments?](https://pubmed.ncbi.nlm.nih.gov/29617358/) Lazic SE et al., PloS Biol. (2018).
+2)  [SuperPlots: Communicating reproducibility and variability in cell biology.](https://pubmed.ncbi.nlm.nih.gov/32346721/) Lord SJ et al., J Cell Biol. (2020).
+3)  [Ten common statistical mistakes to watch out for when writing or reviewing a manuscript.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6785265/) Makin TR et al. eLife (2019).
+4)  [Beyond bar and line graphs: time for a new data presentation paradigm.](https://pubmed.ncbi.nlm.nih.gov/25901488/) Weissgerber TL et al. PloS Biol. (2015).
+5)  [Statistical relevance---relevant statistics, part I.](https://pubmed.ncbi.nlm.nih.gov/26392568/) Klaus B EMBO J. (2015).
+6)  [Statistical relevance-relevant statistics, part II: presenting experimental data.](https://pubmed.ncbi.nlm.nih.gov/27436873/) Klaus B EMBO J. (2015).
+7)  [Ten simple rules for getting started with statistics in graduate school](https://pubmed.ncbi.nlm.nih.gov/35446846/) Zitomer RA et al. PloS Comput Biol. (2022).
+
+## Writing
+
+1)  [ACS Guide to Scholarly Communication.](https://pubs.acs.org/doi/book/10.1021/acsguide) ACS. (2020).
+2)  [The art of writing science.](https://onlinelibrary.wiley.com/doi/10.1002/pro.514) Plaxco KW, Prot. Sci. (2010).
+3)  [Whitesides' Group: Writing a Paper.](https://onlinelibrary.wiley.com/doi/abs/10.1002/adma.200400767) Whitesides GM, Adv. Mat. (2004).
+4)  [How to write a first-class paper.](https://www.nature.com/articles/d41586-018-02404-4) Gewin V, Nature (2018).
+5)  [Writing readable prose: When planning a scientific manuscript, following a few simple rules has a large impact.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1559667/) Bredan AS & van Roy F, EMBO Rep. (2006).
