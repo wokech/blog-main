@@ -21,4 +21,3 @@ title: "Data Analysis and Visualization Tools"
 ## Quarto
 
 ### Tutorials and helpful websites
-
