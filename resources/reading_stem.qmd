@@ -11,7 +11,7 @@ toc: true
 4)  [Unskilled and unaware of it: how difficulties in recognizing one's own incompetence lead to inflated self-assessments (Dunning-Kruger Effect).](https://pubmed.ncbi.nlm.nih.gov/10626367/) Kruger J and Dunning D, J Pers Soc Psychol. (1999).
 5)  [How to choose a good scientific problem.](https://pubmed.ncbi.nlm.nih.gov/19782018/) Alon U, Mol Cell. (2009).
 6)  [PLOS "Ten Simple Rules" Collection provides a quick, concentrated guide for mastering some of the professional challenges research scientists face in their careers.](https://collections.plos.org/collection/ten-simple-rules/) PloS.
-7)  [Resources for PhD Students by Guillaume Dalle](https://gdalle.github.io/phd-resources/)
+7)  [Resources for PhD Students](https://gdalle.github.io/phd-resources/) Guillaume Dalle.
 
 ## Challenges
 
