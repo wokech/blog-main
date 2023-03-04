@@ -43,5 +43,13 @@
       "/posts/series_2/new_post_1/post_1.html",
       "/posts/series_2/new_post_2/post_2.html"
     ]
+  },
+  {
+    "listing": "/series/series_1.html",
+    "items": []
+  },
+  {
+    "listing": "/series/series_2.html",
+    "items": []
   }
 ]

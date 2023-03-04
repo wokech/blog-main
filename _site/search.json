@@ -691,5 +691,572 @@
     "title": "Recommended Readings (General)",
     "section": "My Favorite Short Stories",
     "text": "My Favorite Short Stories\n\nHow Much Land Does a Man Require? Leo Tolstoy (1886)\nThe Americanization of Kambili. Tochi Eze (2022) Link\nThe Street Sweep. Meron Hadero (2018) Link"
+  },
+  {
+    "objectID": "resources/ds_ml_ai/ds_ml_ai.html",
+    "href": "resources/ds_ml_ai/ds_ml_ai.html",
+    "title": "Data Science, Machine Learning, and Artificial Intelligence",
+    "section": "",
+    "text": "Data 8: The Foundations of Data Science\nIntroduction to Data Science\nReadings in Applied Data Science\n54 Best Data Science Books in 2023\nCoding habits for data scientists\nData Science by Design (DSxD)\nElements of Data Science\nCritical Dataset Studies Reading List\nThe Art of Data Science\nData Science Blogs\nThe Data Scientist\nData Science Primer\nData Science Cheatsheet\nThe 10 Data Mining Techniques Data Scientists Need for Their Toolbox\n30 Essential Data Science, Machine Learning & Deep Learning Cheat Sheets\n\n\n\n\n\nMachine Learning University\nMachine Learning Mastery\nVisual Intro to ML\nMachine Learning Basics 1\nMachine Learning Basics 2\nHands-On Machine Learning with R\nThe Illustrated Machine Learning website\nFOUNDATIONS OF MACHINE LEARNING\nML for Science\nMACHINE LEARNING QUESTIONS\nBest GitHub Repositories for ML\nMachine Learning and Data Science Applications in Industry\nML Google\nSantander ML Explainability\nML for Everyone\nSupervised ML in R\nMachine Learning for Humans\nThe Best Machine Learning Resources\nMachine Learning Notebooks\n101 machine learning algorithms for data science with cheatsheets\nEnd-to-End Machine Learning Library\nML Data Repository\nInterpretable Machine Learning\nMachine Learning Explained: Algorithms Are Your Friend\nCommonly used Machine Learning Algorithms\nA Guide to Learning with Limited Labeled Data\nmodelStudio and The Grammar of Interactive Explanatory Model Analysis\nHow to choose a good evaluation metric for your Machine learning model\nKaggle Winner’s Blog\n\n\n\n\n\nApplied AI\nMicrosoft Artificial Intelligence for Beginners\nHow to not overfit?\nHOW TO USE DEEP LEARNING TO IDENTIFY WILDLIFE\nAI Reading List\nElements of AI\nIntroduction to Deep Learning\nAI Summer\nStanford AI Lab\n12 Steps to Applied AI\nAI Experiments\nDeep Learning\nNeural Networks and Deep Learning\nArtificial Intelligence in Future and Present\n\n\n\n\n\nFrom Zero to Research Scientist full resources guide\nHow to Think Like a Computer Scientist\nStat Learning 1\nStat Learning 2\nIntroduction to Causal Inference\nVisual Guides for Causal Inference\nUnderstanding UMAP\nt-Distributed Stochastic Neighbor Embedding (t-SNE)\nA Gentle Introduction to Graph Neural Networks\nTuri Create\n\n\n\n\n\n\n\n\nAI/ML/DS Book Club\nFree Data Science Resources for Beginners\nData Science Courses and Resources\nData Science Live Book\nData Science - Resources for Python & R\nData Science Glossary on Kaggle\nPreparing for the Transition to Data Science\nMy Data Science Master’s\nData Science Master’s\nData Science Learning Path For Complete Beginners\nSchool of Data\nHow To Learn Data Science If You’re Broke\nHOW TO START YOUR FIRST DATA SCIENCE PROJECT\nData Science Berens Lab\nDS/ML/AI Blog\nData Science Resources\nData Science Learning Resources\nData Science Tutorials\nOur Coding Club\nComputing for Information Science\n\n\n\n\n\nML101 Tutorial\nML Tutorial\nMachine Learning Projects\nFeature Selection Techniques in Machine Learning with Python\nAI Research Experiences\nRandy Olson’s data analysis and machine learning projects\nMachine Learning Zoomcamp\nThe Ultimate FREE Machine Learning Study Plan\n100 Days of Machine Learning Coding\nVisualize Machine Learning data\nMade With ML\nScikit learn in Machine Learning\nMachine Learning Tutorials\nMathematics for Machine Learning\nMatrix Methods In Data Analysis, Signal Processing, And Machine Learning\nIn-depth introduction to machine learning in 15 hours of expert videos\nCode for Workshop: Introduction to Machine Learning with R\nMachine Learning Crash Course with TensorFlow APIs\nIntro to ML with R Slides\n150 of the Best Machine Learning, NLP, and Python Tutorials\nA Machine Learning Course with Python\nPython ML Tutorial\nClass Imbalance\nAnomaly Detection for Dummies\n\n\n\n\n\nDeep Learning Fundamentals\nTensorFlow, Keras and deep learning, without a PhD\nConvolutional Neural Networks for Visual Recognition\nIntroduction to Natural Language Processing\nSolving 90% of NLP problems"
+  },
+  {
+    "objectID": "resources/ds_ml_ai/ds_ml_ai.html#blogs",
+    "href": "resources/ds_ml_ai/ds_ml_ai.html#blogs",
+    "title": "Data Science, Machine Learning, and Artificial Intelligence",
+    "section": "Blogs",
+    "text": "Blogs\n\nSebastian Raschka\nAurimas Racas\nFloydHub\nShirin Elsinghorst\nChristina Levengood\nEthan Rosenthal\nRachel Thomas\nLIIP\nThe Analytics Lab"
+  },
+  {
+    "objectID": "resources/ds_ml_ai/ds_ml_ai.html#forecasting-and-prediction",
+    "href": "resources/ds_ml_ai/ds_ml_ai.html#forecasting-and-prediction",
+    "title": "Data Science, Machine Learning, and Artificial Intelligence",
+    "section": "Forecasting and Prediction",
+    "text": "Forecasting and Prediction\n\nForecasting: Principles and Practice\nYellowbrick: Machine Learning Visualization\nFacebook Prophet\nForecasting with Neural Network Autoregression\nNeural Network Playground\nfast.ai—Making neural nets uncool again\nPredictive Hacks\nAd Click Prediction"
+  },
+  {
+    "objectID": "resources/ds_ml_ai/ds_ml_ai.html#reproducibility",
+    "href": "resources/ds_ml_ai/ds_ml_ai.html#reproducibility",
+    "title": "Data Science, Machine Learning, and Artificial Intelligence",
+    "section": "Reproducibility",
+    "text": "Reproducibility\n\nThe Reproducibility Crisis in ML‑based Science\nLeakage and the Reproducibility Crisis in ML-based Science\nData leakage causes reproducibility failures in ML-based science"
+  },
+  {
+    "objectID": "resources/ds_ml_ai/ds_ml_ai.html#health",
+    "href": "resources/ds_ml_ai/ds_ml_ai.html#health",
+    "title": "Data Science, Machine Learning, and Artificial Intelligence",
+    "section": "Health",
+    "text": "Health\n\nCovid-19 Data Science\nMachine Learning For Healthcare\nPopulation health analytics\nJameel Clinic\nMedical AI Bootcamp\nShah Lab AI\nBuild a Recommender Engine for Medical Research Papers\nRECONLearn\nRECON"
+  },
+  {
+    "objectID": "resources/ds_ml_ai/ds_ml_ai.html#journals-and-stories",
+    "href": "resources/ds_ml_ai/ds_ml_ai.html#journals-and-stories",
+    "title": "Data Science, Machine Learning, and Artificial Intelligence",
+    "section": "Journals and Stories",
+    "text": "Journals and Stories\n\nTOP PUB\nMachine Learning and Data Science Applications in Industry\n13 Essential Newsletters for Data Scientists: Remastered\nMachine Learning in Public Policy\nThe economics of artificial intelligence\nThe Facebook Scandal - or how to predict psychological traits from Facebook likes.\nData Science Dojo\nHow to solve a business problem using data\nPutting data back into context\nmljar: Outstanding Data Science Tools\nDataKind: Data Science Volunteering\nAmazon Machine Learning\nAzure Machine Learning\nGoogle Prediction API\nBigML\nHealth Data Science\nHarvard Data Science Review"
+  },
+  {
+    "objectID": "resources/ds_ml_ai/ds_sports.html",
+    "href": "resources/ds_ml_ai/ds_sports.html",
+    "title": "Sports Data Science",
+    "section": "",
+    "text": "Sports Data Science Blogs\n\nSBNation Blogs\nJason Zivkovic\nSweep Sports Analytics\nKarun Singh\nMackay Analytics\nSon of a Corner\nSaints by Numbers\nAchim Zeileis\nOpta Analyst\nThe Come on Man\nThe Last Man Analytics\nAnalytics FC\nBrendan Kent\nSPORT DATA SCIENCE\nWyScout\nBiscuit Chaser FC\nStatsBomb\nEightyFivePoints\nStuart McErlain-Naylor\nOwen Thompson\nTony El Habr\nSciSports\n11v11\nDribble analytics\nSports Intelligence\n11tegen11\n\n\n\nSports Data Science Stories\n\nArmando Broja: A Case Study\nOut of the Park\nHow Data (and Some Breathtaking Soccer) Brought Liverpool to the Cusp of Glory\nHow data analysis helps football clubs make better signings\nLOAN PATHWAYS: THE ACADEMY MODEL\nLOAN PATHWAYS: THE PORTFOLIO MODEL\nLOAN PATHWAYS: THE MULTI-CLUB MODEL\n\n\n\nSports Data Science Journals and Readings\n\nEightyFivePoints Reading List & Data\nSports analytics reading list\nSports analytics conference video archives\nJournal of Sports Analytics\nJournal of Quantitative Analysis in Sports\n\n\n\nBasics and Tools\n\nSoccermatics\nMPL Soccer\nPySport\nAmerican Soccer Analysis\nDTAI SPORTS ANALYTICS LAB\nSportsDataVerse\nThe Fjelstul English Football Database\nThe Fjelstul World Cup Database\nSoccer Analytics Handbook\nSports guideR\nSports Reference\nTotal Football Analysis\nCIES Football Observatory\nSFU Sports Analytics Group Virtual Seminar\nBrescia BDAS Lab\nAwesome Soccer Analytics\nEdd Webster Football Analytics\nDriblab\nSPORT PERFORMANCE ANALYSIS\nFootball Data UK\nSport Informatics and Analytics\nLearn Python & Data Science With Football\nLearn R & Data Science With Football\nTHE DATA CRUNCHING FOOTBALL EXPERT\nFourFourTwo\nTwelve Football\nFootball Science\nBig Data Bowl ’21 Submission\nExperimental 361\nBarca Innovation Hub\nTHE GREAT ANALYTICS RANKINGS\nTraining Ground Guru\nBruin Sports Analytics\nSportRadar\nSportSciData\nSoFIFA\nStatsPerform\nSpotrac\nNBAstuffer\nFantasy Football Analytics\nStatsBomb Open Data\n\n\n\nTutorials\n\nA Beginner’s Introduction to Mixed Effects Models in Sport\nHow Our Club Soccer Predictions Work\nGoogle Research Football with Manchester City F.C.\nworldfootballR\nData in Elite Sport\nCOMPUTER VISION IN SPORT\nGetting Started with Free StatsBomb Event Data\nPredicting Football Results With Statistical Modelling\nLiverpool 20-21 EPL Performance\nLanguages and tools to learn for sports analytics\nCoding for sports analytics\nHow to Draw a Football Pitch\nExplaining Expected Threat\nModeling Player Biomechanics\nMathematical Modelling of Football\n10 Steps to Get Started in Sports Analytics\nFlank Attacks Visualisation\nDoing More With StatsBomb Data in R\nHow sports scientists can use ggplot2 in R to make better visualisations\nHow to make NBA shots charts in R\nVisualizing the Premier League\nFitting your own football xG model\nPassSonar\nAnimating NBA Play by Play using R\nAdding Football Crests to Scatter Plots in R\nWorking with data in elite sport"
+  },
+  {
+    "objectID": "resources/ds_ml_ai/statistics.html",
+    "href": "resources/ds_ml_ai/statistics.html",
+    "title": "Statistics",
+    "section": "",
+    "text": "Introduction to Modern Statistics\nStatistical Thinking\nStatistics 110: Probability\nCausal Inference: What If (Hernan MA)\nBayes Rules!\nStatistical Computing\nWelcome to A/B Testing at Scale Tutorial\nCausal Inference: The Mixtape\nBIOLOGY FOR LIFE\nStatistical Problems to Document and to Avoid\nDatamethods\nSeeing Theory\nCausation and Correlation\nCommon statistical tests are linear models (or: how to teach stats)\nAn Introduction to Hierarchical Modeling\nTidy Statistics in R\nProgram Evaluation for Public Service and Research Design\nStatistics and R\nR and statsExpressions\nA Gentle Guide to Tidy Statistics in R\nModern Statistics with R\nPower Analysis | Introduction in R\nRegression Modelling in R\nThe Grammar of Experimental Design\nBayes Rules! An Introduction to Applied Bayesian Modeling\nStatistical rethinking with brms, ggplot2, and the tidyverse\nStatistics 431: Advanced Statistical Computing with R\nDesign and Analysis of Experiments and Observational Studies using R\nIntroduction to Probability for Data Science\nmetrica: Prediction performance metrics\nSTA 363: Statistical Learning\nSTA 312: Linear Models\nSTA 212: Statistical Models\nBayes 1\nBayes 2\nIntro to Bayesian Business Analytics\nCausalImpact\nGUide to STatistical Analysis in Microbial Ecology (GUSTA ME)"
+  },
+  {
+    "objectID": "resources/ds_ml_ai/statistics.html#biostatistics",
+    "href": "resources/ds_ml_ai/statistics.html#biostatistics",
+    "title": "Statistics",
+    "section": "Biostatistics",
+    "text": "Biostatistics\n\nBiostatistics for Biomedical Research\nTutorials in Biostatistics Papers\nBiostatistics Series Papers\nWCM Biostatistics Computing Club\nKatherine (Kat) Hoffman Biostats"
+  },
+  {
+    "objectID": "resources/ds_viz.html",
+    "href": "resources/ds_viz.html",
+    "title": "Data Visualization Notes and Tutorials",
+    "section": "",
+    "text": "Maarten Lambrechts\nAda Homolova\nLisa Charlotte Muth\nZev Ross\nEdward Tufte\nCÉDRIC SCHERER"
+  },
+  {
+    "objectID": "resources/ds_viz.html#data-visualization-general",
+    "href": "resources/ds_viz.html#data-visualization-general",
+    "title": "Data Visualization Notes and Tutorials",
+    "section": "Data Visualization (General)",
+    "text": "Data Visualization (General)\n\nThe unspoken rules of visualisation\nThe Beginning, The Middle, & The New Beginning\nVisual Vocabulary\nColor in Data Vis\nBlack in Data Vis Challenge\nA Reader on Data Visualization\nData Visualization: A practical introduction\nSome Favorite Things\nColor Brewer\nFullstack D3 course\nLittle Miss Data\nWhat Are Data Visualization Style Guidelines?\nData visualization\nSportsChord\nData Viz Project\nYour Friendly Guide to Colors in Data Visualisation\nVIZRISK CHALLENGE STEPS\nWhy scientists need to be better at data visualization\nData Viz Projects\nA Tufte Handout Example"
+  },
+  {
+    "objectID": "resources/ds_viz.html#data-visualization-r",
+    "href": "resources/ds_viz.html#data-visualization-r",
+    "title": "Data Visualization Notes and Tutorials",
+    "section": "Data Visualization (R)",
+    "text": "Data Visualization (R)\n\nBooks\n\nAwesome ggplot2\nAn introduction to data visualization protocols for wet lab scientists\nGraphic Design with ggplot2\nGraphing with ggplot\nCookbook for R\nR Graphics Cookbook\nData Visualization in R\nData Visualization with R\nData visualisation using R, for researchers who don’t use R\nR CHARTS\nThe R Graph Gallery\nA Scientist’s Guide to R: Step 3.1 - data visualization with ggplot2+\nFundamentals of Data Visualization\nggplot2: Elegant Graphics for Data Analysis\nggplot2 extensions\na ggplot2 grammar guide\nData Visualization\nTom’s Cookbook for Better Viz\nBeginners Cookbook for Interactive Visualization in R with highcharter\nR4DS Data Visualization\nggplot2\nTom’s Cookbook for Better Viz\nDesigning ggplots\nInteractive web-based data visualization with R, plotly, and shiny\nBBC Visual and Data Journalism cookbook for R graphics\nBBPLOT\nR Data Viz\nggplot tricks\n\n\n\nTutorials and Notes\n\nbarbarplots\nggplot2tutor\nData Visualization Packages for R you should check out in 2022\nImproving a Visualization\nHow I use stories to share data at meetings\n12 ggplot extensions for snazzier R graphics\nCommon R Mistakes in Data Viz\nQuick and easy ways to deal with long labels in ggplot2\nReal house price plots\nCreating flowcharts with {ggplot2}\nMaking text labels the same size as axis labels in ggplot2\nLabelling area plots\nTop 50 ggplot2 Visualizations - The Master List (With Full R Code)\nThe Complete ggplot2 Tutorial - Part1 | Introduction To ggplot2 (Full R code)\nBest ggplot visualizations\nNetwork Visualizations in R\nIncrease & Decrease Number of Axis Ticks in R (2 Examples)\nVisualize monthly precipitation anomalies\nHow to use multiple colour scales in ggplot with {ggnewscale}\nLevel Up Your Labels: Tips and Tricks for Annotating Plots\nBeautiful plotting in R: A ggplot2 cheatsheet\nThe Good, the Bad and the Ugly: how (not) to visualize data\nWHY NOT DO THAT WITH R?\nA quick introduction to ggplot2\nGetting started with data visualization in R using ggplot2\nggplot theme tester\nThe Evolution of a ggplot (Ep. 1)\nA ggplot2 Tutorial for Beautiful Plotting in R\nggplot2 Theme Elements Demonstration\nR you ready to make charts?\nSDS 375: Data Visualization in R\nThe ggplot flibbook\nCreate a Visual CV\nggplot theme for publication ready Plots\nVisualizing Time Series\nR base plotting without wrappers\nHow to basic: bar plots\nggcute\nRacing Barchart with gganimate\nIntroducing ‘optout’ - A package for optimizing graphics output\nRacing Barplots with {ggpattern}, {flagon} & {gganimate}\nSpruce up your ggplot2 visualizations with formatted text\nSix things I always Google when using ggplot2\nState Unemployment Claims\nVisualizing the heterogeneity of single cell data from time-lapse imaging\nDynamic display of data with animated plots\nGenerate your own ggplot theme gallery\nthe seven living generations in America\nthis old house\nRadial Patterns in ggplot2\nHow to build Animated Charts like Hans Rosling — doing it all in R\n10 Levels of ggplot2: From Basic to Beautiful\nReproducing an Axios plot\nHow to create Bar Race Animation Charts in R\nInspiration from Flowing Data\nNYT-style urban heat island maps\nPractical ggplot2\nggchicklet\nHow to Add Labels Directly in ggplot2\nggplot2 Bar Chart\nThemes to Improve Your ggplot figures\nAccelerate your plots with ggforce\nggrapid\nAnimating Your Data Visualizations Like a Boss Using R\n12 Extensions to ggplot2 for More Powerful R Visualizations\nggthemes\nhtmlwidgets\nGetting started with data visualization in R using ggplot2\nGreat Looking Tables\nPatchwork R package goes nerd viral\nggplot date helpers\nggplot2: Mastering the basics\nRacing Barchart with gganimate\nggpattern\n{ggtext} for images as x-axis labels\nGGPLOT THEMES GALLERY\nVisualising high-dimensional data\nReordering and facetting for ggplot2\nRyo Viz\nDendrograms in R, a lightweight approach\nA look into U.S. infectious diseases\nCan I do that? Inspiration from a Pudding data visualization"
+  },
+  {
+    "objectID": "resources/ds_viz.html#data-visualization-python",
+    "href": "resources/ds_viz.html#data-visualization-python",
+    "title": "Data Visualization Notes and Tutorials",
+    "section": "Data Visualization (Python)",
+    "text": "Data Visualization (Python)\n\nBooks\n\nThe Python Graph Gallery\n\n\n\nTutorials\n\nVisualizing Data with Pairs Plots in Python\nHow to Make a Scatter Plot in Python using Seaborn\nSeaborn Heatmaps: 13 Ways to Customize Correlation Matrix Visualizations\nHow to make a matplotlib line chart\nPython Plotting for Exploratory Data Analysis\nEffectively Using Matplotlib\nPyWaffle\nEasily hiding items from the legend in matplotlib\nThe Next Level of Data Visualization in Python\nIntroducing Plotly Express\nseaborn: statistical data visualization\nPyGWalker"
+  },
+  {
+    "objectID": "resources/ds_viz.html#data-visualization-tableau",
+    "href": "resources/ds_viz.html#data-visualization-tableau",
+    "title": "Data Visualization Notes and Tutorials",
+    "section": "Data Visualization (Tableau)",
+    "text": "Data Visualization (Tableau)\n\nA Beginner’s Guide to Tableau Public\nResources\nWhat Is Data Visualization? Definition, Examples, And Learning Resources\nThe 10 Best Data Visualization Blogs To Follow\nHow to ace the Tableau Desktop Qualified Associate exam!\nTableau Tips, Dashboards, and Training\n7 tips and tricks from the dashboard experts\nData Visualization with Tableau"
+  },
+  {
+    "objectID": "resources/ds_viz.html#data-artistry",
+    "href": "resources/ds_viz.html#data-artistry",
+    "title": "Data Visualization Notes and Tutorials",
+    "section": "Data aRtistry",
+    "text": "Data aRtistry\n\nGetting started in #rtistry\nART FROM CODE\nLife Through A Mathematician’s Eyes\naRt\nRtistry Gallery\nArt by Claus O. Wilke\nUnpredictable paintings\nMystery curves\nFlow Fields\nHOW TO WORK WITH FLOW FIELDS IN R"
+  },
+  {
+    "objectID": "resources/programming/git_hub_cl_sql.html",
+    "href": "resources/programming/git_hub_cl_sql.html",
+    "title": "Git, GitHub, Command Line, and SQL",
+    "section": "",
+    "text": "Good Enough Practices in Scientific Computing\nGit Cheatsheet\nA Visual Git Reference\nUnderstanding Git Conceptually\nVisualizing Git Concepts with D3\nGit Immersion\nLearn Git Branching\nGit Basics\nBecome a git guru\nGit and RStudio\nIntroduction to Git & Github\nHow to Use Git/GitHub with R\ngit ready\nGit/GitHub Cheatsheet\nPro Git Book\nHappy Git and GitHub for the user\nOn undoing, fixing, or removing commits in git\ngit pretty\nVersion Control (Git)\nFixing Common Git Mistakes"
+  },
+  {
+    "objectID": "resources/programming/git_hub_cl_sql.html#github",
+    "href": "resources/programming/git_hub_cl_sql.html#github",
+    "title": "Git, GitHub, Command Line, and SQL",
+    "section": "GitHub",
+    "text": "GitHub\n\nMastering GitHub in 4 Steps\nGitHub Minesweeper\nIntroduction to GitHub Actions to R users\nGitHub for supporting, reusing, contributing, and failing safely\nFirst aid git\nMaking Your First GitHub R Project\nIntroducing GitHub Global Campus\nAn Intro to Git and GitHub for Beginners (Tutorial)\nCollaboration, version control and learning to commit\nSoftware development practices\nGet started with Git and GitHub\n\nHow to effortlessly create a website for free with GitHub Pages\nGetting started with Git and GitHub: the complete beginner’s guide\nIntroducing Jekyll Now for GitHub-hosted blogs"
+  },
+  {
+    "objectID": "resources/programming/git_hub_cl_sql.html#command-line-bash-unix-and-linux",
+    "href": "resources/programming/git_hub_cl_sql.html#command-line-bash-unix-and-linux",
+    "title": "Git, GitHub, Command Line, and SQL",
+    "section": "Command Line (Bash, UNIX, and Linux)",
+    "text": "Command Line (Bash, UNIX, and Linux)\n\nCommand Line Basics for R Users\nIntro to UNIX\nThe Unix Shell 1\nThe Unix Shell 2"
+  },
+  {
+    "objectID": "resources/programming/git_hub_cl_sql.html#sql",
+    "href": "resources/programming/git_hub_cl_sql.html#sql",
+    "title": "Git, GitHub, Command Line, and SQL",
+    "section": "SQL",
+    "text": "SQL\n\nSQL queries don’t start with SELECT\n21 of the best free resources to learn SQL\nPostgreSQL Tutorial\nA Visual Explanation of SQL Joins\nThe SQL Tutorial for Data Analysis\nSQL\nSQL Tutorial\nSQLBolt\nSQL Tutorial\nDatabases 101"
+  },
+  {
+    "objectID": "resources/programming/python.html",
+    "href": "resources/programming/python.html",
+    "title": "Python",
+    "section": "",
+    "text": "100 Page Python Intro\nPython for Non-Programmers\nAutomate the Boring Stuff with Python\nNumpy\nPython Programming And Numerical Methods: A Guide For Engineers And Scientists\nElements of Data Science\nPython for Everybody (PY4E)\nScientific Computing with Python\nPython Curriculum Map\nComputational and Inferential Thinking: The Foundations of Data Science\nPython for Data Analysis, 3E\nPython Machine Learning Jupyter Notebooks\nPython for Beginners Course\nPython Cheatsheet\nA dozen ways to learn Python\nPython Crash Course\nA Whirlwind Tour of Python\nGoogle’s Python Class\nPractical Business Python\nComprehensive Python Cheatsheet\nThink Python 2e\n49 Essential Resources To Learn Python\nA Gallery of Interesting Jupyter Notebooks"
+  },
+  {
+    "objectID": "resources/programming/python.html#tutorials",
+    "href": "resources/programming/python.html#tutorials",
+    "title": "Python",
+    "section": "Tutorials",
+    "text": "Tutorials\n\nReal Python\nA Complete 26 Week Course to Learn Python for Data Science in 2022\nElements of Data Science with Python\nPython for Data Science: 8 Concepts You May Have Forgotten\nResolving Python\nStock Portfolio Analysis using Python\nData School: My top 25 pandas tricks\nPython Machine Learning Notebooks (Tutorial style)\nNeural networks fundamentals with Python\nPython News Webscraper\nWhat is Exploratory Spatial Data Analysis (ESDA)?\nVIB Tutorials\nPython Functions 1\nPython Functions 2\nPython Projects for 2023 – Work on Real-time Projects to Head Start Your Career\nPython Projects with Source Code\nTour of Python Itertools\nPython Online Practice\nPython Machine Learning Tutorial: Predicting Airbnb Prices\nThe Basics of Python For Loops\nAdvanced For Loops in Python\nWeb Scraping with Scrapy\nPython API Tutorial\nIntroduction to Market Basket Analysis in Python\nHow to Use Jupyter Notebook: A Beginner’s Tutorial\nText Analysis in Python to Test a Hypothesis\nGetting started with data science using Python\nTop 10 IPython Notebook Tutorials for Data Science and Machine Learning\nPython Data Science Handbook\nLearning Python For Data Science\nLearn Python in 3 days: Step-by-Step Guide\n10 Python Pandas tricks that make your work more efficient\nPython built-in functions to know\nData Science Best Practices with pandas\n45+ Data Analysis Projects with Python"
+  },
+  {
+    "objectID": "resources/programming/python.html#blogs",
+    "href": "resources/programming/python.html#blogs",
+    "title": "Python",
+    "section": "Blogs",
+    "text": "Blogs\n\nJust into Data\nLVNGD"
+  },
+  {
+    "objectID": "resources/programming/quarto.html",
+    "href": "resources/programming/quarto.html",
+    "title": "Quarto",
+    "section": "",
+    "text": "Quarto\nTutorial: Hello, Quarto\nAwesome Quarto\nR Markdown for Web Pages\nPorting a distill blog to quarto\nWe don’t talk about Quarto\nBuild a simple website with R and Quarto in under 10 minutes\nThe ultimate guide to starting a Quarto blog\nGetting Started with Quarto\nWhat is Quarto? RStudio rolls out next-generation R Markdown\nMaking Slides in Quarto with reveal.js\nCreating a blog with Quarto in 10 steps"
+  },
+  {
+    "objectID": "resources/programming/r_rstudio.html",
+    "href": "resources/programming/r_rstudio.html",
+    "title": "R and RStudio",
+    "section": "",
+    "text": "Silvia Canelon\nMeghan Hall\nPaul Villanueva\nShannon Pileggi\nKatherine (Kat) Hoffman\nDeisy Gysi\nSimon J\nRyo Nakagawara\nSome Favorite Things\nFrançois Husson\nRebecca Barter\nAlboukadel Kassambara\nMichael Toth\nSam Abbott\nShel Kariuki\nAustin Wehrwein"
+  },
+  {
+    "objectID": "resources/programming/r_rstudio.html#basics",
+    "href": "resources/programming/r_rstudio.html#basics",
+    "title": "R and RStudio",
+    "section": "Basics",
+    "text": "Basics\n\nBig Book of R\nRWeekly\nR4DataScience\nR4DataScience - Solutions\nFREE R READING MATERIAL\nSTHDA\nR Workflow A\nR Workflow B\nSTAT 545 Data wrangling, exploration, and analysis with R\nUrban Informatics\nModern Statistics with R\ndatascienceplus\nR for Researchers: An Introduction\nSupervised Machine Learning for Text Analysis in R\nStatistical Computing in R\nStatistical Programming Paradigms and Workflows\nReproducible Analytical Pipelines - Master’s of Data Science\nR for Data Analysis\nData Analysis and Prediction Algorithms with R\nHands-On Programming with R\nR for Health Data Science\nR for Health Data Science Resources\nR Universe Authors and Packages\nTeaching Statistics and Data Science Online\nData Science in Education Using R\nR-hub\nR in Visual Studio Code\nAn R Community Public Library\nA Succinct Intro to R\nAn Introduction to Docker for R Users\nData Science: A First Introduction\nR Bootcamp\nKane’s Data Science Course\nSTREAMLINING WITH R\nR for Ecology\nThe Epidemiologist R Handbook\nAndrew Heiss R-based courses\nAwesome R Learning Resources\nIntroduction to R, version 2\nR Cheatsheets\nR Bootcamp\nInterpretable Machine Learning\nReady for R\nAdvanced R Topics\nReproducible science workshop\nApplied Economics with R\nIntro to R: Shiny App\nStats and R\nYaRrr! The Pirate’s Guide to R\nR 4 Beginners\nR for Water Resources Data Science\nAI with R blog\nR4theRestofUs\npurrr tutorial\nModern Data Science with R\nAn Introduction to R\nThink R\nTechnical Foundations of Informatics\nData Science for Economists and Other Animals\nEfficient R programming\nTwitter for R programmers\nexplore R\nR basics: a practical introduction to R\nRTutor: Interactive R Problem Sets\nIntroduction to R\nEDUCATORS R LEARNERS\nR for better science in less time\nModern Dive\nRMarkdown\nMusings on R\nAdvanced R\nfasteR: Fast Lane to Learning R!\nR Resources\nR and Data Mining\nSpatial Data Science\nGeneralized Additive Models in R\nAnalysis of community ecology data in R\nR Screencasts\nYet Again: R + Data Science"
+  },
+  {
+    "objectID": "resources/programming/r_rstudio.html#tutorials",
+    "href": "resources/programming/r_rstudio.html#tutorials",
+    "title": "R and RStudio",
+    "section": "Tutorials",
+    "text": "Tutorials\n\nRStudio Education\nRStudio Education Beginners\nRStudio Education Intermediates\nRStudio Education Experts\nQuick-R Tutorial\nLearn R in R\nCommon R Mistakes in Data Viz\nKaggle Housing Price Tutorial\nR and Stats\nR and gpttools\nTalk recordings and workshop materials from rstudio::conf(2022)\nPalmer Archipelago Penguins Data\nR Libraries Every Data Scientist Should Know\nPublic Policy Analytics\nPackages for Exploratory Data Analysis in R\nHow to Use “not in” operator in Filter\nWe are R-Ladies\nWord Clouds in R\nWeb Scraping in R: A Quick Guide\n15 Essential packages in R for Data Science\nCreate machine learning models: An R version\nHands-On Machine Learning with R\nIntro to R for Programming\nIntroduction to Package Development\nYour first R package in 1 hour\nDeveloping R packages\nR Packages\nData Wrangling and dplyr\nWhat I Wish I Knew When I Started R\nRsquared Academy\nData science tutorials\nWrangling Unruly Data\nVisualizing the Bayesian workflow in R\nMARKET ANALYSIS COURSE\nLearning R With Education Datasets\nR Examples\nNHS-R\nLinks to slides from rstudio::conf 2020\nReflections on building my first few R packages\nPosit Cheatsheets\nCleaning UK Office for National Statistics data in R\nHow to Automate EDA with DataExplorer in R\nuseR! 2019 Highlights\nToulouseR 2019\nRachael’s R Tutorials\nManipulating Data with dplyr\nGet me to the church on time with R spatial\nMultivariate data analysis with R and vegan"
+  },
+  {
+    "objectID": "resources/programming/r_rstudio.html#tidyverse",
+    "href": "resources/programming/r_rstudio.html#tidyverse",
+    "title": "R and RStudio",
+    "section": "Tidyverse",
+    "text": "Tidyverse\n\nA very short introduction to Tidyverse\nTidyverse Workshop Series\nPivoting data from columns to rows (and back!) in the tidyverse\nReshaping data frames using pivot functions from {tidyr} and tally from {dplyr}\nThe Tidyverse in Action\nA Gentle Guide to Tidy Statistics in R\nFinding the modal school district\nTidyverse Skills for Data Science\nData Science LADAL Tutorials\nIntroduction to using Databases in R, with Tidyverse tools\nEight R Tidyverse tips for everyday data engineering\nAn Introduction to R through the tidyverse\nTidyverse Tips\nModern R with the tidyverse\nTeaching the tidyverse in 2021\nC’est quoi, le tidyverse?\nText Mining with R: A Tidy Approach\nTidyverse Training\nWrangling penguins: some basic data wrangling in R with dplyr\nData manipulation with the tidyverse\nThe TidyVerse in Action\nTidy analysis of cocktails - Part I – EDA\nTidy analysis of cocktails - Part II - Exploratory k-means clustering\nTransitioning into the tidyverse (part 1)\nTransitioning into the tidyverse (part 2)\nBasic usage of tidycensus"
+  },
+  {
+    "objectID": "resources/programming/r_rstudio.html#tidymodels-in-r",
+    "href": "resources/programming/r_rstudio.html#tidymodels-in-r",
+    "title": "R and RStudio",
+    "section": "Tidymodels in R",
+    "text": "Tidymodels in R\n\nTidy Modeling with R\nTidymodels\nA Gentle Introduction to tidymodels\nThe Case for tidymodels\nISLR tidymodels labs\nIntroduction to Machine Learning with the Tidyverse\nRStudio Conf Workshop Materials\nTidymodels package for survival models\nFeature Engineering\nFeature Engineering and Selection: A Practical Approach for Predictive Models\nExperimenting with machine learning in R with tidymodels and the Kaggle titanic dataset\nModeling Data in the Tidyverse\nSample Story: When Will NYC’s Subway Ridership Recover?\n#TidyTuesday and tidymodels\nCaret vs. tidymodels - comparing the old and new\nExperimenting with machine learning in R with tidymodels and the Kaggle titanic dataset\nTidymodels: tidy machine learning in R\ntidypredict"
+  },
+  {
+    "objectID": "resources/programming/r_rstudio.html#r-shiny",
+    "href": "resources/programming/r_rstudio.html#r-shiny",
+    "title": "R and RStudio",
+    "section": "R Shiny",
+    "text": "R Shiny\n\nShiny Learning Resources\nShiny Tutorials\nMastering Shiny\nBuilding Web Applications WITH SHINY\na gRadual intRoduction to Shiny\nEngineering Production-Grade Shiny Apps\nHTML widgets flexdashboard\nhtmlwidgets for R\nRinteRface: HTML templates for Shiny\nBuilding Interactive World Maps in Shiny\nLoading screens for Shiny: waiter\nBuilding Shiny apps - an interactive tutorial\nHow to Start a Career as an R Shiny Developer\nOutstanding User Interfaces with Shiny\nShiny Apps development\nThe World’s Most Advanced R Shiny Dashboards"
+  },
+  {
+    "objectID": "resources/random_interests/agric_farm.html",
+    "href": "resources/random_interests/agric_farm.html",
+    "title": "Agriculture and Farming Stories",
+    "section": "",
+    "text": "Digital Agriculture\nCrop Yield Increase With Precision Technologies\nConnecterra\nThe Precision Farming Magazine\nHarvest Robotics\nIoT Farming Solutions 1\nIoT Farming Solutions 2\nGarage Hydroponics\nNext-generation harvesting robots\nHydroponics Africa\nPassion Fruit and Tech\nCultured Meat\nModern Ag Canada\nProteINSECT\nBuild a Solar Cooker and Dryer\n\n\n\n\n\nFeed the Future Innovation Lab for Horticulture\nLatia Resource Center\nSustainable Food Lab\nPostHarvest\nRural Solutions Portal\nAfrica Value Chain Dev\nAfrican indigenous vegetables\nIncreased Photosynthesis\n\n\n\n\n\nAero Farms\nGoat Farm\nSundrop Farms\nRivenDale\nSicilian Passion"
+  },
+  {
+    "objectID": "resources/random_interests/agric_farm.html#farming-stories-longform-and-in-depth-articles-about-farming-around-the-world",
+    "href": "resources/random_interests/agric_farm.html#farming-stories-longform-and-in-depth-articles-about-farming-around-the-world",
+    "title": "Agriculture and Farming Stories",
+    "section": "Farming Stories (Longform and In-depth articles about farming around the world)",
+    "text": "Farming Stories (Longform and In-depth articles about farming around the world)\n\nTHIS TINY COUNTRY FEEDS THE WORLD\nThe small Dutch town that wants to shape the future of your food\nA Land Without Farmers\nRio Fish"
+  },
+  {
+    "objectID": "resources/random_interests/biomech_sports_be.html",
+    "href": "resources/random_interests/biomech_sports_be.html",
+    "title": "Biomechanics and Sports Bioengineering",
+    "section": "",
+    "text": "Biomechanics of Movement\nBiomechanics of Movement Classroom\nThe Biomechanist\nReinbolt Research Group\nNotes on Scientific Computing for Biomechanics and Motor Control\nThe Biomechanics of Solids and Fluids: The Physics of Life\nDFB Sports Academy\nStuart McErlain-Naylor Biomechanics Website\nUnderstanding Biomechanics and Body Movement"
+  },
+  {
+    "objectID": "resources/random_interests/biomech_sports_be.html#sports-bioengineering",
+    "href": "resources/random_interests/biomech_sports_be.html#sports-bioengineering",
+    "title": "Biomechanics and Sports Bioengineering",
+    "section": "Sports Bioengineering",
+    "text": "Sports Bioengineering\n\nBecoming a Sports Engineer\nPeak Performance Project\nBTS Bioengineering\nSparta Science"
+  },
+  {
+    "objectID": "resources/random_interests/soc_med_music_analysis.html",
+    "href": "resources/random_interests/soc_med_music_analysis.html",
+    "title": "Social Media and Music Analysis",
+    "section": "",
+    "text": "Text Mining with R\nSocial Media Mining\nSocial Media Mining (Slides)\nUsing Twitter as a data source an overview of social media research tools (2021)\nQuantitative Analysis of Political Text\nANALYSING TWITTER DATA WITH R\nANALYSING TWITTER DATA: EXPLORING USER PROFILES AND RELATIONSHIPS\nANALYSING TWITTER DATA: EXPLORING TWEETS CONTENT\ntwitter-sentiment-analysis\nText As Data\n4 ways how to create a gradient word cloud in R\nAnalyzing Google Trends with R: Retrieve and plot with gtrendsR\nUsing Twitter With Python And Tweepy\nText Classification in Python Using spaCy\nGetting Music Data with the Last.fm API using Python\nClassifying Tweets for Sentiment Analysis\nAnalytics Master’s Research Project\nAdvancing Text Mining with R and quanteda\nCalculating (Twitter) Vocabulary Breadth of U.S. Presidential Candidates Using TTR\nUSING R TO ANALYZE AND VISUALIZE TWEETS FROM SACNAS\nTwitter data analysis in R\nTwitter’s Feelings About Programming Languages\nTwitter “Account Analysis” in R\nA TidyText Analysis With R\nLook who’s tweeting: 2020 Presidential Candidates"
+  },
+  {
+    "objectID": "resources/random_interests/soc_med_music_analysis.html#music-analysis",
+    "href": "resources/random_interests/soc_med_music_analysis.html#music-analysis",
+    "title": "Social Media and Music Analysis",
+    "section": "Music Analysis",
+    "text": "Music Analysis\n\nSpotify R&D\nspotifyr package\n13 best websites to analyze your Spotify data\nSpotify Songs: Tidy Tuesday\nHow to integrate Spotify and Genius API to easily crawl song lyrics with Python\nProfiling Songs on Spotify Using Cluster Analysis\nSentiment Analysis of Most Streamed Spotify Artists\nLyric Analysis with NLP & Machine Learning with R\nWhat’s popping?: An Exploratory Analytics Project on What Makes Popular Music Popular\nAnalysis my Spotify in R with spotifyr package\nGame of Thrones: Exploratory and Sentiment Analysis\ntayloR\nExploring the Spotify API with R\nLearn tidytext with my new learnr course\nText mining with tidy data principles\nAre Pop Lyrics Getting More Repetitive?\nAZLyrics\nSpotify Songs: An analysis of the spotify dataset\nFitteR HappieR\nData Wrangling - Spotify Dataset Analysis\nUnderstanding + classifying genres using Spotify audio features\nWhat Makes a Hit\nWhat Makes Songs Popular? It’s All About ‘You’\nCan big data really predict what makes a song popular?\nPCA and the #TidyTuesday best hip hop songs ever\nBlue Christmas: A data-driven search for the most depressing Christmas song\nUsing Data to Find the Angriest Death Grips Song\nSpotify songs popularity analysis\nNigerian Songs Spotify EDA\nSentiment Analysis of Spotify, Amazon Music and Pandora user reviews"
+  },
+  {
+    "objectID": "resources/random_interests/startup_innov.html",
+    "href": "resources/random_interests/startup_innov.html",
+    "title": "Startup and Innovation Resources",
+    "section": "",
+    "text": "Startup Resources\n\n\nStartupTools\nStartup Smarter\nStartup Estonia Resources\nY-Combinator\nIngressive Capital\nFluorish Ventures\nIndie Bio\n500 Global\nNLC Venture Builder\nBiogeneration Ventures\nUniversity Startup Resources\nBiocomxC3i Program\nFounder Playlist\nFlint Atlantic Capital\n\n\nInnovation\n\n\nDevelopment Innovation Ventures\nCreative Destruction Lab\nChristensen Institute\nBioInnovate Africal\nIsrael Innovation\nSmart Agro Fund\nEXTREME Design Stanford\n100 PANDEMIC TECHNOLOGIES\nMIT D-Lab\nMedical Device and Diagnostic Industry"
+  },
+  {
+    "objectID": "resources/readings/reading_general.html",
+    "href": "resources/readings/reading_general.html",
+    "title": "Recommended Readings (General)",
+    "section": "",
+    "text": "How Will You Measure Your Life? Clayton Christensen (2010)"
+  },
+  {
+    "objectID": "resources/readings/reading_general.html#my-favorite-short-stories",
+    "href": "resources/readings/reading_general.html#my-favorite-short-stories",
+    "title": "Recommended Readings (General)",
+    "section": "My Favorite Short Stories",
+    "text": "My Favorite Short Stories\n\nHow Much Land Does a Man Require? Leo Tolstoy (1886)\nThe Americanization of Kambili. Tochi Eze (2022) Link\nThe Street Sweep. Meron Hadero (2018) Link"
+  },
+  {
+    "objectID": "resources/readings/reading_general.html#classics",
+    "href": "resources/readings/reading_general.html#classics",
+    "title": "Recommended Readings (General)",
+    "section": "Classics",
+    "text": "Classics\n\nNight (Elie Wiesel)\nGilead (Marilynne Robinson)"
+  },
+  {
+    "objectID": "resources/readings/reading_general.html#mental-health-counseling-peace-of-mind",
+    "href": "resources/readings/reading_general.html#mental-health-counseling-peace-of-mind",
+    "title": "Recommended Readings (General)",
+    "section": "Mental Health / Counseling / Peace of Mind",
+    "text": "Mental Health / Counseling / Peace of Mind\n\nWhen People Are Big and God Is Small: Overcoming Peer Pressure, Codependency, and the Fear of Man (Edward T. Welch)\nSeeing with New Eyes: Counseling and the Human Condition Through the Lens of Scripture (David A. Powlison)\nMan’s Search for Meaning (Viktor E. Frankl)\nAbsence of Mind: The Dispelling of Inwardness from the Modern Myth of the Self (Marilynne Robinson)"
+  },
+  {
+    "objectID": "resources/readings/reading_general.html#religious",
+    "href": "resources/readings/reading_general.html#religious",
+    "title": "Recommended Readings (General)",
+    "section": "Religious",
+    "text": "Religious\n\nThe Reason for God: Belief in an Age of Skepticism (Timothy J. Keller)\nThe Cost of Discipleship (Dietrich Bonhoeffer)\nA Treatise of Earthly-Mindedness (Jeremiah Burroughs)\nThe Knowledge of the Holy (A.W. Tozer)\nThe Pursuit of God: The Human Thirst for the Divine (A.W. Tozer)\nA Bunch of Everlastings; Or, Texts That Made History (F.W. Boreham)\nA Packet of Surprises: The Best Essays and Sermons of F. W. Boreham (F.W. Boreham)\nThe Screwtape Letters (C.S. Lewis)\nThe Last Sin Eater (Francine Rivers)\nMere Christianity (C.S. Lewis)"
+  },
+  {
+    "objectID": "resources/readings/reading_stem.html",
+    "href": "resources/readings/reading_stem.html",
+    "title": "Recommended Readings (STEM)",
+    "section": "",
+    "text": "How to succeed in science: a concise guide for young biomedical scientists. Part I: taking the plunge. Yewdell JW, Nat Rev Mol Cell Biol. (2008).\nHow to succeed in science: a concise guide for young biomedical scientists. Part II: making discoveries. Yewdell JW, Nat Rev Mol Cell Biol. (2008).\nThe importance of stupidity in scientific research. Schwartz MA, J Cell Sci. (2008).\nUnskilled and unaware of it: how difficulties in recognizing one’s own incompetence lead to inflated self-assessments (Dunning-Kruger Effect). Kruger J and Dunning D, J Pers Soc Psychol. (1999).\nHow to choose a good scientific problem. Alon U, Mol Cell. (2009).\nPLOS “Ten Simple Rules” Collection provides a quick, concentrated guide for mastering some of the professional challenges research scientists face in their careers. PloS.\nResources for PhD Students Guillaume Dalle."
+  },
+  {
+    "objectID": "resources/readings/reading_stem.html#challenges",
+    "href": "resources/readings/reading_stem.html#challenges",
+    "title": "Recommended Readings (STEM)",
+    "section": "Challenges",
+    "text": "Challenges\n\nThe Emotional Toll of Graduate School. Puri P, Sci Am. (2019).\nPhDs: the tortuous truth. Woolston C, Nature (2019).\nWhy doing a PhD is often a waste of time The Economist, Medium (2016).\nThere’s an awful cost to getting a PhD that no one talks about Walker J, Quartz (2015)."
+  },
+  {
+    "objectID": "resources/readings/reading_stem.html#transformative-research-papers",
+    "href": "resources/readings/reading_stem.html#transformative-research-papers",
+    "title": "Recommended Readings (STEM)",
+    "section": "Transformative Research Papers",
+    "text": "Transformative Research Papers\n\nA Programmable Dual-RNA-Guided DNA Endonuclease in Adaptive Bacterial Immunity Jinek et al., Science (2012) from the Doudna and Charpentier Lab\nInduction of pluripotent stem cells from mouse embryonic and adult fibroblast cultures by defined factors Takahashi et al., Cell (2006) from the Yamanaka Lab\nMatrix Elasticity Directs Stem Cell Lineage Specification Engler et al., Cell (2006) from the Discher Lab"
+  },
+  {
+    "objectID": "resources/readings/reading_stem.html#statistics",
+    "href": "resources/readings/reading_stem.html#statistics",
+    "title": "Recommended Readings (STEM)",
+    "section": "Statistics",
+    "text": "Statistics\n\nWhat exactly is ‘N’ in cell culture and animal experiments? Lazic SE et al., PloS Biol. (2018).\nSuperPlots: Communicating reproducibility and variability in cell biology. Lord SJ et al., J Cell Biol. (2020).\nTen common statistical mistakes to watch out for when writing or reviewing a manuscript. Makin TR et al. eLife (2019).\nBeyond bar and line graphs: time for a new data presentation paradigm. Weissgerber TL et al. PloS Biol. (2015).\nStatistical relevance—relevant statistics, part I. Klaus B EMBO J. (2015).\nStatistical relevance-relevant statistics, part II: presenting experimental data. Klaus B EMBO J. (2015).\nTen simple rules for getting started with statistics in graduate school Zitomer RA et al. PloS Comput Biol. (2022)."
+  },
+  {
+    "objectID": "resources/readings/reading_stem.html#writing",
+    "href": "resources/readings/reading_stem.html#writing",
+    "title": "Recommended Readings (STEM)",
+    "section": "Writing",
+    "text": "Writing\n\nACS Guide to Scholarly Communication. ACS. (2020).\nThe art of writing science. Plaxco KW, Prot. Sci. (2010).\nWhitesides’ Group: Writing a Paper. Whitesides GM, Adv. Mat. (2004).\nHow to write a first-class paper. Gewin V, Nature (2018).\nWriting readable prose: When planning a scientific manuscript, following a few simple rules has a large impact. Bredan AS & van Roy F, EMBO Rep. (2006).\nTen simple rules for structuring papers Mensh B & Kording K, PLoS Comp Biol. (2017).\nWrite accessibly Editors, Nat Biomed Eng. (2021)."
+  },
+  {
+    "objectID": "resources/readings/reading_stem.html#science-integrity",
+    "href": "resources/readings/reading_stem.html#science-integrity",
+    "title": "Recommended Readings (STEM)",
+    "section": "Science Integrity",
+    "text": "Science Integrity\n\nScience Integrity Digest Bik E\nBrookes Lab Brookes P. Sample Post focused on “Fake Data”\nPubPeer: The Online Journal Club\nFor Better Science Schneider L\nRetraction Watch\nAutomatic detection of image manipulations in the biomedical literature Bucci EM, Cell Death and Disease (2018).\nLearning to identify image manipulations in scientific publications Mazaheri G et al., arXiv (2021).\nPublishing ethics in the era of paper mills Hackett R and Kelly S, Biol Open (2020)."
+  },
+  {
+    "objectID": "resources/teaching/gen_teach_resources.html",
+    "href": "resources/teaching/gen_teach_resources.html",
+    "title": "General Teaching Resources",
+    "section": "",
+    "text": "Teaching Tech Together\nInstructor Training\nMaintaining a laboratory notebook\nSubjects and Skills for Graduate Students in the Biological Sciences\nResources for PhD Students by Guillaume Dalle\nScientific Figure Design"
+  },
+  {
+    "objectID": "resources/teaching/gen_teach_resources.html#tools-and-teaching-aids",
+    "href": "resources/teaching/gen_teach_resources.html#tools-and-teaching-aids",
+    "title": "General Teaching Resources",
+    "section": "Tools and Teaching Aids",
+    "text": "Tools and Teaching Aids\n\nWhiteboard\nOne Page Website\nIllustrations\nEtherpad\nActive Memory\nWhat Runs\nBeautiful Free Stock Video Footage\nKeyboard Test\nTyping Test\nGeoGebra for Teaching and Learning Math\nGeoGebra Simulations\nBioRender Learning Hub\nPhysics Education and Training Simulations\nCircuit simulation and schematics\nInteractive STEM activities\nFree and flexible textbooks and resources\nCollege Physics\nFace2Face\nVoice Cloning"
+  },
+  {
+    "objectID": "resources/teaching/rstudio_carpentries_cert.html",
+    "href": "resources/teaching/rstudio_carpentries_cert.html",
+    "title": "RStudio and Carpentries Certification",
+    "section": "",
+    "text": "R4DS Book – Prep for Exam\nPOSIT/R Training Videos\nPOSIT Primers\nRStudio Sample Exams\nLaurie L Baker RStudio Instructor Training\nMarly Comar Gotti Tidyverse Certification\nYuqi Liao: Getting Certified as an RStudio Instructor\nShel Kariuki: The RStudio Certification Process\nFlorencia D’Andrea: Two examples of iteration with purrr - Class for the RStudio certification\nSilvia Canelon RStudio Certification\nSilvia Canelon RStudio Certification Training 1\nSilvia Canelon RStudio Certification Training 2\nSilvia Canelon R4DS Certification Training 1\nPaloma Rojas Saunero RStudio Certification Training 1\nPaloma Rojas Saunero RStudio Certification Exam Slides\nPaloma Rojas Saunero RStudio Certification Exam Notes\nMiscellaneous Teaching Notes 1\nMiscellaneous Teaching Notes 2"
+  },
+  {
+    "objectID": "resources/teaching/rstudio_carpentries_cert.html#carpentries-certification",
+    "href": "resources/teaching/rstudio_carpentries_cert.html#carpentries-certification",
+    "title": "RStudio and Carpentries Certification",
+    "section": "Carpentries Certification",
+    "text": "Carpentries Certification\n\nThe Carpentries\nData Carpentry\nSoftware Carpentry\nLibrary Carpentry"
+  },
+  {
+    "objectID": "resources/teaching/writing.html",
+    "href": "resources/teaching/writing.html",
+    "title": "Medical, Science, and Technical Writing",
+    "section": "",
+    "text": "Academic Phrasebank\nExcelsior Online Writing Lab\nPurdue Online Writing Lab\nQuick and Dirty Tips\nInter-Biotech: Biomedical Language Editing\nFeatures of academic writing\nAmerican Copy Editors Series\nGo The Distance: Academic Writing\nACES Grammar Guide Quizzes\nIntroduction to Common Errors in English Usage"
+  },
+  {
+    "objectID": "resources/teaching/writing.html#medical-writing",
+    "href": "resources/teaching/writing.html#medical-writing",
+    "title": "Medical, Science, and Technical Writing",
+    "section": "Medical Writing",
+    "text": "Medical Writing\n\nHealth Writer Hub: 30-day writing challenges\nMedComms Networking\nDebra Gordon\nArmitage Medical\nMartin Medical Writing\nThe Med Writers"
+  },
+  {
+    "objectID": "resources/teaching/writing.html#science-writing",
+    "href": "resources/teaching/writing.html#science-writing",
+    "title": "Medical, Science, and Technical Writing",
+    "section": "Science Writing",
+    "text": "Science Writing\n\nA Note to Beginning Science Writers\nScience Blogging 101\nHow to write a science blog\nCarl Zimmer’s advice for aspiring science writers\nSix great pieces of science writing you may have missed this year"
+  },
+  {
+    "objectID": "resources/teaching/writing.html#technical-writing",
+    "href": "resources/teaching/writing.html#technical-writing",
+    "title": "Medical, Science, and Technical Writing",
+    "section": "Technical Writing",
+    "text": "Technical Writing\n\nAwesome Technical Writing\nA beginner’s guide to writing documentation\nTechnical Writing: Why and How?\nWelcome to Google Season of Docs\nBecoming a Technical Writer at Google\nAdvice for Technical Writing\nThe Society for Technical Communication\nHow to write a great technical blog post"
+  },
+  {
+    "objectID": "series/series_1.html",
+    "href": "series/series_1.html",
+    "title": "R and RStudio: Getting Started and The Basics",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "series/series_2.html",
+    "href": "series/series_2.html",
+    "title": "Data Stories",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "resources/biox/bioinf.html",
+    "href": "resources/biox/bioinf.html",
+    "title": "Bioinformatics and Computational Biology",
+    "section": "",
+    "text": "JT Leek\nKarolis Koncevičius\nEytan Ruppin\nLior Pachter\nJean Fan\nPhenomics\nLiu Lab\nCosta Lab\nMing Tang\nKarl Broman\nKrishnaswamy Lab\nPhilip Compeau\nZHOU LAB\nJames Zou"
+  },
+  {
+    "objectID": "resources/biox/bioinf.html#bioinformatics-basics",
+    "href": "resources/biox/bioinf.html#bioinformatics-basics",
+    "title": "Bioinformatics and Computational Biology",
+    "section": "Bioinformatics Basics",
+    "text": "Bioinformatics Basics\n\nLearning Bioinformatics At Home\nWelcome to a Little Book of R for Bioinformatics\nIntroduction to Genomics for Engineers\nIntroduction to Computational Biology\nChildhood Cancer Data Lab\nSDS 348, Computational Biology and Bioinformatics 2019\nSDS 348, Computational Biology and Bioinformatics 2020\nModern Statistics for Modern Biology\nCELL BIOLOGY BY THE NUMBERS\nBMI 702 | Biomedical Artificial Intelligence\nBioinformatics Research Network\nBioinformatics Starter Pack\nDIY Transcriptomics\nBIG Bioinformatics\nBiodatascience101\nRNA-Seq Blog\nBiological Architecture Reading Roadmap\nIntroduction to biological circuit design\nOrchestrating Single-Cell Analysis with Bioconductor\nSingle-cell best practices\nBD2K-LINCS DATA COORDINATION AND INTEGRATION CENTER\nExploring Spatial Omics\nCRISPRpedia\nCOLAUTTI LAB\nR2 Genomics Analysis and Visualization Platform\nIntro to Biomedical Data Science\nBiomedical Data Science\nThe Top 15 Machine Learning Data Science Bioinformatics Open Source Projects\nData Science for the Biomedical Sciences\nWhat is genomics?\n20 YouTube Channels Every Bioinformatician Should Follow\nGenomic Data Science Community Network\nEngineering Biology Research Consortium\n7 Books for you to learn bioinformatics\nData Analysis for the Life Sciences (Free E-book)\nPractical Computing for Biologists\nA Primer for Computational Biology\nComputational Genomics with R\nThe Biologist’s Guide to Computing\nBioinformatics Data Skills\nThe Supplementary Material Repository for Bioinformatics Data Skills\n[From cell line to command line https://divingintogeneticsandgenomics.ck.page/)\nIntroduction to Unix, Orchestra and RNA-Seq\nLinux command line exercises for NGS data processing\nIntroduction to Unix\nLearn about Bioinformatics and Computational Tools for Biology\nIntroduction to R for Biologists\nExplore the world of Bioinformatics with Machine Learning\nDeep learning on computational biology and bioinformatics tutorial\nHarvardX Biomedical Data Science Open Online Training\nFolding@Home\nPython for biologists\nMachine learning for biology part one\nMachine learning for biology part two\nMachine learning for biology part three\nMachine learning for biology part four\nBiopython\nThe Biostar Handbook. A bioinformatics e-book for beginners\nGraphs and Networks for Biology using R\nBioinformatics in the Tidyverse\nCleva Lab Biology\nModeling Life"
+  },
+  {
+    "objectID": "resources/biox/bioinf.html#bioinformatics-tutorials",
+    "href": "resources/biox/bioinf.html#bioinformatics-tutorials",
+    "title": "Bioinformatics and Computational Biology",
+    "section": "Bioinformatics Tutorials",
+    "text": "Bioinformatics Tutorials\n\nChildhood Cancer Data Lab Workshop Materials\nChildhood Cancer Data Lab Research Resources\n[Crash Courses in Bioinformatics http://crashcourses.biodata.pt/)\nAnalysing the HIV pandemic, Part 1: HIV in sub-Sahara Africa\nAnalysing the HIV pandemic, Part 2: Drug resistance testing\nAnalysing the HIV pandemic, Part 3: Genetic diversity\nAnalysing the HIV pandemic, Part 4: Classification of lab samples\nOncology Bioinformatics project tutorial\nCentre of Bioinformatics Research and Technology (CBIRT)\nGalaxy Training\nGENOMES ARISING\nThe next chapter for African genomics\nEVOLUTION AND GENOMICS\ngget\nData Carpentry for Biologists\nIllustrating Python via Examples from Bioinformatics\nIllustrating Python via Bioinformatics Examples\nBiostatistics for Biomedical Research\nAn Introduction to R through the tidyverse + Bioinformatics\nLearn Bioinformatics in 100 hours\nFundamentals of computational biology\nBioinformatics training materials\nBioinformatics Workbook\nBioinformatics Introduction\nDiving into Genetics and Genomics\nBioinformatics Tutorials\nMicroArray Project\nBioinformatics Midterm Project\nIntroduction to bioinformatics\nGenomics Boot Camp\nBioinformatics Data Skills (2015)\nThe Bioconductor 2018 Workshop Compilation\nBioconductor Workshop 1 Jupyter Notebooks\nGenomic Data Processing\nMachine Learning in Genomics Workshop\nPiGx: Pipelines in Genomics\nUSC Libraries Bioinformatics\nNCI Bioinformatics Training and Education Program\nHarvard Chan Bioinformatics Core\nFirst Steps in Biopython\nWhat is BioPython\nGetting Started with Biopython\nBiopython Tutorial\nPractical Computing for Biologists\nBiopython Tutorial and Cookbook\nA Primer on Deep Learning in Genomics\nA Primer for Computational Biology\nMy opinionated selection of books/urls for bioinformatics/data science curriculum\nPCA in action\nROSALIND\nIntro to R and RStudio for Genomics\nFree online training in bioinformatics and biostatistics\nStatistical Modeling of High Dimensional Counts\nFree and Open Source Tools for Bioinformatics and Molecular Biology\nR for Biology Data Science\nGriffith Lab Tutorials and Courses"
+  },
+  {
+    "objectID": "resources/ds_ml_ai/ds_ml_ai_all.html",
+    "href": "resources/ds_ml_ai/ds_ml_ai_all.html",
+    "title": "Data Science, Machine Learning, and Artificial Intelligence",
+    "section": "",
+    "text": "Data 8: The Foundations of Data Science\nIntroduction to Data Science\nReadings in Applied Data Science\n54 Best Data Science Books in 2023\nCoding habits for data scientists\nData Science by Design (DSxD)\nElements of Data Science\nCritical Dataset Studies Reading List\nThe Art of Data Science\nData Science Blogs\nThe Data Scientist\nData Science Primer\nData Science Cheatsheet\nThe 10 Data Mining Techniques Data Scientists Need for Their Toolbox\n30 Essential Data Science, Machine Learning & Deep Learning Cheat Sheets\n\n\n\n\n\nMachine Learning University\nMachine Learning Mastery\nVisual Intro to ML\nMachine Learning Basics 1\nMachine Learning Basics 2\nHands-On Machine Learning with R\nThe Illustrated Machine Learning website\nFOUNDATIONS OF MACHINE LEARNING\nML for Science\nMACHINE LEARNING QUESTIONS\nBest GitHub Repositories for ML\nMachine Learning and Data Science Applications in Industry\nML Google\nSantander ML Explainability\nML for Everyone\nSupervised ML in R\nMachine Learning for Humans\nThe Best Machine Learning Resources\nMachine Learning Notebooks\n101 machine learning algorithms for data science with cheatsheets\nEnd-to-End Machine Learning Library\nML Data Repository\nInterpretable Machine Learning\nMachine Learning Explained: Algorithms Are Your Friend\nCommonly used Machine Learning Algorithms\nA Guide to Learning with Limited Labeled Data\nmodelStudio and The Grammar of Interactive Explanatory Model Analysis\nHow to choose a good evaluation metric for your Machine learning model\nKaggle Winner’s Blog\n\n\n\n\n\nApplied AI\nMicrosoft Artificial Intelligence for Beginners\nHow to not overfit?\nHOW TO USE DEEP LEARNING TO IDENTIFY WILDLIFE\nAI Reading List\nElements of AI\nIntroduction to Deep Learning\nAI Summer\nStanford AI Lab\n12 Steps to Applied AI\nAI Experiments\nDeep Learning\nNeural Networks and Deep Learning\nArtificial Intelligence in Future and Present\n\n\n\n\n\nFrom Zero to Research Scientist full resources guide\nHow to Think Like a Computer Scientist\nStat Learning 1\nStat Learning 2\nIntroduction to Causal Inference\nVisual Guides for Causal Inference\nUnderstanding UMAP\nt-Distributed Stochastic Neighbor Embedding (t-SNE)\nA Gentle Introduction to Graph Neural Networks\nTuri Create\n\n\n\n\n\n\n\n\nAI/ML/DS Book Club\nFree Data Science Resources for Beginners\nData Science Courses and Resources\nData Science Live Book\nData Science - Resources for Python & R\nData Science Glossary on Kaggle\nPreparing for the Transition to Data Science\nMy Data Science Master’s\nData Science Master’s\nData Science Learning Path For Complete Beginners\nSchool of Data\nHow To Learn Data Science If You’re Broke\nHOW TO START YOUR FIRST DATA SCIENCE PROJECT\nData Science Berens Lab\nDS/ML/AI Blog\nData Science Resources\nData Science Learning Resources\nData Science Tutorials\nOur Coding Club\nComputing for Information Science\n\n\n\n\n\nML101 Tutorial\nML Tutorial\nMachine Learning Projects\nFeature Selection Techniques in Machine Learning with Python\nAI Research Experiences\nRandy Olson’s data analysis and machine learning projects\nMachine Learning Zoomcamp\nThe Ultimate FREE Machine Learning Study Plan\n100 Days of Machine Learning Coding\nVisualize Machine Learning data\nMade With ML\nScikit learn in Machine Learning\nMachine Learning Tutorials\nMathematics for Machine Learning\nMatrix Methods In Data Analysis, Signal Processing, And Machine Learning\nIn-depth introduction to machine learning in 15 hours of expert videos\nCode for Workshop: Introduction to Machine Learning with R\nMachine Learning Crash Course with TensorFlow APIs\nIntro to ML with R Slides\n150 of the Best Machine Learning, NLP, and Python Tutorials\nA Machine Learning Course with Python\nPython ML Tutorial\nClass Imbalance\nAnomaly Detection for Dummies\n\n\n\n\n\nDeep Learning Fundamentals\nTensorFlow, Keras and deep learning, without a PhD\nConvolutional Neural Networks for Visual Recognition\nIntroduction to Natural Language Processing\nSolving 90% of NLP problems"
+  },
+  {
+    "objectID": "resources/ds_ml_ai/ds_ml_ai_all.html#blogs",
+    "href": "resources/ds_ml_ai/ds_ml_ai_all.html#blogs",
+    "title": "Data Science, Machine Learning, and Artificial Intelligence",
+    "section": "Blogs",
+    "text": "Blogs\n\nSebastian Raschka\nAurimas Racas\nFloydHub\nShirin Elsinghorst\nChristina Levengood\nEthan Rosenthal\nRachel Thomas\nLIIP\nThe Analytics Lab"
+  },
+  {
+    "objectID": "resources/ds_ml_ai/ds_ml_ai_all.html#forecasting-and-prediction",
+    "href": "resources/ds_ml_ai/ds_ml_ai_all.html#forecasting-and-prediction",
+    "title": "Data Science, Machine Learning, and Artificial Intelligence",
+    "section": "Forecasting and Prediction",
+    "text": "Forecasting and Prediction\n\nForecasting: Principles and Practice\nYellowbrick: Machine Learning Visualization\nFacebook Prophet\nForecasting with Neural Network Autoregression\nNeural Network Playground\nfast.ai—Making neural nets uncool again\nPredictive Hacks\nAd Click Prediction"
+  },
+  {
+    "objectID": "resources/ds_ml_ai/ds_ml_ai_all.html#reproducibility",
+    "href": "resources/ds_ml_ai/ds_ml_ai_all.html#reproducibility",
+    "title": "Data Science, Machine Learning, and Artificial Intelligence",
+    "section": "Reproducibility",
+    "text": "Reproducibility\n\nThe Reproducibility Crisis in ML‑based Science\nLeakage and the Reproducibility Crisis in ML-based Science\nData leakage causes reproducibility failures in ML-based science"
+  },
+  {
+    "objectID": "resources/ds_ml_ai/ds_ml_ai_all.html#health",
+    "href": "resources/ds_ml_ai/ds_ml_ai_all.html#health",
+    "title": "Data Science, Machine Learning, and Artificial Intelligence",
+    "section": "Health",
+    "text": "Health\n\nCovid-19 Data Science\nMachine Learning For Healthcare\nPopulation health analytics\nJameel Clinic\nMedical AI Bootcamp\nShah Lab AI\nBuild a Recommender Engine for Medical Research Papers\nRECONLearn\nRECON"
+  },
+  {
+    "objectID": "resources/ds_ml_ai/ds_ml_ai_all.html#journals-and-stories",
+    "href": "resources/ds_ml_ai/ds_ml_ai_all.html#journals-and-stories",
+    "title": "Data Science, Machine Learning, and Artificial Intelligence",
+    "section": "Journals and Stories",
+    "text": "Journals and Stories\n\nTOP PUB\nMachine Learning and Data Science Applications in Industry\n13 Essential Newsletters for Data Scientists: Remastered\nMachine Learning in Public Policy\nThe economics of artificial intelligence\nThe Facebook Scandal - or how to predict psychological traits from Facebook likes.\nData Science Dojo\nHow to solve a business problem using data\nPutting data back into context\nmljar: Outstanding Data Science Tools\nDataKind: Data Science Volunteering\nAmazon Machine Learning\nAzure Machine Learning\nGoogle Prediction API\nBigML\nHealth Data Science\nHarvard Data Science Review"
+  },
+  {
+    "objectID": "resources/programming/ds_viz.html",
+    "href": "resources/programming/ds_viz.html",
+    "title": "Data Visualization Notes and Tutorials",
+    "section": "",
+    "text": "Maarten Lambrechts\nAda Homolova\nLisa Charlotte Muth\nZev Ross\nEdward Tufte\nCÉDRIC SCHERER"
+  },
+  {
+    "objectID": "resources/programming/ds_viz.html#data-visualization-general",
+    "href": "resources/programming/ds_viz.html#data-visualization-general",
+    "title": "Data Visualization Notes and Tutorials",
+    "section": "Data Visualization (General)",
+    "text": "Data Visualization (General)\n\nThe unspoken rules of visualisation\nThe Beginning, The Middle, & The New Beginning\nVisual Vocabulary\nColor in Data Vis\nBlack in Data Vis Challenge\nA Reader on Data Visualization\nData Visualization: A practical introduction\nSome Favorite Things\nColor Brewer\nFullstack D3 course\nLittle Miss Data\nWhat Are Data Visualization Style Guidelines?\nData visualization\nSportsChord\nData Viz Project\nYour Friendly Guide to Colors in Data Visualisation\nVIZRISK CHALLENGE STEPS\nWhy scientists need to be better at data visualization\nData Viz Projects\nA Tufte Handout Example"
+  },
+  {
+    "objectID": "resources/programming/ds_viz.html#data-visualization-r",
+    "href": "resources/programming/ds_viz.html#data-visualization-r",
+    "title": "Data Visualization Notes and Tutorials",
+    "section": "Data Visualization (R)",
+    "text": "Data Visualization (R)\n\nBooks\n\nAwesome ggplot2\nAn introduction to data visualization protocols for wet lab scientists\nGraphic Design with ggplot2\nGraphing with ggplot\nCookbook for R\nR Graphics Cookbook\nData Visualization in R\nData Visualization with R\nData visualisation using R, for researchers who don’t use R\nR CHARTS\nThe R Graph Gallery\nA Scientist’s Guide to R: Step 3.1 - data visualization with ggplot2+\nFundamentals of Data Visualization\nggplot2: Elegant Graphics for Data Analysis\nggplot2 extensions\na ggplot2 grammar guide\nData Visualization\nTom’s Cookbook for Better Viz\nBeginners Cookbook for Interactive Visualization in R with highcharter\nR4DS Data Visualization\nggplot2\nTom’s Cookbook for Better Viz\nDesigning ggplots\nInteractive web-based data visualization with R, plotly, and shiny\nBBC Visual and Data Journalism cookbook for R graphics\nBBPLOT\nR Data Viz\nggplot tricks\n\n\n\nTutorials and Notes\n\nbarbarplots\nggplot2tutor\nData Visualization Packages for R you should check out in 2022\nImproving a Visualization\nHow I use stories to share data at meetings\n12 ggplot extensions for snazzier R graphics\nCommon R Mistakes in Data Viz\nQuick and easy ways to deal with long labels in ggplot2\nReal house price plots\nCreating flowcharts with {ggplot2}\nMaking text labels the same size as axis labels in ggplot2\nLabelling area plots\nTop 50 ggplot2 Visualizations - The Master List (With Full R Code)\nThe Complete ggplot2 Tutorial - Part1 | Introduction To ggplot2 (Full R code)\nBest ggplot visualizations\nNetwork Visualizations in R\nIncrease & Decrease Number of Axis Ticks in R (2 Examples)\nVisualize monthly precipitation anomalies\nHow to use multiple colour scales in ggplot with {ggnewscale}\nLevel Up Your Labels: Tips and Tricks for Annotating Plots\nBeautiful plotting in R: A ggplot2 cheatsheet\nThe Good, the Bad and the Ugly: how (not) to visualize data\nWHY NOT DO THAT WITH R?\nA quick introduction to ggplot2\nGetting started with data visualization in R using ggplot2\nggplot theme tester\nThe Evolution of a ggplot (Ep. 1)\nA ggplot2 Tutorial for Beautiful Plotting in R\nggplot2 Theme Elements Demonstration\nR you ready to make charts?\nSDS 375: Data Visualization in R\nThe ggplot flibbook\nCreate a Visual CV\nggplot theme for publication ready Plots\nVisualizing Time Series\nR base plotting without wrappers\nHow to basic: bar plots\nggcute\nRacing Barchart with gganimate\nIntroducing ‘optout’ - A package for optimizing graphics output\nRacing Barplots with {ggpattern}, {flagon} & {gganimate}\nSpruce up your ggplot2 visualizations with formatted text\nSix things I always Google when using ggplot2\nState Unemployment Claims\nVisualizing the heterogeneity of single cell data from time-lapse imaging\nDynamic display of data with animated plots\nGenerate your own ggplot theme gallery\nthe seven living generations in America\nthis old house\nRadial Patterns in ggplot2\nHow to build Animated Charts like Hans Rosling — doing it all in R\n10 Levels of ggplot2: From Basic to Beautiful\nReproducing an Axios plot\nHow to create Bar Race Animation Charts in R\nInspiration from Flowing Data\nNYT-style urban heat island maps\nPractical ggplot2\nggchicklet\nHow to Add Labels Directly in ggplot2\nggplot2 Bar Chart\nThemes to Improve Your ggplot figures\nAccelerate your plots with ggforce\nggrapid\nAnimating Your Data Visualizations Like a Boss Using R\n12 Extensions to ggplot2 for More Powerful R Visualizations\nggthemes\nhtmlwidgets\nGetting started with data visualization in R using ggplot2\nGreat Looking Tables\nPatchwork R package goes nerd viral\nggplot date helpers\nggplot2: Mastering the basics\nRacing Barchart with gganimate\nggpattern\n{ggtext} for images as x-axis labels\nGGPLOT THEMES GALLERY\nVisualising high-dimensional data\nReordering and facetting for ggplot2\nRyo Viz\nDendrograms in R, a lightweight approach\nA look into U.S. infectious diseases\nCan I do that? Inspiration from a Pudding data visualization"
+  },
+  {
+    "objectID": "resources/programming/ds_viz.html#data-visualization-python",
+    "href": "resources/programming/ds_viz.html#data-visualization-python",
+    "title": "Data Visualization Notes and Tutorials",
+    "section": "Data Visualization (Python)",
+    "text": "Data Visualization (Python)\n\nBooks\n\nThe Python Graph Gallery\n\n\n\nTutorials\n\nVisualizing Data with Pairs Plots in Python\nHow to Make a Scatter Plot in Python using Seaborn\nSeaborn Heatmaps: 13 Ways to Customize Correlation Matrix Visualizations\nHow to make a matplotlib line chart\nPython Plotting for Exploratory Data Analysis\nEffectively Using Matplotlib\nPyWaffle\nEasily hiding items from the legend in matplotlib\nThe Next Level of Data Visualization in Python\nIntroducing Plotly Express\nseaborn: statistical data visualization\nPyGWalker"
+  },
+  {
+    "objectID": "resources/programming/ds_viz.html#data-visualization-tableau",
+    "href": "resources/programming/ds_viz.html#data-visualization-tableau",
+    "title": "Data Visualization Notes and Tutorials",
+    "section": "Data Visualization (Tableau)",
+    "text": "Data Visualization (Tableau)\n\nA Beginner’s Guide to Tableau Public\nResources\nWhat Is Data Visualization? Definition, Examples, And Learning Resources\nThe 10 Best Data Visualization Blogs To Follow\nHow to ace the Tableau Desktop Qualified Associate exam!\nTableau Tips, Dashboards, and Training\n7 tips and tricks from the dashboard experts\nData Visualization with Tableau"
+  },
+  {
+    "objectID": "resources/programming/ds_viz.html#data-artistry",
+    "href": "resources/programming/ds_viz.html#data-artistry",
+    "title": "Data Visualization Notes and Tutorials",
+    "section": "Data aRtistry",
+    "text": "Data aRtistry\n\nGetting started in #rtistry\nART FROM CODE\nLife Through A Mathematician’s Eyes\naRt\nRtistry Gallery\nArt by Claus O. Wilke\nUnpredictable paintings\nMystery curves\nFlow Fields\nHOW TO WORK WITH FLOW FIELDS IN R"
+  },
+  {
+    "objectID": "resources/biox/biomed_image_microscopy.html",
+    "href": "resources/biox/biomed_image_microscopy.html",
+    "title": "Biomedical Image Analysis and Microscopy",
+    "section": "",
+    "text": "Bio-image Analysis Notebooks\nPython BioImage Analysis Tutorial\nBIAPy: BioImage Analysis with Python\nAnalyzing fluorescence microscopy images with ImageJ\nNEUBIAS Academy\nGrand Challenge: ML in Biomedical Imaging\nCarpenter Lab Public Slides\nLecture - Applied Bioimage Analysis (2020)\nDeep learning in microscopy collection\nAwesome Cytodata\nCellProfiler Practical: Counting of in situ PLA signals per cell\nSciPy 2021 Bioimage Analysis Fundamentals in Python\nSeveral image processing workflow examples\nRecommended Readings and Viewings\nBioImage Model Zoo\ndeepImageJ\nBristol: Image analysis courses\nBioconductor: Basics of image data and spatial patterns analysis in R\nEASY IMAGE PROCESSING IN R USING THE MAGICK PACKAGE\nBio-Image analysis with Python and Napari - DIGS-BB Light Microscopy Course 2022\nFirst Principles of Computer Vision\nData Science in Cell Imaging\nThe OpenAI Microscope\nThe Journal of Machine Learning for Biomedical Imaging\nCELL TRACKING CHALLENGE\nBioimage Analysis Course: The Life Cycle of an Image Data Set\nStatistics for Neuroscientists: Image Analysis\nImage Segmentation with Python"
+  },
+  {
+    "objectID": "resources/biox/biomed_image_microscopy.html#bioimaging-software",
+    "href": "resources/biox/biomed_image_microscopy.html#bioimaging-software",
+    "title": "Biomedical Image Analysis and Microscopy",
+    "section": "BioImaging Software",
+    "text": "BioImaging Software\n\nA Hitchhiker’s guide through the bio-image analysis software universe\nImageScience Software\nDeepLabCut\nDeepLabCut GUI\nDiscover, install, and share napari plugins\nnapari\nChan Zuckerberg napari\nStarDist - Object Detection with Star-convex Shapes\ncellfinder-napari\nilastik\nYAPiC: Yet Another Pixel Classifier (based on deep learning)\nCellPose\nCellProfiler tutorials\nPiximi App\nPiximi GitHuc\nIcy\nnucleAIzer\nScientiFig\nuList\nImJoy\nZeroCostDL4Mic"
+  },
+  {
+    "objectID": "resources/biox/biomed_image_microscopy.html#microscopy",
+    "href": "resources/biox/biomed_image_microscopy.html#microscopy",
+    "title": "Biomedical Image Analysis and Microscopy",
+    "section": "Microscopy",
+    "text": "Microscopy\n\nThe OpenFlexure Project\nNanoJ-Fluidics: open-source fluid exchange in microscopy\nMicroscopy Series\nThe Power Of Observation\nRoyal Microscopy Society"
+  },
+  {
+    "objectID": "resources/ds_ml_ai/datasets.html",
+    "href": "resources/ds_ml_ai/datasets.html",
+    "title": "Datasets for Statistical Analysis and Machine Learning",
+    "section": "",
+    "text": "Data Literacy\nUsing Data Appropriately\nSharing Data\nWTF CSV Data Organization\n\nData Cleaning"
+  },
+  {
+    "objectID": "resources/ds_ml_ai/datasets.html#free-and-open-data",
+    "href": "resources/ds_ml_ai/datasets.html#free-and-open-data",
+    "title": "Datasets for Statistical Analysis and Machine Learning",
+    "section": "Free and Open Data",
+    "text": "Free and Open Data\n\nOpen Africa Data\nData Africa\nOur World in Data\nCalifornia Data Sources\nDataSF\nNYC Open Data\nThe Humanitarian Data Exchange\nGlobal Data Barometer\nMicrosoft Research Open Data\nAwesome Public Datasets\nMultiple Public Data Sources\nData Science Central Datasets\n70 Amazing Free Data Sources You Should Know"
+  },
+  {
+    "objectID": "resources/ds_ml_ai/datasets.html#machine-learning-training-data",
+    "href": "resources/ds_ml_ai/datasets.html#machine-learning-training-data",
+    "title": "Datasets for Statistical Analysis and Machine Learning",
+    "section": "Machine Learning Training Data",
+    "text": "Machine Learning Training Data\n\nDatasets for Machine Learning and Deep Learning\nBest Public Datasets for Machine Learning and Data Science\nMachine Learning Food Datasets Collection\nDatasets for Data Science and Machine Learning\nR Datasets\nKaggle Datasets\nGoogle Research Datasets"
+  },
+  {
+    "objectID": "resources/ds_ml_ai/datasets.html#industry-specific-data",
+    "href": "resources/ds_ml_ai/datasets.html#industry-specific-data",
+    "title": "Datasets for Statistical Analysis and Machine Learning",
+    "section": "Industry-Specific Data",
+    "text": "Industry-Specific Data\n\nNHS R-community Datasets\nInfectious Diseases Data Observatory\nInside Airbnb\nSchool Shootings USA\nPolitical Datasets\nEighty-Five Points Sports Data\nPoverty and Inequality Platform API\nNasdaq Data Link\nAnalyze Survey Data for Free\nGlobal Clinical Research Data\nGoogle Community Mobility Reports\n15 Open Datasets for Healthcare\nDemographic and Health Surveys\nFiveThirtyEight Data\nJo Hardin Datasets\nStatsBomb Open Data"
+  },
+  {
+    "objectID": "resources/ds_ml_ai/ds_journalism.html",
+    "href": "resources/ds_ml_ai/ds_journalism.html",
+    "title": "Data Journalism Tools and Stories",
+    "section": "",
+    "text": "Seth Stephens-Davidowitz\nQuant Editing\nAmber Thomas\nData Journalism and Viz Accounts\nFlowing Data Website\n\n\n\n\n\nA Beginner’s Guide to Data Journalism: Let’s Build a Story From Scratch\nQuick Guide to Data Journalism\nInterrogating Data: A Science Writer’s Guide to Data Journalism\nData Journalism Tools\nGitHub Data Journalism\nFlowing Data Story Formats\nStorytelling Tools\nTelling Stories With Data: A Simple Math Guide\nHow data journalists create beautiful feature stories\nDeveloping Data Journalists in the Developing World\nHow ProPublica Analyzed Pardon Data\nData Biographies: Getting to Know Your Data\nData journalism: a guide for editors\nPutting data back into context\nInterrogating Data: A Science Writer’s Guide to Data Journalism\nStoryBench: The future of machine learning in journalism\nData Journalism and Visualization with Free Tools\nA data journalist’s guide to building a hypothesis\nDueling Data\n\n\n\n\n\nGlobal Investigative Journalism Network Data Journalism\nProPublica Data Institute 2018\nProPublica Data Institute 2019\nSIGMA Awards\nKnight Foundation: Misinformation\nThe Bureau of Investigative Journalism\nFake News Public Data Lab\nAP DataKit\nData Journalism Grants\nA community conference for data makers everywhere\nGoogle News Initiative"
+  },
+  {
+    "objectID": "resources/ds_ml_ai/ds_journalism.html#data-stories-longform-and-in-depth-articles",
+    "href": "resources/ds_ml_ai/ds_journalism.html#data-stories-longform-and-in-depth-articles",
+    "title": "Data Journalism Tools and Stories",
+    "section": "Data Stories (Longform and In-depth articles)",
+    "text": "Data Stories (Longform and In-depth articles)\n\n10 years. 180 school shootings. 356 victims.\nBlind Drunk\nUber Game\nWhat Africa will look like in 100 years\nONE NATION, TRACKED\nLife in the camps\nLife in Hong Kong’s shoebox housing\nThe Airbnb effect\nNSA Files Decoded\nThe Deadliest Jobs in America\nGlobal Investigative Journalism Network Top 10\nMedia Hack Collective\n12 brilliant data journalism projects of 2021\nData Journalism: Some Favorite Examples\nExamples of Award-winning Data Journalism\n12 Best Data Journalism Examples:Storytelling with data\n10 data journalism projects that made an impact in 2020: our ultimate COVID-19 roundup\nMapping search data from Google Trends in R\nCongressional Tweets\nUsing R to Analyze Fargo Crime Data\nThe Kim Foxx Effect\nWhat makes a titletown?\nHigh street crisis deepens\nThe use of political ads on facebook in the run-up to the European Parliament elections 2019 in Austria\nWhat the Democratic Presidential Candidates Care About, in 44,000 Tweets\nHow many high school stars make it in the NBA?\nThe Facebook Scandal"
   }
 ]

@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.269">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>William Okech - Bioinformatics and Computational Biology</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/cookie-consent/cookie-consent.js"></script>
+<link href="../../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-1VX0Q2FQEV"></script>
+
+<script type="text/plain" cookie-consent="tracking">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-1VX0Q2FQEV', { 'anonymize_ip': true});
+</script>
+
+<script type="text/javascript" charset="UTF-8">
+document.addEventListener('DOMContentLoaded', function () {
+cookieconsent.run({
+  "notice_banner_type":"headline",
+  "consent_type":"express",
+  "palette":"dark",
+  "language":"en",
+  "page_load_consent_levels":["strictly-necessary"],
+  "notice_banner_reject_button_hide":false,
+  "preferences_center_close_button_hide":false,
+  "website_name":""
+  });
+});
+</script> 
+  
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">William Okech</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../blog_cv/Resume_William_Okech_Website_2023.pdf">
+ <span class="menu-text">Resume</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../blog.html">
+ <span class="menu-text">Blog posts</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-resources" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Resources</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-resources">    
+        <li>
+    <a class="dropdown-item" href="../../resources/biox/bioinf.html">
+ <span class="dropdown-text">Bioinformatics and Computational Biology</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/wokech"><i class="bi bi-github" role="img" aria-label="Github">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/willyokech"><i class="bi bi-twitter" role="img" aria-label="Twitter">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://medium.com/@willyokech"><i class="bi bi-medium" role="img" aria-label="Medium">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="../../blog.xml"><i class="bi bi-rss" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#bioinformatics-blogs" id="toc-bioinformatics-blogs" class="nav-link active" data-scroll-target="#bioinformatics-blogs">Bioinformatics Blogs</a></li>
+  <li><a href="#bioinformatics-basics" id="toc-bioinformatics-basics" class="nav-link" data-scroll-target="#bioinformatics-basics">Bioinformatics Basics</a></li>
+  <li><a href="#bioinformatics-tutorials" id="toc-bioinformatics-tutorials" class="nav-link" data-scroll-target="#bioinformatics-tutorials">Bioinformatics Tutorials</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Bioinformatics and Computational Biology</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="bioinformatics-blogs" class="level2">
+<h2 class="anchored" data-anchor-id="bioinformatics-blogs">Bioinformatics Blogs</h2>
+<ol type="1">
+<li><a href="https://github.com/jtleek">JT Leek</a></li>
+<li><a href="http://karolis.koncevicius.lt/">Karolis Koncevičius</a></li>
+<li><a href="https://ccr.cancer.gov/staff-directory/eytan-ruppin">Eytan Ruppin</a></li>
+<li><a href="https://pachterlab.github.io/">Lior Pachter</a></li>
+<li><a href="https://jef.works/">Jean Fan</a></li>
+<li><a href="https://phenomic.ai/#papers">Phenomics</a></li>
+<li><a href="https://liulab-dfci.github.io/">Liu Lab</a></li>
+<li><a href="https://www.costalab.org/teaching/">Costa Lab</a></li>
+<li><a href="https://divingintogeneticsandgenomics.rbind.io/">Ming Tang</a></li>
+<li><a href="https://kbroman.org/">Karl Broman</a></li>
+<li><a href="https://www.krishnaswamylab.org/">Krishnaswamy Lab</a></li>
+<li><a href="https://compeau.cbd.cmu.edu/">Philip Compeau</a></li>
+<li><a href="https://zhou-lab.github.io/index.html">ZHOU LAB</a></li>
+<li><a href="https://www.james-zou.com/research">James Zou</a></li>
+</ol>
+</section>
+<section id="bioinformatics-basics" class="level2">
+<h2 class="anchored" data-anchor-id="bioinformatics-basics">Bioinformatics Basics</h2>
+<ol type="1">
+<li><a href="https://github.com/harvardinformatics/learning-bioinformatics-at-home">Learning Bioinformatics At Home</a></li>
+<li><a href="https://a-little-book-of-r-for-bioinformatics.readthedocs.io/en/latest/">Welcome to a Little Book of R for Bioinformatics</a></li>
+<li><a href="https://learngenomics.dev/">Introduction to Genomics for Engineers</a></li>
+<li><a href="https://biodatascience.github.io/compbio/">Introduction to Computational Biology</a></li>
+<li><a href="https://www.ccdatalab.org/">Childhood Cancer Data Lab</a></li>
+<li><a href="https://wilkelab.org/classes/SDS348_spring_2019.html">SDS 348, Computational Biology and Bioinformatics 2019</a></li>
+<li><a href="https://wilkelab.org/classes/SDS348_spring_2020.html">SDS 348, Computational Biology and Bioinformatics 2020</a></li>
+<li><a href="https://www.huber.embl.de/msmb/">Modern Statistics for Modern Biology</a></li>
+<li><a href="http://book.bionumbers.org/">CELL BIOLOGY BY THE NUMBERS</a></li>
+<li><a href="https://zitniklab.hms.harvard.edu/BMI702/">BMI 702 | Biomedical Artificial Intelligence</a></li>
+<li><a href="https://www.bioresnet.org/">Bioinformatics Research Network</a></li>
+<li><a href="https://khushbupatel.notion.site/Bioinformatics-Starter-Pack-ae982892a9fb44569f735abc52ec9dd8">Bioinformatics Starter Pack</a></li>
+<li><a href="https://diytranscriptomics.com/">DIY Transcriptomics</a></li>
+<li><a href="https://www.bigbioinformatics.org/">BIG Bioinformatics</a></li>
+<li><a href="https://biodatascience101.github.io/">Biodatascience101</a></li>
+<li><a href="https://www.rna-seqblog.com/">RNA-Seq Blog</a></li>
+<li><a href="https://github.com/francisglee/biological-architecture-primer">Biological Architecture Reading Roadmap</a></li>
+<li><a href="https://biocircuits.github.io/chapters/01_intro_to_circuit_design.html">Introduction to biological circuit design</a></li>
+<li><a href="https://bioconductor.org/books/release/OSCA/">Orchestrating Single-Cell Analysis with Bioconductor</a></li>
+<li><a href="https://www.sc-best-practices.org/preamble.html">Single-cell best practices</a></li>
+<li><a href="https://lincs-dcic.org/">BD2K-LINCS DATA COORDINATION AND INTEGRATION CENTER</a></li>
+<li><a href="https://aquila.cheunglab.org/">Exploring Spatial Omics</a></li>
+<li><a href="https://innovativegenomics.org/crisprpedia/">CRISPRpedia</a></li>
+<li><a href="https://ecoevogeno.org/">COLAUTTI LAB</a></li>
+<li><a href="https://hgserver1.amc.nl/cgi-bin/r2/main.cgi?open_page=login">R2 Genomics Analysis and Visualization Platform</a></li>
+<li><a href="http://bioconnector.github.io/bims8382/index.html">Intro to Biomedical Data Science</a></li>
+<li><a href="http://genomicsclass.github.io/book/">Biomedical Data Science</a></li>
+<li><a href="https://awesomeopensource.com/projects/bioinformatics/data-science/machine-learning">The Top 15 Machine Learning Data Science Bioinformatics Open Source Projects</a></li>
+<li><a href="https://ds4biomed.tech/">Data Science for the Biomedical Sciences</a></li>
+<li><a href="https://www.genomicseducation.hee.nhs.uk/education/core-concepts/what-is-genomics/">What is genomics?</a></li>
+<li><a href="https://bioinformaticamente.com/2022/05/08/20-youtube-channels-every-bioinformatician-should-follow/">20 YouTube Channels Every Bioinformatician Should Follow</a></li>
+<li><a href="https://www.gdscn.org/home">Genomic Data Science Community Network</a></li>
+<li><a href="https://ebrc.org/curriculum-module-introduction-to-engineering-biology/">Engineering Biology Research Consortium</a></li>
+<li><a href="https://crazyhottommy.blogspot.com/2022/11/7-books-for-you-to-learn-bioinformatics.html">7 Books for you to learn bioinformatics</a></li>
+<li><a href="https://leanpub.com/dataanalysisforthelifesciences">Data Analysis for the Life Sciences (Free E-book)</a></li>
+<li><a href="https://practicalcomputing.org/">Practical Computing for Biologists</a></li>
+<li><a href="https://open.oregonstate.education/computationalbiology/">A Primer for Computational Biology</a></li>
+<li><a href="http://compgenomr.github.io/book/">Computational Genomics with R</a></li>
+<li><a href="https://book.biologistsguide2computing.com/en/stable/">The Biologist’s Guide to Computing</a></li>
+<li><a href="https://www.oreilly.com/library/view/bioinformatics-data-skills/9781449367480/">Bioinformatics Data Skills</a></li>
+<li><a href="https://github.com/vsbuffalo/bds-files/">The Supplementary Material Repository for Bioinformatics Data Skills</a></li>
+<li>[From cell line to command line https://divingintogeneticsandgenomics.ck.page/)</li>
+<li><a href="https://wiki.harvard.edu/confluence/display/hbctraining/Introduction+to+Unix%2C+Orchestra+and+RNA-Seq">Introduction to Unix, Orchestra and RNA-Seq</a></li>
+<li><a href="https://userweb.eng.gla.ac.uk/umer.ijaz/bioinformatics/linux.html">Linux command line exercises for NGS data processing</a></li>
+<li><a href="https://www.melbournebioinformatics.org.au/tutorials/tutorials/unix/unix/">Introduction to Unix</a></li>
+<li><a href="http://barc.wi.mit.edu/education/">Learn about Bioinformatics and Computational Tools for Biology</a></li>
+<li><a href="https://melbournebioinformatics.github.io/r-intro-biologists/intro_r_biologists.html#R_for_Biologists_course">Introduction to R for Biologists</a></li>
+<li><a href="https://www.kdnuggets.com/2019/09/explore-world-bioinformatics-machine-learning.html">Explore the world of Bioinformatics with Machine Learning</a></li>
+<li><a href="https://theaisummer.com/deep-learning-biology-alphafold/">Deep learning on computational biology and bioinformatics tutorial</a></li>
+<li><a href="http://rafalab.dfci.harvard.edu/pages/harvardx.html">HarvardX Biomedical Data Science Open Online Training</a></li>
+<li><a href="https://foldingathome.org/">Folding@Home</a></li>
+<li><a href="https://pythonforbiologists.com/">Python for biologists</a></li>
+<li><a href="https://pythonforbiologists.com/machine-learning-for-biology-part-one.html">Machine learning for biology part one</a></li>
+<li><a href="https://pythonforbiologists.com/machine-learning-for-biology-part-two.html">Machine learning for biology part two</a></li>
+<li><a href="https://pythonforbiologists.com/machine-learning-for-biology-part-three.html">Machine learning for biology part three</a></li>
+<li><a href="https://pythonforbiologists.com/machine-learning-for-biology-part-four.html">Machine learning for biology part four</a></li>
+<li><a href="https://biopython.org/">Biopython</a></li>
+<li><a href="https://www.biostars.org/p/225812/">The Biostar Handbook. A bioinformatics e-book for beginners</a></li>
+<li><a href="http://web.stanford.edu/class/bios221/NetworkSlides.html">Graphs and Networks for Biology using R</a></li>
+<li><a href="https://chapmandu2.github.io/post/2017/02/21/bioinformatics-in-the-tidyverse/">Bioinformatics in the Tidyverse</a></li>
+<li><a href="https://www.clevalab.com/blog">Cleva Lab Biology</a></li>
+<li><a href="https://modelinginbiology.github.io/">Modeling Life</a></li>
+</ol>
+</section>
+<section id="bioinformatics-tutorials" class="level2">
+<h2 class="anchored" data-anchor-id="bioinformatics-tutorials">Bioinformatics Tutorials</h2>
+<ol type="1">
+<li><a href="https://www.ccdatalab.org/workshop-materials">Childhood Cancer Data Lab Workshop Materials</a></li>
+<li><a href="https://www.ccdatalab.org/research-resources">Childhood Cancer Data Lab Research Resources</a></li>
+<li>[Crash Courses in Bioinformatics http://crashcourses.biodata.pt/)</li>
+<li><a href="https://rviews.rstudio.com/2019/04/30/analysing-hiv-pandemic-part-1/">Analysing the HIV pandemic, Part 1: HIV in sub-Sahara Africa</a></li>
+<li><a href="https://rviews.rstudio.com/2019/05/07/pipeline-for-analysing-hiv-part-2/">Analysing the HIV pandemic, Part 2: Drug resistance testing</a></li>
+<li><a href="https://rviews.rstudio.com/2019/05/16/pipeline-for-analysing-hiv-part-3/">Analysing the HIV pandemic, Part 3: Genetic diversity</a></li>
+<li><a href="https://rviews.rstudio.com/2019/05/23/pipeline-for-analysing-hiv-part-4/">Analysing the HIV pandemic, Part 4: Classification of lab samples</a></li>
+<li><a href="https://darkomedin-datascience.medium.com/oncology-bioinformatics-project-tutorial-differential-gene-expression-and-biomarker-discovery-d3ac07db5652">Oncology Bioinformatics project tutorial</a></li>
+<li><a href="https://cbirt.net/">Centre of Bioinformatics Research and Technology (CBIRT)</a></li>
+<li><a href="https://training.galaxyproject.org/training-material/">Galaxy Training</a></li>
+<li><a href="https://www.science.org/content/article/africans-begin-take-reins-research-their-own-genomes">GENOMES ARISING</a></li>
+<li><a href="https://www.nature.com/articles/d41586-020-00454-1">The next chapter for African genomics</a></li>
+<li><a href="https://evomics.org/learning/">EVOLUTION AND GENOMICS</a></li>
+<li><a href="https://pachterlab.github.io/gget/">gget</a></li>
+<li><a href="https://datacarpentry.org/semester-biology/">Data Carpentry for Biologists</a></li>
+<li><a href="http://hplgit.github.io/bioinf-py/doc/pub/html/index.html">Illustrating Python via Examples from Bioinformatics</a></li>
+<li><a href="http://hplgit.github.io/bioinf-py/doc/pub/bioinf-py.html">Illustrating Python via Bioinformatics Examples</a></li>
+<li><a href="https://hbiostat.org/bbr/">Biostatistics for Biomedical Research</a></li>
+<li><a href="https://pmacdasci.github.io/r-intro-tidyverse/">An Introduction to R through the tidyverse + Bioinformatics</a></li>
+<li><a href="https://www.biostarhandbook.com/edu/course/1/">Learn Bioinformatics in 100 hours</a></li>
+<li><a href="https://camilogarciabotero.github.io/biocomp-book/">Fundamentals of computational biology</a></li>
+<li><a href="https://github.com/sib-swiss/training-collection">Bioinformatics training materials</a></li>
+<li><a href="https://bioinformaticsworkbook.org/">Bioinformatics Workbook</a></li>
+<li><a href="https://github.com/SexChrLab/BioinformaticsIntroduction">Bioinformatics Introduction</a></li>
+<li><a href="http://crazyhottommy.blogspot.com/">Diving into Genetics and Genomics</a></li>
+<li><a href="https://www.hadriengourle.com/tutorials/">Bioinformatics Tutorials</a></li>
+<li><a href="https://rpubs.com/bilalhamdanieh/bioconductor">MicroArray Project</a></li>
+<li><a href="https://rpubs.com/nupurjoshi829/546190">Bioinformatics Midterm Project</a></li>
+<li><a href="https://rpubs.com/sonnyc247/PCL368-S1-2022">Introduction to bioinformatics</a></li>
+<li><a href="https://genomicsbootcamp.github.io/book/">Genomics Boot Camp</a></li>
+<li><a href="https://apprize.best/data/bioinformatics/">Bioinformatics Data Skills (2015)</a></li>
+<li><a href="https://bioconductor.github.io/BiocWorkshops/">The Bioconductor 2018 Workshop Compilation</a></li>
+<li><a href="https://compbiocore.github.io/bioconductor-workshop-1/notebook/">Bioconductor Workshop 1 Jupyter Notebooks</a></li>
+<li><a href="https://gdc.cancer.gov/about-data/gdc-data-processing/genomic-data-processing">Genomic Data Processing</a></li>
+<li><a href="https://www.genome.gov/event-calendar/Machine-Learning-in-Genomics-Tools-Resources-Clinical-Applications-and-Ethics">Machine Learning in Genomics Workshop</a></li>
+<li><a href="http://bioinformatics.mdc-berlin.de/pigx/">PiGx: Pipelines in Genomics</a></li>
+<li><a href="https://libguides.usc.edu/c.php?g=1024275&amp;p=7420352">USC Libraries Bioinformatics</a></li>
+<li><a href="https://btep.ccr.cancer.gov/classes/rbioconductor-basics-workshop-2-day-3/">NCI Bioinformatics Training and Education Program</a></li>
+<li><a href="https://bioinformatics.sph.harvard.edu/training">Harvard Chan Bioinformatics Core</a></li>
+<li><a href="https://krother.gitbooks.io/biopython-tutorial/content/first_steps.html">First Steps in Biopython</a></li>
+<li><a href="https://notebook.community/gditzler/bio-course-materials/notebooks/BioPython-Tutorial">What is BioPython</a></li>
+<li><a href="https://www.kaggle.com/code/mylesoneill/getting-started-with-biopython/notebook">Getting Started with Biopython</a></li>
+<li><a href="https://www.tutorialspoint.com/biopython/index.htm">Biopython Tutorial</a></li>
+<li><a href="https://people.duke.edu/~ccc14/pcfb/biopython/BiopythonBasics.html">Practical Computing for Biologists</a></li>
+<li><a href="http://biopython.org/DIST/docs/tutorial/Tutorial.html">Biopython Tutorial and Cookbook</a></li>
+<li><a href="https://colab.research.google.com/drive/17E4h5aAOioh5DiTo7MZg4hpL6Z_0FyWr#scrollTo=IA9FJeQkr1Ze">A Primer on Deep Learning in Genomics</a></li>
+<li><a href="https://open.oregonstate.education/computationalbiology/">A Primer for Computational Biology</a></li>
+<li><a href="https://divingintogeneticsandgenomics.rbind.io/post/my-opinionated-selection-of-books-for-bioinformatics-data-science-curriculum/">My opinionated selection of books/urls for bioinformatics/data science curriculum</a></li>
+<li><a href="https://divingintogeneticsandgenomics.rbind.io/post/pca-in-action/">PCA in action</a></li>
+<li><a href="https://rosalind.info/problems/locations/">ROSALIND</a></li>
+<li><a href="https://datacarpentry.org/genomics-r-intro/">Intro to R and RStudio for Genomics</a></li>
+<li><a href="https://pickingupthetabb.wordpress.com/building-a-bioinformaticist/free-online-training-in-bioinformatics-and-biostatistics/">Free online training in bioinformatics and biostatistics</a></li>
+<li><a href="https://mikelove.github.io/counts-model/">Statistical Modeling of High Dimensional Counts</a></li>
+<li><a href="https://www.opensourceforu.com/2018/03/free-open-source-tools-bioinformatics-molecular-biology/">Free and Open Source Tools for Bioinformatics and Molecular Biology</a></li>
+<li><a href="https://jmhulbert.github.io/r/bio/s1/">R for Biology Data Science</a></li>
+<li><a href="https://griffithlab.org/teaching/">Griffith Lab Tutorials and Courses</a></li>
+</ol>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<script src="https://giscus.app/client.js" data-repo="wokech/blog-main" data-repo-id="R_kgDOHeENyQ" data-category="General" data-category-id="DIC_kwDOHeENyc4CPinB" data-mapping="title" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" crossorigin="anonymous" async="">
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">Blog made using <a href="https://quarto.org/">Quarto</a>, by William Okech. License: <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></div>   
+      <div class="nav-footer-center"><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="https://twitter.com/willyokech">Twitter</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://www.linkedin.com/in/williamokech/">LinkedIn</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://github.com/wokech">Github</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://medium.com/@willyokech">Medium</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="mailto:willyokech@gmail.com">Email</a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+</body></html>

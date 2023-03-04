@@ -12,10 +12,12 @@ website:
       - blog.qmd
       - text: Resources 
         menu: 
-          - href: resources/data_analysis_tools.qmd
-          - href: resources/biox.qmd
-          - href: resources/reading_stem.qmd
-          - href: resources/reading_general.qmd
+          - href: resources/biox/biox.qmd
+          - href: resources/ds_ml_ai/ds_ml_ai.qmd
+          - href: resources/programming/programming.qmd
+          - href: resources/random_interests/rand_int.qmd
+          - href: resources/readings/readings.qmd
+          - href: resources/teaching/teach_res.qmd
       - icon: github
         href: https://github.com/wokech
         aria-label: Github
