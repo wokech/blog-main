@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "William Okech",
     "section": "",
-    "text": "I am a research scientist with a background in Biomedical Engineering. My primary interests include the following:\n• Synthetic Biology\n• Machine Learning for Health\n• Data Analysis and Visualization\nThis blog aims to promote data-driven decision-making and introduce readers to data analysis and visualization basics. Additionally, I will provide a periodic summary of recent advances in Synthetic Biology and Machine Learning for Health."
+    "text": "I am a research scientist with a background in Biomedical Engineering. My primary interests include the following:\n• Data Analysis and Visualization\n• Synthetic Biology\n• Machine Learning for Health\nThis blog aims to promote data-driven decision-making and introduce readers to data analysis and visualization basics. Additionally, I will provide a periodic summary of recent advances in Synthetic Biology and Machine Learning for Health."
   },
   {
     "objectID": "posts/blog_post_1/index.html",
@@ -1258,5 +1258,19 @@
     "title": "Data Journalism Tools and Stories",
     "section": "Data Stories (Longform and In-depth articles)",
     "text": "Data Stories (Longform and In-depth articles)\n\n10 years. 180 school shootings. 356 victims.\nBlind Drunk\nUber Game\nWhat Africa will look like in 100 years\nONE NATION, TRACKED\nLife in the camps\nLife in Hong Kong’s shoebox housing\nThe Airbnb effect\nNSA Files Decoded\nThe Deadliest Jobs in America\nGlobal Investigative Journalism Network Top 10\nMedia Hack Collective\n12 brilliant data journalism projects of 2021\nData Journalism: Some Favorite Examples\nExamples of Award-winning Data Journalism\n12 Best Data Journalism Examples:Storytelling with data\n10 data journalism projects that made an impact in 2020: our ultimate COVID-19 roundup\nMapping search data from Google Trends in R\nCongressional Tweets\nUsing R to Analyze Fargo Crime Data\nThe Kim Foxx Effect\nWhat makes a titletown?\nHigh street crisis deepens\nThe use of political ads on facebook in the run-up to the European Parliament elections 2019 in Austria\nWhat the Democratic Presidential Candidates Care About, in 44,000 Tweets\nHow many high school stars make it in the NBA?\nThe Facebook Scandal"
+  },
+  {
+    "objectID": "resources/biox/biotech_opensource.html",
+    "href": "resources/biox/biotech_opensource.html",
+    "title": "Biotechnology Startups and Open-Source Bio",
+    "section": "",
+    "text": "biotickr\nInvestor Village Biotech and Med\nBiotech2k Background Info\nAlcimed Biotech Business Exploration\nBenchmarks for growing health tech businesses\nThe best ways to follow biopharma news and learn about the industry (in my opinion)\nTimmerman Report: Your edge in Biotech\nHow to start a biotech company\nHow to Build a Biotech\nScaling Biotech\nAnatomy of a Biotech Business Development Deal\nThe case for young biotech founders\nData-driven perspectives on the business of biotech\nThe Bio Revolution\nSynthetic Biology Is About to Disrupt Your Industry\nInvesting in IDRx\nWhy We’re Investing in EQRx\n[Term Sheet Recommendations for Launching University Life Science Startups https://techventures.columbia.edu/term-sheet-recommendations-for-launching-university-startups)\nHow Do You Become a Bioentrepreneur?\nHow to Spin Your Scientific Research Out Of a University and Into a Startup\nEarly-Stage Biotech Value Creation: The Roles of Equity and Partnerships\nHow Biotech Startup Funding Will Change in the Next 10 Years\nThe Creation Of Biotech Startups: Evolution Not Revolution\nBiotech New Venture Formation: Reflecting On A Decade’s Changing Dynamics\nBiotech researchers venture into the wild to start their own business\nPlatform-Disease Fit: Why You Need It and How to Find It\nIt’s Time to Heal: 16 Trends Driving the Future of Bio and Healthcare"
+  },
+  {
+    "objectID": "resources/biox/biotech_opensource.html#open-source-science-medicine-and-technology",
+    "href": "resources/biox/biotech_opensource.html#open-source-science-medicine-and-technology",
+    "title": "Biotechnology Startups and Open-Source Bio",
+    "section": "Open-Source Science, Medicine, and Technology",
+    "text": "Open-Source Science, Medicine, and Technology\n\nPloS Open Source Toolkit\nSynthetic Biology for engineering plant growth\nOpen sourcing bioinstruments\nOpen Source Tools for Computational Biology\nAndre Maia Chagas Open-Source\nOpen Neuroscience\nOpen Source BioArt\nOpen Labware\nOpen Source Hardware Journal\nTREND Africa Open Source Training\nOpen Source Biomaker\nHackaday Open Source\nDIY BIO\nOpen Source Bioreactor\nOpen Source Bioreactor Project\nFarma: a Home Bioreactor for Pharmaceutical Drugs\nGaudi Labs Open Culture Technology\nRaspberry Pi: a versatile tool for biological sciences\nAppropedia: Open Source Technology\nOpen-source robotic platform for experimental automation\nDFROBOT\nIFIXIT\nLab On The Cheap\nDIYbio Lab\nBiodesign Sprint\nOpen Data Kit\nOpen mHealth\nMobile Sensor Data to Knowledge\nAlgae Biomanufacturing"
   }
 ]

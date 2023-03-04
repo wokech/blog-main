@@ -13,7 +13,7 @@ draft: false
 
 A vector is a collection of elements of the same data type, and they are a basic data structure in R programming.
 
-Vectors cannot be of mixed data type. The most common way to create a vector is with `c()`, where "c" stands for combine. In R, vectors do not have dimensions; therefore, they cannot be defined by columns or rows. Vectors can be divided into atomic vectors and lists (discussed in [Part 7](posts/series_1/new_post_8/post_8.html)). The atomic vectors include logical, character, and numeric (integer or double).
+Vectors cannot be of mixed data type. The most common way to create a vector is with `c()`, where "c" stands for combine. In R, vectors do not have dimensions; therefore, they cannot be defined by columns or rows. Vectors can be divided into atomic vectors and lists (discussed in [Part 7](https://www.williamokech.com/posts/series_1/new_post_8/post_8.html)). The atomic vectors include logical, character, and numeric (integer or double).
 
 Additionally, R is a vectorized language because mathematical operations are applied to each element of the vector without the need to loop through the vector.Examples of vectors are shown below:
 

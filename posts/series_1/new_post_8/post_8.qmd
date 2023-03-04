@@ -15,7 +15,7 @@ Data structures in R are tools for storing and organizing multiple values.
 
 They help to organize stored data in a way that the data can be used more effectively. Data structures vary according to the number of dimensions and the data types (heterogeneous or homogeneous) contained. The primary data structures are:
 
-1.  Vectors ([link](posts/series_1/new_post_6/post_6.html))
+1.  Vectors ([link](https://www.williamokech.com/posts/series_1/new_post_6/post_6.html))
 
 2.  Lists
 

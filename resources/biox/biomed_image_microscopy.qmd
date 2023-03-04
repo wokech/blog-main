@@ -20,7 +20,7 @@ toc: true
 13) [Several image processing workflow examples](https://cif.unil.ch/cif-wiki/several-image-processing-workflow-examples/)
 14) [Recommended Readings and Viewings](https://cif.unil.ch/external-resources/#Image_Processing)
 15) [BioImage Model Zoo](https://bioimage.io/#/)
-16) [deepImageJ](https://deepimagej.github.io/deepimagej/tutorials.html)
+16) [deepImageJ](https://deepimagej.github.io/)
 17) [Bristol: Image analysis courses](http://www.bristol.ac.uk/wolfson-bioimaging/equipment/image-analysis/image-analysis-courses/)
 18) [Bioconductor: Basics of image data and spatial patterns analysis in R](https://www.bioconductor.org/help/course-materials/2015/BioC2015/BioC2015Oles.html#1)
 19) [EASY IMAGE PROCESSING IN R USING THE MAGICK PACKAGE](https://www.datanovia.com/en/blog/easy-image-processing-in-r-using-the-magick-package/)

@@ -100,7 +100,7 @@
 <p>Data structures in R are tools for storing and organizing multiple values.</p>
 <p>They help to organize stored data in a way that the data can be used more effectively. Data structures vary according to the number of dimensions and the data types (heterogeneous or homogeneous) contained. The primary data structures are:</p>
 <ol type="1">
-<li><p>Vectors (<a href="posts/series_1/new_post_6/post_6.html">link</a>)</p></li>
+<li><p>Vectors (<a href="https://www.williamokech.com/posts/series_1/new_post_6/post_6.html">link</a>)</p></li>
 <li><p>Lists</p></li>
 <li><p>Data frames</p></li>
 <li><p>Matrices</p></li>
@@ -614,7 +614,7 @@ Levels: Female Male</code></pre>
 <section id="introduction" class="level2">
 <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
 <p>A vector is a collection of elements of the same data type, and they are a basic data structure in R programming.</p>
-<p>Vectors cannot be of mixed data type. The most common way to create a vector is with <code>c()</code>, where “c” stands for combine. In R, vectors do not have dimensions; therefore, they cannot be defined by columns or rows. Vectors can be divided into atomic vectors and lists (discussed in <a href="posts/series_1/new_post_8/post_8.html">Part 7</a>). The atomic vectors include logical, character, and numeric (integer or double).</p>
+<p>Vectors cannot be of mixed data type. The most common way to create a vector is with <code>c()</code>, where “c” stands for combine. In R, vectors do not have dimensions; therefore, they cannot be defined by columns or rows. Vectors can be divided into atomic vectors and lists (discussed in <a href="https://www.williamokech.com/posts/series_1/new_post_8/post_8.html">Part 7</a>). The atomic vectors include logical, character, and numeric (integer or double).</p>
 <p>Additionally, R is a vectorized language because mathematical operations are applied to each element of the vector without the need to loop through the vector.Examples of vectors are shown below:</p>
 <p>• Numbers: <code>c(2, 10, 16, -5)</code></p>
 <p>• Characters: <code>c("R", "RStudio", "Shiny", "Quarto")</code></p>
