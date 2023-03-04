@@ -1,0 +1,15 @@
+---
+title: "Data Stories"
+listing:
+  contents: posts/series_2
+  sort: "date"
+  type: default
+  categories: false
+  sort-ui: true
+  filter-ui: true
+  fields: [date, title, reading-time, description, categories]
+  feed: true
+page-layout: full
+title-block-banner: false
+comments: false
+---

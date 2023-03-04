@@ -1,0 +1,14 @@
+---
+title: "Random Interests"
+toc: true
+---
+
+# Links to a variety of helpful resources
+
+## 1. [Social Media and Music Analysis](soc_med_music_analysis.qmd)
+
+## 2. [Agriculture and Farming Stories](agric_farm.qmd)
+
+## 3. [Biomechanics and Sports Bioengineering](biomech_sports_be.qmd)
+
+## 4. [Startup and Innovation Resources](startup_innov.qmd)

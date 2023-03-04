@@ -1,0 +1,12 @@
+---
+title: "General Teaching Resources"
+toc: true
+---
+
+# Links to a variety of helpful resources
+
+## 1. [General Teaching Resources](gen_teach_resources.qmd)
+
+## 2. [RStudio and Carpentries Certification](rstudio_carpentries_cert.qmd)
+
+## 3. [Medical, Science, and Technical Writing](writing.qmd)

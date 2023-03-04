@@ -1,0 +1,18 @@
+---
+title: "Data Science, Machine Learning, and Artificial Intelligence"
+toc: true
+---
+
+# Links to a variety of helpful resources
+
+## 1. [Data Science, Machine Learning, and Artificial Intelligence](ds_ml_ai.qmd)
+
+## 2. [Datasets for Statistical Analysis and Machine Learning](datasets.qmd)
+
+## 3. [Statistics](statistics.qmd)
+
+## 4. [Data Science Interview Prep](ds_interview.qmd)
+
+## 5. [Data Journalism Tools and Stories](ds_journalism.qmd)
+
+## 6. [Sports Data Science](ds_sports.qmd)

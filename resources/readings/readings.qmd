@@ -1,0 +1,10 @@
+---
+title: "Readings (STEM and General)"
+toc: true
+---
+
+# Links to a variety of helpful resources\]
+
+## 1. [Recommended Readings (STEM)](reading_stem.qmd)
+
+## 2. [Recommended Readings (General)](reading_general.qmd)

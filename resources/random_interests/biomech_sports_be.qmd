@@ -1,0 +1,23 @@
+---
+title: "Biomechanics and Sports Bioengineering"
+toc: true
+---
+
+## Biomechanics
+
+1)	[Biomechanics of Movement](https://biomech.stanford.edu/) 
+2)	[Biomechanics of Movement Classroom](https://simtk-confluence-homeworks.stanford.edu:8443/display/BMH/Lectures)
+3)	[The Biomechanist](https://www.biomechanist.net/)
+4)	[Reinbolt Research Group](http://rrg.utk.edu/resources/BME599/lectures.html) 
+5)	[Notes on Scientific Computing for Biomechanics and Motor Control](https://github.com/BMClab/BMC) 
+6)	[The Biomechanics of Solids and Fluids: The Physics of Life](http://hobbieroth.blogspot.com/2016/09/the-biomechanics-of-solids-and-fluids.html) 
+7)	[DFB Sports Academy](https://www.dfb-akademie.de/bewegungsanalyse-biomechanik/-/id-11008485) 
+8)	[Stuart McErlain-Naylor Biomechanics Website](https://www.stuartmcnaylor.com/) 
+9)	[Understanding Biomechanics and Body Movement](https://www.verywellfit.com/understanding-biomechanics-3498389) 
+
+## Sports Bioengineering
+
+1)	[Becoming a Sports Engineer](https://engineeringsport.co.uk/becoming-a-sports-engineer/) 
+2)	[Peak Performance Project](https://www.p3.md/) 
+3)	[BTS Bioengineering](https://www.btsbioengineering.com/) 
+4)	[Sparta Science](https://spartascience.com/) 

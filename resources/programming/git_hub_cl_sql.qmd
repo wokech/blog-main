@@ -1,0 +1,67 @@
+---
+title: "Git, GitHub, Command Line, and SQL"
+toc: true
+---
+
+
+## Git
+
+1)	[Good Enough Practices in Scientific Computing](https://carpentries-incubator.github.io/good-enough-practices/index.html) 
+2)	[Git Cheatsheet](https://anupamkumarkrishnan.hashnode.dev/git-cheatsheet) 
+3)	[A Visual Git Reference](http://marklodato.github.io/visual-git-guide/index-en.html) 
+4)	[Understanding Git Conceptually](https://www.cduan.com/technical/git/) 
+5)	[Visualizing Git Concepts with D3](http://onlywei.github.io/explain-git-with-d3/#) 
+6)	[Git Immersion](https://gitimmersion.com/) 
+7)	[Learn Git Branching](https://learngitbranching.js.org/)
+8)	[Git Basics](https://www.theodinproject.com/lessons/foundations-git-basics)
+9)	[Become a git guru](https://www.atlassian.com/git/tutorials)
+10)	[Git and RStudio](https://rpubs.com/marschmi/105639)
+11)	[Introduction to Git & Github](https://debadritaghosh.hashnode.dev/introduction-to-git-github)
+12)	[How to Use Git/GitHub with R](https://rfortherestofus.com/2021/02/how-to-use-git-github-with-r/)
+13)	[git ready](https://gitready.com/) 
+14)	[Git/GitHub Cheatsheet](https://training.github.com/downloads/github-git-cheat-sheet/)
+15)	[Pro Git Book](https://git-scm.com/book/en/v2)
+16)	[Happy Git and GitHub for the user](https://happygitwithr.com/) 
+17)	[On undoing, fixing, or removing commits in git](https://sethrobertson.github.io/GitFixUm/fixup.html) 
+18)	[git pretty](http://justinhileman.info/article/git-pretty/) 
+19)	[Version Control (Git) ](https://missing.csail.mit.edu/2020/version-control/)
+20)	[Fixing Common Git Mistakes](https://maggieappleton.com/git-mistakes)
+
+## GitHub
+
+1)	[Mastering GitHub in 4 Steps](https://frontenddoctor.hashnode.dev/mastering-github-in-4-steps) 
+2)	[GitHub Minesweeper](https://profy.dev/project/github-minesweeper/intro-overview) 
+3)	[Introduction to GitHub Actions to R users]( https://beamilz.com/posts/series-gha/2022-series-gha-1-what-is/en/)
+4)	[GitHub for supporting, reusing, contributing, and failing safely]( https://www.openscapes.org/blog/2022/05/27/github-illustrated-series/)
+5)	[First aid git]( https://firstaidgit.io/#/)
+6)	[Making Your First GitHub R Project]( https://codehorizons.com/making-your-first-github-r-project/)
+7)	[Introducing GitHub Global Campus]( https://github.blog/2021-09-01-introducing-github-global-campus/)
+8)	[An Intro to Git and GitHub for Beginners (Tutorial)](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners) 
+9)	[Collaboration, version control and learning to commit]( https://personalpages.manchester.ac.uk/staff/david.selby/rthritis/2021-03-12-git/)
+10)	[Software development practices]( https://r-pkgs.org/software-development-practices.html)
+11)	[Get started with Git and GitHub]( https://aosmith16.github.io/spring-r-topics/slides/week01_introduction_git_and_github.html#1)  
+12)	[How to effortlessly create a website for free with GitHub Pages]( https://towardsdatascience.com/how-to-create-a-free-github-pages-website-53743d7524e1)
+13)	[Getting started with Git and GitHub: the complete beginner’s guide]( https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6)
+14)	[Introducing Jekyll Now for GitHub-hosted blogs](https://www.jekyllnow.com/)
+
+## Command Line (Bash, UNIX, and Linux)
+
+1)	[Command Line Basics for R Users](https://bash-intro.rsquaredacademy.com/) 
+2)	[Intro to UNIX](https://data-skills.github.io/unix-and-bash/)
+3)	[The Unix Shell 1](https://swcarpentry.github.io/shell-novice/)
+4)	[The Unix Shell 2](https://thejacksonlaboratory.github.io/introduction-to-hpc/)
+
+## SQL
+
+1)	[SQL queries don't start with SELECT](https://jvns.ca/blog/2019/10/03/sql-queries-don-t-start-with-select/)
+2)	[21 of the best free resources to learn SQL](https://code-love.com/2018/09/01/21-learn-sql/) 
+3)	[PostgreSQL Tutorial](https://www.postgresqltutorial.com/)
+4)	[A Visual Explanation of SQL Joins](https://blog.codinghorror.com/a-visual-explanation-of-sql-joins/)
+5)	[The SQL Tutorial for Data Analysis](https://mode.com/sql-tutorial/introduction-to-sql/)
+6)	[SQL](https://www.hackerrank.com/domains/sql)
+7)	[SQL Tutorial](https://www.w3schools.com/sql/)
+8)	[SQLBolt](https://sqlbolt.com/)
+9)	[SQL Tutorial](https://sqlzoo.net/wiki/SQL_Tutorial)
+10)	[Databases 101](https://thomaslarock.com/2018/07/databases-101/)
+
+

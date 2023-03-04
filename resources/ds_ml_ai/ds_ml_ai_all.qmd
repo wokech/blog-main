@@ -1,0 +1,212 @@
+---
+title: "Data Science, Machine Learning, and Artificial Intelligence"
+toc: true
+---
+
+# Part 1
+
+## Basics
+
+### Data Science
+
+1)  [Data 8: The Foundations of Data Science](http://www.data8.org/)
+2)  [Introduction to Data Science](https://sml201.github.io/)
+3)  [Readings in Applied Data Science](https://github.com/hadley/stats337)
+4)  [54 Best Data Science Books in 2023](https://www.dataquest.io/blog/data-science-books/)
+5)  [Coding habits for data scientists](https://www.thoughtworks.com/insights/blog/coding-habits-data-scientists)
+6)  [Data Science by Design (DSxD)](https://datasciencebydesign.org/)
+7)  [Elements of Data Science](https://github.com/AllenDowney/ElementsOfDataScience)
+8)  [Critical Dataset Studies Reading List](https://knowingmachines.org/reading-list)
+9)  [The Art of Data Science](https://bookdown.org/rdpeng/artofdatascience/)
+10) [Data Science Blogs](https://www.cybrhome.com/topic/data-science-blogs)
+11) [The Data Scientist](https://thedatascientist.com/)
+12) [Data Science Primer](https://elitedatascience.com/primer)
+13) [Data Science Cheatsheet](https://github.com/ml874/Data-Science-Cheatsheet)
+14) [The 10 Data Mining Techniques Data Scientists Need for Their Toolbox](https://builtin.com/data-science/10-data-mining-techniques-data-scientists-need-their-toolbox)
+15) [30 Essential Data Science, Machine Learning & Deep Learning Cheat Sheets](https://www.kdnuggets.com/2017/09/essential-data-science-machine-learning-deep-learning-cheat-sheets.html)
+
+### Machine Learning
+
+1)  [Machine Learning University](https://mlu-explain.github.io/)
+2)  [Machine Learning Mastery](https://machinelearningmastery.com/start-here/)
+3)  [Visual Intro to ML](http://www.r2d3.us/)
+4)  [Machine Learning Basics 1](https://github.com/zotroneneis/machine_learning_basics)
+5)  [Machine Learning Basics 2](https://e2eml.school/blog.html)
+6)  [Hands-On Machine Learning with R](https://bradleyboehmke.github.io/HOML/)
+7)  [The Illustrated Machine Learning website](https://illustrated-machine-learning.github.io/index.html)
+8)  [FOUNDATIONS OF MACHINE LEARNING](https://bloomberg.github.io/foml/#home)
+9)  [ML for Science](http://www.machinelearningforscience.de/en/)
+10) [MACHINE LEARNING QUESTIONS](https://today.bnomial.com/)
+11) [Best GitHub Repositories for ML](https://www.theinsaneapp.com/2021/09/best-github-repository-for-machine-learning.html)
+12) [Machine Learning and Data Science Applications in Industry](https://github.com/firmai/industry-machine-learning)
+13) [ML Google](https://ai.google/education)
+14) [Santander ML Explainability](https://www.kaggle.com/code/mjbahmani/santander-ml-explainability/notebook)
+15) [ML for Everyone](https://vas3k.com/blog/machine_learning/)
+16) [Supervised ML in R](https://supervised-ml-course.netlify.app/)
+17) [Machine Learning for Humans](https://medium.com/machine-learning-for-humans/why-machine-learning-matters-6164faf1df12)
+18) [The Best Machine Learning Resources](https://medium.com/machine-learning-for-humans/how-to-learn-machine-learning-24d53bb64aa1)
+19) [Machine Learning Notebooks](https://github.com/ageron/handson-ml2)
+20) [101 machine learning algorithms for data science with cheatsheets](https://datasciencedojo.com/blog/machine-learning-algorithms/)
+21) [End-to-End Machine Learning Library](https://brohrer.github.io/blog.html#how_machine_learning)
+22) [ML Data Repository](https://archive.ics.uci.edu/ml/index.php)
+23) [Interpretable Machine Learning](https://christophm.github.io/interpretable-ml-book/)
+24) [Machine Learning Explained: Algorithms Are Your Friend](https://blog.dataiku.com/machine-learning-explained-algorithms-are-your-friend)
+25) [Commonly used Machine Learning Algorithms](https://www.analyticsvidhya.com/blog/2017/09/common-machine-learning-algorithms/)
+26) [A Guide to Learning with Limited Labeled Data](https://blog.fastforwardlabs.com/2019/04/02/a-guide-to-learning-with-limited-labeled-data.html)
+27) [modelStudio and The Grammar of Interactive Explanatory Model Analysis](https://medium.com/@ModelOriented/modelstudio-and-the-grammar-of-interactive-explanatory-model-analysis-5d274ab2d822)
+28) [How to choose a good evaluation metric for your Machine learning model](https://ranvir.xyz/blog/how-to-evaluate-your-machine-learning-model-like-a-pro-metrics/)
+29) [Kaggle Winner's Blog](https://medium.com/kaggle-blog)
+
+### Artificial Intelligence
+
+1)  [Applied AI](https://chrisalbon.com/Welcome)
+2)  [Microsoft Artificial Intelligence for Beginners](https://microsoft.github.io/AI-For-Beginners/)
+3)  [How to not overfit?](https://www.kaggle.com/code/artgor/how-to-not-overfit/notebook)
+4)  [HOW TO USE DEEP LEARNING TO IDENTIFY WILDLIFE](https://drivendata.co/blog/ai-for-earth-wildlife-detection-benchmark/)
+5)  [AI Reading List](https://medium.com/machine-learning-for-humans/ai-reading-list-c4753afd97a)
+6)  [Elements of AI](https://www.elementsofai.com/)
+7)  [Introduction to Deep Learning](https://sebastianraschka.com/blog/2021/dl-course.html)
+8)  [AI Summer](https://theaisummer.com/)
+9)  [Stanford AI Lab](http://ai.stanford.edu/blog/)
+10) [12 Steps to Applied AI](https://medium.com/swlh/12-steps-to-applied-ai-2fdad7fdcdf3)
+11) [AI Experiments](https://experiments.withgoogle.com/collection/ai)
+12) [Deep Learning](https://www.deeplearningbook.org/)
+13) [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/index.html)
+14) [Artificial Intelligence in Future and Present](https://medium.com/sciforce/artificial-intelligence-in-future-and-present-104e5f3dede8)
+
+### Statistics and Computer Science
+
+1)  [From Zero to Research Scientist full resources guide](https://github.com/ahmedbahaaeldin/From-0-to-Research-Scientist-resources-guide#Mathematical-Foundations)
+2)  [How to Think Like a Computer Scientist](https://runestone.academy/ns/books/published/thinkcspy/index.html)
+3)  [Stat Learning 1](https://www.statlearning.com/)
+4)  [Stat Learning 2](http://fs2.american.edu/alberto/www/analytics/ISLRLectures.html)
+5)  [Introduction to Causal Inference](https://www.bradyneal.com/causal-inference-course)
+6)  [Visual Guides for Causal Inference](https://github.com/kathoffman/causal-inference-visual-guides)
+7)  [Understanding UMAP](https://pair-code.github.io/understanding-umap/)
+8)  [t-Distributed Stochastic Neighbor Embedding (t-SNE)](https://lvdmaaten.github.io/tsne/)
+9)  [A Gentle Introduction to Graph Neural Networks](https://distill.pub/2021/gnn-intro/)
+10) [Turi Create](https://github.com/apple/turicreate/)
+
+## Tutorials and University Courses
+
+### Data Science
+
+1)  [AI/ML/DS Book Club](https://dsbookclub.github.io/)
+2)  [Free Data Science Resources for Beginners](https://elitedatascience.com/data-science-resources)
+3)  [Data Science Courses and Resources](https://www.datakwery.com/)
+4)  [Data Science Live Book](https://livebook.datascienceheroes.com/)
+5)  [Data Science - Resources for Python & R](https://www.datacamp.com/tutorial/learn-data-science-resources-for-python-r)
+6)  [Data Science Glossary on Kaggle](https://www.kaggle.com/code/shivamb/data-science-glossary-on-kaggle/notebook)
+7)  [Preparing for the Transition to Data Science](https://blog.insightdatascience.com/preparing-for-the-transition-to-data-science-e9194c90b42c)
+8)  [My Data Science Master's](https://davidventuri.medium.com/i-dropped-out-of-school-to-create-my-own-data-science-master-s-here-s-my-curriculum-1b400dcee412)
+9)  [Data Science Master's](http://datasciencemasters.org/)
+10) [Data Science Learning Path For Complete Beginners](https://www.datasciencecentral.com/data-science-learning-path-for-complete-beginner/)
+11) [School of Data](https://schoolofdata.org/courses/)
+12) [How To Learn Data Science If You're Broke](https://towardsdatascience.com/how-to-learn-data-science-if-youre-broke-7ecc408b53c7)
+13) [HOW TO START YOUR FIRST DATA SCIENCE PROJECT](https://www.districtdatalabs.com/how-to-start-your-first-data-science-project/)
+14) [Data Science Berens Lab](http://www.eye-tuebingen.de/berenslab/teaching/)
+15) [DS/ML/AI Blog](https://kanger.dev/)
+16) [Data Science Resources](https://mattstats.wordpress.com/2020/01/21/data-science-resources/)
+17) [Data Science Learning Resources](https://github.com/bradleyboehmke/data-science-learning-resources)
+18) [Data Science Tutorials](https://datasciencedojo.com/tutorials/)
+19) [Our Coding Club](https://ourcodingclub.github.io/tutorials.html)
+20) [Computing for Information Science](https://info5940.infosci.cornell.edu/)
+
+### Machine Learning
+
+1)  [ML101 Tutorial](https://docs.google.com/presentation/d/1kSuQyW5DTnkVaZEjGYCkfOxvzCqGEFzWBy4e9Uedd9k/mobilepresent?slide=id.g168a3288f7_0_58)
+2)  [ML Tutorial](https://www.kaggle.com/learn)
+3)  [Machine Learning Projects](https://data-flair.training/blogs/machine-learning-project-ideas/)
+4)  [Feature Selection Techniques in Machine Learning with Python](https://towardsdatascience.com/feature-selection-techniques-in-machine-learning-with-python-f24e7da3f36e)
+5)  [AI Research Experiences](https://www.cs197.seas.harvard.edu/)
+6)  [Randy Olson's data analysis and machine learning projects](https://github.com/rhiever/Data-Analysis-and-Machine-Learning-Projects)
+7)  [Machine Learning Zoomcamp](https://github.com/alexeygrigorev/mlbookcamp-code/tree/master/course-zoomcamp)
+8)  [The Ultimate FREE Machine Learning Study Plan](https://github.com/patrickloeber/ml-study-plan)
+9)  [100 Days of Machine Learning Coding](https://github.com/Avik-Jain/100-Days-Of-ML-Code)
+10) [Visualize Machine Learning data](https://shirinsplayground.netlify.app/2021/04/goodbadugly_ml/)
+11) [Made With ML](https://madewithml.com/)
+12) [Scikit learn in Machine Learning](https://www.malicksarr.com/how-to-use-scikit-learn-in-a-machine-learning-project-for-beginner-sklearn-tutorial/)
+13) [Machine Learning Tutorials](https://www.statology.org/machine-learning-tutorials/)
+14) [Mathematics for Machine Learning](https://mml-book.github.io/)
+15) [Matrix Methods In Data Analysis, Signal Processing, And Machine Learning](https://ocw.mit.edu/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/)
+16) [In-depth introduction to machine learning in 15 hours of expert videos](https://www.r-bloggers.com/2014/09/in-depth-introduction-to-machine-learning-in-15-hours-of-expert-videos/)
+17) [Code for Workshop: Introduction to Machine Learning with R](https://www.r-bloggers.com/2018/06/code-for-workshop-introduction-to-machine-learning-with-r/)
+18) [Machine Learning Crash Course with TensorFlow APIs](https://developers.google.com/machine-learning/crash-course/)
+19) [Intro to ML with R Slides](https://www.slideshare.net/ShirinGlander/workshop-introduction-to-machine-learning-with-r)
+20) [150 of the Best Machine Learning, NLP, and Python Tutorials](https://medium.com/machine-learning-in-practice/over-150-of-the-best-machine-learning-nlp-and-python-tutorials-ive-found-ffce2939bd78#hn)
+21) [A Machine Learning Course with Python](https://github.com/instillai/machine-learning-course#machine-learning-basics)
+22) [Python ML Tutorial](https://elitedatascience.com/python-machine-learning-tutorial-scikit-learn)
+23) [Class Imbalance](https://juanitorduz.github.io/class_imbalance/)
+24) [Anomaly Detection for Dummies](https://towardsdatascience.com/anomaly-detection-for-dummies-15f148e559c1)
+
+### Artificial Intelligence
+
+1)  [Deep Learning Fundamentals](https://lightning.ai/pages/courses/deep-learning-fundamentals/)
+2)  [TensorFlow, Keras and deep learning, without a PhD](https://codelabs.developers.google.com/codelabs/cloud-tensorflow-mnist/#0)
+3)  [Convolutional Neural Networks for Visual Recognition](https://cs231n.github.io/)
+4)  [Introduction to Natural Language Processing](https://www.fast.ai/posts/2019-07-08-fastai-nlp.html)
+5)  [Solving 90% of NLP problems](https://www.kdnuggets.com/2019/01/solve-90-nlp-problems-step-by-step-guide.html)
+
+# Part 2
+
+## Blogs
+
+1)  [Sebastian Raschka](https://sebastianraschka.com/blog/index.html)
+2)  [Aurimas Racas](https://aurimas.eu/blog/)
+3)  [FloydHub](https://blog.floydhub.com/)
+4)  [Shirin Elsinghorst](https://www.shirin-glander.de/)
+5)  [Christina Levengood](https://lvngd.com/)
+6)  [Ethan Rosenthal](https://www.ethanrosenthal.com/#)
+7)  [Rachel Thomas](https://rachel.fast.ai/)
+8)  [LIIP](https://www.liip.ch/en/blog)
+9)  [The Analytics Lab](https://www.theanalyticslab.nl/blogs/)
+
+## Forecasting and Prediction
+
+1)  [Forecasting: Principles and Practice](https://otexts.com/fpp2/)
+2)  [Yellowbrick: Machine Learning Visualization](https://www.scikit-yb.org/en/latest/)
+3)  [Facebook Prophet](https://facebook.github.io/prophet/docs/quick_start.html)
+4)  [Forecasting with Neural Network Autoregression](https://datageeek.com/2022/06/30/food-crisis-analysis-and-forecasting-with-neural-network-autoregression/)
+5)  [Neural Network Playground](http://playground.tensorflow.org/)
+6)  [fast.ai---Making neural nets uncool again](https://www.fast.ai/)
+7)  [Predictive Hacks](https://predictivehacks.com/)
+8)  [Ad Click Prediction](https://medium.com/@gouravbais08/ad-click-prediction-9478a9ecf066)
+
+## Reproducibility
+
+1)  [The Reproducibility Crisis in ML‑based Science](https://sites.google.com/princeton.edu/rep-workshop/)
+2)  [Leakage and the Reproducibility Crisis in ML-based Science](https://reproducible.cs.princeton.edu/)
+3)  [Data leakage causes reproducibility failures in ML-based science](https://reproducible.cs.princeton.edu/#rep-failures)
+
+## Health
+
+1)  [Covid-19 Data Science](https://www.covid-datascience.com/)
+2)  [Machine Learning For Healthcare](https://ocw.mit.edu/courses/6-s897-machine-learning-for-healthcare-spring-2019/pages/lecture-notes/)
+3)  [Population health analytics](https://biobot.io/)
+4)  [Jameel Clinic](https://www.jclinic.mit.edu/)
+5)  [Medical AI Bootcamp](https://medical-ai-bootcamp.hms.harvard.edu/)
+6)  [Shah Lab AI](https://shahlab.stanford.edu/)
+7)  [Build a Recommender Engine for Medical Research Papers](https://medium.com/@topspinj/how-to-build-a-recommender-engine-for-medical-research-papers-a9dc1bad12f2)
+8)  [RECONLearn](https://www.reconlearn.org/)
+9)  [RECON](https://www.repidemicsconsortium.org/projects/)
+10) 
+
+## Journals and Stories
+
+1)  [TOP PUB](https://toppub.xyz/publications/tags/546)
+2)  [Machine Learning and Data Science Applications in Industry](https://github.com/firmai/industry-machine-learning/blob/master/README.md)
+3)  [13 Essential Newsletters for Data Scientists: Remastered](https://towardsdatascience.com/13-essential-newsletters-for-data-scientists-remastered-f422cb6ea0b0)
+4)  [Machine Learning in Public Policy](https://www.datacareer.ch/blog/machine-learning-in-public-policy-examples-from-research/)
+5)  [The economics of artificial intelligence](https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-economics-of-artificial-intelligence)
+6)  [The Facebook Scandal - or how to predict psychological traits from Facebook likes.](https://www.liip.ch/en/blog/the-facebook-scandal-or-how-to-predict-psychological-traits-from-facebook-likes)
+7)  [Data Science Dojo](https://datasciencedojo.com/community/)
+8)  [How to solve a business problem using data](https://www.littlemissdata.com/blog/businessproblem)
+9)  [Putting data back into context](https://datajournalism.com/read/longreads/putting-data-back-into-context)
+10) [mljar: Outstanding Data Science Tools](https://mljar.com/)
+11) [DataKind: Data Science Volunteering](https://www.datakind.org/)
+12) [Amazon Machine Learning](https://cloudacademy.com/blog/aws-machine-learning/)
+13) [Azure Machine Learning](https://cloudacademy.com/blog/azure-machine-learning/)
+14) [Google Prediction API](https://cloudacademy.com/blog/google-prediction-api/)
+15) [BigML](https://cloudacademy.com/blog/bigml-machine-learning/)
+16) [Health Data Science](https://healthdatascience.substack.com/)
+17) [Harvard Data Science Review](https://hdsr.mitpress.mit.edu/)

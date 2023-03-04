@@ -1,0 +1,16 @@
+---
+title: "Programming"
+toc: true
+---
+
+# Links to a variety of helpful resources
+
+## 1. [R and RStudio](r_rstudio.qmd)
+
+## 2. [Python](python.qmd)
+
+## 3. [Data Visualization Notes and Tutorials](ds_viz.qmd)
+
+## 4. [Git, GitHub, Command Line, and SQL](git_hub_cl_sql.qmd)
+
+## 5. [Quarto](quarto.qmd)

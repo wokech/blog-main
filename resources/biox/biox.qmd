@@ -1,0 +1,12 @@
+---
+title: "Bio-X: All things Bio"
+toc: true
+---
+
+# Links to a variety of helpful resources
+
+## 1. [Biomedical Image Analysis and Microscopy](biomed_image_microscopy.qmd)
+
+## 2. [Biotechnology Startups and Open-Source Bio](biotech_opensource.qmd)
+
+## 3. [Bioinformatics and Computational Biology](bioinf.qmd)

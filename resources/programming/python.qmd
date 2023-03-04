@@ -1,0 +1,74 @@
+---
+title: "Python"
+toc: true
+---
+
+## Basics
+
+1)	[100 Page Python Intro](https://learnbyexample.github.io/100_page_python_intro/cover.html) 
+2)	[Python for Non-Programmers](https://wiki.python.org/moin/BeginnersGuide/NonProgrammers) 
+3)	[Automate the Boring Stuff with Python](https://automatetheboringstuff.com/) 
+4)	[Numpy](https://numpy.org/doc/stable/user/absolute_beginners.html)
+5)	[Python Programming And Numerical Methods: A Guide For Engineers And Scientists](https://pythonnumericalmethods.berkeley.edu/notebooks/Index.html#)
+6)	[Elements of Data Science](https://allendowney.github.io/ElementsOfDataScience/README.html) 
+7)	[Python for Everybody (PY4E)](https://www.py4e.com/lessons)
+8)	[Scientific Computing with Python](https://agahkarakuzu.github.io/sunrise/index.html)
+9)	[Python Curriculum Map](https://maps.joindeltaacademy.com/maps/PythonCurriculum)
+10)	[Computational and Inferential Thinking: The Foundations of Data Science](https://inferentialthinking.com/chapters/intro.html)
+11)	[Python for Data Analysis, 3E](https://wesmckinney.com/book/)
+12)	[Python Machine Learning Jupyter Notebooks](https://github.com/tirthajyoti/Machine-Learning-with-Python)
+13)	[Python for Beginners Course](https://github.com/ChasNelson1990/python-zero-to-hero-beginners-course)
+14)	[Python Cheatsheet](https://www.pythoncheatsheet.org/#The-Zen-of-Python)
+15)	[A dozen ways to learn Python](https://opensource.com/article/19/8/dozen-ways-learn-python)
+16)	[Python Crash Course](https://ehmatthes.github.io/pcc/)
+17)	[A Whirlwind Tour of Python](https://github.com/jakevdp/WhirlwindTourOfPython)
+18)	[Google's Python Class](https://developers.google.com/edu/python/)
+19)	[Practical Business Python](https://pbpython.com/)
+20)	[Comprehensive Python Cheatsheet](https://gto76.github.io/python-cheatsheet/)
+21)	[Think Python 2e](https://greenteapress.com/wp/think-python-2e/)
+22)	[49 Essential Resources To Learn Python](https://code-love.com/2019/06/03/49-essential-resources-to-learn-python/)
+23)	[A Gallery of Interesting Jupyter Notebooks](https://github.com/jupyter/jupyter/wiki#a-gallery-of-interesting-jupyter-notebooks)
+
+## Tutorials
+
+1)	[Real Python](https://realpython.com/)
+2)	[A Complete 26 Week Course to Learn Python for Data Science in 2022](https://towardsdatascience.com/a-complete-26-week-course-to-learn-python-for-data-science-in-2022-e95b67551df4)
+3)	[Elements of Data Science with Python](https://github.com/AllenDowney/ElementsOfDataScience) 
+4)	[Python for Data Science: 8 Concepts You May Have Forgotten](https://towardsdatascience.com/python-for-data-science-8-concepts-you-may-have-forgotten-i-did-825966908393)
+5)	[Resolving Python](https://blog.resolvingpython.com/)
+6)	[Stock Portfolio Analysis using Python](https://hodleranalytics.hashnode.dev/stock-portfolio-analysis-using-python) 
+7)	[Data School: My top 25 pandas tricks](https://nbviewer.org/github/justmarkham/pandas-videos/blob/master/top_25_pandas_tricks.ipynb) 
+8)	[Python Machine Learning Notebooks (Tutorial style)](https://machine-learning-with-python.readthedocs.io/en/latest/)
+9)	[Neural networks fundamentals with Python](https://mathspp.com/blog/neural-networks-fundamentals-with-python-intro)
+10)	[Python News Webscraper](https://github.com/kotartemiy/newscatcher)
+11)	[What is Exploratory Spatial Data Analysis (ESDA)?](https://towardsdatascience.com/what-is-exploratory-spatial-data-analysis-esda-335da79026ee) 
+12)	[VIB Tutorials](https://material.bits.vib.be/topics/python-programming/)
+13)	[Python Functions 1](https://data-flair.training/blogs/python-function/)
+14)	[Python Functions 2](https://www.datacamp.com/tutorial/functions-python-tutorial) 
+15)	[Python Projects for 2023 – Work on Real-time Projects to Head Start Your Career](https://data-flair.training/blogs/python-project-ideas/)
+16)	[Python Projects with Source Code](https://www.theinsaneapp.com/2021/06/list-of-python-projects-with-source-code-and-tutorials.html)
+17)	[Tour of Python Itertools](https://martinheinz.dev/blog/16/)
+18)	[Python Online Practice](https://www.dataquest.io/blog/python-practice/) 
+19)	[Python Machine Learning Tutorial: Predicting Airbnb Prices](https://www.dataquest.io/blog/machine-learning-tutorial/)
+20)	[The Basics of Python For Loops](https://www.dataquest.io/blog/python-for-loop-tutorial/) 
+21)	[Advanced For Loops in Python](https://www.dataquest.io/blog/tutorial-advanced-for-loops-python-pandas/) 
+22)	[Web Scraping with Scrapy](https://scrapy.org/)
+23)	[Python API Tutorial](https://www.dataquest.io/blog/python-api-tutorial/)
+24)	[Introduction to Market Basket Analysis in Python](https://pbpython.com/market-basket-analysis.html) 
+25)	[How to Use Jupyter Notebook: A Beginner’s Tutorial](https://www.dataquest.io/blog/jupyter-notebook-tutorial/)
+26)	[Text Analysis in Python to Test a Hypothesis](https://www.dataquest.io/blog/tutorial-text-analysis-python-test-hypothesis/)
+27)	[Getting started with data science using Python](https://opensource.com/article/19/9/get-started-data-science-python)
+28)	[Top 10 IPython Notebook Tutorials for Data Science and Machine Learning](https://www.kdnuggets.com/2016/04/top-10-ipython-nb-tutorials.html)
+29)	[Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/05.07-support-vector-machines.html) 
+30)	[Learning Python For Data Science](https://www.datasciencecentral.com/learning-python-for-data-science/)
+31)	[Learn Python in 3 days: Step-by-Step Guide](https://www.datasciencecentral.com/learn-python-in-3-days-step-by-step-guide/)
+32)	[10 Python Pandas tricks that make your work more efficient](https://towardsdatascience.com/10-python-pandas-tricks-that-make-your-work-more-efficient-2e8e483808ba)
+33)	[Python built-in functions to know](https://treyhunner.com/2019/05/python-builtins-worth-learning/)
+34)	[Data Science Best Practices with pandas](https://github.com/justmarkham/pycon-2019-tutorial) 
+35)	[45+ Data Analysis Projects with Python](https://amankharwal.medium.com/data-analysis-projects-with-python-a262a6f9e68c)
+
+## Blogs
+
+1)	[Just into Data](https://www.justintodata.com/blog/)
+2)	[LVNGD](https://lvngd.com/blog/)
+
