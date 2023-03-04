@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://williamokech.netlify.app/index.html</loc>
-    <lastmod>2023-02-02T19:21:37.477Z</lastmod>
+    <lastmod>2023-03-03T18:26:30.694Z</lastmod>
   </url>
   <url>
     <loc>https://williamokech.netlify.app/reading_list.html</loc>
@@ -18,11 +18,11 @@
   </url>
   <url>
     <loc>https://williamokech.netlify.app/blog.html</loc>
-    <lastmod>2023-01-31T13:21:43.428Z</lastmod>
+    <lastmod>2023-03-03T18:26:48.778Z</lastmod>
   </url>
   <url>
     <loc>https://williamokech.netlify.app/series_1.html</loc>
-    <lastmod>2023-01-31T11:53:38.955Z</lastmod>
+    <lastmod>2023-03-03T18:23:49.380Z</lastmod>
   </url>
   <url>
     <loc>https://williamokech.netlify.app/posts/series_1/new_post_2/post_2.html</loc>
@@ -46,7 +46,7 @@
   </url>
   <url>
     <loc>https://williamokech.netlify.app/series_2.html</loc>
-    <lastmod>2023-01-31T11:57:41.028Z</lastmod>
+    <lastmod>2023-03-03T18:23:28.430Z</lastmod>
   </url>
   <url>
     <loc>https://williamokech.netlify.app/resources/biox.html</loc>
@@ -134,6 +134,6 @@
   </url>
   <url>
     <loc>https://williamokech.netlify.app/resources/reading_general.html</loc>
-    <lastmod>2023-03-01T20:05:55.143Z</lastmod>
+    <lastmod>2023-03-03T18:23:24.437Z</lastmod>
   </url>
 </urlset>
