@@ -27,6 +27,9 @@ website:
       - icon: medium
         href: https://medium.com/@willyokech
         aria-label: Medium
+      - icon: linkedin
+        href: https://www.linkedin.com/in/williamokech/
+        aria-label: LinkedIn
       - icon: rss
         href: blog.xml
   cookie-consent:
