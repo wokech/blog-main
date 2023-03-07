@@ -13,7 +13,7 @@ website:
       - text: Resources 
         menu: 
           - href: resources/biox/biox.qmd
-          - href: resources/ds_ml_ai/ds_ml_ai.qmd
+          - href: resources/ds_ml_ai/ds_ml_ai_all.qmd
           - href: resources/programming/programming.qmd
           - href: resources/random_interests/rand_int.qmd
           - href: resources/readings/readings.qmd

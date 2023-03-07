@@ -9,8 +9,7 @@ toc: true
 2)  [Using Data Appropriately](https://data.org/guides-resources/)
 3)  [Sharing Data](https://posit.co/blog/how-i-use-stories-to-share-data-at-meetings/)
 4)  [WTF CSV Data Organization](https://databasic.io/en/wtfcsv/)
-5)  
-    1)  [Data Cleaning](https://cghlewis.com/categories/tutorials/)
+5)  [Data Cleaning](https://cghlewis.com/categories/tutorials/)
 
 ## Free and Open Data
 
