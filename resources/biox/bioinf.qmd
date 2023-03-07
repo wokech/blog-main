@@ -72,7 +72,7 @@ toc: true
 48) [Explore the world of Bioinformatics with Machine Learning](https://www.kdnuggets.com/2019/09/explore-world-bioinformatics-machine-learning.html)
 49) [Deep learning on computational biology and bioinformatics tutorial](https://theaisummer.com/deep-learning-biology-alphafold/)
 50) [HarvardX Biomedical Data Science Open Online Training](http://rafalab.dfci.harvard.edu/pages/harvardx.html)
-51) [Folding@Home](https://foldingathome.org/)
+51) [Folding\@Home](https://foldingathome.org/)
 52) [Python for biologists](https://pythonforbiologists.com/)
 53) [Machine learning for biology part one](https://pythonforbiologists.com/machine-learning-for-biology-part-one.html)
 54) [Machine learning for biology part two](https://pythonforbiologists.com/machine-learning-for-biology-part-two.html)

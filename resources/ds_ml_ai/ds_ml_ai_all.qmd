@@ -189,7 +189,6 @@ toc: true
 7)  [Build a Recommender Engine for Medical Research Papers](https://medium.com/@topspinj/how-to-build-a-recommender-engine-for-medical-research-papers-a9dc1bad12f2)
 8)  [RECONLearn](https://www.reconlearn.org/)
 9)  [RECON](https://www.repidemicsconsortium.org/projects/)
-10) 
 
 ## Journals and Stories
 

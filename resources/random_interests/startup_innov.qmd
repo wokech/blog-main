@@ -3,33 +3,32 @@ title: "Startup and Innovation Resources"
 toc: true
 ---
 
-A.	Startup Resources
+## Startup Resources
 
-1)	[StartupTools](https://startuptools.org/se/) 
-2)	[Startup Smarter](https://gust.com/)
-3)	[Startup Estonia Resources](https://startupestonia.ee/resources) 
-4)	[Y-Combinator](https://www.ycombinator.com/) 
-5)	[Ingressive Capital](https://ingressivecapital.com/) 
-6)	[Fluorish Ventures](https://flourishventures.com/) 
-7)	[Indie Bio](https://indiebio.co/) 
-8)	[500 Global](https://500.co/) 
-9)	[NLC Venture Builder](https://nlc.health/)
-10)	[Biogeneration Ventures](https://biogenerationventures.com/en/) 
-11)	[University Startup Resources]( https://www.notion.so/miretchin/c03f3a6c4c6d4e528d35d0e4474123a0?v=0fa52c0b702f4e70bc768b7c0aa22737) 
-12)	[BiocomxC3i Program](http://www.biocomx.org/) 
-13)	[Founder Playlist](https://www.pillar.vc/playlist/) 
-14)	[Flint Atlantic Capital](http://www.flint-atlantic.com/) 
+1)  [StartupTools](https://startuptools.org/se/)
+2)  [Startup Smarter](https://gust.com/)
+3)  [Startup Estonia Resources](https://startupestonia.ee/resources)
+4)  [Y-Combinator](https://www.ycombinator.com/)
+5)  [Ingressive Capital](https://ingressivecapital.com/)
+6)  [Fluorish Ventures](https://flourishventures.com/)
+7)  [Indie Bio](https://indiebio.co/)
+8)  [500 Global](https://500.co/)
+9)  [NLC Venture Builder](https://nlc.health/)
+10) [Biogeneration Ventures](https://biogenerationventures.com/en/)
+11) [University Startup Resources](https://www.notion.so/miretchin/c03f3a6c4c6d4e528d35d0e4474123a0?v=0fa52c0b702f4e70bc768b7c0aa22737)
+12) [BiocomxC3i Program](http://www.biocomx.org/)
+13) [Founder Playlist](https://www.pillar.vc/playlist/)
+14) [Flint Atlantic Capital](http://www.flint-atlantic.com/)
 
-B.	Innovation
+## Innovation
 
-1)	[Development Innovation Ventures](https://www.usaid.gov/div) 
-2)	[Creative Destruction Lab](https://creativedestructionlab.com/) 
-3)	[Christensen Institute](https://www.christenseninstitute.org/) 
-4)	[BioInnovate Africal](https://bioinnovate-africa.org/) 
-5)	[Israel Innovation](https://www.israel21c.org/) 
-6)	[Smart Agro Fund](https://smartagrofund.com/en/home-page-english/) 
-7)	[EXTREME Design Stanford](https://extreme.stanford.edu/)
-8)	[100 PANDEMIC TECHNOLOGIES](https://techpandemic.theglassroom.org/) 
-9)	[MIT D-Lab](https://d-lab.mit.edu/) 
-10)	[Medical Device and Diagnostic Industry](https://www.mddionline.com/) 
-
+1)  [Development Innovation Ventures](https://www.usaid.gov/div)
+2)  [Creative Destruction Lab](https://creativedestructionlab.com/)
+3)  [Christensen Institute](https://www.christenseninstitute.org/)
+4)  [BioInnovate Africal](https://bioinnovate-africa.org/)
+5)  [Israel Innovation](https://www.israel21c.org/)
+6)  [Smart Agro Fund](https://smartagrofund.com/en/home-page-english/)
+7)  [EXTREME Design Stanford](https://extreme.stanford.edu/)
+8)  [100 PANDEMIC TECHNOLOGIES](https://techpandemic.theglassroom.org/)
+9)  [MIT D-Lab](https://d-lab.mit.edu/)
+10) [Medical Device and Diagnostic Industry](https://www.mddionline.com/)
