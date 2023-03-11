@@ -27,9 +27,9 @@ I am a research scientist with a background in Biomedical Engineering. My primar
 
 • Data Analysis and Visualization
 
-• Synthetic Biology
+• Biomechanics
 
 • Machine Learning for Health
 
-This blog aims to promote data-driven decision-making and introduce readers to data analysis and visualization basics. Additionally, I will provide a periodic summary of recent advances in Synthetic Biology and Machine Learning for Health.
+This blog aims to promote data-driven decision-making and introduce readers to data analysis and visualization basics. Additionally, I will provide a periodic summary of recent advances in Biomechanics and Machine Learning for Health.
 :::
