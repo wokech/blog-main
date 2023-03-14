@@ -1447,5 +1447,26 @@
     "title": "General Teaching Resources",
     "section": "3. Medical, Science, and Technical Writing",
     "text": "3. Medical, Science, and Technical Writing"
+  },
+  {
+    "objectID": "resources/biox/biox.html#biomedical-image-analysis-and-microscopy",
+    "href": "resources/biox/biox.html#biomedical-image-analysis-and-microscopy",
+    "title": "Bio-X: All things Bio",
+    "section": "1. Biomedical Image Analysis and Microscopy",
+    "text": "1. Biomedical Image Analysis and Microscopy"
+  },
+  {
+    "objectID": "resources/biox/biox.html#biotechnology-startups-and-open-source-bio",
+    "href": "resources/biox/biox.html#biotechnology-startups-and-open-source-bio",
+    "title": "Bio-X: All things Bio",
+    "section": "2. Biotechnology Startups and Open-Source Bio",
+    "text": "2. Biotechnology Startups and Open-Source Bio"
+  },
+  {
+    "objectID": "resources/biox/biox.html#bioinformatics-and-computational-biology",
+    "href": "resources/biox/biox.html#bioinformatics-and-computational-biology",
+    "title": "Bio-X: All things Bio",
+    "section": "3. Bioinformatics and Computational Biology",
+    "text": "3. Bioinformatics and Computational Biology"
   }
 ]
