@@ -3,7 +3,7 @@ title: "Programming"
 toc: true
 ---
 
-# A curated collection of programming resources
+## A curated collection of resources
 
 ## 1. [R and RStudio](r_rstudio.qmd)
 

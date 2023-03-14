@@ -3,7 +3,7 @@ title: "Bio-X: All things Bio"
 toc: true
 ---
 
-# A curated collection of biology-related resources
+## A curated collection of resources
 
 ## 1. [Biomedical Image Analysis and Microscopy](biomed_image_microscopy.qmd)
 

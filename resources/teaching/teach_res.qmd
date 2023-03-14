@@ -3,7 +3,7 @@ title: "General Teaching Resources"
 toc: true
 ---
 
-# A curated collection of general teaching resources
+## A curated collection of resources
 
 ## 1. [General Teaching Resources](gen_teach_resources.qmd)
 

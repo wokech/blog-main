@@ -3,7 +3,7 @@ title: "Data Science, Machine Learning, and Artificial Intelligence"
 toc: true
 ---
 
-# A curated collection of Data Science, Machine Learning, and Artificial Intelligence resources
+## A curated collection of resources
 
 ## 1. [Data Science, Machine Learning, and Artificial Intelligence](ds_ml_ai.qmd)
 

@@ -1307,5 +1307,145 @@
     "title": "Quarto",
     "section": "R Markdown",
     "text": "R Markdown\n\nR Markdown for Web Pages"
+  },
+  {
+    "objectID": "resources/programming/programming.html#r-and-rstudio",
+    "href": "resources/programming/programming.html#r-and-rstudio",
+    "title": "Programming",
+    "section": "1. R and RStudio",
+    "text": "1. R and RStudio"
+  },
+  {
+    "objectID": "resources/programming/programming.html#python",
+    "href": "resources/programming/programming.html#python",
+    "title": "Programming",
+    "section": "2. Python",
+    "text": "2. Python"
+  },
+  {
+    "objectID": "resources/programming/programming.html#data-visualization-notes-and-tutorials",
+    "href": "resources/programming/programming.html#data-visualization-notes-and-tutorials",
+    "title": "Programming",
+    "section": "3. Data Visualization Notes and Tutorials",
+    "text": "3. Data Visualization Notes and Tutorials"
+  },
+  {
+    "objectID": "resources/programming/programming.html#git-github-command-line-and-sql",
+    "href": "resources/programming/programming.html#git-github-command-line-and-sql",
+    "title": "Programming",
+    "section": "4. Git, GitHub, Command Line, and SQL",
+    "text": "4. Git, GitHub, Command Line, and SQL"
+  },
+  {
+    "objectID": "resources/programming/programming.html#quarto",
+    "href": "resources/programming/programming.html#quarto",
+    "title": "Programming",
+    "section": "5. Quarto",
+    "text": "5. Quarto"
+  },
+  {
+    "objectID": "resources/ds_ml_ai/ds_ml_ai.html#data-science-machine-learning-and-artificial-intelligence",
+    "href": "resources/ds_ml_ai/ds_ml_ai.html#data-science-machine-learning-and-artificial-intelligence",
+    "title": "Data Science, Machine Learning, and Artificial Intelligence",
+    "section": "1. Data Science, Machine Learning, and Artificial Intelligence",
+    "text": "1. Data Science, Machine Learning, and Artificial Intelligence"
+  },
+  {
+    "objectID": "resources/ds_ml_ai/ds_ml_ai.html#datasets-for-statistical-analysis-and-machine-learning",
+    "href": "resources/ds_ml_ai/ds_ml_ai.html#datasets-for-statistical-analysis-and-machine-learning",
+    "title": "Data Science, Machine Learning, and Artificial Intelligence",
+    "section": "2. Datasets for Statistical Analysis and Machine Learning",
+    "text": "2. Datasets for Statistical Analysis and Machine Learning"
+  },
+  {
+    "objectID": "resources/ds_ml_ai/ds_ml_ai.html#statistics",
+    "href": "resources/ds_ml_ai/ds_ml_ai.html#statistics",
+    "title": "Data Science, Machine Learning, and Artificial Intelligence",
+    "section": "3. Statistics",
+    "text": "3. Statistics"
+  },
+  {
+    "objectID": "resources/ds_ml_ai/ds_ml_ai.html#data-science-interview-prep",
+    "href": "resources/ds_ml_ai/ds_ml_ai.html#data-science-interview-prep",
+    "title": "Data Science, Machine Learning, and Artificial Intelligence",
+    "section": "4. Data Science Interview Prep",
+    "text": "4. Data Science Interview Prep"
+  },
+  {
+    "objectID": "resources/ds_ml_ai/ds_ml_ai.html#data-journalism-tools-and-stories",
+    "href": "resources/ds_ml_ai/ds_ml_ai.html#data-journalism-tools-and-stories",
+    "title": "Data Science, Machine Learning, and Artificial Intelligence",
+    "section": "5. Data Journalism Tools and Stories",
+    "text": "5. Data Journalism Tools and Stories"
+  },
+  {
+    "objectID": "resources/ds_ml_ai/ds_ml_ai.html#sports-data-science",
+    "href": "resources/ds_ml_ai/ds_ml_ai.html#sports-data-science",
+    "title": "Data Science, Machine Learning, and Artificial Intelligence",
+    "section": "6. Sports Data Science",
+    "text": "6. Sports Data Science"
+  },
+  {
+    "objectID": "resources/random_interests/rand_int.html#social-media-and-music-analysis",
+    "href": "resources/random_interests/rand_int.html#social-media-and-music-analysis",
+    "title": "Random Interests",
+    "section": "1. Social Media and Music Analysis",
+    "text": "1. Social Media and Music Analysis"
+  },
+  {
+    "objectID": "resources/random_interests/rand_int.html#agriculture-and-farming-stories",
+    "href": "resources/random_interests/rand_int.html#agriculture-and-farming-stories",
+    "title": "Random Interests",
+    "section": "2. Agriculture and Farming Stories",
+    "text": "2. Agriculture and Farming Stories"
+  },
+  {
+    "objectID": "resources/random_interests/rand_int.html#biomechanics-and-sports-bioengineering",
+    "href": "resources/random_interests/rand_int.html#biomechanics-and-sports-bioengineering",
+    "title": "Random Interests",
+    "section": "3. Biomechanics and Sports Bioengineering",
+    "text": "3. Biomechanics and Sports Bioengineering"
+  },
+  {
+    "objectID": "resources/random_interests/rand_int.html#startup-and-innovation-resources",
+    "href": "resources/random_interests/rand_int.html#startup-and-innovation-resources",
+    "title": "Random Interests",
+    "section": "4. Startup and Innovation Resources",
+    "text": "4. Startup and Innovation Resources"
+  },
+  {
+    "objectID": "resources/readings/readings.html#recommended-readings-stem",
+    "href": "resources/readings/readings.html#recommended-readings-stem",
+    "title": "Readings (STEM and General)",
+    "section": "1. Recommended Readings (STEM)",
+    "text": "1. Recommended Readings (STEM)"
+  },
+  {
+    "objectID": "resources/readings/readings.html#recommended-readings-general",
+    "href": "resources/readings/readings.html#recommended-readings-general",
+    "title": "Readings (STEM and General)",
+    "section": "2. Recommended Readings (General)",
+    "text": "2. Recommended Readings (General)"
+  },
+  {
+    "objectID": "resources/teaching/teach_res.html#general-teaching-resources",
+    "href": "resources/teaching/teach_res.html#general-teaching-resources",
+    "title": "General Teaching Resources",
+    "section": "1. General Teaching Resources",
+    "text": "1. General Teaching Resources"
+  },
+  {
+    "objectID": "resources/teaching/teach_res.html#rstudio-and-carpentries-certification",
+    "href": "resources/teaching/teach_res.html#rstudio-and-carpentries-certification",
+    "title": "General Teaching Resources",
+    "section": "2. RStudio and Carpentries Certification",
+    "text": "2. RStudio and Carpentries Certification"
+  },
+  {
+    "objectID": "resources/teaching/teach_res.html#medical-science-and-technical-writing",
+    "href": "resources/teaching/teach_res.html#medical-science-and-technical-writing",
+    "title": "General Teaching Resources",
+    "section": "3. Medical, Science, and Technical Writing",
+    "text": "3. Medical, Science, and Technical Writing"
   }
 ]

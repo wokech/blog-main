@@ -3,7 +3,7 @@ title: "Readings (STEM and General)"
 toc: true
 ---
 
-# Readings for STEM students and the general public
+## Readings for STEM students and the general public
 
 ## 1. [Recommended Readings (STEM)](reading_stem.qmd)
 
