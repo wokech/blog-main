@@ -3,7 +3,7 @@ title: "General Teaching Resources"
 toc: true
 ---
 
-# Links to a variety of helpful resources
+# A curated collection of general teaching resources
 
 ## 1. [General Teaching Resources](gen_teach_resources.qmd)
 

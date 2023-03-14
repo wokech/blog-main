@@ -3,7 +3,7 @@ title: "Random Interests"
 toc: true
 ---
 
-# Links to a variety of helpful resources
+# A curated collection of topics I am interested in
 
 ## 1. [Social Media and Music Analysis](soc_med_music_analysis.qmd)
 

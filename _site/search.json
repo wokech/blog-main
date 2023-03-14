@@ -851,7 +851,7 @@
     "href": "resources/programming/quarto.html",
     "title": "Quarto",
     "section": "",
-    "text": "Quarto\nTutorial: Hello, Quarto\nAwesome Quarto\nR Markdown for Web Pages\nPorting a distill blog to quarto\nWe don’t talk about Quarto\nBuild a simple website with R and Quarto in under 10 minutes\nThe ultimate guide to starting a Quarto blog\nGetting Started with Quarto\nWhat is Quarto? RStudio rolls out next-generation R Markdown\nMaking Slides in Quarto with reveal.js\nCreating a blog with Quarto in 10 steps"
+    "text": "Quarto\nWhat is Quarto? RStudio rolls out next-generation R Markdown\nWe don’t talk about Quarto\nAwesome Quarto\nTutorial: Hello, Quarto\nBuild a simple website with R and Quarto in under 10 minutes\nGetting Started with Quarto\nThe ultimate guide to starting a Quarto blog\nCreating a blog with Quarto in 10 steps\nPorting a distill blog to quarto\nMaking Slides in Quarto with reveal.js\nR Markdown for Web Pages"
   },
   {
     "objectID": "resources/programming/r_rstudio.html",
@@ -1293,5 +1293,19 @@
     "title": "Data Science Interview",
     "section": "Language- and Field-Specific",
     "text": "Language- and Field-Specific\n\nAnalyzing 89 Responses to a SQL Screener Question for a Senior Data Analyst Position\nHow To Ace Data Science Interviews: SQL\nHow To Ace Data Science Interviews: Statistics\nHow To Ace Data Science Interviews: R & Python\nAce the SQL & Data Science Interview"
+  },
+  {
+    "objectID": "resources/programming/quarto.html#creating-a-quarto-blog",
+    "href": "resources/programming/quarto.html#creating-a-quarto-blog",
+    "title": "Quarto",
+    "section": "Creating a Quarto Blog",
+    "text": "Creating a Quarto Blog\n\nTutorial: Hello, Quarto\nBuild a simple website with R and Quarto in under 10 minutes\nGetting Started with Quarto\nThe ultimate guide to starting a Quarto blog\nCreating a blog with Quarto in 10 steps\nPorting a distill blog to quarto\nMaking Slides in Quarto with reveal.js"
+  },
+  {
+    "objectID": "resources/programming/quarto.html#r-markdown",
+    "href": "resources/programming/quarto.html#r-markdown",
+    "title": "Quarto",
+    "section": "R Markdown",
+    "text": "R Markdown\n\nR Markdown for Web Pages"
   }
 ]
