@@ -23,7 +23,7 @@ comments: false
 ---
 
 ::: {#hero-heading style="text-align:left"}
-I am a research scientist with a background in Biomedical Engineering. My primary interests include the following:
+I am a research scientist with a background in Biomedical Engineering. My primary interests include:
 
 • [Data Visualization](resources/data_viz/ds_viz.qmd)
 
