@@ -9,8 +9,6 @@ toc: true
 
 ## 2. [Python](python.qmd)
 
-## 3. [Data Visualization Notes and Tutorials](ds_viz.qmd)
+## 3. [Git, GitHub, Command Line, and SQL](git_hub_cl_sql.qmd)
 
-## 4. [Git, GitHub, Command Line, and SQL](git_hub_cl_sql.qmd)
-
-## 5. [Quarto](quarto.qmd)
+## 4. [Quarto](quarto.qmd)
