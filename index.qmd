@@ -25,11 +25,9 @@ comments: false
 ::: {#hero-heading style="text-align:left"}
 I am a research scientist with a background in Biomedical Engineering. My primary interests include the following:
 
-• Data Analysis and Visualization
+• [Data Visualization](resources/data_viz/ds_viz.qmd)
 
-• Biotechnology
+• [Biotechnology](resources/biox/biox.qmd)
 
-• Machine Learning for Health
-
-This blog aims to promote data-driven decision-making and introduce readers to data analysis and visualization basics. Additionally, I will provide a periodic summary of recent advances in Biotechnology and Machine Learning for Health.
+In the [**blog**](blog.qmd) section, I hope to introduce readers to the basics of [data analysis and visualization](resources/data_viz/ds_viz.qmd) and provide a periodic summary of recent advances in [biotechnology](resources/biox/biox.qmd).
 :::
