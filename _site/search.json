@@ -1452,8 +1452,8 @@
     "objectID": "resources/biox/biox.html#biomedical-image-analysis-and-microscopy",
     "href": "resources/biox/biox.html#biomedical-image-analysis-and-microscopy",
     "title": "Bio-X: All things Bio",
-    "section": "1. Biomedical Image Analysis and Microscopy",
-    "text": "1. Biomedical Image Analysis and Microscopy"
+    "section": "5. Biomedical Image Analysis and Microscopy",
+    "text": "5. Biomedical Image Analysis and Microscopy"
   },
   {
     "objectID": "resources/biox/biox.html#biotechnology-startups-and-open-source-bio",
@@ -1466,7 +1466,203 @@
     "objectID": "resources/biox/biox.html#bioinformatics-and-computational-biology",
     "href": "resources/biox/biox.html#bioinformatics-and-computational-biology",
     "title": "Bio-X: All things Bio",
-    "section": "3. Bioinformatics and Computational Biology",
-    "text": "3. Bioinformatics and Computational Biology"
+    "section": "4. Bioinformatics and Computational Biology",
+    "text": "4. Bioinformatics and Computational Biology"
+  },
+  {
+    "objectID": "resources/data_viz/data_viz.html#data-visualization",
+    "href": "resources/data_viz/data_viz.html#data-visualization",
+    "title": "Data Visualization",
+    "section": "1. Data Visualization",
+    "text": "1. Data Visualization"
+  },
+  {
+    "objectID": "resources/data_viz/ds_viz.html",
+    "href": "resources/data_viz/ds_viz.html",
+    "title": "Data Visualization Notes and Tutorials",
+    "section": "",
+    "text": "Maarten Lambrechts\nAda Homolova\nLisa Charlotte Muth\nZev Ross\nEdward Tufte\nCÉDRIC SCHERER"
+  },
+  {
+    "objectID": "resources/data_viz/ds_viz.html#data-visualization-general",
+    "href": "resources/data_viz/ds_viz.html#data-visualization-general",
+    "title": "Data Visualization Notes and Tutorials",
+    "section": "Data Visualization (General)",
+    "text": "Data Visualization (General)\n\nThe unspoken rules of visualisation\nThe Beginning, The Middle, & The New Beginning\nVisual Vocabulary\nColor in Data Vis\nBlack in Data Vis Challenge\nA Reader on Data Visualization\nData Visualization: A practical introduction\nSome Favorite Things\nColor Brewer\nFullstack D3 course\nLittle Miss Data\nWhat Are Data Visualization Style Guidelines?\nData visualization\nSportsChord\nData Viz Project\nYour Friendly Guide to Colors in Data Visualisation\nVIZRISK CHALLENGE STEPS\nWhy scientists need to be better at data visualization\nData Viz Projects\nA Tufte Handout Example"
+  },
+  {
+    "objectID": "resources/data_viz/ds_viz.html#data-visualization-r",
+    "href": "resources/data_viz/ds_viz.html#data-visualization-r",
+    "title": "Data Visualization Notes and Tutorials",
+    "section": "Data Visualization (R)",
+    "text": "Data Visualization (R)\n\nBooks\n\nAwesome ggplot2\nAn introduction to data visualization protocols for wet lab scientists\nGraphic Design with ggplot2\nGraphing with ggplot\nCookbook for R\nR Graphics Cookbook\nData Visualization in R\nData Visualization with R\nData visualisation using R, for researchers who don’t use R\nR CHARTS\nThe R Graph Gallery\nA Scientist’s Guide to R: Step 3.1 - data visualization with ggplot2+\nFundamentals of Data Visualization\nggplot2: Elegant Graphics for Data Analysis\nggplot2 extensions\na ggplot2 grammar guide\nData Visualization\nTom’s Cookbook for Better Viz\nBeginners Cookbook for Interactive Visualization in R with highcharter\nR4DS Data Visualization\nggplot2\nTom’s Cookbook for Better Viz\nDesigning ggplots\nInteractive web-based data visualization with R, plotly, and shiny\nBBC Visual and Data Journalism cookbook for R graphics\nBBPLOT\nR Data Viz\nggplot tricks\n\n\n\nTutorials and Notes\n\nbarbarplots\nggplot2tutor\nData Visualization Packages for R you should check out in 2022\nImproving a Visualization\nHow I use stories to share data at meetings\n12 ggplot extensions for snazzier R graphics\nCommon R Mistakes in Data Viz\nQuick and easy ways to deal with long labels in ggplot2\nReal house price plots\nCreating flowcharts with {ggplot2}\nMaking text labels the same size as axis labels in ggplot2\nLabelling area plots\nTop 50 ggplot2 Visualizations - The Master List (With Full R Code)\nThe Complete ggplot2 Tutorial - Part1 | Introduction To ggplot2 (Full R code)\nBest ggplot visualizations\nNetwork Visualizations in R\nIncrease & Decrease Number of Axis Ticks in R (2 Examples)\nVisualize monthly precipitation anomalies\nHow to use multiple colour scales in ggplot with {ggnewscale}\nLevel Up Your Labels: Tips and Tricks for Annotating Plots\nBeautiful plotting in R: A ggplot2 cheatsheet\nThe Good, the Bad and the Ugly: how (not) to visualize data\nWHY NOT DO THAT WITH R?\nA quick introduction to ggplot2\nGetting started with data visualization in R using ggplot2\nggplot theme tester\nThe Evolution of a ggplot (Ep. 1)\nA ggplot2 Tutorial for Beautiful Plotting in R\nggplot2 Theme Elements Demonstration\nR you ready to make charts?\nSDS 375: Data Visualization in R\nThe ggplot flibbook\nCreate a Visual CV\nggplot theme for publication ready Plots\nVisualizing Time Series\nR base plotting without wrappers\nHow to basic: bar plots\nggcute\nRacing Barchart with gganimate\nIntroducing ‘optout’ - A package for optimizing graphics output\nRacing Barplots with {ggpattern}, {flagon} & {gganimate}\nSpruce up your ggplot2 visualizations with formatted text\nSix things I always Google when using ggplot2\nState Unemployment Claims\nVisualizing the heterogeneity of single cell data from time-lapse imaging\nDynamic display of data with animated plots\nGenerate your own ggplot theme gallery\nthe seven living generations in America\nthis old house\nRadial Patterns in ggplot2\nHow to build Animated Charts like Hans Rosling — doing it all in R\n10 Levels of ggplot2: From Basic to Beautiful\nReproducing an Axios plot\nHow to create Bar Race Animation Charts in R\nInspiration from Flowing Data\nNYT-style urban heat island maps\nPractical ggplot2\nggchicklet\nHow to Add Labels Directly in ggplot2\nggplot2 Bar Chart\nThemes to Improve Your ggplot figures\nAccelerate your plots with ggforce\nggrapid\nAnimating Your Data Visualizations Like a Boss Using R\n12 Extensions to ggplot2 for More Powerful R Visualizations\nggthemes\nhtmlwidgets\nGetting started with data visualization in R using ggplot2\nGreat Looking Tables\nPatchwork R package goes nerd viral\nggplot date helpers\nggplot2: Mastering the basics\nRacing Barchart with gganimate\nggpattern\n{ggtext} for images as x-axis labels\nGGPLOT THEMES GALLERY\nVisualising high-dimensional data\nReordering and facetting for ggplot2\nRyo Viz\nDendrograms in R, a lightweight approach\nA look into U.S. infectious diseases\nCan I do that? Inspiration from a Pudding data visualization"
+  },
+  {
+    "objectID": "resources/data_viz/ds_viz.html#data-visualization-python",
+    "href": "resources/data_viz/ds_viz.html#data-visualization-python",
+    "title": "Data Visualization Notes and Tutorials",
+    "section": "Data Visualization (Python)",
+    "text": "Data Visualization (Python)\n\nBooks\n\nThe Python Graph Gallery\n\n\n\nTutorials\n\nVisualizing Data with Pairs Plots in Python\nHow to Make a Scatter Plot in Python using Seaborn\nSeaborn Heatmaps: 13 Ways to Customize Correlation Matrix Visualizations\nHow to make a matplotlib line chart\nPython Plotting for Exploratory Data Analysis\nEffectively Using Matplotlib\nPyWaffle\nEasily hiding items from the legend in matplotlib\nThe Next Level of Data Visualization in Python\nIntroducing Plotly Express\nseaborn: statistical data visualization\nPyGWalker"
+  },
+  {
+    "objectID": "resources/data_viz/ds_viz.html#data-visualization-tableau",
+    "href": "resources/data_viz/ds_viz.html#data-visualization-tableau",
+    "title": "Data Visualization Notes and Tutorials",
+    "section": "Data Visualization (Tableau)",
+    "text": "Data Visualization (Tableau)\n\nA Beginner’s Guide to Tableau Public\nResources\nWhat Is Data Visualization? Definition, Examples, And Learning Resources\nThe 10 Best Data Visualization Blogs To Follow\nHow to ace the Tableau Desktop Qualified Associate exam!\nTableau Tips, Dashboards, and Training\n7 tips and tricks from the dashboard experts\nData Visualization with Tableau"
+  },
+  {
+    "objectID": "resources/data_viz/ds_viz.html#data-artistry",
+    "href": "resources/data_viz/ds_viz.html#data-artistry",
+    "title": "Data Visualization Notes and Tutorials",
+    "section": "Data aRtistry",
+    "text": "Data aRtistry\n\nGetting started in #rtistry\nART FROM CODE\nLife Through A Mathematician’s Eyes\naRt\nRtistry Gallery\nArt by Claus O. Wilke\nUnpredictable paintings\nMystery curves\nFlow Fields\nHOW TO WORK WITH FLOW FIELDS IN R"
+  },
+  {
+    "objectID": "resources/random_not_included/agric_farm.html",
+    "href": "resources/random_not_included/agric_farm.html",
+    "title": "Agriculture and Farming Stories",
+    "section": "",
+    "text": "Digital Agriculture\nCrop Yield Increase With Precision Technologies\nConnecterra\nThe Precision Farming Magazine\nHarvest Robotics\nIoT Farming Solutions 1\nIoT Farming Solutions 2\nGarage Hydroponics\nNext-generation harvesting robots\nHydroponics Africa\nPassion Fruit and Tech\nCultured Meat\nModern Ag Canada\nProteINSECT\nBuild a Solar Cooker and Dryer\n\n\n\n\n\nFeed the Future Innovation Lab for Horticulture\nLatia Resource Center\nSustainable Food Lab\nPostHarvest\nRural Solutions Portal\nAfrica Value Chain Dev\nAfrican indigenous vegetables\nIncreased Photosynthesis\n\n\n\n\n\nAero Farms\nGoat Farm\nSundrop Farms\nRivenDale\nSicilian Passion"
+  },
+  {
+    "objectID": "resources/random_not_included/agric_farm.html#farming-stories-longform-and-in-depth-articles-about-farming-around-the-world",
+    "href": "resources/random_not_included/agric_farm.html#farming-stories-longform-and-in-depth-articles-about-farming-around-the-world",
+    "title": "Agriculture and Farming Stories",
+    "section": "Farming Stories (Longform and In-depth articles about farming around the world)",
+    "text": "Farming Stories (Longform and In-depth articles about farming around the world)\n\nTHIS TINY COUNTRY FEEDS THE WORLD\nThe small Dutch town that wants to shape the future of your food\nA Land Without Farmers\nRio Fish"
+  },
+  {
+    "objectID": "resources/random_not_included/biomech_sports_be.html",
+    "href": "resources/random_not_included/biomech_sports_be.html",
+    "title": "Biomechanics and Sports Bioengineering",
+    "section": "",
+    "text": "Biomechanics of Movement\nBiomechanics of Movement Classroom\nThe Biomechanist\nReinbolt Research Group\nNotes on Scientific Computing for Biomechanics and Motor Control\nThe Biomechanics of Solids and Fluids: The Physics of Life\nDFB Sports Academy\nStuart McErlain-Naylor Biomechanics Website\nUnderstanding Biomechanics and Body Movement"
+  },
+  {
+    "objectID": "resources/random_not_included/biomech_sports_be.html#sports-bioengineering",
+    "href": "resources/random_not_included/biomech_sports_be.html#sports-bioengineering",
+    "title": "Biomechanics and Sports Bioengineering",
+    "section": "Sports Bioengineering",
+    "text": "Sports Bioengineering\n\nBecoming a Sports Engineer\nPeak Performance Project\nBTS Bioengineering\nSparta Science"
+  },
+  {
+    "objectID": "resources/random_not_included/rand_int.html#social-media-and-music-analysis",
+    "href": "resources/random_not_included/rand_int.html#social-media-and-music-analysis",
+    "title": "Random Interests",
+    "section": "1. Social Media and Music Analysis",
+    "text": "1. Social Media and Music Analysis"
+  },
+  {
+    "objectID": "resources/random_not_included/rand_int.html#agriculture-and-farming-stories",
+    "href": "resources/random_not_included/rand_int.html#agriculture-and-farming-stories",
+    "title": "Random Interests",
+    "section": "2. Agriculture and Farming Stories",
+    "text": "2. Agriculture and Farming Stories"
+  },
+  {
+    "objectID": "resources/random_not_included/rand_int.html#biomechanics-and-sports-bioengineering",
+    "href": "resources/random_not_included/rand_int.html#biomechanics-and-sports-bioengineering",
+    "title": "Random Interests",
+    "section": "3. Biomechanics and Sports Bioengineering",
+    "text": "3. Biomechanics and Sports Bioengineering"
+  },
+  {
+    "objectID": "resources/random_not_included/rand_int.html#startup-and-innovation-resources",
+    "href": "resources/random_not_included/rand_int.html#startup-and-innovation-resources",
+    "title": "Random Interests",
+    "section": "4. Startup and Innovation Resources",
+    "text": "4. Startup and Innovation Resources"
+  },
+  {
+    "objectID": "resources/random_not_included/soc_med_music_analysis.html",
+    "href": "resources/random_not_included/soc_med_music_analysis.html",
+    "title": "Social Media and Music Analysis",
+    "section": "",
+    "text": "Text Mining with R\nSocial Media Mining\nSocial Media Mining (Slides)\nUsing Twitter as a data source an overview of social media research tools (2021)\nQuantitative Analysis of Political Text\nANALYSING TWITTER DATA WITH R\nANALYSING TWITTER DATA: EXPLORING USER PROFILES AND RELATIONSHIPS\nANALYSING TWITTER DATA: EXPLORING TWEETS CONTENT\ntwitter-sentiment-analysis\nText As Data\n4 ways how to create a gradient word cloud in R\nAnalyzing Google Trends with R: Retrieve and plot with gtrendsR\nUsing Twitter With Python And Tweepy\nText Classification in Python Using spaCy\nGetting Music Data with the Last.fm API using Python\nClassifying Tweets for Sentiment Analysis\nAnalytics Master’s Research Project\nAdvancing Text Mining with R and quanteda\nCalculating (Twitter) Vocabulary Breadth of U.S. Presidential Candidates Using TTR\nUSING R TO ANALYZE AND VISUALIZE TWEETS FROM SACNAS\nTwitter data analysis in R\nTwitter’s Feelings About Programming Languages\nTwitter “Account Analysis” in R\nA TidyText Analysis With R\nLook who’s tweeting: 2020 Presidential Candidates"
+  },
+  {
+    "objectID": "resources/random_not_included/soc_med_music_analysis.html#music-analysis",
+    "href": "resources/random_not_included/soc_med_music_analysis.html#music-analysis",
+    "title": "Social Media and Music Analysis",
+    "section": "Music Analysis",
+    "text": "Music Analysis\n\nSpotify R&D\nspotifyr package\n13 best websites to analyze your Spotify data\nSpotify Songs: Tidy Tuesday\nHow to integrate Spotify and Genius API to easily crawl song lyrics with Python\nProfiling Songs on Spotify Using Cluster Analysis\nSentiment Analysis of Most Streamed Spotify Artists\nLyric Analysis with NLP & Machine Learning with R\nWhat’s popping?: An Exploratory Analytics Project on What Makes Popular Music Popular\nAnalysis my Spotify in R with spotifyr package\nGame of Thrones: Exploratory and Sentiment Analysis\ntayloR\nExploring the Spotify API with R\nLearn tidytext with my new learnr course\nText mining with tidy data principles\nAre Pop Lyrics Getting More Repetitive?\nAZLyrics\nSpotify Songs: An analysis of the spotify dataset\nFitteR HappieR\nData Wrangling - Spotify Dataset Analysis\nUnderstanding + classifying genres using Spotify audio features\nWhat Makes a Hit\nWhat Makes Songs Popular? It’s All About ‘You’\nCan big data really predict what makes a song popular?\nPCA and the #TidyTuesday best hip hop songs ever\nBlue Christmas: A data-driven search for the most depressing Christmas song\nUsing Data to Find the Angriest Death Grips Song\nSpotify songs popularity analysis\nNigerian Songs Spotify EDA\nSentiment Analysis of Spotify, Amazon Music and Pandora user reviews"
+  },
+  {
+    "objectID": "resources/random_not_included/startup_innov.html",
+    "href": "resources/random_not_included/startup_innov.html",
+    "title": "Startup and Innovation Resources",
+    "section": "",
+    "text": "StartupTools\nStartup Smarter\nStartup Estonia Resources\nY-Combinator\nIngressive Capital\nFluorish Ventures\nIndie Bio\n500 Global\nNLC Venture Builder\nBiogeneration Ventures\nUniversity Startup Resources\nBiocomxC3i Program\nFounder Playlist\nFlint Atlantic Capital"
+  },
+  {
+    "objectID": "resources/random_not_included/startup_innov.html#innovation",
+    "href": "resources/random_not_included/startup_innov.html#innovation",
+    "title": "Startup and Innovation Resources",
+    "section": "Innovation",
+    "text": "Innovation\n\nDevelopment Innovation Ventures\nCreative Destruction Lab\nChristensen Institute\nBioInnovate Africal\nIsrael Innovation\nSmart Agro Fund\nEXTREME Design Stanford\n100 PANDEMIC TECHNOLOGIES\nMIT D-Lab\nMedical Device and Diagnostic Industry"
+  },
+  {
+    "objectID": "resources/ds_ml_ai/ds_ml_ai.html#social-media-and-music-analysis",
+    "href": "resources/ds_ml_ai/ds_ml_ai.html#social-media-and-music-analysis",
+    "title": "Data Science, Machine Learning, and Artificial Intelligence",
+    "section": "7. Social Media and Music Analysis",
+    "text": "7. Social Media and Music Analysis"
+  },
+  {
+    "objectID": "resources/biox/biomech_sports_be.html",
+    "href": "resources/biox/biomech_sports_be.html",
+    "title": "Biomechanics and Sports Bioengineering",
+    "section": "",
+    "text": "Biomechanics of Movement\nBiomechanics of Movement Classroom\nThe Biomechanist\nReinbolt Research Group\nNotes on Scientific Computing for Biomechanics and Motor Control\nThe Biomechanics of Solids and Fluids: The Physics of Life\nDFB Sports Academy\nStuart McErlain-Naylor Biomechanics Website\nUnderstanding Biomechanics and Body Movement"
+  },
+  {
+    "objectID": "resources/biox/biomech_sports_be.html#sports-bioengineering",
+    "href": "resources/biox/biomech_sports_be.html#sports-bioengineering",
+    "title": "Biomechanics and Sports Bioengineering",
+    "section": "Sports Bioengineering",
+    "text": "Sports Bioengineering\n\nBecoming a Sports Engineer\nPeak Performance Project\nBTS Bioengineering\nSparta Science"
+  },
+  {
+    "objectID": "resources/ds_ml_ai/soc_med_music_analysis.html",
+    "href": "resources/ds_ml_ai/soc_med_music_analysis.html",
+    "title": "Social Media and Music Analysis",
+    "section": "",
+    "text": "Text Mining with R\nSocial Media Mining\nSocial Media Mining (Slides)\nUsing Twitter as a data source an overview of social media research tools (2021)\nQuantitative Analysis of Political Text\nANALYSING TWITTER DATA WITH R\nANALYSING TWITTER DATA: EXPLORING USER PROFILES AND RELATIONSHIPS\nANALYSING TWITTER DATA: EXPLORING TWEETS CONTENT\ntwitter-sentiment-analysis\nText As Data\n4 ways how to create a gradient word cloud in R\nAnalyzing Google Trends with R: Retrieve and plot with gtrendsR\nUsing Twitter With Python And Tweepy\nText Classification in Python Using spaCy\nGetting Music Data with the Last.fm API using Python\nClassifying Tweets for Sentiment Analysis\nAnalytics Master’s Research Project\nAdvancing Text Mining with R and quanteda\nCalculating (Twitter) Vocabulary Breadth of U.S. Presidential Candidates Using TTR\nUSING R TO ANALYZE AND VISUALIZE TWEETS FROM SACNAS\nTwitter data analysis in R\nTwitter’s Feelings About Programming Languages\nTwitter “Account Analysis” in R\nA TidyText Analysis With R\nLook who’s tweeting: 2020 Presidential Candidates"
+  },
+  {
+    "objectID": "resources/ds_ml_ai/soc_med_music_analysis.html#music-analysis",
+    "href": "resources/ds_ml_ai/soc_med_music_analysis.html#music-analysis",
+    "title": "Social Media and Music Analysis",
+    "section": "Music Analysis",
+    "text": "Music Analysis\n\nSpotify R&D\nspotifyr package\n13 best websites to analyze your Spotify data\nSpotify Songs: Tidy Tuesday\nHow to integrate Spotify and Genius API to easily crawl song lyrics with Python\nProfiling Songs on Spotify Using Cluster Analysis\nSentiment Analysis of Most Streamed Spotify Artists\nLyric Analysis with NLP & Machine Learning with R\nWhat’s popping?: An Exploratory Analytics Project on What Makes Popular Music Popular\nAnalysis my Spotify in R with spotifyr package\nGame of Thrones: Exploratory and Sentiment Analysis\ntayloR\nExploring the Spotify API with R\nLearn tidytext with my new learnr course\nText mining with tidy data principles\nAre Pop Lyrics Getting More Repetitive?\nAZLyrics\nSpotify Songs: An analysis of the spotify dataset\nFitteR HappieR\nData Wrangling - Spotify Dataset Analysis\nUnderstanding + classifying genres using Spotify audio features\nWhat Makes a Hit\nWhat Makes Songs Popular? It’s All About ‘You’\nCan big data really predict what makes a song popular?\nPCA and the #TidyTuesday best hip hop songs ever\nBlue Christmas: A data-driven search for the most depressing Christmas song\nUsing Data to Find the Angriest Death Grips Song\nSpotify songs popularity analysis\nNigerian Songs Spotify EDA\nSentiment Analysis of Spotify, Amazon Music and Pandora user reviews"
+  },
+  {
+    "objectID": "resources/biox/biox.html#biomechanics",
+    "href": "resources/biox/biox.html#biomechanics",
+    "title": "Bio-X: All things Bio",
+    "section": "1. Biomechanics",
+    "text": "1. Biomechanics"
+  },
+  {
+    "objectID": "resources/biox/biox.html#startup-and-innovation-resources",
+    "href": "resources/biox/biox.html#startup-and-innovation-resources",
+    "title": "Bio-X: All things Bio",
+    "section": "3. Startup and Innovation Resources",
+    "text": "3. Startup and Innovation Resources"
+  },
+  {
+    "objectID": "resources/biox/startup_innov.html",
+    "href": "resources/biox/startup_innov.html",
+    "title": "Startup and Innovation Resources",
+    "section": "",
+    "text": "StartupTools\nStartup Smarter\nStartup Estonia Resources\nY-Combinator\nIngressive Capital\nFluorish Ventures\nIndie Bio\n500 Global\nNLC Venture Builder\nBiogeneration Ventures\nUniversity Startup Resources\nBiocomxC3i Program\nFounder Playlist\nFlint Atlantic Capital"
+  },
+  {
+    "objectID": "resources/biox/startup_innov.html#innovation",
+    "href": "resources/biox/startup_innov.html#innovation",
+    "title": "Startup and Innovation Resources",
+    "section": "Innovation",
+    "text": "Innovation\n\nDevelopment Innovation Ventures\nCreative Destruction Lab\nChristensen Institute\nBioInnovate Africal\nIsrael Innovation\nSmart Agro Fund\nEXTREME Design Stanford\n100 PANDEMIC TECHNOLOGIES\nMIT D-Lab\nMedical Device and Diagnostic Industry"
   }
 ]

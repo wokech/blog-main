@@ -1,0 +1,14 @@
+---
+title: "Data Visualization"
+toc: true
+---
+
+## A curated collection of resources
+
+## 1. [Data Visualization (General)](ds_viz_general.qmd)
+
+## 2. [Data Visualization (R)](ds_viz_r.qmd)
+
+## 3. [Data Visualization (Python)](ds_viz_py.qmd)
+
+## 4. [Data Visualization (Tableau)](ds_viz_tableau.qmd)

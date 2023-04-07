@@ -16,3 +16,5 @@ toc: true
 ## 5. [Data Journalism Tools and Stories](ds_journalism.qmd)
 
 ## 6. [Sports Data Science](ds_sports.qmd)
+
+## 7. [Social Media and Music Analysis](soc_med_music_analysis.qmd)

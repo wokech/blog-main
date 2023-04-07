@@ -1,0 +1,17 @@
+---
+title: "Data Visualization (Tableau)"
+toc: true
+---
+
+## Data Visualization (Tableau)
+
+1)  [A Beginner's Guide to Tableau Public](https://www.tableau.com/blog/beginners-guide-tableau-public)
+2)  [Resources](https://public.tableau.com/app/resources/learn)
+3)  [What Is Data Visualization? Definition, Examples, And Learning Resources](https://www.tableau.com/learn/articles/data-visualization)
+4)  [The 10 Best Data Visualization Blogs To Follow](https://www.tableau.com/learn/articles/best-data-visualization-blogs)
+5)  [How to ace the Tableau Desktop Qualified Associate exam!](https://www.biztory.com/blog/2017/02/17/ace-tableau-desktop-qualified-associate-exam)
+6)  [Tableau Tips, Dashboards, and Training](https://ryansleeper.com/)
+7)  [7 tips and tricks from the dashboard experts](https://www.tableau.com/blog/7-tips-and-tricks-dashboard-experts)
+8)  [Data Visualization with Tableau](https://www.datacamp.com/tutorial/data-visualisation-tableau)
+
+

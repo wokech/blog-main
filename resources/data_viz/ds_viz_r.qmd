@@ -1,43 +1,9 @@
 ---
-title: "Data Visualization Notes and Tutorials"
+title: "Data Visualization (R)"
 toc: true
 ---
 
-## Data Visualization (Blogs)
-
-1)  [Maarten Lambrechts](https://www.maartenlambrechts.com/)
-2)  [Ada Homolova](http://homolova.sk/)
-3)  [Lisa Charlotte Muth](https://lisacharlottemuth.com/)
-4)  [Zev Ross](http://www.zevross.com/)
-5)  [Edward Tufte](https://www.edwardtufte.com/tufte/)
-6)  [CÉDRIC SCHERER](https://www.cedricscherer.com/top/links/)
-
-## Data Visualization (General)
-
-1)  [The unspoken rules of visualisation](https://datajournalism.com/read/longreads/the-unspoken-rules-of-visualisation)
-2)  [The Beginning, The Middle, & The New Beginning](https://old.duncangeere.com/newbeginning/)
-3)  [Visual Vocabulary](http://ft-interactive.github.io/visual-vocabulary/)
-4)  [Color in Data Vis](https://blog.datawrapper.de/category/color-in-data-vis/)
-5)  [Black in Data Vis Challenge](https://www.datavisualizationsociety.org/black-in-data-challenge)
-6)  [A Reader on Data Visualization](https://mschermann.github.io/data_viz_reader/)
-7)  [Data Visualization: A practical introduction](https://socviz.co/)
-8)  [Some Favorite Things](https://kieranhealy.org/blog/)
-9)  [Color Brewer](https://colorbrewer2.org/)
-10) [Fullstack D3 course](https://www.newline.co/fullstack-d3)
-11) [Little Miss Data](https://www.littlemissdata.com/)
-12) [What Are Data Visualization Style Guidelines?](https://medium.com/nightingale/style-guidelines-92ebe166addc)
-13) [Data visualization](https://m2.material.io/design/communication/data-visualization.html)
-14) [SportsChord](https://www.sportschord.com/viz-gallery)
-15) [Data Viz Project](https://datavizproject.com/)
-16) [Your Friendly Guide to Colors in Data Visualisation](https://blog.datawrapper.de/colorguide/)
-17) [VIZRISK CHALLENGE STEPS](https://understandrisk.org/vizrisk/steps/#part1)
-18) [Why scientists need to be better at data visualization](https://knowablemagazine.org/article/mind/2019/science-data-visualization)
-19) [Data Viz Projects](https://stamen.com/)
-20) [A Tufte Handout Example](https://rstudio.github.io/tufte/)
-
-## Data Visualization (R)
-
-### Books
+## Books
 
 1)  [Awesome ggplot2](https://github.com/erikgahner/awesome-ggplot2)
 2)  [An introduction to data visualization protocols for wet lab scientists](https://joachimgoedhart.github.io/DataViz-protocols/)
@@ -68,7 +34,7 @@ toc: true
 27) [R Data Viz](https://datacornering.com/)
 28) [ggplot tricks](https://github.com/teunbrand/ggplot_tricks)
 
-### Tutorials and Notes
+## Tutorials and Notes
 
 1)  [barbarplots](https://barbarplots.github.io/)
 2)  [ggplot2tutor](https://ggplot2tutor.com/)
@@ -152,38 +118,6 @@ toc: true
 80) [Dendrograms in R, a lightweight approach](https://atrebas.github.io/post/2019-06-08-lightweight-dendrograms/)
 81) [A look into U.S. infectious diseases](https://austinwehrwein.com/data-visualization/diseases/)
 82) [Can I do that? Inspiration from a Pudding data visualization](https://austinwehrwein.com/data-visualization/winningest/)
-
-## Data Visualization (Python)
-
-### Books
-
-1)  [The Python Graph Gallery](https://www.python-graph-gallery.com/)
-
-### Tutorials
-
-1)  [Visualizing Data with Pairs Plots in Python](https://towardsdatascience.com/visualizing-data-with-pair-plots-in-python-f228cf529166)
-2)  [How to Make a Scatter Plot in Python using Seaborn](https://www.marsja.se/how-to-make-a-scatter-plot-in-python-using-seaborn/)
-3)  [Seaborn Heatmaps: 13 Ways to Customize Correlation Matrix Visualizations](https://heartbeat.comet.ml/seaborn-heatmaps-13-ways-to-customize-correlation-matrix-visualizations-f1c49c816f07)
-4)  [How to make a matplotlib line chart](https://www.sharpsightlabs.com/blog/matplotlib-line-chart/)
-5)  [Python Plotting for Exploratory Data Analysis](https://pythonplot.com/)
-6)  [Effectively Using Matplotlib](https://pbpython.com/effective-matplotlib.html)
-7)  [PyWaffle](https://github.com/gyli/PyWaffle)
-8)  [Easily hiding items from the legend in matplotlib](https://blog.rtwilson.com/easily-hiding-items-from-the-legend-in-matplotlib/)
-9)  [The Next Level of Data Visualization in Python](https://towardsdatascience.com/the-next-level-of-data-visualization-in-python-dd6e99039d5e)
-10) [Introducing Plotly Express](https://medium.com/plotly/introducing-plotly-express-808df010143d)
-11) [seaborn: statistical data visualization](http://seaborn.pydata.org/#seaborn-statistical-data-visualization)
-12) [PyGWalker](https://github.com/Kanaries/pygwalker)
-
-## Data Visualization (Tableau)
-
-1)  [A Beginner's Guide to Tableau Public](https://www.tableau.com/blog/beginners-guide-tableau-public)
-2)  [Resources](https://public.tableau.com/app/resources/learn)
-3)  [What Is Data Visualization? Definition, Examples, And Learning Resources](https://www.tableau.com/learn/articles/data-visualization)
-4)  [The 10 Best Data Visualization Blogs To Follow](https://www.tableau.com/learn/articles/best-data-visualization-blogs)
-5)  [How to ace the Tableau Desktop Qualified Associate exam!](https://www.biztory.com/blog/2017/02/17/ace-tableau-desktop-qualified-associate-exam)
-6)  [Tableau Tips, Dashboards, and Training](https://ryansleeper.com/)
-7)  [7 tips and tricks from the dashboard experts](https://www.tableau.com/blog/7-tips-and-tricks-dashboard-experts)
-8)  [Data Visualization with Tableau](https://www.datacamp.com/tutorial/data-visualisation-tableau)
 
 ## Data aRtistry
 
