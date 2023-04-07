@@ -5,7 +5,7 @@ toc: true
 
 ## A curated collection of resources
 
-## 1. [Data Science, Machine Learning, and Artificial Intelligence](ds_ml_ai.qmd)
+## 1. [Data Science, Machine Learning, and Artificial Intelligence](ds_ml_ai_all.qmd)
 
 ## 2. [Datasets for Statistical Analysis and Machine Learning](datasets.qmd)
 
