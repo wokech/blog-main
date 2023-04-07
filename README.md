@@ -5,13 +5,13 @@
 1. Render the project with:
 a) Terminal
 
-# render project in current dir
+i) render project in current dir
 quarto render 
 
-# render project in 'myproject'
+ii) render project in 'myproject'
 quarto render myproject
 
-# render only documents in the 'articles' sub-directory
+iii) render only documents in the 'articles' sub-directory
 quarto render articles
 
 b) Console
