@@ -10,7 +10,113 @@
 <atom:link href="https://williamokech.netlify.app/blog.xml" rel="self" type="application/rss+xml"/>
 <description>This is William Okech&#39;s personal Blog.</description>
 <generator>quarto-1.2.335</generator>
-<lastBuildDate>Wed, 30 Nov 2022 21:00:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 12 Apr 2023 21:00:00 GMT</lastBuildDate>
+<item>
+  <title>Data Visualization for Government, Part 1</title>
+  <dc:creator>William Okech</dc:creator>
+  <link>https://williamokech.netlify.app/posts/series_2/new_post_3/post_3.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="introduction" class="level1">
+<h1>Introduction</h1>
+<p>In January 2018, former President Uhuru Kenyatta announced the creation of the Chief Administrative Secretary (CAS) position. The primary role of the appointees would be to “help the Cabinet Secretary to better coordinate the running of the affairs of the respective ministries <sup>1</sup>.” Though highly controversial at the time (as civil society groups <sup>2</sup> challenged the legality of the position), the High Court (in February 2023) eventually ruled that the decision to create the new position was lawful <sup>3</sup>.</p>
+<p>The Public Service Commission (PSC) of Kenya is responsible for government recruitment, and Section 234 of the Constitution of Kenya states that part of its mandate includes the “establishment of public offices” and “appointment of persons to those offices.” The most recent call for applications to the CAS position was circulated in October 2022 <sup>4</sup>. Here, the PSC listed the roles, responsibilities, and requirements for all applicants. To ensure transparency in the recruitment process, the PSC provided a list of all the applicants <sup>5</sup>, the shortlisted applicants [5], and a schedule of the interview times [5]. After the interview, the names of successful candidates were forwarded to the President for appointment. On March 16th, 2023, President William Ruto appointed fifty (50) individuals to the CAS position, which was more than double the number of positions created by the PSC. The legality of these appointments has already been challenged in court and we await the final verdict <sup>6</sup> <sup>7</sup>.</p>
+<p>Controversy aside, the goal of this article is to provide a data-driven assessment of publicly available recruitment information (specifically gender, disability status, and county of origin) to determine whether principles of diversity, equity, and inclusion (DEI) were promoted during the hiring process.</p>
+</section>
+<section id="summary-of-findings" class="level1">
+<h1>Summary of Findings</h1>
+<ol type="1">
+<li>Only 26% of the CAS appointments went to women, even though 33% of applicants and 36% of those shortlisted were female. This may not be in line with the “two-thirds gender rule” outlined in Article 27(8) of the Constitution of Kenya (2010) which states that “not more than two-thirds of the members of elective or appointive bodies shall be of the same gender.”</li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://williamokech.netlify.app/posts/series_2/new_post_3/images/app_stl_nom_cas_gender.jpg" class="img-fluid figure-img" style="width:90.0%"></p>
+</figure>
+</div>
+<ol start="2" type="1">
+<li>Two percent (2%) of the nominees were Persons with Disabilities (PWDs), which is representative of the percentage of Kenyans (at the national level) living with a disability (2.2%) <sup>8</sup>. However, institutions such as the National Gender and Equality Commission should develop programs to increase the number of applicants from marginalized groups.</li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://williamokech.netlify.app/posts/series_2/new_post_3/images/pwd.jpg" class="img-fluid figure-img" style="width:90.0%"></p>
+</figure>
+</div>
+<ol start="3" type="1">
+<li>In total, there were 133 applicants from Busia County (2.5%). Despite this, it was the only county that did not have a representative on the shortlist. To remedy this, the PSC may need to put in place affirmative action policies that ensure that at least one applicant from each county makes it to the shortlist.</li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://williamokech.netlify.app/posts/series_2/new_post_3/images/stl_cas_county.jpg" class="img-fluid figure-img" style="width:90.0%"></p>
+</figure>
+</div>
+<ol start="4" type="1">
+<li>Nine counties are not represented in the final list of nominees.</li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://williamokech.netlify.app/posts/series_2/new_post_3/images/nom_county_equal_0.jpg" class="img-fluid figure-img" style="width:90.0%"></p>
+</figure>
+</div>
+<ol start="5" type="1">
+<li>Ten counties have more than one CAS nominee.</li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://williamokech.netlify.app/posts/series_2/new_post_3/images/nom_county_over_1.jpg" class="img-fluid figure-img" style="width:90.0%"></p>
+</figure>
+</div>
+</section>
+<section id="conclusion" class="level1">
+<h1>Conclusion</h1>
+<p>Overall, this article provided a set of data visualizations to help understand the demographics of applicants for the CAS position in Kenya. Specifically, the gender, disability status, and county of origin were assessed at the applicant, shortlisting, and nomination stages. This study had several key findings:</p>
+<ol type="1">
+<li><strong>Less than one-third of the nominees were women</strong> even though 36% of the nominees shortlisted were female.</li>
+<li><strong>Only one nominee was a person with a disability (PWD).</strong></li>
+<li><strong>One county (Busia) failed to have any applicants make it to the shortlist</strong> of 240 and nine counties in total had zero nominees out of 50.</li>
+</ol>
+<p>Future work will assess the data at a more granular level and determine the counties where there were low numbers of total applicants, low numbers of women at the application and shortlisting stage, and also determine which counties did not have PWD applicants. Additionally, it would be helpful if the PSC could provide age and education level data to help perform a more thorough analysis of the recruitment process. Lastly, it is commendable that the PSC makes this information publicly available, and I hope that further analysis of the data can result in initiatives to diversify the candidate pool at the applicant and shortlisting stages.</p>
+</section>
+<section id="fun-fact" class="level1">
+<h1>Fun Fact</h1>
+<p>The most common applicant first names (male and female).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://williamokech.netlify.app/posts/series_2/new_post_3/images/all_cas_first_name.png" class="img-fluid figure-img" style="width:90.0%"></p>
+</figure>
+</div>
+
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>PSCU (2018) Uhuru Kenyatta’s Full Statement On New Cabinet. Available at: https://www.citizen.digital/news/uhuru-kenyattas-full-statement-on-new-cabinet-189331 (Accessed: April 2, 2023).↩︎</p></li>
+<li id="fn2"><p>Betty Njeru (2018) Activist Omtatah moves to court challenging the creation of new cabinet positions. Available at: https://www.standardmedia.co.ke/kenya/article/2001267705/okiya-omtatah-moves-to-court-challenging-new-cabinet-positions (Accessed: April 6, 2023).↩︎</p></li>
+<li id="fn3"><p>Correspondent (2023) Labour Court Clears Way For Appointment Of Chief Administrative Secretaries. Available at: https://www.capitalfm.co.ke/news/2023/02/labour-court-clears-the-way-for-appointment-of-chief-administrative-secretaries/ (Accessed: April 10, 2023).↩︎</p></li>
+<li id="fn4"><p>PSC (2023) CALL FOR APPLICATIONS TO THE POSITION OF CHIEF ADMINISTRATIVE SECRETARY IN THE PUBLIC SERVICE. Available at: https://www.publicservice.go.ke/index.php/media-center/2/202-call-for-applications-to-the-position-of-chief-administrative-secretary-in-the-public-service (Accessed: April 10, 2023).↩︎</p></li>
+<li id="fn5"><p>PSC (2023) Shortlisted Candidates. Available at: https://www.publicservice.go.ke/index.php/recruitment/shortlisted-candidates (Accessed: April 10, 2023).↩︎</p></li>
+<li id="fn6"><p>Susan Muhindi (2023) Ruto’s 50 CAS nomination list challenged in court. Available at: https://www.the-star.co.ke/news/2023-03-20-rutos-50-cas-nomination-list-challenged-in-court/ (Accessed: April 2, 2023).↩︎</p></li>
+<li id="fn7"><p>Emmanuel Wanjala (2023). Available at: https://www.the-star.co.ke/news/2023-03-17-ruto-has-created-27-illegal-cas-posts-lsks-eric-theuri/ (Accessed: April 5, 2023).↩︎</p></li>
+<li id="fn8"><ol start="8" type="1">
+<li>Shelmith Kariuki (2020). rKenyaCensus: 2019 Kenya Population and Housing Census Results. R package version 0.0.2.</li>
+</ol>
+↩︎</li>
+</ol>
+</section></div> ]]></description>
+  <category>RStudio</category>
+  <category>R</category>
+  <category>Data Stories</category>
+  <category>Blog</category>
+  <category>Data Visualization</category>
+  <guid>https://williamokech.netlify.app/posts/series_2/new_post_3/post_3.html</guid>
+  <pubDate>Wed, 12 Apr 2023 21:00:00 GMT</pubDate>
+  <media:content url="https://williamokech.netlify.app/posts/series_2/new_post_3/images/app_stl_nom_cas_gender.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>A roof over your head</title>
   <dc:creator>William Okech</dc:creator>

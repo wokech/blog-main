@@ -6,7 +6,7 @@
   </url>
   <url>
     <loc>https://williamokech.netlify.app/blog.html</loc>
-    <lastmod>2023-04-07T22:55:08.976Z</lastmod>
+    <lastmod>2023-04-13T12:58:46.182Z</lastmod>
   </url>
   <url>
     <loc>https://williamokech.netlify.app/index.html</loc>
@@ -191,5 +191,9 @@
   <url>
     <loc>https://williamokech.netlify.app/series/series_2.html</loc>
     <lastmod>2023-04-07T22:08:27.399Z</lastmod>
+  </url>
+  <url>
+    <loc>https://williamokech.netlify.app/posts/series_2/new_post_3/post_3.html</loc>
+    <lastmod>2023-04-13T12:58:56.408Z</lastmod>
   </url>
 </urlset>
