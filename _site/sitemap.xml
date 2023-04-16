@@ -2,202 +2,198 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://williamokech.netlify.app/about.html</loc>
-    <lastmod>2023-04-07T22:06:29.852Z</lastmod>
+    <lastmod>2023-04-16T21:47:31.600Z</lastmod>
   </url>
   <url>
     <loc>https://williamokech.netlify.app/blog.html</loc>
-    <lastmod>2023-04-13T12:58:46.182Z</lastmod>
+    <lastmod>2023-04-16T21:47:37.197Z</lastmod>
   </url>
   <url>
     <loc>https://williamokech.netlify.app/index.html</loc>
-    <lastmod>2023-04-12T20:16:54.633Z</lastmod>
+    <lastmod>2023-04-16T21:47:39.628Z</lastmod>
   </url>
   <url>
     <loc>https://williamokech.netlify.app/posts/series_1/new_post_1/post_1.html</loc>
-    <lastmod>2023-04-07T22:06:40.762Z</lastmod>
+    <lastmod>2023-04-16T21:47:42.983Z</lastmod>
   </url>
   <url>
     <loc>https://williamokech.netlify.app/posts/series_1/new_post_2/post_2.html</loc>
-    <lastmod>2023-04-07T22:06:45.359Z</lastmod>
+    <lastmod>2023-04-16T21:47:47.404Z</lastmod>
   </url>
   <url>
     <loc>https://williamokech.netlify.app/posts/series_1/new_post_3/post_3.html</loc>
-    <lastmod>2023-04-07T22:06:48.218Z</lastmod>
+    <lastmod>2023-04-16T21:47:55.058Z</lastmod>
   </url>
   <url>
     <loc>https://williamokech.netlify.app/posts/series_1/new_post_4/post_4.html</loc>
-    <lastmod>2023-04-07T22:06:51.239Z</lastmod>
+    <lastmod>2023-04-16T21:47:59.075Z</lastmod>
   </url>
   <url>
     <loc>https://williamokech.netlify.app/posts/series_1/new_post_5/post_5.html</loc>
-    <lastmod>2023-04-07T22:06:54.386Z</lastmod>
+    <lastmod>2023-04-16T21:48:03.893Z</lastmod>
   </url>
   <url>
     <loc>https://williamokech.netlify.app/posts/series_1/new_post_6/post_6.html</loc>
-    <lastmod>2023-04-07T22:06:57.882Z</lastmod>
+    <lastmod>2023-04-16T21:48:08.486Z</lastmod>
   </url>
   <url>
     <loc>https://williamokech.netlify.app/posts/series_1/new_post_7/post_7.html</loc>
-    <lastmod>2023-04-07T22:07:00.001Z</lastmod>
+    <lastmod>2023-04-16T21:48:10.590Z</lastmod>
   </url>
   <url>
     <loc>https://williamokech.netlify.app/posts/series_1/new_post_8/post_8.html</loc>
-    <lastmod>2023-04-07T22:07:03.728Z</lastmod>
+    <lastmod>2023-04-16T21:48:13.805Z</lastmod>
   </url>
   <url>
     <loc>https://williamokech.netlify.app/posts/series_2/new_post_1/post_1.html</loc>
-    <lastmod>2023-04-07T22:07:05.750Z</lastmod>
+    <lastmod>2023-04-16T21:48:16.256Z</lastmod>
   </url>
   <url>
     <loc>https://williamokech.netlify.app/posts/series_2/new_post_2/post_2.html</loc>
-    <lastmod>2023-04-07T22:07:08.322Z</lastmod>
-  </url>
-  <url>
-    <loc>https://williamokech.netlify.app/resources/biox/bioinf.html</loc>
-    <lastmod>2023-04-07T22:07:10.821Z</lastmod>
-  </url>
-  <url>
-    <loc>https://williamokech.netlify.app/resources/biox/biomech_sports_be.html</loc>
-    <lastmod>2023-04-07T22:07:13.297Z</lastmod>
-  </url>
-  <url>
-    <loc>https://williamokech.netlify.app/resources/biox/biomed_image_microscopy.html</loc>
-    <lastmod>2023-04-07T22:07:17.155Z</lastmod>
-  </url>
-  <url>
-    <loc>https://williamokech.netlify.app/resources/biox/biotech_opensource.html</loc>
-    <lastmod>2023-04-07T22:07:19.228Z</lastmod>
-  </url>
-  <url>
-    <loc>https://williamokech.netlify.app/resources/biox/biox.html</loc>
-    <lastmod>2023-04-16T19:07:45.233Z</lastmod>
-  </url>
-  <url>
-    <loc>https://williamokech.netlify.app/resources/biox/startup_innov.html</loc>
-    <lastmod>2023-04-07T22:07:23.280Z</lastmod>
-  </url>
-  <url>
-    <loc>https://williamokech.netlify.app/resources/data_viz/ds_viz.html</loc>
-    <lastmod>2023-04-16T19:00:52.195Z</lastmod>
-  </url>
-  <url>
-    <loc>https://williamokech.netlify.app/resources/data_viz/ds_viz_general.html</loc>
-    <lastmod>2023-04-16T21:31:05.101Z</lastmod>
-  </url>
-  <url>
-    <loc>https://williamokech.netlify.app/resources/data_viz/ds_viz_py.html</loc>
-    <lastmod>2023-04-16T21:30:57.642Z</lastmod>
-  </url>
-  <url>
-    <loc>https://williamokech.netlify.app/resources/data_viz/ds_viz_r.html</loc>
-    <lastmod>2023-04-16T21:05:57.315Z</lastmod>
-  </url>
-  <url>
-    <loc>https://williamokech.netlify.app/resources/data_viz/ds_viz_tableau.html</loc>
-    <lastmod>2023-04-07T22:07:33.640Z</lastmod>
-  </url>
-  <url>
-    <loc>https://williamokech.netlify.app/resources/ds_ml_ai/datasets.html</loc>
-    <lastmod>2023-04-07T22:07:36.403Z</lastmod>
-  </url>
-  <url>
-    <loc>https://williamokech.netlify.app/resources/ds_ml_ai/ds_interview.html</loc>
-    <lastmod>2023-04-07T22:07:38.584Z</lastmod>
-  </url>
-  <url>
-    <loc>https://williamokech.netlify.app/resources/ds_ml_ai/ds_journalism.html</loc>
-    <lastmod>2023-04-16T18:23:23.266Z</lastmod>
-  </url>
-  <url>
-    <loc>https://williamokech.netlify.app/resources/ds_ml_ai/ds_ml_ai.html</loc>
-    <lastmod>2023-04-16T19:07:47.505Z</lastmod>
-  </url>
-  <url>
-    <loc>https://williamokech.netlify.app/resources/ds_ml_ai/ds_ml_ai_all.html</loc>
-    <lastmod>2023-04-07T22:07:45.309Z</lastmod>
-  </url>
-  <url>
-    <loc>https://williamokech.netlify.app/resources/ds_ml_ai/ds_sports.html</loc>
-    <lastmod>2023-04-07T22:07:47.711Z</lastmod>
-  </url>
-  <url>
-    <loc>https://williamokech.netlify.app/resources/ds_ml_ai/soc_med_music_analysis.html</loc>
-    <lastmod>2023-04-07T22:07:49.782Z</lastmod>
-  </url>
-  <url>
-    <loc>https://williamokech.netlify.app/resources/ds_ml_ai/statistics.html</loc>
-    <lastmod>2023-04-07T22:07:51.666Z</lastmod>
-  </url>
-  <url>
-    <loc>https://williamokech.netlify.app/resources/programming/git_hub_cl_sql.html</loc>
-    <lastmod>2023-04-07T22:07:53.759Z</lastmod>
-  </url>
-  <url>
-    <loc>https://williamokech.netlify.app/resources/programming/programming.html</loc>
-    <lastmod>2023-04-16T19:07:50.061Z</lastmod>
-  </url>
-  <url>
-    <loc>https://williamokech.netlify.app/resources/programming/python.html</loc>
-    <lastmod>2023-04-07T22:07:58.765Z</lastmod>
-  </url>
-  <url>
-    <loc>https://williamokech.netlify.app/resources/programming/quarto.html</loc>
-    <lastmod>2023-04-07T22:08:01.071Z</lastmod>
-  </url>
-  <url>
-    <loc>https://williamokech.netlify.app/resources/programming/r_rstudio.html</loc>
-    <lastmod>2023-04-16T20:57:41.441Z</lastmod>
-  </url>
-  <url>
-    <loc>https://williamokech.netlify.app/resources/random_not_included/agric_farm.html</loc>
-    <lastmod>2023-04-07T22:08:06.324Z</lastmod>
-  </url>
-  <url>
-    <loc>https://williamokech.netlify.app/resources/random_not_included/rand_int.html</loc>
-    <lastmod>2023-04-07T22:08:08.240Z</lastmod>
-  </url>
-  <url>
-    <loc>https://williamokech.netlify.app/resources/readings/readings.html</loc>
-    <lastmod>2023-04-16T19:07:52.329Z</lastmod>
-  </url>
-  <url>
-    <loc>https://williamokech.netlify.app/resources/readings/reading_general.html</loc>
-    <lastmod>2023-04-07T22:08:13.850Z</lastmod>
-  </url>
-  <url>
-    <loc>https://williamokech.netlify.app/resources/readings/reading_stem.html</loc>
-    <lastmod>2023-04-07T22:08:15.942Z</lastmod>
-  </url>
-  <url>
-    <loc>https://williamokech.netlify.app/resources/teaching/gen_teach_resources.html</loc>
-    <lastmod>2023-04-07T22:08:17.864Z</lastmod>
-  </url>
-  <url>
-    <loc>https://williamokech.netlify.app/resources/teaching/rstudio_carpentries_cert.html</loc>
-    <lastmod>2023-04-07T22:08:19.782Z</lastmod>
-  </url>
-  <url>
-    <loc>https://williamokech.netlify.app/resources/teaching/teach_res.html</loc>
-    <lastmod>2023-04-16T19:07:59.365Z</lastmod>
-  </url>
-  <url>
-    <loc>https://williamokech.netlify.app/resources/teaching/writing.html</loc>
-    <lastmod>2023-04-07T22:08:24.151Z</lastmod>
-  </url>
-  <url>
-    <loc>https://williamokech.netlify.app/series/series_1.html</loc>
-    <lastmod>2023-04-07T22:08:25.706Z</lastmod>
-  </url>
-  <url>
-    <loc>https://williamokech.netlify.app/series/series_2.html</loc>
-    <lastmod>2023-04-07T22:08:27.399Z</lastmod>
+    <lastmod>2023-04-16T21:48:19.405Z</lastmod>
   </url>
   <url>
     <loc>https://williamokech.netlify.app/posts/series_2/new_post_3/post_3.html</loc>
-    <lastmod>2023-04-13T12:58:56.408Z</lastmod>
+    <lastmod>2023-04-16T21:48:22.909Z</lastmod>
+  </url>
+  <url>
+    <loc>https://williamokech.netlify.app/resources/biox/bioinf.html</loc>
+    <lastmod>2023-04-16T21:48:25.681Z</lastmod>
+  </url>
+  <url>
+    <loc>https://williamokech.netlify.app/resources/biox/biomech_sports_be.html</loc>
+    <lastmod>2023-04-16T21:48:28.040Z</lastmod>
+  </url>
+  <url>
+    <loc>https://williamokech.netlify.app/resources/biox/biomed_image_microscopy.html</loc>
+    <lastmod>2023-04-16T21:48:30.799Z</lastmod>
+  </url>
+  <url>
+    <loc>https://williamokech.netlify.app/resources/biox/biotech_opensource.html</loc>
+    <lastmod>2023-04-16T21:48:35.401Z</lastmod>
+  </url>
+  <url>
+    <loc>https://williamokech.netlify.app/resources/biox/biox.html</loc>
+    <lastmod>2023-04-16T21:48:37.270Z</lastmod>
+  </url>
+  <url>
+    <loc>https://williamokech.netlify.app/resources/biox/startup_innov.html</loc>
+    <lastmod>2023-04-16T21:48:39.389Z</lastmod>
   </url>
   <url>
     <loc>https://williamokech.netlify.app/resources/data_viz/ds_journalism.html</loc>
-    <lastmod>2023-04-16T21:41:17.293Z</lastmod>
+    <lastmod>2023-04-16T21:48:42.172Z</lastmod>
+  </url>
+  <url>
+    <loc>https://williamokech.netlify.app/resources/data_viz/ds_viz.html</loc>
+    <lastmod>2023-04-16T21:48:44.044Z</lastmod>
+  </url>
+  <url>
+    <loc>https://williamokech.netlify.app/resources/data_viz/ds_viz_general.html</loc>
+    <lastmod>2023-04-16T21:48:45.824Z</lastmod>
+  </url>
+  <url>
+    <loc>https://williamokech.netlify.app/resources/data_viz/ds_viz_py.html</loc>
+    <lastmod>2023-04-16T21:48:48.027Z</lastmod>
+  </url>
+  <url>
+    <loc>https://williamokech.netlify.app/resources/data_viz/ds_viz_r.html</loc>
+    <lastmod>2023-04-16T21:48:50.164Z</lastmod>
+  </url>
+  <url>
+    <loc>https://williamokech.netlify.app/resources/data_viz/ds_viz_tableau.html</loc>
+    <lastmod>2023-04-16T21:48:52.390Z</lastmod>
+  </url>
+  <url>
+    <loc>https://williamokech.netlify.app/resources/ds_ml_ai/datasets.html</loc>
+    <lastmod>2023-04-16T21:48:58.654Z</lastmod>
+  </url>
+  <url>
+    <loc>https://williamokech.netlify.app/resources/ds_ml_ai/ds_interview.html</loc>
+    <lastmod>2023-04-16T21:49:02.450Z</lastmod>
+  </url>
+  <url>
+    <loc>https://williamokech.netlify.app/resources/ds_ml_ai/ds_ml_ai.html</loc>
+    <lastmod>2023-04-16T21:49:05.774Z</lastmod>
+  </url>
+  <url>
+    <loc>https://williamokech.netlify.app/resources/ds_ml_ai/ds_ml_ai_all.html</loc>
+    <lastmod>2023-04-16T21:49:09.084Z</lastmod>
+  </url>
+  <url>
+    <loc>https://williamokech.netlify.app/resources/ds_ml_ai/ds_sports.html</loc>
+    <lastmod>2023-04-16T21:49:12.179Z</lastmod>
+  </url>
+  <url>
+    <loc>https://williamokech.netlify.app/resources/ds_ml_ai/soc_med_music_analysis.html</loc>
+    <lastmod>2023-04-16T21:49:15.552Z</lastmod>
+  </url>
+  <url>
+    <loc>https://williamokech.netlify.app/resources/ds_ml_ai/statistics.html</loc>
+    <lastmod>2023-04-16T21:49:18.686Z</lastmod>
+  </url>
+  <url>
+    <loc>https://williamokech.netlify.app/resources/programming/git_hub_cl_sql.html</loc>
+    <lastmod>2023-04-16T21:49:21.060Z</lastmod>
+  </url>
+  <url>
+    <loc>https://williamokech.netlify.app/resources/programming/programming.html</loc>
+    <lastmod>2023-04-16T21:49:23.576Z</lastmod>
+  </url>
+  <url>
+    <loc>https://williamokech.netlify.app/resources/programming/python.html</loc>
+    <lastmod>2023-04-16T21:49:26.526Z</lastmod>
+  </url>
+  <url>
+    <loc>https://williamokech.netlify.app/resources/programming/quarto.html</loc>
+    <lastmod>2023-04-16T21:49:28.849Z</lastmod>
+  </url>
+  <url>
+    <loc>https://williamokech.netlify.app/resources/programming/r_rstudio.html</loc>
+    <lastmod>2023-04-16T21:49:33.901Z</lastmod>
+  </url>
+  <url>
+    <loc>https://williamokech.netlify.app/resources/random_not_included/agric_farm.html</loc>
+    <lastmod>2023-04-16T21:49:36.505Z</lastmod>
+  </url>
+  <url>
+    <loc>https://williamokech.netlify.app/resources/random_not_included/rand_int.html</loc>
+    <lastmod>2023-04-16T21:49:38.904Z</lastmod>
+  </url>
+  <url>
+    <loc>https://williamokech.netlify.app/resources/readings/readings.html</loc>
+    <lastmod>2023-04-16T21:49:41.175Z</lastmod>
+  </url>
+  <url>
+    <loc>https://williamokech.netlify.app/resources/readings/reading_general.html</loc>
+    <lastmod>2023-04-16T21:49:43.414Z</lastmod>
+  </url>
+  <url>
+    <loc>https://williamokech.netlify.app/resources/readings/reading_stem.html</loc>
+    <lastmod>2023-04-16T21:49:45.795Z</lastmod>
+  </url>
+  <url>
+    <loc>https://williamokech.netlify.app/resources/teaching/gen_teach_resources.html</loc>
+    <lastmod>2023-04-16T21:49:48.581Z</lastmod>
+  </url>
+  <url>
+    <loc>https://williamokech.netlify.app/resources/teaching/rstudio_carpentries_cert.html</loc>
+    <lastmod>2023-04-16T21:49:50.683Z</lastmod>
+  </url>
+  <url>
+    <loc>https://williamokech.netlify.app/resources/teaching/teach_res.html</loc>
+    <lastmod>2023-04-16T21:49:53.417Z</lastmod>
+  </url>
+  <url>
+    <loc>https://williamokech.netlify.app/resources/teaching/writing.html</loc>
+    <lastmod>2023-04-16T21:49:56.442Z</lastmod>
+  </url>
+  <url>
+    <loc>https://williamokech.netlify.app/series/series_1.html</loc>
+    <lastmod>2023-04-16T21:49:59.877Z</lastmod>
+  </url>
+  <url>
+    <loc>https://williamokech.netlify.app/series/series_2.html</loc>
+    <lastmod>2023-04-16T21:50:01.551Z</lastmod>
   </url>
 </urlset>

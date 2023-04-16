@@ -259,6 +259,13 @@
     "text": "Introduction\nAn aerial view of most settlements in Kenya will demonstrate that many residential home roofs are constructed using iron sheets.\nIndeed, this is confirmed by the Kenya Population and Housing Census (2019) report 1 2 where we see that 4 out of every 5 households (total number = 12,043,016) in Kenya is roofed using iron sheets (Figure 1). Overall, the top 5 building materials are iron sheets (80.3%), concrete (8.2%), grass/twigs (5.1%), makuti (sun-dried coconut palm leaves; 1.6%), and asbestos (1.4%). Despite the widespread use of iron sheets, it is surprising to note that 1.4% (2.2% urban and 0.9% rural) of residential household roofs (which is approximately 170,000) are covered with asbestos-based roofing materials (NB: this figure does not include public buildings such as educational institutions and government facilities).\n\n\n\n\n\nFigure 1: Roof types in Kenya (visualizations generated in RStudio)\n\n\nAsbestos and its potential risks\nAsbestos refers to a class of six minerals that naturally form a bundle of fibers. These fibers have many properties that make them attractive, including a lack of electrical conductivity, and chemical, heat, and fire resistance. Historically, asbestos has been used for various commercial and industrial applications, including roofing shingles, automobile brakes, and textured paints for walls and ceilings 3. However, using asbestos for products that come into regular contact with humans is quite problematic. Why? Asbestos is a known human carcinogen, and the primary risk factor for most mesotheliomas is asbestos exposure 4 5. Furthermore, asbestos exposure (depending on the frequency, amount, and type) can cause asbestosis, pleural disease, and cancer. If asbestos-based materials remain intact, there is minimal risk to the user, but if materials are damaged via natural degradation or during home demolition and remodeling, tiny asbestos fibers will be released into the air 6 7. In Kenya, Legal Notice No. 121 of the Environmental Management and Coordination (Waste Management) Regulations (2006)8 states that waste containing asbestos is classified as hazardous. Why should Kenyans be concerned about this? In the 2013/2014 financial year, Kenya spent approximately one-tenth of its total health budget on asbestos-related cancers 9 10 11.\nWhere do we find high numbers of asbestos-based roofs in Kenya? As previously stated, 1.4% of households in Kenya have asbestos-based roofs. Figure 2 demonstrates the percentage of households with asbestos-based roofs in every county in Kenya. Interestingly, 4 (Nairobi, Kajiado, Machakos, and Kiambu) out of the top 6 counties (from a total of 47) fall within the Nairobi Metropolitan region.\n\n\nWhere do we find high numbers of asbestos-based roofs in Kenya?\nAs previously stated, 1.4% of households in Kenya have asbestos-based roofs. Figure 2 demonstrates the percentage of households with asbestos-based roofs in every county in Kenya. Interestingly, 4 (Nairobi, Kajiado, Machakos, and Kiambu) out of the top 6 counties (from a total of 47) fall within the Nairobi Metropolitan region.\n\n\n\n\n\nFigure 2: Percentage(%) of households with asbestos-based roofs distributed by county (visualizations generated using RStudio)\nNext, I investigated the subcounties with the highest number of households with asbestos-based roofs. The top 5 subcounties are located within Nairobi county, with Embakasi subcounty taking the lead with just over 8,000 households.\n\n\n\n\n\nFigure 3: The top ten subcounties with the highest number of households that have asbestos-based roofs (visualizations generated using RStudio)\n\n\nConclusion\nOverall, this study demonstrates that a notable proportion of Kenyan households used asbestos-based roofing materials, with Nairobi Metropolitan county accounting for the largest number of households. It is widely acknowledged that asbestos is harmful to our health, and asbestos-related diseases impose a significant burden on the economy. However, the impact of these roofs on the health of residents may not be fully apparent as asbestos exposure may also occur in various settings such as educational facilities and government institutions. To lessen the impact of asbestos exposure, it would be beneficial for local/county governments to educate residents about the dangers of asbestos and facilitate the complex and costly removal of asbestos-based roofing materials.\n\n\n\n\n\nFootnotes\n\n\nKenya National Bureau of Statistics. The 2019 Kenya Population and Housing Census. Volume I: Population by County and Sub-County and Volume III: Distribution of Population by Age and Sex.↩︎\nShelmith Kariuki (2020). rKenyaCensus: 2019 Kenya Population and Housing Census Results. R package version 0.0.2.↩︎\nLearn About Asbestos (no date) EPA. Environmental Protection Agency. Available at: https://www.epa.gov/asbestos/learn-about-asbestos (Accessed: December 1, 2022).↩︎\nAsbestos exposure and cancer risk fact sheet (no date) National Cancer Institute. Available at: https://www.cancer.gov/about-cancer/causes-prevention/risk/substances/asbestos/asbestos-fact-sheet (Accessed: December 1, 2022).↩︎\nAsbestos (no date) World Health Organization. World Health Organization. Available at: https://www.iarc.who.int/risk-factor/asbestos/ (Accessed: December 1, 2022).↩︎\nLearn About Asbestos (no date) EPA. Environmental Protection Agency. Available at: https://www.epa.gov/asbestos/learn-about-asbestos (Accessed: December 1, 2022).↩︎\nAsbestos and your health (2016) Centers for Disease Control and Prevention. Centers for Disease Control and Prevention. Available at: https://www.atsdr.cdc.gov/asbestos/index.html (Accessed: December 1, 2022).↩︎\nAct Title: ENVIRONMENTAL MANAGEMENT AND CO-ORDINATION (no date) No. 8 of 1999. Available at: http://kenyalaw.org:8181/exist/kenyalex/sublegview.xql?subleg=No.+8+of+1999 (Accessed: December 1, 2022).↩︎\nOkoth, D. (2013) Slow transition from use of asbestos raises concern as cancer cases rise, The Standard. Available at: https://www.standardmedia.co.ke/lifestyle/article/2000096118/slow-transition-from-use-of-asbestos-raises-concern-as-cancer-cases-rise (Accessed: December 1, 2022).↩︎\nGCR, S. (2016) Kenya faces cancer epidemic caused by asbestos roofs, Global Construction Review. Available at: https://www.globalconstructionreview.com/kenya-faces-cancer-epid7emic-caus7ed-asbe7stos/ (Accessed: December 1, 2022).↩︎\nIrungu, S. (2020) Exposure to the noxious asbestos needs to be alleviated with a lot of care, Kenya Climate Innovation Center (KCIC). Available at: https://www.kenyacic.org/2019/11/exposure-to-the-noxious-asbestos-needs-to-be-alleviated-with-a-lot-of-care/ (Accessed: December 1, 2022).↩︎"
   },
   {
+    "objectID": "posts/series_2/new_post_3/post_3.html",
+    "href": "posts/series_2/new_post_3/post_3.html",
+    "title": "Data Visualization for Government, Part 1",
+    "section": "",
+    "text": "Introduction\nIn January 2018, former President Uhuru Kenyatta announced the creation of the Chief Administrative Secretary (CAS) position. The primary role of the appointees would be to “help the Cabinet Secretary to better coordinate the running of the affairs of the respective ministries 1.” Though highly controversial at the time (as civil society groups 2 challenged the legality of the position), the High Court (in February 2023) eventually ruled that the decision to create the new position was lawful 3.\nThe Public Service Commission (PSC) of Kenya is responsible for government recruitment, and Section 234 of the Constitution of Kenya states that part of its mandate includes the “establishment of public offices” and “appointment of persons to those offices.” The most recent call for applications to the CAS position was circulated in October 2022 4. Here, the PSC listed the roles, responsibilities, and requirements for all applicants. To ensure transparency in the recruitment process, the PSC provided a list of all the applicants 5, the shortlisted applicants [5], and a schedule of the interview times [5]. After the interview, the names of successful candidates were forwarded to the President for appointment. On March 16th, 2023, President William Ruto appointed fifty (50) individuals to the CAS position, which was more than double the number of positions created by the PSC. The legality of these appointments has already been challenged in court and we await the final verdict 6 7.\nControversy aside, the goal of this article is to provide a data-driven assessment of publicly available recruitment information (specifically gender, disability status, and county of origin) to determine whether principles of diversity, equity, and inclusion (DEI) were promoted during the hiring process.\n\n\nSummary of Findings\n\nOnly 26% of the CAS appointments went to women, even though 33% of applicants and 36% of those shortlisted were female. This may not be in line with the “two-thirds gender rule” outlined in Article 27(8) of the Constitution of Kenya (2010) which states that “not more than two-thirds of the members of elective or appointive bodies shall be of the same gender.”\n\n\n\n\n\n\n\nTwo percent (2%) of the nominees were Persons with Disabilities (PWDs), which is representative of the percentage of Kenyans (at the national level) living with a disability (2.2%) 8. However, institutions such as the National Gender and Equality Commission should develop programs to increase the number of applicants from marginalized groups.\n\n\n\n\n\n\n\nIn total, there were 133 applicants from Busia County (2.5%). Despite this, it was the only county that did not have a representative on the shortlist. To remedy this, the PSC may need to put in place affirmative action policies that ensure that at least one applicant from each county makes it to the shortlist.\n\n\n\n\n\n\n\nNine counties are not represented in the final list of nominees.\n\n\n\n\n\n\n\nTen counties have more than one CAS nominee.\n\n\n\n\n\n\n\n\nConclusion\nOverall, this article provided a set of data visualizations to help understand the demographics of applicants for the CAS position in Kenya. Specifically, the gender, disability status, and county of origin were assessed at the applicant, shortlisting, and nomination stages. This study had several key findings:\n\nLess than one-third of the nominees were women even though 36% of the nominees shortlisted were female.\nOnly one nominee was a person with a disability (PWD).\nOne county (Busia) failed to have any applicants make it to the shortlist of 240 and nine counties in total had zero nominees out of 50.\n\nFuture work will assess the data at a more granular level and determine the counties where there were low numbers of total applicants, low numbers of women at the application and shortlisting stage, and also determine which counties did not have PWD applicants. Additionally, it would be helpful if the PSC could provide age and education level data to help perform a more thorough analysis of the recruitment process. Lastly, it is commendable that the PSC makes this information publicly available, and I hope that further analysis of the data can result in initiatives to diversify the candidate pool at the applicant and shortlisting stages.\n\n\nFun Fact\nThe most common applicant first names (male and female).\n\n\n\n\n\n\n\n\n\n\nFootnotes\n\n\nPSCU (2018) Uhuru Kenyatta’s Full Statement On New Cabinet. Available at: https://www.citizen.digital/news/uhuru-kenyattas-full-statement-on-new-cabinet-189331 (Accessed: April 2, 2023).↩︎\nBetty Njeru (2018) Activist Omtatah moves to court challenging the creation of new cabinet positions. Available at: https://www.standardmedia.co.ke/kenya/article/2001267705/okiya-omtatah-moves-to-court-challenging-new-cabinet-positions (Accessed: April 6, 2023).↩︎\nCorrespondent (2023) Labour Court Clears Way For Appointment Of Chief Administrative Secretaries. Available at: https://www.capitalfm.co.ke/news/2023/02/labour-court-clears-the-way-for-appointment-of-chief-administrative-secretaries/ (Accessed: April 10, 2023).↩︎\nPSC (2023) CALL FOR APPLICATIONS TO THE POSITION OF CHIEF ADMINISTRATIVE SECRETARY IN THE PUBLIC SERVICE. Available at: https://www.publicservice.go.ke/index.php/media-center/2/202-call-for-applications-to-the-position-of-chief-administrative-secretary-in-the-public-service (Accessed: April 10, 2023).↩︎\nPSC (2023) Shortlisted Candidates. Available at: https://www.publicservice.go.ke/index.php/recruitment/shortlisted-candidates (Accessed: April 10, 2023).↩︎\nSusan Muhindi (2023) Ruto’s 50 CAS nomination list challenged in court. Available at: https://www.the-star.co.ke/news/2023-03-20-rutos-50-cas-nomination-list-challenged-in-court/ (Accessed: April 2, 2023).↩︎\nEmmanuel Wanjala (2023). Available at: https://www.the-star.co.ke/news/2023-03-17-ruto-has-created-27-illegal-cas-posts-lsks-eric-theuri/ (Accessed: April 5, 2023).↩︎\n\nShelmith Kariuki (2020). rKenyaCensus: 2019 Kenya Population and Housing Census Results. R package version 0.0.2.\n\n↩︎"
+  },
+  {
     "objectID": "resources/biox/bioinf.html",
     "href": "resources/biox/bioinf.html",
     "title": "Bioinformatics and Computational Biology",
@@ -329,34 +336,6 @@
     "text": "Open-Source Science, Medicine, and Technology\n\nPloS Open Source Toolkit\nSynthetic Biology for engineering plant growth\nOpen sourcing bioinstruments\nOpen Source Tools for Computational Biology\nAndre Maia Chagas Open-Source\nOpen Neuroscience\nOpen Source BioArt\nOpen Labware\nOpen Source Hardware Journal\nTREND Africa Open Source Training\nOpen Source Biomaker\nHackaday Open Source\nDIY BIO\nOpen Source Bioreactor\nOpen Source Bioreactor Project\nFarma: a Home Bioreactor for Pharmaceutical Drugs\nGaudi Labs Open Culture Technology\nRaspberry Pi: a versatile tool for biological sciences\nAppropedia: Open Source Technology\nOpen-source robotic platform for experimental automation\nDFROBOT\nIFIXIT\nLab On The Cheap\nDIYbio Lab\nBiodesign Sprint\nOpen Data Kit\nOpen mHealth\nMobile Sensor Data to Knowledge\nAlgae Biomanufacturing"
   },
   {
-    "objectID": "resources/biox/biox.html#biomechanics-and-sports-bioengineering",
-    "href": "resources/biox/biox.html#biomechanics-and-sports-bioengineering",
-    "title": "Bio-X: All things Bio",
-    "section": "1. Biomechanics and Sports Bioengineering",
-    "text": "1. Biomechanics and Sports Bioengineering"
-  },
-  {
-    "objectID": "resources/biox/biox.html#biotechnology-startups-and-open-source-bio",
-    "href": "resources/biox/biox.html#biotechnology-startups-and-open-source-bio",
-    "title": "Bio-X: All things Bio",
-    "section": "2. Biotechnology Startups and Open-Source Bio",
-    "text": "2. Biotechnology Startups and Open-Source Bio"
-  },
-  {
-    "objectID": "resources/biox/biox.html#startup-and-innovation-resources",
-    "href": "resources/biox/biox.html#startup-and-innovation-resources",
-    "title": "Bio-X: All things Bio",
-    "section": "3. Startup and Innovation Resources",
-    "text": "3. Startup and Innovation Resources"
-  },
-  {
-    "objectID": "resources/biox/biox.html#bioinformatics-and-computational-biology",
-    "href": "resources/biox/biox.html#bioinformatics-and-computational-biology",
-    "title": "Bio-X: All things Bio",
-    "section": "4. Bioinformatics and Computational Biology",
-    "text": "4. Bioinformatics and Computational Biology"
-  },
-  {
     "objectID": "resources/biox/biox.html#biomedical-image-analysis-and-microscopy",
     "href": "resources/biox/biox.html#biomedical-image-analysis-and-microscopy",
     "title": "Bio-X: All things Bio",
@@ -378,32 +357,32 @@
     "text": "Innovation\n\nDevelopment Innovation Ventures\nCreative Destruction Lab\nChristensen Institute\nBioInnovate Africal\nIsrael Innovation\nSmart Agro Fund\nEXTREME Design Stanford\n100 PANDEMIC TECHNOLOGIES\nMIT D-Lab\nMedical Device and Diagnostic Industry"
   },
   {
-    "objectID": "resources/data_viz/ds_viz.html#data-visualization-general",
-    "href": "resources/data_viz/ds_viz.html#data-visualization-general",
-    "title": "Data Visualization and Storytelling",
-    "section": "1. Data Visualization (General)",
-    "text": "1. Data Visualization (General)"
+    "objectID": "resources/data_viz/ds_journalism.html",
+    "href": "resources/data_viz/ds_journalism.html",
+    "title": "Data Journalism Tools and Stories",
+    "section": "",
+    "text": "A listing of data journalism practitioners and companies to follow:\n\nSeth Stephens-Davidowitz\nQuant Editing\nAmber Thomas\nData Journalism and Viz Accounts\nFlowing Data Website\n\n\n\n\n\nGitHub Data Journalism\nA Beginner’s Guide to Data Journalism: Let’s Build a Story From Scratch\nQuick Guide to Data Journalism\nData journalism: a guide for editors\nDeveloping Data Journalists in the Developing World\n\n\n\n\n\nInterrogating Data: A Science Writer’s Guide to Data Journalism\nThe Beginning, The Middle, & The New Beginning\nHow data journalists create beautiful feature stories\nA data journalist’s guide to building a hypothesis\nFlowing Data Story Formats\nTelling Stories With Data: A Simple Math Guide\nData Biographies: Getting to Know Your Data\nPutting data back into context\nDueling Data\n\n\n\n\n\nData Journalism Tools\nData Journalism and Visualization with Free Tools\nStorytelling Tools\nStoryBench: The future of machine learning in journalism\nHow ProPublica Analyzed Pardon Data\n\n\n\n\n\nMapping search data from Google Trends in R\nUsing R to Analyze Fargo Crime Data\n\n\n\n\n\nGlobal Investigative Journalism Network Data Journalism\nProPublica Data Institute 2018\nProPublica Data Institute 2019\nSIGMA Awards\nKnight Foundation: Misinformation\nThe Bureau of Investigative Journalism\nFake News Public Data Lab\nAP DataKit\nData Journalism Grants\nA community conference for data makers everywhere\nGoogle News Initiative"
   },
   {
-    "objectID": "resources/data_viz/ds_viz.html#data-visualization-r",
-    "href": "resources/data_viz/ds_viz.html#data-visualization-r",
-    "title": "Data Visualization and Storytelling",
-    "section": "2. Data Visualization (R)",
-    "text": "2. Data Visualization (R)"
+    "objectID": "resources/data_viz/ds_journalism.html#data-stories-longform-and-in-depth-articles",
+    "href": "resources/data_viz/ds_journalism.html#data-stories-longform-and-in-depth-articles",
+    "title": "Data Journalism Tools and Stories",
+    "section": "Data Stories (Longform and In-depth articles)",
+    "text": "Data Stories (Longform and In-depth articles)\n\nStory aggregators\n\nGlobal Investigative Journalism Network Top 10\nMedia Hack Collective\n12 brilliant data journalism projects of 2021\nData Journalism: Some Favorite Examples\nExamples of Award-winning Data Journalism\n12 Best Data Journalism Examples:Storytelling with data\n10 data journalism projects that made an impact in 2020: our ultimate COVID-19 roundup\n\n\n\nTop Data Sory Examples\n\n10 years. 180 school shootings. 356 victims.\nBlind Drunk\nUber Game\nWhat Africa will look like in 100 years\nONE NATION, TRACKED\nLife in the camps\nLife in Hong Kong’s shoebox housing\nThe Airbnb effect\nNSA Files Decoded\nThe Deadliest Jobs in America\nCongressional Tweets\nThe Kim Foxx Effect\nWhat makes a titletown?\nHigh street crisis deepens\nThe use of political ads on facebook in the run-up to the European Parliament elections 2019 in Austria\nWhat the Democratic Presidential Candidates Care About, in 44,000 Tweets\nHow many high school stars make it in the NBA?\nThe Facebook Scandal"
   },
   {
-    "objectID": "resources/data_viz/ds_viz.html#data-visualization-python",
-    "href": "resources/data_viz/ds_viz.html#data-visualization-python",
+    "objectID": "resources/data_viz/ds_viz.html#visualization",
+    "href": "resources/data_viz/ds_viz.html#visualization",
     "title": "Data Visualization and Storytelling",
-    "section": "3. Data Visualization (Python)",
-    "text": "3. Data Visualization (Python)"
+    "section": "Visualization",
+    "text": "Visualization\n\n1. Data Visualization (General)\n\n\n2. Data Visualization (R)\n\n\n3. Data Visualization (Python)\n\n\n4. Data Visualization (Tableau)"
   },
   {
-    "objectID": "resources/data_viz/ds_viz.html#data-visualization-tableau",
-    "href": "resources/data_viz/ds_viz.html#data-visualization-tableau",
+    "objectID": "resources/data_viz/ds_viz.html#journalism-and-storytelling",
+    "href": "resources/data_viz/ds_viz.html#journalism-and-storytelling",
     "title": "Data Visualization and Storytelling",
-    "section": "4. Data Visualization (Tableau)",
-    "text": "4. Data Visualization (Tableau)"
+    "section": "Journalism and Storytelling",
+    "text": "Journalism and Storytelling\n\n1. Data Journalism and Storytelling"
   },
   {
     "objectID": "resources/data_viz/ds_viz_general.html",
@@ -439,6 +418,27 @@
     "title": "Data Visualization (R)",
     "section": "",
     "text": "Awesome ggplot2"
+  },
+  {
+    "objectID": "resources/data_viz/ds_viz_r.html#books",
+    "href": "resources/data_viz/ds_viz_r.html#books",
+    "title": "Data Visualization (R)",
+    "section": "Books",
+    "text": "Books\n\nAn introduction to data visualization protocols for wet lab scientists\nCookbook for R\nR Graphics Cookbook\nData Visualization with R\nData visualisation using R, for researchers who don’t use R\nFundamentals of Data Visualization\nggplot2: Elegant Graphics for Data Analysis\nR4DS Data Visualization\nInteractive web-based data visualization with R, plotly, and shiny\nBBC Visual and Data Journalism cookbook for R graphics\nggplot2"
+  },
+  {
+    "objectID": "resources/data_viz/ds_viz_r.html#templates",
+    "href": "resources/data_viz/ds_viz_r.html#templates",
+    "title": "Data Visualization (R)",
+    "section": "Templates",
+    "text": "Templates\n\nR CHARTS\nThe R Graph Gallery\nggplot2 extensions\nA Scientist’s Guide to R: Step 3.1 - data visualization with ggplot2+\nggplot tricks\nDesigning ggplots\nBBC Style Plot Templates\na ggplot2 grammar guide\nTom’s Cookbook for Better Viz\n12 ggplot extensions for snazzier R graphics\nData Visualization Packages for R you should check out in 2022"
+  },
+  {
+    "objectID": "resources/data_viz/ds_viz_r.html#courses",
+    "href": "resources/data_viz/ds_viz_r.html#courses",
+    "title": "Data Visualization (R)",
+    "section": "Courses",
+    "text": "Courses\n\nGraphic Design with ggplot2\nData Visualization in R\nData Visualization\nSDS 375: Data Visualization in R"
   },
   {
     "objectID": "resources/data_viz/ds_viz_r.html#tutorials-and-notes",
@@ -502,69 +502,6 @@
     "title": "Data Science Interview",
     "section": "Language- and Field-Specific",
     "text": "Language- and Field-Specific\n\nAnalyzing 89 Responses to a SQL Screener Question for a Senior Data Analyst Position\nHow To Ace Data Science Interviews: SQL\nHow To Ace Data Science Interviews: Statistics\nHow To Ace Data Science Interviews: R & Python\nAce the SQL & Data Science Interview"
-  },
-  {
-    "objectID": "resources/ds_ml_ai/ds_journalism.html",
-    "href": "resources/ds_ml_ai/ds_journalism.html",
-    "title": "Data Journalism Tools and Stories",
-    "section": "",
-    "text": "Seth Stephens-Davidowitz\nQuant Editing\nAmber Thomas\nData Journalism and Viz Accounts\nFlowing Data Website\n\n\n\n\n\nA Beginner’s Guide to Data Journalism: Let’s Build a Story From Scratch\nQuick Guide to Data Journalism\nInterrogating Data: A Science Writer’s Guide to Data Journalism\nData Journalism Tools\nGitHub Data Journalism\nFlowing Data Story Formats\nStorytelling Tools\nTelling Stories With Data: A Simple Math Guide\nHow data journalists create beautiful feature stories\nDeveloping Data Journalists in the Developing World\nHow ProPublica Analyzed Pardon Data\nData Biographies: Getting to Know Your Data\nData journalism: a guide for editors\nPutting data back into context\nInterrogating Data: A Science Writer’s Guide to Data Journalism\nStoryBench: The future of machine learning in journalism\nData Journalism and Visualization with Free Tools\nA data journalist’s guide to building a hypothesis\nDueling Data\nThe Beginning, The Middle, & The New Beginning\n\n\n\n\n\nGlobal Investigative Journalism Network Data Journalism\nProPublica Data Institute 2018\nProPublica Data Institute 2019\nSIGMA Awards\nKnight Foundation: Misinformation\nThe Bureau of Investigative Journalism\nFake News Public Data Lab\nAP DataKit\nData Journalism Grants\nA community conference for data makers everywhere\nGoogle News Initiative"
-  },
-  {
-    "objectID": "resources/ds_ml_ai/ds_journalism.html#data-stories-longform-and-in-depth-articles",
-    "href": "resources/ds_ml_ai/ds_journalism.html#data-stories-longform-and-in-depth-articles",
-    "title": "Data Journalism Tools and Stories",
-    "section": "Data Stories (Longform and In-depth articles)",
-    "text": "Data Stories (Longform and In-depth articles)\n\n10 years. 180 school shootings. 356 victims.\nBlind Drunk\nUber Game\nWhat Africa will look like in 100 years\nONE NATION, TRACKED\nLife in the camps\nLife in Hong Kong’s shoebox housing\nThe Airbnb effect\nNSA Files Decoded\nThe Deadliest Jobs in America\nGlobal Investigative Journalism Network Top 10\nMedia Hack Collective\n12 brilliant data journalism projects of 2021\nData Journalism: Some Favorite Examples\nExamples of Award-winning Data Journalism\n12 Best Data Journalism Examples:Storytelling with data\n10 data journalism projects that made an impact in 2020: our ultimate COVID-19 roundup\nMapping search data from Google Trends in R\nCongressional Tweets\nUsing R to Analyze Fargo Crime Data\nThe Kim Foxx Effect\nWhat makes a titletown?\nHigh street crisis deepens\nThe use of political ads on facebook in the run-up to the European Parliament elections 2019 in Austria\nWhat the Democratic Presidential Candidates Care About, in 44,000 Tweets\nHow many high school stars make it in the NBA?\nThe Facebook Scandal"
-  },
-  {
-    "objectID": "resources/ds_ml_ai/ds_ml_ai.html#data-science-machine-learning-and-artificial-intelligence",
-    "href": "resources/ds_ml_ai/ds_ml_ai.html#data-science-machine-learning-and-artificial-intelligence",
-    "title": "Data Science, Machine Learning, and Artificial Intelligence",
-    "section": "1. Data Science, Machine Learning, and Artificial Intelligence",
-    "text": "1. Data Science, Machine Learning, and Artificial Intelligence"
-  },
-  {
-    "objectID": "resources/ds_ml_ai/ds_ml_ai.html#datasets-for-statistical-analysis-and-machine-learning",
-    "href": "resources/ds_ml_ai/ds_ml_ai.html#datasets-for-statistical-analysis-and-machine-learning",
-    "title": "Data Science, Machine Learning, and Artificial Intelligence",
-    "section": "2. Datasets for Statistical Analysis and Machine Learning",
-    "text": "2. Datasets for Statistical Analysis and Machine Learning"
-  },
-  {
-    "objectID": "resources/ds_ml_ai/ds_ml_ai.html#statistics",
-    "href": "resources/ds_ml_ai/ds_ml_ai.html#statistics",
-    "title": "Data Science, Machine Learning, and Artificial Intelligence",
-    "section": "3. Statistics",
-    "text": "3. Statistics"
-  },
-  {
-    "objectID": "resources/ds_ml_ai/ds_ml_ai.html#data-science-interview-prep",
-    "href": "resources/ds_ml_ai/ds_ml_ai.html#data-science-interview-prep",
-    "title": "Data Science, Machine Learning, and Artificial Intelligence",
-    "section": "4. Data Science Interview Prep",
-    "text": "4. Data Science Interview Prep"
-  },
-  {
-    "objectID": "resources/ds_ml_ai/ds_ml_ai.html#data-journalism-tools-and-stories",
-    "href": "resources/ds_ml_ai/ds_ml_ai.html#data-journalism-tools-and-stories",
-    "title": "Data Science, Machine Learning, and Artificial Intelligence",
-    "section": "5. Data Journalism Tools and Stories",
-    "text": "5. Data Journalism Tools and Stories"
-  },
-  {
-    "objectID": "resources/ds_ml_ai/ds_ml_ai.html#sports-data-science",
-    "href": "resources/ds_ml_ai/ds_ml_ai.html#sports-data-science",
-    "title": "Data Science, Machine Learning, and Artificial Intelligence",
-    "section": "5. Sports Data Science",
-    "text": "5. Sports Data Science"
-  },
-  {
-    "objectID": "resources/ds_ml_ai/ds_ml_ai.html#social-media-and-music-analysis",
-    "href": "resources/ds_ml_ai/ds_ml_ai.html#social-media-and-music-analysis",
-    "title": "Data Science, Machine Learning, and Artificial Intelligence",
-    "section": "6. Social Media and Music Analysis",
-    "text": "6. Social Media and Music Analysis"
   },
   {
     "objectID": "resources/ds_ml_ai/ds_ml_ai_all.html",
@@ -670,41 +607,6 @@
     "title": "Git, GitHub, Command Line, and SQL",
     "section": "SQL",
     "text": "SQL\n\nSQL queries don’t start with SELECT\n21 of the best free resources to learn SQL\nPostgreSQL Tutorial\nA Visual Explanation of SQL Joins\nThe SQL Tutorial for Data Analysis\nSQL\nSQL Tutorial\nSQLBolt\nSQL Tutorial\nDatabases 101"
-  },
-  {
-    "objectID": "resources/programming/programming.html#r-and-rstudio",
-    "href": "resources/programming/programming.html#r-and-rstudio",
-    "title": "Programming",
-    "section": "1. R and RStudio",
-    "text": "1. R and RStudio"
-  },
-  {
-    "objectID": "resources/programming/programming.html#python",
-    "href": "resources/programming/programming.html#python",
-    "title": "Programming",
-    "section": "2. Python",
-    "text": "2. Python"
-  },
-  {
-    "objectID": "resources/programming/programming.html#data-visualization-notes-and-tutorials",
-    "href": "resources/programming/programming.html#data-visualization-notes-and-tutorials",
-    "title": "Programming",
-    "section": "3. Data Visualization Notes and Tutorials",
-    "text": "3. Data Visualization Notes and Tutorials"
-  },
-  {
-    "objectID": "resources/programming/programming.html#git-github-command-line-and-sql",
-    "href": "resources/programming/programming.html#git-github-command-line-and-sql",
-    "title": "Programming",
-    "section": "3. Git, GitHub, Command Line, and SQL",
-    "text": "3. Git, GitHub, Command Line, and SQL"
-  },
-  {
-    "objectID": "resources/programming/programming.html#quarto",
-    "href": "resources/programming/programming.html#quarto",
-    "title": "Programming",
-    "section": "4. Quarto",
-    "text": "4. Quarto"
   },
   {
     "objectID": "resources/programming/python.html",
@@ -819,18 +721,11 @@
     "text": "4. Startup and Innovation Resources"
   },
   {
-    "objectID": "resources/readings/readings.html#recommended-readings-stem",
-    "href": "resources/readings/readings.html#recommended-readings-stem",
+    "objectID": "resources/readings/readings.html#readings-for-everyone",
+    "href": "resources/readings/readings.html#readings-for-everyone",
     "title": "Readings (STEM and General)",
-    "section": "1. Recommended Readings (STEM)",
-    "text": "1. Recommended Readings (STEM)"
-  },
-  {
-    "objectID": "resources/readings/readings.html#recommended-readings-general",
-    "href": "resources/readings/readings.html#recommended-readings-general",
-    "title": "Readings (STEM and General)",
-    "section": "2. Recommended Readings (General)",
-    "text": "2. Recommended Readings (General)"
+    "section": "Readings for everyone",
+    "text": "Readings for everyone\n\n1. Recommended Readings (General)"
   },
   {
     "objectID": "resources/readings/reading_general.html",
@@ -938,27 +833,6 @@
     "text": "Carpentries Certification\n\nThe Carpentries\nData Carpentry\nSoftware Carpentry\nLibrary Carpentry"
   },
   {
-    "objectID": "resources/teaching/teach_res.html#general-teaching-resources",
-    "href": "resources/teaching/teach_res.html#general-teaching-resources",
-    "title": "General Teaching Resources",
-    "section": "1. General Teaching Resources",
-    "text": "1. General Teaching Resources"
-  },
-  {
-    "objectID": "resources/teaching/teach_res.html#rstudio-and-carpentries-certification",
-    "href": "resources/teaching/teach_res.html#rstudio-and-carpentries-certification",
-    "title": "General Teaching Resources",
-    "section": "2. RStudio and Carpentries Certification",
-    "text": "2. RStudio and Carpentries Certification"
-  },
-  {
-    "objectID": "resources/teaching/teach_res.html#medical-science-and-technical-writing",
-    "href": "resources/teaching/teach_res.html#medical-science-and-technical-writing",
-    "title": "General Teaching Resources",
-    "section": "3. Medical, Science, and Technical Writing",
-    "text": "3. Medical, Science, and Technical Writing"
-  },
-  {
     "objectID": "resources/teaching/writing.html",
     "href": "resources/teaching/writing.html",
     "title": "Medical, Science, and Technical Writing",
@@ -999,75 +873,5 @@
     "title": "Data Stories",
     "section": "",
     "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "posts/series_2/new_post_3/post_3.html",
-    "href": "posts/series_2/new_post_3/post_3.html",
-    "title": "Data Visualization for Government, Part 1",
-    "section": "",
-    "text": "Introduction\nIn January 2018, former President Uhuru Kenyatta announced the creation of the Chief Administrative Secretary (CAS) position. The primary role of the appointees would be to “help the Cabinet Secretary to better coordinate the running of the affairs of the respective ministries 1.” Though highly controversial at the time (as civil society groups 2 challenged the legality of the position), the High Court (in February 2023) eventually ruled that the decision to create the new position was lawful 3.\nThe Public Service Commission (PSC) of Kenya is responsible for government recruitment, and Section 234 of the Constitution of Kenya states that part of its mandate includes the “establishment of public offices” and “appointment of persons to those offices.” The most recent call for applications to the CAS position was circulated in October 2022 4. Here, the PSC listed the roles, responsibilities, and requirements for all applicants. To ensure transparency in the recruitment process, the PSC provided a list of all the applicants 5, the shortlisted applicants [5], and a schedule of the interview times [5]. After the interview, the names of successful candidates were forwarded to the President for appointment. On March 16th, 2023, President William Ruto appointed fifty (50) individuals to the CAS position, which was more than double the number of positions created by the PSC. The legality of these appointments has already been challenged in court and we await the final verdict 6 7.\nControversy aside, the goal of this article is to provide a data-driven assessment of publicly available recruitment information (specifically gender, disability status, and county of origin) to determine whether principles of diversity, equity, and inclusion (DEI) were promoted during the hiring process.\n\n\nSummary of Findings\n\nOnly 26% of the CAS appointments went to women, even though 33% of applicants and 36% of those shortlisted were female. This may not be in line with the “two-thirds gender rule” outlined in Article 27(8) of the Constitution of Kenya (2010) which states that “not more than two-thirds of the members of elective or appointive bodies shall be of the same gender.”\n\n\n\n\n\n\n\nTwo percent (2%) of the nominees were Persons with Disabilities (PWDs), which is representative of the percentage of Kenyans (at the national level) living with a disability (2.2%) 8. However, institutions such as the National Gender and Equality Commission should develop programs to increase the number of applicants from marginalized groups.\n\n\n\n\n\n\n\nIn total, there were 133 applicants from Busia County (2.5%). Despite this, it was the only county that did not have a representative on the shortlist. To remedy this, the PSC may need to put in place affirmative action policies that ensure that at least one applicant from each county makes it to the shortlist.\n\n\n\n\n\n\n\nNine counties are not represented in the final list of nominees.\n\n\n\n\n\n\n\nTen counties have more than one CAS nominee.\n\n\n\n\n\n\n\n\nConclusion\nOverall, this article provided a set of data visualizations to help understand the demographics of applicants for the CAS position in Kenya. Specifically, the gender, disability status, and county of origin were assessed at the applicant, shortlisting, and nomination stages. This study had several key findings:\n\nLess than one-third of the nominees were women even though 36% of the nominees shortlisted were female.\nOnly one nominee was a person with a disability (PWD).\nOne county (Busia) failed to have any applicants make it to the shortlist of 240 and nine counties in total had zero nominees out of 50.\n\nFuture work will assess the data at a more granular level and determine the counties where there were low numbers of total applicants, low numbers of women at the application and shortlisting stage, and also determine which counties did not have PWD applicants. Additionally, it would be helpful if the PSC could provide age and education level data to help perform a more thorough analysis of the recruitment process. Lastly, it is commendable that the PSC makes this information publicly available, and I hope that further analysis of the data can result in initiatives to diversify the candidate pool at the applicant and shortlisting stages.\n\n\nFun Fact\nThe most common applicant first names (male and female).\n\n\n\n\n\n\n\n\n\n\nFootnotes\n\n\nPSCU (2018) Uhuru Kenyatta’s Full Statement On New Cabinet. Available at: https://www.citizen.digital/news/uhuru-kenyattas-full-statement-on-new-cabinet-189331 (Accessed: April 2, 2023).↩︎\nBetty Njeru (2018) Activist Omtatah moves to court challenging the creation of new cabinet positions. Available at: https://www.standardmedia.co.ke/kenya/article/2001267705/okiya-omtatah-moves-to-court-challenging-new-cabinet-positions (Accessed: April 6, 2023).↩︎\nCorrespondent (2023) Labour Court Clears Way For Appointment Of Chief Administrative Secretaries. Available at: https://www.capitalfm.co.ke/news/2023/02/labour-court-clears-the-way-for-appointment-of-chief-administrative-secretaries/ (Accessed: April 10, 2023).↩︎\nPSC (2023) CALL FOR APPLICATIONS TO THE POSITION OF CHIEF ADMINISTRATIVE SECRETARY IN THE PUBLIC SERVICE. Available at: https://www.publicservice.go.ke/index.php/media-center/2/202-call-for-applications-to-the-position-of-chief-administrative-secretary-in-the-public-service (Accessed: April 10, 2023).↩︎\nPSC (2023) Shortlisted Candidates. Available at: https://www.publicservice.go.ke/index.php/recruitment/shortlisted-candidates (Accessed: April 10, 2023).↩︎\nSusan Muhindi (2023) Ruto’s 50 CAS nomination list challenged in court. Available at: https://www.the-star.co.ke/news/2023-03-20-rutos-50-cas-nomination-list-challenged-in-court/ (Accessed: April 2, 2023).↩︎\nEmmanuel Wanjala (2023). Available at: https://www.the-star.co.ke/news/2023-03-17-ruto-has-created-27-illegal-cas-posts-lsks-eric-theuri/ (Accessed: April 5, 2023).↩︎\n\nShelmith Kariuki (2020). rKenyaCensus: 2019 Kenya Population and Housing Census Results. R package version 0.0.2.\n\n↩︎"
-  },
-  {
-    "objectID": "resources/data_viz/ds_viz.html#visualization",
-    "href": "resources/data_viz/ds_viz.html#visualization",
-    "title": "Data Visualization and Storytelling",
-    "section": "Visualization",
-    "text": "Visualization\n\n1. Data Visualization (General)\n\n\n2. Data Visualization (R)\n\n\n3. Data Visualization (Python)\n\n\n4. Data Visualization (Tableau)"
-  },
-  {
-    "objectID": "resources/data_viz/ds_viz.html#journalism-and-storytelling",
-    "href": "resources/data_viz/ds_viz.html#journalism-and-storytelling",
-    "title": "Data Visualization and Storytelling",
-    "section": "Journalism and Storytelling",
-    "text": "Journalism and Storytelling\n\n1. Data Journalism and Storytelling"
-  },
-  {
-    "objectID": "resources/data_viz/ds_viz.html#data-journalism-and-storytelling",
-    "href": "resources/data_viz/ds_viz.html#data-journalism-and-storytelling",
-    "title": "Data Visualization and Storytelling",
-    "section": "5. Data Journalism and Storytelling",
-    "text": "5. Data Journalism and Storytelling"
-  },
-  {
-    "objectID": "resources/data_viz/ds_journalism.html",
-    "href": "resources/data_viz/ds_journalism.html",
-    "title": "Data Journalism Tools and Stories",
-    "section": "",
-    "text": "A listing of data journalism practitioners and companies to follow:\n\nSeth Stephens-Davidowitz\nQuant Editing\nAmber Thomas\nData Journalism and Viz Accounts\nFlowing Data Website\n\n\n\n\n\nGitHub Data Journalism\nA Beginner’s Guide to Data Journalism: Let’s Build a Story From Scratch\nQuick Guide to Data Journalism\nData journalism: a guide for editors\nDeveloping Data Journalists in the Developing World\n\n\n\n\n\nInterrogating Data: A Science Writer’s Guide to Data Journalism\nThe Beginning, The Middle, & The New Beginning\nHow data journalists create beautiful feature stories\nA data journalist’s guide to building a hypothesis\nFlowing Data Story Formats\nTelling Stories With Data: A Simple Math Guide\nData Biographies: Getting to Know Your Data\nPutting data back into context\nDueling Data\n\n\n\n\n\nData Journalism Tools\nData Journalism and Visualization with Free Tools\nStorytelling Tools\nStoryBench: The future of machine learning in journalism\nHow ProPublica Analyzed Pardon Data\n\n\n\n\n\nMapping search data from Google Trends in R\nUsing R to Analyze Fargo Crime Data\n\n\n\n\n\nGlobal Investigative Journalism Network Data Journalism\nProPublica Data Institute 2018\nProPublica Data Institute 2019\nSIGMA Awards\nKnight Foundation: Misinformation\nThe Bureau of Investigative Journalism\nFake News Public Data Lab\nAP DataKit\nData Journalism Grants\nA community conference for data makers everywhere\nGoogle News Initiative"
-  },
-  {
-    "objectID": "resources/data_viz/ds_journalism.html#data-stories-longform-and-in-depth-articles",
-    "href": "resources/data_viz/ds_journalism.html#data-stories-longform-and-in-depth-articles",
-    "title": "Data Journalism Tools and Stories",
-    "section": "Data Stories (Longform and In-depth articles)",
-    "text": "Data Stories (Longform and In-depth articles)\n\nStory aggregators\n\nGlobal Investigative Journalism Network Top 10\nMedia Hack Collective\n12 brilliant data journalism projects of 2021\nData Journalism: Some Favorite Examples\nExamples of Award-winning Data Journalism\n12 Best Data Journalism Examples:Storytelling with data\n10 data journalism projects that made an impact in 2020: our ultimate COVID-19 roundup\n\n\n\nTop Data Sory Examples\n\n10 years. 180 school shootings. 356 victims.\nBlind Drunk\nUber Game\nWhat Africa will look like in 100 years\nONE NATION, TRACKED\nLife in the camps\nLife in Hong Kong’s shoebox housing\nThe Airbnb effect\nNSA Files Decoded\nThe Deadliest Jobs in America\nCongressional Tweets\nThe Kim Foxx Effect\nWhat makes a titletown?\nHigh street crisis deepens\nThe use of political ads on facebook in the run-up to the European Parliament elections 2019 in Austria\nWhat the Democratic Presidential Candidates Care About, in 44,000 Tweets\nHow many high school stars make it in the NBA?\nThe Facebook Scandal"
-  },
-  {
-    "objectID": "resources/readings/readings.html#readings-for-everyone",
-    "href": "resources/readings/readings.html#readings-for-everyone",
-    "title": "Readings (STEM and General)",
-    "section": "Readings for everyone",
-    "text": "Readings for everyone\n\n1. Recommended Readings (General)"
-  },
-  {
-    "objectID": "resources/data_viz/ds_viz_r.html#books",
-    "href": "resources/data_viz/ds_viz_r.html#books",
-    "title": "Data Visualization (R)",
-    "section": "Books",
-    "text": "Books\n\nAn introduction to data visualization protocols for wet lab scientists\nCookbook for R\nR Graphics Cookbook\nData Visualization with R\nData visualisation using R, for researchers who don’t use R\nFundamentals of Data Visualization\nggplot2: Elegant Graphics for Data Analysis\nR4DS Data Visualization\nInteractive web-based data visualization with R, plotly, and shiny\nBBC Visual and Data Journalism cookbook for R graphics\nggplot2"
-  },
-  {
-    "objectID": "resources/data_viz/ds_viz_r.html#templates",
-    "href": "resources/data_viz/ds_viz_r.html#templates",
-    "title": "Data Visualization (R)",
-    "section": "Templates",
-    "text": "Templates\n\nR CHARTS\nThe R Graph Gallery\nggplot2 extensions\nA Scientist’s Guide to R: Step 3.1 - data visualization with ggplot2+\nggplot tricks\nDesigning ggplots\nBBC Style Plot Templates\na ggplot2 grammar guide\nTom’s Cookbook for Better Viz\n12 ggplot extensions for snazzier R graphics\nData Visualization Packages for R you should check out in 2022"
-  },
-  {
-    "objectID": "resources/data_viz/ds_viz_r.html#courses",
-    "href": "resources/data_viz/ds_viz_r.html#courses",
-    "title": "Data Visualization (R)",
-    "section": "Courses",
-    "text": "Courses\n\nGraphic Design with ggplot2\nData Visualization in R\nData Visualization\nSDS 375: Data Visualization in R"
   }
 ]
