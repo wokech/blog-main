@@ -1,14 +1,20 @@
 ---
-title: "Data Visualization"
+title: "Data Visualization and Storytelling"
 toc: true
 ---
 
 ## A curated collection of resources
 
-## 1. [Data Visualization (General)](ds_viz_general.qmd)
+## Visualization
 
-## 2. [Data Visualization (R)](ds_viz_r.qmd)
+### 1. [Data Visualization (General)](ds_viz_general.qmd)
 
-## 3. [Data Visualization (Python)](ds_viz_py.qmd)
+### 2. [Data Visualization (R)](ds_viz_r.qmd)
 
-## 4. [Data Visualization (Tableau)](ds_viz_tableau.qmd)
+### 3. [Data Visualization (Python)](ds_viz_py.qmd)
+
+### 4. [Data Visualization (Tableau)](ds_viz_tableau.qmd)
+
+## Journalism and Storytelling
+
+### 1. [Data Journalism and Storytelling](ds_journalism.qmd)

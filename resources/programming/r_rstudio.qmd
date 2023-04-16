@@ -154,6 +154,8 @@ toc: true
 46) [Manipulating Data with dplyr](https://www.dominodatalab.com/blog/manipulating-data-with-dplyr)
 47) [Get me to the church on time with R spatial](https://nacnudus.github.io/duncangarmonsway/posts/2019-04-22-get-me-to-the-church-on-time-with-r-spatial/)
 48) [Multivariate data analysis with R and vegan](https://github.com/gavinsimpson/physalia-multivariate#multivariate-data-analysis-with-r-and-vegan)
+49) [R Tips and Tricks](https://datacornering.com/)
+
 
 ## Tidyverse
 

@@ -5,8 +5,8 @@ toc: true
 
 ## A curated collection of resources
 
-## 1. [General Teaching Resources](gen_teach_resources.qmd)
+### 1. [General Teaching Resources](gen_teach_resources.qmd)
 
-## 2. [RStudio and Carpentries Certification](rstudio_carpentries_cert.qmd)
+### 2. [RStudio and Carpentries Certification](rstudio_carpentries_cert.qmd)
 
-## 3. [Medical, Science, and Technical Writing](writing.qmd)
+### 3. [Medical, Science, and Technical Writing](writing.qmd)
