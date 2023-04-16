@@ -34,6 +34,7 @@ toc: true
 17) [Data Journalism and Visualization with Free Tools](https://journalismcourses.org/course/dataviz/)
 18) [A data journalist's guide to building a hypothesis](https://datajournalism.com/read/longreads/hypothesis-data-journalism)
 19) [Dueling Data](http://duelingdata.blogspot.com/)
+20) [The Beginning, The Middle, & The New Beginning](https://old.duncangeere.com/newbeginning/)
 
 ### Organizations
 

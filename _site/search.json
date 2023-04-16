@@ -410,14 +410,14 @@
     "href": "resources/data_viz/ds_viz_general.html",
     "title": "Data Visualization (General)",
     "section": "",
-    "text": "Maarten Lambrechts\nAda Homolova\nLisa Charlotte Muth\nZev Ross\nEdward Tufte\nCÉDRIC SCHERER"
+    "text": "A listing of data visualization specialists and companies to follow:\n\n\n\nMaarten Lambrechts\nAda Homolova\nLisa Charlotte Muth\nZev Ross\nEdward Tufte\nCÉDRIC SCHERER\nKieran Healy\nLittle Miss Data\nSportsChord\n\n\n\n\n\nStamen"
   },
   {
     "objectID": "resources/data_viz/ds_viz_general.html#data-visualization-general",
     "href": "resources/data_viz/ds_viz_general.html#data-visualization-general",
     "title": "Data Visualization (General)",
     "section": "Data Visualization (General)",
-    "text": "Data Visualization (General)\n\nThe unspoken rules of visualisation\nThe Beginning, The Middle, & The New Beginning\nVisual Vocabulary\nColor in Data Vis\nBlack in Data Vis Challenge\nA Reader on Data Visualization\nData Visualization: A practical introduction\nSome Favorite Things\nColor Brewer\nFullstack D3 course\nLittle Miss Data\nWhat Are Data Visualization Style Guidelines?\nData visualization\nSportsChord\nData Viz Project\nYour Friendly Guide to Colors in Data Visualisation\nVIZRISK CHALLENGE STEPS\nWhy scientists need to be better at data visualization\nData Viz Projects\nA Tufte Handout Example"
+    "text": "Data Visualization (General)\n\nSelecting the appropriate chart types\n\nVisual Vocabulary\nThe unspoken rules of visualisation\nWhat Are Data Visualization Style Guidelines?\nData visualization\nWhy scientists need to be better at data visualization\nData Viz Project\nA Tufte Handout Example\n\n\n\nSelecting the appropriate colors\n\nColor in Data Vis\nColor Brewer\nYour Friendly Guide to Colors in Data Visualisation\n\n\n\nData Viz Challenges\n\nBlack in Data Vis Challenge\nVIZRISK CHALLENGE STEPS\n\n\n\nBooks\n\nA Reader on Data Visualization\nData Visualization: A practical introduction"
   },
   {
     "objectID": "resources/data_viz/ds_viz_py.html",
@@ -508,7 +508,7 @@
     "href": "resources/ds_ml_ai/ds_journalism.html",
     "title": "Data Journalism Tools and Stories",
     "section": "",
-    "text": "Seth Stephens-Davidowitz\nQuant Editing\nAmber Thomas\nData Journalism and Viz Accounts\nFlowing Data Website\n\n\n\n\n\nA Beginner’s Guide to Data Journalism: Let’s Build a Story From Scratch\nQuick Guide to Data Journalism\nInterrogating Data: A Science Writer’s Guide to Data Journalism\nData Journalism Tools\nGitHub Data Journalism\nFlowing Data Story Formats\nStorytelling Tools\nTelling Stories With Data: A Simple Math Guide\nHow data journalists create beautiful feature stories\nDeveloping Data Journalists in the Developing World\nHow ProPublica Analyzed Pardon Data\nData Biographies: Getting to Know Your Data\nData journalism: a guide for editors\nPutting data back into context\nInterrogating Data: A Science Writer’s Guide to Data Journalism\nStoryBench: The future of machine learning in journalism\nData Journalism and Visualization with Free Tools\nA data journalist’s guide to building a hypothesis\nDueling Data\n\n\n\n\n\nGlobal Investigative Journalism Network Data Journalism\nProPublica Data Institute 2018\nProPublica Data Institute 2019\nSIGMA Awards\nKnight Foundation: Misinformation\nThe Bureau of Investigative Journalism\nFake News Public Data Lab\nAP DataKit\nData Journalism Grants\nA community conference for data makers everywhere\nGoogle News Initiative"
+    "text": "Seth Stephens-Davidowitz\nQuant Editing\nAmber Thomas\nData Journalism and Viz Accounts\nFlowing Data Website\n\n\n\n\n\nA Beginner’s Guide to Data Journalism: Let’s Build a Story From Scratch\nQuick Guide to Data Journalism\nInterrogating Data: A Science Writer’s Guide to Data Journalism\nData Journalism Tools\nGitHub Data Journalism\nFlowing Data Story Formats\nStorytelling Tools\nTelling Stories With Data: A Simple Math Guide\nHow data journalists create beautiful feature stories\nDeveloping Data Journalists in the Developing World\nHow ProPublica Analyzed Pardon Data\nData Biographies: Getting to Know Your Data\nData journalism: a guide for editors\nPutting data back into context\nInterrogating Data: A Science Writer’s Guide to Data Journalism\nStoryBench: The future of machine learning in journalism\nData Journalism and Visualization with Free Tools\nA data journalist’s guide to building a hypothesis\nDueling Data\nThe Beginning, The Middle, & The New Beginning\n\n\n\n\n\nGlobal Investigative Journalism Network Data Journalism\nProPublica Data Institute 2018\nProPublica Data Institute 2019\nSIGMA Awards\nKnight Foundation: Misinformation\nThe Bureau of Investigative Journalism\nFake News Public Data Lab\nAP DataKit\nData Journalism Grants\nA community conference for data makers everywhere\nGoogle News Initiative"
   },
   {
     "objectID": "resources/ds_ml_ai/ds_journalism.html#data-stories-longform-and-in-depth-articles",

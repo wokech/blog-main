@@ -5,32 +5,48 @@ toc: true
 
 ## Data Visualization (Blogs)
 
+A listing of data visualization specialists and companies to follow:
+
+### People
+
 1)  [Maarten Lambrechts](https://www.maartenlambrechts.com/)
 2)  [Ada Homolova](http://homolova.sk/)
 3)  [Lisa Charlotte Muth](https://lisacharlottemuth.com/)
 4)  [Zev Ross](http://www.zevross.com/)
 5)  [Edward Tufte](https://www.edwardtufte.com/tufte/)
 6)  [CÉDRIC SCHERER](https://www.cedricscherer.com/top/links/)
+7)  [Kieran Healy](https://kieranhealy.org/)
+8)  [Little Miss Data](https://www.littlemissdata.com/)
+9)  [SportsChord](https://www.sportschord.com/viz-gallery)
+
+### Companies
+
+1)  [Stamen](https://stamen.com/)
 
 ## Data Visualization (General)
 
-1)  [The unspoken rules of visualisation](https://datajournalism.com/read/longreads/the-unspoken-rules-of-visualisation)
-2)  [The Beginning, The Middle, & The New Beginning](https://old.duncangeere.com/newbeginning/)
-3)  [Visual Vocabulary](http://ft-interactive.github.io/visual-vocabulary/)
-4)  [Color in Data Vis](https://blog.datawrapper.de/category/color-in-data-vis/)
-5)  [Black in Data Vis Challenge](https://www.datavisualizationsociety.org/black-in-data-challenge)
-6)  [A Reader on Data Visualization](https://mschermann.github.io/data_viz_reader/)
-7)  [Data Visualization: A practical introduction](https://socviz.co/)
-8)  [Some Favorite Things](https://kieranhealy.org/blog/)
-9)  [Color Brewer](https://colorbrewer2.org/)
-10) [Fullstack D3 course](https://www.newline.co/fullstack-d3)
-11) [Little Miss Data](https://www.littlemissdata.com/)
-12) [What Are Data Visualization Style Guidelines?](https://medium.com/nightingale/style-guidelines-92ebe166addc)
-13) [Data visualization](https://m2.material.io/design/communication/data-visualization.html)
-14) [SportsChord](https://www.sportschord.com/viz-gallery)
-15) [Data Viz Project](https://datavizproject.com/)
-16) [Your Friendly Guide to Colors in Data Visualisation](https://blog.datawrapper.de/colorguide/)
-17) [VIZRISK CHALLENGE STEPS](https://understandrisk.org/vizrisk/steps/#part1)
-18) [Why scientists need to be better at data visualization](https://knowablemagazine.org/article/mind/2019/science-data-visualization)
-19) [Data Viz Projects](https://stamen.com/)
-20) [A Tufte Handout Example](https://rstudio.github.io/tufte/)
+### Selecting the appropriate chart types
+
+1)  [Visual Vocabulary](http://ft-interactive.github.io/visual-vocabulary/)
+2)  [The unspoken rules of visualisation](https://datajournalism.com/read/longreads/the-unspoken-rules-of-visualisation)
+3)  [What Are Data Visualization Style Guidelines?](https://medium.com/nightingale/style-guidelines-92ebe166addc)
+4)  [Data visualization](https://m2.material.io/design/communication/data-visualization.html)
+5)  [Why scientists need to be better at data visualization](https://knowablemagazine.org/article/mind/2019/science-data-visualization)
+6)  [Data Viz Project](https://datavizproject.com/)
+7)  [A Tufte Handout Example](https://rstudio.github.io/tufte/)
+
+### Selecting the appropriate colors
+
+1)  [Color in Data Vis](https://blog.datawrapper.de/category/color-in-data-vis/)
+2)  [Color Brewer](https://colorbrewer2.org/)
+3)  [Your Friendly Guide to Colors in Data Visualisation](https://blog.datawrapper.de/colorguide/)
+
+### Data Viz Challenges
+
+1)  [Black in Data Vis Challenge](https://www.datavisualizationsociety.org/black-in-data-challenge)
+2)  [VIZRISK CHALLENGE STEPS](https://understandrisk.org/vizrisk/steps/#part1)
+
+### Books
+
+1)  [A Reader on Data Visualization](https://mschermann.github.io/data_viz_reader/)
+2)  [Data Visualization: A practical introduction](https://socviz.co/)
