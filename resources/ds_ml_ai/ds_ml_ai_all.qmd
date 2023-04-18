@@ -146,6 +146,8 @@ toc: true
 3)  [Convolutional Neural Networks for Visual Recognition](https://cs231n.github.io/)
 4)  [Introduction to Natural Language Processing](https://www.fast.ai/posts/2019-07-08-fastai-nlp.html)
 5)  [Solving 90% of NLP problems](https://www.kdnuggets.com/2019/01/solve-90-nlp-problems-step-by-step-guide.html)
+6) [Face2Face](http://niessnerlab.org/projects/thies2016face.html)
+7) [Voice Cloning](https://www.descript.com/overdub?lyrebird=true)
 
 # Part 2
 
