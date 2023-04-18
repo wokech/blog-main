@@ -1,20 +1,29 @@
-# Blog developed using Quarto by RStudio
+# William Okech's blog developed using Quarto by Posit/RStudio
+
+## Summary 
+
+I am a research scientist with a background in Biomedical Engineering. My primary interests include:
+
+• Biotechnology and Biomechanics
+
+• Data Visualization
+
+I hope to introduce readers to the basics of data analysis and visualization and provide a periodic summary of recent advances in biotechnology and biomechanics.
 
 ## Notes
 
-1. Render the project with:
-a) Terminal
+Render the project with:
 
-i) render project in current dir
-quarto render 
+a) **Terminal**
 
-ii) render project in 'myproject'
-quarto render myproject
+i) render project in current directory ==> quarto render 
 
-iii) render only documents in the 'articles' sub-directory
-quarto render articles
+ii) render project in 'myproject' ==> quarto render myproject
 
-b) Console
+iii) render only documents in the 'articles' sub-directory ==> quarto render articles
+
+b) **Console**
 
 library(quarto)
-quarto_render()
+
+Use quarto_render() function to render the whole project
