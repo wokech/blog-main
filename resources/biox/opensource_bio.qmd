@@ -1,0 +1,36 @@
+---
+title: "Biotechnology Startups and Open-Source Bio"
+toc: true
+---
+
+## Open-Source Science, Medicine, and Technology
+
+1)  [PloS Open Source Toolkit](https://collections.plos.org/channel/open-source-toolkit/)
+2)  [Synthetic Biology for engineering plant growth](https://haseloff.plantsci.cam.ac.uk/)
+3)  [Open sourcing bioinstruments](https://liorpachter.wordpress.com/2019/01/18/open-sourcing-bioinstruments/)
+4)  [Open Source Tools for Computational Biology](https://www.pillar.vc/playlist/article/open-source-tools-for-computational-biology/)
+5)  [Andre Maia Chagas Open-Source](https://amchagas.github.io/)
+6)  [Open Neuroscience](https://open-neuroscience.com/)
+7)  [Open Source BioArt](https://www.hackteria.org/)
+8)  [Open Labware](https://badenlab.org/open-labware-net/)
+9)  [Open Source Hardware Journal](https://www.hardware-x.com/)
+10) [TREND Africa Open Source Training](https://trendinafrica.org/)
+11) [Open Source Biomaker](https://www.biomaker.org/)
+12) [Hackaday Open Source](https://hackaday.io/)
+13) [DIY BIO](https://diybio.org/local/)
+14) [Open Source Bioreactor](https://sites.google.com/site/opensourcebioreactor/)
+15) [Open Source Bioreactor Project](https://openbioeconomy.org/projects/open-source-bioreactor/)
+16) [Farma: a Home Bioreactor for Pharmaceutical Drugs](https://www.instructables.com/Farma-an-at-home-bioreactor-for-pharmaceutical-dru/)
+17) [Gaudi Labs Open Culture Technology](http://www.gaudi.ch/GaudiLabs/)
+18) [Raspberry Pi: a versatile tool for biological sciences](https://www.raspberrypi.com/news/raspberry-pi-a-versatile-tool-for-biological-sciences/)
+19) [Appropedia: Open Source Technology](https://www.appropedia.org/Welcome_to_Appropedia)
+20) [Open-source robotic platform for experimental automation](https://chi.bio/)
+21) [DFROBOT](https://community.dfrobot.com/)
+22) [IFIXIT](https://www.ifixit.com/Device/Medical_Device)
+23) [Lab On The Cheap](https://www.labonthecheap.com/)
+24) [DIYbio Lab](https://hackaday.io/project/11641-diybio-lab)
+25) [Biodesign Sprint](https://www.biodesignsprint.org/)
+26) [Open Data Kit](https://opendatakit.org/)
+27) [Open mHealth](https://www.openmhealth.org/)
+28) [Mobile Sensor Data to Knowledge](https://md2k.org/)
+29) [Algae Biomanufacturing](https://provectusalgae.com/)

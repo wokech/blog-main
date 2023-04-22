@@ -7,10 +7,6 @@ toc: true
 
 ### 1. [Biomechanics and Sports Bioengineering](biomech_sports_be.qmd)
 
-### 2. [Biotechnology Startups and Open-Source Bio](biotech_opensource.qmd)
+### 2. [Open-Source Bio](opensource_bio.qmd)
 
-### 3. [Startup and Innovation Resources](startup_innov.qmd)
-
-### 4. [Bioinformatics and Computational Biology](bioinf.qmd)
-
-## 5. [Biomedical Image Analysis and Microscopy](biomed_image_microscopy.qmd)
+### 3. [Bioinformatics and Computational Biology](bioinf.qmd)

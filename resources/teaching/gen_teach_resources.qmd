@@ -3,7 +3,7 @@ title: "General Teaching Resources"
 toc: true
 ---
 
-## Basics
+## Teaching STEM Subjects
 
 ### A curated collection of resources
 
@@ -12,9 +12,9 @@ toc: true
 3)  [Subjects and Skills for Graduate Students in the Biological Sciences](https://wilkelab.org/classes/BIO384C_fall_2015.html)
 4)  [Scientific Figure Design](https://www.bioinformatics.babraham.ac.uk/training.html#figuredesign)
 
-## Tools and Teaching Aids
+## Teaching Aids
 
-### Typing Test 
+### Typing Test
 
 1)  [Keyboard Test](https://www.keybr.com/)
 2)  [Typing Test](https://10fastfingers.com/typing-test/english)
@@ -25,12 +25,12 @@ toc: true
 2)  [Circuit simulation and schematics](https://www.circuitlab.com/)
 3)  [Interactive STEM activities](https://learn.concord.org/)
 4)  [GeoGebra for Teaching and Learning Math](https://www.geogebra.org/)
-5)  [GeoGebra Simulations](https://www.geogebra.org/m/nk83G3WY) 
+5)  [GeoGebra Simulations](https://www.geogebra.org/m/nk83G3WY)
 
 ### Online Textbooks
 
-1) [Free and flexible textbooks and resources](https://openstax.org/)
-2) [College Physics](https://openstax.org/details/books/college-physics)
+1)  [Free and flexible textbooks and resources](https://openstax.org/)
+2)  [College Physics](https://openstax.org/details/books/college-physics)
 
 ### Design and Illustrations
 
