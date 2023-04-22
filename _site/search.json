@@ -301,60 +301,11 @@
     "text": "Sports Bioengineering\n\nBecoming a Sports Engineer\nPeak Performance Project\nBTS Bioengineering\nSparta Science"
   },
   {
-    "objectID": "resources/biox/biomed_image_microscopy.html",
-    "href": "resources/biox/biomed_image_microscopy.html",
-    "title": "Biomedical Image Analysis and Microscopy",
-    "section": "",
-    "text": "Bio-image Analysis Notebooks\nPython BioImage Analysis Tutorial\nBIAPy: BioImage Analysis with Python\nAnalyzing fluorescence microscopy images with ImageJ\nNEUBIAS Academy\nGrand Challenge: ML in Biomedical Imaging\nCarpenter Lab Public Slides\nLecture - Applied Bioimage Analysis (2020)\nDeep learning in microscopy collection\nAwesome Cytodata\nCellProfiler Practical: Counting of in situ PLA signals per cell\nSciPy 2021 Bioimage Analysis Fundamentals in Python\nSeveral image processing workflow examples\nRecommended Readings and Viewings\nBioImage Model Zoo\ndeepImageJ\nBristol: Image analysis courses\nBioconductor: Basics of image data and spatial patterns analysis in R\nEASY IMAGE PROCESSING IN R USING THE MAGICK PACKAGE\nBio-Image analysis with Python and Napari - DIGS-BB Light Microscopy Course 2022\nFirst Principles of Computer Vision\nData Science in Cell Imaging\nThe OpenAI Microscope\nThe Journal of Machine Learning for Biomedical Imaging\nCELL TRACKING CHALLENGE\nBioimage Analysis Course: The Life Cycle of an Image Data Set\nStatistics for Neuroscientists: Image Analysis\nImage Segmentation with Python"
-  },
-  {
-    "objectID": "resources/biox/biomed_image_microscopy.html#bioimaging-software",
-    "href": "resources/biox/biomed_image_microscopy.html#bioimaging-software",
-    "title": "Biomedical Image Analysis and Microscopy",
-    "section": "BioImaging Software",
-    "text": "BioImaging Software\n\nA Hitchhiker’s guide through the bio-image analysis software universe\nImageScience Software\nDeepLabCut\nDeepLabCut GUI\nDiscover, install, and share napari plugins\nnapari\nChan Zuckerberg napari\nStarDist - Object Detection with Star-convex Shapes\ncellfinder-napari\nilastik\nYAPiC: Yet Another Pixel Classifier (based on deep learning)\nCellPose\nCellProfiler tutorials\nPiximi App\nPiximi GitHuc\nIcy\nnucleAIzer\nScientiFig\nuList\nImJoy\nZeroCostDL4Mic"
-  },
-  {
-    "objectID": "resources/biox/biomed_image_microscopy.html#microscopy",
-    "href": "resources/biox/biomed_image_microscopy.html#microscopy",
-    "title": "Biomedical Image Analysis and Microscopy",
-    "section": "Microscopy",
-    "text": "Microscopy\n\nThe OpenFlexure Project\nNanoJ-Fluidics: open-source fluid exchange in microscopy\nMicroscopy Series\nThe Power Of Observation\nRoyal Microscopy Society"
-  },
-  {
-    "objectID": "resources/biox/biotech_opensource.html",
-    "href": "resources/biox/biotech_opensource.html",
+    "objectID": "resources/biox/opensource_bio.html",
+    "href": "resources/biox/opensource_bio.html",
     "title": "Biotechnology Startups and Open-Source Bio",
     "section": "",
-    "text": "biotickr\nInvestor Village Biotech and Med\nBiotech2k Background Info\nAlcimed Biotech Business Exploration\nBenchmarks for growing health tech businesses\nThe best ways to follow biopharma news and learn about the industry (in my opinion)\nTimmerman Report: Your edge in Biotech\nHow to start a biotech company\nHow to Build a Biotech\nScaling Biotech\nAnatomy of a Biotech Business Development Deal\nThe case for young biotech founders\nData-driven perspectives on the business of biotech\nThe Bio Revolution\nSynthetic Biology Is About to Disrupt Your Industry\nInvesting in IDRx\nWhy We’re Investing in EQRx\nTerm Sheet Recommendations for Launching University Life Science Startups\nHow Do You Become a Bioentrepreneur?\nHow to Spin Your Scientific Research Out Of a University and Into a Startup\nEarly-Stage Biotech Value Creation: The Roles of Equity and Partnerships\nHow Biotech Startup Funding Will Change in the Next 10 Years\nThe Creation Of Biotech Startups: Evolution Not Revolution\nBiotech New Venture Formation: Reflecting On A Decade’s Changing Dynamics\nBiotech researchers venture into the wild to start their own business\nPlatform-Disease Fit: Why You Need It and How to Find It\nIt’s Time to Heal: 16 Trends Driving the Future of Bio and Healthcare"
-  },
-  {
-    "objectID": "resources/biox/biotech_opensource.html#open-source-science-medicine-and-technology",
-    "href": "resources/biox/biotech_opensource.html#open-source-science-medicine-and-technology",
-    "title": "Biotechnology Startups and Open-Source Bio",
-    "section": "Open-Source Science, Medicine, and Technology",
-    "text": "Open-Source Science, Medicine, and Technology\n\nPloS Open Source Toolkit\nSynthetic Biology for engineering plant growth\nOpen sourcing bioinstruments\nOpen Source Tools for Computational Biology\nAndre Maia Chagas Open-Source\nOpen Neuroscience\nOpen Source BioArt\nOpen Labware\nOpen Source Hardware Journal\nTREND Africa Open Source Training\nOpen Source Biomaker\nHackaday Open Source\nDIY BIO\nOpen Source Bioreactor\nOpen Source Bioreactor Project\nFarma: a Home Bioreactor for Pharmaceutical Drugs\nGaudi Labs Open Culture Technology\nRaspberry Pi: a versatile tool for biological sciences\nAppropedia: Open Source Technology\nOpen-source robotic platform for experimental automation\nDFROBOT\nIFIXIT\nLab On The Cheap\nDIYbio Lab\nBiodesign Sprint\nOpen Data Kit\nOpen mHealth\nMobile Sensor Data to Knowledge\nAlgae Biomanufacturing"
-  },
-  {
-    "objectID": "resources/biox/biox.html#biomedical-image-analysis-and-microscopy",
-    "href": "resources/biox/biox.html#biomedical-image-analysis-and-microscopy",
-    "title": "Bio-X: All things Bio",
-    "section": "5. Biomedical Image Analysis and Microscopy",
-    "text": "5. Biomedical Image Analysis and Microscopy"
-  },
-  {
-    "objectID": "resources/biox/startup_innov.html",
-    "href": "resources/biox/startup_innov.html",
-    "title": "Startup and Innovation Resources",
-    "section": "",
-    "text": "StartupTools\nStartup Smarter\nStartup Estonia Resources\nY-Combinator\nIngressive Capital\nFluorish Ventures\nIndie Bio\n500 Global\nNLC Venture Builder\nBiogeneration Ventures\nUniversity Startup Resources\nBiocomxC3i Program\nFounder Playlist\nFlint Atlantic Capital"
-  },
-  {
-    "objectID": "resources/biox/startup_innov.html#innovation",
-    "href": "resources/biox/startup_innov.html#innovation",
-    "title": "Startup and Innovation Resources",
-    "section": "Innovation",
-    "text": "Innovation\n\nDevelopment Innovation Ventures\nCreative Destruction Lab\nChristensen Institute\nBioInnovate Africal\nIsrael Innovation\nSmart Agro Fund\nEXTREME Design Stanford\n100 PANDEMIC TECHNOLOGIES\nMIT D-Lab\nMedical Device and Diagnostic Industry"
+    "text": "PloS Open Source Toolkit\nSynthetic Biology for engineering plant growth\nOpen sourcing bioinstruments\nOpen Source Tools for Computational Biology\nAndre Maia Chagas Open-Source\nOpen Neuroscience\nOpen Source BioArt\nOpen Labware\nOpen Source Hardware Journal\nTREND Africa Open Source Training\nOpen Source Biomaker\nHackaday Open Source\nDIY BIO\nOpen Source Bioreactor\nOpen Source Bioreactor Project\nFarma: a Home Bioreactor for Pharmaceutical Drugs\nGaudi Labs Open Culture Technology\nRaspberry Pi: a versatile tool for biological sciences\nAppropedia: Open Source Technology\nOpen-source robotic platform for experimental automation\nDFROBOT\nIFIXIT\nLab On The Cheap\nDIYbio Lab\nBiodesign Sprint\nOpen Data Kit\nOpen mHealth\nMobile Sensor Data to Knowledge\nAlgae Biomanufacturing"
   },
   {
     "objectID": "resources/data_viz/ds_journalism.html",
@@ -368,7 +319,7 @@
     "href": "resources/data_viz/ds_journalism.html#data-stories-longform-and-in-depth-articles",
     "title": "Data Journalism Tools and Stories",
     "section": "Data Stories (Longform and In-depth articles)",
-    "text": "Data Stories (Longform and In-depth articles)\n\nStory aggregators\n\nGlobal Investigative Journalism Network Top 10\nMedia Hack Collective\n12 brilliant data journalism projects of 2021\nData Journalism: Some Favorite Examples\nExamples of Award-winning Data Journalism\n12 Best Data Journalism Examples:Storytelling with data\n10 data journalism projects that made an impact in 2020: our ultimate COVID-19 roundup\n\n\n\nTop Data Sory Examples\n\n10 years. 180 school shootings. 356 victims.\nBlind Drunk\nUber Game\nWhat Africa will look like in 100 years\nONE NATION, TRACKED\nLife in the camps\nLife in Hong Kong’s shoebox housing\nThe Airbnb effect\nNSA Files Decoded\nThe Deadliest Jobs in America\nCongressional Tweets\nThe Kim Foxx Effect\nWhat makes a titletown?\nHigh street crisis deepens\nThe use of political ads on facebook in the run-up to the European Parliament elections 2019 in Austria\nWhat the Democratic Presidential Candidates Care About, in 44,000 Tweets\nHow many high school stars make it in the NBA?\nThe Facebook Scandal"
+    "text": "Data Stories (Longform and In-depth articles)\n\nStory aggregators\n\nGlobal Investigative Journalism Network Top 10\nMedia Hack Collective\n12 brilliant data journalism projects of 2021\nData Journalism: Some Favorite Examples\nExamples of Award-winning Data Journalism\n12 Best Data Journalism Examples:Storytelling with data\n10 data journalism projects that made an impact in 2020: our ultimate COVID-19 roundup\n\n\n\nTop Data Story Examples\n\n10 years. 180 school shootings. 356 victims.\nBlind Drunk\nUber Game\nWhat Africa will look like in 100 years\nONE NATION, TRACKED\nLife in the camps\nLife in Hong Kong’s shoebox housing\nThe Airbnb effect\nNSA Files Decoded\nThe Deadliest Jobs in America\nCongressional Tweets\nThe Kim Foxx Effect\nWhat makes a titletown?\nHigh street crisis deepens\nThe use of political ads on facebook in the run-up to the European Parliament elections 2019 in Austria\nWhat the Democratic Presidential Candidates Care About, in 44,000 Tweets\nHow many high school stars make it in the NBA?\nThe Facebook Scandal"
   },
   {
     "objectID": "resources/data_viz/ds_viz.html#visualization",
@@ -693,11 +644,32 @@
     "text": "Farming Stories (Longform and In-depth articles about farming around the world)\n\nTHIS TINY COUNTRY FEEDS THE WORLD\nThe small Dutch town that wants to shape the future of your food\nA Land Without Farmers\nRio Fish"
   },
   {
-    "objectID": "resources/random_not_included/rand_int.html#social-media-and-music-analysis",
-    "href": "resources/random_not_included/rand_int.html#social-media-and-music-analysis",
-    "title": "Random Interests",
-    "section": "1. Social Media and Music Analysis",
-    "text": "1. Social Media and Music Analysis"
+    "objectID": "resources/random_not_included/biomed_image_microscopy.html",
+    "href": "resources/random_not_included/biomed_image_microscopy.html",
+    "title": "Biomedical Image Analysis and Microscopy",
+    "section": "",
+    "text": "Bio-image Analysis Notebooks\nPython BioImage Analysis Tutorial\nBIAPy: BioImage Analysis with Python\nAnalyzing fluorescence microscopy images with ImageJ\nNEUBIAS Academy\nGrand Challenge: ML in Biomedical Imaging\nCarpenter Lab Public Slides\nLecture - Applied Bioimage Analysis (2020)\nDeep learning in microscopy collection\nAwesome Cytodata\nCellProfiler Practical: Counting of in situ PLA signals per cell\nSciPy 2021 Bioimage Analysis Fundamentals in Python\nSeveral image processing workflow examples\nRecommended Readings and Viewings\nBioImage Model Zoo\ndeepImageJ\nBristol: Image analysis courses\nBioconductor: Basics of image data and spatial patterns analysis in R\nEASY IMAGE PROCESSING IN R USING THE MAGICK PACKAGE\nBio-Image analysis with Python and Napari - DIGS-BB Light Microscopy Course 2022\nFirst Principles of Computer Vision\nData Science in Cell Imaging\nThe OpenAI Microscope\nThe Journal of Machine Learning for Biomedical Imaging\nCELL TRACKING CHALLENGE\nBioimage Analysis Course: The Life Cycle of an Image Data Set\nStatistics for Neuroscientists: Image Analysis\nImage Segmentation with Python"
+  },
+  {
+    "objectID": "resources/random_not_included/biomed_image_microscopy.html#bioimaging-software",
+    "href": "resources/random_not_included/biomed_image_microscopy.html#bioimaging-software",
+    "title": "Biomedical Image Analysis and Microscopy",
+    "section": "BioImaging Software",
+    "text": "BioImaging Software\n\nA Hitchhiker’s guide through the bio-image analysis software universe\nImageScience Software\nDeepLabCut\nDeepLabCut GUI\nDiscover, install, and share napari plugins\nnapari\nChan Zuckerberg napari\nStarDist - Object Detection with Star-convex Shapes\ncellfinder-napari\nilastik\nYAPiC: Yet Another Pixel Classifier (based on deep learning)\nCellPose\nCellProfiler tutorials\nPiximi App\nPiximi GitHuc\nIcy\nnucleAIzer\nScientiFig\nuList\nImJoy\nZeroCostDL4Mic"
+  },
+  {
+    "objectID": "resources/random_not_included/biomed_image_microscopy.html#microscopy",
+    "href": "resources/random_not_included/biomed_image_microscopy.html#microscopy",
+    "title": "Biomedical Image Analysis and Microscopy",
+    "section": "Microscopy",
+    "text": "Microscopy\n\nThe OpenFlexure Project\nNanoJ-Fluidics: open-source fluid exchange in microscopy\nMicroscopy Series\nThe Power Of Observation\nRoyal Microscopy Society"
+  },
+  {
+    "objectID": "resources/random_not_included/biotech_startup.html",
+    "href": "resources/random_not_included/biotech_startup.html",
+    "title": "Biotechnology Startups",
+    "section": "",
+    "text": "biotickr\nInvestor Village Biotech and Med\nBiotech2k Background Info\nAlcimed Biotech Business Exploration\nBenchmarks for growing health tech businesses\nThe best ways to follow biopharma news and learn about the industry (in my opinion)\nTimmerman Report: Your edge in Biotech\nHow to start a biotech company\nHow to Build a Biotech\nScaling Biotech\nAnatomy of a Biotech Business Development Deal\nThe case for young biotech founders\nData-driven perspectives on the business of biotech\nThe Bio Revolution\nSynthetic Biology Is About to Disrupt Your Industry\nInvesting in IDRx\nWhy We’re Investing in EQRx\nTerm Sheet Recommendations for Launching University Life Science Startups\nHow Do You Become a Bioentrepreneur?\nHow to Spin Your Scientific Research Out Of a University and Into a Startup\nEarly-Stage Biotech Value Creation: The Roles of Equity and Partnerships\nHow Biotech Startup Funding Will Change in the Next 10 Years\nThe Creation Of Biotech Startups: Evolution Not Revolution\nBiotech New Venture Formation: Reflecting On A Decade’s Changing Dynamics\nBiotech researchers venture into the wild to start their own business\nPlatform-Disease Fit: Why You Need It and How to Find It\nIt’s Time to Heal: 16 Trends Driving the Future of Bio and Healthcare"
   },
   {
     "objectID": "resources/random_not_included/rand_int.html#agriculture-and-farming-stories",
@@ -707,18 +679,18 @@
     "text": "1. Agriculture and Farming Stories"
   },
   {
-    "objectID": "resources/random_not_included/rand_int.html#biomechanics-and-sports-bioengineering",
-    "href": "resources/random_not_included/rand_int.html#biomechanics-and-sports-bioengineering",
-    "title": "Random Interests",
-    "section": "3. Biomechanics and Sports Bioengineering",
-    "text": "3. Biomechanics and Sports Bioengineering"
+    "objectID": "resources/random_not_included/startup_innov.html",
+    "href": "resources/random_not_included/startup_innov.html",
+    "title": "Startup and Innovation Resources",
+    "section": "",
+    "text": "StartupTools\nStartup Smarter\nStartup Estonia Resources\nY-Combinator\nIngressive Capital\nFluorish Ventures\nIndie Bio\n500 Global\nNLC Venture Builder\nBiogeneration Ventures\nUniversity Startup Resources\nBiocomxC3i Program\nFounder Playlist\nFlint Atlantic Capital"
   },
   {
-    "objectID": "resources/random_not_included/rand_int.html#startup-and-innovation-resources",
-    "href": "resources/random_not_included/rand_int.html#startup-and-innovation-resources",
-    "title": "Random Interests",
-    "section": "4. Startup and Innovation Resources",
-    "text": "4. Startup and Innovation Resources"
+    "objectID": "resources/random_not_included/startup_innov.html#innovation",
+    "href": "resources/random_not_included/startup_innov.html#innovation",
+    "title": "Startup and Innovation Resources",
+    "section": "Innovation",
+    "text": "Innovation\n\nDevelopment Innovation Ventures\nCreative Destruction Lab\nChristensen Institute\nBioInnovate Africal\nIsrael Innovation\nSmart Agro Fund\nEXTREME Design Stanford\n100 PANDEMIC TECHNOLOGIES\nMIT D-Lab\nMedical Device and Diagnostic Industry"
   },
   {
     "objectID": "resources/readings/readings.html#readings-for-everyone",
@@ -732,7 +704,7 @@
     "href": "resources/readings/reading_general.html",
     "title": "Recommended Readings (General)",
     "section": "",
-    "text": "How Will You Measure Your Life? Clayton Christensen (2010)"
+    "text": "How Will You Measure Your Life? Clayton Christensen (2010)\nA World Split Apart. Alexander Solzhenitsyn (1978)\nThe Inner Ring. CS Lewis (1944)"
   },
   {
     "objectID": "resources/readings/reading_general.html#my-favorite-short-stories",
@@ -812,11 +784,11 @@
     "text": "Teaching Tech Together\nMaintaining a laboratory notebook\nSubjects and Skills for Graduate Students in the Biological Sciences\nScientific Figure Design"
   },
   {
-    "objectID": "resources/teaching/gen_teach_resources.html#tools-and-teaching-aids",
-    "href": "resources/teaching/gen_teach_resources.html#tools-and-teaching-aids",
+    "objectID": "resources/teaching/gen_teach_resources.html#teaching-aids",
+    "href": "resources/teaching/gen_teach_resources.html#teaching-aids",
     "title": "General Teaching Resources",
-    "section": "Tools and Teaching Aids",
-    "text": "Tools and Teaching Aids\n\nTyping Test\n\nKeyboard Test\nTyping Test\n\n\n\nSimulations\n\nPhysics Education and Training Simulations\nCircuit simulation and schematics\nInteractive STEM activities\nGeoGebra for Teaching and Learning Math\nGeoGebra Simulations\n\n\n\nOnline Textbooks\n\nFree and flexible textbooks and resources\nCollege Physics\n\n\n\nDesign and Illustrations\n\nOne Page Website\nIllustrations\nBioRender Learning Hub\nBeautiful Free Stock Video Footage\n\n\n\nMiscellaneous Tools\n\nWhiteboard\nEtherpad\nActive Memory"
+    "section": "Teaching Aids",
+    "text": "Teaching Aids\n\nTyping Test\n\nKeyboard Test\nTyping Test\n\n\n\nSimulations\n\nPhysics Education and Training Simulations\nCircuit simulation and schematics\nInteractive STEM activities\nGeoGebra for Teaching and Learning Math\nGeoGebra Simulations\n\n\n\nOnline Textbooks\n\nFree and flexible textbooks and resources\nCollege Physics\n\n\n\nDesign and Illustrations\n\nOne Page Website\nIllustrations\nBioRender Learning Hub\nBeautiful Free Stock Video Footage\n\n\n\nMiscellaneous Tools\n\nWhiteboard\nEtherpad\nActive Memory"
   },
   {
     "objectID": "resources/teaching/rstudio_carpentries_cert.html",
