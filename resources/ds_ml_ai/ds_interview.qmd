@@ -3,32 +3,37 @@ title: "Data Science Interview"
 toc: true
 ---
 
-## General
+## Job Descriptions
 
-1)  [Interview Warmup](https://grow.google/certificates/interview-warmup/)
-2)  [Data Science Career Resources](https://github.com/cdeweyx/DS-Career-Resources)
-3)  [Role of a Data Science Manager](https://medium.com/sequoia-capital/role-of-a-data-science-manager-2c69264511d3)
-4)  [Six Steps To Take Before Pursuing Education To Get A Data Science Job](https://www.datascienceweekly.org/articles/six-steps-to-take-before-pursuing-education-to-get-a-data-science-job)
-5)  [101 important data science interview questions, answers, and key concepts](https://datasciencedojo.com/blog/data-science-interview-questions/)
-6)  [How do Data Professionals Spend their Time on Data Science Projects?](https://businessoverbroadway.com/2019/02/19/how-do-data-professionals-spend-their-time-on-data-science-projects/)
-7)  [The Big List of Data Science Interview Resources](https://www.conordewey.com/blog/the-big-list-of-data-science-interview-resources/)
-8)  [Things I Have Learned About Data Science](https://www.kdnuggets.com/2019/07/collection-things-learned-data-science.html)
-9)  [This Is What a Data Scientist Looks Like](https://towardsdatascience.com/this-is-what-a-data-scientist-looks-like-aefa5c658d54)
-10) [Amazon Data Science Case Question: Duplicate Products](https://towardsdatascience.com/amazon-data-science-case-question-duplicate-products-eec2f369a1bc)
-11) [I Worked Through 500+ Data Science Interview Questions](https://towardsdatascience.com/i-worked-through-500-data-science-interview-questions-51e2e4dead9d)
-12) [16 Machine Learning Interview Questions and Answers for Entry-Level Applicants](https://builtin.com/data-science/data-science-and-machine-learning-interview-questions)
-13) [How to land a Data Scientist job at your dream company --- My journey to Airbnb](https://towardsdatascience.com/how-to-land-a-data-scientist-job-at-your-dream-company-my-journey-to-airbnb-f6a1e99892e8)
-14) [How to Become More Marketable as a Data Scientist](https://cvcompiler.com/blog/how-to-become-more-marketable-as-a-data-scientist/)
-15) [A Guide for Machine Learning Technical Interviews (FAANG Companies)](https://github.com/alirezadir/machine-learning-interview-enlightener/blob/main/README.md)
-16) [Data Science Interviews](https://github.com/alexeygrigorev/data-science-interviews)
-17) [The Big List of Data Science Interview Resources](https://www.conordewey.com/blog/the-big-list-of-data-science-interview-resources/)
-18) [How to Build a Data Science Portfolio](https://towardsdatascience.com/how-to-build-a-data-science-portfolio-5f566517c79c)
-19) [10 Frequently Asked Interview Questions For Machine Learning In 2019](https://analyticsindiamag.com/10-frequently-asked-interview-questions-for-machine-learning-in-2019/)
+1)  [Role of a Data Science Manager](https://medium.com/sequoia-capital/role-of-a-data-science-manager-2c69264511d3)
+2)  [Six Steps To Take Before Pursuing Education To Get A Data Science Job](https://www.datascienceweekly.org/articles/six-steps-to-take-before-pursuing-education-to-get-a-data-science-job)
+3)  [How do Data Professionals Spend their Time on Data Science Projects?](https://businessoverbroadway.com/2019/02/19/how-do-data-professionals-spend-their-time-on-data-science-projects/)
+4)  [Things I Have Learned About Data Science](https://www.kdnuggets.com/2019/07/collection-things-learned-data-science.html)
+5)  [This Is What a Data Scientist Looks Like](https://towardsdatascience.com/this-is-what-a-data-scientist-looks-like-aefa5c658d54)
+6) [How to land a Data Scientist job at your dream company --- My journey to Airbnb](https://towardsdatascience.com/how-to-land-a-data-scientist-job-at-your-dream-company-my-journey-to-airbnb-f6a1e99892e8)
+7) [How to Become More Marketable as a Data Scientist](https://cvcompiler.com/blog/how-to-become-more-marketable-as-a-data-scientist/)
+8) [How to Build a Data Science Portfolio](https://towardsdatascience.com/how-to-build-a-data-science-portfolio-5f566517c79c)
 
-## Language- and Field-Specific
+## Curated collection of Data Science Resources
 
-1)  [Analyzing 89 Responses to a SQL Screener Question for a Senior Data Analyst Position](https://mattmazur.com/2018/11/12/analyzing-89-responses-to-a-sql-screener-question-for-a-senior-data-analyst-position/)
-2)  [How To Ace Data Science Interviews: SQL](https://towardsdatascience.com/how-to-ace-data-science-interviews-sql-b71de212e433)
-3)  [How To Ace Data Science Interviews: Statistics](https://towardsdatascience.com/how-to-ace-data-science-interviews-statistics-f3d363ad47b)
-4)  [How To Ace Data Science Interviews: R & Python](https://towardsdatascience.com/how-to-ace-data-science-interviews-r-python-3a49982000de)
-5)  [Ace the SQL & Data Science Interview](https://datalemur.com/)
+1)  [Data Science Career Resources](https://github.com/cdeweyx/DS-Career-Resources)
+2)  [The Big List of Data Science Interview Resources](https://www.conordewey.com/blog/the-big-list-of-data-science-interview-resources/)
+
+## General Interview Questions
+
+1)  [101 important data science interview questions, answers, and key concepts](https://datasciencedojo.com/blog/data-science-interview-questions/)
+2)  [Interview Warmup](https://grow.google/certificates/interview-warmup/)
+3)  [Amazon Data Science Case Question: Duplicate Products](https://towardsdatascience.com/amazon-data-science-case-question-duplicate-products-eec2f369a1bc)
+4)  [10 Frequently Asked Interview Questions For Machine Learning In 2019](https://analyticsindiamag.com/10-frequently-asked-interview-questions-for-machine-learning-in-2019/)
+5) [I Worked Through 500+ Data Science Interview Questions](https://towardsdatascience.com/i-worked-through-500-data-science-interview-questions-51e2e4dead9d)
+6) [16 Machine Learning Interview Questions and Answers for Entry-Level Applicants](https://builtin.com/data-science/data-science-and-machine-learning-interview-questions)
+7) [A Guide for Machine Learning Technical Interviews (FAANG Companies)](https://github.com/alirezadir/machine-learning-interview-enlightener/blob/main/README.md)
+8) [Data Science Interviews](https://github.com/alexeygrigorev/data-science-interviews)
+
+## Language- and Field-Specific Interview Questions
+
+1)  [How To Ace Data Science Interviews: SQL](https://towardsdatascience.com/how-to-ace-data-science-interviews-sql-b71de212e433)
+2)  [How To Ace Data Science Interviews: Statistics](https://towardsdatascience.com/how-to-ace-data-science-interviews-statistics-f3d363ad47b)
+3)  [How To Ace Data Science Interviews: R & Python](https://towardsdatascience.com/how-to-ace-data-science-interviews-r-python-3a49982000de)
+4)  [Ace the SQL & Data Science Interview](https://datalemur.com/)
+5)  [Analyzing 89 Responses to a SQL Screener Question for a Senior Data Analyst Position](https://mattmazur.com/2018/11/12/analyzing-89-responses-to-a-sql-screener-question-for-a-senior-data-analyst-position/)

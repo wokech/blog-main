@@ -5,7 +5,7 @@ toc: true
 
 ## A curated collection of resources
 
-### 1. [Biomechanics and Sports Bioengineering](biomech_sports_be.qmd)
+### 1. [Biomechanics and Sports Engineering](biomech_sports_be.qmd)
 
 ### 2. [Open-Source Bio](opensource_bio.qmd)
 

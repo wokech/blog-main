@@ -1,5 +1,5 @@
 ---
-title: "General Teaching Resources"
+title: "Teaching Resources"
 toc: true
 ---
 

@@ -5,15 +5,24 @@ toc: true
 
 ## Introduction and Tutorials
 
+### Curated collection of Quarto Resources
+
+1)  [Awesome Quarto](https://github.com/mcanouil/awesome-quarto)
+
+### Beginner's Guide
+
 1)  [Quarto](https://quarto.org/)
-2)  [What is Quarto? RStudio rolls out next-generation R Markdown](https://www.infoworld.com/article/3666743/what-is-quarto-rstudio-quietly-rolls-out-next-generation-r-markdown.html)
-3)  [We don't talk about Quarto](https://www.apreshill.com/blog/2022-04-we-dont-talk-about-quarto/)
-4)  [Awesome Quarto](https://github.com/mcanouil/awesome-quarto)
-5)  [Tutorial: Hello, Quarto](https://quarto.org/docs/get-started/hello/rstudio.html)
-6)  [Build a simple website with R and Quarto in under 10 minutes](https://philipp.quarto.pub/my-first-website/article.html)
-7)  [Getting Started with Quarto](https://rstudio-conf-2022.github.io/get-started-quarto/)
-8)  [The ultimate guide to starting a Quarto blog](https://albert-rapp.de/posts/13_quarto_blog_writing_guide/13_quarto_blog_writing_guide.html)
-9)  [Creating a blog with Quarto in 10 steps](https://beamilz.com/posts/2022-06-05-creating-a-blog-with-quarto/en/)
-10) [Porting a distill blog to quarto](https://blog.djnavarro.net/posts/2022-04-20_porting-to-quarto/)
-11) [Making Slides in Quarto with reveal.js](https://meghan.rbind.io/blog/quarto-slides/)
-12) [R Markdown for Web Pages](https://www.markdownguide.org/basic-syntax/)
+2)  [Tutorial: Hello, Quarto](https://quarto.org/docs/get-started/hello/rstudio.html)
+3)  [What is Quarto? RStudio rolls out next-generation R Markdown](https://www.infoworld.com/article/3666743/what-is-quarto-rstudio-quietly-rolls-out-next-generation-r-markdown.html)
+4)  [We don't talk about Quarto](https://www.apreshill.com/blog/2022-04-we-dont-talk-about-quarto/)
+5)  [Build a simple website with R and Quarto in under 10 minutes](https://philipp.quarto.pub/my-first-website/article.html)
+6)  [Getting Started with Quarto](https://rstudio-conf-2022.github.io/get-started-quarto/)
+7)  [The ultimate guide to starting a Quarto blog](https://albert-rapp.de/posts/13_quarto_blog_writing_guide/13_quarto_blog_writing_guide.html)
+8)  [Creating a blog with Quarto in 10 steps](https://beamilz.com/posts/2022-06-05-creating-a-blog-with-quarto/en/)
+9) [Making Slides in Quarto with reveal.js](https://meghan.rbind.io/blog/quarto-slides/)
+
+### R Markdown and Distill
+
+1) [The Distillery](https://distillery.rbind.io/showcase.html)
+2) [R Markdown for Web Pages](https://www.markdownguide.org/basic-syntax/)
+3) [Porting a distill blog to quarto](https://blog.djnavarro.net/posts/2022-04-20_porting-to-quarto/)

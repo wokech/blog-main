@@ -270,14 +270,14 @@
     "href": "resources/biox/bioinf.html",
     "title": "Bioinformatics and Computational Biology",
     "section": "",
-    "text": "JT Leek\nKarolis Koncevičius\nEytan Ruppin\nLior Pachter\nJean Fan\nPhenomics\nLiu Lab\nCosta Lab\nMing Tang\nKarl Broman\nKrishnaswamy Lab\nPhilip Compeau\nZHOU LAB\nJames Zou"
+    "text": "JT Leek\nKarolis Koncevičius\nEytan Ruppin\nLior Pachter\nJean Fan\nLiu Lab\nCosta Lab\nMing Tang\nJames Zou\nKarl Broman\nKrishnaswamy Lab\nPhilip Compeau\nZHOU LAB\nChildhood Cancer Data Lab\nDiving into Genetics and Genomics"
   },
   {
     "objectID": "resources/biox/bioinf.html#bioinformatics-basics",
     "href": "resources/biox/bioinf.html#bioinformatics-basics",
     "title": "Bioinformatics and Computational Biology",
     "section": "Bioinformatics Basics",
-    "text": "Bioinformatics Basics\n\nLearning Bioinformatics At Home\nWelcome to a Little Book of R for Bioinformatics\nIntroduction to Genomics for Engineers\nIntroduction to Computational Biology\nChildhood Cancer Data Lab\nSDS 348, Computational Biology and Bioinformatics 2019\nSDS 348, Computational Biology and Bioinformatics 2020\nModern Statistics for Modern Biology\nCELL BIOLOGY BY THE NUMBERS\nBMI 702 | Biomedical Artificial Intelligence\nBioinformatics Research Network\nBioinformatics Starter Pack\nDIY Transcriptomics\nBIG Bioinformatics\nBiodatascience101\nRNA-Seq Blog\nBiological Architecture Reading Roadmap\nIntroduction to biological circuit design\nOrchestrating Single-Cell Analysis with Bioconductor\nSingle-cell best practices\nBD2K-LINCS DATA COORDINATION AND INTEGRATION CENTER\nExploring Spatial Omics\nCRISPRpedia\nCOLAUTTI LAB\nR2 Genomics Analysis and Visualization Platform\nIntro to Biomedical Data Science\nBiomedical Data Science\nThe Top 15 Machine Learning Data Science Bioinformatics Open Source Projects\nData Science for the Biomedical Sciences\nWhat is genomics?\n20 YouTube Channels Every Bioinformatician Should Follow\nGenomic Data Science Community Network\nEngineering Biology Research Consortium\n7 Books for you to learn bioinformatics\nData Analysis for the Life Sciences (Free E-book)\nPractical Computing for Biologists\nA Primer for Computational Biology\nComputational Genomics with R\nThe Biologist’s Guide to Computing\nBioinformatics Data Skills\nThe Supplementary Material Repository for Bioinformatics Data Skills\nFrom cell line to command line\nIntroduction to Unix, Orchestra and RNA-Seq\nLinux command line exercises for NGS data processing\nIntroduction to Unix\nLearn about Bioinformatics and Computational Tools for Biology\nIntroduction to R for Biologists\nExplore the world of Bioinformatics with Machine Learning\nDeep learning on computational biology and bioinformatics tutorial\nHarvardX Biomedical Data Science Open Online Training\nFolding@Home\nPython for biologists\nMachine learning for biology part one\nMachine learning for biology part two\nMachine learning for biology part three\nMachine learning for biology part four\nBiopython\nThe Biostar Handbook. A bioinformatics e-book for beginners\nGraphs and Networks for Biology using R\nBioinformatics in the Tidyverse\nCleva Lab Biology\nModeling Life"
+    "text": "Bioinformatics Basics\n\nCourses and Lectures\n\nIntroduction to Genomics for Engineers\nIntroduction to Computational Biology\nSDS 348, Computational Biology and Bioinformatics 2019\nSDS 348, Computational Biology and Bioinformatics 2020\nBMI 702 | Biomedical Artificial Intelligence\nDIY Transcriptomics\nBIG Bioinformatics\nIntro to Biomedical Data Science\nIntroduction to Unix, Orchestra and RNA-Seq\nLinux command line exercises for NGS data processing\nIntroduction to Unix\nEngineering Biology Research Consortium\nGenomic Data Science Community Network\nLearn about Bioinformatics and Computational Tools for Biology\nIntroduction to R for Biologists\nGraphs and Networks for Biology using R\nHBC Training Program Basic Data Skills\n\n\n\nBooks and Resources\n\nWelcome to a Little Book of R for Bioinformatics\nModern Statistics for Modern Biology\nLearning Bioinformatics At Home\nImportant numbers in Cell Biology\nThe Biologist’s Guide to Computing\nBioinformatics Starter Pack\nOrchestrating Single-Cell Analysis with Bioconductor\nSingle-cell best practices\nBiodatascience101\nIntroduction to biological circuit design\nBiological Architecture Reading Roadmap\nRNA-Seq Blog\n7 Books for you to learn bioinformatics\nBiomedical Data Science Book\nCRISPRpedia\nData Science for the Biomedical Sciences\nWhat is genomics?\nCOLAUTTI LAB Books and Resources\n20 YouTube Channels Every Bioinformatician Should Follow\nData Analysis for the Life Sciences (Free E-book)\nPractical Computing for Biologists\nBioinformatics Data Skills (2015)\nThe Supplementary Material Repository for Bioinformatics Data Skills\nFrom cell line to command line\nA Primer for Computational Biology\nComputational Genomics with R\nThe Biostar Handbook. A bioinformatics e-book for beginners\nCleva Lab Biology\nFolding@Home\nPython for biologists\nModeling Life\nFundamentals of computational biology\nLearn Bioinformatics in 100 hours\nCollection of bioinformatics training materials\nBioinformatics Workbook\nMy opinionated selection of books/urls for bioinformatics/data science curriculum\nStatistical Modeling of High Dimensional Counts\nGenomics Boot Camp\nDeep learning on computational biology and bioinformatics tutorial\n\n\n\nTools\n\nR2 Genomics Analysis and Visualization Platform\nExploring Spatial Omics\nBD2K-LINCS DATA COORDINATION AND INTEGRATION CENTER\nThe Top 15 Machine Learning Data Science Bioinformatics Open Source Projects\nBiopython\ngget\nROSALIND\nFree and Open Source Tools for Bioinformatics and Molecular Biology\nPiGx: Pipelines in Genomics\nUSC Libraries Bioinformatics\nNCI Bioinformatics Training and Education Program\nHarvard Chan Bioinformatics Core\nGenomic Data Processing\nMachine Learning in Genomics Workshop"
   },
   {
     "objectID": "resources/biox/bioinf.html#bioinformatics-tutorials",
@@ -289,9 +289,9 @@
   {
     "objectID": "resources/biox/biomech_sports_be.html",
     "href": "resources/biox/biomech_sports_be.html",
-    "title": "Biomechanics and Sports Bioengineering",
+    "title": "Biomechanics and Sports Engineering",
     "section": "",
-    "text": "Biomechanics of Movement\nBiomechanics of Movement Classroom\nThe Biomechanist\nReinbolt Research Group\nNotes on Scientific Computing for Biomechanics and Motor Control\nThe Biomechanics of Solids and Fluids: The Physics of Life\nDFB Sports Academy\nStuart McErlain-Naylor Biomechanics Website\nUnderstanding Biomechanics and Body Movement"
+    "text": "A curated repository of biomechanical resources\n\n\n\n\n\nStuart McErlain-Naylor Biomechanics Website\n\n\n\n\n\n\n\n\nBiomechanics of Movement\nThe Biomechanics of Solids and Fluids: The Physics of Life\n\n\n\n\n\nBiomechanics of Movement Classroom\nReinbolt Research Group\nNotes on Scientific Computing for Biomechanics and Motor Control\nUnderstanding Biomechanics and Body Movement\nThe Biomechanist\n\n\n\n\n\nBecoming a Sports Engineer\nPeak Performance Project\nBTS Bioengineering\nSparta Science"
   },
   {
     "objectID": "resources/biox/biomech_sports_be.html#sports-bioengineering",
@@ -303,9 +303,9 @@
   {
     "objectID": "resources/biox/opensource_bio.html",
     "href": "resources/biox/opensource_bio.html",
-    "title": "Biotechnology Startups and Open-Source Bio",
+    "title": "Open-Source Bio",
     "section": "",
-    "text": "PloS Open Source Toolkit\nSynthetic Biology for engineering plant growth\nOpen sourcing bioinstruments\nOpen Source Tools for Computational Biology\nAndre Maia Chagas Open-Source\nOpen Neuroscience\nOpen Source BioArt\nOpen Labware\nOpen Source Hardware Journal\nTREND Africa Open Source Training\nOpen Source Biomaker\nHackaday Open Source\nDIY BIO\nOpen Source Bioreactor\nOpen Source Bioreactor Project\nFarma: a Home Bioreactor for Pharmaceutical Drugs\nGaudi Labs Open Culture Technology\nRaspberry Pi: a versatile tool for biological sciences\nAppropedia: Open Source Technology\nOpen-source robotic platform for experimental automation\nDFROBOT\nIFIXIT\nLab On The Cheap\nDIYbio Lab\nBiodesign Sprint\nOpen Data Kit\nOpen mHealth\nMobile Sensor Data to Knowledge\nAlgae Biomanufacturing"
+    "text": "Andre Maia Chagas Open-Source\nSynthetic Biology for engineering plant growth\n\n\n\n\n\nOpen Source Tools for Computational Biology\n\n\n\n\n\nDIY BIO - Listing of local groups\n\n\n\n\n\nOpen Labware\nOpen Neuroscience\nOpen Source BioArt\nOpen Source Bioreactor\nOpen Source Bioreactor Project\nFarma: a Home Bioreactor for Pharmaceutical Drugs\nGaudi Labs Open Culture Technology\nRaspberry Pi: a versatile tool for biological sciences\nOpen sourcing bioinstruments\nAppropedia: Open Source Technology\nIFIXIT Medical Device Repair\nDFROBOT\nOpen-source robotic platform for experimental automation\nLab On The Cheap\nDIYbio Lab\n\n\n\n\n\nPloS Open Source Toolkit\nOpen Source Hardware Journal\nOpen Source Biomaker\nTREND Africa Open Source Training\n\n\n\n\n\nOpen Data Kit\nOpen mHealth\nMobile Sensor Data to Knowledge"
   },
   {
     "objectID": "resources/data_viz/ds_journalism.html",
@@ -445,7 +445,7 @@
     "href": "resources/ds_ml_ai/ds_interview.html",
     "title": "Data Science Interview",
     "section": "",
-    "text": "Interview Warmup\nData Science Career Resources\nRole of a Data Science Manager\nSix Steps To Take Before Pursuing Education To Get A Data Science Job\n101 important data science interview questions, answers, and key concepts\nHow do Data Professionals Spend their Time on Data Science Projects?\nThe Big List of Data Science Interview Resources\nThings I Have Learned About Data Science\nThis Is What a Data Scientist Looks Like\nAmazon Data Science Case Question: Duplicate Products\nI Worked Through 500+ Data Science Interview Questions\n16 Machine Learning Interview Questions and Answers for Entry-Level Applicants\nHow to land a Data Scientist job at your dream company — My journey to Airbnb\nHow to Become More Marketable as a Data Scientist\nA Guide for Machine Learning Technical Interviews (FAANG Companies)\nData Science Interviews\nThe Big List of Data Science Interview Resources\nHow to Build a Data Science Portfolio\n10 Frequently Asked Interview Questions For Machine Learning In 2019"
+    "text": "Role of a Data Science Manager\nSix Steps To Take Before Pursuing Education To Get A Data Science Job\nHow do Data Professionals Spend their Time on Data Science Projects?\nThings I Have Learned About Data Science\nThis Is What a Data Scientist Looks Like\nHow to land a Data Scientist job at your dream company — My journey to Airbnb\nHow to Become More Marketable as a Data Scientist\nHow to Build a Data Science Portfolio"
   },
   {
     "objectID": "resources/ds_ml_ai/ds_interview.html#language--and-field-specific",
@@ -522,7 +522,7 @@
     "href": "resources/ds_ml_ai/statistics.html",
     "title": "Statistics",
     "section": "",
-    "text": "Introduction to Modern Statistics\nStatistical Thinking\nStatistics 110: Probability\nCausal Inference: What If (Hernan MA)\nBayes Rules!\nStatistical Computing\nWelcome to A/B Testing at Scale Tutorial\nCausal Inference: The Mixtape\nBIOLOGY FOR LIFE\nStatistical Problems to Document and to Avoid\nDatamethods\nSeeing Theory\nCausation and Correlation\nCommon statistical tests are linear models (or: how to teach stats)\nAn Introduction to Hierarchical Modeling\nTidy Statistics in R\nProgram Evaluation for Public Service and Research Design\nStatistics and R\nR and statsExpressions\nA Gentle Guide to Tidy Statistics in R\nModern Statistics with R\nPower Analysis | Introduction in R\nRegression Modelling in R\nThe Grammar of Experimental Design\nBayes Rules! An Introduction to Applied Bayesian Modeling\nStatistical rethinking with brms, ggplot2, and the tidyverse\nStatistics 431: Advanced Statistical Computing with R\nDesign and Analysis of Experiments and Observational Studies using R\nIntroduction to Probability for Data Science\nmetrica: Prediction performance metrics\nSTA 363: Statistical Learning\nSTA 312: Linear Models\nSTA 212: Statistical Models\nBayes 1\nBayes 2\nIntro to Bayesian Business Analytics\nCausalImpact\nGUide to STatistical Analysis in Microbial Ecology (GUSTA ME)"
+    "text": "Books\n\nIntroduction to Modern Statistics\nCausal Inference: What If (Hernan MA)\nBayes Rules!\nCausal Inference: The Mixtape\nSeeing Theory\nCommon statistical tests are linear models (or: how to teach stats)\nModern Statistics with R\nIntroduction to Probability for Data Science\nIntro to Bayesian Business Analytics\nDesign and Analysis of Experiments and Observational Studies using R\nStatistical rethinking with brms, ggplot2, and the tidyverse\nBayes Rules! An Introduction to Applied Bayesian Modeling\n\n\n\nPersonal Websites and Blogs\n\nStatistical Thinking\n\n\n\nLectures and Courses\n\nStatistics 110: Probability\nStatistical Computing\nBIOLOGY FOR LIFE\nProgram Evaluation for Public Service and Research Design\nSTA 363: Statistical Learning\nSTA 312: Linear Models\nSTA 212: Statistical Models\nStatistics 431: Advanced Statistical Computing with R\nGUide to STatistical Analysis in Microbial Ecology (GUSTA ME)\nRegression Modelling in R\nThe Grammar of Experimental Design\n\n\n\nTutorials\n\nWelcome to A/B Testing at Scale Tutorial\nCausation and Correlation\nAn Introduction to Hierarchical Modeling\nTidy Statistics in R\nStatistics and R\nTidy dataframes and statsExpressions\nPower Analysis | Introduction in R\nmetrica: Prediction performance metrics\nBayes Explained 1\nBayes Explained 2\nCausalImpact\n\n\n\nTroubleshooting\n\nStatistical Problems to Document and to Avoid\nDatamethods\n\n\n\nBiostatistics\n\nBiostatistics for Biomedical Research\nTutorials in Biostatistics Papers\nBiostatistics Series Papers\nWCM Biostatistics Computing Club\nKatherine (Kat) Hoffman Biostats"
   },
   {
     "objectID": "resources/ds_ml_ai/statistics.html#biostatistics",
@@ -536,35 +536,35 @@
     "href": "resources/programming/git_hub_cl_sql.html",
     "title": "Git, GitHub, Command Line, and SQL",
     "section": "",
-    "text": "Good Enough Practices in Scientific Computing\nGit Cheatsheet\nA Visual Git Reference\nUnderstanding Git Conceptually\nVisualizing Git Concepts with D3\nGit Immersion\nLearn Git Branching\nGit Basics\nBecome a git guru\nGit and RStudio\nIntroduction to Git & Github\nHow to Use Git/GitHub with R\ngit ready\nGit/GitHub Cheatsheet\nPro Git Book\nHappy Git and GitHub for the user\nOn undoing, fixing, or removing commits in git\ngit pretty\nVersion Control (Git)\nFixing Common Git Mistakes"
+    "text": "Git Basics\nGit Cheatsheet\nGit/GitHub Cheatsheet\nA Visual Git Reference\nVisualizing Git Concepts with D3\nGit Immersion\nLearn Git Branching\nIntroduction to Git & Github\nHow to Use Git/GitHub with R\ngit ready\n\n\n\n\n\nPro Git Book\nHappy Git and GitHub for the user\n\n\n\n\n\nUnderstanding Git Conceptually\nBecome a git guru\nGit and RStudio\nGood Enough Practices in Scientific Computing\nVersion Control (Git)\n\n\n\n\n\nOn undoing, fixing, or removing commits in git\ngit pretty\nFixing Common Git Mistakes"
   },
   {
     "objectID": "resources/programming/git_hub_cl_sql.html#github",
     "href": "resources/programming/git_hub_cl_sql.html#github",
     "title": "Git, GitHub, Command Line, and SQL",
     "section": "GitHub",
-    "text": "GitHub\n\nMastering GitHub in 4 Steps\nGitHub Minesweeper\nIntroduction to GitHub Actions to R users\nGitHub for supporting, reusing, contributing, and failing safely\nFirst aid git\nMaking Your First GitHub R Project\nIntroducing GitHub Global Campus\nAn Intro to Git and GitHub for Beginners (Tutorial)\nCollaboration, version control and learning to commit\nSoftware development practices\nGet started with Git and GitHub\nHow to effortlessly create a website for free with GitHub Pages\nGetting started with Git and GitHub: the complete beginner’s guide\nIntroducing Jekyll Now for GitHub-hosted blogs"
+    "text": "GitHub\n\nBasics\n\nGetting started with Git and GitHub: the complete beginner’s guide\nAn Intro to Git and GitHub for Beginners (Tutorial)\nGet started with Git and GitHub\nMastering GitHub in 4 Steps\nGitHub for supporting, reusing, contributing, and failing safely\n\n\n\nTraining and Tutorials\n\nIntroducing GitHub Global Campus\nCollaboration, version control and learning to commit\nMaking Your First GitHub R Project\n\n\n\nApplications\n\nIntroduction to GitHub Actions to R users\nHow to effortlessly create a website for free with GitHub Pages\nIntroducing Jekyll Now for GitHub-hosted blogs\nSoftware development practices"
   },
   {
     "objectID": "resources/programming/git_hub_cl_sql.html#command-line-bash-unix-and-linux",
     "href": "resources/programming/git_hub_cl_sql.html#command-line-bash-unix-and-linux",
     "title": "Git, GitHub, Command Line, and SQL",
     "section": "Command Line (Bash, UNIX, and Linux)",
-    "text": "Command Line (Bash, UNIX, and Linux)\n\nCommand Line Basics for R Users\nIntro to UNIX\nThe Unix Shell 1\nThe Unix Shell 2"
+    "text": "Command Line (Bash, UNIX, and Linux)\n\nBooks\n\nCommand Line Basics for R Users\n\n\n\nLectures and Tutorials\n\nIntro to UNIX\nThe Unix Shell 1\nThe Unix Shell 2"
   },
   {
     "objectID": "resources/programming/git_hub_cl_sql.html#sql",
     "href": "resources/programming/git_hub_cl_sql.html#sql",
     "title": "Git, GitHub, Command Line, and SQL",
     "section": "SQL",
-    "text": "SQL\n\nSQL queries don’t start with SELECT\n21 of the best free resources to learn SQL\nPostgreSQL Tutorial\nA Visual Explanation of SQL Joins\nThe SQL Tutorial for Data Analysis\nSQL\nSQL Tutorial\nSQLBolt\nSQL Tutorial\nDatabases 101"
+    "text": "SQL\n\nCollection of SQL Resources\n\n21 of the best free resources to learn SQL\n\n\n\nTutorials\n\nPostgreSQL Tutorial\nThe SQL Tutorial for Data Analysis\nSQL Hackerrank Channels\nSQL Tutorial 1\nSQL Tutorial 2\nSQLBolt\nSQL queries don’t start with SELECT\nA Visual Explanation of SQL Joins"
   },
   {
     "objectID": "resources/programming/python.html",
     "href": "resources/programming/python.html",
     "title": "Python",
     "section": "",
-    "text": "100 Page Python Intro\nPython for Non-Programmers\nAutomate the Boring Stuff with Python\nNumpy\nPython Programming And Numerical Methods: A Guide For Engineers And Scientists\nElements of Data Science\nPython for Everybody (PY4E)\nScientific Computing with Python\nPython Curriculum Map\nComputational and Inferential Thinking: The Foundations of Data Science\nPython for Data Analysis, 3E\nPython Machine Learning Jupyter Notebooks\nPython for Beginners Course\nPython Cheatsheet\nA dozen ways to learn Python\nPython Crash Course\nA Whirlwind Tour of Python\nGoogle’s Python Class\nPractical Business Python\nComprehensive Python Cheatsheet\nThink Python 2e\n49 Essential Resources To Learn Python\nA Gallery of Interesting Jupyter Notebooks"
+    "text": "Python for Non-Programmers\n49 Essential Resources To Learn Python\nA Gallery of Interesting Jupyter Notebooks\nA dozen ways to learn Python\n\n\n\n\n\n\n\n\nAutomate the Boring Stuff with Python\nElements of Data Science\nScientific Computing with Python\nComputational and Inferential Thinking: The Foundations of Data Science\nPython for Data Analysis, 3E\nPython Programming And Numerical Methods: A Guide For Engineers And Scientists\n100 Page Python Intro\nThink Python 2e\nA Whirlwind Tour of Python\nGoogle’s Python Class\nPython Data Science Handbook\n\n\n\n\n\nNumpy\nPython Cheatsheet\nComprehensive Python Cheatsheet\nPython Curriculum Map\nData School: My top 25 pandas tricks\n10 Python Pandas tricks that make your work more efficient\nPython built-in functions to know\nData Science Best Practices with pandas\nTour of Python Itertools\n\n\n\n\n\nReal Python\nResolving Python\nJust into Data\nChristina Levengood Blog\nPython Machine Learning Notebooks (Tutorial style)\nDataquest Tutorials\nVIB Tutorials\nData Flair Training\nTop 10 IPython Notebook Tutorials for Data Science and Machine Learning\nPython for Beginners Course\nPython Crash Course\nPython for Everybody (PY4E)\nPython Machine Learning Jupyter Notebooks\nPractical Business Python\nLearning Python For Data Science\nLearn Python in 3 days: Step-by-Step Guide\nA Complete 26 Week Course to Learn Python for Data Science in 2022\nPython for Data Science: 8 Concepts You May Have Forgotten\nWhat is Exploratory Spatial Data Analysis (ESDA)?\nGetting started with data science using Python\n\n\n\n\n\nStock Portfolio Analysis using Python\nNeural networks fundamentals with Python\nPython News Webscraper\nWeb Scraping with Scrapy\nIntroduction to Market Basket Analysis in Python\n\n\n\n\n\nPython Projects for 2023 – Work on Real-time Projects to Head Start Your Career\nPython Projects with Source Code\n45+ Data Analysis Projects with Python"
   },
   {
     "objectID": "resources/programming/python.html#tutorials",
@@ -585,7 +585,7 @@
     "href": "resources/programming/quarto.html",
     "title": "Quarto",
     "section": "",
-    "text": "Quarto\nWhat is Quarto? RStudio rolls out next-generation R Markdown\nWe don’t talk about Quarto\nAwesome Quarto\nTutorial: Hello, Quarto\nBuild a simple website with R and Quarto in under 10 minutes\nGetting Started with Quarto\nThe ultimate guide to starting a Quarto blog\nCreating a blog with Quarto in 10 steps\nPorting a distill blog to quarto\nMaking Slides in Quarto with reveal.js\nR Markdown for Web Pages"
+    "text": "Awesome Quarto\n\n\n\n\n\nQuarto\nTutorial: Hello, Quarto\nWhat is Quarto? RStudio rolls out next-generation R Markdown\nWe don’t talk about Quarto\nBuild a simple website with R and Quarto in under 10 minutes\nGetting Started with Quarto\nThe ultimate guide to starting a Quarto blog\nCreating a blog with Quarto in 10 steps\nMaking Slides in Quarto with reveal.js\n\n\n\n\n\nThe Distillery\nR Markdown for Web Pages\nPorting a distill blog to quarto"
   },
   {
     "objectID": "resources/programming/r_rstudio.html",
@@ -845,5 +845,47 @@
     "title": "Data Stories",
     "section": "",
     "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "resources/biox/bioinf.html#bioinformatics-news-stories",
+    "href": "resources/biox/bioinf.html#bioinformatics-news-stories",
+    "title": "Bioinformatics and Computational Biology",
+    "section": "Bioinformatics News Stories",
+    "text": "Bioinformatics News Stories\n\nGENOMES ARISING\nThe next chapter for African genomics"
+  },
+  {
+    "objectID": "resources/biox/bioinf.html#bioinformatics-tutorials-and-projects",
+    "href": "resources/biox/bioinf.html#bioinformatics-tutorials-and-projects",
+    "title": "Bioinformatics and Computational Biology",
+    "section": "Bioinformatics Tutorials and Projects",
+    "text": "Bioinformatics Tutorials and Projects\n\nTutorials\n\nOncology Bioinformatics project tutorial\nCentre of Bioinformatics Research and Technology (CBIRT)\nGalaxy Training\nChildhood Cancer Data Lab Workshop Materials\nChildhood Cancer Data Lab Research Resources\nCrash Courses in Bioinformatics\nData Carpentry for Biologists\nIllustrating Python via Examples from Bioinformatics\nIllustrating Python via Bioinformatics Examples\nEVOLUTION AND GENOMICS\nBioinformatics Introduction\nGriffith Lab Tutorials and Courses\nPCA in action\nA Primer on Deep Learning in Genomics\nBioinformatics Tutorials\nFree online training in bioinformatics and biostatistics\nBioinformatics Midterm Project\nIntroduction to bioinformatics\nExplore the world of Bioinformatics with Machine Learning\n\n\nTidyverse and R\n\nBioinformatics in the Tidyverse\nAn Introduction to R through the tidyverse + Bioinformatics\nR for Biology Data Science\nIntro to R and RStudio for Genomics\nThe Bioconductor 2018 Workshop Compilation\nBioconductor Workshop 1 Jupyter Notebooks\nMicroArray Project\n\n\n\nBioPython\n\nFirst Steps in Biopython\nWhat is BioPython\nGetting Started with Biopython\nBiopython Tutorial\nPractical Computing for Biologists\nBiopython Tutorial and Cookbook\n\n\n\n\nProjects\n\nAnalysing the HIV pandemic, Part 1: HIV in sub-Sahara Africa\nAnalysing the HIV pandemic, Part 2: Drug resistance testing\nAnalysing the HIV pandemic, Part 3: Genetic diversity\nAnalysing the HIV pandemic, Part 4: Classification of lab samples\nMachine learning for biology part one\nMachine learning for biology part two\nMachine learning for biology part three\nMachine learning for biology part four"
+  },
+  {
+    "objectID": "resources/ds_ml_ai/ds_interview.html#curated-collection-of-data-science-resources",
+    "href": "resources/ds_ml_ai/ds_interview.html#curated-collection-of-data-science-resources",
+    "title": "Data Science Interview",
+    "section": "Curated collection of Data Science Resources",
+    "text": "Curated collection of Data Science Resources\n\nData Science Career Resources\nThe Big List of Data Science Interview Resources"
+  },
+  {
+    "objectID": "resources/ds_ml_ai/ds_interview.html#general-interview-questions",
+    "href": "resources/ds_ml_ai/ds_interview.html#general-interview-questions",
+    "title": "Data Science Interview",
+    "section": "General Interview Questions",
+    "text": "General Interview Questions\n\n101 important data science interview questions, answers, and key concepts\nInterview Warmup\nAmazon Data Science Case Question: Duplicate Products\n10 Frequently Asked Interview Questions For Machine Learning In 2019\nI Worked Through 500+ Data Science Interview Questions\n16 Machine Learning Interview Questions and Answers for Entry-Level Applicants\nA Guide for Machine Learning Technical Interviews (FAANG Companies)\nData Science Interviews"
+  },
+  {
+    "objectID": "resources/ds_ml_ai/ds_interview.html#language--and-field-specific-interview-questions",
+    "href": "resources/ds_ml_ai/ds_interview.html#language--and-field-specific-interview-questions",
+    "title": "Data Science Interview",
+    "section": "Language- and Field-Specific Interview Questions",
+    "text": "Language- and Field-Specific Interview Questions\n\nHow To Ace Data Science Interviews: SQL\nHow To Ace Data Science Interviews: Statistics\nHow To Ace Data Science Interviews: R & Python\nAce the SQL & Data Science Interview\nAnalyzing 89 Responses to a SQL Screener Question for a Senior Data Analyst Position"
+  },
+  {
+    "objectID": "resources/readings/readings.html#everyone",
+    "href": "resources/readings/readings.html#everyone",
+    "title": "Recommended Readings",
+    "section": "Everyone",
+    "text": "Everyone\n\n1. Recommended Readings"
   }
 ]

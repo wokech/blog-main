@@ -137,11 +137,11 @@ cookieconsent.run({
   </li>  
         <li>
     <a class="dropdown-item" href="../../resources/readings/readings.html">
- <span class="dropdown-text">Readings (STEM and General)</span></a>
+ <span class="dropdown-text">Recommended Readings</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../../resources/teaching/teach_res.html">
- <span class="dropdown-text">General Teaching Resources</span></a>
+ <span class="dropdown-text">Teaching Resources</span></a>
   </li>  
     </ul>
   </li>
@@ -185,10 +185,29 @@ cookieconsent.run({
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#git" id="toc-git" class="nav-link active" data-scroll-target="#git">Git</a></li>
-  <li><a href="#github" id="toc-github" class="nav-link" data-scroll-target="#github">GitHub</a></li>
-  <li><a href="#command-line-bash-unix-and-linux" id="toc-command-line-bash-unix-and-linux" class="nav-link" data-scroll-target="#command-line-bash-unix-and-linux">Command Line (Bash, UNIX, and Linux)</a></li>
-  <li><a href="#sql" id="toc-sql" class="nav-link" data-scroll-target="#sql">SQL</a></li>
+  <li><a href="#git" id="toc-git" class="nav-link active" data-scroll-target="#git">Git</a>
+  <ul class="collapse">
+  <li><a href="#basics-and-summaries" id="toc-basics-and-summaries" class="nav-link" data-scroll-target="#basics-and-summaries">Basics and Summaries</a></li>
+  <li><a href="#books" id="toc-books" class="nav-link" data-scroll-target="#books">Books</a></li>
+  <li><a href="#tutorials" id="toc-tutorials" class="nav-link" data-scroll-target="#tutorials">Tutorials</a></li>
+  <li><a href="#git-troubleshooting" id="toc-git-troubleshooting" class="nav-link" data-scroll-target="#git-troubleshooting">Git Troubleshooting</a></li>
+  </ul></li>
+  <li><a href="#github" id="toc-github" class="nav-link" data-scroll-target="#github">GitHub</a>
+  <ul class="collapse">
+  <li><a href="#basics" id="toc-basics" class="nav-link" data-scroll-target="#basics">Basics</a></li>
+  <li><a href="#training-and-tutorials" id="toc-training-and-tutorials" class="nav-link" data-scroll-target="#training-and-tutorials">Training and Tutorials</a></li>
+  <li><a href="#applications" id="toc-applications" class="nav-link" data-scroll-target="#applications">Applications</a></li>
+  </ul></li>
+  <li><a href="#command-line-bash-unix-and-linux" id="toc-command-line-bash-unix-and-linux" class="nav-link" data-scroll-target="#command-line-bash-unix-and-linux">Command Line (Bash, UNIX, and Linux)</a>
+  <ul class="collapse">
+  <li><a href="#books-1" id="toc-books-1" class="nav-link" data-scroll-target="#books-1">Books</a></li>
+  <li><a href="#lectures-and-tutorials" id="toc-lectures-and-tutorials" class="nav-link" data-scroll-target="#lectures-and-tutorials">Lectures and Tutorials</a></li>
+  </ul></li>
+  <li><a href="#sql" id="toc-sql" class="nav-link" data-scroll-target="#sql">SQL</a>
+  <ul class="collapse">
+  <li><a href="#collection-of-sql-resources" id="toc-collection-of-sql-resources" class="nav-link" data-scroll-target="#collection-of-sql-resources">Collection of SQL Resources</a></li>
+  <li><a href="#tutorials-1" id="toc-tutorials-1" class="nav-link" data-scroll-target="#tutorials-1">Tutorials</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -214,73 +233,117 @@ cookieconsent.run({
 
 <section id="git" class="level2">
 <h2 class="anchored" data-anchor-id="git">Git</h2>
+<section id="basics-and-summaries" class="level3">
+<h3 class="anchored" data-anchor-id="basics-and-summaries">Basics and Summaries</h3>
 <ol type="1">
-<li><a href="https://carpentries-incubator.github.io/good-enough-practices/index.html">Good Enough Practices in Scientific Computing</a></li>
+<li><a href="https://www.theodinproject.com/lessons/foundations-git-basics">Git Basics</a></li>
 <li><a href="https://anupamkumarkrishnan.hashnode.dev/git-cheatsheet">Git Cheatsheet</a></li>
+<li><a href="https://training.github.com/downloads/github-git-cheat-sheet/">Git/GitHub Cheatsheet</a></li>
 <li><a href="http://marklodato.github.io/visual-git-guide/index-en.html">A Visual Git Reference</a></li>
-<li><a href="https://www.cduan.com/technical/git/">Understanding Git Conceptually</a></li>
 <li><a href="http://onlywei.github.io/explain-git-with-d3/#">Visualizing Git Concepts with D3</a></li>
 <li><a href="https://gitimmersion.com/">Git Immersion</a></li>
 <li><a href="https://learngitbranching.js.org/">Learn Git Branching</a></li>
-<li><a href="https://www.theodinproject.com/lessons/foundations-git-basics">Git Basics</a></li>
-<li><a href="https://www.atlassian.com/git/tutorials">Become a git guru</a></li>
-<li><a href="https://rpubs.com/marschmi/105639">Git and RStudio</a></li>
 <li><a href="https://debadritaghosh.hashnode.dev/introduction-to-git-github">Introduction to Git &amp; Github</a></li>
 <li><a href="https://rfortherestofus.com/2021/02/how-to-use-git-github-with-r/">How to Use Git/GitHub with R</a></li>
 <li><a href="https://gitready.com/">git ready</a></li>
-<li><a href="https://training.github.com/downloads/github-git-cheat-sheet/">Git/GitHub Cheatsheet</a></li>
+</ol>
+</section>
+<section id="books" class="level3">
+<h3 class="anchored" data-anchor-id="books">Books</h3>
+<ol type="1">
 <li><a href="https://git-scm.com/book/en/v2">Pro Git Book</a></li>
 <li><a href="https://happygitwithr.com/">Happy Git and GitHub for the user</a></li>
+</ol>
+</section>
+<section id="tutorials" class="level3">
+<h3 class="anchored" data-anchor-id="tutorials">Tutorials</h3>
+<ol type="1">
+<li><a href="https://www.cduan.com/technical/git/">Understanding Git Conceptually</a></li>
+<li><a href="https://www.atlassian.com/git/tutorials">Become a git guru</a></li>
+<li><a href="https://rpubs.com/marschmi/105639">Git and RStudio</a></li>
+<li><a href="https://carpentries-incubator.github.io/good-enough-practices/index.html">Good Enough Practices in Scientific Computing</a></li>
+<li><a href="https://missing.csail.mit.edu/2020/version-control/">Version Control (Git)</a></li>
+</ol>
+</section>
+<section id="git-troubleshooting" class="level3">
+<h3 class="anchored" data-anchor-id="git-troubleshooting">Git Troubleshooting</h3>
+<ol type="1">
 <li><a href="https://sethrobertson.github.io/GitFixUm/fixup.html">On undoing, fixing, or removing commits in git</a></li>
 <li><a href="http://justinhileman.info/article/git-pretty/">git pretty</a></li>
-<li><a href="https://missing.csail.mit.edu/2020/version-control/">Version Control (Git)</a></li>
 <li><a href="https://maggieappleton.com/git-mistakes">Fixing Common Git Mistakes</a></li>
 </ol>
 </section>
+</section>
 <section id="github" class="level2">
 <h2 class="anchored" data-anchor-id="github">GitHub</h2>
+<section id="basics" class="level3">
+<h3 class="anchored" data-anchor-id="basics">Basics</h3>
 <ol type="1">
-<li><a href="https://frontenddoctor.hashnode.dev/mastering-github-in-4-steps">Mastering GitHub in 4 Steps</a></li>
-<li><a href="https://profy.dev/project/github-minesweeper/intro-overview">GitHub Minesweeper</a></li>
-<li><a href="https://beamilz.com/posts/series-gha/2022-series-gha-1-what-is/en/">Introduction to GitHub Actions to R users</a></li>
-<li><a href="https://www.openscapes.org/blog/2022/05/27/github-illustrated-series/">GitHub for supporting, reusing, contributing, and failing safely</a></li>
-<li><a href="https://firstaidgit.io/#/">First aid git</a></li>
-<li><a href="https://codehorizons.com/making-your-first-github-r-project/">Making Your First GitHub R Project</a></li>
-<li><a href="https://github.blog/2021-09-01-introducing-github-global-campus/">Introducing GitHub Global Campus</a></li>
-<li><a href="https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners">An Intro to Git and GitHub for Beginners (Tutorial)</a></li>
-<li><a href="https://personalpages.manchester.ac.uk/staff/david.selby/rthritis/2021-03-12-git/">Collaboration, version control and learning to commit</a></li>
-<li><a href="https://r-pkgs.org/software-development-practices.html">Software development practices</a></li>
-<li><a href="https://aosmith16.github.io/spring-r-topics/slides/week01_introduction_git_and_github.html#1">Get started with Git and GitHub</a></li>
-<li><a href="https://towardsdatascience.com/how-to-create-a-free-github-pages-website-53743d7524e1">How to effortlessly create a website for free with GitHub Pages</a></li>
 <li><a href="https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6">Getting started with Git and GitHub: the complete beginner’s guide</a></li>
-<li><a href="https://www.jekyllnow.com/">Introducing Jekyll Now for GitHub-hosted blogs</a></li>
+<li><a href="https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners">An Intro to Git and GitHub for Beginners (Tutorial)</a></li>
+<li><a href="https://aosmith16.github.io/spring-r-topics/slides/week01_introduction_git_and_github.html#1">Get started with Git and GitHub</a></li>
+<li><a href="https://frontenddoctor.hashnode.dev/mastering-github-in-4-steps">Mastering GitHub in 4 Steps</a></li>
+<li><a href="https://www.openscapes.org/blog/2022/05/27/github-illustrated-series/">GitHub for supporting, reusing, contributing, and failing safely</a></li>
 </ol>
+</section>
+<section id="training-and-tutorials" class="level3">
+<h3 class="anchored" data-anchor-id="training-and-tutorials">Training and Tutorials</h3>
+<ol type="1">
+<li><a href="https://github.blog/2021-09-01-introducing-github-global-campus/">Introducing GitHub Global Campus</a></li>
+<li><a href="https://personalpages.manchester.ac.uk/staff/david.selby/rthritis/2021-03-12-git/">Collaboration, version control and learning to commit</a></li>
+<li><a href="https://codehorizons.com/making-your-first-github-r-project/">Making Your First GitHub R Project</a></li>
+</ol>
+</section>
+<section id="applications" class="level3">
+<h3 class="anchored" data-anchor-id="applications">Applications</h3>
+<ol type="1">
+<li><a href="https://beamilz.com/posts/series-gha/2022-series-gha-1-what-is/en/">Introduction to GitHub Actions to R users</a></li>
+<li><a href="https://towardsdatascience.com/how-to-create-a-free-github-pages-website-53743d7524e1">How to effortlessly create a website for free with GitHub Pages</a></li>
+<li><a href="https://www.jekyllnow.com/">Introducing Jekyll Now for GitHub-hosted blogs</a></li>
+<li><a href="https://r-pkgs.org/software-development-practices.html">Software development practices</a></li>
+</ol>
+</section>
 </section>
 <section id="command-line-bash-unix-and-linux" class="level2">
 <h2 class="anchored" data-anchor-id="command-line-bash-unix-and-linux">Command Line (Bash, UNIX, and Linux)</h2>
+<section id="books-1" class="level3">
+<h3 class="anchored" data-anchor-id="books-1">Books</h3>
 <ol type="1">
 <li><a href="https://bash-intro.rsquaredacademy.com/">Command Line Basics for R Users</a></li>
+</ol>
+</section>
+<section id="lectures-and-tutorials" class="level3">
+<h3 class="anchored" data-anchor-id="lectures-and-tutorials">Lectures and Tutorials</h3>
+<ol type="1">
 <li><a href="https://data-skills.github.io/unix-and-bash/">Intro to UNIX</a></li>
 <li><a href="https://swcarpentry.github.io/shell-novice/">The Unix Shell 1</a></li>
 <li><a href="https://thejacksonlaboratory.github.io/introduction-to-hpc/">The Unix Shell 2</a></li>
 </ol>
 </section>
+</section>
 <section id="sql" class="level2">
 <h2 class="anchored" data-anchor-id="sql">SQL</h2>
+<section id="collection-of-sql-resources" class="level3">
+<h3 class="anchored" data-anchor-id="collection-of-sql-resources">Collection of SQL Resources</h3>
 <ol type="1">
-<li><a href="https://jvns.ca/blog/2019/10/03/sql-queries-don-t-start-with-select/">SQL queries don’t start with SELECT</a></li>
 <li><a href="https://code-love.com/2018/09/01/21-learn-sql/">21 of the best free resources to learn SQL</a></li>
+</ol>
+</section>
+<section id="tutorials-1" class="level3">
+<h3 class="anchored" data-anchor-id="tutorials-1">Tutorials</h3>
+<ol type="1">
 <li><a href="https://www.postgresqltutorial.com/">PostgreSQL Tutorial</a></li>
-<li><a href="https://blog.codinghorror.com/a-visual-explanation-of-sql-joins/">A Visual Explanation of SQL Joins</a></li>
 <li><a href="https://mode.com/sql-tutorial/introduction-to-sql/">The SQL Tutorial for Data Analysis</a></li>
-<li><a href="https://www.hackerrank.com/domains/sql">SQL</a></li>
-<li><a href="https://www.w3schools.com/sql/">SQL Tutorial</a></li>
+<li><a href="https://www.hackerrank.com/domains/sql">SQL Hackerrank Channels</a></li>
+<li><a href="https://www.w3schools.com/sql/">SQL Tutorial 1</a></li>
+<li><a href="https://sqlzoo.net/wiki/SQL_Tutorial">SQL Tutorial 2</a></li>
 <li><a href="https://sqlbolt.com/">SQLBolt</a></li>
-<li><a href="https://sqlzoo.net/wiki/SQL_Tutorial">SQL Tutorial</a></li>
-<li><a href="https://thomaslarock.com/2018/07/databases-101/">Databases 101</a></li>
+<li><a href="https://jvns.ca/blog/2019/10/03/sql-queries-don-t-start-with-select/">SQL queries don’t start with SELECT</a></li>
+<li><a href="https://blog.codinghorror.com/a-visual-explanation-of-sql-joins/">A Visual Explanation of SQL Joins</a></li>
 </ol>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

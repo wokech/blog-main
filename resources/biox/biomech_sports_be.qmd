@@ -1,21 +1,34 @@
 ---
-title: "Biomechanics and Sports Bioengineering"
+title: "Biomechanics and Sports Engineering"
 toc: true
 ---
 
 ## Biomechanics
 
-1)  [Biomechanics of Movement](https://biomech.stanford.edu/)
-2)  [Biomechanics of Movement Classroom](https://simtk-confluence-homeworks.stanford.edu:8443/display/BMH/Lectures)
-3)  [The Biomechanist](https://www.biomechanist.net/)
-4)  [Reinbolt Research Group](http://rrg.utk.edu/resources/BME599/lectures.html)
-5)  [Notes on Scientific Computing for Biomechanics and Motor Control](https://github.com/BMClab/BMC)
-6)  [The Biomechanics of Solids and Fluids: The Physics of Life](http://hobbieroth.blogspot.com/2016/09/the-biomechanics-of-solids-and-fluids.html)
-7)  [DFB Sports Academy](https://www.dfb-akademie.de/bewegungsanalyse-biomechanik/-/id-11008485)
-8)  [Stuart McErlain-Naylor Biomechanics Website](https://www.stuartmcnaylor.com/)
-9)  [Understanding Biomechanics and Body Movement](https://www.verywellfit.com/understanding-biomechanics-3498389)
+### Curated collection of resources
 
-## Sports Bioengineering
+1) [A curated repository of biomechanical resources](https://github.com/modenaxe/awesome-biomechanics)
+
+### Personal Blogs and Websites
+
+1)  [Stuart McErlain-Naylor Biomechanics Website](https://www.stuartmcnaylor.com/)
+
+### Labs
+
+### Books
+
+1)  [Biomechanics of Movement](https://biomech.stanford.edu/)
+2)  [The Biomechanics of Solids and Fluids: The Physics of Life](http://hobbieroth.blogspot.com/2016/09/the-biomechanics-of-solids-and-fluids.html)
+
+### Tutorials and Lectures
+
+1)  [Biomechanics of Movement Classroom](https://simtk-confluence-homeworks.stanford.edu:8443/display/BMH/Lectures)
+2)  [Reinbolt Research Group](http://rrg.utk.edu/resources/BME599/lectures.html)
+3)  [Notes on Scientific Computing for Biomechanics and Motor Control](https://github.com/BMClab/BMC)
+4)  [Understanding Biomechanics and Body Movement](https://www.verywellfit.com/understanding-biomechanics-3498389)
+5)  [The Biomechanist](https://www.biomechanist.net/)
+
+### Sports Engineering and Movement Science
 
 1)  [Becoming a Sports Engineer](https://engineeringsport.co.uk/becoming-a-sports-engineer/)
 2)  [Peak Performance Project](https://www.p3.md/)

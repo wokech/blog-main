@@ -156,7 +156,6 @@ toc: true
 48) [Multivariate data analysis with R and vegan](https://github.com/gavinsimpson/physalia-multivariate#multivariate-data-analysis-with-r-and-vegan)
 49) [R Tips and Tricks](https://datacornering.com/)
 
-
 ## Tidyverse
 
 1)  [A very short introduction to Tidyverse](https://dominicroye.github.io/en/2020/a-very-short-introduction-to-tidyverse/)

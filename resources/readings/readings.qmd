@@ -1,12 +1,12 @@
 ---
-title: "Readings (STEM and General)"
+title: "Recommended Readings"
 toc: true
 ---
 
-## Readings for STEM students
+## STEM students
 
-### 1. [Recommended Readings (STEM)](reading_stem.qmd)
+### 1. [Recommended Readings](reading_stem.qmd)
 
-## Readings for everyone
+## Everyone
 
-### 1. [Recommended Readings (General)](reading_general.qmd)
+### 1. [Recommended Readings](reading_general.qmd)
