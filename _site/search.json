@@ -1,0 +1,884 @@
+[
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog posts",
+    "section": "",
+    "text": "Series\n\nR and RStudio: Getting Started and The Basics\nData Stories\n\n\n\n\n\n\n\nAll Blog Posts\n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nData Visualization for Government\n\n\nVisualizing HR data from the Chief Administrative Secretary recruitment process in Kenya\n\n\n\n\nRStudio\n\n\nR\n\n\nData Stories\n\n\nBlog\n\n\nData Visualization\n\n\n\n\n\n\n\n\n\n\n\nApr 13, 2023\n\n\n4 min\n\n\n\n\n\n\n\n\nA roof over your head\n\n\nThe prevalence of asbestos-based roofing in Kenya and its potential effects\n\n\n\n\nRStudio\n\n\nR\n\n\nData Stories\n\n\nBlog\n\n\nKenya Census\n\n\n\n\n\n\n\n\n\n\n\nDec 1, 2022\n\n\n4 min\n\n\n\n\n\n\n\n\nThe Basics of R and RStudio\n\n\nPart 7: Data Structures\n\n\n\n\nRStudio\n\n\nR\n\n\nTutorial\n\n\nBlog\n\n\n\n\n\n\n\n\n\n\n\nNov 16, 2022\n\n\n2 min\n\n\n\n\n\n\n\n\nThe Basics of R and RStudio\n\n\nPart 6: Missing Data\n\n\n\n\nRStudio\n\n\nR\n\n\nTutorial\n\n\nBlog\n\n\n\n\n\n\n\n\n\n\n\nNov 14, 2022\n\n\n0 min\n\n\n\n\n\n\n\n\nThe Basics of R and RStudio\n\n\nPart 5: Vectors\n\n\n\n\nRStudio\n\n\nR\n\n\nTutorial\n\n\nBlog\n\n\n\n\n\n\n\n\n\n\n\nNov 12, 2022\n\n\n2 min\n\n\n\n\n\n\n\n\nThe Basics of R and RStudio\n\n\nPart 4: Operators\n\n\n\n\nRStudio\n\n\nR\n\n\nTutorial\n\n\nBlog\n\n\n\n\n\n\n\n\n\n\n\nNov 9, 2022\n\n\n4 min\n\n\n\n\n\n\n\n\nAre there more men than women in Kenya?\n\n\nInsights from the Kenya Population and Housing Census (2019)\n\n\n\n\nRStudio\n\n\nR\n\n\nData Stories\n\n\nBlog\n\n\nKenya Census\n\n\n\n\n\n\n\n\n\n\n\nJun 30, 2022\n\n\n4 min\n\n\n\n\n\n\n\n\nThe Basics of R and RStudio\n\n\nPart 3: Data Types\n\n\n\n\nRStudio\n\n\nR\n\n\nTutorial\n\n\nBlog\n\n\n\n\n\n\n\n\n\n\n\nJun 23, 2022\n\n\n6 min\n\n\n\n\n\n\n\n\nThe Basics of R and RStudio\n\n\nPart 2: Variables\n\n\n\n\nRStudio\n\n\nR\n\n\nTutorial\n\n\nBlog\n\n\n\n\n\n\n\n\n\n\n\nJun 22, 2022\n\n\n1 min\n\n\n\n\n\n\n\n\nThe Basics of R and RStudio\n\n\nPart 1: Simple Arithmetic\n\n\n\n\nRStudio\n\n\nR\n\n\nTutorial\n\n\nBlog\n\n\n\n\n\n\n\n\n\n\n\nJun 15, 2022\n\n\n2 min\n\n\n\n\n\n\n\n\nGetting Started with R and RStudio\n\n\nSoftware Installation\n\n\n\n\nRStudio\n\n\nR\n\n\nTutorial\n\n\nBlog\n\n\n\n\n\n\n\n\n\n\n\nJun 8, 2022\n\n\n3 min\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "William Okech",
+    "section": "",
+    "text": "I am a research scientist with a background in Biomedical Engineering. My primary interests include:\n• Biotechnology and Biomechanics\n• Data Visualization. See samples of my work here and here\nIn the blog section, I hope to introduce readers to the basics of data analysis and visualization and provide a periodic summary of recent advances in biotechnology and biomechanics."
+  },
+  {
+    "objectID": "posts/series_1/new_post_1/post_1.html",
+    "href": "posts/series_1/new_post_1/post_1.html",
+    "title": "Getting Started with R and RStudio",
+    "section": "",
+    "text": "In this 1st post, the reader will be introduced to the R programming language and RStudio software.\n\n\nThis blog aims to introduce new R/RStudio users to the fundamentals of R and lay the groundwork for more in-depth statistical analysis, data visualization, and reporting methods. I hope to present the topics in a straightforward manner so that anyone new to programming is not intimidated.\n\n\n\nR is a programming language and open-source (freely available) software invented by Ross Ihaka and Robert Gentleman in 1993 (published as open-source in 1995) when they were based at the University of Auckland. Fun fact: R represents the first letter of the first names of the creators. The software is utilized by individuals working for various organizations ranging from academic institutions and healthcare organizations to financial services and information technology companies. In May 2022, the TIOBE index (a measure of programming language popularity) demonstrated that R was the 13th most popular programming language. R’s popularity may result from its highly extensible nature that allows users to perform statistical data analysis, generate visualizations, and report findings.\n\n\nAs mentioned in the previous section, R is an open-source software that is highly extensible. Thousands of extensions (also known as packages) can be installed, allowing one to increase the number of available applications. The main advantages of R include: 1. A large community of users and developers that can provide learning support and assist with technical challenges, 2. The ability to perform reproducible research. 3. Its cross-platform nature, which means that it can be used on Linux, Windows, and Mac operating systems. 4. The ability to generate high-quality graphics from datasets of varying dimensions.\n\n\n\nTo install R on your personal computer, visit The R Project for Statistical Computing’s Comprehensive R Archive Network (CRAN), download the most recent version, and install it according to the website’s instructions. Once you download R, you can now experiment with some of its features.\n\n\n\n\n\nFigure 1: The standard R interface (Windows)\nWhen you open R, you will notice that it has a basic graphical user interface (GUI), and the console displays a command-line interface (CLI; where each command is executed one at a time). This may be intimidating for new users; however, there is a workaround for those who are not comfortable working at the command line. For those who are not experienced programmers, R can be used with an application called RStudio.\n\n\n\n\nRStudio is an integrated development environment (IDE) for R that was developed by JJ Allaire. This software contains tools that make programming in R easier. RStudio extends R’s capabilities by making it easier to import data, write scripts, and generate visualizations and reports. The RStudio IDE is available for download from the RStudio website.\n\n\n\n\n\nFigure 2: RStudio interface with four main panes (Windows)\nOnce installed, the basic layout of RStudio reveals that there is a script (text editor), console, navigation, and environment/history window pane. The script pane (text editor) in the upper-left allows one to write, open, edit, and execute more extended programs compared with using the standalone R software. The console pane (bottom-left) displays the script’s output and offers a command-line interface for typing code that is immediately executed. The environment pane (upper-right) displays information about the created objects, the history of executed code, and any external connections. Finally, the navigation pane (bottom-right) shows multiple tabs. Its primary tabs include the “Plot” tab, which shows graphics created by code, the “Packages” tab where the packages are installed, and the “Help” tab, which provides assistance for all things R and allows one to search the R documentation.\n\n\nRStudio allows one to create projects (a collection of related files stored within a working directory). Additionally, RStudio can be customized using options available under the “Tools” tab. Lastly, RStudio has Git integration that allows for version control where you can back up your code at different timepoints and effortlessly transfer code between computers.1\n\n\n\n\nHopefully, this was a helpful introduction to R and RStudio. In subsequent blog posts, we will focus on:\n\nPart 1: Simple arithmetic,\nPart 2: Variables,\nPart 3: Data types,\nPart 4: Operators,\nPart 5: Vectors,\nPart 6: Missing data\nPart 7: Data Structures"
+  },
+  {
+    "objectID": "posts/series_1/new_post_2/post_2.html",
+    "href": "posts/series_1/new_post_2/post_2.html",
+    "title": "The Basics of R and RStudio",
+    "section": "",
+    "text": "This is the first in a series of blog posts looking at the basics of R and RStudio. These programs allow us to perform various basic and complex calculations.\nTo get started, first, we will open R or RStudio. In R, go to the console, and in RStudio, head to the console pane. Next, type in a basic arithmetic calculation such as “1 + 1” after the angle bracket (>) and hit “Enter.”\nAn example of a basic calculation:\n\n1+1\n\n[1] 2\n\n\nThe output will be observed next to the square bracket containing the number 1 ([1]).\n\n\n\n\n\nAdditionally, to include comments into the code block we use the hash (#) symbol. Anything written after the code block will be commented out and not run.\n\n# A simple arithmetic calculation (which is not run because of the hash symbol)\n1+1\n\n[1] 2"
+  },
+  {
+    "objectID": "posts/series_1/new_post_2/post_2.html#arithmetic-operators-available-in-rrstudio",
+    "href": "posts/series_1/new_post_2/post_2.html#arithmetic-operators-available-in-rrstudio",
+    "title": "The Basics of R and RStudio",
+    "section": "Arithmetic operators available in R/RStudio",
+    "text": "Arithmetic operators available in R/RStudio\nVarious arithmetic operators (listed below) can be used in R/RStudio.\n\n\n\nArithmetic Operator\nDescription\n\n\n\n\n+\nAddition\n\n\n-\nSubtraction\n\n\n*\nMultiplication\n\n\n/\nDivision\n\n\n** or ^\nExponentiation\n\n\n%%\nModulus (remainder after division)\n\n\n%/%\nInteger division"
+  },
+  {
+    "objectID": "posts/series_1/new_post_2/post_2.html#examples",
+    "href": "posts/series_1/new_post_2/post_2.html#examples",
+    "title": "The Basics of R and RStudio",
+    "section": "Examples",
+    "text": "Examples\n\nAddition\n\n10+30\n\n[1] 40\n\n\n\n\nSubtraction\n\n30-24\n\n[1] 6\n\n\n\n\nMultiplication\n\n20*4\n\n[1] 80\n\n\n\n\nDivision\n\n93/4\n\n[1] 23.25\n\n\n\n\nExponentiation\n\n3^6\n\n[1] 729\n\n\n\n\nModulus (remainder with division)\n\n94%%5\n\n[1] 4\n\n\n\n\nInteger Division\n\n54%/%7\n\n[1] 7\n\n\n\n\nSlightly more complex arithmetic operations\n\n5-1+(4*3)/16*3\n\n[1] 6.25"
+  },
+  {
+    "objectID": "posts/series_1/new_post_3/post_3.html",
+    "href": "posts/series_1/new_post_3/post_3.html",
+    "title": "The Basics of R and RStudio",
+    "section": "",
+    "text": "Variables are instrumental in programming because they are used as “containers” to store data values.\nTo assign a value to a variable, we can use <− or =. However, most R users prefer to use <−."
+  },
+  {
+    "objectID": "posts/series_1/new_post_3/post_3.html#variable-assignment",
+    "href": "posts/series_1/new_post_3/post_3.html#variable-assignment",
+    "title": "The Basics of R and RStudio",
+    "section": "Variable assignment",
+    "text": "Variable assignment\n\n1. Using <-\n\nvariable_1 <- 5\nvariable_1\n\n[1] 5\n\n\n\n\n2. Using =\n\nvariable_2 = 10\nvariable_2\n\n[1] 10\n\n\n\n\n3. Reverse the value and variable with ->\n\n15 -> variable_3\nvariable_3\n\n[1] 15\n\n\n\n\n4. Assign two variables to one value\n\nvariable_4 <- variable_5 <- 30\nvariable_4\n\n[1] 30\n\nvariable_5\n\n[1] 30"
+  },
+  {
+    "objectID": "posts/series_1/new_post_3/post_3.html#variable-output",
+    "href": "posts/series_1/new_post_3/post_3.html#variable-output",
+    "title": "The Basics of R and RStudio",
+    "section": "Variable output",
+    "text": "Variable output\nThe output of the variable can then be obtained by:\n\nTyping the variable name and then pressing “Enter,”\nTyping “print” with the variable name in brackets, print(variable), and\nTyping “View” with the variable name in brackets, View(variable).\n\nBoth print() and View() are some of the many built-in functions1 available in R.\nIn RStudio, the list of variables that have been loaded can be viewed in the environment pane.\n\n\n\n\n\nFigure 1: A screenshot of the environment pane with the stored variables.\n\nprint(variable_1)\n\n[1] 5\n\n\n\nView(variable_2)\n\nOutput of View() will be seen in the script pane"
+  },
+  {
+    "objectID": "posts/series_1/new_post_3/post_3.html#the-assign-and-rm-functions",
+    "href": "posts/series_1/new_post_3/post_3.html#the-assign-and-rm-functions",
+    "title": "The Basics of R and RStudio",
+    "section": "The assign() and rm() functions",
+    "text": "The assign() and rm() functions\nIn addition to using the assignment operators (<- and =), we can use the assign() function to assign a value to a variable.\n\nassign(\"variable_6\", 555)\nvariable_6\n\n[1] 555\n\n\nTo remove the assignment of the value to the variable, either delete the variable in the “environment pane” or use the rm() function.\n\nvariable_7 <- 159\n\n\nrm(variable_7)\n\nAfter running rm() look at the environment pane to confirm whether variable_7 has been removed."
+  },
+  {
+    "objectID": "posts/series_1/new_post_3/post_3.html#naming-variables",
+    "href": "posts/series_1/new_post_3/post_3.html#naming-variables",
+    "title": "The Basics of R and RStudio",
+    "section": "Naming variables",
+    "text": "Naming variables\nAt this point, you may be wondering what conventions are used for naming variables. First, variables need to have meaningful names such as current_temp, time_24_hr, or weight_lbs. However, we need to be mindful of the variable style guide which provides us with the appropriate rules for naming variables.\nSome rules to keep in mind are:\n\nR is case-sensitive (variable is not the same as Variable),\nNames similar to typical outputs or functions (TRUE, FALSE, if, or else) cannot be used,\nAppropriate variable names can contain letters, numbers, dots, and underscores. However, you cannot start with an underscore, number, or dot followed by a number."
+  },
+  {
+    "objectID": "posts/series_1/new_post_3/post_3.html#valid-and-invalid-names",
+    "href": "posts/series_1/new_post_3/post_3.html#valid-and-invalid-names",
+    "title": "The Basics of R and RStudio",
+    "section": "Valid and invalid names",
+    "text": "Valid and invalid names\n\nValid names:\n\ntime_24_hr\n.time24_hr\n\n\n\nInvalid names:\n\n_24_hr.time\n24_hr_time\n.24_hr_time"
+  },
+  {
+    "objectID": "posts/series_1/new_post_4/post_4.html",
+    "href": "posts/series_1/new_post_4/post_4.html",
+    "title": "The Basics of R and RStudio",
+    "section": "",
+    "text": "R and RStudio utilize multiple data types to store different kinds of data.\nThe most common data types in R are listed below.\n\n\n\n\n\n\n\nData Type\nDescription\n\n\n\n\nNumeric\nThe most common data type. The values can be numbers or decimals (all real numbers).\n\n\nInteger\nSpecial case of numeric data without decimals.\n\n\nLogical\nBoolean data type with only 2 values (TRUE or FALSE).\n\n\nComplex\nSpecifies imaginary values in R.\n\n\nCharacter\nAssigns a character or string to a variable. The character variables are enclosed in single quotes (‘character’) while the string variables are enclosed in double quotes (“string”).\n\n\nFactor\nSpecial type of character variable that represents a categorical such as gender.\n\n\nRaw\nSpecifies values as raw bytes. It uses built-in functions to convert between raw and character (charToRaw() or rawToChar()).\n\n\nDates\nSpecifies the date variable. Date stores a date and POSIXct stores a date and time. The output is indicated as the number of days (Date) or number of seconds (POSIXct) since 01/01/1970."
+  },
+  {
+    "objectID": "posts/series_1/new_post_4/post_4.html#data-types",
+    "href": "posts/series_1/new_post_4/post_4.html#data-types",
+    "title": "The Basics of R and RStudio",
+    "section": "Data types",
+    "text": "Data types\n\n1. Numeric\n\n89.98\n\n[1] 89.98\n\n55\n\n[1] 55\n\n\n\n\n2. Integer\n\n5L\n\n[1] 5\n\n5768L\n\n[1] 5768\n\n\n\n\n3. Logical\n\nTRUE\n\n[1] TRUE\n\nFALSE\n\n[1] FALSE\n\n\n\n\n4. Complex\n\n10 + 30i\n\n[1] 10+30i\n\n287 + 34i\n\n[1] 287+34i\n\n\n\n\n5. Character or String\n\n'abc'\n\n[1] \"abc\"\n\n\"def\"\n\n[1] \"def\"\n\n\"I like learning R\"\n\n[1] \"I like learning R\"\n\n\n\n\n6. Dates\n\n\"2022-06-23 14:39:21 EAT\"\n\n[1] \"2022-06-23 14:39:21 EAT\"\n\n\"2022-06-23\"\n\n[1] \"2022-06-23\""
+  },
+  {
+    "objectID": "posts/series_1/new_post_4/post_4.html#examining-various-data-types",
+    "href": "posts/series_1/new_post_4/post_4.html#examining-various-data-types",
+    "title": "The Basics of R and RStudio",
+    "section": "Examining various data types",
+    "text": "Examining various data types\nSeveral functions exist to examine the features of the various data types. These include:\n\ntypeof() – what is the data type of the object (low-level)?\nclass() – what is the data type of the object (high-level)?\nlength() – how long is the object?\nattributes() – any metadata available?\n\nLet’s look at how these functions work with a few examples\n\na <- 45.84\nb <- 858L\nc <- TRUE\nd <- 89 + 34i\ne <- 'abc'\n\n\n1. Examine the data type at a low-level with typeof()\n\ntypeof(a)\n\n[1] \"double\"\n\ntypeof(b)\n\n[1] \"integer\"\n\ntypeof(c)\n\n[1] \"logical\"\n\ntypeof(d)\n\n[1] \"complex\"\n\ntypeof(e)\n\n[1] \"character\"\n\n\n\n\n2. Examine the data type at a high-level with class()\n\nclass(a)\n\n[1] \"numeric\"\n\nclass(b)\n\n[1] \"integer\"\n\nclass(c)\n\n[1] \"logical\"\n\nclass(d)\n\n[1] \"complex\"\n\nclass(e)\n\n[1] \"character\"\n\n\n\n\n3. Use the is.____() functions to determine the data type\nTo test whether the variable is of a specific type, we can use the is.____() functions.\nFirst, we test the variable a which is numeric.\n\nis.numeric(a)\n\n[1] TRUE\n\nis.integer(a)\n\n[1] FALSE\n\nis.logical(a)\n\n[1] FALSE\n\nis.character(a)\n\n[1] FALSE\n\n\nSecond, we test the variable c which is logical.\n\nis.numeric(c)\n\n[1] FALSE\n\nis.integer(c)\n\n[1] FALSE\n\nis.logical(c)\n\n[1] TRUE\n\nis.character(c)\n\n[1] FALSE"
+  },
+  {
+    "objectID": "posts/series_1/new_post_4/post_4.html#converting-between-various-data-types",
+    "href": "posts/series_1/new_post_4/post_4.html#converting-between-various-data-types",
+    "title": "The Basics of R and RStudio",
+    "section": "Converting between various data types",
+    "text": "Converting between various data types\nTo convert between data types we can use the as.____() functions. These include: as.Date(), as.numeric(), and as.factor(). Additionally, other helpful functions include factor() which adds levels to the data and nchar() which provides the length of the data.\n\nExamples\n\nas.integer(a)\n\n[1] 45\n\nas.logical(0)\n\n[1] FALSE\n\nas.logical(1)\n\n[1] TRUE\n\nnchar(e)\n\n[1] 3"
+  },
+  {
+    "objectID": "posts/series_1/new_post_5/post_5.html",
+    "href": "posts/series_1/new_post_5/post_5.html",
+    "title": "The Basics of R and RStudio",
+    "section": "",
+    "text": "R has many different types of operators that can perform different tasks.\nHere we will focus on 5 major types of operators. The major types of operators are:\n\nArithmetic,\nRelational,\nLogical,\nAssignment, and\nMiscellaneous."
+  },
+  {
+    "objectID": "posts/series_1/new_post_5/post_5.html#arithmetic-operators",
+    "href": "posts/series_1/new_post_5/post_5.html#arithmetic-operators",
+    "title": "The Basics of R and RStudio",
+    "section": "1. Arithmetic Operators",
+    "text": "1. Arithmetic Operators\nArithmetic operators are used to perform mathematical operations. These operators have been highlighted in Part 1 of the series."
+  },
+  {
+    "objectID": "posts/series_1/new_post_5/post_5.html#relational-operators",
+    "href": "posts/series_1/new_post_5/post_5.html#relational-operators",
+    "title": "The Basics of R and RStudio",
+    "section": "2. Relational Operators",
+    "text": "2. Relational Operators\nRelational operators are used to find the relationship between 2 variables and compare objects. The output of these comparisons is Boolean (TRUE or FALSE). The table below describes the most common relational operators.\n\n\n\nRelational Operator\nDescription\n\n\n\n\n<\nLess than\n\n\n>\nGreater than\n\n\n<=\nLess than or equal to\n\n\n>=\nGreater than or equal to\n\n\n==\nEqual to\n\n\n!=\nNot Equal to\n\n\n\nAssign values to variables\n\nx <- 227\ny <- 639\n\n\na. Less than\n\nx < y\n\n[1] TRUE\n\n\n\n\nb. Greater than\n\nx > y\n\n[1] FALSE\n\n\n\n\nc. Less than or equal to\n\nx <= 300\n\n[1] TRUE\n\n\n\n\nd. Greater than or equal to\n\ny >= 700\n\n[1] FALSE\n\n\n\n\ne. Equal to\n\ny == 639\n\n[1] TRUE\n\n\n\n\nf. Not Equal to\n\nx != 227\n\n[1] FALSE"
+  },
+  {
+    "objectID": "posts/series_1/new_post_5/post_5.html#logical-operators",
+    "href": "posts/series_1/new_post_5/post_5.html#logical-operators",
+    "title": "The Basics of R and RStudio",
+    "section": "3. Logical Operators",
+    "text": "3. Logical Operators\nLogical operators are used to specify multiple conditions between objects. Logical operators work with basic data types such as logical, numeric, and complex data types. This returns TRUE or FALSE values. Numbers greater that 1 are TRUE and 0 equals FALSE. The table below describes the most common logical operators.\n\n\n\nLogical Operator\nDescription\n\n\n\n\n!\nLogical NOT\n\n\n|\nElement-wise logical OR\n\n\n||\nLogical OR\n\n\n&\nElement-wise logical AND\n\n\n&&\nLogical AND\n\n\n\nAssign vectors to variables\n\nvector_1 <- c(0,2)\nvector_2 <- c(1,0)\n\n\na. Logical NOT\n\n!vector_1\n\n[1]  TRUE FALSE\n\n!vector_2\n\n[1] FALSE  TRUE\n\n\n\n\nb. Logical OR\n\nvector_1 | vector_2\n\n[1] TRUE TRUE\n\n\n\n\nc. Logical AND\n\nvector_1 & vector_2\n\n[1] FALSE FALSE\n\n\n\n\nd. Element-wise logical OR\n\nvector_1 || vector_2\n\nWarning in vector_1 || vector_2: 'length(x) = 2 > 1' in coercion to 'logical(1)'\n\nWarning in vector_1 || vector_2: 'length(x) = 2 > 1' in coercion to 'logical(1)'\n\n\n[1] TRUE\n\n\n\n\nd. Element-wise logical AND\n\nvector_1 && vector_2\n\nWarning in vector_1 && vector_2: 'length(x) = 2 > 1' in coercion to 'logical(1)'\n\n\n[1] FALSE"
+  },
+  {
+    "objectID": "posts/series_1/new_post_5/post_5.html#assignment-operators",
+    "href": "posts/series_1/new_post_5/post_5.html#assignment-operators",
+    "title": "The Basics of R and RStudio",
+    "section": "4. Assignment Operators",
+    "text": "4. Assignment Operators\nThese operators assign values to variables. A more comprehensive review can be obtained in Part 2 of the series."
+  },
+  {
+    "objectID": "posts/series_1/new_post_5/post_5.html#miscellaneous-operators",
+    "href": "posts/series_1/new_post_5/post_5.html#miscellaneous-operators",
+    "title": "The Basics of R and RStudio",
+    "section": "5. Miscellaneous Operators",
+    "text": "5. Miscellaneous Operators\nThese are helpful operators for working in that can perform a variety of functions. A few common miscellaneous operators are described below.\n\n\n\n\n\n\n\nMiscellaneous Operator\nDescription\n\n\n\n\n%*%\nMatrix multiplication (to be discussed in subsequent chapters)\n\n\n%in%\nDoes an element belong to a vector\n\n\n:\nGenerate a sequence\n\n\n\n\na. Sequence\n\na <- 1:8\na\n\n[1] 1 2 3 4 5 6 7 8\n\nb <- 4:10\nb\n\n[1]  4  5  6  7  8  9 10\n\n\n\n\nb. Element in a vector\n\na %in% b\n\n[1] FALSE FALSE FALSE  TRUE  TRUE  TRUE  TRUE  TRUE\n\n9 %in% b\n\n[1] TRUE\n\n9 %in% a\n\n[1] FALSE"
+  },
+  {
+    "objectID": "posts/series_1/new_post_6/post_6.html",
+    "href": "posts/series_1/new_post_6/post_6.html",
+    "title": "The Basics of R and RStudio",
+    "section": "",
+    "text": "A vector is a collection of elements of the same data type, and they are a basic data structure in R programming.\nVectors cannot be of mixed data type. The most common way to create a vector is with c(), where “c” stands for combine. In R, vectors do not have dimensions; therefore, they cannot be defined by columns or rows. Vectors can be divided into atomic vectors and lists (discussed in Part 7). The atomic vectors include logical, character, and numeric (integer or double).\nAdditionally, R is a vectorized language because mathematical operations are applied to each element of the vector without the need to loop through the vector.Examples of vectors are shown below:\n• Numbers: c(2, 10, 16, -5)\n• Characters: c(\"R\", \"RStudio\", \"Shiny\", \"Quarto\")\n• Logicals: c(\"TRUE\", \"FALSE\", \"TRUE\")"
+  },
+  {
+    "objectID": "posts/series_1/new_post_6/post_6.html#sequence-generation",
+    "href": "posts/series_1/new_post_6/post_6.html#sequence-generation",
+    "title": "The Basics of R and RStudio",
+    "section": "Sequence Generation",
+    "text": "Sequence Generation\nTo generate a vector with a sequence of consecutive numbers, we can use :, sequence(), or seq().\n\nGenerate a sequence using :\n\na <- 9:18\na\n\n [1]  9 10 11 12 13 14 15 16 17 18\n\na_rev <- 18:9\na_rev\n\n [1] 18 17 16 15 14 13 12 11 10  9\n\na_rev_minus <- 5:-3\na_rev_minus\n\n[1]  5  4  3  2  1  0 -1 -2 -3\n\n\n\n\nGenerate a sequence using sequence()\n\nb <- sequence(7)\nb\n\n[1] 1 2 3 4 5 6 7\n\nc <- sequence(c(5,9))\nc\n\n [1] 1 2 3 4 5 1 2 3 4 5 6 7 8 9\n\n\n\n\nGenerate a sequence using seq()\nThe seq() function has four main arguments: seq(from, to, by, length.out), where “from” and “to” are the starting and ending elements of the sequence. Additionally, “by” is the difference between the elements, and “length.out” is the maximum length of the vector.\n\nd <- seq(2,20,by=2)\nd\n\n [1]  2  4  6  8 10 12 14 16 18 20\n\nf <- seq(2,20, length.out=5)\nf\n\n[1]  2.0  6.5 11.0 15.5 20.0\n\nh <- seq(20,2,by=-2)\nh\n\n [1] 20 18 16 14 12 10  8  6  4  2\n\nj <- seq(20, 2, length.out=3)\nj\n\n[1] 20 11  2"
+  },
+  {
+    "objectID": "posts/series_1/new_post_6/post_6.html#repeating-vectors",
+    "href": "posts/series_1/new_post_6/post_6.html#repeating-vectors",
+    "title": "The Basics of R and RStudio",
+    "section": "Repeating vectors",
+    "text": "Repeating vectors\nTo create a repeating vector, we can use rep().\n\nk <- rep(c(0,3,6), times = 3)\nk\n\n[1] 0 3 6 0 3 6 0 3 6\n\nl <- rep(2:6, each = 3)\nl\n\n [1] 2 2 2 3 3 3 4 4 4 5 5 5 6 6 6\n\nm <- rep(7:10, length.out = 20)\nm\n\n [1]  7  8  9 10  7  8  9 10  7  8  9 10  7  8  9 10  7  8  9 10"
+  },
+  {
+    "objectID": "posts/series_1/new_post_6/post_6.html#vector-operations",
+    "href": "posts/series_1/new_post_6/post_6.html#vector-operations",
+    "title": "The Basics of R and RStudio",
+    "section": "Vector Operations",
+    "text": "Vector Operations\nVectors of equal length can be operated on together. If one vector is shorter, it will get recycled, as its elements are repeated until it matches the elements of the longer vector. When using vectors of unequal lengths, it would be ideal if the longer vector is a multiple of the shorter vector.\n\nBasic Vector Operations\n\nvec_1 <- 1:10\n\nvec_1*12 # multiplication\n\n [1]  12  24  36  48  60  72  84  96 108 120\n\nvec_1+12 # addition\n\n [1] 13 14 15 16 17 18 19 20 21 22\n\nvec_1-12 # subtraction\n\n [1] -11 -10  -9  -8  -7  -6  -5  -4  -3  -2\n\nvec_1/3 # division\n\n [1] 0.3333333 0.6666667 1.0000000 1.3333333 1.6666667 2.0000000 2.3333333\n [8] 2.6666667 3.0000000 3.3333333\n\nvec_1^4 # power\n\n [1]     1    16    81   256   625  1296  2401  4096  6561 10000\n\nsqrt(vec_1) # square root\n\n [1] 1.000000 1.414214 1.732051 2.000000 2.236068 2.449490 2.645751 2.828427\n [9] 3.000000 3.162278\n\n\n\n\nOperations on vectors of equal length\nAdditionally, we can perform operations on two vectors of equal length.\n\nCreate two vectors\n\n\nvec_3 <- 5:14\nvec_3\n\n [1]  5  6  7  8  9 10 11 12 13 14\n\nvec_4 <- 12:3\nvec_4\n\n [1] 12 11 10  9  8  7  6  5  4  3\n\n\n\nPerform various arithmetic operations\n\n\nvec_3 + vec_4\n\n [1] 17 17 17 17 17 17 17 17 17 17\n\nvec_3 - vec_4\n\n [1] -7 -5 -3 -1  1  3  5  7  9 11\n\nvec_3 / vec_4\n\n [1] 0.4166667 0.5454545 0.7000000 0.8888889 1.1250000 1.4285714 1.8333333\n [8] 2.4000000 3.2500000 4.6666667\n\nvec_3 * vec_4\n\n [1] 60 66 70 72 72 70 66 60 52 42\n\nvec_3 ^ vec_4\n\n [1] 244140625 362797056 282475249 134217728  43046721  10000000   1771561\n [8]    248832     28561      2744"
+  },
+  {
+    "objectID": "posts/series_1/new_post_6/post_6.html#functions-that-can-be-applied-to-vectors",
+    "href": "posts/series_1/new_post_6/post_6.html#functions-that-can-be-applied-to-vectors",
+    "title": "The Basics of R and RStudio",
+    "section": "Functions that can be applied to vectors",
+    "text": "Functions that can be applied to vectors\nThe functions listed below can be applied to vectors:\n\nany()\nall()\nnchar()\nlength()\ntypeof()\n\n\nExamples\n\nany(vec_3 > vec_4)\n\n[1] TRUE\n\nany(vec_3 < vec_4)\n\n[1] TRUE\n\n\n\nall(vec_3 > vec_4)\n\n[1] FALSE\n\nall(vec_3 < vec_4)\n\n[1] FALSE\n\n\n\nlength(vec_3)\n\n[1] 10\n\nlength(vec_4)\n\n[1] 10\n\n\n\ntypeof(vec_3)\n\n[1] \"integer\"\n\ntypeof(vec_4)\n\n[1] \"integer\"\n\n\nDetermine the number of letters in a character\n\nvec_5 <- c(\"R\", \"RStudio\", \"Shiny\", \"Quarto\")\nnchar(vec_5)\n\n[1] 1 7 5 6"
+  },
+  {
+    "objectID": "posts/series_1/new_post_6/post_6.html#recycling-of-vectors",
+    "href": "posts/series_1/new_post_6/post_6.html#recycling-of-vectors",
+    "title": "The Basics of R and RStudio",
+    "section": "Recycling of vectors",
+    "text": "Recycling of vectors\n\nvec_3 + c(10, 20)\n\n [1] 15 26 17 28 19 30 21 32 23 34\n\nvec_3 + c(10, 20, 30) # will result in a warning as the longer vector is not a multiple of the shorter one\n\nWarning in vec_3 + c(10, 20, 30): longer object length is not a multiple of\nshorter object length\n\n\n [1] 15 26 37 18 29 40 21 32 43 24"
+  },
+  {
+    "objectID": "posts/series_1/new_post_6/post_6.html#accessing-elements-of-a-vector",
+    "href": "posts/series_1/new_post_6/post_6.html#accessing-elements-of-a-vector",
+    "title": "The Basics of R and RStudio",
+    "section": "Accessing elements of a vector",
+    "text": "Accessing elements of a vector\nTo access the elements of a vector, we can use numeric-, character-, or logical-based indexing.\n\nExamples\n\n1. Name the columns of a vector with names().\nCreate the vector.\n\nvec_name <- 1:5\nvec_name\n\n[1] 1 2 3 4 5\n\n\nName the individual elements.\n\nnames(vec_name) <- c(\"a\", \"c\", \"e\", \"g\", \"i\")\nvec_name\n\na c e g i \n1 2 3 4 5 \n\n\n\n\n2. Use the vector index to filter\n\nvec_index <- 1:5\nvec_index\n\n[1] 1 2 3 4 5\n\n\n\na) Logical vector as an index\n\nvec_index[c(TRUE, FALSE, TRUE, FALSE, TRUE)]\n\n[1] 1 3 5\n\n\n\n\nb) Filter vector based on an index\n\nvec_index[1:3]\n\n[1] 1 2 3\n\n\n\n\nc) Access a vector using its position\n\nvec_index[4]\n\n[1] 4\n\nvec_index[c(2,4)]\n\n[1] 2 4\n\n\n\n\nd) Modify a vector using indexing\n\nvec_index\n\n[1] 1 2 3 4 5\n\nvec_index[5] <- 1000\nvec_index\n\n[1]    1    2    3    4 1000"
+  },
+  {
+    "objectID": "posts/series_1/new_post_7/post_7.html",
+    "href": "posts/series_1/new_post_7/post_7.html",
+    "title": "The Basics of R and RStudio",
+    "section": "",
+    "text": "R has two types of missing data, NA and NULL.1"
+  },
+  {
+    "objectID": "posts/series_1/new_post_7/post_7.html#na",
+    "href": "posts/series_1/new_post_7/post_7.html#na",
+    "title": "The Basics of R and RStudio",
+    "section": "NA",
+    "text": "NA\nR uses NA to represent missing data. The NA appears as another element of a vector. To test each element for missingness we use is.na(). Generally, we can use tools such as mi, mice, and Amelia (which will be discussed later) to deal with missing data. The deletion of this missing data may lead to bias or data loss, so we need to be very careful when handling it. In subsequent blog posts, we will look at the use of imputation to deal with missing data."
+  },
+  {
+    "objectID": "posts/series_1/new_post_7/post_7.html#null",
+    "href": "posts/series_1/new_post_7/post_7.html#null",
+    "title": "The Basics of R and RStudio",
+    "section": "NULL",
+    "text": "NULL\nNULL represents nothingness or the “absence of anything”. 2\nIt does not mean missing but represents nothing. NULL cannot exist within a vector because it disappears."
+  },
+  {
+    "objectID": "posts/series_1/new_post_7/post_7.html#supplementary-reading",
+    "href": "posts/series_1/new_post_7/post_7.html#supplementary-reading",
+    "title": "The Basics of R and RStudio",
+    "section": "Supplementary Reading",
+    "text": "Supplementary Reading\n\nAn excellent post from the blog “Data Science by Design” on the role of missingness."
+  },
+  {
+    "objectID": "posts/series_1/new_post_8/post_8.html",
+    "href": "posts/series_1/new_post_8/post_8.html",
+    "title": "The Basics of R and RStudio",
+    "section": "",
+    "text": "Data structures in R are tools for storing and organizing multiple values.\nThey help to organize stored data in a way that the data can be used more effectively. Data structures vary according to the number of dimensions and the data types (heterogeneous or homogeneous) contained. The primary data structures are:\n\nVectors (link)\nLists\nData frames\nMatrices\nArrays\nFactors"
+  },
+  {
+    "objectID": "posts/series_1/new_post_8/post_8.html#data-structures",
+    "href": "posts/series_1/new_post_8/post_8.html#data-structures",
+    "title": "The Basics of R and RStudio",
+    "section": "Data structures",
+    "text": "Data structures\n\n1. Vectors\nDiscussed in a previous post\n\n\n2. Lists\nLists are objects/containers that hold elements of the same or different types. They can containing strings, numbers, vectors, matrices, functions, or other lists. Lists are created with the list() function\n\nExamples\n\n\na. Three element list\n\nlist_1 <- list(10, 30, 50)\n\n\n\nb. Single element list\n\nlist_2 <- list(c(10, 30, 50))\n\n\n\nc. Three element list\n\nlist_3 <- list(1:3, c(50,40), 3:-5)\n\n\n\nd. List with elements of different types\n\nlist_4 <- list(c(\"a\", \"b\", \"c\"), 5:-1)\n\n\n\ne. List which contains a list\n\nlist_5 <- list(c(\"a\", \"b\", \"c\"), 5:-1, list_1)\n\n\n\nf. Set names for the list elements\n\nnames(list_5)\n\nNULL\n\nnames(list_5) <- c(\"character vector\", \"numeric vector\", \"list\")\nnames(list_5)\n\n[1] \"character vector\" \"numeric vector\"   \"list\"            \n\n\n\n\ng. Access elements\n\nlist_5[[1]]\n\n[1] \"a\" \"b\" \"c\"\n\nlist_5[[\"character vector\"]]\n\n[1] \"a\" \"b\" \"c\"\n\n\n\n\nh. Length of list\n\nlength(list_1)\n\n[1] 3\n\nlength(list_5)\n\n[1] 3\n\n\n\n\n\n3. Data frames\nA data frame is one of the most common data objects used to store tabular data in R. Tabular data has rows representing observations and columns representing variables. Dataframes contain lists of equal-length vectors. Each column holds a different type of data, but within each column, the elements must be of the same type. The most common data frame characteristics are listed below:\n• Columns should have a name;\n• Row names should be unique;\n• Various data can be stored (such as numeric, factor, and character);\n• The individual columns should contain the same number of data items.\n\n\nCreation of data frames\n\nlevel <- c(\"Low\", \"Mid\", \"High\")\nlanguage <- c(\"R\", \"RStudio\", \"Shiny\")\nage <- c(25, 36, 47)\n\ndf_1 <- data.frame(level, language, age)\n\n\n\nFunctions used to manipulate data frames\n\na. Number of rows\n\nnrow(df_1)\n\n[1] 3\n\n\n\n\nb. Number of columns\n\nncol(df_1)\n\n[1] 3\n\n\n\n\nc. Dimensions\n\ndim(df_1)\n\n[1] 3 3\n\n\n\n\nd. Class of data frame\n\nclass(df_1)\n\n[1] \"data.frame\"\n\n\n\n\ne. Column names\n\ncolnames(df_1)\n\n[1] \"level\"    \"language\" \"age\"     \n\n\n\n\nf. Row names\n\nrownames(df_1)\n\n[1] \"1\" \"2\" \"3\"\n\n\n\n\ng. Top and bottom values\n\nhead(df_1, n=2)\n\n  level language age\n1   Low        R  25\n2   Mid  RStudio  36\n\ntail(df_1, n=2)\n\n  level language age\n2   Mid  RStudio  36\n3  High    Shiny  47\n\n\n\n\nh. Access columns\n\ndf_1$level\n\n[1] \"Low\"  \"Mid\"  \"High\"\n\n\n\n\ni. Access individual elements\n\ndf_1[3,2]\n\n[1] \"Shiny\"\n\ndf_1[2, 1:2]\n\n  level language\n2   Mid  RStudio\n\n\n\n\nj. Access columns with index\n\ndf_1[, 3]\n\n[1] 25 36 47\n\ndf_1[, c(\"language\")]\n\n[1] \"R\"       \"RStudio\" \"Shiny\"  \n\n\n\n\nk. Access rows with index\n\ndf_1[2, ]\n\n  level language age\n2   Mid  RStudio  36\n\n\n\n\n\n4. Matrices\nA matrix is a rectangular two-dimensional (2D) homogeneous data set containing rows and columns. It contains real numbers that are arranged in a fixed number of rows and columns. Matrices are generally used for various mathematical and statistical applications.\n\na. Creation of matrices\n\nm1 <- matrix(1:9, nrow = 3, ncol = 3) \nm2 <- matrix(21:29, nrow = 3, ncol = 3) \nm3 <- matrix(1:12, nrow = 2, ncol = 6)\n\n\n\nb. Obtain the dimensions of the matrices\n\n# m1\nnrow(m1)\n\n[1] 3\n\nncol(m1)\n\n[1] 3\n\ndim(m1)\n\n[1] 3 3\n\n# m3\nnrow(m3)\n\n[1] 2\n\nncol(m3)\n\n[1] 6\n\ndim(m3)\n\n[1] 2 6\n\n\n\n\nc. Arithmetic with matrices\n\nm1+m2\n\n     [,1] [,2] [,3]\n[1,]   22   28   34\n[2,]   24   30   36\n[3,]   26   32   38\n\nm1-m2\n\n     [,1] [,2] [,3]\n[1,]  -20  -20  -20\n[2,]  -20  -20  -20\n[3,]  -20  -20  -20\n\nm1*m2\n\n     [,1] [,2] [,3]\n[1,]   21   96  189\n[2,]   44  125  224\n[3,]   69  156  261\n\nm1/m2\n\n           [,1]      [,2]      [,3]\n[1,] 0.04761905 0.1666667 0.2592593\n[2,] 0.09090909 0.2000000 0.2857143\n[3,] 0.13043478 0.2307692 0.3103448\n\nm1 == m2\n\n      [,1]  [,2]  [,3]\n[1,] FALSE FALSE FALSE\n[2,] FALSE FALSE FALSE\n[3,] FALSE FALSE FALSE\n\n\n\n\nd. Matrix multiplication\n\nm5 <- matrix(1:10, nrow = 5)\nm6 <- matrix(43:34, nrow = 5)\n\nm5*m6\n\n     [,1] [,2]\n[1,]   43  228\n[2,]   84  259\n[3,]  123  288\n[4,]  160  315\n[5,]  195  340\n\n# m5%*%m6 will not work because of the dimesions.\n# the vector m6 needs to be transposed.\n\n# Transpose\nm5%*%t(m6)\n\n     [,1] [,2] [,3] [,4] [,5]\n[1,]  271  264  257  250  243\n[2,]  352  343  334  325  316\n[3,]  433  422  411  400  389\n[4,]  514  501  488  475  462\n[5,]  595  580  565  550  535\n\n\n\n\ne. Generate an identity matrix\n\ndiag(5)\n\n     [,1] [,2] [,3] [,4] [,5]\n[1,]    1    0    0    0    0\n[2,]    0    1    0    0    0\n[3,]    0    0    1    0    0\n[4,]    0    0    0    1    0\n[5,]    0    0    0    0    1\n\n\n\n\nf. Column and row names\n\ncolnames(m5)\n\nNULL\n\nrownames(m6)\n\nNULL\n\n\n\n\n\n5. Arrays\nAn array is a multidimensional vector that stores homogeneous data. It can be thought of as a stacked matrix and stores data in more than 2 dimensions (n-dimensional). An array is composed of rows by columns by dimensions. Example: an array with dimensions, dim = c(2,3,3), has 2 rows, 3 columns, and 3 matrices.\n\na. Creating arrays\n\narr_1 <- array(1:12, dim = c(2,3,2))\n\narr_1\n\n, , 1\n\n     [,1] [,2] [,3]\n[1,]    1    3    5\n[2,]    2    4    6\n\n, , 2\n\n     [,1] [,2] [,3]\n[1,]    7    9   11\n[2,]    8   10   12\n\n\n\n\nb. Filter array by index\n\narr_1[1, , ]\n\n     [,1] [,2]\n[1,]    1    7\n[2,]    3    9\n[3,]    5   11\n\narr_1[1, ,1]\n\n[1] 1 3 5\n\narr_1[, , 1]\n\n     [,1] [,2] [,3]\n[1,]    1    3    5\n[2,]    2    4    6\n\n\n\n\n\n6. Factors\nFactors are used to store integers or strings which are categorical. They categorize data and store the data in different levels. This form of data storage is useful for statistical modeling. Examples include TRUE or FALSE and male or female.\n\nvector <- c(\"Male\", \"Female\")\nfactor_1 <- factor(vector)\nfactor_1\n\n[1] Male   Female\nLevels: Female Male\n\n\nOR\n\nfactor_2 <- as.factor(vector)\nfactor_2\n\n[1] Male   Female\nLevels: Female Male\n\nas.numeric(factor_2)\n\n[1] 2 1"
+  },
+  {
+    "objectID": "posts/series_2/new_post_1/post_1.html",
+    "href": "posts/series_2/new_post_1/post_1.html",
+    "title": "Are there more men than women in Kenya?",
+    "section": "",
+    "text": "To answer this question, I reviewed the Kenya Population and Housing Census (2019)12 report, which provides data on population by sex and age at the county and sub-county levels. This analysis was inspired by Rose Mintzer-Sweeney’s article “Sex and the Census,” published on the Datawrapper website 3.\nVarious biological, cultural, public health, and economic factors can influence the global human sex ratio. For instance, at birth, the human sex ratio is “male-biased,” with approximately 105 males born per 100 girls. However, with increasing age, the susceptibility to infectious diseases, sex-selective abortions, and higher life expectancies for women can cause fluctuations in the human sex ratio4. The total Kenyan population in 2019 (according to the census) was 47,564,296. When I compared the number of males to females at the national level (Figure 1), I found that there were 98 males for every 100 females in the country5.\nKnowing there were more females than males, I sought to determine whether these differences persisted across all age groups (Figure 2).\nAs expected, I observed a higher number of males compared with females between 0 to 18 years. One reason could be the higher male-to-female ratio seen at birth globally6. Between the ages of 19 to 34 years, the male-to-female ratio decreases rapidly, while from 35 to 56 years, the ratio increases rapidly. The cause of this fluctuation is not apparent, but various public health factors may be responsible for the shifts observed within these age groups. Finally, the number of males compared with females steadily decreases after age 60. One reason for this could be the prevalence of medical conditions that disproportionately affect men. Additionally, the decrease in the number of males to females could result from increases in life expectancy favoring women, as demonstrated by the Economic Survey 2022, which shows that the male life expectancy is 60.6 vs. 66.5 for females7.\nBy focusing on the national human sex ratio, we may assume that the male-to-female ratio across all the regions in Kenya is equal. Kenya has 47 diverse counties with different population densities, climatic conditions, economic opportunities, and levels of development. Not surprisingly, we find (Figure 3) that there is a wide range of human sex ratios (90–120 males per 100 females) across the different counties (administrative units).\nThe highest sex ratio is found in Garissa county (120 males per 100 females), and the lowest is observed in Siaya county (90 males per 100 females). Many counties with low sex ratios (more females) are primarily located in the west of Kenya, and counties with high sex ratios (more males) are found in the north of Kenya. According to the Economic Survey (2022) [^8], male life expectancy in the west of Kenya is the lowest in the country. Homa Bay and Migori recorded a life expectancy of 50.5 years, which was approximately 10 years lower than that of females in the respective counties. This is against a difference of 3 to 5 years lower for males in some of the counties in the north of Kenya.\nWithin each of Kenya’s 47 counties are smaller administrative units known as sub-counties. For the final analysis, I thought it would be interesting to see whether the patterns observed at the county level were consistent across the various sub-counties.\nHaving just observed that counties in the north of Kenya had the highest number of males per 100 females, I was surprised to find that Mandera Central (Mandera County) and Tarbaj (Wajir County) sub-counties in the north were among the sub-counties with the lowest number of males per 100 females (Figure 4). Why females tend to concentrate within specific regions in these two counties may be an interesting aspect to investigate in future studies.\nOverall, many factors may affect the human sex ratio at the county and sub-county levels and cause the differences in the human sex ratio seen with age. High rural-urban migration, public health factors (including the prevalence of various communicable and non-communicable diseases), climate, and location’s primary source of employment may skew the number of males to females in certain sub-counties. Therefore, future investigations should focus on the causes of these variations in the human sex ratio and the implications for administrative planning at the national, county, and sub-county levels."
+  },
+  {
+    "objectID": "posts/series_2/new_post_2/post_2.html",
+    "href": "posts/series_2/new_post_2/post_2.html",
+    "title": "A roof over your head",
+    "section": "",
+    "text": "Introduction\nAn aerial view of most settlements in Kenya will demonstrate that many residential home roofs are constructed using iron sheets.\nIndeed, this is confirmed by the Kenya Population and Housing Census (2019) report 1 2 where we see that 4 out of every 5 households (total number = 12,043,016) in Kenya is roofed using iron sheets (Figure 1). Overall, the top 5 building materials are iron sheets (80.3%), concrete (8.2%), grass/twigs (5.1%), makuti (sun-dried coconut palm leaves; 1.6%), and asbestos (1.4%). Despite the widespread use of iron sheets, it is surprising to note that 1.4% (2.2% urban and 0.9% rural) of residential household roofs (which is approximately 170,000) are covered with asbestos-based roofing materials (NB: this figure does not include public buildings such as educational institutions and government facilities).\n\n\n\n\n\nFigure 1: Roof types in Kenya (visualizations generated in RStudio)\n\n\nAsbestos and its potential risks\nAsbestos refers to a class of six minerals that naturally form a bundle of fibers. These fibers have many properties that make them attractive, including a lack of electrical conductivity, and chemical, heat, and fire resistance. Historically, asbestos has been used for various commercial and industrial applications, including roofing shingles, automobile brakes, and textured paints for walls and ceilings 3. However, using asbestos for products that come into regular contact with humans is quite problematic. Why? Asbestos is a known human carcinogen, and the primary risk factor for most mesotheliomas is asbestos exposure 4 5. Furthermore, asbestos exposure (depending on the frequency, amount, and type) can cause asbestosis, pleural disease, and cancer. If asbestos-based materials remain intact, there is minimal risk to the user, but if materials are damaged via natural degradation or during home demolition and remodeling, tiny asbestos fibers will be released into the air 6 7. In Kenya, Legal Notice No. 121 of the Environmental Management and Coordination (Waste Management) Regulations (2006)8 states that waste containing asbestos is classified as hazardous. Why should Kenyans be concerned about this? In the 2013/2014 financial year, Kenya spent approximately one-tenth of its total health budget on asbestos-related cancers 9 10 11.\nWhere do we find high numbers of asbestos-based roofs in Kenya? As previously stated, 1.4% of households in Kenya have asbestos-based roofs. Figure 2 demonstrates the percentage of households with asbestos-based roofs in every county in Kenya. Interestingly, 4 (Nairobi, Kajiado, Machakos, and Kiambu) out of the top 6 counties (from a total of 47) fall within the Nairobi Metropolitan region.\n\n\nWhere do we find high numbers of asbestos-based roofs in Kenya?\nAs previously stated, 1.4% of households in Kenya have asbestos-based roofs. Figure 2 demonstrates the percentage of households with asbestos-based roofs in every county in Kenya. Interestingly, 4 (Nairobi, Kajiado, Machakos, and Kiambu) out of the top 6 counties (from a total of 47) fall within the Nairobi Metropolitan region.\n\n\n\n\n\nFigure 2: Percentage(%) of households with asbestos-based roofs distributed by county (visualizations generated using RStudio)\nNext, I investigated the subcounties with the highest number of households with asbestos-based roofs. The top 5 subcounties are located within Nairobi county, with Embakasi subcounty taking the lead with just over 8,000 households.\n\n\n\n\n\nFigure 3: The top ten subcounties with the highest number of households that have asbestos-based roofs (visualizations generated using RStudio)\n\n\nConclusion\nOverall, this study demonstrates that a notable proportion of Kenyan households used asbestos-based roofing materials, with Nairobi Metropolitan county accounting for the largest number of households. It is widely acknowledged that asbestos is harmful to our health, and asbestos-related diseases impose a significant burden on the economy. However, the impact of these roofs on the health of residents may not be fully apparent as asbestos exposure may also occur in various settings such as educational facilities and government institutions. To lessen the impact of asbestos exposure, it would be beneficial for local/county governments to educate residents about the dangers of asbestos and facilitate the complex and costly removal of asbestos-based roofing materials.\n\n\n\n\n\nFootnotes\n\n\nKenya National Bureau of Statistics. The 2019 Kenya Population and Housing Census. Volume I: Population by County and Sub-County and Volume III: Distribution of Population by Age and Sex.↩︎\nShelmith Kariuki (2020). rKenyaCensus: 2019 Kenya Population and Housing Census Results. R package version 0.0.2.↩︎\nLearn About Asbestos (no date) EPA. Environmental Protection Agency. Available at: https://www.epa.gov/asbestos/learn-about-asbestos (Accessed: December 1, 2022).↩︎\nAsbestos exposure and cancer risk fact sheet (no date) National Cancer Institute. Available at: https://www.cancer.gov/about-cancer/causes-prevention/risk/substances/asbestos/asbestos-fact-sheet (Accessed: December 1, 2022).↩︎\nAsbestos (no date) World Health Organization. World Health Organization. Available at: https://www.iarc.who.int/risk-factor/asbestos/ (Accessed: December 1, 2022).↩︎\nLearn About Asbestos (no date) EPA. Environmental Protection Agency. Available at: https://www.epa.gov/asbestos/learn-about-asbestos (Accessed: December 1, 2022).↩︎\nAsbestos and your health (2016) Centers for Disease Control and Prevention. Centers for Disease Control and Prevention. Available at: https://www.atsdr.cdc.gov/asbestos/index.html (Accessed: December 1, 2022).↩︎\nAct Title: ENVIRONMENTAL MANAGEMENT AND CO-ORDINATION (no date) No. 8 of 1999. Available at: http://kenyalaw.org:8181/exist/kenyalex/sublegview.xql?subleg=No.+8+of+1999 (Accessed: December 1, 2022).↩︎\nOkoth, D. (2013) Slow transition from use of asbestos raises concern as cancer cases rise, The Standard. Available at: https://www.standardmedia.co.ke/lifestyle/article/2000096118/slow-transition-from-use-of-asbestos-raises-concern-as-cancer-cases-rise (Accessed: December 1, 2022).↩︎\nGCR, S. (2016) Kenya faces cancer epidemic caused by asbestos roofs, Global Construction Review. Available at: https://www.globalconstructionreview.com/kenya-faces-cancer-epid7emic-caus7ed-asbe7stos/ (Accessed: December 1, 2022).↩︎\nIrungu, S. (2020) Exposure to the noxious asbestos needs to be alleviated with a lot of care, Kenya Climate Innovation Center (KCIC). Available at: https://www.kenyacic.org/2019/11/exposure-to-the-noxious-asbestos-needs-to-be-alleviated-with-a-lot-of-care/ (Accessed: December 1, 2022).↩︎"
+  },
+  {
+    "objectID": "posts/series_2/new_post_3/post_3.html",
+    "href": "posts/series_2/new_post_3/post_3.html",
+    "title": "Data Visualization for Government",
+    "section": "",
+    "text": "Introduction\nIn January 2018, former President Uhuru Kenyatta announced the creation of the Chief Administrative Secretary (CAS) position. The primary role of the appointees would be to “help the Cabinet Secretary to better coordinate the running of the affairs of the respective ministries 1.” Though highly controversial at the time (as civil society groups 2 challenged the legality of the position), the High Court (in February 2023) eventually ruled that the decision to create the new position was lawful 3.\nThe Public Service Commission (PSC) of Kenya is responsible for government recruitment, and Section 234 of the Constitution of Kenya states that part of its mandate includes the “establishment of public offices” and “appointment of persons to those offices.” The most recent call for applications to the CAS position was circulated in October 2022 4. Here, the PSC listed the roles, responsibilities, and requirements for all applicants. To ensure transparency in the recruitment process, the PSC provided a list of all the applicants 5, the shortlisted applicants [5], and a schedule of the interview times [5]. After the interview, the names of successful candidates were forwarded to the President for appointment. On March 16th, 2023, President William Ruto appointed fifty (50) individuals to the CAS position, which was more than double the number of positions created by the PSC. The legality of these appointments has already been challenged in court and we await the final verdict 6 7.\nControversy aside, the goal of this article is to provide a data-driven assessment of publicly available recruitment information (specifically gender, disability status, and county of origin) to determine whether principles of diversity, equity, and inclusion (DEI) were promoted during the hiring process.\n\n\nSummary of Findings\n\nOnly 26% of the CAS appointments went to women, even though 33% of applicants and 36% of those shortlisted were female. This may not be in line with the “two-thirds gender rule” outlined in Article 27(8) of the Constitution of Kenya (2010) which states that “not more than two-thirds of the members of elective or appointive bodies shall be of the same gender.”\n\n\n\n\n\n\n\nTwo percent (2%) of the nominees were Persons with Disabilities (PWDs), which is representative of the percentage of Kenyans (at the national level) living with a disability (2.2%) 8. However, institutions such as the National Gender and Equality Commission should develop programs to increase the number of applicants from marginalized groups.\n\n\n\n\n\n\n\nIn total, there were 133 applicants from Busia County (2.5%). Despite this, it was the only county that did not have a representative on the shortlist. To remedy this, the PSC may need to put in place affirmative action policies that ensure that at least one applicant from each county makes it to the shortlist.\n\n\n\n\n\n\n\nNine counties are not represented in the final list of nominees.\n\n\n\n\n\n\n\nTen counties have more than one CAS nominee.\n\n\n\n\n\n\n\n\nConclusion\nOverall, this article provided a set of data visualizations to help understand the demographics of applicants for the CAS position in Kenya. Specifically, the gender, disability status, and county of origin were assessed at the applicant, shortlisting, and nomination stages. This study had several key findings:\n\nLess than one-third of the nominees were women even though 36% of the nominees shortlisted were female.\nOnly one nominee was a person with a disability (PWD).\nOne county (Busia) failed to have any applicants make it to the shortlist of 240 and nine counties in total had zero nominees out of 50.\n\nFuture work will assess the data at a more granular level and determine the counties where there were low numbers of total applicants, low numbers of women at the application and shortlisting stage, and also determine which counties did not have PWD applicants. Additionally, it would be helpful if the PSC could provide age and education level data to help perform a more thorough analysis of the recruitment process. Lastly, it is commendable that the PSC makes this information publicly available, and I hope that further analysis of the data can result in initiatives to diversify the candidate pool at the applicant and shortlisting stages.\n\n\nFun Fact\nThe most common applicant first names (male and female).\n\n\n\n\n\n\n\n\n\n\nFootnotes\n\n\nPSCU (2018) Uhuru Kenyatta’s Full Statement On New Cabinet. Available at: https://www.citizen.digital/news/uhuru-kenyattas-full-statement-on-new-cabinet-189331 (Accessed: April 2, 2023).↩︎\nBetty Njeru (2018) Activist Omtatah moves to court challenging the creation of new cabinet positions. Available at: https://www.standardmedia.co.ke/kenya/article/2001267705/okiya-omtatah-moves-to-court-challenging-new-cabinet-positions (Accessed: April 6, 2023).↩︎\nCorrespondent (2023) Labour Court Clears Way For Appointment Of Chief Administrative Secretaries. Available at: https://www.capitalfm.co.ke/news/2023/02/labour-court-clears-the-way-for-appointment-of-chief-administrative-secretaries/ (Accessed: April 10, 2023).↩︎\nPSC (2023) CALL FOR APPLICATIONS TO THE POSITION OF CHIEF ADMINISTRATIVE SECRETARY IN THE PUBLIC SERVICE. Available at: https://www.publicservice.go.ke/index.php/media-center/2/202-call-for-applications-to-the-position-of-chief-administrative-secretary-in-the-public-service (Accessed: April 10, 2023).↩︎\nPSC (2023) Shortlisted Candidates. Available at: https://www.publicservice.go.ke/index.php/recruitment/shortlisted-candidates (Accessed: April 10, 2023).↩︎\nSusan Muhindi (2023) Ruto’s 50 CAS nomination list challenged in court. Available at: https://www.the-star.co.ke/news/2023-03-20-rutos-50-cas-nomination-list-challenged-in-court/ (Accessed: April 2, 2023).↩︎\nEmmanuel Wanjala (2023). Available at: https://www.the-star.co.ke/news/2023-03-17-ruto-has-created-27-illegal-cas-posts-lsks-eric-theuri/ (Accessed: April 5, 2023).↩︎\n\nShelmith Kariuki (2020). rKenyaCensus: 2019 Kenya Population and Housing Census Results. R package version 0.0.2.\n\n↩︎"
+  },
+  {
+    "objectID": "resources/biox/bioinf.html",
+    "href": "resources/biox/bioinf.html",
+    "title": "Bioinformatics and Computational Biology",
+    "section": "",
+    "text": "JT Leek\nKarolis Koncevičius\nEytan Ruppin\nLior Pachter\nJean Fan\nLiu Lab\nCosta Lab\nMing Tang\nJames Zou\nKarl Broman\nKrishnaswamy Lab\nPhilip Compeau\nZHOU LAB\nChildhood Cancer Data Lab\nDiving into Genetics and Genomics"
+  },
+  {
+    "objectID": "resources/biox/bioinf.html#bioinformatics-news-stories",
+    "href": "resources/biox/bioinf.html#bioinformatics-news-stories",
+    "title": "Bioinformatics and Computational Biology",
+    "section": "Bioinformatics News Stories",
+    "text": "Bioinformatics News Stories\n\nGENOMES ARISING\nThe next chapter for African genomics"
+  },
+  {
+    "objectID": "resources/biox/bioinf.html#bioinformatics-basics",
+    "href": "resources/biox/bioinf.html#bioinformatics-basics",
+    "title": "Bioinformatics and Computational Biology",
+    "section": "Bioinformatics Basics",
+    "text": "Bioinformatics Basics\n\nCourses and Lectures\n\nIntroduction to Genomics for Engineers\nIntroduction to Computational Biology\nSDS 348, Computational Biology and Bioinformatics 2019\nSDS 348, Computational Biology and Bioinformatics 2020\nBMI 702 | Biomedical Artificial Intelligence\nDIY Transcriptomics\nBIG Bioinformatics\nIntro to Biomedical Data Science\nIntroduction to Unix, Orchestra and RNA-Seq\nLinux command line exercises for NGS data processing\nIntroduction to Unix\nEngineering Biology Research Consortium\nGenomic Data Science Community Network\nLearn about Bioinformatics and Computational Tools for Biology\nIntroduction to R for Biologists\nGraphs and Networks for Biology using R\nHBC Training Program Basic Data Skills\n\n\n\nBooks and Resources\n\nWelcome to a Little Book of R for Bioinformatics\nModern Statistics for Modern Biology\nLearning Bioinformatics At Home\nImportant numbers in Cell Biology\nThe Biologist’s Guide to Computing\nBioinformatics Starter Pack\nOrchestrating Single-Cell Analysis with Bioconductor\nSingle-cell best practices\nBiodatascience101\nIntroduction to biological circuit design\nBiological Architecture Reading Roadmap\nRNA-Seq Blog\n7 Books for you to learn bioinformatics\nBiomedical Data Science Book\nCRISPRpedia\nData Science for the Biomedical Sciences\nWhat is genomics?\nCOLAUTTI LAB Books and Resources\n20 YouTube Channels Every Bioinformatician Should Follow\nData Analysis for the Life Sciences (Free E-book)\nPractical Computing for Biologists\nBioinformatics Data Skills (2015)\nThe Supplementary Material Repository for Bioinformatics Data Skills\nFrom cell line to command line\nA Primer for Computational Biology\nComputational Genomics with R\nThe Biostar Handbook. A bioinformatics e-book for beginners\nCleva Lab Biology\nFolding@Home\nPython for biologists\nModeling Life\nFundamentals of computational biology\nLearn Bioinformatics in 100 hours\nCollection of bioinformatics training materials\nBioinformatics Workbook\nMy opinionated selection of books/urls for bioinformatics/data science curriculum\nStatistical Modeling of High Dimensional Counts\nGenomics Boot Camp\nDeep learning on computational biology and bioinformatics tutorial\n\n\n\nTools\n\nR2 Genomics Analysis and Visualization Platform\nExploring Spatial Omics\nBD2K-LINCS DATA COORDINATION AND INTEGRATION CENTER\nThe Top 15 Machine Learning Data Science Bioinformatics Open Source Projects\nBiopython\ngget\nROSALIND\nFree and Open Source Tools for Bioinformatics and Molecular Biology\nPiGx: Pipelines in Genomics\nUSC Libraries Bioinformatics\nNCI Bioinformatics Training and Education Program\nHarvard Chan Bioinformatics Core\nGenomic Data Processing\nMachine Learning in Genomics Workshop"
+  },
+  {
+    "objectID": "resources/biox/bioinf.html#bioinformatics-tutorials-and-projects",
+    "href": "resources/biox/bioinf.html#bioinformatics-tutorials-and-projects",
+    "title": "Bioinformatics and Computational Biology",
+    "section": "Bioinformatics Tutorials and Projects",
+    "text": "Bioinformatics Tutorials and Projects\n\nTutorials\n\nOncology Bioinformatics project tutorial\nCentre of Bioinformatics Research and Technology (CBIRT)\nGalaxy Training\nChildhood Cancer Data Lab Workshop Materials\nChildhood Cancer Data Lab Research Resources\nCrash Courses in Bioinformatics\nData Carpentry for Biologists\nIllustrating Python via Examples from Bioinformatics\nIllustrating Python via Bioinformatics Examples\nEVOLUTION AND GENOMICS\nBioinformatics Introduction\nGriffith Lab Tutorials and Courses\nPCA in action\nA Primer on Deep Learning in Genomics\nBioinformatics Tutorials\nFree online training in bioinformatics and biostatistics\nBioinformatics Midterm Project\nIntroduction to bioinformatics\nExplore the world of Bioinformatics with Machine Learning\n\n\nTidyverse and R\n\nBioinformatics in the Tidyverse\nAn Introduction to R through the tidyverse + Bioinformatics\nR for Biology Data Science\nIntro to R and RStudio for Genomics\nThe Bioconductor 2018 Workshop Compilation\nBioconductor Workshop 1 Jupyter Notebooks\nMicroArray Project\n\n\n\nBioPython\n\nFirst Steps in Biopython\nWhat is BioPython\nGetting Started with Biopython\nBiopython Tutorial\nPractical Computing for Biologists\nBiopython Tutorial and Cookbook\n\n\n\n\nProjects\n\nAnalysing the HIV pandemic, Part 1: HIV in sub-Sahara Africa\nAnalysing the HIV pandemic, Part 2: Drug resistance testing\nAnalysing the HIV pandemic, Part 3: Genetic diversity\nAnalysing the HIV pandemic, Part 4: Classification of lab samples\nMachine learning for biology part one\nMachine learning for biology part two\nMachine learning for biology part three\nMachine learning for biology part four"
+  },
+  {
+    "objectID": "resources/biox/biomech_sports_be.html",
+    "href": "resources/biox/biomech_sports_be.html",
+    "title": "Biomechanics and Sports Engineering",
+    "section": "",
+    "text": "A curated repository of biomechanical resources\n\n\n\n\n\nStuart McErlain-Naylor Biomechanics Website\n\n\n\n\n\n\n\n\nBiomechanics of Movement\nThe Biomechanics of Solids and Fluids: The Physics of Life\n\n\n\n\n\nBiomechanics of Movement Classroom\nReinbolt Research Group\nNotes on Scientific Computing for Biomechanics and Motor Control\nUnderstanding Biomechanics and Body Movement\nThe Biomechanist\n\n\n\n\n\nBecoming a Sports Engineer\nPeak Performance Project\nBTS Bioengineering\nSparta Science"
+  },
+  {
+    "objectID": "resources/biox/opensource_bio.html",
+    "href": "resources/biox/opensource_bio.html",
+    "title": "Open-Source Bio",
+    "section": "",
+    "text": "Andre Maia Chagas Open-Source\nSynthetic Biology for engineering plant growth\n\n\n\n\n\nOpen Source Tools for Computational Biology\n\n\n\n\n\nDIY BIO - Listing of local groups\n\n\n\n\n\nOpen Labware\nOpen Neuroscience\nOpen Source BioArt\nOpen Source Bioreactor\nOpen Source Bioreactor Project\nFarma: a Home Bioreactor for Pharmaceutical Drugs\nGaudi Labs Open Culture Technology\nRaspberry Pi: a versatile tool for biological sciences\nOpen sourcing bioinstruments\nAppropedia: Open Source Technology\nIFIXIT Medical Device Repair\nDFROBOT\nOpen-source robotic platform for experimental automation\nLab On The Cheap\nDIYbio Lab\n\n\n\n\n\nPloS Open Source Toolkit\nOpen Source Hardware Journal\nOpen Source Biomaker\nTREND Africa Open Source Training\n\n\n\n\n\nOpen Data Kit\nOpen mHealth\nMobile Sensor Data to Knowledge"
+  },
+  {
+    "objectID": "resources/data_viz/ds_journalism.html",
+    "href": "resources/data_viz/ds_journalism.html",
+    "title": "Data Journalism Tools and Stories",
+    "section": "",
+    "text": "A listing of data journalism practitioners and companies to follow:\n\nSeth Stephens-Davidowitz\nQuant Editing\nAmber Thomas\nData Journalism and Viz Accounts\nFlowing Data Website\n\n\n\n\n\nGitHub Data Journalism\nA Beginner’s Guide to Data Journalism: Let’s Build a Story From Scratch\nQuick Guide to Data Journalism\nData journalism: a guide for editors\nDeveloping Data Journalists in the Developing World\n\n\n\n\n\nInterrogating Data: A Science Writer’s Guide to Data Journalism\nThe Beginning, The Middle, & The New Beginning\nHow data journalists create beautiful feature stories\nA data journalist’s guide to building a hypothesis\nFlowing Data Story Formats\nTelling Stories With Data: A Simple Math Guide\nData Biographies: Getting to Know Your Data\nPutting data back into context\nDueling Data\n\n\n\n\n\nData Journalism Tools\nData Journalism and Visualization with Free Tools\nStorytelling Tools\nStoryBench: The future of machine learning in journalism\nHow ProPublica Analyzed Pardon Data\n\n\n\n\n\nMapping search data from Google Trends in R\nUsing R to Analyze Fargo Crime Data\n\n\n\n\n\nGlobal Investigative Journalism Network Data Journalism\nProPublica Data Institute 2018\nProPublica Data Institute 2019\nSIGMA Awards\nKnight Foundation: Misinformation\nThe Bureau of Investigative Journalism\nFake News Public Data Lab\nAP DataKit\nData Journalism Grants\nA community conference for data makers everywhere\nGoogle News Initiative"
+  },
+  {
+    "objectID": "resources/data_viz/ds_journalism.html#data-stories-longform-and-in-depth-articles",
+    "href": "resources/data_viz/ds_journalism.html#data-stories-longform-and-in-depth-articles",
+    "title": "Data Journalism Tools and Stories",
+    "section": "Data Stories (Longform and In-depth articles)",
+    "text": "Data Stories (Longform and In-depth articles)\n\nStory aggregators\n\nGlobal Investigative Journalism Network Top 10\nMedia Hack Collective\n12 brilliant data journalism projects of 2021\nData Journalism: Some Favorite Examples\nExamples of Award-winning Data Journalism\n12 Best Data Journalism Examples:Storytelling with data\n10 data journalism projects that made an impact in 2020: our ultimate COVID-19 roundup\n\n\n\nTop Data Story Examples\n\n10 years. 180 school shootings. 356 victims.\nBlind Drunk\nUber Game\nWhat Africa will look like in 100 years\nONE NATION, TRACKED\nLife in the camps\nLife in Hong Kong’s shoebox housing\nThe Airbnb effect\nNSA Files Decoded\nThe Deadliest Jobs in America\nCongressional Tweets\nThe Kim Foxx Effect\nWhat makes a titletown?\nHigh street crisis deepens\nThe use of political ads on facebook in the run-up to the European Parliament elections 2019 in Austria\nWhat the Democratic Presidential Candidates Care About, in 44,000 Tweets\nHow many high school stars make it in the NBA?\nThe Facebook Scandal"
+  },
+  {
+    "objectID": "resources/data_viz/ds_viz.html#visualization",
+    "href": "resources/data_viz/ds_viz.html#visualization",
+    "title": "Data Visualization and Storytelling",
+    "section": "Visualization",
+    "text": "Visualization\n\n1. Data Visualization (General)\n\n\n2. Data Visualization (R)\n\n\n3. Data Visualization (Python)\n\n\n4. Data Visualization (Tableau)"
+  },
+  {
+    "objectID": "resources/data_viz/ds_viz.html#journalism-and-storytelling",
+    "href": "resources/data_viz/ds_viz.html#journalism-and-storytelling",
+    "title": "Data Visualization and Storytelling",
+    "section": "Journalism and Storytelling",
+    "text": "Journalism and Storytelling\n\n1. Data Journalism and Storytelling"
+  },
+  {
+    "objectID": "resources/data_viz/ds_viz_general.html",
+    "href": "resources/data_viz/ds_viz_general.html",
+    "title": "Data Visualization (General)",
+    "section": "",
+    "text": "A listing of data visualization specialists and companies to follow:\n\n\n\nMaarten Lambrechts\nAda Homolova\nLisa Charlotte Muth\nZev Ross\nEdward Tufte\nCÉDRIC SCHERER\nKieran Healy\nLittle Miss Data\nSportsChord\n\n\n\n\n\nStamen"
+  },
+  {
+    "objectID": "resources/data_viz/ds_viz_general.html#data-visualization-general",
+    "href": "resources/data_viz/ds_viz_general.html#data-visualization-general",
+    "title": "Data Visualization (General)",
+    "section": "Data Visualization (General)",
+    "text": "Data Visualization (General)\n\nSelecting the appropriate chart types\n\nVisual Vocabulary\nThe unspoken rules of visualisation\nWhat Are Data Visualization Style Guidelines?\nData visualization\nWhy scientists need to be better at data visualization\nData Viz Project\nA Tufte Handout Example\n\n\n\nSelecting the appropriate colors\n\nColor in Data Vis\nColor Brewer\nYour Friendly Guide to Colors in Data Visualisation\n\n\n\nData Viz Challenges\n\nBlack in Data Vis Challenge\nVIZRISK CHALLENGE STEPS\n\n\n\nBooks\n\nA Reader on Data Visualization\nData Visualization: A practical introduction"
+  },
+  {
+    "objectID": "resources/data_viz/ds_viz_py.html",
+    "href": "resources/data_viz/ds_viz_py.html",
+    "title": "Data Visualization (Python)",
+    "section": "",
+    "text": "The Python Graph Gallery"
+  },
+  {
+    "objectID": "resources/data_viz/ds_viz_py.html#tutorials",
+    "href": "resources/data_viz/ds_viz_py.html#tutorials",
+    "title": "Data Visualization (Python)",
+    "section": "Tutorials",
+    "text": "Tutorials\n\nVisualizing Data with Pairs Plots in Python\nHow to Make a Scatter Plot in Python using Seaborn\nSeaborn Heatmaps: 13 Ways to Customize Correlation Matrix Visualizations\nHow to make a matplotlib line chart\nPython Plotting for Exploratory Data Analysis\nEffectively Using Matplotlib\nPyWaffle\nEasily hiding items from the legend in matplotlib\nThe Next Level of Data Visualization in Python\nIntroducing Plotly Express\nseaborn: statistical data visualization\nPyGWalker"
+  },
+  {
+    "objectID": "resources/data_viz/ds_viz_r.html",
+    "href": "resources/data_viz/ds_viz_r.html",
+    "title": "Data Visualization (R)",
+    "section": "",
+    "text": "Awesome ggplot2"
+  },
+  {
+    "objectID": "resources/data_viz/ds_viz_r.html#books",
+    "href": "resources/data_viz/ds_viz_r.html#books",
+    "title": "Data Visualization (R)",
+    "section": "Books",
+    "text": "Books\n\nAn introduction to data visualization protocols for wet lab scientists\nCookbook for R\nR Graphics Cookbook\nData Visualization with R\nData visualisation using R, for researchers who don’t use R\nFundamentals of Data Visualization\nggplot2: Elegant Graphics for Data Analysis\nR4DS Data Visualization\nInteractive web-based data visualization with R, plotly, and shiny\nBBC Visual and Data Journalism cookbook for R graphics\nggplot2"
+  },
+  {
+    "objectID": "resources/data_viz/ds_viz_r.html#templates",
+    "href": "resources/data_viz/ds_viz_r.html#templates",
+    "title": "Data Visualization (R)",
+    "section": "Templates",
+    "text": "Templates\n\nR CHARTS\nThe R Graph Gallery\nggplot2 extensions\nA Scientist’s Guide to R: Step 3.1 - data visualization with ggplot2+\nggplot tricks\nDesigning ggplots\nBBC Style Plot Templates\na ggplot2 grammar guide\nTom’s Cookbook for Better Viz\n12 ggplot extensions for snazzier R graphics\nData Visualization Packages for R you should check out in 2022"
+  },
+  {
+    "objectID": "resources/data_viz/ds_viz_r.html#courses",
+    "href": "resources/data_viz/ds_viz_r.html#courses",
+    "title": "Data Visualization (R)",
+    "section": "Courses",
+    "text": "Courses\n\nGraphic Design with ggplot2\nData Visualization in R\nData Visualization\nSDS 375: Data Visualization in R"
+  },
+  {
+    "objectID": "resources/data_viz/ds_viz_r.html#tutorials-and-notes",
+    "href": "resources/data_viz/ds_viz_r.html#tutorials-and-notes",
+    "title": "Data Visualization (R)",
+    "section": "Tutorials and Notes",
+    "text": "Tutorials and Notes\n\nBasics\n\nTop 50 ggplot2 Visualizations - The Master List (With Full R Code)\nThe Complete ggplot2 Tutorial - Part1 | Introduction To ggplot2 (Full R code)\nBest ggplot visualizations\nA quick introduction to ggplot2\nGetting started with data visualization in R using ggplot2\nThe Evolution of a ggplot (Ep. 1)\nA ggplot2 Tutorial for Beautiful Plotting in R\nR you ready to make charts?\nThe ggplot flibbook\nGetting started with data visualization in R using ggplot2\nggplot2: Mastering the basics\nGraphing with ggplot\n10 Levels of ggplot2: From Basic to Beautiful\nPractical ggplot2\nBeautiful plotting in R: A ggplot2 cheatsheet\nThe Good, the Bad and the Ugly: how (not) to visualize data\nSix things I always Google when using ggplot2\nggplot2tutor\n\n\n\nTroubleshooting\n\nCommon R Mistakes in Data Viz\n\n\n\nEnhancing Plots (with Labels, Axes, Themes, Scales, and Other Options)\n\nQuick and easy ways to deal with long labels in ggplot2\nMaking text labels the same size as axis labels in ggplot2\nLabelling area plots\nLevel Up Your Labels: Tips and Tricks for Annotating Plots\nIncrease & Decrease Number of Axis Ticks in R (2 Examples)\nggplot2 Theme Elements Demonstration\nHow to use multiple colour scales in ggplot with {ggnewscale}\nSpruce up your ggplot2 visualizations with formatted text\nThemes to Improve Your ggplot figures\nHow to Add Labels Directly in ggplot2\nGenerate your own ggplot theme gallery\nggpattern\n{ggtext} for images as x-axis labels\nGGPLOT THEMES GALLERY\nggplot theme tester\nIntroducing ‘optout’ - A package for optimizing graphics output\nggcute\nRadial Patterns in ggplot2\nReordering and facetting for ggplot2\nAccelerate your plots with ggforce\nggrapid\nPatchwork R package goes nerd viral\nggthemes\nhtmlwidgets\nggchicklet\nggplot date helpers\n12 Extensions to ggplot2 for More Powerful R Visualizations\nImproving a Visualization\nggplot theme for publication ready Plots\nWHY NOT DO THAT WITH R?\n\n\n\nVarious graph types\n\nCreating flowcharts with {ggplot2}\nDendrograms in R, a lightweight approach\nRacing Barchart with gganimate\nRacing Barplots with {ggpattern}, {flagon} & {gganimate}\nR base plotting without wrappers\nHow to basic: bar plots\nNetwork Visualizations in R\nGreat Looking Tables\nggplot2 Bar Chart\nHow to build Animated Charts like Hans Rosling — doing it all in R\nHow to create Bar Race Animation Charts in R\nAnimating Your Data Visualizations Like a Boss Using R\nbarbarplots\nDynamic display of data with animated plots\nBeginners Cookbook for Interactive Visualization in R with highcharter\n\n\n\nData Viz Examples\n\nCan I do that? Inspiration from a Pudding data visualization\nVisualizing the heterogeneity of single cell data from time-lapse imaging\nthe seven living generations in America\nthis old house\nVisualizing real house price plots\nState Unemployment Claims\nA look into U.S. infectious diseases\nNYT-style urban heat island maps\nRyo Viz Data Viz Gallery\nReproducing an Axios plot\nCreate a Visual CV\nVisualize monthly precipitation anomalies\nInspiration from Flowing Data\nVisualizing Time Series\nVisualising high-dimensional data\nData Storytelling in R\nWilliam Chase - Data Viz Projects"
+  },
+  {
+    "objectID": "resources/data_viz/ds_viz_r.html#data-artistry",
+    "href": "resources/data_viz/ds_viz_r.html#data-artistry",
+    "title": "Data Visualization (R)",
+    "section": "Data aRtistry",
+    "text": "Data aRtistry\n\nGetting started in #rtistry\nART FROM CODE\nLife Through A Mathematician’s Eyes\naRt\nRtistry Gallery\nArt by Claus O. Wilke\nUnpredictable paintings\nMystery curves\nFlow Fields\nHOW TO WORK WITH FLOW FIELDS IN R"
+  },
+  {
+    "objectID": "resources/data_viz/ds_viz_tableau.html",
+    "href": "resources/data_viz/ds_viz_tableau.html",
+    "title": "Data Visualization (Tableau)",
+    "section": "",
+    "text": "A Beginner’s Guide to Tableau Public\nTableau Resources\nWhat Is Data Visualization? Definition, Examples, And Learning Resources\nThe 10 Best Data Visualization Blogs To Follow\nHow to ace the Tableau Desktop Qualified Associate exam!\nTableau Tips, Dashboards, and Training\n7 tips and tricks from the dashboard experts\nData Visualization with Tableau"
+  },
+  {
+    "objectID": "resources/ds_ml_ai/datasets.html",
+    "href": "resources/ds_ml_ai/datasets.html",
+    "title": "Datasets for Statistical Analysis and Machine Learning",
+    "section": "",
+    "text": "Data Literacy\nUsing Data Appropriately\nSharing Data\nWTF CSV Data Organization\nData Cleaning"
+  },
+  {
+    "objectID": "resources/ds_ml_ai/datasets.html#free-and-open-data",
+    "href": "resources/ds_ml_ai/datasets.html#free-and-open-data",
+    "title": "Datasets for Statistical Analysis and Machine Learning",
+    "section": "Free and Open Data",
+    "text": "Free and Open Data\n\nOpen Africa Data\nData Africa\nOur World in Data\nCalifornia Data Sources\nDataSF\nNYC Open Data\nThe Humanitarian Data Exchange\nGlobal Data Barometer\nMicrosoft Research Open Data\nAwesome Public Datasets\nMultiple Public Data Sources\nData Science Central Datasets\n70 Amazing Free Data Sources You Should Know\nRebecca Barter - List of Public Data Repositories"
+  },
+  {
+    "objectID": "resources/ds_ml_ai/datasets.html#machine-learning-training-data",
+    "href": "resources/ds_ml_ai/datasets.html#machine-learning-training-data",
+    "title": "Datasets for Statistical Analysis and Machine Learning",
+    "section": "Machine Learning Training Data",
+    "text": "Machine Learning Training Data\n\nDatasets for Machine Learning and Deep Learning\nBest Public Datasets for Machine Learning and Data Science\nMachine Learning Food Datasets Collection\nDatasets for Data Science and Machine Learning\nR Datasets\nKaggle Datasets\nGoogle Research Datasets"
+  },
+  {
+    "objectID": "resources/ds_ml_ai/datasets.html#industry-specific-data",
+    "href": "resources/ds_ml_ai/datasets.html#industry-specific-data",
+    "title": "Datasets for Statistical Analysis and Machine Learning",
+    "section": "Industry-Specific Data",
+    "text": "Industry-Specific Data\n\nNHS R-community Datasets\nInfectious Diseases Data Observatory\nInside Airbnb\nSchool Shootings USA\nPolitical Datasets\nEighty-Five Points Sports Data\nPoverty and Inequality Platform API\nNasdaq Data Link\nAnalyze Survey Data for Free\nGlobal Clinical Research Data\nGoogle Community Mobility Reports\n15 Open Datasets for Healthcare\nDemographic and Health Surveys\nFiveThirtyEight Data\nJo Hardin Datasets\nStatsBomb Open Data"
+  },
+  {
+    "objectID": "resources/ds_ml_ai/ds_interview.html",
+    "href": "resources/ds_ml_ai/ds_interview.html",
+    "title": "Data Science Interview",
+    "section": "",
+    "text": "Role of a Data Science Manager\nSix Steps To Take Before Pursuing Education To Get A Data Science Job\nHow do Data Professionals Spend their Time on Data Science Projects?\nThings I Have Learned About Data Science\nThis Is What a Data Scientist Looks Like\nHow to land a Data Scientist job at your dream company — My journey to Airbnb\nHow to Become More Marketable as a Data Scientist\nHow to Build a Data Science Portfolio"
+  },
+  {
+    "objectID": "resources/ds_ml_ai/ds_interview.html#curated-collection-of-data-science-resources",
+    "href": "resources/ds_ml_ai/ds_interview.html#curated-collection-of-data-science-resources",
+    "title": "Data Science Interview",
+    "section": "Curated collection of Data Science Resources",
+    "text": "Curated collection of Data Science Resources\n\nData Science Career Resources\nThe Big List of Data Science Interview Resources"
+  },
+  {
+    "objectID": "resources/ds_ml_ai/ds_interview.html#general-interview-questions",
+    "href": "resources/ds_ml_ai/ds_interview.html#general-interview-questions",
+    "title": "Data Science Interview",
+    "section": "General Interview Questions",
+    "text": "General Interview Questions\n\n101 important data science interview questions, answers, and key concepts\nInterview Warmup\nAmazon Data Science Case Question: Duplicate Products\n10 Frequently Asked Interview Questions For Machine Learning In 2019\nI Worked Through 500+ Data Science Interview Questions\n16 Machine Learning Interview Questions and Answers for Entry-Level Applicants\nA Guide for Machine Learning Technical Interviews (FAANG Companies)\nData Science Interviews"
+  },
+  {
+    "objectID": "resources/ds_ml_ai/ds_interview.html#language--and-field-specific-interview-questions",
+    "href": "resources/ds_ml_ai/ds_interview.html#language--and-field-specific-interview-questions",
+    "title": "Data Science Interview",
+    "section": "Language- and Field-Specific Interview Questions",
+    "text": "Language- and Field-Specific Interview Questions\n\nHow To Ace Data Science Interviews: SQL\nHow To Ace Data Science Interviews: Statistics\nHow To Ace Data Science Interviews: R & Python\nAce the SQL & Data Science Interview\nAnalyzing 89 Responses to a SQL Screener Question for a Senior Data Analyst Position"
+  },
+  {
+    "objectID": "resources/ds_ml_ai/ds_ml_ai_all.html",
+    "href": "resources/ds_ml_ai/ds_ml_ai_all.html",
+    "title": "Data Science, Machine Learning, and Artificial Intelligence",
+    "section": "",
+    "text": "Data 8: The Foundations of Data Science\nIntroduction to Data Science\nMy Data Science Master’s\nData Science Master’s\nSchool of Data\nData Science Courses and Resources\nHow To Learn Data Science If You’re Broke\nComputing for Information Science\nData Science Learning Path For Complete Beginners\nData Science Berens Lab\n\n\n\n\n\n54 Best Data Science Books in 2023\nCritical Dataset Studies Reading List\nElements of Data Science\nThe Art of Data Science\nReadings in Applied Data Science\nAI/ML/DS Book Club\nData Science Resources\nData Science Learning Resources\nData Science Live Book\n\n\n\n\n\nList of Data Science Blogs\nData Science Primer\nData Science Cheatsheet\n30 Essential Data Science, Machine Learning & Deep Learning Cheat Sheets\nCoding habits for data scientists\nData Science by Design (DSxD)\nThe Data Scientist\nThe 10 Data Mining Techniques Data Scientists Need for Their Toolbox\nData Science Tutorials\nOur Coding Club\nData Science - Resources for Python & R\nPreparing for the Transition to Data Science\nFree Data Science Resources for Beginners\nData Science Glossary on Kaggle\nHOW TO START YOUR FIRST DATA SCIENCE PROJECT\nDS/ML/AI Blog\nmljar: Outstanding Data Science Tools"
+  },
+  {
+    "objectID": "resources/ds_ml_ai/ds_ml_ai_all.html#machine-learning",
+    "href": "resources/ds_ml_ai/ds_ml_ai_all.html#machine-learning",
+    "title": "Data Science, Machine Learning, and Artificial Intelligence",
+    "section": "Machine Learning",
+    "text": "Machine Learning\n\nBooks and Readings\n\nMachine Learning University\nYellowbrick: Machine Learning Visualization\nVisual Intro to ML\nMachine Learning Basics 1\nMachine Learning Basics 2\nEnd-to-End Machine Learning Library\nHands-On Machine Learning with R\nFOUNDATIONS OF MACHINE LEARNING\nML for Everyone\nMachine Learning Notebooks\nInterpretable Machine Learning\nMachine Learning for Humans\nMachine Learning Explained: Algorithms Are Your Friend\nA Guide to Learning with Limited Labeled Data\nKaggle Winner’s Blog\nMachine Learning and Data Science Applications in Industry\nThe Illustrated Machine Learning website\nMachine Learning Mastery\nML for Science\nIn-depth introduction to machine learning in 15 hours of expert videos\nPython ML Tutorial\nVisualize Machine Learning data\nMade With ML\nAmazon Machine Learning\nAzure Machine Learning\nGoogle Prediction API\nBigML\n\n\n\nTutorials, Resources, and Projects\n\nHow to choose a good evaluation metric for your Machine learning model\nML Data Repository\nThe Best Machine Learning Resources\nML Google\nSantander ML Explainability\nBest GitHub Repositories for ML\n101 machine learning algorithms for data science with cheatsheets\nCommonly used Machine Learning Algorithms\nmodelStudio and The Grammar of Interactive Explanatory Model Analysis\nSupervised ML in R\nMACHINE LEARNING QUESTIONS\nML101 Tutorial\nML Tutorial\nScikit learn in Machine Learning\nMachine Learning Tutorials\nThe Ultimate FREE Machine Learning Study Plan\n100 Days of Machine Learning Coding\n150 of the Best Machine Learning, NLP, and Python Tutorials\nCode for Workshop: Introduction to Machine Learning with R\nMachine Learning Crash Course with TensorFlow APIs\nIntro to ML with R Slides\nA Machine Learning Course with Python\nMathematics for Machine Learning\nMatrix Methods In Data Analysis, Signal Processing, And Machine Learning\nMachine Learning Zoomcamp\nFeature Selection Techniques in Machine Learning with Python\nMachine Learning Projects\nRandy Olson’s data analysis and machine learning projects\nClass Imbalance\nAnomaly Detection for Dummies"
+  },
+  {
+    "objectID": "resources/ds_ml_ai/ds_ml_ai_all.html#artificial-intelligence",
+    "href": "resources/ds_ml_ai/ds_ml_ai_all.html#artificial-intelligence",
+    "title": "Data Science, Machine Learning, and Artificial Intelligence",
+    "section": "Artificial Intelligence",
+    "text": "Artificial Intelligence\n\nBooks and Readings\n\nApplied AI\nMicrosoft Artificial Intelligence for Beginners\nAI Reading List\nElements of AI\nIntroduction to Deep Learning\n12 Steps to Applied AI\nAI Experiments\nDeep Learning\nNeural Networks and Deep Learning\nArtificial Intelligence in Future and Present\nStanford AI Lab\nAI Research Experiences\nDeep Learning Fundamentals\nTensorFlow, Keras and deep learning, without a PhD\nConvolutional Neural Networks for Visual Recognition\nIntroduction to Natural Language Processing\nSolving 90% of NLP problems\n\n\n\nTutorials and Resources\n\nHow to not overfit?\nHOW TO USE DEEP LEARNING TO IDENTIFY WILDLIFE\nAI Summer\n\n\n\nTools\n\nFace2Face\nVoice Cloning"
+  },
+  {
+    "objectID": "resources/ds_ml_ai/ds_ml_ai_all.html#statistics-and-computer-science",
+    "href": "resources/ds_ml_ai/ds_ml_ai_all.html#statistics-and-computer-science",
+    "title": "Data Science, Machine Learning, and Artificial Intelligence",
+    "section": "Statistics and Computer Science",
+    "text": "Statistics and Computer Science\n\nBooks and Readings\n\nFrom Zero to Research Scientist full resources guide\nIntro to Stat Learning 1\nIntro to Stat Learning 2\nIntroduction to Causal Inference\nVisual Guides for Causal Inference\nA Gentle Introduction to Graph Neural Networks\nTuri Create - development of custom machine learning models\n\n\n\nTutorials and Resources\n\nPrincipal component analysis\nUnderstanding UMAP\nt-Distributed Stochastic Neighbor Embedding (t-SNE)"
+  },
+  {
+    "objectID": "resources/ds_ml_ai/ds_ml_ai_all.html#blogs",
+    "href": "resources/ds_ml_ai/ds_ml_ai_all.html#blogs",
+    "title": "Data Science, Machine Learning, and Artificial Intelligence",
+    "section": "Blogs",
+    "text": "Blogs\n\nSebastian Raschka\nAurimas Racas\nThe Analytics Lab\nShirin Elsinghorst\nChristina Levengood\nEthan Rosenthal\nRachel Thomas\nLIIP\nData Science Dojo"
+  },
+  {
+    "objectID": "resources/ds_ml_ai/ds_ml_ai_all.html#forecasting-and-prediction",
+    "href": "resources/ds_ml_ai/ds_ml_ai_all.html#forecasting-and-prediction",
+    "title": "Data Science, Machine Learning, and Artificial Intelligence",
+    "section": "Forecasting and Prediction",
+    "text": "Forecasting and Prediction\n\nForecasting: Principles and Practice\nAd Click Prediction\nFacebook Prophet\nForecasting with Neural Network Autoregression\nNeural Network Playground\nfast.ai—Making neural nets uncool again\nPredictive Hacks"
+  },
+  {
+    "objectID": "resources/ds_ml_ai/ds_ml_ai_all.html#reproducibility",
+    "href": "resources/ds_ml_ai/ds_ml_ai_all.html#reproducibility",
+    "title": "Data Science, Machine Learning, and Artificial Intelligence",
+    "section": "Reproducibility",
+    "text": "Reproducibility\n\nThe Reproducibility Crisis in ML‑based Science\nLeakage and the Reproducibility Crisis in ML-based Science\nData leakage causes reproducibility failures in ML-based science"
+  },
+  {
+    "objectID": "resources/ds_ml_ai/ds_ml_ai_all.html#health",
+    "href": "resources/ds_ml_ai/ds_ml_ai_all.html#health",
+    "title": "Data Science, Machine Learning, and Artificial Intelligence",
+    "section": "Health",
+    "text": "Health\n\nCovid-19 Data Science\nMachine Learning For Healthcare\nPopulation health analytics\nJameel Clinic\nMedical AI Bootcamp\nShah Lab AI\nBuild a Recommender Engine for Medical Research Papers\nRECONLearn\nRECON"
+  },
+  {
+    "objectID": "resources/ds_ml_ai/ds_ml_ai_all.html#journals",
+    "href": "resources/ds_ml_ai/ds_ml_ai_all.html#journals",
+    "title": "Data Science, Machine Learning, and Artificial Intelligence",
+    "section": "Journals",
+    "text": "Journals\n\nTOP PUB\nHarvard Data Science Review\nMachine Learning in Public Policy"
+  },
+  {
+    "objectID": "resources/ds_ml_ai/ds_ml_ai_all.html#newspaper-articles-and-newsletters",
+    "href": "resources/ds_ml_ai/ds_ml_ai_all.html#newspaper-articles-and-newsletters",
+    "title": "Data Science, Machine Learning, and Artificial Intelligence",
+    "section": "Newspaper Articles and Newsletters",
+    "text": "Newspaper Articles and Newsletters\n\nThe Facebook Scandal - or how to predict psychological traits from Facebook likes.\nHow to solve a business problem using data\nHealth Data Science\n13 Essential Newsletters for Data Scientists: Remastered\nThe economics of artificial intelligence"
+  },
+  {
+    "objectID": "resources/ds_ml_ai/ds_sports.html",
+    "href": "resources/ds_ml_ai/ds_sports.html",
+    "title": "Sports Data Science",
+    "section": "",
+    "text": "Sweep Sports Analytics\nJason Zivkovic\nSPORT DATA SCIENCE\n\n\n\n\n\nSBNation Blogs\nSports Intelligence\n11tegen11\nKarun Singh\nMackay Analytics\nSon of a Corner\nSaints by Numbers\nAchim Zeileis\nOpta Analyst\nThe Come on Man\nThe Last Man Analytics\nAnalytics FC\nBrendan Kent\nWyScout\nBiscuit Chaser FC\nStatsBomb\nEightyFivePoints\nOwen Thompson\nTony El Habr\n11v11\n\n\n\n\n\nDribble analytics"
+  },
+  {
+    "objectID": "resources/ds_ml_ai/ds_sports.html#sports-data-science-stories",
+    "href": "resources/ds_ml_ai/ds_sports.html#sports-data-science-stories",
+    "title": "Sports Data Science",
+    "section": "Sports Data Science Stories",
+    "text": "Sports Data Science Stories\n\nArmando Broja: A Case Study\nOut of the Park\nHow Data (and Some Breathtaking Soccer) Brought Liverpool to the Cusp of Glory\nHow data analysis helps football clubs make better signings\nLOAN PATHWAYS: THE ACADEMY MODEL\nLOAN PATHWAYS: THE PORTFOLIO MODEL\nLOAN PATHWAYS: THE MULTI-CLUB MODEL"
+  },
+  {
+    "objectID": "resources/ds_ml_ai/ds_sports.html#sports-data-science-journals-and-readings",
+    "href": "resources/ds_ml_ai/ds_sports.html#sports-data-science-journals-and-readings",
+    "title": "Sports Data Science",
+    "section": "Sports Data Science Journals and Readings",
+    "text": "Sports Data Science Journals and Readings\n\nEightyFivePoints Reading List & Data\nSports analytics reading list\nSports analytics conference video archives\nJournal of Sports Analytics\nJournal of Quantitative Analysis in Sports"
+  },
+  {
+    "objectID": "resources/ds_ml_ai/ds_sports.html#tools-and-databases",
+    "href": "resources/ds_ml_ai/ds_sports.html#tools-and-databases",
+    "title": "Sports Data Science",
+    "section": "Tools and Databases",
+    "text": "Tools and Databases\n\nMultiple Sports\n\nPySport\nDTAI SPORTS ANALYTICS LAB\nSportsDataVerse\nSports guideR\nSports Reference\nSFU Sports Analytics Group Virtual Seminar\nBrescia BDAS Lab\nSPORT PERFORMANCE ANALYSIS\nBruin Sports Analytics\nSpotrac\nTHE GREAT ANALYTICS RANKINGS\nSport Informatics and Analytics\n\n\n\nSoccer\n\nCurated list of soccer resources\n\nAwesome Soccer Analytics\nEdd Webster Football Analytics\nSoccer Analytics Handbook\n\n\n\nIndividual resources\n\nSoccermatics\nMPL Soccer\nAmerican Soccer Analysis\nTotal Football Analysis\nLearn Python & Data Science With Football\nLearn R & Data Science With Football\nExperimental 361\nBarca Innovation Hub\nTraining Ground Guru\nSportSciData\nFourFourTwo\nTwelve Football\nFootball Science\nTHE DATA CRUNCHING FOOTBALL EXPERT\nworldfootballR\nLanguages and tools to learn for sports analytics\nCoding for sports analytics\n\n\n\nDatabases\n\nCIES Football Observatory\nThe Fjelstul English Football Database\nThe Fjelstul World Cup Database\nStatsBomb Open Data\nFootball Data UK\nSoFIFA\n\n\n\nAmerican Football\n\nBig Data Bowl ’21 Submission\nModeling Player Biomechanics\nFantasy Football Analytics\n\n\n\nBasketball\n\nNBAstuffer\n\n\n\n\nTutorials\n\nSoccer\n\nA Beginner’s Introduction to Mixed Effects Models in Sport\nHow Our Club Soccer Predictions Work\nGoogle Research Football with Manchester City F.C.\nData in Elite Sport\nCOMPUTER VISION IN SPORT\nGetting Started with Free StatsBomb Event Data\nPredicting Football Results With Statistical Modelling\nLiverpool 20-21 EPL Performance\nExplaining Expected Threat\nWorking with data in elite sport\nMathematical Modelling of Football\n10 Steps to Get Started in Sports Analytics\nFlank Attacks Visualisation\nDoing More With StatsBomb Data in R\nHow sports scientists can use ggplot2 in R to make better visualisations\nVisualizing the Premier League\nFitting your own football xG model\nPassSonar\nAdding Football Crests to Scatter Plots in R\n\n\n\nBasketball\n\nHow to make NBA shots charts in R\nAnimating NBA Play by Play using R"
+  },
+  {
+    "objectID": "resources/ds_ml_ai/soc_med_music_analysis.html",
+    "href": "resources/ds_ml_ai/soc_med_music_analysis.html",
+    "title": "Social Media and Music Analysis",
+    "section": "",
+    "text": "Text Mining with R\nSocial Media Mining\nSocial Media Mining (Slides)\n\n\n\n\n\nANALYSING TWITTER DATA WITH R\nANALYSING TWITTER DATA: EXPLORING USER PROFILES AND RELATIONSHIPS\nANALYSING TWITTER DATA: EXPLORING TWEETS CONTENT\n4 ways how to create a gradient word cloud in R\nAnalyzing Google Trends with R: Retrieve and plot with gtrendsR\nQuantitative Analysis of Political Text\nClassifying Tweets for Sentiment Analysis\nAdvancing Text Mining with R and quanteda\nUsing Twitter With Python And Tweepy\nUSING R TO ANALYZE AND VISUALIZE TWEETS FROM SACNAS\nTwitter “Account Analysis” in R\nCalculating (Twitter) Vocabulary Breadth of U.S. Presidential Candidates Using TTR\nTwitter data analysis in R\nTwitter’s Feelings About Programming Languages\nLook who’s tweeting: 2020 Presidential Candidates\nA TidyText Analysis With R\nUsing Twitter as a data source an overview of social media research tools (2021)\n\n\n\n\n\nText As Data\n\n\n\n\n\ntwitter-sentiment-analysis\nAnalytics Master’s Research Project"
+  },
+  {
+    "objectID": "resources/ds_ml_ai/soc_med_music_analysis.html#music-and-lyric-analysis",
+    "href": "resources/ds_ml_ai/soc_med_music_analysis.html#music-and-lyric-analysis",
+    "title": "Social Media and Music Analysis",
+    "section": "Music and Lyric Analysis",
+    "text": "Music and Lyric Analysis\n\nBasics\n\nSpotify R&D\nspotifyr package\n13 best websites to analyze your Spotify data\n\n\n\nTutorials\n\nSpotify Songs: Tidy Tuesday\nHow to integrate Spotify and Genius API to easily crawl song lyrics with Python\nProfiling Songs on Spotify Using Cluster Analysis\nSentiment Analysis of Most Streamed Spotify Artists\nLyric Analysis with NLP & Machine Learning with R\nWhat’s popping?: An Exploratory Analytics Project on What Makes Popular Music Popular\nAnalysis of my Spotify in R with spotifyr package\nGame of Thrones: Exploratory and Sentiment Analysis\ntayloR\nExploring the Spotify API with R\nLearn tidytext with my new learnr course\nText mining with tidy data principles\nAre Pop Lyrics Getting More Repetitive?\nSpotify Songs: An analysis of the spotify dataset\nFitteR HappieR\nData Wrangling - Spotify Dataset Analysis\nUnderstanding + classifying genres using Spotify audio features\nWhat Makes a Hit\nWhat Makes Songs Popular? It’s All About ‘You’\nCan big data really predict what makes a song popular?\nPCA and the #TidyTuesday best hip hop songs ever\nBlue Christmas: A data-driven search for the most depressing Christmas song\nUsing Data to Find the Angriest Death Grips Song\nSpotify songs popularity analysis\nNigerian Songs Spotify EDA\nSentiment Analysis of Spotify, Amazon Music, and Pandora user reviews"
+  },
+  {
+    "objectID": "resources/ds_ml_ai/statistics.html",
+    "href": "resources/ds_ml_ai/statistics.html",
+    "title": "Statistics",
+    "section": "",
+    "text": "Books\n\nIntroduction to Modern Statistics\nCausal Inference: What If (Hernan MA)\nBayes Rules!\nCausal Inference: The Mixtape\nSeeing Theory\nCommon statistical tests are linear models (or: how to teach stats)\nModern Statistics with R\nIntroduction to Probability for Data Science\nIntro to Bayesian Business Analytics\nDesign and Analysis of Experiments and Observational Studies using R\nStatistical rethinking with brms, ggplot2, and the tidyverse\nBayes Rules! An Introduction to Applied Bayesian Modeling\n\n\n\nPersonal Websites and Blogs\n\nStatistical Thinking\n\n\n\nLectures and Courses\n\nStatistics 110: Probability\nStatistical Computing\nBIOLOGY FOR LIFE\nProgram Evaluation for Public Service and Research Design\nSTA 363: Statistical Learning\nSTA 312: Linear Models\nSTA 212: Statistical Models\nStatistics 431: Advanced Statistical Computing with R\nGUide to STatistical Analysis in Microbial Ecology (GUSTA ME)\nRegression Modelling in R\nThe Grammar of Experimental Design\n\n\n\nTutorials\n\nWelcome to A/B Testing at Scale Tutorial\nCausation and Correlation\nAn Introduction to Hierarchical Modeling\nTidy Statistics in R\nStatistics and R\nTidy dataframes and statsExpressions\nPower Analysis | Introduction in R\nmetrica: Prediction performance metrics\nBayes Explained 1\nBayes Explained 2\nCausalImpact\n\n\n\nTroubleshooting\n\nStatistical Problems to Document and to Avoid\nDatamethods\n\n\n\nBiostatistics\n\nBiostatistics for Biomedical Research\nTutorials in Biostatistics Papers\nBiostatistics Series Papers\nWCM Biostatistics Computing Club\nKatherine (Kat) Hoffman Biostats"
+  },
+  {
+    "objectID": "resources/programming/git_hub_cl_sql.html",
+    "href": "resources/programming/git_hub_cl_sql.html",
+    "title": "Git, GitHub, Command Line, and SQL",
+    "section": "",
+    "text": "Git Basics\nGit Cheatsheet\nGit/GitHub Cheatsheet\nA Visual Git Reference\nVisualizing Git Concepts with D3\nGit Immersion\nLearn Git Branching\nIntroduction to Git & Github\nHow to Use Git/GitHub with R\ngit ready\n\n\n\n\n\nPro Git Book\nHappy Git and GitHub for the user\n\n\n\n\n\nUnderstanding Git Conceptually\nBecome a git guru\nGit and RStudio\nGood Enough Practices in Scientific Computing\nVersion Control (Git)\n\n\n\n\n\nOn undoing, fixing, or removing commits in git\ngit pretty\nFixing Common Git Mistakes"
+  },
+  {
+    "objectID": "resources/programming/git_hub_cl_sql.html#github",
+    "href": "resources/programming/git_hub_cl_sql.html#github",
+    "title": "Git, GitHub, Command Line, and SQL",
+    "section": "GitHub",
+    "text": "GitHub\n\nBasics\n\nGetting started with Git and GitHub: the complete beginner’s guide\nAn Intro to Git and GitHub for Beginners (Tutorial)\nGet started with Git and GitHub\nMastering GitHub in 4 Steps\nGitHub for supporting, reusing, contributing, and failing safely\n\n\n\nTraining and Tutorials\n\nIntroducing GitHub Global Campus\nCollaboration, version control and learning to commit\nMaking Your First GitHub R Project\n\n\n\nApplications\n\nIntroduction to GitHub Actions to R users\nHow to effortlessly create a website for free with GitHub Pages\nIntroducing Jekyll Now for GitHub-hosted blogs\nSoftware development practices"
+  },
+  {
+    "objectID": "resources/programming/git_hub_cl_sql.html#command-line-bash-unix-and-linux",
+    "href": "resources/programming/git_hub_cl_sql.html#command-line-bash-unix-and-linux",
+    "title": "Git, GitHub, Command Line, and SQL",
+    "section": "Command Line (Bash, UNIX, and Linux)",
+    "text": "Command Line (Bash, UNIX, and Linux)\n\nBooks\n\nCommand Line Basics for R Users\n\n\n\nLectures and Tutorials\n\nIntro to UNIX\nThe Unix Shell 1\nThe Unix Shell 2"
+  },
+  {
+    "objectID": "resources/programming/git_hub_cl_sql.html#sql",
+    "href": "resources/programming/git_hub_cl_sql.html#sql",
+    "title": "Git, GitHub, Command Line, and SQL",
+    "section": "SQL",
+    "text": "SQL\n\nCollection of SQL Resources\n\n21 of the best free resources to learn SQL\n\n\n\nTutorials\n\nPostgreSQL Tutorial\nThe SQL Tutorial for Data Analysis\nSQL Hackerrank Channels\nSQL Tutorial 1\nSQL Tutorial 2\nSQLBolt\nSQL queries don’t start with SELECT\nA Visual Explanation of SQL Joins"
+  },
+  {
+    "objectID": "resources/programming/python.html",
+    "href": "resources/programming/python.html",
+    "title": "Python",
+    "section": "",
+    "text": "Python for Non-Programmers\n49 Essential Resources To Learn Python\nA Gallery of Interesting Jupyter Notebooks\nA dozen ways to learn Python\n\n\n\n\n\n\n\n\nAutomate the Boring Stuff with Python\nElements of Data Science\nScientific Computing with Python\nComputational and Inferential Thinking: The Foundations of Data Science\nPython for Data Analysis, 3E\nPython Programming And Numerical Methods: A Guide For Engineers And Scientists\n100 Page Python Intro\nThink Python 2e\nA Whirlwind Tour of Python\nGoogle’s Python Class\nPython Data Science Handbook\n\n\n\n\n\nNumpy\nPython Cheatsheet\nComprehensive Python Cheatsheet\nPython Curriculum Map\nData School: My top 25 pandas tricks\n10 Python Pandas tricks that make your work more efficient\nPython built-in functions to know\nData Science Best Practices with pandas\nTour of Python Itertools\n\n\n\n\n\nReal Python\nResolving Python\nJust into Data\nChristina Levengood Blog\nPython Machine Learning Notebooks (Tutorial style)\nDataquest Tutorials\nVIB Tutorials\nData Flair Training\nTop 10 IPython Notebook Tutorials for Data Science and Machine Learning\nPython for Beginners Course\nPython Crash Course\nPython for Everybody (PY4E)\nPython Machine Learning Jupyter Notebooks\nPractical Business Python\nLearning Python For Data Science\nLearn Python in 3 days: Step-by-Step Guide\nA Complete 26 Week Course to Learn Python for Data Science in 2022\nPython for Data Science: 8 Concepts You May Have Forgotten\nWhat is Exploratory Spatial Data Analysis (ESDA)?\nGetting started with data science using Python\n\n\n\n\n\nStock Portfolio Analysis using Python\nNeural networks fundamentals with Python\nPython News Webscraper\nWeb Scraping with Scrapy\nIntroduction to Market Basket Analysis in Python\n\n\n\n\n\nPython Projects for 2023 – Work on Real-time Projects to Head Start Your Career\nPython Projects with Source Code\n45+ Data Analysis Projects with Python"
+  },
+  {
+    "objectID": "resources/programming/quarto.html",
+    "href": "resources/programming/quarto.html",
+    "title": "Quarto",
+    "section": "",
+    "text": "Awesome Quarto\n\n\n\n\n\nQuarto\nTutorial: Hello, Quarto\nWhat is Quarto? RStudio rolls out next-generation R Markdown\nWe don’t talk about Quarto\nBuild a simple website with R and Quarto in under 10 minutes\nGetting Started with Quarto\nThe ultimate guide to starting a Quarto blog\nCreating a blog with Quarto in 10 steps\nMaking Slides in Quarto with reveal.js\n\n\n\n\n\nThe Distillery\nR Markdown for Web Pages\nPorting a distill blog to quarto\nRMarkdown"
+  },
+  {
+    "objectID": "resources/programming/r_rstudio.html",
+    "href": "resources/programming/r_rstudio.html",
+    "title": "R and RStudio",
+    "section": "",
+    "text": "Silvia Canelon\nMeghan Hall\nPaul Villanueva\nShannon Pileggi\nKatherine (Kat) Hoffman\nDeisy Gysi\nSimon J\nRyo Nakagawara\nKieran Healy - Some Favorite Things\nFrançois Husson\nRebecca Barter\nAlboukadel Kassambara\nMichael Toth\nSam Abbott\nShel Kariuki\nAustin Wehrwein\nNicola Rennie\nR for Ecology\nStats and R\nRoland Krasser\nMartin Chan - Musings on R\nRsquared Academy\nOlivier Gimenez\n\nMore to come…"
+  },
+  {
+    "objectID": "resources/programming/r_rstudio.html#basics",
+    "href": "resources/programming/r_rstudio.html#basics",
+    "title": "R and RStudio",
+    "section": "Basics",
+    "text": "Basics\n\nCurated list of resources\n\nBig Book of R\nFREE R READING MATERIAL\nAn R Community Public Library\nAwesome R Learning Resources\nR Cheatsheets\nPosit Cheatsheets\nR4theRestofUs\nEDUCATORS R LEARNERS\nR Resources\nR and Data Mining\n\n\n\nBooks\n\nR4DataScience\nR4DataScience - Solutions\nR Workflow A\nR Workflow B\nUrban Informatics\nModern Statistics with R\nR for Researchers: An Introduction\nSupervised Machine Learning for Text Analysis in R\nReproducible Analytical Pipelines - Master’s of Data Science\nR for Data Analysis\nData Analysis and Prediction Algorithms with R\nHands-On Programming with R\nR for Health Data Science\nR for Health Data Science Resources\nData Science in Education Using R\nA Succinct Intro to R\nData Science: A First Introduction\nThe Epidemiologist R Handbook\nIntroduction to R, version 2\nTechnical Foundations of Informatics\nData Science for Economists and Other Animals\nEfficient R programming\nAn Introduction to R\nYaRrr! The Pirate’s Guide to R\nModern Data Science with R\nTwitter for R programmers\nModern Dive\nAdvanced R\nYet Again: R + Data Science\nPublic Policy Analytics\nHands-On Machine Learning with R\n\n\n\nR and GPT\n\nR and gpttools\n\n\n\nConference Workshops\n\nTalk recordings and workshop materials from rstudio::conf(2022)\nLinks to slides from rstudio::conf 2020\nNHS-R\nuseR! 2019 Highlights\nToulouseR 2019\n\n\n\nPackage Development\n\nR Packages\nIntroduction to Package Development\nYour first R package in 1 hour\nDeveloping R packages\nReflections on building my first few R packages\n\n\n\nNewsletters\n\nRWeekly\n\n\n\nTraining Courses and Tutorials\n\nRStudio Education\nRStudio Education Beginners\nRStudio Education Intermediates\nRStudio Education Experts\nQuick-R Tutorial\nLearn R in R\nLearning R With Education Datasets\nSTAT 545 Data wrangling, exploration, and analysis with R\nSTHDA\ndatascienceplus\nStatistical Computing in R\nStatistical Programming Paradigms and Workflows\nTeaching Statistics and Data Science Online\nAn Introduction to Docker for R Users\nR Bootcamp\nKane’s Data Science Course\nAndrew Heiss R-based courses\nSTREAMLINING WITH R\nR Bootcamp\nAdvanced R Topics\nR for Water Resources Data Science\nReproducible science workshop\nThink R\nR 4 Beginners\nApplied Economics with R\nReady for R\nInterpretable Machine Learning\nR basics: a practical introduction to R\nIntroduction to R\nfasteR: Fast Lane to Learning R!\nAnalysis of community ecology data in R\nR Screencasts\nR for better science in less time\nR and Stats\nPalmer Archipelago Penguins Data\nWe are R-Ladies\nWeb Scraping in R: A Quick Guide\nWord Clouds in R\nData science tutorials\nMARKET ANALYSIS COURSE\nRTutor: Interactive R Problem Sets\nData Wrangling and dplyr\nIntro to R for Programming\npurrr tutorial\nIntro to R: Shiny App\nSpatial Data Science\nGeneralized Additive Models in R\nVisualizing the Bayesian workflow in R\nCreate machine learning models: An R version\nWrangling Unruly Data\nCleaning UK Office for National Statistics data in R\nHow to Automate EDA with DataExplorer in R\nRachael’s R Tutorials\nManipulating Data with dplyr\nGet me to the church on time with R spatial\nMultivariate data analysis with R and vegan\n\n\n\nTools\n\nR Universe Authors and Packages\nR-hub\nR in Visual Studio Code\nR Libraries Every Data Scientist Should Know\nPackages for Exploratory Data Analysis in R\n15 Essential packages in R for Data Science\n\n\n\nTroubleshooting / Tips and Tricks\n\nHow to Use “not in” operator in Filter\nCommon R Mistakes in Data Viz\nR Examples\nR Tips and Tricks\n\n\n\nHackathons and Competitions\n\nKaggle Housing Price Tutorial"
+  },
+  {
+    "objectID": "resources/programming/r_rstudio.html#tidyverse",
+    "href": "resources/programming/r_rstudio.html#tidyverse",
+    "title": "R and RStudio",
+    "section": "Tidyverse",
+    "text": "Tidyverse\n\nBasics\n\nA very short introduction to Tidyverse\nThe Tidyverse in Action\nA Gentle Guide to Tidy Statistics in R\nAn Introduction to R through the tidyverse\nC’est quoi, le tidyverse?\nBasic usage of tidycensus\n\n\n\nBooks\n\nTidyverse Skills for Data Science\nModern R with the tidyverse\nText Mining with R: A Tidy Approach\n\n\n\nWorkshops\n\nTidyverse Workshop Series\n\n\n\nTips and Tricks\n\nEight R Tidyverse tips for everyday data engineering\nTidyverse Tips\n\n\n\nTutorials\n\nData Science LADAL Tutorials\nPivoting data from columns to rows (and back!) in the tidyverse\nReshaping data frames using pivot functions from {tidyr} and tally from {dplyr}\nFinding the modal school district\nTeaching the tidyverse in 2021\nTidy analysis of cocktails - Part I – EDA\nTidy analysis of cocktails - Part II - Exploratory k-means clustering\nTransitioning into the tidyverse (part 1)\nTransitioning into the tidyverse (part 2)\nIntroduction to using Databases in R, with Tidyverse tools\nWrangling penguins: some basic data wrangling in R with dplyr\nData manipulation with the tidyverse\nThe TidyVerse in Action"
+  },
+  {
+    "objectID": "resources/programming/r_rstudio.html#tidymodels-in-r",
+    "href": "resources/programming/r_rstudio.html#tidymodels-in-r",
+    "title": "R and RStudio",
+    "section": "Tidymodels in R",
+    "text": "Tidymodels in R\n\nBasics\n\nA Gentle Introduction to tidymodels\nTidymodels\nThe Case for tidymodels\nCaret vs. tidymodels - comparing the old and new\nTidymodels: tidy machine learning in R\n\n\n\nBooks\n\nTidy Modeling with R\nISLR tidymodels labs\nModeling Data in the Tidyverse\nFeature Engineering\n\n\n\nConferences\n\nIntroduction to Machine Learning with the Tidyverse\nRStudio Conf Workshop Materials\nTidymodels package for survival models\n\n\n\nTutorials\n\nSample Story: When Will NYC’s Subway Ridership Recover?\n#TidyTuesday and tidymodels\ntidypredict\nFeature Engineering and Selection: A Practical Approach for Predictive Models\nExperimenting with machine learning in R with tidymodels and the Kaggle titanic dataset"
+  },
+  {
+    "objectID": "resources/programming/r_rstudio.html#r-shiny",
+    "href": "resources/programming/r_rstudio.html#r-shiny",
+    "title": "R and RStudio",
+    "section": "R Shiny",
+    "text": "R Shiny\n\nBasics\n\na gRadual intRoduction to Shiny\nShiny Learning Resources\nHow to Start a Career as an R Shiny Developer\nShiny Apps development\nThe World’s Most Advanced R Shiny Dashboards\n\n\n\nBooks\n\nMastering Shiny\nEngineering Production-Grade Shiny Apps\nOutstanding User Interfaces with Shiny\n\n\n\nTutorials\n\nShiny Tutorials\nBuilding Web Applications WITH SHINY\nBuilding Shiny apps - an interactive tutorial\nBuilding Interactive World Maps in Shiny\n\n\n\nTools\n\nHTML widgets flexdashboard\nhtmlwidgets for R\nRinteRface: HTML templates for Shiny\nLoading screens for Shiny: waiter"
+  },
+  {
+    "objectID": "resources/random_not_included/agric_farm.html",
+    "href": "resources/random_not_included/agric_farm.html",
+    "title": "Agriculture and Farming Stories",
+    "section": "",
+    "text": "Digital Agriculture\nCrop Yield Increase With Precision Technologies\nConnecterra\nThe Precision Farming Magazine\nHarvest Robotics\nIoT Farming Solutions 1\nIoT Farming Solutions 2\nGarage Hydroponics\nNext-generation harvesting robots\nHydroponics Africa\nPassion Fruit and Tech\nCultured Meat\nModern Ag Canada\nProteINSECT\nBuild a Solar Cooker and Dryer\n\n\n\n\n\nFeed the Future Innovation Lab for Horticulture\nLatia Resource Center\nSustainable Food Lab\nPostHarvest\nRural Solutions Portal\nAfrica Value Chain Dev\nAfrican indigenous vegetables\nIncreased Photosynthesis\n\n\n\n\n\nAero Farms\nGoat Farm\nSundrop Farms\nRivenDale\nSicilian Passion"
+  },
+  {
+    "objectID": "resources/random_not_included/agric_farm.html#farming-stories-longform-and-in-depth-articles-about-farming-around-the-world",
+    "href": "resources/random_not_included/agric_farm.html#farming-stories-longform-and-in-depth-articles-about-farming-around-the-world",
+    "title": "Agriculture and Farming Stories",
+    "section": "Farming Stories (Longform and In-depth articles about farming around the world)",
+    "text": "Farming Stories (Longform and In-depth articles about farming around the world)\n\nTHIS TINY COUNTRY FEEDS THE WORLD\nThe small Dutch town that wants to shape the future of your food\nA Land Without Farmers\nRio Fish"
+  },
+  {
+    "objectID": "resources/random_not_included/biomed_image_microscopy.html",
+    "href": "resources/random_not_included/biomed_image_microscopy.html",
+    "title": "Biomedical Image Analysis and Microscopy",
+    "section": "",
+    "text": "Bio-image Analysis Notebooks\nPython BioImage Analysis Tutorial\nBIAPy: BioImage Analysis with Python\nAnalyzing fluorescence microscopy images with ImageJ\nNEUBIAS Academy\nGrand Challenge: ML in Biomedical Imaging\nCarpenter Lab Public Slides\nLecture - Applied Bioimage Analysis (2020)\nDeep learning in microscopy collection\nAwesome Cytodata\nCellProfiler Practical: Counting of in situ PLA signals per cell\nSciPy 2021 Bioimage Analysis Fundamentals in Python\nSeveral image processing workflow examples\nRecommended Readings and Viewings\nBioImage Model Zoo\ndeepImageJ\nBristol: Image analysis courses\nBioconductor: Basics of image data and spatial patterns analysis in R\nEASY IMAGE PROCESSING IN R USING THE MAGICK PACKAGE\nBio-Image analysis with Python and Napari - DIGS-BB Light Microscopy Course 2022\nFirst Principles of Computer Vision\nData Science in Cell Imaging\nThe OpenAI Microscope\nThe Journal of Machine Learning for Biomedical Imaging\nCELL TRACKING CHALLENGE\nBioimage Analysis Course: The Life Cycle of an Image Data Set\nStatistics for Neuroscientists: Image Analysis\nImage Segmentation with Python"
+  },
+  {
+    "objectID": "resources/random_not_included/biomed_image_microscopy.html#bioimaging-software",
+    "href": "resources/random_not_included/biomed_image_microscopy.html#bioimaging-software",
+    "title": "Biomedical Image Analysis and Microscopy",
+    "section": "BioImaging Software",
+    "text": "BioImaging Software\n\nA Hitchhiker’s guide through the bio-image analysis software universe\nImageScience Software\nDeepLabCut\nDeepLabCut GUI\nDiscover, install, and share napari plugins\nnapari\nChan Zuckerberg napari\nStarDist - Object Detection with Star-convex Shapes\ncellfinder-napari\nilastik\nYAPiC: Yet Another Pixel Classifier (based on deep learning)\nCellPose\nCellProfiler tutorials\nPiximi App\nPiximi GitHuc\nIcy\nnucleAIzer\nScientiFig\nuList\nImJoy\nZeroCostDL4Mic"
+  },
+  {
+    "objectID": "resources/random_not_included/biomed_image_microscopy.html#microscopy",
+    "href": "resources/random_not_included/biomed_image_microscopy.html#microscopy",
+    "title": "Biomedical Image Analysis and Microscopy",
+    "section": "Microscopy",
+    "text": "Microscopy\n\nThe OpenFlexure Project\nNanoJ-Fluidics: open-source fluid exchange in microscopy\nMicroscopy Series\nThe Power Of Observation\nRoyal Microscopy Society"
+  },
+  {
+    "objectID": "resources/random_not_included/biotech_startup.html",
+    "href": "resources/random_not_included/biotech_startup.html",
+    "title": "Biotechnology Startups",
+    "section": "",
+    "text": "biotickr\nInvestor Village Biotech and Med\nBiotech2k Background Info\nAlcimed Biotech Business Exploration\nBenchmarks for growing health tech businesses\nThe best ways to follow biopharma news and learn about the industry (in my opinion)\nTimmerman Report: Your edge in Biotech\nHow to start a biotech company\nHow to Build a Biotech\nScaling Biotech\nAnatomy of a Biotech Business Development Deal\nThe case for young biotech founders\nData-driven perspectives on the business of biotech\nThe Bio Revolution\nSynthetic Biology Is About to Disrupt Your Industry\nInvesting in IDRx\nWhy We’re Investing in EQRx\nTerm Sheet Recommendations for Launching University Life Science Startups\nHow Do You Become a Bioentrepreneur?\nHow to Spin Your Scientific Research Out Of a University and Into a Startup\nEarly-Stage Biotech Value Creation: The Roles of Equity and Partnerships\nHow Biotech Startup Funding Will Change in the Next 10 Years\nThe Creation Of Biotech Startups: Evolution Not Revolution\nBiotech New Venture Formation: Reflecting On A Decade’s Changing Dynamics\nBiotech researchers venture into the wild to start their own business\nPlatform-Disease Fit: Why You Need It and How to Find It\nIt’s Time to Heal: 16 Trends Driving the Future of Bio and Healthcare"
+  },
+  {
+    "objectID": "resources/random_not_included/rand_int.html#agriculture-and-farming-stories",
+    "href": "resources/random_not_included/rand_int.html#agriculture-and-farming-stories",
+    "title": "Random Interests",
+    "section": "1. Agriculture and Farming Stories",
+    "text": "1. Agriculture and Farming Stories"
+  },
+  {
+    "objectID": "resources/random_not_included/startup_innov.html",
+    "href": "resources/random_not_included/startup_innov.html",
+    "title": "Startup and Innovation Resources",
+    "section": "",
+    "text": "StartupTools\nStartup Smarter\nStartup Estonia Resources\nY-Combinator\nIngressive Capital\nFluorish Ventures\nIndie Bio\n500 Global\nNLC Venture Builder\nBiogeneration Ventures\nUniversity Startup Resources\nBiocomxC3i Program\nFounder Playlist\nFlint Atlantic Capital"
+  },
+  {
+    "objectID": "resources/random_not_included/startup_innov.html#innovation",
+    "href": "resources/random_not_included/startup_innov.html#innovation",
+    "title": "Startup and Innovation Resources",
+    "section": "Innovation",
+    "text": "Innovation\n\nDevelopment Innovation Ventures\nCreative Destruction Lab\nChristensen Institute\nBioInnovate Africal\nIsrael Innovation\nSmart Agro Fund\nEXTREME Design Stanford\n100 PANDEMIC TECHNOLOGIES\nMIT D-Lab\nMedical Device and Diagnostic Industry"
+  },
+  {
+    "objectID": "resources/readings/readings.html#everyone",
+    "href": "resources/readings/readings.html#everyone",
+    "title": "Recommended Readings",
+    "section": "Everyone",
+    "text": "Everyone\n\n1. Recommended Readings"
+  },
+  {
+    "objectID": "resources/readings/reading_general.html",
+    "href": "resources/readings/reading_general.html",
+    "title": "Recommended Readings (General)",
+    "section": "",
+    "text": "How Will You Measure Your Life? Clayton Christensen (2010)\nA World Split Apart. Alexander Solzhenitsyn (1978)\nThe Inner Ring. CS Lewis (1944)"
+  },
+  {
+    "objectID": "resources/readings/reading_general.html#my-favorite-short-stories",
+    "href": "resources/readings/reading_general.html#my-favorite-short-stories",
+    "title": "Recommended Readings (General)",
+    "section": "My Favorite Short Stories",
+    "text": "My Favorite Short Stories\n\nHow Much Land Does a Man Require? Leo Tolstoy (1886)\nThe Americanization of Kambili. Tochi Eze (2022) Link\nThe Street Sweep. Meron Hadero (2018) Link"
+  },
+  {
+    "objectID": "resources/readings/reading_general.html#classics",
+    "href": "resources/readings/reading_general.html#classics",
+    "title": "Recommended Readings (General)",
+    "section": "Classics",
+    "text": "Classics\n\nNight (Elie Wiesel)\nGilead (Marilynne Robinson)"
+  },
+  {
+    "objectID": "resources/readings/reading_general.html#mental-health-counseling-peace-of-mind",
+    "href": "resources/readings/reading_general.html#mental-health-counseling-peace-of-mind",
+    "title": "Recommended Readings (General)",
+    "section": "Mental Health / Counseling / Peace of Mind",
+    "text": "Mental Health / Counseling / Peace of Mind\n\nWhen People Are Big and God Is Small: Overcoming Peer Pressure, Codependency, and the Fear of Man (Edward T. Welch)\nSeeing with New Eyes: Counseling and the Human Condition Through the Lens of Scripture (David A. Powlison)\nMan’s Search for Meaning (Viktor E. Frankl)\nAbsence of Mind: The Dispelling of Inwardness from the Modern Myth of the Self (Marilynne Robinson)"
+  },
+  {
+    "objectID": "resources/readings/reading_general.html#religious",
+    "href": "resources/readings/reading_general.html#religious",
+    "title": "Recommended Readings (General)",
+    "section": "Religious",
+    "text": "Religious\n\nThe Reason for God: Belief in an Age of Skepticism (Timothy J. Keller)\nThe Cost of Discipleship (Dietrich Bonhoeffer)\nA Treatise of Earthly-Mindedness (Jeremiah Burroughs)\nThe Knowledge of the Holy (A.W. Tozer)\nThe Pursuit of God: The Human Thirst for the Divine (A.W. Tozer)\nA Bunch of Everlastings; Or, Texts That Made History (F.W. Boreham)\nA Packet of Surprises: The Best Essays and Sermons of F. W. Boreham (F.W. Boreham)\nThe Screwtape Letters (C.S. Lewis)\nThe Last Sin Eater (Francine Rivers)\nMere Christianity (C.S. Lewis)"
+  },
+  {
+    "objectID": "resources/readings/reading_stem.html",
+    "href": "resources/readings/reading_stem.html",
+    "title": "Recommended Readings (STEM)",
+    "section": "",
+    "text": "How to succeed in science: a concise guide for young biomedical scientists. Part I: taking the plunge. Yewdell JW, Nat Rev Mol Cell Biol. (2008).\nHow to succeed in science: a concise guide for young biomedical scientists. Part II: making discoveries. Yewdell JW, Nat Rev Mol Cell Biol. (2008).\nThe importance of stupidity in scientific research. Schwartz MA, J Cell Sci. (2008).\nUnskilled and unaware of it: how difficulties in recognizing one’s own incompetence lead to inflated self-assessments (Dunning-Kruger Effect). Kruger J and Dunning D, J Pers Soc Psychol. (1999).\nHow to choose a good scientific problem. Alon U, Mol Cell. (2009).\nPLOS “Ten Simple Rules” Collection provides a quick, concentrated guide for mastering some of the professional challenges research scientists face in their careers. PloS.\nResources for PhD Students Guillaume Dalle."
+  },
+  {
+    "objectID": "resources/readings/reading_stem.html#challenges",
+    "href": "resources/readings/reading_stem.html#challenges",
+    "title": "Recommended Readings (STEM)",
+    "section": "Challenges",
+    "text": "Challenges\n\nThe Emotional Toll of Graduate School. Puri P, Sci Am. (2019).\nPhDs: the tortuous truth. Woolston C, Nature (2019).\nWhy doing a PhD is often a waste of time The Economist, Medium (2016).\nThere’s an awful cost to getting a PhD that no one talks about Walker J, Quartz (2015)."
+  },
+  {
+    "objectID": "resources/readings/reading_stem.html#transformative-research-papers",
+    "href": "resources/readings/reading_stem.html#transformative-research-papers",
+    "title": "Recommended Readings (STEM)",
+    "section": "Transformative Research Papers",
+    "text": "Transformative Research Papers\n\nA Programmable Dual-RNA-Guided DNA Endonuclease in Adaptive Bacterial Immunity Jinek et al., Science (2012) from the Doudna and Charpentier Lab\nInduction of pluripotent stem cells from mouse embryonic and adult fibroblast cultures by defined factors Takahashi et al., Cell (2006) from the Yamanaka Lab\nMatrix Elasticity Directs Stem Cell Lineage Specification Engler et al., Cell (2006) from the Discher Lab"
+  },
+  {
+    "objectID": "resources/readings/reading_stem.html#statistics",
+    "href": "resources/readings/reading_stem.html#statistics",
+    "title": "Recommended Readings (STEM)",
+    "section": "Statistics",
+    "text": "Statistics\n\nWhat exactly is ‘N’ in cell culture and animal experiments? Lazic SE et al., PloS Biol. (2018).\nSuperPlots: Communicating reproducibility and variability in cell biology. Lord SJ et al., J Cell Biol. (2020).\nTen common statistical mistakes to watch out for when writing or reviewing a manuscript. Makin TR et al. eLife (2019).\nBeyond bar and line graphs: time for a new data presentation paradigm. Weissgerber TL et al. PloS Biol. (2015).\nStatistical relevance—relevant statistics, part I. Klaus B EMBO J. (2015).\nStatistical relevance-relevant statistics, part II: presenting experimental data. Klaus B EMBO J. (2015).\nTen simple rules for getting started with statistics in graduate school Zitomer RA et al. PloS Comput Biol. (2022)."
+  },
+  {
+    "objectID": "resources/readings/reading_stem.html#writing",
+    "href": "resources/readings/reading_stem.html#writing",
+    "title": "Recommended Readings (STEM)",
+    "section": "Writing",
+    "text": "Writing\n\nACS Guide to Scholarly Communication. ACS. (2020).\nThe art of writing science. Plaxco KW, Prot. Sci. (2010).\nWhitesides’ Group: Writing a Paper. Whitesides GM, Adv. Mat. (2004).\nHow to write a first-class paper. Gewin V, Nature (2018).\nWriting readable prose: When planning a scientific manuscript, following a few simple rules has a large impact. Bredan AS & van Roy F, EMBO Rep. (2006).\nTen simple rules for structuring papers Mensh B & Kording K, PLoS Comp Biol. (2017).\nWrite accessibly Editors, Nat Biomed Eng. (2021)."
+  },
+  {
+    "objectID": "resources/readings/reading_stem.html#science-integrity",
+    "href": "resources/readings/reading_stem.html#science-integrity",
+    "title": "Recommended Readings (STEM)",
+    "section": "Science Integrity",
+    "text": "Science Integrity\n\nScience Integrity Digest Bik E\nBrookes Lab Brookes P. Sample Post focused on “Fake Data”\nPubPeer: The Online Journal Club\nFor Better Science Schneider L\nRetraction Watch\nAutomatic detection of image manipulations in the biomedical literature Bucci EM, Cell Death and Disease (2018).\nLearning to identify image manipulations in scientific publications Mazaheri G et al., arXiv (2021).\nPublishing ethics in the era of paper mills Hackett R and Kelly S, Biol Open (2020)."
+  },
+  {
+    "objectID": "resources/teaching/gen_teach_resources.html",
+    "href": "resources/teaching/gen_teach_resources.html",
+    "title": "General Teaching Resources",
+    "section": "",
+    "text": "Teaching Tech Together\nMaintaining a laboratory notebook\nSubjects and Skills for Graduate Students in the Biological Sciences\nScientific Figure Design"
+  },
+  {
+    "objectID": "resources/teaching/gen_teach_resources.html#teaching-aids",
+    "href": "resources/teaching/gen_teach_resources.html#teaching-aids",
+    "title": "General Teaching Resources",
+    "section": "Teaching Aids",
+    "text": "Teaching Aids\n\nTyping Test\n\nKeyboard Test\nTyping Test\n\n\n\nSimulations\n\nPhysics Education and Training Simulations\nCircuit simulation and schematics\nInteractive STEM activities\nGeoGebra for Teaching and Learning Math\nGeoGebra Simulations\n\n\n\nOnline Textbooks\n\nFree and flexible textbooks and resources\nCollege Physics\n\n\n\nDesign and Illustrations\n\nOne Page Website\nIllustrations\nBioRender Learning Hub\nBeautiful Free Stock Video Footage\n\n\n\nMiscellaneous Tools\n\nWhiteboard\nEtherpad\nActive Memory"
+  },
+  {
+    "objectID": "resources/teaching/rstudio_carpentries_cert.html",
+    "href": "resources/teaching/rstudio_carpentries_cert.html",
+    "title": "RStudio and Carpentries Certification",
+    "section": "",
+    "text": "R4DS Book – Prep for Exam\nPOSIT/R Training Videos\nPOSIT Primers\nRStudio Sample Exams\nMiscellaneous Teaching Notes 1\nMiscellaneous Teaching Notes 2\nRStudio Instructor Training\n\n\n\n\n\nLaurie L Baker RStudio Instructor Training\nMarly Comar Gotti Tidyverse Certification\nYuqi Liao: Getting Certified as an RStudio Instructor\nShel Kariuki: The RStudio Certification Process\nFlorencia D’Andrea: Two examples of iteration with purrr - Class for the RStudio certification\nSilvia Canelon RStudio Certification\nSilvia Canelon RStudio Certification Training 1\nSilvia Canelon RStudio Certification Training 2\nSilvia Canelon R4DS Certification Training 1\nPaloma Rojas Saunero RStudio Certification Training 1\nPaloma Rojas Saunero RStudio Certification Exam Slides\nPaloma Rojas Saunero RStudio Certification Exam Notes"
+  },
+  {
+    "objectID": "resources/teaching/rstudio_carpentries_cert.html#carpentries-certification",
+    "href": "resources/teaching/rstudio_carpentries_cert.html#carpentries-certification",
+    "title": "RStudio and Carpentries Certification",
+    "section": "Carpentries Certification",
+    "text": "Carpentries Certification\n\nThe Carpentries\nData Carpentry\nSoftware Carpentry\nLibrary Carpentry"
+  },
+  {
+    "objectID": "resources/teaching/writing.html",
+    "href": "resources/teaching/writing.html",
+    "title": "Medical, Science, and Technical Writing",
+    "section": "",
+    "text": "Academic Phrasebank\nExcelsior Online Writing Lab\nPurdue Online Writing Lab\nQuick and Dirty Tips\nInter-Biotech: Biomedical Language Editing\nFeatures of academic writing\nAmerican Copy Editors Series\nGo The Distance: Academic Writing\nACES Grammar Guide Quizzes\nIntroduction to Common Errors in English Usage"
+  },
+  {
+    "objectID": "resources/teaching/writing.html#medical-writing",
+    "href": "resources/teaching/writing.html#medical-writing",
+    "title": "Medical, Science, and Technical Writing",
+    "section": "Medical Writing",
+    "text": "Medical Writing\n\nHealth Writer Hub: 30-day writing challenges\nMedComms Networking\nDebra Gordon\nArmitage Medical\nMartin Medical Writing\nThe Med Writers"
+  },
+  {
+    "objectID": "resources/teaching/writing.html#science-writing",
+    "href": "resources/teaching/writing.html#science-writing",
+    "title": "Medical, Science, and Technical Writing",
+    "section": "Science Writing",
+    "text": "Science Writing\n\nA Note to Beginning Science Writers\nScience Blogging 101\nHow to write a science blog\nCarl Zimmer’s advice for aspiring science writers\nSix great pieces of science writing you may have missed this year"
+  },
+  {
+    "objectID": "resources/teaching/writing.html#technical-writing",
+    "href": "resources/teaching/writing.html#technical-writing",
+    "title": "Medical, Science, and Technical Writing",
+    "section": "Technical Writing",
+    "text": "Technical Writing\n\nAwesome Technical Writing\nA beginner’s guide to writing documentation\nTechnical Writing: Why and How?\nWelcome to Google Season of Docs\nBecoming a Technical Writer at Google\nAdvice for Technical Writing\nThe Society for Technical Communication\nHow to write a great technical blog post"
+  },
+  {
+    "objectID": "series/series_1.html",
+    "href": "series/series_1.html",
+    "title": "R and RStudio: Getting Started and The Basics",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "series/series_2.html",
+    "href": "series/series_2.html",
+    "title": "Data Stories",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nNo matching items"
+  }
+]
