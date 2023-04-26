@@ -138,6 +138,7 @@ toc: true
 14) [Visualizing Time Series](https://tsggplot.netlify.app/#1)
 15) [Visualising high-dimensional data](https://github.com/dicook/useR2019_highd_vis)
 16) [Data Storytelling in R](https://posit.co/blog/how-i-use-stories-to-share-data-at-meetings/)
+17) [William Chase - Data Viz Projects](https://www.williamrchase.com/projects)
 
 ## Data aRtistry
 
