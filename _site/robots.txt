@@ -1,1 +1,1 @@
-Sitemap: https://williamokech.netlify.app/sitemap.xml
+Sitemap: https://williamokech.com/sitemap.xml

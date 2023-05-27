@@ -10,6 +10,10 @@ website:
       - text: Resume
         file: blog_cv/Resume_William_Okech_Website_2023.pdf
       - blog.qmd
+      - text: Portfolio
+        menu:
+          - href: portfolio/projects.qmd
+          - href: portfolio/social_media.qmd
       - text: Resources 
         menu: 
           - href: resources/programming/programming.qmd
