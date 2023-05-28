@@ -3,7 +3,6 @@ title: "Social Media"
 toc: true
 ---
 
-1. [Instagram](https://www.instagram.com/afrodataviz/)
+1.  [Instagram](https://www.instagram.com/afrodataviz/)
 
-
-2. [Twitter](https://twitter.com/afrodataviz1)
+2.  [Twitter](https://twitter.com/afrodataviz1)
