@@ -13,7 +13,6 @@ website:
       - text: Portfolio
         menu:
           - href: portfolio/projects.qmd
-          - href: portfolio/social_media.qmd
       - text: Resources 
         menu: 
           - href: resources/programming/programming.qmd
