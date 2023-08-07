@@ -1061,7 +1061,7 @@
     "href": "resources/readings/reading_stem.html#challenges",
     "title": "Recommended Readings (STEM)",
     "section": "Challenges",
-    "text": "Challenges\n\nThe Emotional Toll of Graduate School. Puri P, Sci Am. (2019).\nPhDs: the tortuous truth. Woolston C, Nature (2019).\nWhy doing a PhD is often a waste of time The Economist, Medium (2016).\nThere’s an awful cost to getting a PhD that no one talks about Walker J, Quartz (2015)."
+    "text": "Challenges\n\nThe Emotional Toll of Graduate School. Puri P, Sci Am. (2019).\nPhDs: the tortuous truth. Woolston C, Nature (2019).\nWhy doing a PhD is often a waste of time The Economist, Medium (2016).\nThere’s an awful cost to getting a PhD that no one talks about Walker J, Quartz (2015).\nStrategies for Supporting Engineering Student Mental Health Wilson & Goldberg, CEE (2023).\nPrioritizing mental health and wellness in engineering S. Wilson, ASEE (2022)"
   },
   {
     "objectID": "resources/readings/reading_stem.html#transformative-research-papers",
@@ -1181,5 +1181,19 @@
     "title": "Data Stories",
     "section": "",
     "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "portfolio/soc_med.html",
+    "href": "portfolio/soc_med.html",
+    "title": "Social Media",
+    "section": "",
+    "text": "A. Instagram\n        View this profile on Instagram            African Data Visualizations (@afrodataviz) • Instagram photos and videos \n\n\nB. Twitter\nTweets by afrodataviz1"
+  },
+  {
+    "objectID": "resources/readings/reading_stem.html#transformative-research-papers-in-biomedical-science",
+    "href": "resources/readings/reading_stem.html#transformative-research-papers-in-biomedical-science",
+    "title": "Recommended Readings (STEM)",
+    "section": "Transformative Research Papers in Biomedical Science",
+    "text": "Transformative Research Papers in Biomedical Science\n\nA Programmable Dual-RNA-Guided DNA Endonuclease in Adaptive Bacterial Immunity Jinek et al., Science (2012) from the Doudna and Charpentier Lab\nInduction of pluripotent stem cells from mouse embryonic and adult fibroblast cultures by defined factors Takahashi et al., Cell (2006) from the Yamanaka Lab\nInduction of pluripotent stem cells from adult human fibroblasts by defined factors Takahashi et al., Cell (2006) from the Yamanaka Lab\nMatrix Elasticity Directs Stem Cell Lineage Specification Engler et al., Cell (2006) from the Discher Lab"
   }
 ]

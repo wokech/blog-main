@@ -12,7 +12,8 @@ website:
       - blog.qmd
       - text: Portfolio
         menu:
-          - href: portfolio/projects.qmd
+          - href: portfolio/apps.qmd
+          - href: portfolio/soc_med.qmd
       - text: Resources 
         menu: 
           - href: resources/programming/programming.qmd

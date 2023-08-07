@@ -1,0 +1,14 @@
+---
+title: "Projects"
+toc: true
+---
+
+# Shiny Apps
+
+## 1: An R Shiny App that presents the average land price in Nairobi and its satellite towns from 2015 to 2023.
+
+<iframe height="1200" width="100%" frameborder="yes" src="https://wokech.shinyapps.io/hass_land_price_app/">
+
+</iframe>
+
+## 2: More coming soon...

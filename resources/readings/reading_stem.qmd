@@ -19,12 +19,15 @@ toc: true
 2)  [PhDs: the tortuous truth.](https://www.nature.com/articles/d41586-019-03459-7) Woolston C, Nature (2019).
 3)  [Why doing a PhD is often a waste of time](https://medium.economist.com/why-doing-a-phd-is-often-a-waste-of-time-349206f9addb) The Economist, Medium (2016).
 4)  [There's an awful cost to getting a PhD that no one talks about](https://qz.com/547641/theres-an-awful-cost-to-getting-a-phd-that-no-one-talks-about) Walker J, Quartz (2015).
+5) [Strategies for Supporting Engineering Student Mental Health](https://journals.flvc.org/cee/article/view/132290) Wilson & Goldberg, CEE (2023).
+6) [Prioritizing mental health and wellness in engineering](https://diversity.asee.org/deicommittee/2022/03/29/prioritizing-mental-health-and-wellness-in-engineering/) S. Wilson, ASEE (2022)
 
-## Transformative Research Papers
+## Transformative Research Papers in Biomedical Science
 
 1)  [A Programmable Dual-RNA-Guided DNA Endonuclease in Adaptive Bacterial Immunity](https://www.science.org/doi/10.1126/science.1225829) Jinek et al., Science (2012) from the Doudna and Charpentier Lab
 2)  [Induction of pluripotent stem cells from mouse embryonic and adult fibroblast cultures by defined factors](https://www.cell.com/cell/fulltext/S0092-8674(06)00976-7) Takahashi et al., Cell (2006) from the Yamanaka Lab
-3)  [Matrix Elasticity Directs Stem Cell Lineage Specification](https://www.sciencedirect.com/science/article/pii/S0092867406009615) Engler et al., Cell (2006) from the Discher Lab
+3) [Induction of pluripotent stem cells from adult human fibroblasts by defined factors](https://www.cell.com/cell/fulltext/S0092-8674(07)01471-7) Takahashi et al., Cell (2006) from the Yamanaka Lab
+4)  [Matrix Elasticity Directs Stem Cell Lineage Specification](https://www.sciencedirect.com/science/article/pii/S0092867406009615) Engler et al., Cell (2006) from the Discher Lab
 
 ## Statistics
 
