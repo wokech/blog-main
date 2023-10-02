@@ -1,0 +1,18 @@
+---
+title: "Open Science and Reproducibility"
+toc: true
+---
+
+# Presentations
+
+## 1. Developing library-based computational research skill instruction programs.
+
+-   [HTML]()
+
+-   [PPT](presentations/comp_thinking.pptx)
+
+## 2. Designing courses that minimize cognitive overload in learners.
+
+-   [HTML]()
+
+-   [PPT](presentations/min_cog_overload.pptx)
