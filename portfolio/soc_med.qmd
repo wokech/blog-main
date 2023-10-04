@@ -11,5 +11,5 @@ toc: true
 # B. Twitter
 
 ```{=html}
-<a class="twitter-timeline" href="https://twitter.com/afro_dataviz?ref_src=twsrc%5Etfw">Tweets by afro_dataviz1</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<a class="twitter-timeline" href="https://twitter.com/afro_dataviz?ref_src=twsrc%5Etfw">Tweets by afro_dataviz</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 ```
