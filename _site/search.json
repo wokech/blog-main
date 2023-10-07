@@ -1592,8 +1592,8 @@
     "objectID": "portfolio/presentations/comp_thinking/comp_thinking.html#overall-goal",
     "href": "portfolio/presentations/comp_thinking/comp_thinking.html#overall-goal",
     "title": "Developing library-based computational research skill instruction programs",
-    "section": "Overall Goal",
-    "text": "Overall Goal\nTo outline a methodology for developing a computational research skill instruction program centered in libraries that will support learners with diverse disciplinary and educational backgrounds."
+    "section": "",
+    "text": "To outline a methodology for developing a computational research skill instruction program centered in libraries that will support learners with diverse disciplinary and educational backgrounds."
   },
   {
     "objectID": "portfolio/presentations/comp_thinking/comp_thinking.html#outline",
@@ -1767,8 +1767,8 @@
     "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#overall-goal",
     "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#overall-goal",
     "title": "Designing courses that minimize cognitive overload in learners",
-    "section": "Overall Goal",
-    "text": "Overall Goal\n\nTo outline a methodology for designing courses that minimize cognitive overload in learners"
+    "section": "",
+    "text": "To outline a methodology for designing courses that minimize cognitive overload in learners"
   },
   {
     "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#outline",
@@ -1817,35 +1817,35 @@
     "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#cognitive-load-theory-1",
     "title": "Designing courses that minimize cognitive overload in learners",
     "section": "3. Cognitive Load Theory",
-    "text": "3. Cognitive Load Theory\nIntrinsic\n\nInnate difficulty of a task and complexity of new information.\nInfluenced by age and/or educational background."
+    "text": "3. Cognitive Load Theory\n\nIntrinsic\n\nInnate difficulty of a task and complexity of new information.\nInfluenced by age and/or educational background."
   },
   {
     "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#cognitive-load-theory-2",
     "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#cognitive-load-theory-2",
     "title": "Designing courses that minimize cognitive overload in learners",
     "section": "3. Cognitive Load Theory",
-    "text": "3. Cognitive Load Theory\nExtraneous\n\nLoad due to poorly designed instructional material.\nDistracts working memory from processing the required information."
+    "text": "3. Cognitive Load Theory\n\nExtraneous\n\nLoad due to poorly designed instructional material.\nDistracts working memory from processing the required information."
   },
   {
     "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#cognitive-load-theory-3",
     "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#cognitive-load-theory-3",
     "title": "Designing courses that minimize cognitive overload in learners",
     "section": "3. Cognitive Load Theory",
-    "text": "3. Cognitive Load Theory\nExtraneous\n\nExamples"
+    "text": "3. Cognitive Load Theory\n\nExtraneous\n\nExamples"
   },
   {
     "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#cognitive-load-theory-4",
     "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#cognitive-load-theory-4",
     "title": "Designing courses that minimize cognitive overload in learners",
     "section": "3. Cognitive Load Theory",
-    "text": "3. Cognitive Load Theory\nGermane\n\nMental capacity used to integrate new information with existing knowledge\nEffort required to learn and retain the material\nInfluenced by level of training (Math Professor vs 1st grader)"
+    "text": "3. Cognitive Load Theory\n\nGermane\n\nMental capacity used to integrate new information with existing knowledge\nEffort required to learn and retain the material\nInfluenced by level of training (Math Professor vs 1st grader)"
   },
   {
     "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#cognitive-load-theory-5",
     "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#cognitive-load-theory-5",
     "title": "Designing courses that minimize cognitive overload in learners",
     "section": "3. Cognitive Load Theory",
-    "text": "3. Cognitive Load Theory\nSummary"
+    "text": "3. Cognitive Load Theory\n\nSummary"
   },
   {
     "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#formative-assessment",
@@ -1986,5 +1986,19 @@
     "title": "Designing courses that minimize cognitive overload in learners",
     "section": "References",
     "text": "References\n\nhttps://carpentries.github.io/instructor-training/\nBenner P. (2004) Bulletin of Science, Technology & Society, 24(3), 188–199\nhttps://commoncog.com/teaching-tech-together/\nhttps://education.riaus.org.au/a-better-way-to-see-molecules\nhttps://www.mindtools.com/aqxwcpa/cognitive-load-theory\nhttps://visme.co/blog/how-to-make-a-concept-map/"
+  },
+  {
+    "objectID": "portfolio/presentations/comp_thinking/comp_thinking.html",
+    "href": "portfolio/presentations/comp_thinking/comp_thinking.html",
+    "title": "Developing library-based computational research skill instruction programs",
+    "section": "",
+    "text": "To outline a methodology for developing a computational research skill instruction program centered in libraries that will support learners with diverse disciplinary and educational backgrounds."
+  },
+  {
+    "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html",
+    "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html",
+    "title": "Designing courses that minimize cognitive overload in learners",
+    "section": "",
+    "text": "To outline a methodology for designing courses that minimize cognitive overload in learners"
   }
 ]
