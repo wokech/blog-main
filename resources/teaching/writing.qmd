@@ -3,6 +3,8 @@ title: "Medical, Science, and Technical Writing"
 toc: true
 ---
 
+For anyone interested in medical, science, and technical writing, this page offers a curated collection of resources. It provides practical introductions to medical, science, and technical writing, style guidelines, and challenges.
+
 ## Grammar Basics
 
 1)  [Academic Phrasebank](https://www.phrasebank.manchester.ac.uk/)

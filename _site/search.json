@@ -389,14 +389,14 @@
     "href": "resources/biox/bioinf.html",
     "title": "Bioinformatics and Computational Biology",
     "section": "",
-    "text": "JT Leek\nKarolis Koncevičius\nEytan Ruppin\nLior Pachter\nJean Fan\nLiu Lab\nCosta Lab\nMing Tang\nJames Zou\nKarl Broman\nKrishnaswamy Lab\nPhilip Compeau\nZHOU LAB\nChildhood Cancer Data Lab\nDiving into Genetics and Genomics"
+    "text": "The Bioinformatics and Computational Biology page offers a curated collection of resources for bioinformatics and computational biology. The page includes personal and lab websites, tutorials, courses, books, and projects."
   },
   {
     "objectID": "resources/biox/bioinf.html#personal-and-lab-websites",
     "href": "resources/biox/bioinf.html#personal-and-lab-websites",
     "title": "Bioinformatics and Computational Biology",
-    "section": "",
-    "text": "JT Leek\nKarolis Koncevičius\nEytan Ruppin\nLior Pachter\nJean Fan\nLiu Lab\nCosta Lab\nMing Tang\nJames Zou\nKarl Broman\nKrishnaswamy Lab\nPhilip Compeau\nZHOU LAB\nChildhood Cancer Data Lab\nDiving into Genetics and Genomics"
+    "section": "Personal and Lab Websites",
+    "text": "Personal and Lab Websites\n\nJT Leek\nKarolis Koncevičius\nEytan Ruppin\nLior Pachter\nJean Fan\nLiu Lab\nCosta Lab\nMing Tang\nJames Zou\nKarl Broman\nKrishnaswamy Lab\nPhilip Compeau\nZHOU LAB\nChildhood Cancer Data Lab\nDiving into Genetics and Genomics"
   },
   {
     "objectID": "resources/biox/bioinf.html#bioinformatics-news-stories",
@@ -424,42 +424,42 @@
     "href": "resources/biox/biomech_sports_be.html",
     "title": "Biomechanics and Sports Engineering",
     "section": "",
-    "text": "A curated repository of biomechanical resources\n\n\n\n\n\nStuart McErlain-Naylor Biomechanics Website\n\n\n\n\n\n\n\n\nBiomechanics of Movement\nThe Biomechanics of Solids and Fluids: The Physics of Life\n\n\n\n\n\nBiomechanics of Movement Classroom\nReinbolt Research Group\nNotes on Scientific Computing for Biomechanics and Motor Control\nUnderstanding Biomechanics and Body Movement\nThe Biomechanist\n\n\n\n\n\nBecoming a Sports Engineer\nPeak Performance Project\nBTS Bioengineering\nSparta Science"
+    "text": "The Biomechanics and Sports Engineering page provides a curated collection of resources. Included here is a list of books, tutorials, and personal blogs and websites."
   },
   {
     "objectID": "resources/biox/biomech_sports_be.html#biomechanics",
     "href": "resources/biox/biomech_sports_be.html#biomechanics",
     "title": "Biomechanics and Sports Engineering",
-    "section": "",
-    "text": "A curated repository of biomechanical resources\n\n\n\n\n\nStuart McErlain-Naylor Biomechanics Website\n\n\n\n\n\n\n\n\nBiomechanics of Movement\nThe Biomechanics of Solids and Fluids: The Physics of Life\n\n\n\n\n\nBiomechanics of Movement Classroom\nReinbolt Research Group\nNotes on Scientific Computing for Biomechanics and Motor Control\nUnderstanding Biomechanics and Body Movement\nThe Biomechanist\n\n\n\n\n\nBecoming a Sports Engineer\nPeak Performance Project\nBTS Bioengineering\nSparta Science"
+    "section": "Biomechanics",
+    "text": "Biomechanics\n\nCurated collection of resources\n\nA curated repository of biomechanical resources\n\n\n\nPersonal Blogs and Websites\n\nStuart McErlain-Naylor Biomechanics Website\n\n\n\nLabs\n\n\nBooks\n\nBiomechanics of Movement\nThe Biomechanics of Solids and Fluids: The Physics of Life\n\n\n\nTutorials and Lectures\n\nBiomechanics of Movement Classroom\nReinbolt Research Group\nNotes on Scientific Computing for Biomechanics and Motor Control\nUnderstanding Biomechanics and Body Movement\nThe Biomechanist\n\n\n\nSports Engineering and Movement Science\n\nBecoming a Sports Engineer\nPeak Performance Project\nBTS Bioengineering\nSparta Science"
   },
   {
     "objectID": "resources/biox/opensource_bio.html",
     "href": "resources/biox/opensource_bio.html",
     "title": "Open-Source Bio",
     "section": "",
-    "text": "Andre Maia Chagas Open-Source\nSynthetic Biology for engineering plant growth\n\n\n\n\n\nOpen Source Tools for Computational Biology\n\n\n\n\n\nDIY BIO - Listing of local groups\n\n\n\n\n\nOpen Labware\nOpen Neuroscience\nOpen Source BioArt\nOpen Source Bioreactor\nOpen Source Bioreactor Project\nFarma: a Home Bioreactor for Pharmaceutical Drugs\nGaudi Labs Open Culture Technology\nRaspberry Pi: a versatile tool for biological sciences\nOpen sourcing bioinstruments\nAppropedia: Open Source Technology\nIFIXIT Medical Device Repair\nDFROBOT\nOpen-source robotic platform for experimental automation\nLab On The Cheap\nDIYbio Lab\n\n\n\n\n\nPloS Open Source Toolkit\nOpen Source Hardware Journal\nOpen Source Biomaker\nTREND Africa Open Source Training\n\n\n\n\n\nOpen Data Kit\nOpen mHealth\nMobile Sensor Data to Knowledge"
+    "text": "This page provides resources focused on open-source science, medicine, and technology. There are personal blogs and websites, tools, projects, and publications that highlight progress in this field."
   },
   {
     "objectID": "resources/biox/opensource_bio.html#open-source-science-medicine-and-technology",
     "href": "resources/biox/opensource_bio.html#open-source-science-medicine-and-technology",
     "title": "Open-Source Bio",
-    "section": "",
-    "text": "Andre Maia Chagas Open-Source\nSynthetic Biology for engineering plant growth\n\n\n\n\n\nOpen Source Tools for Computational Biology\n\n\n\n\n\nDIY BIO - Listing of local groups\n\n\n\n\n\nOpen Labware\nOpen Neuroscience\nOpen Source BioArt\nOpen Source Bioreactor\nOpen Source Bioreactor Project\nFarma: a Home Bioreactor for Pharmaceutical Drugs\nGaudi Labs Open Culture Technology\nRaspberry Pi: a versatile tool for biological sciences\nOpen sourcing bioinstruments\nAppropedia: Open Source Technology\nIFIXIT Medical Device Repair\nDFROBOT\nOpen-source robotic platform for experimental automation\nLab On The Cheap\nDIYbio Lab\n\n\n\n\n\nPloS Open Source Toolkit\nOpen Source Hardware Journal\nOpen Source Biomaker\nTREND Africa Open Source Training\n\n\n\n\n\nOpen Data Kit\nOpen mHealth\nMobile Sensor Data to Knowledge"
+    "section": "Open-Source Science, Medicine, and Technology",
+    "text": "Open-Source Science, Medicine, and Technology\n\nPersonal Blogs and Websites\n\nAndre Maia Chagas Open-Source\nSynthetic Biology for engineering plant growth\n\n\n\nTools\n\nOpen Source Tools for Computational Biology\n\n\n\nLabs and Groups\n\nDIY BIO - Listing of local groups\n\n\n\nProjects\n\nOpen Labware\nOpen Neuroscience\nOpen Source BioArt\nOpen Source Bioreactor\nOpen Source Bioreactor Project\nFarma: a Home Bioreactor for Pharmaceutical Drugs\nGaudi Labs Open Culture Technology\nRaspberry Pi: a versatile tool for biological sciences\nOpen sourcing bioinstruments\nAppropedia: Open Source Technology\nIFIXIT Medical Device Repair\nDFROBOT\nOpen-source robotic platform for experimental automation\nLab On The Cheap\nDIYbio Lab\n\n\n\nPublications\n\nPloS Open Source Toolkit\nOpen Source Hardware Journal\nOpen Source Biomaker\nTREND Africa Open Source Training\n\n\n\nmHealth\n\nOpen Data Kit\nOpen mHealth\nMobile Sensor Data to Knowledge"
   },
   {
     "objectID": "resources/data_viz/ds_journalism.html",
     "href": "resources/data_viz/ds_journalism.html",
     "title": "Data Journalism Tools and Stories",
     "section": "",
-    "text": "A listing of data journalism practitioners and companies to follow:\n\nSeth Stephens-Davidowitz\nQuant Editing\nAmber Thomas\nData Journalism and Viz Accounts\nFlowing Data Website\n\n\n\n\n\nGitHub Data Journalism\nA Beginner’s Guide to Data Journalism: Let’s Build a Story From Scratch\nQuick Guide to Data Journalism\nData journalism: a guide for editors\nDeveloping Data Journalists in the Developing World\n\n\n\n\n\nInterrogating Data: A Science Writer’s Guide to Data Journalism\nThe Beginning, The Middle, & The New Beginning\nHow data journalists create beautiful feature stories\nA data journalist’s guide to building a hypothesis\nFlowing Data Story Formats\nTelling Stories With Data: A Simple Math Guide\nData Biographies: Getting to Know Your Data\nPutting data back into context\nDueling Data\n\n\n\n\n\nData Journalism Tools\nData Journalism and Visualization with Free Tools\nStorytelling Tools\nStoryBench: The future of machine learning in journalism\nHow ProPublica Analyzed Pardon Data\n\n\n\n\n\nMapping search data from Google Trends in R\nUsing R to Analyze Fargo Crime Data\n\n\n\n\n\nGlobal Investigative Journalism Network Data Journalism\nProPublica Data Institute 2018\nProPublica Data Institute 2019\nSIGMA Awards\nKnight Foundation: Misinformation\nThe Bureau of Investigative Journalism\nFake News Public Data Lab\nAP DataKit\nData Journalism Grants\nA community conference for data makers everywhere\nGoogle News Initiative"
+    "text": "This page provides a comprehensive collection of resources focused on data journalism tools and resources. On this page, you will find a list of personal websites and blogs that do some great work in data journalism. Additionally, there is a list of good examples of data stories to emulate."
   },
   {
     "objectID": "resources/data_viz/ds_journalism.html#data-journalism",
     "href": "resources/data_viz/ds_journalism.html#data-journalism",
     "title": "Data Journalism Tools and Stories",
-    "section": "",
-    "text": "A listing of data journalism practitioners and companies to follow:\n\nSeth Stephens-Davidowitz\nQuant Editing\nAmber Thomas\nData Journalism and Viz Accounts\nFlowing Data Website\n\n\n\n\n\nGitHub Data Journalism\nA Beginner’s Guide to Data Journalism: Let’s Build a Story From Scratch\nQuick Guide to Data Journalism\nData journalism: a guide for editors\nDeveloping Data Journalists in the Developing World\n\n\n\n\n\nInterrogating Data: A Science Writer’s Guide to Data Journalism\nThe Beginning, The Middle, & The New Beginning\nHow data journalists create beautiful feature stories\nA data journalist’s guide to building a hypothesis\nFlowing Data Story Formats\nTelling Stories With Data: A Simple Math Guide\nData Biographies: Getting to Know Your Data\nPutting data back into context\nDueling Data\n\n\n\n\n\nData Journalism Tools\nData Journalism and Visualization with Free Tools\nStorytelling Tools\nStoryBench: The future of machine learning in journalism\nHow ProPublica Analyzed Pardon Data\n\n\n\n\n\nMapping search data from Google Trends in R\nUsing R to Analyze Fargo Crime Data\n\n\n\n\n\nGlobal Investigative Journalism Network Data Journalism\nProPublica Data Institute 2018\nProPublica Data Institute 2019\nSIGMA Awards\nKnight Foundation: Misinformation\nThe Bureau of Investigative Journalism\nFake News Public Data Lab\nAP DataKit\nData Journalism Grants\nA community conference for data makers everywhere\nGoogle News Initiative"
+    "section": "Data Journalism",
+    "text": "Data Journalism\n\nBlogs and Websites\nA listing of data journalism practitioners and companies to follow:\n\nSeth Stephens-Davidowitz\nQuant Editing\nAmber Thomas\nData Journalism and Viz Accounts\nFlowing Data Website\n\n\n\nGuides\n\nGitHub Data Journalism\nA Beginner’s Guide to Data Journalism: Let’s Build a Story From Scratch\nQuick Guide to Data Journalism\nData journalism: a guide for editors\nDeveloping Data Journalists in the Developing World\n\n\n\nWriting\n\nInterrogating Data: A Science Writer’s Guide to Data Journalism\nThe Beginning, The Middle, & The New Beginning\nHow data journalists create beautiful feature stories\nA data journalist’s guide to building a hypothesis\nFlowing Data Story Formats\nTelling Stories With Data: A Simple Math Guide\nData Biographies: Getting to Know Your Data\nPutting data back into context\nDueling Data\n\n\n\nTools\n\nData Journalism Tools\nData Journalism and Visualization with Free Tools\nStorytelling Tools\nStoryBench: The future of machine learning in journalism\nHow ProPublica Analyzed Pardon Data\n\n\n\nTutorials\n\nMapping search data from Google Trends in R\nUsing R to Analyze Fargo Crime Data\n\n\n\nOrganizations\n\nGlobal Investigative Journalism Network Data Journalism\nProPublica Data Institute 2018\nProPublica Data Institute 2019\nSIGMA Awards\nKnight Foundation: Misinformation\nThe Bureau of Investigative Journalism\nFake News Public Data Lab\nAP DataKit\nData Journalism Grants\nA community conference for data makers everywhere\nGoogle News Initiative"
   },
   {
     "objectID": "resources/data_viz/ds_journalism.html#data-stories-longform-and-in-depth-articles",
@@ -487,14 +487,14 @@
     "href": "resources/data_viz/ds_viz_general.html",
     "title": "Data Visualization (General)",
     "section": "",
-    "text": "A listing of data visualization specialists and companies to follow:\n\n\n\nMaarten Lambrechts\nAda Homolova\nLisa Charlotte Muth\nZev Ross\nEdward Tufte\nCÉDRIC SCHERER\nKieran Healy\nLittle Miss Data\nSportsChord\n\n\n\n\n\nStamen"
+    "text": "On this page, you will find a list of general data visualization resources. First, there is a list of data visualization specialists and companies to follow. Additionally, there are practical introductions to data visualization, style guidelines, and books."
   },
   {
     "objectID": "resources/data_viz/ds_viz_general.html#data-visualization-blogs",
     "href": "resources/data_viz/ds_viz_general.html#data-visualization-blogs",
     "title": "Data Visualization (General)",
-    "section": "",
-    "text": "A listing of data visualization specialists and companies to follow:\n\n\n\nMaarten Lambrechts\nAda Homolova\nLisa Charlotte Muth\nZev Ross\nEdward Tufte\nCÉDRIC SCHERER\nKieran Healy\nLittle Miss Data\nSportsChord\n\n\n\n\n\nStamen"
+    "section": "Data Visualization (Blogs)",
+    "text": "Data Visualization (Blogs)\nA listing of data visualization specialists and companies to follow:\n\nPeople\n\nMaarten Lambrechts\nAda Homolova\nLisa Charlotte Muth\nZev Ross\nEdward Tufte\nCÉDRIC SCHERER\nKieran Healy\nLittle Miss Data\nSportsChord\n\n\n\nCompanies\n\nStamen"
   },
   {
     "objectID": "resources/data_viz/ds_viz_general.html#data-visualization-general",
@@ -508,14 +508,14 @@
     "href": "resources/data_viz/ds_viz_py.html",
     "title": "Data Visualization (Python)",
     "section": "",
-    "text": "The Python Graph Gallery"
+    "text": "The Python Data Visualization page provides a list of books and tutorials for beginners. There are links to practical introductions to data visualization, tools and style guidelines."
   },
   {
     "objectID": "resources/data_viz/ds_viz_py.html#books",
     "href": "resources/data_viz/ds_viz_py.html#books",
     "title": "Data Visualization (Python)",
-    "section": "",
-    "text": "The Python Graph Gallery"
+    "section": "Books",
+    "text": "Books\n\nThe Python Graph Gallery"
   },
   {
     "objectID": "resources/data_viz/ds_viz_py.html#tutorials",
@@ -529,14 +529,14 @@
     "href": "resources/data_viz/ds_viz_r.html",
     "title": "Data Visualization (R)",
     "section": "",
-    "text": "Awesome ggplot2"
+    "text": "This page contains a list of resources focused on data visualization in R. There are links to books, templates, tutorials, and courses. Additionally, for those interested in using coding for art, there is a section on \"Data aRtistry.\""
   },
   {
     "objectID": "resources/data_viz/ds_viz_r.html#curated-links-by-other-data-viz-specialists",
     "href": "resources/data_viz/ds_viz_r.html#curated-links-by-other-data-viz-specialists",
     "title": "Data Visualization (R)",
-    "section": "",
-    "text": "Awesome ggplot2"
+    "section": "Curated Links by other data viz specialists",
+    "text": "Curated Links by other data viz specialists\n\nAwesome ggplot2"
   },
   {
     "objectID": "resources/data_viz/ds_viz_r.html#books",
@@ -578,47 +578,47 @@
     "href": "resources/data_viz/ds_viz_tableau.html",
     "title": "Data Visualization (Tableau)",
     "section": "",
-    "text": "A Beginner’s Guide to Tableau Public\nTableau Resources\nWhat Is Data Visualization? Definition, Examples, And Learning Resources\nThe 10 Best Data Visualization Blogs To Follow\nHow to ace the Tableau Desktop Qualified Associate exam!\nTableau Tips, Dashboards, and Training\n7 tips and tricks from the dashboard experts\nData Visualization with Tableau"
+    "text": "The Tableau Data Visualization page provides a list of books and tutorials for beginners. There are links to practical introductions to data visualization, tools and style guidelines."
   },
   {
     "objectID": "resources/data_viz/ds_viz_tableau.html#data-visualization-tableau",
     "href": "resources/data_viz/ds_viz_tableau.html#data-visualization-tableau",
     "title": "Data Visualization (Tableau)",
-    "section": "",
-    "text": "A Beginner’s Guide to Tableau Public\nTableau Resources\nWhat Is Data Visualization? Definition, Examples, And Learning Resources\nThe 10 Best Data Visualization Blogs To Follow\nHow to ace the Tableau Desktop Qualified Associate exam!\nTableau Tips, Dashboards, and Training\n7 tips and tricks from the dashboard experts\nData Visualization with Tableau"
+    "section": "Data Visualization (Tableau)",
+    "text": "Data Visualization (Tableau)\n\nA Beginner’s Guide to Tableau Public\nTableau Resources\nWhat Is Data Visualization? Definition, Examples, And Learning Resources\nThe 10 Best Data Visualization Blogs To Follow\nHow to ace the Tableau Desktop Qualified Associate exam!\nTableau Tips, Dashboards, and Training\n7 tips and tricks from the dashboard experts\nData Visualization with Tableau"
   },
   {
     "objectID": "resources/ds_ml_ai/datasets.html",
     "href": "resources/ds_ml_ai/datasets.html",
-    "title": "Datasets for Statistical Analysis and Machine Learning",
+    "title": "Public Datasets",
     "section": "",
-    "text": "Data Literacy\nUsing Data Appropriately\nSharing Data\nWTF CSV Data Organization\nData Cleaning"
+    "text": "This page provides a comprehensive collection of resources on datasets that can be used for statistical analysis, machine learning, and data journalism. The page includes curated collections of free and open data sources, industry-specific data, and multiple public data sources."
   },
   {
     "objectID": "resources/ds_ml_ai/datasets.html#working-with-data",
     "href": "resources/ds_ml_ai/datasets.html#working-with-data",
-    "title": "Datasets for Statistical Analysis and Machine Learning",
-    "section": "",
-    "text": "Data Literacy\nUsing Data Appropriately\nSharing Data\nWTF CSV Data Organization\nData Cleaning"
+    "title": "Public Datasets",
+    "section": "Working with Data",
+    "text": "Working with Data\n\nData Literacy\nUsing Data Appropriately\nSharing Data\nWTF CSV Data Organization\nData Cleaning"
   },
   {
     "objectID": "resources/ds_ml_ai/datasets.html#free-and-open-data",
     "href": "resources/ds_ml_ai/datasets.html#free-and-open-data",
-    "title": "Datasets for Statistical Analysis and Machine Learning",
+    "title": "Public Datasets",
     "section": "Free and Open Data",
     "text": "Free and Open Data\n\nOpen Africa Data\nData Africa\nOur World in Data\nCalifornia Data Sources\nDataSF\nNYC Open Data\nThe Humanitarian Data Exchange\nGlobal Data Barometer\nMicrosoft Research Open Data\nAwesome Public Datasets\nMultiple Public Data Sources\nData Science Central Datasets\n70 Amazing Free Data Sources You Should Know\nRebecca Barter - List of Public Data Repositories"
   },
   {
     "objectID": "resources/ds_ml_ai/datasets.html#machine-learning-training-data",
     "href": "resources/ds_ml_ai/datasets.html#machine-learning-training-data",
-    "title": "Datasets for Statistical Analysis and Machine Learning",
+    "title": "Public Datasets",
     "section": "Machine Learning Training Data",
     "text": "Machine Learning Training Data\n\nDatasets for Machine Learning and Deep Learning\nBest Public Datasets for Machine Learning and Data Science\nMachine Learning Food Datasets Collection\nDatasets for Data Science and Machine Learning\nR Datasets\nKaggle Datasets\nGoogle Research Datasets"
   },
   {
     "objectID": "resources/ds_ml_ai/datasets.html#industry-specific-data",
     "href": "resources/ds_ml_ai/datasets.html#industry-specific-data",
-    "title": "Datasets for Statistical Analysis and Machine Learning",
+    "title": "Public Datasets",
     "section": "Industry-Specific Data",
     "text": "Industry-Specific Data\n\nNHS R-community Datasets\nInfectious Diseases Data Observatory\nInside Airbnb\nSchool Shootings USA\nPolitical Datasets\nEighty-Five Points Sports Data\nPoverty and Inequality Platform API\nNasdaq Data Link\nAnalyze Survey Data for Free\nGlobal Clinical Research Data\nGoogle Community Mobility Reports\n15 Open Datasets for Healthcare\nDemographic and Health Surveys\nFiveThirtyEight Data\nJo Hardin Datasets\nStatsBomb Open Data"
   },
@@ -627,14 +627,14 @@
     "href": "resources/ds_ml_ai/ds_interview.html",
     "title": "Data Science Interview",
     "section": "",
-    "text": "Role of a Data Science Manager\nSix Steps To Take Before Pursuing Education To Get A Data Science Job\nHow do Data Professionals Spend their Time on Data Science Projects?\nThings I Have Learned About Data Science\nThis Is What a Data Scientist Looks Like\nHow to land a Data Scientist job at your dream company — My journey to Airbnb\nHow to Become More Marketable as a Data Scientist\nHow to Build a Data Science Portfolio"
+    "text": "On this page, there is a comprehensive collection of resources on preparing for data science interviews. There are general interview questions, language- and field-specific interview questions, and job descriptions."
   },
   {
     "objectID": "resources/ds_ml_ai/ds_interview.html#job-descriptions",
     "href": "resources/ds_ml_ai/ds_interview.html#job-descriptions",
     "title": "Data Science Interview",
-    "section": "",
-    "text": "Role of a Data Science Manager\nSix Steps To Take Before Pursuing Education To Get A Data Science Job\nHow do Data Professionals Spend their Time on Data Science Projects?\nThings I Have Learned About Data Science\nThis Is What a Data Scientist Looks Like\nHow to land a Data Scientist job at your dream company — My journey to Airbnb\nHow to Become More Marketable as a Data Scientist\nHow to Build a Data Science Portfolio"
+    "section": "Job Descriptions",
+    "text": "Job Descriptions\n\nRole of a Data Science Manager\nSix Steps To Take Before Pursuing Education To Get A Data Science Job\nHow do Data Professionals Spend their Time on Data Science Projects?\nThings I Have Learned About Data Science\nThis Is What a Data Scientist Looks Like\nHow to land a Data Scientist job at your dream company — My journey to Airbnb\nHow to Become More Marketable as a Data Scientist\nHow to Build a Data Science Portfolio"
   },
   {
     "objectID": "resources/ds_ml_ai/ds_interview.html#curated-collection-of-data-science-resources",
@@ -662,14 +662,14 @@
     "href": "resources/ds_ml_ai/ds_ml_ai_all.html",
     "title": "Data Science, Machine Learning, and Artificial Intelligence",
     "section": "",
-    "text": "Data 8: The Foundations of Data Science\nIntroduction to Data Science\nMy Data Science Master’s\nData Science Master’s\nSchool of Data\nData Science Courses and Resources\nHow To Learn Data Science If You’re Broke\nComputing for Information Science\nData Science Learning Path For Complete Beginners\nData Science Berens Lab\n\n\n\n\n\n54 Best Data Science Books in 2023\nCritical Dataset Studies Reading List\nElements of Data Science\nThe Art of Data Science\nReadings in Applied Data Science\nAI/ML/DS Book Club\nData Science Resources\nData Science Learning Resources\nData Science Live Book\n\n\n\n\n\nList of Data Science Blogs\nData Science Primer\nData Science Cheatsheet\n30 Essential Data Science, Machine Learning & Deep Learning Cheat Sheets\nCoding habits for data scientists\nData Science by Design (DSxD)\nThe Data Scientist\nThe 10 Data Mining Techniques Data Scientists Need for Their Toolbox\nData Science Tutorials\nOur Coding Club\nData Science - Resources for Python & R\nPreparing for the Transition to Data Science\nFree Data Science Resources for Beginners\nData Science Glossary on Kaggle\nHOW TO START YOUR FIRST DATA SCIENCE PROJECT\nDS/ML/AI Blog\nmljar: Outstanding Data Science Tools"
+    "text": "This page provides a comprehensive collection of resources on data science, machine learning, and artificial intelligence. It includes links to courses, books, and tutorials."
   },
   {
     "objectID": "resources/ds_ml_ai/ds_ml_ai_all.html#data-science",
     "href": "resources/ds_ml_ai/ds_ml_ai_all.html#data-science",
     "title": "Data Science, Machine Learning, and Artificial Intelligence",
-    "section": "",
-    "text": "Data 8: The Foundations of Data Science\nIntroduction to Data Science\nMy Data Science Master’s\nData Science Master’s\nSchool of Data\nData Science Courses and Resources\nHow To Learn Data Science If You’re Broke\nComputing for Information Science\nData Science Learning Path For Complete Beginners\nData Science Berens Lab\n\n\n\n\n\n54 Best Data Science Books in 2023\nCritical Dataset Studies Reading List\nElements of Data Science\nThe Art of Data Science\nReadings in Applied Data Science\nAI/ML/DS Book Club\nData Science Resources\nData Science Learning Resources\nData Science Live Book\n\n\n\n\n\nList of Data Science Blogs\nData Science Primer\nData Science Cheatsheet\n30 Essential Data Science, Machine Learning & Deep Learning Cheat Sheets\nCoding habits for data scientists\nData Science by Design (DSxD)\nThe Data Scientist\nThe 10 Data Mining Techniques Data Scientists Need for Their Toolbox\nData Science Tutorials\nOur Coding Club\nData Science - Resources for Python & R\nPreparing for the Transition to Data Science\nFree Data Science Resources for Beginners\nData Science Glossary on Kaggle\nHOW TO START YOUR FIRST DATA SCIENCE PROJECT\nDS/ML/AI Blog\nmljar: Outstanding Data Science Tools"
+    "section": "Data Science",
+    "text": "Data Science\n\nCourses\n\nData 8: The Foundations of Data Science\nIntroduction to Data Science\nMy Data Science Master’s\nData Science Master’s\nSchool of Data\nData Science Courses and Resources\nHow To Learn Data Science If You’re Broke\nComputing for Information Science\nData Science Learning Path For Complete Beginners\nData Science Berens Lab\n\n\n\nBooks\n\n54 Best Data Science Books in 2023\nCritical Dataset Studies Reading List\nElements of Data Science\nThe Art of Data Science\nReadings in Applied Data Science\nAI/ML/DS Book Club\nData Science Resources\nData Science Learning Resources\nData Science Live Book\n\n\n\nTutorials, Resources, and Projects\n\nList of Data Science Blogs\nData Science Primer\nData Science Cheatsheet\n30 Essential Data Science, Machine Learning & Deep Learning Cheat Sheets\nCoding habits for data scientists\nData Science by Design (DSxD)\nThe Data Scientist\nThe 10 Data Mining Techniques Data Scientists Need for Their Toolbox\nData Science Tutorials\nOur Coding Club\nData Science - Resources for Python & R\nPreparing for the Transition to Data Science\nFree Data Science Resources for Beginners\nData Science Glossary on Kaggle\nHOW TO START YOUR FIRST DATA SCIENCE PROJECT\nDS/ML/AI Blog\nmljar: Outstanding Data Science Tools"
   },
   {
     "objectID": "resources/ds_ml_ai/ds_ml_ai_all.html#machine-learning",
@@ -739,14 +739,14 @@
     "href": "resources/ds_ml_ai/ds_sports.html",
     "title": "Sports Data Science",
     "section": "",
-    "text": "Sweep Sports Analytics\nJason Zivkovic\nSPORT DATA SCIENCE\n\n\n\n\n\nSBNation Blogs\nSports Intelligence\n11tegen11\nKarun Singh\nMackay Analytics\nSon of a Corner\nSaints by Numbers\nAchim Zeileis\nOpta Analyst\nThe Come on Man\nThe Last Man Analytics\nAnalytics FC\nBrendan Kent\nWyScout\nBiscuit Chaser FC\nStatsBomb\nEightyFivePoints\nOwen Thompson\nTony El Habr\n11v11\n\n\n\n\n\nDribble analytics"
+    "text": "This page provides a comprehensive collection of resources on sports data science. The page includes links to tutorials, datasets, journal articles, and personal blogs focused on sports data science."
   },
   {
     "objectID": "resources/ds_ml_ai/ds_sports.html#sports-data-science-blogs",
     "href": "resources/ds_ml_ai/ds_sports.html#sports-data-science-blogs",
     "title": "Sports Data Science",
-    "section": "",
-    "text": "Sweep Sports Analytics\nJason Zivkovic\nSPORT DATA SCIENCE\n\n\n\n\n\nSBNation Blogs\nSports Intelligence\n11tegen11\nKarun Singh\nMackay Analytics\nSon of a Corner\nSaints by Numbers\nAchim Zeileis\nOpta Analyst\nThe Come on Man\nThe Last Man Analytics\nAnalytics FC\nBrendan Kent\nWyScout\nBiscuit Chaser FC\nStatsBomb\nEightyFivePoints\nOwen Thompson\nTony El Habr\n11v11\n\n\n\n\n\nDribble analytics"
+    "section": "Sports Data Science Blogs",
+    "text": "Sports Data Science Blogs\n\nMultiple Sports\n\nSweep Sports Analytics\nJason Zivkovic\nSPORT DATA SCIENCE\n\n\n\nSoccer\n\nSBNation Blogs\nSports Intelligence\n11tegen11\nKarun Singh\nMackay Analytics\nSon of a Corner\nSaints by Numbers\nAchim Zeileis\nOpta Analyst\nThe Come on Man\nThe Last Man Analytics\nAnalytics FC\nBrendan Kent\nWyScout\nBiscuit Chaser FC\nStatsBomb\nEightyFivePoints\nOwen Thompson\nTony El Habr\n11v11\n\n\n\nBasketball Analytics\n\nDribble analytics"
   },
   {
     "objectID": "resources/ds_ml_ai/ds_sports.html#sports-data-science-stories",
@@ -774,14 +774,14 @@
     "href": "resources/ds_ml_ai/soc_med_music_analysis.html",
     "title": "Social Media and Music Analysis",
     "section": "",
-    "text": "Text Mining with R\nSocial Media Mining\nSocial Media Mining (Slides)\n\n\n\n\n\nANALYSING TWITTER DATA WITH R\nANALYSING TWITTER DATA: EXPLORING USER PROFILES AND RELATIONSHIPS\nANALYSING TWITTER DATA: EXPLORING TWEETS CONTENT\n4 ways how to create a gradient word cloud in R\nAnalyzing Google Trends with R: Retrieve and plot with gtrendsR\nQuantitative Analysis of Political Text\nClassifying Tweets for Sentiment Analysis\nAdvancing Text Mining with R and quanteda\nUsing Twitter With Python And Tweepy\nUSING R TO ANALYZE AND VISUALIZE TWEETS FROM SACNAS\nTwitter “Account Analysis” in R\nCalculating (Twitter) Vocabulary Breadth of U.S. Presidential Candidates Using TTR\nTwitter data analysis in R\nTwitter’s Feelings About Programming Languages\nLook who’s tweeting: 2020 Presidential Candidates\nA TidyText Analysis With R\nUsing Twitter as a data source an overview of social media research tools (2021)\n\n\n\n\n\nText As Data\n\n\n\n\n\ntwitter-sentiment-analysis\nAnalytics Master’s Research Project"
+    "text": "On this page, there is a comprehensive collection of resources focused on social media and music analysis. The page includes links to books, courses, and tutorials that can help with social media, music, and lyric analysis."
   },
   {
     "objectID": "resources/ds_ml_ai/soc_med_music_analysis.html#social-media-analysis",
     "href": "resources/ds_ml_ai/soc_med_music_analysis.html#social-media-analysis",
     "title": "Social Media and Music Analysis",
-    "section": "",
-    "text": "Text Mining with R\nSocial Media Mining\nSocial Media Mining (Slides)\n\n\n\n\n\nANALYSING TWITTER DATA WITH R\nANALYSING TWITTER DATA: EXPLORING USER PROFILES AND RELATIONSHIPS\nANALYSING TWITTER DATA: EXPLORING TWEETS CONTENT\n4 ways how to create a gradient word cloud in R\nAnalyzing Google Trends with R: Retrieve and plot with gtrendsR\nQuantitative Analysis of Political Text\nClassifying Tweets for Sentiment Analysis\nAdvancing Text Mining with R and quanteda\nUsing Twitter With Python And Tweepy\nUSING R TO ANALYZE AND VISUALIZE TWEETS FROM SACNAS\nTwitter “Account Analysis” in R\nCalculating (Twitter) Vocabulary Breadth of U.S. Presidential Candidates Using TTR\nTwitter data analysis in R\nTwitter’s Feelings About Programming Languages\nLook who’s tweeting: 2020 Presidential Candidates\nA TidyText Analysis With R\nUsing Twitter as a data source an overview of social media research tools (2021)\n\n\n\n\n\nText As Data\n\n\n\n\n\ntwitter-sentiment-analysis\nAnalytics Master’s Research Project"
+    "section": "Social Media Analysis",
+    "text": "Social Media Analysis\n\nBooks\n\nText Mining with R\nSocial Media Mining\nSocial Media Mining (Slides)\n\n\n\nTutorials\n\nANALYSING TWITTER DATA WITH R\nANALYSING TWITTER DATA: EXPLORING USER PROFILES AND RELATIONSHIPS\nANALYSING TWITTER DATA: EXPLORING TWEETS CONTENT\n4 ways how to create a gradient word cloud in R\nAnalyzing Google Trends with R: Retrieve and plot with gtrendsR\nQuantitative Analysis of Political Text\nClassifying Tweets for Sentiment Analysis\nAdvancing Text Mining with R and quanteda\nUsing Twitter With Python And Tweepy\nUSING R TO ANALYZE AND VISUALIZE TWEETS FROM SACNAS\nTwitter “Account Analysis” in R\nCalculating (Twitter) Vocabulary Breadth of U.S. Presidential Candidates Using TTR\nTwitter data analysis in R\nTwitter’s Feelings About Programming Languages\nLook who’s tweeting: 2020 Presidential Candidates\nA TidyText Analysis With R\nUsing Twitter as a data source an overview of social media research tools (2021)\n\n\n\nCourses\n\nText As Data\n\n\n\nProjects\n\ntwitter-sentiment-analysis\nAnalytics Master’s Research Project"
   },
   {
     "objectID": "resources/ds_ml_ai/soc_med_music_analysis.html#music-and-lyric-analysis",
@@ -795,21 +795,21 @@
     "href": "resources/ds_ml_ai/statistics.html",
     "title": "Statistics",
     "section": "",
-    "text": "Books\n\nIntroduction to Modern Statistics\nCausal Inference: What If (Hernan MA)\nBayes Rules!\nCausal Inference: The Mixtape\nSeeing Theory\nCommon statistical tests are linear models (or: how to teach stats)\nModern Statistics with R\nIntroduction to Probability for Data Science\nIntro to Bayesian Business Analytics\nDesign and Analysis of Experiments and Observational Studies using R\nStatistical rethinking with brms, ggplot2, and the tidyverse\nBayes Rules! An Introduction to Applied Bayesian Modeling\n\n\n\nPersonal Websites and Blogs\n\nStatistical Thinking\n\n\n\nLectures and Courses\n\nStatistics 110: Probability\nStatistical Computing\nBIOLOGY FOR LIFE\nProgram Evaluation for Public Service and Research Design\nSTA 363: Statistical Learning\nSTA 312: Linear Models\nSTA 212: Statistical Models\nStatistics 431: Advanced Statistical Computing with R\nGUide to STatistical Analysis in Microbial Ecology (GUSTA ME)\nRegression Modelling in R\nThe Grammar of Experimental Design\n\n\n\nTutorials\n\nWelcome to A/B Testing at Scale Tutorial\nCausation and Correlation\nAn Introduction to Hierarchical Modeling\nTidy Statistics in R\nStatistics and R\nTidy dataframes and statsExpressions\nPower Analysis | Introduction in R\nmetrica: Prediction performance metrics\nBayes Explained 1\nBayes Explained 2\nCausalImpact\n\n\n\nTroubleshooting\n\nStatistical Problems to Document and to Avoid\nDatamethods\n\n\n\nBiostatistics\n\nBiostatistics for Biomedical Research\nTutorials in Biostatistics Papers\nBiostatistics Series Papers\nWCM Biostatistics Computing Club\nKatherine (Kat) Hoffman Biostats"
+    "text": "This page provides a comprehensive collection of resources on statistics. Included here is a list of links to books, lectures and courses, and tutorials focused on statistics.\n\nBooks\n\nIntroduction to Modern Statistics\nCausal Inference: What If (Hernan MA)\nBayes Rules!\nCausal Inference: The Mixtape\nSeeing Theory\nCommon statistical tests are linear models (or: how to teach stats)\nModern Statistics with R\nIntroduction to Probability for Data Science\nIntro to Bayesian Business Analytics\nDesign and Analysis of Experiments and Observational Studies using R\nStatistical rethinking with brms, ggplot2, and the tidyverse\nBayes Rules! An Introduction to Applied Bayesian Modeling\n\n\n\nPersonal Websites and Blogs\n\nStatistical Thinking\n\n\n\nLectures and Courses\n\nStatistics 110: Probability\nStatistical Computing\nBIOLOGY FOR LIFE\nProgram Evaluation for Public Service and Research Design\nSTA 363: Statistical Learning\nSTA 312: Linear Models\nSTA 212: Statistical Models\nStatistics 431: Advanced Statistical Computing with R\nGUide to STatistical Analysis in Microbial Ecology (GUSTA ME)\nRegression Modelling in R\nThe Grammar of Experimental Design\n\n\n\nTutorials\n\nWelcome to A/B Testing at Scale Tutorial\nCausation and Correlation\nAn Introduction to Hierarchical Modeling\nTidy Statistics in R\nStatistics and R\nTidy dataframes and statsExpressions\nPower Analysis | Introduction in R\nmetrica: Prediction performance metrics\nBayes Explained 1\nBayes Explained 2\nCausalImpact\n\n\n\nTroubleshooting\n\nStatistical Problems to Document and to Avoid\nDatamethods\n\n\n\nBiostatistics\n\nBiostatistics for Biomedical Research\nTutorials in Biostatistics Papers\nBiostatistics Series Papers\nWCM Biostatistics Computing Club\nKatherine (Kat) Hoffman Biostats"
   },
   {
     "objectID": "resources/programming/git_hub_cl_sql.html",
     "href": "resources/programming/git_hub_cl_sql.html",
     "title": "Git, GitHub, Command Line, and SQL",
     "section": "",
-    "text": "Git Basics\nGit Cheatsheet\nGit/GitHub Cheatsheet\nA Visual Git Reference\nVisualizing Git Concepts with D3\nGit Immersion\nLearn Git Branching\nIntroduction to Git & Github\nHow to Use Git/GitHub with R\ngit ready\n\n\n\n\n\nPro Git Book\nHappy Git and GitHub for the user\n\n\n\n\n\nUnderstanding Git Conceptually\nBecome a git guru\nGit and RStudio\nGood Enough Practices in Scientific Computing\nVersion Control (Git)\n\n\n\n\n\nOn undoing, fixing, or removing commits in git\ngit pretty\nFixing Common Git Mistakes"
+    "text": "This page provides a comprehensive collection of resources focused on Git, GitHub, the Command Line, and SQL. On this page, you will find tutorials, books, and training materials that can get you started on the tools listed above."
   },
   {
     "objectID": "resources/programming/git_hub_cl_sql.html#git",
     "href": "resources/programming/git_hub_cl_sql.html#git",
     "title": "Git, GitHub, Command Line, and SQL",
-    "section": "",
-    "text": "Git Basics\nGit Cheatsheet\nGit/GitHub Cheatsheet\nA Visual Git Reference\nVisualizing Git Concepts with D3\nGit Immersion\nLearn Git Branching\nIntroduction to Git & Github\nHow to Use Git/GitHub with R\ngit ready\n\n\n\n\n\nPro Git Book\nHappy Git and GitHub for the user\n\n\n\n\n\nUnderstanding Git Conceptually\nBecome a git guru\nGit and RStudio\nGood Enough Practices in Scientific Computing\nVersion Control (Git)\n\n\n\n\n\nOn undoing, fixing, or removing commits in git\ngit pretty\nFixing Common Git Mistakes"
+    "section": "Git",
+    "text": "Git\n\nBasics and Summaries\n\nGit Basics\nGit Cheatsheet\nGit/GitHub Cheatsheet\nA Visual Git Reference\nVisualizing Git Concepts with D3\nGit Immersion\nLearn Git Branching\nIntroduction to Git & Github\nHow to Use Git/GitHub with R\ngit ready\n\n\n\nBooks\n\nPro Git Book\nHappy Git and GitHub for the user\n\n\n\nTutorials\n\nUnderstanding Git Conceptually\nBecome a git guru\nGit and RStudio\nGood Enough Practices in Scientific Computing\nVersion Control (Git)\n\n\n\nGit Troubleshooting\n\nOn undoing, fixing, or removing commits in git\ngit pretty\nFixing Common Git Mistakes"
   },
   {
     "objectID": "resources/programming/git_hub_cl_sql.html#github",
@@ -837,42 +837,42 @@
     "href": "resources/programming/python.html",
     "title": "Python",
     "section": "",
-    "text": "Python for Non-Programmers\n49 Essential Resources To Learn Python\nA Gallery of Interesting Jupyter Notebooks\nA dozen ways to learn Python\n\n\n\n\n\n\n\n\nAutomate the Boring Stuff with Python\nElements of Data Science\nScientific Computing with Python\nComputational and Inferential Thinking: The Foundations of Data Science\nPython for Data Analysis, 3E\nPython Programming And Numerical Methods: A Guide For Engineers And Scientists\n100 Page Python Intro\nThink Python 2e\nA Whirlwind Tour of Python\nGoogle’s Python Class\nPython Data Science Handbook\n\n\n\n\n\nNumpy\nPython Cheatsheet\nComprehensive Python Cheatsheet\nPython Curriculum Map\nData School: My top 25 pandas tricks\n10 Python Pandas tricks that make your work more efficient\nPython built-in functions to know\nData Science Best Practices with pandas\nTour of Python Itertools\n\n\n\n\n\nReal Python\nResolving Python\nJust into Data\nChristina Levengood Blog\nPython Machine Learning Notebooks (Tutorial style)\nDataquest Tutorials\nVIB Tutorials\nData Flair Training\nTop 10 IPython Notebook Tutorials for Data Science and Machine Learning\nPython for Beginners Course\nPython Crash Course\nPython for Everybody (PY4E)\nPython Machine Learning Jupyter Notebooks\nPractical Business Python\nLearning Python For Data Science\nLearn Python in 3 days: Step-by-Step Guide\nA Complete 26 Week Course to Learn Python for Data Science in 2022\nPython for Data Science: 8 Concepts You May Have Forgotten\nWhat is Exploratory Spatial Data Analysis (ESDA)?\nGetting started with data science using Python\n\n\n\n\n\nStock Portfolio Analysis using Python\nNeural networks fundamentals with Python\nPython News Webscraper\nWeb Scraping with Scrapy\nIntroduction to Market Basket Analysis in Python\n\n\n\n\n\nPython Projects for 2023 – Work on Real-time Projects to Head Start Your Career\nPython Projects with Source Code\n45+ Data Analysis Projects with Python"
+    "text": "This page provides a comprehensive collection of resources for those interested in Python. On this page, you will find a list of personal websites and blogs that do some great work in Python. Additionally, there is a list of resources (books, tutorials, and blogs) focused on the basics of Python."
   },
   {
     "objectID": "resources/programming/python.html#python",
     "href": "resources/programming/python.html#python",
     "title": "Python",
-    "section": "",
-    "text": "Python for Non-Programmers\n49 Essential Resources To Learn Python\nA Gallery of Interesting Jupyter Notebooks\nA dozen ways to learn Python\n\n\n\n\n\n\n\n\nAutomate the Boring Stuff with Python\nElements of Data Science\nScientific Computing with Python\nComputational and Inferential Thinking: The Foundations of Data Science\nPython for Data Analysis, 3E\nPython Programming And Numerical Methods: A Guide For Engineers And Scientists\n100 Page Python Intro\nThink Python 2e\nA Whirlwind Tour of Python\nGoogle’s Python Class\nPython Data Science Handbook\n\n\n\n\n\nNumpy\nPython Cheatsheet\nComprehensive Python Cheatsheet\nPython Curriculum Map\nData School: My top 25 pandas tricks\n10 Python Pandas tricks that make your work more efficient\nPython built-in functions to know\nData Science Best Practices with pandas\nTour of Python Itertools\n\n\n\n\n\nReal Python\nResolving Python\nJust into Data\nChristina Levengood Blog\nPython Machine Learning Notebooks (Tutorial style)\nDataquest Tutorials\nVIB Tutorials\nData Flair Training\nTop 10 IPython Notebook Tutorials for Data Science and Machine Learning\nPython for Beginners Course\nPython Crash Course\nPython for Everybody (PY4E)\nPython Machine Learning Jupyter Notebooks\nPractical Business Python\nLearning Python For Data Science\nLearn Python in 3 days: Step-by-Step Guide\nA Complete 26 Week Course to Learn Python for Data Science in 2022\nPython for Data Science: 8 Concepts You May Have Forgotten\nWhat is Exploratory Spatial Data Analysis (ESDA)?\nGetting started with data science using Python\n\n\n\n\n\nStock Portfolio Analysis using Python\nNeural networks fundamentals with Python\nPython News Webscraper\nWeb Scraping with Scrapy\nIntroduction to Market Basket Analysis in Python\n\n\n\n\n\nPython Projects for 2023 – Work on Real-time Projects to Head Start Your Career\nPython Projects with Source Code\n45+ Data Analysis Projects with Python"
+    "section": "Python",
+    "text": "Python\n\nCurated collection of resources\n\nPython for Non-Programmers\n49 Essential Resources To Learn Python\nA Gallery of Interesting Jupyter Notebooks\nA dozen ways to learn Python\n\n\n\nPersonal Websites and Blogs\n\n\nBooks\n\nAutomate the Boring Stuff with Python\nElements of Data Science\nScientific Computing with Python\nComputational and Inferential Thinking: The Foundations of Data Science\nPython for Data Analysis, 3E\nPython Programming And Numerical Methods: A Guide For Engineers And Scientists\n100 Page Python Intro\nThink Python 2e\nA Whirlwind Tour of Python\nGoogle’s Python Class\nPython Data Science Handbook\n\n\n\nBasics\n\nNumpy\nPython Cheatsheet\nComprehensive Python Cheatsheet\nPython Curriculum Map\nData School: My top 25 pandas tricks\n10 Python Pandas tricks that make your work more efficient\nPython built-in functions to know\nData Science Best Practices with pandas\nTour of Python Itertools\n\n\n\nTutorials\n\nReal Python\nResolving Python\nJust into Data\nChristina Levengood Blog\nPython Machine Learning Notebooks (Tutorial style)\nDataquest Tutorials\nVIB Tutorials\nData Flair Training\nTop 10 IPython Notebook Tutorials for Data Science and Machine Learning\nPython for Beginners Course\nPython Crash Course\nPython for Everybody (PY4E)\nPython Machine Learning Jupyter Notebooks\nPractical Business Python\nLearning Python For Data Science\nLearn Python in 3 days: Step-by-Step Guide\nA Complete 26 Week Course to Learn Python for Data Science in 2022\nPython for Data Science: 8 Concepts You May Have Forgotten\nWhat is Exploratory Spatial Data Analysis (ESDA)?\nGetting started with data science using Python\n\n\n\nApplications\n\nStock Portfolio Analysis using Python\nNeural networks fundamentals with Python\nPython News Webscraper\nWeb Scraping with Scrapy\nIntroduction to Market Basket Analysis in Python\n\n\n\nProjects\n\nPython Projects for 2023 – Work on Real-time Projects to Head Start Your Career\nPython Projects with Source Code\n45+ Data Analysis Projects with Python"
   },
   {
     "objectID": "resources/programming/quarto.html",
     "href": "resources/programming/quarto.html",
     "title": "Quarto",
     "section": "",
-    "text": "Awesome Quarto\n\n\n\n\n\nQuarto\nTutorial: Hello, Quarto\nWhat is Quarto? RStudio rolls out next-generation R Markdown\nWe don’t talk about Quarto\nBuild a simple website with R and Quarto in under 10 minutes\nGetting Started with Quarto\nThe ultimate guide to starting a Quarto blog\nCreating a blog with Quarto in 10 steps\nMaking Slides in Quarto with reveal.js\n\n\n\n\n\nThe Distillery\nR Markdown for Web Pages\nPorting a distill blog to quarto\nRMarkdown"
+    "text": "The Quarto page contains a list of resources that are focused on the relatively new Quarto software. It includes various beginner guides to help one get started on their Quarto journey. Additionally, I provide links to resources for other tools such as RMarkdown and Distill."
   },
   {
     "objectID": "resources/programming/quarto.html#introduction-and-tutorials",
     "href": "resources/programming/quarto.html#introduction-and-tutorials",
     "title": "Quarto",
-    "section": "",
-    "text": "Awesome Quarto\n\n\n\n\n\nQuarto\nTutorial: Hello, Quarto\nWhat is Quarto? RStudio rolls out next-generation R Markdown\nWe don’t talk about Quarto\nBuild a simple website with R and Quarto in under 10 minutes\nGetting Started with Quarto\nThe ultimate guide to starting a Quarto blog\nCreating a blog with Quarto in 10 steps\nMaking Slides in Quarto with reveal.js\n\n\n\n\n\nThe Distillery\nR Markdown for Web Pages\nPorting a distill blog to quarto\nRMarkdown"
+    "section": "Introduction and Tutorials",
+    "text": "Introduction and Tutorials\n\nCurated collection of Quarto Resources\n\nAwesome Quarto\n\n\n\nBeginner’s Guide\n\nQuarto\nTutorial: Hello, Quarto\nWhat is Quarto? RStudio rolls out next-generation R Markdown\nWe don’t talk about Quarto\nBuild a simple website with R and Quarto in under 10 minutes\nGetting Started with Quarto\nThe ultimate guide to starting a Quarto blog\nCreating a blog with Quarto in 10 steps\nMaking Slides in Quarto with reveal.js\n\n\n\nR Markdown and Distill\n\nThe Distillery\nR Markdown for Web Pages\nPorting a distill blog to quarto\nRMarkdown"
   },
   {
     "objectID": "resources/programming/r_rstudio.html",
     "href": "resources/programming/r_rstudio.html",
     "title": "R and RStudio",
     "section": "",
-    "text": "Silvia Canelon\nMeghan Hall\nPaul Villanueva\nShannon Pileggi\nKatherine (Kat) Hoffman\nDeisy Gysi\nSimon J\nRyo Nakagawara\nKieran Healy - Some Favorite Things\nFrançois Husson\nRebecca Barter\nAlboukadel Kassambara\nMichael Toth\nSam Abbott\nShel Kariuki\nAustin Wehrwein\nNicola Rennie\nR for Ecology\nStats and R\nRoland Krasser\nMartin Chan - Musings on R\nRsquared Academy\nOlivier Gimenez\n\nMore to come…"
+    "text": "This page provides a comprehensive collection of R/RStudio resources. On this page, you will find a list of personal websites and blogs that do some great work in R/RStudio. Additionally, there is a list of resources (books, tutorials, and blogs) focused on the basics of R/RStudio and Shiny."
   },
   {
     "objectID": "resources/programming/r_rstudio.html#personal-websites-and-blogs",
     "href": "resources/programming/r_rstudio.html#personal-websites-and-blogs",
     "title": "R and RStudio",
-    "section": "",
-    "text": "Silvia Canelon\nMeghan Hall\nPaul Villanueva\nShannon Pileggi\nKatherine (Kat) Hoffman\nDeisy Gysi\nSimon J\nRyo Nakagawara\nKieran Healy - Some Favorite Things\nFrançois Husson\nRebecca Barter\nAlboukadel Kassambara\nMichael Toth\nSam Abbott\nShel Kariuki\nAustin Wehrwein\nNicola Rennie\nR for Ecology\nStats and R\nRoland Krasser\nMartin Chan - Musings on R\nRsquared Academy\nOlivier Gimenez\n\nMore to come…"
+    "section": "Personal Websites and Blogs",
+    "text": "Personal Websites and Blogs\n\nSilvia Canelon\nMeghan Hall\nPaul Villanueva\nShannon Pileggi\nKatherine (Kat) Hoffman\nDeisy Gysi\nSimon J\nRyo Nakagawara\nKieran Healy - Some Favorite Things\nFrançois Husson\nRebecca Barter\nAlboukadel Kassambara\nMichael Toth\nSam Abbott\nShel Kariuki\nAustin Wehrwein\nNicola Rennie\nR for Ecology\nStats and R\nRoland Krasser\nMartin Chan - Musings on R\nRsquared Academy\nOlivier Gimenez\n\nMore to come…"
   },
   {
     "objectID": "resources/programming/r_rstudio.html#basics",
@@ -1005,14 +1005,14 @@
     "href": "resources/readings/reading_general.html",
     "title": "Recommended Readings (General)",
     "section": "",
-    "text": "How Will You Measure Your Life? Clayton Christensen (2010)\nA World Split Apart. Alexander Solzhenitsyn (1978)\nThe Inner Ring. CS Lewis (1944)"
+    "text": "This page contains a list of readings that I would recommend for anyone. It includes articles with topics that range from religion, mental health, classic books and short stories."
   },
   {
     "objectID": "resources/readings/reading_general.html#interesting-articles-and-speeches",
     "href": "resources/readings/reading_general.html#interesting-articles-and-speeches",
     "title": "Recommended Readings (General)",
-    "section": "",
-    "text": "How Will You Measure Your Life? Clayton Christensen (2010)\nA World Split Apart. Alexander Solzhenitsyn (1978)\nThe Inner Ring. CS Lewis (1944)"
+    "section": "Interesting Articles and Speeches",
+    "text": "Interesting Articles and Speeches\n\nHow Will You Measure Your Life? Clayton Christensen (2010)\nA World Split Apart. Alexander Solzhenitsyn (1978)\nThe Inner Ring. CS Lewis (1944)"
   },
   {
     "objectID": "resources/readings/reading_general.html#my-favorite-short-stories",
@@ -1047,14 +1047,14 @@
     "href": "resources/readings/reading_stem.html",
     "title": "Recommended Readings (STEM)",
     "section": "",
-    "text": "How to succeed in science: a concise guide for young biomedical scientists. Part I: taking the plunge. Yewdell JW, Nat Rev Mol Cell Biol. (2008).\nHow to succeed in science: a concise guide for young biomedical scientists. Part II: making discoveries. Yewdell JW, Nat Rev Mol Cell Biol. (2008).\nThe importance of stupidity in scientific research. Schwartz MA, J Cell Sci. (2008).\nUnskilled and unaware of it: how difficulties in recognizing one’s own incompetence lead to inflated self-assessments (Dunning-Kruger Effect). Kruger J and Dunning D, J Pers Soc Psychol. (1999).\nHow to choose a good scientific problem. Alon U, Mol Cell. (2009).\nPLOS “Ten Simple Rules” Collection provides a quick, concentrated guide for mastering some of the professional challenges research scientists face in their careers. PloS.\nResources for PhD Students Guillaume Dalle."
+    "text": "This page contains a list of readings that I would recommend for upper-level undergraduate and graduate students getting started in STEM research. It includes articles focused on best practices, important research papers, and science integrity."
   },
   {
     "objectID": "resources/readings/reading_stem.html#best-practices",
     "href": "resources/readings/reading_stem.html#best-practices",
     "title": "Recommended Readings (STEM)",
-    "section": "",
-    "text": "How to succeed in science: a concise guide for young biomedical scientists. Part I: taking the plunge. Yewdell JW, Nat Rev Mol Cell Biol. (2008).\nHow to succeed in science: a concise guide for young biomedical scientists. Part II: making discoveries. Yewdell JW, Nat Rev Mol Cell Biol. (2008).\nThe importance of stupidity in scientific research. Schwartz MA, J Cell Sci. (2008).\nUnskilled and unaware of it: how difficulties in recognizing one’s own incompetence lead to inflated self-assessments (Dunning-Kruger Effect). Kruger J and Dunning D, J Pers Soc Psychol. (1999).\nHow to choose a good scientific problem. Alon U, Mol Cell. (2009).\nPLOS “Ten Simple Rules” Collection provides a quick, concentrated guide for mastering some of the professional challenges research scientists face in their careers. PloS.\nResources for PhD Students Guillaume Dalle."
+    "section": "Best Practices",
+    "text": "Best Practices\n\nHow to succeed in science: a concise guide for young biomedical scientists. Part I: taking the plunge. Yewdell JW, Nat Rev Mol Cell Biol. (2008).\nHow to succeed in science: a concise guide for young biomedical scientists. Part II: making discoveries. Yewdell JW, Nat Rev Mol Cell Biol. (2008).\nThe importance of stupidity in scientific research. Schwartz MA, J Cell Sci. (2008).\nUnskilled and unaware of it: how difficulties in recognizing one’s own incompetence lead to inflated self-assessments (Dunning-Kruger Effect). Kruger J and Dunning D, J Pers Soc Psychol. (1999).\nHow to choose a good scientific problem. Alon U, Mol Cell. (2009).\nPLOS “Ten Simple Rules” Collection provides a quick, concentrated guide for mastering some of the professional challenges research scientists face in their careers. PloS.\nResources for PhD Students Guillaume Dalle."
   },
   {
     "objectID": "resources/readings/reading_stem.html#challenges",
@@ -1096,14 +1096,14 @@
     "href": "resources/teaching/gen_teach_resources.html",
     "title": "General Teaching Resources",
     "section": "",
-    "text": "Teaching Tech Together\nMaintaining a laboratory notebook\nSubjects and Skills for Graduate Students in the Biological Sciences\nScientific Figure Design"
+    "text": "The general teaching resources page provides resources focused on teaching STEM subjects, as well as links to teaching aids for more efficient teaching."
   },
   {
     "objectID": "resources/teaching/gen_teach_resources.html#teaching-stem-subjects",
     "href": "resources/teaching/gen_teach_resources.html#teaching-stem-subjects",
     "title": "General Teaching Resources",
-    "section": "",
-    "text": "Teaching Tech Together\nMaintaining a laboratory notebook\nSubjects and Skills for Graduate Students in the Biological Sciences\nScientific Figure Design"
+    "section": "Teaching STEM Subjects",
+    "text": "Teaching STEM Subjects\n\nA curated collection of resources\n\nTeaching Tech Together\nMaintaining a laboratory notebook\nSubjects and Skills for Graduate Students in the Biological Sciences\nScientific Figure Design"
   },
   {
     "objectID": "resources/teaching/gen_teach_resources.html#teaching-aids",
@@ -1117,14 +1117,14 @@
     "href": "resources/teaching/rstudio_carpentries_cert.html",
     "title": "RStudio and Carpentries Certification",
     "section": "",
-    "text": "R4DS Book – Prep for Exam\nPOSIT/R Training Videos\nPOSIT Primers\nRStudio Sample Exams\nMiscellaneous Teaching Notes 1\nMiscellaneous Teaching Notes 2\nRStudio Instructor Training\n\n\n\n\n\nLaurie L Baker RStudio Instructor Training\nMarly Comar Gotti Tidyverse Certification\nYuqi Liao: Getting Certified as an RStudio Instructor\nShel Kariuki: The RStudio Certification Process\nFlorencia D’Andrea: Two examples of iteration with purrr - Class for the RStudio certification\nSilvia Canelon RStudio Certification\nSilvia Canelon RStudio Certification Training 1\nSilvia Canelon RStudio Certification Training 2\nSilvia Canelon R4DS Certification Training 1\nPaloma Rojas Saunero RStudio Certification Training 1\nPaloma Rojas Saunero RStudio Certification Exam Slides\nPaloma Rojas Saunero RStudio Certification Exam Notes"
+    "text": "This page provides a list of tutorials, resources and study notes for RStudio and Carpentries certification."
   },
   {
     "objectID": "resources/teaching/rstudio_carpentries_cert.html#rstudio-certification",
     "href": "resources/teaching/rstudio_carpentries_cert.html#rstudio-certification",
     "title": "RStudio and Carpentries Certification",
-    "section": "",
-    "text": "R4DS Book – Prep for Exam\nPOSIT/R Training Videos\nPOSIT Primers\nRStudio Sample Exams\nMiscellaneous Teaching Notes 1\nMiscellaneous Teaching Notes 2\nRStudio Instructor Training\n\n\n\n\n\nLaurie L Baker RStudio Instructor Training\nMarly Comar Gotti Tidyverse Certification\nYuqi Liao: Getting Certified as an RStudio Instructor\nShel Kariuki: The RStudio Certification Process\nFlorencia D’Andrea: Two examples of iteration with purrr - Class for the RStudio certification\nSilvia Canelon RStudio Certification\nSilvia Canelon RStudio Certification Training 1\nSilvia Canelon RStudio Certification Training 2\nSilvia Canelon R4DS Certification Training 1\nPaloma Rojas Saunero RStudio Certification Training 1\nPaloma Rojas Saunero RStudio Certification Exam Slides\nPaloma Rojas Saunero RStudio Certification Exam Notes"
+    "section": "RStudio Certification",
+    "text": "RStudio Certification\n\nTutorials and Resources\n\nR4DS Book – Prep for Exam\nPOSIT/R Training Videos\nPOSIT Primers\nRStudio Sample Exams\nMiscellaneous Teaching Notes 1\nMiscellaneous Teaching Notes 2\nRStudio Instructor Training\n\n\n\nStudy notes from RStudio Certified Trainers\n\nLaurie L Baker RStudio Instructor Training\nMarly Comar Gotti Tidyverse Certification\nYuqi Liao: Getting Certified as an RStudio Instructor\nShel Kariuki: The RStudio Certification Process\nFlorencia D’Andrea: Two examples of iteration with purrr - Class for the RStudio certification\nSilvia Canelon RStudio Certification\nSilvia Canelon RStudio Certification Training 1\nSilvia Canelon RStudio Certification Training 2\nSilvia Canelon R4DS Certification Training 1\nPaloma Rojas Saunero RStudio Certification Training 1\nPaloma Rojas Saunero RStudio Certification Exam Slides\nPaloma Rojas Saunero RStudio Certification Exam Notes"
   },
   {
     "objectID": "resources/teaching/rstudio_carpentries_cert.html#carpentries-certification",
@@ -1138,14 +1138,14 @@
     "href": "resources/teaching/writing.html",
     "title": "Medical, Science, and Technical Writing",
     "section": "",
-    "text": "Academic Phrasebank\nExcelsior Online Writing Lab\nPurdue Online Writing Lab\nQuick and Dirty Tips\nInter-Biotech: Biomedical Language Editing\nFeatures of academic writing\nAmerican Copy Editors Series\nGo The Distance: Academic Writing\nACES Grammar Guide Quizzes\nIntroduction to Common Errors in English Usage"
+    "text": "For anyone interested in medical, science, and technical writing, this page offers a curated collection of resources. It provides practical introductions to medical, science, and technical writing, style guidelines, and challenges."
   },
   {
     "objectID": "resources/teaching/writing.html#grammar-basics",
     "href": "resources/teaching/writing.html#grammar-basics",
     "title": "Medical, Science, and Technical Writing",
-    "section": "",
-    "text": "Academic Phrasebank\nExcelsior Online Writing Lab\nPurdue Online Writing Lab\nQuick and Dirty Tips\nInter-Biotech: Biomedical Language Editing\nFeatures of academic writing\nAmerican Copy Editors Series\nGo The Distance: Academic Writing\nACES Grammar Guide Quizzes\nIntroduction to Common Errors in English Usage"
+    "section": "Grammar Basics",
+    "text": "Grammar Basics\n\nAcademic Phrasebank\nExcelsior Online Writing Lab\nPurdue Online Writing Lab\nQuick and Dirty Tips\nInter-Biotech: Biomedical Language Editing\nFeatures of academic writing\nAmerican Copy Editors Series\nGo The Distance: Academic Writing\nACES Grammar Guide Quizzes\nIntroduction to Common Errors in English Usage"
   },
   {
     "objectID": "resources/teaching/writing.html#medical-writing",
@@ -1592,8 +1592,8 @@
     "objectID": "portfolio/presentations/comp_thinking/comp_thinking.html#overall-goal",
     "href": "portfolio/presentations/comp_thinking/comp_thinking.html#overall-goal",
     "title": "Developing library-based computational research skill instruction programs",
-    "section": "",
-    "text": "To outline a methodology for developing a computational research skill instruction program centered in libraries that will support learners with diverse disciplinary and educational backgrounds."
+    "section": "Overall Goal",
+    "text": "Overall Goal\nTo outline a methodology for developing a computational research skill instruction program centered in libraries that will support learners with diverse disciplinary and educational backgrounds."
   },
   {
     "objectID": "portfolio/presentations/comp_thinking/comp_thinking.html#outline",
@@ -1607,56 +1607,56 @@
     "href": "portfolio/presentations/comp_thinking/comp_thinking.html#importance-of-computational-research-skills-1",
     "title": "Developing library-based computational research skill instruction programs",
     "section": "Importance of Computational Research Skills",
-    "text": "Importance of Computational Research Skills\nWhy are computational research skills important for everyone?\n\n“Computational thinking is a fundamental skill for everyone, not just computer scientists.” (Wing, 2006)"
+    "text": "Importance of Computational Research Skills\nWhy are computational research skills important for everyone?\n\n“Computational thinking is a fundamental skill for everyone, not just computer scientists.” (Wing, 2006)\n\n\nWing, J (2006) Comm. ACM, 49 (3):33-35"
   },
   {
     "objectID": "portfolio/presentations/comp_thinking/comp_thinking.html#importance-of-computational-research-skills-2",
     "href": "portfolio/presentations/comp_thinking/comp_thinking.html#importance-of-computational-research-skills-2",
     "title": "Developing library-based computational research skill instruction programs",
     "section": "Importance of Computational Research Skills",
-    "text": "Importance of Computational Research Skills\nWhy are computational research skills important for everyone?\n\nMajor components of computational thinking include:\n\nDecomposition – break down a complex problem to multiple simpler problems.\nPattern recognition – identify patterns in the data or information.\nAbstraction – identify and use the relevant aspects of the problem.\nAlgorithmic thinking – design algorithms to solve problems."
+    "text": "Importance of Computational Research Skills\nWhy are computational research skills important for everyone?\n\nMajor components of computational thinking include:\n\nDecomposition – break down a complex problem to multiple simpler problems.\nPattern recognition – identify patterns in the data or information.\n\n\n\nGrover, S and Pea, R (2012) Educational Researcher, 42 (1):38-43"
   },
   {
     "objectID": "portfolio/presentations/comp_thinking/comp_thinking.html#importance-of-computational-research-skills-3",
     "href": "portfolio/presentations/comp_thinking/comp_thinking.html#importance-of-computational-research-skills-3",
     "title": "Developing library-based computational research skill instruction programs",
     "section": "Importance of Computational Research Skills",
-    "text": "Importance of Computational Research Skills\nWhy are computational research skills important for everyone?\n\nNew career opportunities and increased competitiveness in the job market.\n\nEmployment of software developers is projected to grow by 25% (~400k jobs) between 2021 and 2031 (Bureau of Labor Statistics).\n\nSubject-matter experts with computational research skills are required to build new tools/technologies. Examples include:\n\nComputational linguists – develop new language-learning apps.\nData journalists – develop fact-checking and misinformation detectors."
+    "text": "Importance of Computational Research Skills\nWhy are computational research skills important for everyone?\n\nMajor components of computational thinking include:\n\nAbstraction – identify and use the relevant aspects of the problem.\nAlgorithmic thinking – design algorithms to solve problems.\n\n\n\nGrover, S and Pea, R (2012) Educational Researcher, 42 (1):38-43"
   },
   {
     "objectID": "portfolio/presentations/comp_thinking/comp_thinking.html#importance-of-computational-research-skills-4",
     "href": "portfolio/presentations/comp_thinking/comp_thinking.html#importance-of-computational-research-skills-4",
     "title": "Developing library-based computational research skill instruction programs",
     "section": "Importance of Computational Research Skills",
-    "text": "Importance of Computational Research Skills\nWhere can computational research be applied in the humanities?\n\nText analysis for Literature Students"
+    "text": "Importance of Computational Research Skills\nWhy are computational research skills important for everyone?\n\nNew career opportunities and increased competitiveness in the job market.\n\nEmployment of software developers is projected to grow by 25% (~400k jobs) between 2021 and 2031 (Bureau of Labor Statistics).\n\n\n\nhttps://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm#tab-6"
   },
   {
     "objectID": "portfolio/presentations/comp_thinking/comp_thinking.html#importance-of-computational-research-skills-5",
     "href": "portfolio/presentations/comp_thinking/comp_thinking.html#importance-of-computational-research-skills-5",
     "title": "Developing library-based computational research skill instruction programs",
     "section": "Importance of Computational Research Skills",
-    "text": "Importance of Computational Research Skills\nWhere can computational research be applied in the humanities?\n\nImage Processing for Artist Identification (useful in Fine Arts)"
+    "text": "Importance of Computational Research Skills\nWhy are computational research skills important for everyone?\n\nSubject-matter experts with computational research skills are required to build new tools/technologies. Examples include:\n\nComputational linguists – develop new language-learning apps.\nData journalists – develop fact-checking and misinformation detectors.\n\n\n\nhttps://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm#tab-6"
   },
   {
     "objectID": "portfolio/presentations/comp_thinking/comp_thinking.html#importance-of-computational-research-skills-6",
     "href": "portfolio/presentations/comp_thinking/comp_thinking.html#importance-of-computational-research-skills-6",
     "title": "Developing library-based computational research skill instruction programs",
     "section": "Importance of Computational Research Skills",
-    "text": "Importance of Computational Research Skills\nWhere can computational research be applied in the humanities?\n\nSentiment Analysis and Social Media (useful in Political Science & Journalism)"
+    "text": "Importance of Computational Research Skills\nWhere can computational research be applied in the humanities?\n\nText analysis for Literature Students\n\n\nJockers and Thalken (2020) Text Analysis with R for Students of Literature"
   },
   {
     "objectID": "portfolio/presentations/comp_thinking/comp_thinking.html#importance-of-computational-research-skills-7",
     "href": "portfolio/presentations/comp_thinking/comp_thinking.html#importance-of-computational-research-skills-7",
     "title": "Developing library-based computational research skill instruction programs",
     "section": "Importance of Computational Research Skills",
-    "text": "Importance of Computational Research Skills\nWhere can computational research be applied in the humanities?"
+    "text": "Importance of Computational Research Skills\nWhere can computational research be applied in the humanities?\n\nText analysis for Literature Students\n\n\nhttps://kennedyhq.com/wp/2016/11/19/shakespeare-through-digital-humanities-textual-analysis/"
   },
   {
     "objectID": "portfolio/presentations/comp_thinking/comp_thinking.html#importance-of-computational-research-skills-8",
     "href": "portfolio/presentations/comp_thinking/comp_thinking.html#importance-of-computational-research-skills-8",
     "title": "Developing library-based computational research skill instruction programs",
     "section": "Importance of Computational Research Skills",
-    "text": "Importance of Computational Research Skills\nWhat computational research skills are important?\n\nThis can be determined with a needs analysis using:\n\nSurveys and Questionnaires sent to humanities departments,\nLiterature reviews focused on computing education research,\nInterviews with faculty and staff from humanities departments."
+    "text": "Importance of Computational Research Skills\nWhere can computational research be applied in the humanities?\n\nImage Processing for Artist Identification (useful in Fine Arts)\n\n\nC. R. Johnson et al. (2008) IEEE Signal Processing Magazine, 25(4): 37-48"
   },
   {
     "objectID": "portfolio/presentations/comp_thinking/comp_thinking.html#summary",
@@ -1677,98 +1677,98 @@
     "href": "portfolio/presentations/comp_thinking/comp_thinking.html#effective-teaching-of-computational-research-skills-2",
     "title": "Developing library-based computational research skill instruction programs",
     "section": "Effective teaching of computational research skills",
-    "text": "Effective teaching of computational research skills\nWhat activities should the instruction program focus on?\n\nWorkshops - where the most common computational tasks and the needs identified by graduate students are taught.\nOffice hours - supervised by an undergraduate/graduate student with a background in computational research.\nMentoring - pair humanities graduate students with computational science students.\nBootcamps - focused on specific data analysis tools/programs.\nJournal/Data clubs - where new and relevant tools, techniques, and software packages will be demonstrated."
+    "text": "Effective teaching of computational research skills\nWhat activities should the instruction program focus on?\n\nWorkshops - where the most common computational tasks and the needs identified by graduate students are taught.\nOffice hours - supervised by an undergraduate/graduate student with a background in computational research."
   },
   {
     "objectID": "portfolio/presentations/comp_thinking/comp_thinking.html#effective-teaching-of-computational-research-skills-3",
     "href": "portfolio/presentations/comp_thinking/comp_thinking.html#effective-teaching-of-computational-research-skills-3",
     "title": "Developing library-based computational research skill instruction programs",
     "section": "Effective teaching of computational research skills",
-    "text": "Effective teaching of computational research skills\n\nA number of independent initiatives exist to train the general public in basic data and computational skills. These include:"
+    "text": "Effective teaching of computational research skills\nWhat activities should the instruction program focus on?\n\nMentoring - pair humanities graduate students with computational science students.\nBootcamps - focused on specific data analysis tools/programs.\nJournal/Data clubs - where new and relevant tools, techniques, and software packages will be demonstrated."
   },
   {
     "objectID": "portfolio/presentations/comp_thinking/comp_thinking.html#effective-teaching-of-computational-research-skills-4",
     "href": "portfolio/presentations/comp_thinking/comp_thinking.html#effective-teaching-of-computational-research-skills-4",
     "title": "Developing library-based computational research skill instruction programs",
     "section": "Effective teaching of computational research skills",
-    "text": "Effective teaching of computational research skills\n\nA number of independent initiatives exist to train the general public in basic data and computational skills. These include:"
+    "text": "Effective teaching of computational research skills\n\nA number of independent initiatives exist to train the general public in basic data and computational skills. These include:\n\n\nhttps://carpentries.org/"
   },
   {
     "objectID": "portfolio/presentations/comp_thinking/comp_thinking.html#effective-teaching-of-computational-research-skills-5",
     "href": "portfolio/presentations/comp_thinking/comp_thinking.html#effective-teaching-of-computational-research-skills-5",
     "title": "Developing library-based computational research skill instruction programs",
     "section": "Effective teaching of computational research skills",
-    "text": "Effective teaching of computational research skills\nWhat should novice coders learn? (My personal opinion)\n\nScratch (block-based visual programming language) for complete novices.\nHelp new coders learn the basics of programming, such as loops, conditionals, and variables."
+    "text": "Effective teaching of computational research skills\n\nA number of independent initiatives exist to train the general public in basic data and computational skills. These include:\n\n\nhttps://carpentries.org/"
   },
   {
     "objectID": "portfolio/presentations/comp_thinking/comp_thinking.html#effective-teaching-of-computational-research-skills-6",
     "href": "portfolio/presentations/comp_thinking/comp_thinking.html#effective-teaching-of-computational-research-skills-6",
     "title": "Developing library-based computational research skill instruction programs",
     "section": "Effective teaching of computational research skills",
-    "text": "Effective teaching of computational research skills\nWhat should intermediate learners focus on? (My personal opinion)"
+    "text": "Effective teaching of computational research skills\n\nA number of independent initiatives exist to train the general public in basic data and computational skills. These include:\n\n\nhttps://coderefinery.org/"
   },
   {
     "objectID": "portfolio/presentations/comp_thinking/comp_thinking.html#effective-teaching-of-computational-research-skills-7",
     "href": "portfolio/presentations/comp_thinking/comp_thinking.html#effective-teaching-of-computational-research-skills-7",
     "title": "Developing library-based computational research skill instruction programs",
     "section": "Effective teaching of computational research skills",
-    "text": "Effective teaching of computational research skills\nKey points for teaching novice coders - Use live coding. - Embrace coding errors as an opportunity to teach debugging. - Use “worked examples” and pace learning to avoid cognitive overload. - Encourage working in pairs and group coding. - Promote daily practice."
+    "text": "Effective teaching of computational research skills\n\nA number of independent initiatives exist to train the general public in basic data and computational skills. These include:\n\n\nhttps://forrt.org/"
   },
   {
     "objectID": "portfolio/presentations/comp_thinking/comp_thinking.html#effective-teaching-of-computational-research-skills-8",
     "href": "portfolio/presentations/comp_thinking/comp_thinking.html#effective-teaching-of-computational-research-skills-8",
     "title": "Developing library-based computational research skill instruction programs",
     "section": "Effective teaching of computational research skills",
-    "text": "Effective teaching of computational research skills\nKey points for teaching novice coders - Learn student personas and adapt lessons to suit each student. - Give effective feedback that motivates. - Create learning goals for students. - Use real-life tasks relevant to student research."
+    "text": "Effective teaching of computational research skills\nWhat should novice coders learn? (My personal opinion)\n\nScratch (block-based visual programming language) for complete novices.\nHelp new coders learn the basics of programming, such as loops, conditionals, and variables.\n\n\nScratch: https://scratch.mit.edu/"
   },
   {
     "objectID": "portfolio/presentations/comp_thinking/comp_thinking.html#sample-lesson-and-problem-1",
     "href": "portfolio/presentations/comp_thinking/comp_thinking.html#sample-lesson-and-problem-1",
     "title": "Developing library-based computational research skill instruction programs",
     "section": "Sample Lesson and Problem",
-    "text": "Sample Lesson and Problem\nData Manipulation in R"
+    "text": "Sample Lesson and Problem\nData Manipulation in R\n\nwww.tidyverse.org"
   },
   {
     "objectID": "portfolio/presentations/comp_thinking/comp_thinking.html#sample-lesson-and-problem-2",
     "href": "portfolio/presentations/comp_thinking/comp_thinking.html#sample-lesson-and-problem-2",
     "title": "Developing library-based computational research skill instruction programs",
     "section": "Sample Lesson and Problem",
-    "text": "Sample Lesson and Problem\nData Manipulation in R"
+    "text": "Sample Lesson and Problem\nData Manipulation in R\n\nwww.carpentries.org"
   },
   {
     "objectID": "portfolio/presentations/comp_thinking/comp_thinking.html#sample-lesson-and-problem-3",
     "href": "portfolio/presentations/comp_thinking/comp_thinking.html#sample-lesson-and-problem-3",
     "title": "Developing library-based computational research skill instruction programs",
     "section": "Sample Lesson and Problem",
-    "text": "Sample Lesson and Problem\nData Visualization in R"
+    "text": "Sample Lesson and Problem\nData Visualization in R\n\nwww.tidyverse.org"
   },
   {
     "objectID": "portfolio/presentations/comp_thinking/comp_thinking.html#challenges-associated-with-teaching-computational-research-skills-1",
     "href": "portfolio/presentations/comp_thinking/comp_thinking.html#challenges-associated-with-teaching-computational-research-skills-1",
     "title": "Developing library-based computational research skill instruction programs",
     "section": "Challenges associated with teaching computational research skills",
-    "text": "Challenges associated with teaching computational research skills\nBarriers to overcome include: - Attitudes towards coding. - The variety of needs (even within humanities): - Example: Psychology vs Literature. - Over-reliance on no-code commercially available tools and a lack of willingness to change."
+    "text": "Challenges associated with teaching computational research skills\nBarriers to overcome include:\n\nAttitudes towards coding.\nThe variety of needs (even within humanities):\n\nExample: Psychology vs Literature.\n\nOver-reliance on no-code commercially available tools and a lack of willingness to change."
   },
   {
     "objectID": "portfolio/presentations/comp_thinking/comp_thinking.html#challenges-associated-with-teaching-computational-research-skills-2",
     "href": "portfolio/presentations/comp_thinking/comp_thinking.html#challenges-associated-with-teaching-computational-research-skills-2",
     "title": "Developing library-based computational research skill instruction programs",
     "section": "Challenges associated with teaching computational research skills",
-    "text": "Challenges associated with teaching computational research skills\nWhat students should avoid: - Learning too much at once without mastering the basics. - Continuously working on tutorials but not applying knowledge to personal projects. - Copy-and-pasting code rather than understanding why the code was used. - Learning multiple tools/programs simultaneously (such as Python, R, and Javascript)."
+    "text": "Challenges associated with teaching computational research skills\nWhat students should avoid:\n\nLearning too much at once without mastering the basics.\nContinuously working on tutorials but not applying knowledge to personal projects.\nCopy-and-pasting code rather than understanding why the code was used.\nLearning multiple tools/programs simultaneously (such as Python, R, and Javascript)."
   },
   {
     "objectID": "portfolio/presentations/comp_thinking/comp_thinking.html#conclusions-1",
     "href": "portfolio/presentations/comp_thinking/comp_thinking.html#conclusions-1",
     "title": "Developing library-based computational research skill instruction programs",
     "section": "Conclusions",
-    "text": "Conclusions\n\nComputational thinking is for everyone.\nComputational research skills can be very helpful for humanities students.\nVarious initiatives such as the Carpentries and CodeRefinery have devised effective blueprints for teaching.\nNovices should consider starting with visual block-based programming.\nThere is a need to teach students effective learning practices and overcome the barriers to coding.\nTeaching should be adapted to different student abilities and should include motivational feedback."
+    "text": "Conclusions\n\nComputational thinking is for everyone.\nComputational research skills can be very helpful for humanities students.\nVarious initiatives such as the Carpentries and CodeRefinery have devised effective blueprints for teaching."
   },
   {
     "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#overall-goal",
     "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#overall-goal",
     "title": "Designing courses that minimize cognitive overload in learners",
-    "section": "",
-    "text": "To outline a methodology for designing courses that minimize cognitive overload in learners"
+    "section": "Overall Goal",
+    "text": "Overall Goal\n\nTo outline a methodology for designing courses that minimize cognitive overload in learners"
   },
   {
     "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#outline",
@@ -1789,63 +1789,63 @@
     "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#example-prof.-xs-biochemistry-101-lecture",
     "title": "Designing courses that minimize cognitive overload in learners",
     "section": "Example: Prof. X’s Biochemistry 101 Lecture",
-    "text": "Example: Prof. X’s Biochemistry 101 Lecture"
+    "text": "Example: Prof. X’s Biochemistry 101 Lecture\n\nhttps://monicanasseri.wixsite.com/biochemical-pathways/biochemical-pathways"
   },
   {
     "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#information-processing-theory",
     "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#information-processing-theory",
     "title": "Designing courses that minimize cognitive overload in learners",
     "section": "1. Information Processing Theory",
-    "text": "1. Information Processing Theory\n\nA framework for understanding how information is encoded into memory"
+    "text": "1. Information Processing Theory\n\nA framework for understanding how information is encoded into memory\n\n\n\nAtkinson and Shiffrin (1968) Psychology of Learning and Motivation (2) 89-195\nhttps://www.simplypsychology.org/multi-store.html"
   },
   {
     "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#cognitive-load",
     "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#cognitive-load",
     "title": "Designing courses that minimize cognitive overload in learners",
     "section": "2. Cognitive Load",
-    "text": "2. Cognitive Load\n\nAvailable amount of information that the working / short-term memory can hold at a specific time (7 +/- 2 chunks of info at a time)"
+    "text": "2. Cognitive Load\n\nAvailable amount of information that the working / short-term memory can hold at a specific time (7 +/- 2 chunks of info at a time)\n\n\n\nAtkinson and Shiffrin (1968) Psychology of Learning and Motivation (2) 89-195\nhttps://www.simplypsychology.org/multi-store.html"
   },
   {
     "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#cognitive-load-theory",
     "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#cognitive-load-theory",
     "title": "Designing courses that minimize cognitive overload in learners",
     "section": "3. Cognitive Load Theory",
-    "text": "3. Cognitive Load Theory\n\nDescribes how the human mind processes new information\n3 Main Types of Cognitive Load"
+    "text": "3. Cognitive Load Theory\n\nDescribes how the human mind processes new information\n3 Main Types of Cognitive Load\n\n\n\nSweller, J. (1998) Cognitive Science 12(2): 257-285\nhttps://mcdreeamiemusings.com/blog/2019/10/15/the-good-the-bad-and-the-can-be-ugly-the-three-parts-of-cognitive-load"
   },
   {
     "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#cognitive-load-theory-1",
     "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#cognitive-load-theory-1",
     "title": "Designing courses that minimize cognitive overload in learners",
     "section": "3. Cognitive Load Theory",
-    "text": "3. Cognitive Load Theory\n\nIntrinsic\n\nInnate difficulty of a task and complexity of new information.\nInfluenced by age and/or educational background."
+    "text": "3. Cognitive Load Theory\nIntrinsic\n\nInnate difficulty of a task and complexity of new information.\nInfluenced by age and/or educational background.\n\n\n\nSweller, J. (1998) Cognitive Science 12(2): 257-285\nhttps://mcdreeamiemusings.com/blog/2019/10/15/the-good-the-bad-and-the-can-be-ugly-the-three-parts-of-cognitive-load"
   },
   {
     "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#cognitive-load-theory-2",
     "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#cognitive-load-theory-2",
     "title": "Designing courses that minimize cognitive overload in learners",
     "section": "3. Cognitive Load Theory",
-    "text": "3. Cognitive Load Theory\n\nExtraneous\n\nLoad due to poorly designed instructional material.\nDistracts working memory from processing the required information."
+    "text": "3. Cognitive Load Theory\nExtraneous\n\nLoad due to poorly designed instructional material.\nDistracts working memory from processing the required information.\n\n\n\nSweller, J. (1998) Cognitive Science 12(2): 257-285\nhttps://mcdreeamiemusings.com/blog/2019/10/15/the-good-the-bad-and-the-can-be-ugly-the-three-parts-of-cognitive-load"
   },
   {
     "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#cognitive-load-theory-3",
     "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#cognitive-load-theory-3",
     "title": "Designing courses that minimize cognitive overload in learners",
     "section": "3. Cognitive Load Theory",
-    "text": "3. Cognitive Load Theory\n\nExtraneous\n\nExamples"
+    "text": "3. Cognitive Load Theory\nExtraneous\n\nExamples\n\n\n\nSweller, J. (1998) Cognitive Science 12(2): 257-285\nhttps://mcdreeamiemusings.com/blog/2019/10/15/the-good-the-bad-and-the-can-be-ugly-the-three-parts-of-cognitive-load"
   },
   {
     "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#cognitive-load-theory-4",
     "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#cognitive-load-theory-4",
     "title": "Designing courses that minimize cognitive overload in learners",
     "section": "3. Cognitive Load Theory",
-    "text": "3. Cognitive Load Theory\n\nGermane\n\nMental capacity used to integrate new information with existing knowledge\nEffort required to learn and retain the material\nInfluenced by level of training (Math Professor vs 1st grader)"
+    "text": "3. Cognitive Load Theory\nGermane\n\nMental capacity used to integrate new information with existing knowledge\nEffort required to learn and retain the material\nInfluenced by level of training (Math Professor vs 1st grader)\n\n\n\nSweller, J. (1998) Cognitive Science 12(2): 257-285\nhttps://mcdreeamiemusings.com/blog/2019/10/15/the-good-the-bad-and-the-can-be-ugly-the-three-parts-of-cognitive-load"
   },
   {
     "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#cognitive-load-theory-5",
     "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#cognitive-load-theory-5",
     "title": "Designing courses that minimize cognitive overload in learners",
     "section": "3. Cognitive Load Theory",
-    "text": "3. Cognitive Load Theory\n\nSummary"
+    "text": "3. Cognitive Load Theory\nSummary\n\nhttps://mcdreeamiemusings.com/blog/2019/10/15/the-good-the-bad-and-the-can-be-ugly-the-three-parts-of-cognitive-load"
   },
   {
     "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#formative-assessment",
@@ -1866,21 +1866,21 @@
     "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#identify-learner-personas-types",
     "title": "Designing courses that minimize cognitive overload in learners",
     "section": "1. Identify Learner Personas / Types",
-    "text": "1. Identify Learner Personas / Types\n\nLearners can be distinguished by the mental models they use to solve problem."
+    "text": "1. Identify Learner Personas / Types\n\nLearners can be distinguished by the mental models they use to solve problem.\n\n\n\nhttps://carpentries.github.io/instructor-training/\nBenner P. (2004) Bulletin of Science, Technology & Society, 24(3), 188–199"
   },
   {
     "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#mental-models",
     "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#mental-models",
     "title": "Designing courses that minimize cognitive overload in learners",
     "section": "2. Mental models",
-    "text": "2. Mental models\n\n“A simplified representation of the most important parts of some problem domain that is good enough to enable problem solving.”\nLimitations\n\nSimplified representation.\nAtoms are not balls and sticks are not bonds."
+    "text": "2. Mental models\n\n“A simplified representation of the most important parts of some problem domain that is good enough to enable problem solving.”\nLimitations\n\nSimplified representation.\nAtoms are not balls and sticks are not bonds.\n\n\n\n\nhttps://commoncog.com/teaching-tech-together/\nhttps://education.riaus.org.au/a-better-way-to-see-molecules/"
   },
   {
     "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#mental-models-1",
     "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#mental-models-1",
     "title": "Designing courses that minimize cognitive overload in learners",
     "section": "2. Mental models",
-    "text": "2. Mental models"
+    "text": "2. Mental models\n\nhttps://carpentries.github.io/instructor-training/"
   },
   {
     "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#mental-models-2",
@@ -1894,49 +1894,49 @@
     "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#formative-assessments",
     "title": "Designing courses that minimize cognitive overload in learners",
     "section": "3. Formative Assessments",
-    "text": "3. Formative Assessments\nHelp to identify common misconceptions and broken mental models.\n\nFactual errors: The Capital City of Sweden is Doha.\nBroken models: Motion and acceleration must always be in the same direction.\nFundamental beliefs: Some people are computational and others are not."
+    "text": "3. Formative Assessments\n\nhttps://carpentries.github.io/instructor-training/\n\nHelp to identify common misconceptions and broken mental models.\n\nFactual errors: The Capital City of Sweden is Doha.\nBroken models: Motion and acceleration must always be in the same direction.\nFundamental beliefs: Some people are computational and others are not."
   },
   {
     "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#formative-assessments-1",
     "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#formative-assessments-1",
     "title": "Designing courses that minimize cognitive overload in learners",
     "section": "3. Formative Assessments",
-    "text": "3. Formative Assessments\nExample\nEach incorrect answer has diagnostic power and will guide correction"
+    "text": "3. Formative Assessments\nExample\nEach incorrect answer has diagnostic power and will guide correction\n\nhttps://carpentries.github.io/instructor-training/"
   },
   {
     "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#formative-assessments-2",
     "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#formative-assessments-2",
     "title": "Designing courses that minimize cognitive overload in learners",
     "section": "3. Formative Assessments",
-    "text": "3. Formative Assessments\nMemory management\nParson’s Problem"
+    "text": "3. Formative Assessments\nMemory management\n\nhttps://taylorda01.weebly.com/backward-faded-maths.html\n\nParson’s Problem"
   },
   {
     "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#improving-course-content-and-delivery",
     "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#improving-course-content-and-delivery",
     "title": "Designing courses that minimize cognitive overload in learners",
     "section": "4. Improving course content and delivery",
-    "text": "4. Improving course content and delivery\nChunking"
+    "text": "4. Improving course content and delivery\nChunking\n\nhttps://carpentries.github.io/instructor-training/"
   },
   {
     "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#improving-course-content-and-delivery-1",
     "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#improving-course-content-and-delivery-1",
     "title": "Designing courses that minimize cognitive overload in learners",
     "section": "4. Improving course content and delivery",
-    "text": "4. Improving course content and delivery\nReduce split-attention effect"
+    "text": "4. Improving course content and delivery\nReduce split-attention effect\n\nMindTools: https://www.mindtools.com/aqxwcpa/cognitive-load-theory"
   },
   {
     "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#improving-course-content-and-delivery-2",
     "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#improving-course-content-and-delivery-2",
     "title": "Designing courses that minimize cognitive overload in learners",
     "section": "4. Improving course content and delivery",
-    "text": "4. Improving course content and delivery\nEncourage the use of concept maps\nExample Discussion: Renewable and Non-renewable Energy Sources"
+    "text": "4. Improving course content and delivery\nEncourage the use of concept maps\nExample Discussion: Renewable and Non-renewable Energy Sources\n\nhttps://visme.co/blog/how-to-make-a-concept-map/"
   },
   {
     "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#improving-course-content-and-delivery-3",
     "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#improving-course-content-and-delivery-3",
     "title": "Designing courses that minimize cognitive overload in learners",
     "section": "4. Improving course content and delivery",
-    "text": "4. Improving course content and delivery\n\nGo slow and repeat if necessary\nBe aware of expert blind spots\nUse authentic tasks and examples to teach\nGive and receive appropriate feedback"
+    "text": "4. Improving course content and delivery\n\nGo slow and repeat if necessary\nBe aware of expert blind spots\nUse authentic tasks and examples to teach\nGive and receive appropriate feedback\n\n\nhttps://carpentries.github.io/instructor-training/"
   },
   {
     "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#conclusions",
@@ -1971,7 +1971,7 @@
     "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#formative-assessments-3",
     "title": "Designing courses that minimize cognitive overload in learners",
     "section": "3. Formative Assessments",
-    "text": "3. Formative Assessments\nMemory management\nFaded Example"
+    "text": "3. Formative Assessments\nMemory management\nFaded Example\n\nhttps://taylorda01.weebly.com/backward-faded-maths.html"
   },
   {
     "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#references-1",
@@ -2000,5 +2000,138 @@
     "title": "Designing courses that minimize cognitive overload in learners",
     "section": "",
     "text": "To outline a methodology for designing courses that minimize cognitive overload in learners"
+  },
+  {
+    "objectID": "portfolio/presentations/comp_thinking/comp_thinking.html#importance-of-computational-research-skills-9",
+    "href": "portfolio/presentations/comp_thinking/comp_thinking.html#importance-of-computational-research-skills-9",
+    "title": "Developing library-based computational research skill instruction programs",
+    "section": "Importance of Computational Research Skills",
+    "text": "Importance of Computational Research Skills\nWhere can computational research be applied in the humanities?\n\nSentiment Analysis and Social Media (useful in Political Science & Journalism)\n\n\nhttps://github.com/Mazen72/Twitter_Sentiment_Analysis_Dashboard"
+  },
+  {
+    "objectID": "portfolio/presentations/comp_thinking/comp_thinking.html#importance-of-computational-research-skills-10",
+    "href": "portfolio/presentations/comp_thinking/comp_thinking.html#importance-of-computational-research-skills-10",
+    "title": "Developing library-based computational research skill instruction programs",
+    "section": "Importance of Computational Research Skills",
+    "text": "Importance of Computational Research Skills\nWhere can computational research be applied in the humanities?\n\n\n\n\n\n\n\nComputational Research Skill\nHumanities Research Field\n\n\n\n\nText Analysis\nAncient and Modern Languages\n\n\nData wrangling of census data\nHistory and Political Science\n\n\nImage processing\nArt History and Film Studies\n\n\n\n\nMartyn Jessop (2004) Ubiquity, ACM"
+  },
+  {
+    "objectID": "portfolio/presentations/comp_thinking/comp_thinking.html#effective-teaching-of-computational-research-skills-9",
+    "href": "portfolio/presentations/comp_thinking/comp_thinking.html#effective-teaching-of-computational-research-skills-9",
+    "title": "Developing library-based computational research skill instruction programs",
+    "section": "Effective teaching of computational research skills",
+    "text": "Effective teaching of computational research skills\nWhat should novice coders learn? (My personal opinion)"
+  },
+  {
+    "objectID": "portfolio/presentations/comp_thinking/comp_thinking.html#effective-teaching-of-computational-research-skills-10",
+    "href": "portfolio/presentations/comp_thinking/comp_thinking.html#effective-teaching-of-computational-research-skills-10",
+    "title": "Developing library-based computational research skill instruction programs",
+    "section": "Effective teaching of computational research skills",
+    "text": "Effective teaching of computational research skills\nWhat should intermediate coders learn? (My personal opinion)"
+  },
+  {
+    "objectID": "portfolio/presentations/comp_thinking/comp_thinking.html#effective-teaching-of-computational-research-skills-11",
+    "href": "portfolio/presentations/comp_thinking/comp_thinking.html#effective-teaching-of-computational-research-skills-11",
+    "title": "Developing library-based computational research skill instruction programs",
+    "section": "Effective teaching of computational research skills",
+    "text": "Effective teaching of computational research skills\nKey points for teaching novice coders\n\nUse live coding.\nEmbrace coding errors as an opportunity to teach debugging.\nUse “worked examples” and pace learning to avoid cognitive overload.\nEncourage working in pairs and group coding.\nPromote daily practice."
+  },
+  {
+    "objectID": "portfolio/presentations/comp_thinking/comp_thinking.html#effective-teaching-of-computational-research-skills-12",
+    "href": "portfolio/presentations/comp_thinking/comp_thinking.html#effective-teaching-of-computational-research-skills-12",
+    "title": "Developing library-based computational research skill instruction programs",
+    "section": "Effective teaching of computational research skills",
+    "text": "Effective teaching of computational research skills\nKey points for teaching novice coders\n\nLearn student personas and adapt lessons to suit each student.\nGive effective feedback that motivates.\nCreate learning goals for students.\nUse real-life tasks relevant to student research."
+  },
+  {
+    "objectID": "portfolio/presentations/comp_thinking/comp_thinking.html#conclusions-2",
+    "href": "portfolio/presentations/comp_thinking/comp_thinking.html#conclusions-2",
+    "title": "Developing library-based computational research skill instruction programs",
+    "section": "Conclusions",
+    "text": "Conclusions\n\nNovices should consider starting with visual block-based programming.\nThere is a need to teach students effective learning practices and overcome the barriers to coding.\nTeaching should be adapted to different student abilities and should include motivational feedback."
+  },
+  {
+    "objectID": "portfolio/presentations/comp_thinking/comp_thinking.html#importance-of-computational-research-skills-11",
+    "href": "portfolio/presentations/comp_thinking/comp_thinking.html#importance-of-computational-research-skills-11",
+    "title": "Developing library-based computational research skill instruction programs",
+    "section": "Importance of Computational Research Skills",
+    "text": "Importance of Computational Research Skills\nWhere can computational research be applied in the humanities?\n\n\n\n\n\n\n\nComputational Research Skill\nHumanities Research Field\n\n\n\n\nSpatial data analysis\nGeography\n\n\nAudio analysis\nMusic\n\n\n\n\nMartyn Jessop (2004) Ubiquity, ACM"
+  },
+  {
+    "objectID": "portfolio/presentations/comp_thinking/comp_thinking.html#importance-of-computational-research-skills-12",
+    "href": "portfolio/presentations/comp_thinking/comp_thinking.html#importance-of-computational-research-skills-12",
+    "title": "Developing library-based computational research skill instruction programs",
+    "section": "Importance of Computational Research Skills",
+    "text": "Importance of Computational Research Skills\nWhat computational research skills are important?\n\nThis can be determined with a needs analysis using:\n\nSurveys and Questionnaires sent to humanities departments,\nLiterature reviews focused on computing education research,\nInterviews with faculty and staff from humanities departments."
+  },
+  {
+    "objectID": "resources/programming/programming.html",
+    "href": "resources/programming/programming.html",
+    "title": "Programming",
+    "section": "",
+    "text": "This page provides a comprehensive collection of resources on programming tools with a specific focus on R/RStudio (data analysis and visualization), Python, Git/GitHub (version control), Command Line, SQL, and Quarto (scientific and technical publishing).\n\n1. R and RStudio\n\n\n2. Python\n\n\n3. Git, GitHub, Command Line, and SQL\n\n\n4. Quarto"
+  },
+  {
+    "objectID": "resources/programming/programming.html#a-curated-collection-of-resources",
+    "href": "resources/programming/programming.html#a-curated-collection-of-resources",
+    "title": "Programming",
+    "section": "A curated collection of resources",
+    "text": "A curated collection of resources\n\n1. R and RStudio\n\n\n2. Python\n\n\n3. Git, GitHub, Command Line, and SQL\n\n\n4. Quarto"
+  },
+  {
+    "objectID": "resources/ds_ml_ai/ds_ml_ai.html",
+    "href": "resources/ds_ml_ai/ds_ml_ai.html",
+    "title": "Data Science, Machine Learning, and Artificial Intelligence",
+    "section": "",
+    "text": "The data science, machine learning, and artificial intelligence page provides a varied list of general resources. Additionally, there is also a focus on datasets, statistics, interview prep, and specific topics such as sports and social media."
+  },
+  {
+    "objectID": "resources/ds_ml_ai/ds_ml_ai.html#a-curated-collection-of-resources",
+    "href": "resources/ds_ml_ai/ds_ml_ai.html#a-curated-collection-of-resources",
+    "title": "Data Science, Machine Learning, and Artificial Intelligence",
+    "section": "A curated collection of resources",
+    "text": "A curated collection of resources\n\n1. Data Science, Machine Learning, and Artificial Intelligence\n\n\n2. Datasets for Statistical Analysis and Machine Learning\n\n\n3. Statistics\n\n\n4. Data Science Interview Prep\n\n\n5. Sports Data Science\n\n\n6. Social Media and Music Analysis"
+  },
+  {
+    "objectID": "resources/data_viz/ds_viz.html",
+    "href": "resources/data_viz/ds_viz.html",
+    "title": "Data Visualization and Storytelling",
+    "section": "",
+    "text": "This page provides a comprehensive collection of resources on data visualization and storytelling. There is a curated collection of resources focused on general data visualization, and data visualization tools such as R/RStudio, Python, and Tableau. Additionally, there is a section focused on data journalism and storytelling."
+  },
+  {
+    "objectID": "resources/biox/biox.html",
+    "href": "resources/biox/biox.html",
+    "title": "Bio-X: All things Bio",
+    "section": "",
+    "text": "On this page, I provide a curated collection of resources focused on all things related to biotechnology. The main topics that I focus on include open-source bio, biomechanics, and bioinformatics.\n\n1. Biomechanics and Sports Engineering\n\n\n2. Open-Source Bio\n\n\n3. Bioinformatics and Computational Biology"
+  },
+  {
+    "objectID": "resources/biox/opensource_bio.html#science-medicine-and-technology",
+    "href": "resources/biox/opensource_bio.html#science-medicine-and-technology",
+    "title": "Open-Source Bio",
+    "section": "Science, Medicine, and Technology",
+    "text": "Science, Medicine, and Technology\n\nPersonal Blogs and Websites\n\nAndre Maia Chagas Open-Source\nSynthetic Biology for engineering plant growth\n\n\n\nTools\n\nOpen Source Tools for Computational Biology\n\n\n\nLabs and Groups\n\nDIY BIO - Listing of local groups\n\n\n\nProjects\n\nOpen Labware\nOpen Neuroscience\nOpen Source BioArt\nOpen Source Bioreactor\nOpen Source Bioreactor Project\nFarma: a Home Bioreactor for Pharmaceutical Drugs\nGaudi Labs Open Culture Technology\nRaspberry Pi: a versatile tool for biological sciences\nOpen sourcing bioinstruments\nAppropedia: Open Source Technology\nIFIXIT Medical Device Repair\nDFROBOT\nOpen-source robotic platform for experimental automation\nLab On The Cheap\nDIYbio Lab\n\n\n\nPublications\n\nPloS Open Source Toolkit\nOpen Source Hardware Journal\nOpen Source Biomaker\nTREND Africa Open Source Training\n\n\n\nmHealth\n\nOpen Data Kit\nOpen mHealth\nMobile Sensor Data to Knowledge"
+  },
+  {
+    "objectID": "resources/readings/readings.html",
+    "href": "resources/readings/readings.html",
+    "title": "Recommended Readings",
+    "section": "",
+    "text": "The recommended readings page contains articles, stories, and books that I have read and enjoyed. There is a specific focus on STEM and another general section for everyone."
+  },
+  {
+    "objectID": "resources/readings/readings.html#stem-students",
+    "href": "resources/readings/readings.html#stem-students",
+    "title": "Recommended Readings",
+    "section": "STEM students",
+    "text": "STEM students\n\n1. Recommended Readings"
+  },
+  {
+    "objectID": "resources/teaching/teach_res.html",
+    "href": "resources/teaching/teach_res.html",
+    "title": "Teaching Resources",
+    "section": "",
+    "text": "On this page, there is a curated collection of general teaching resources, links to RStudio and Carpentries certification resources, and content focused on medical, science, and technical writing.\n\n1. General Teaching Resources\n\n\n2. RStudio and Carpentries Certification\n\n\n3. Medical, Science, and Technical Writing"
   }
 ]

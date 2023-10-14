@@ -3,7 +3,7 @@ title: "Programming"
 toc: true
 ---
 
-## A curated collection of resources
+This page provides a comprehensive collection of resources on programming tools with a specific focus on R/RStudio (data analysis and visualization), Python, Git/GitHub (version control), Command Line, SQL, and Quarto (scientific and technical publishing).
 
 ### 1. [R and RStudio](r_rstudio.qmd)
 

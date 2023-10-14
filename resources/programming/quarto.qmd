@@ -3,6 +3,8 @@ title: "Quarto"
 toc: true
 ---
 
+The Quarto page contains a list of resources that are focused on the relatively new Quarto software. It includes various beginner guides to help one get started on their Quarto journey. Additionally, I provide links to resources for other tools such as RMarkdown and Distill.
+
 ## Introduction and Tutorials
 
 ### Curated collection of Quarto Resources
@@ -27,4 +29,3 @@ toc: true
 2)  [R Markdown for Web Pages](https://www.markdownguide.org/basic-syntax/)
 3)  [Porting a distill blog to quarto](https://blog.djnavarro.net/posts/2022-04-20_porting-to-quarto/)
 4)  [RMarkdown](https://rmarkdown.rstudio.com/index.html)
-

@@ -3,6 +3,8 @@ title: "Data Visualization (Tableau)"
 toc: true
 ---
 
+The Tableau Data Visualization page provides a list of books and tutorials for beginners. There are links to practical introductions to data visualization, tools and style guidelines.
+
 ## Data Visualization (Tableau)
 
 1)  [A Beginner's Guide to Tableau Public](https://www.tableau.com/blog/beginners-guide-tableau-public)

@@ -3,6 +3,8 @@ title: "General Teaching Resources"
 toc: true
 ---
 
+The general teaching resources page provides resources focused on teaching STEM subjects, as well as links to teaching aids for more efficient teaching.
+
 ## Teaching STEM Subjects
 
 ### A curated collection of resources

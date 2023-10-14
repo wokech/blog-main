@@ -3,6 +3,8 @@ title: "Bioinformatics and Computational Biology"
 toc: true
 ---
 
+The Bioinformatics and Computational Biology page offers a curated collection of resources for bioinformatics and computational biology. The page includes personal and lab websites, tutorials, courses, books, and projects.
+
 ## Personal and Lab Websites
 
 1)  [JT Leek](https://github.com/jtleek)
@@ -23,8 +25,8 @@ toc: true
 
 ## Bioinformatics News Stories
 
-1) [GENOMES ARISING](https://www.science.org/content/article/africans-begin-take-reins-research-their-own-genomes)
-2) [The next chapter for African genomics](https://www.nature.com/articles/d41586-020-00454-1)
+1)  [GENOMES ARISING](https://www.science.org/content/article/africans-begin-take-reins-research-their-own-genomes)
+2)  [The next chapter for African genomics](https://www.nature.com/articles/d41586-020-00454-1)
 
 ## Bioinformatics Basics
 
@@ -34,11 +36,11 @@ toc: true
 2)  [Introduction to Computational Biology](https://biodatascience.github.io/compbio/)
 3)  [SDS 348, Computational Biology and Bioinformatics 2019](https://wilkelab.org/classes/SDS348_spring_2019.html)
 4)  [SDS 348, Computational Biology and Bioinformatics 2020](https://wilkelab.org/classes/SDS348_spring_2020.html)
-5) [BMI 702 \| Biomedical Artificial Intelligence](https://zitniklab.hms.harvard.edu/BMI702/)
-6) [DIY Transcriptomics](https://diytranscriptomics.com/)
-7) [BIG Bioinformatics](https://www.bigbioinformatics.org/)
-8) [Intro to Biomedical Data Science](http://bioconnector.github.io/bims8382/index.html)
-9) [Introduction to Unix, Orchestra and RNA-Seq](https://wiki.harvard.edu/confluence/display/hbctraining/Introduction+to+Unix%2C+Orchestra+and+RNA-Seq)
+5)  [BMI 702 \| Biomedical Artificial Intelligence](https://zitniklab.hms.harvard.edu/BMI702/)
+6)  [DIY Transcriptomics](https://diytranscriptomics.com/)
+7)  [BIG Bioinformatics](https://www.bigbioinformatics.org/)
+8)  [Intro to Biomedical Data Science](http://bioconnector.github.io/bims8382/index.html)
+9)  [Introduction to Unix, Orchestra and RNA-Seq](https://wiki.harvard.edu/confluence/display/hbctraining/Introduction+to+Unix%2C+Orchestra+and+RNA-Seq)
 10) [Linux command line exercises for NGS data processing](https://userweb.eng.gla.ac.uk/umer.ijaz/bioinformatics/linux.html)
 11) [Introduction to Unix](https://www.melbournebioinformatics.org.au/tutorials/tutorials/unix/unix/)
 12) [Engineering Biology Research Consortium](https://ebrc.org/curriculum-module-introduction-to-engineering-biology/)
@@ -54,11 +56,11 @@ toc: true
 2)  [Modern Statistics for Modern Biology](https://www.huber.embl.de/msmb/)
 3)  [Learning Bioinformatics At Home](https://github.com/harvardinformatics/learning-bioinformatics-at-home)
 4)  [Important numbers in Cell Biology](http://book.bionumbers.org/)
-5) [The Biologist's Guide to Computing](https://book.biologistsguide2computing.com/en/stable/)
-6) [Bioinformatics Starter Pack](https://khushbupatel.notion.site/Bioinformatics-Starter-Pack-ae982892a9fb44569f735abc52ec9dd8)
-7) [Orchestrating Single-Cell Analysis with Bioconductor](https://bioconductor.org/books/release/OSCA/)
-8) [Single-cell best practices](https://www.sc-best-practices.org/preamble.html)
-9) [Biodatascience101](https://biodatascience101.github.io/)
+5)  [The Biologist's Guide to Computing](https://book.biologistsguide2computing.com/en/stable/)
+6)  [Bioinformatics Starter Pack](https://khushbupatel.notion.site/Bioinformatics-Starter-Pack-ae982892a9fb44569f735abc52ec9dd8)
+7)  [Orchestrating Single-Cell Analysis with Bioconductor](https://bioconductor.org/books/release/OSCA/)
+8)  [Single-cell best practices](https://www.sc-best-practices.org/preamble.html)
+9)  [Biodatascience101](https://biodatascience101.github.io/)
 10) [Introduction to biological circuit design](https://biocircuits.github.io/chapters/01_intro_to_circuit_design.html)
 11) [Biological Architecture Reading Roadmap](https://github.com/francisglee/biological-architecture-primer)
 12) [RNA-Seq Blog](https://www.rna-seqblog.com/)
@@ -92,15 +94,15 @@ toc: true
 
 ### Tools
 
-1) [R2 Genomics Analysis and Visualization Platform](https://hgserver1.amc.nl/cgi-bin/r2/main.cgi?open_page=login)
-2) [Exploring Spatial Omics](https://aquila.cheunglab.org/)
-3) [BD2K-LINCS DATA COORDINATION AND INTEGRATION CENTER](https://lincs-dcic.org/)
-4) [The Top 15 Machine Learning Data Science Bioinformatics Open Source Projects](https://awesomeopensource.com/projects/bioinformatics/data-science/machine-learning)
-5) [Biopython](https://biopython.org/)
-6) [gget](https://pachterlab.github.io/gget/)
-7) [ROSALIND](https://rosalind.info/problems/locations/)
-8) [Free and Open Source Tools for Bioinformatics and Molecular Biology](https://www.opensourceforu.com/2018/03/free-open-source-tools-bioinformatics-molecular-biology/)
-9) [PiGx: Pipelines in Genomics](http://bioinformatics.mdc-berlin.de/pigx/)
+1)  [R2 Genomics Analysis and Visualization Platform](https://hgserver1.amc.nl/cgi-bin/r2/main.cgi?open_page=login)
+2)  [Exploring Spatial Omics](https://aquila.cheunglab.org/)
+3)  [BD2K-LINCS DATA COORDINATION AND INTEGRATION CENTER](https://lincs-dcic.org/)
+4)  [The Top 15 Machine Learning Data Science Bioinformatics Open Source Projects](https://awesomeopensource.com/projects/bioinformatics/data-science/machine-learning)
+5)  [Biopython](https://biopython.org/)
+6)  [gget](https://pachterlab.github.io/gget/)
+7)  [ROSALIND](https://rosalind.info/problems/locations/)
+8)  [Free and Open Source Tools for Bioinformatics and Molecular Biology](https://www.opensourceforu.com/2018/03/free-open-source-tools-bioinformatics-molecular-biology/)
+9)  [PiGx: Pipelines in Genomics](http://bioinformatics.mdc-berlin.de/pigx/)
 10) [USC Libraries Bioinformatics](https://libguides.usc.edu/c.php?g=1024275&p=7420352)
 11) [NCI Bioinformatics Training and Education Program](https://btep.ccr.cancer.gov/classes/rbioconductor-basics-workshop-2-day-3/)
 12) [Harvard Chan Bioinformatics Core](https://bioinformatics.sph.harvard.edu/training)
@@ -113,13 +115,13 @@ toc: true
 
 1)  [Oncology Bioinformatics project tutorial](https://darkomedin-datascience.medium.com/oncology-bioinformatics-project-tutorial-differential-gene-expression-and-biomarker-discovery-d3ac07db5652)
 2)  [Centre of Bioinformatics Research and Technology (CBIRT)](https://cbirt.net/)
-3) [Galaxy Training](https://training.galaxyproject.org/training-material/)
+3)  [Galaxy Training](https://training.galaxyproject.org/training-material/)
 4)  [Childhood Cancer Data Lab Workshop Materials](https://www.ccdatalab.org/workshop-materials)
 5)  [Childhood Cancer Data Lab Research Resources](https://www.ccdatalab.org/research-resources)
 6)  [Crash Courses in Bioinformatics](http://crashcourses.biodata.pt/)
-7) [Data Carpentry for Biologists](https://datacarpentry.org/semester-biology/)
-8) [Illustrating Python via Examples from Bioinformatics](http://hplgit.github.io/bioinf-py/doc/pub/html/index.html)
-9) [Illustrating Python via Bioinformatics Examples](http://hplgit.github.io/bioinf-py/doc/pub/bioinf-py.html)
+7)  [Data Carpentry for Biologists](https://datacarpentry.org/semester-biology/)
+8)  [Illustrating Python via Examples from Bioinformatics](http://hplgit.github.io/bioinf-py/doc/pub/html/index.html)
+9)  [Illustrating Python via Bioinformatics Examples](http://hplgit.github.io/bioinf-py/doc/pub/bioinf-py.html)
 10) [EVOLUTION AND GENOMICS](https://evomics.org/learning/)
 11) [Bioinformatics Introduction](https://github.com/SexChrLab/BioinformaticsIntroduction)
 12) [Griffith Lab Tutorials and Courses](https://griffithlab.org/teaching/)
@@ -133,22 +135,22 @@ toc: true
 
 #### Tidyverse and R
 
-1) [Bioinformatics in the Tidyverse](https://chapmandu2.github.io/post/2017/02/21/bioinformatics-in-the-tidyverse/)
-2) [An Introduction to R through the tidyverse + Bioinformatics](https://pmacdasci.github.io/r-intro-tidyverse/)
-3) [R for Biology Data Science](https://jmhulbert.github.io/r/bio/s1/)
-4) [Intro to R and RStudio for Genomics](https://datacarpentry.org/genomics-r-intro/)
-5) [The Bioconductor 2018 Workshop Compilation](https://bioconductor.github.io/BiocWorkshops/)
-6) [Bioconductor Workshop 1 Jupyter Notebooks](https://compbiocore.github.io/bioconductor-workshop-1/notebook/)
-7) [MicroArray Project](https://rpubs.com/bilalhamdanieh/bioconductor)
+1)  [Bioinformatics in the Tidyverse](https://chapmandu2.github.io/post/2017/02/21/bioinformatics-in-the-tidyverse/)
+2)  [An Introduction to R through the tidyverse + Bioinformatics](https://pmacdasci.github.io/r-intro-tidyverse/)
+3)  [R for Biology Data Science](https://jmhulbert.github.io/r/bio/s1/)
+4)  [Intro to R and RStudio for Genomics](https://datacarpentry.org/genomics-r-intro/)
+5)  [The Bioconductor 2018 Workshop Compilation](https://bioconductor.github.io/BiocWorkshops/)
+6)  [Bioconductor Workshop 1 Jupyter Notebooks](https://compbiocore.github.io/bioconductor-workshop-1/notebook/)
+7)  [MicroArray Project](https://rpubs.com/bilalhamdanieh/bioconductor)
 
 #### BioPython
 
-1) [First Steps in Biopython](https://krother.gitbooks.io/biopython-tutorial/content/first_steps.html)
-2) [What is BioPython](https://notebook.community/gditzler/bio-course-materials/notebooks/BioPython-Tutorial)
-3) [Getting Started with Biopython](https://www.kaggle.com/code/mylesoneill/getting-started-with-biopython/notebook)
-4) [Biopython Tutorial](https://www.tutorialspoint.com/biopython/index.htm)
-5) [Practical Computing for Biologists](https://people.duke.edu/~ccc14/pcfb/biopython/BiopythonBasics.html)
-6) [Biopython Tutorial and Cookbook](http://biopython.org/DIST/docs/tutorial/Tutorial.html)
+1)  [First Steps in Biopython](https://krother.gitbooks.io/biopython-tutorial/content/first_steps.html)
+2)  [What is BioPython](https://notebook.community/gditzler/bio-course-materials/notebooks/BioPython-Tutorial)
+3)  [Getting Started with Biopython](https://www.kaggle.com/code/mylesoneill/getting-started-with-biopython/notebook)
+4)  [Biopython Tutorial](https://www.tutorialspoint.com/biopython/index.htm)
+5)  [Practical Computing for Biologists](https://people.duke.edu/~ccc14/pcfb/biopython/BiopythonBasics.html)
+6)  [Biopython Tutorial and Cookbook](http://biopython.org/DIST/docs/tutorial/Tutorial.html)
 
 ### Projects
 
@@ -156,16 +158,7 @@ toc: true
 2)  [Analysing the HIV pandemic, Part 2: Drug resistance testing](https://rviews.rstudio.com/2019/05/07/pipeline-for-analysing-hiv-part-2/)
 3)  [Analysing the HIV pandemic, Part 3: Genetic diversity](https://rviews.rstudio.com/2019/05/16/pipeline-for-analysing-hiv-part-3/)
 4)  [Analysing the HIV pandemic, Part 4: Classification of lab samples](https://rviews.rstudio.com/2019/05/23/pipeline-for-analysing-hiv-part-4/)
-5) [Machine learning for biology part one](https://pythonforbiologists.com/machine-learning-for-biology-part-one.html)
-6) [Machine learning for biology part two](https://pythonforbiologists.com/machine-learning-for-biology-part-two.html)
-7) [Machine learning for biology part three](https://pythonforbiologists.com/machine-learning-for-biology-part-three.html)
-8) [Machine learning for biology part four](https://pythonforbiologists.com/machine-learning-for-biology-part-four.html)
-
-
-
-
-
-
-
-
-
+5)  [Machine learning for biology part one](https://pythonforbiologists.com/machine-learning-for-biology-part-one.html)
+6)  [Machine learning for biology part two](https://pythonforbiologists.com/machine-learning-for-biology-part-two.html)
+7)  [Machine learning for biology part three](https://pythonforbiologists.com/machine-learning-for-biology-part-three.html)
+8)  [Machine learning for biology part four](https://pythonforbiologists.com/machine-learning-for-biology-part-four.html)

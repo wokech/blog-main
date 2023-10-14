@@ -3,6 +3,8 @@ title: "Data Science, Machine Learning, and Artificial Intelligence"
 toc: true
 ---
 
+The data science, machine learning, and artificial intelligence page provides a varied list of general resources. Additionally, there is also a focus on datasets, statistics, interview prep, and specific topics such as sports and social media.
+
 ## A curated collection of resources
 
 ### 1. [Data Science, Machine Learning, and Artificial Intelligence](ds_ml_ai_all.qmd)

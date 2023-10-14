@@ -3,6 +3,8 @@ title: "Data Journalism Tools and Stories"
 toc: true
 ---
 
+This page provides a comprehensive collection of resources focused on data journalism tools and resources. On this page, you will find a list of personal websites and blogs that do some great work in data journalism. Additionally, there is a list of good examples of data stories to emulate.
+
 ## Data Journalism
 
 ### Blogs and Websites

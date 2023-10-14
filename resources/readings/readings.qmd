@@ -3,6 +3,8 @@ title: "Recommended Readings"
 toc: true
 ---
 
+The recommended readings page contains articles, stories, and books that I have read and enjoyed. There is a specific focus on STEM and another general section for everyone.
+
 ## STEM students
 
 ### 1. [Recommended Readings](reading_stem.qmd)

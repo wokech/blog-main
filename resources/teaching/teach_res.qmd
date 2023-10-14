@@ -3,7 +3,7 @@ title: "Teaching Resources"
 toc: true
 ---
 
-## A curated collection of resources
+On this page, there is a curated collection of general teaching resources, links to RStudio and Carpentries certification resources, and content focused on medical, science, and technical writing.
 
 ### 1. [General Teaching Resources](gen_teach_resources.qmd)
 

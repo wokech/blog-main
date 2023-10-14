@@ -3,11 +3,13 @@ title: "Biomechanics and Sports Engineering"
 toc: true
 ---
 
+The Biomechanics and Sports Engineering page provides a curated collection of resources. Included here is a list of books, tutorials, and personal blogs and websites.
+
 ## Biomechanics
 
 ### Curated collection of resources
 
-1) [A curated repository of biomechanical resources](https://github.com/modenaxe/awesome-biomechanics)
+1)  [A curated repository of biomechanical resources](https://github.com/modenaxe/awesome-biomechanics)
 
 ### Personal Blogs and Websites
 

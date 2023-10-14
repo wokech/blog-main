@@ -3,7 +3,7 @@ title: "Data Visualization and Storytelling"
 toc: true
 ---
 
-## A curated collection of resources
+This page provides a comprehensive collection of resources on data visualization and storytelling. There is a curated collection of resources focused on general data visualization, and data visualization tools such as R/RStudio, Python, and Tableau. Additionally, there is a section focused on data journalism and storytelling.
 
 ## Visualization
 

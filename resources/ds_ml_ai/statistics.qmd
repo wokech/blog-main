@@ -3,6 +3,8 @@ title: "Statistics"
 toc: true
 ---
 
+This page provides a comprehensive collection of resources on statistics. Included here is a list of links to books, lectures and courses, and tutorials focused on statistics.
+
 ### Books
 
 1)  [Introduction to Modern Statistics](https://openintro-ims.netlify.app/index.html)
@@ -11,9 +13,9 @@ toc: true
 4)  [Causal Inference: The Mixtape](https://mixtape.scunning.com/)
 5)  [Seeing Theory](https://seeing-theory.brown.edu/index.html)
 6)  [Common statistical tests are linear models (or: how to teach stats)](https://lindeloev.github.io/tests-as-linear/)
-7) [Modern Statistics with R](https://modernstatisticswithr.com/)
-8) [Introduction to Probability for Data Science](https://probability4datascience.com/)
-9) [Intro to Bayesian Business Analytics](https://www.causact.com/index.html#welcome)
+7)  [Modern Statistics with R](https://modernstatisticswithr.com/)
+8)  [Introduction to Probability for Data Science](https://probability4datascience.com/)
+9)  [Intro to Bayesian Business Analytics](https://www.causact.com/index.html#welcome)
 10) [Design and Analysis of Experiments and Observational Studies using R](http://designexptr.org/index.html)
 11) [Statistical rethinking with brms, ggplot2, and the tidyverse](https://bookdown.org/content/4857/)
 12) [Bayes Rules! An Introduction to Applied Bayesian Modeling](https://www.bayesrulesbook.com/)
@@ -28,13 +30,13 @@ toc: true
 2)  [Statistical Computing](https://www.stephaniehicks.com/jhustatcomputing2022/schedule)
 3)  [BIOLOGY FOR LIFE](https://www.biologyforlife.com/statistics.html)
 4)  [Program Evaluation for Public Service and Research Design](https://evalsp20.classes.andrewheiss.com/)
-5) [STA 363: Statistical Learning](https://sta-363-s20.lucymcgowan.com/)
-6) [STA 312: Linear Models](https://sta-312-f20.netlify.app/)
-7) [STA 212: Statistical Models](https://sta-212-f19.lucymcgowan.com/)
-8) [Statistics 431: Advanced Statistical Computing with R](https://cal-poly-advanced-r.github.io/STAT-431/)
-9) [GUide to STatistical Analysis in Microbial Ecology (GUSTA ME)](https://sites.google.com/site/mb3gustame/)
-11) [Regression Modelling in R](https://chrismainey.github.io/Regression_Modelling_NHSR/Regression_modelling#1)
-12) [The Grammar of Experimental Design](https://emitanaka.org/slides-useR2021/#1)
+5)  [STA 363: Statistical Learning](https://sta-363-s20.lucymcgowan.com/)
+6)  [STA 312: Linear Models](https://sta-312-f20.netlify.app/)
+7)  [STA 212: Statistical Models](https://sta-212-f19.lucymcgowan.com/)
+8)  [Statistics 431: Advanced Statistical Computing with R](https://cal-poly-advanced-r.github.io/STAT-431/)
+9)  [GUide to STatistical Analysis in Microbial Ecology (GUSTA ME)](https://sites.google.com/site/mb3gustame/)
+10) [Regression Modelling in R](https://chrismainey.github.io/Regression_Modelling_NHSR/Regression_modelling#1)
+11) [The Grammar of Experimental Design](https://emitanaka.org/slides-useR2021/#1)
 
 ### Tutorials
 
@@ -42,18 +44,18 @@ toc: true
 2)  [Causation and Correlation](https://blog.ephorie.de/causation-doesnt-imply-correlation-either)
 3)  [An Introduction to Hierarchical Modeling](http://mfviz.com/hierarchical-models/)
 4)  [Tidy Statistics in R](https://themockup.blog/posts/2018-12-10-a-gentle-guide-to-tidy-statistics-in-r/)
-5) [Statistics and R](https://tinystats.github.io/teacups-giraffes-and-statistics/index.html)
-6) [Tidy dataframes and statsExpressions](https://indrajeetpatil.github.io/statsExpressions/)
-7) [Power Analysis \| Introduction in R](https://newpblog.netlify.app/2021-11-19-bit-by-bit-power-analysis/)
-8) [metrica: Prediction performance metrics](https://adriancorrendo.github.io/metrica/index.html)
-9) [Bayes Explained 1](https://betterexplained.com/articles/an-intuitive-and-short-explanation-of-bayes-theorem/)
+5)  [Statistics and R](https://tinystats.github.io/teacups-giraffes-and-statistics/index.html)
+6)  [Tidy dataframes and statsExpressions](https://indrajeetpatil.github.io/statsExpressions/)
+7)  [Power Analysis \| Introduction in R](https://newpblog.netlify.app/2021-11-19-bit-by-bit-power-analysis/)
+8)  [metrica: Prediction performance metrics](https://adriancorrendo.github.io/metrica/index.html)
+9)  [Bayes Explained 1](https://betterexplained.com/articles/an-intuitive-and-short-explanation-of-bayes-theorem/)
 10) [Bayes Explained 2](https://betterexplained.com/articles/understanding-bayes-theorem-with-ratios/)
 11) [CausalImpact](https://google.github.io/CausalImpact/CausalImpact.html)
 
 ### Troubleshooting
 
-1) [Statistical Problems to Document and to Avoid](https://discourse.datamethods.org/t/author-checklist/3407)
-2) [Datamethods](https://discourse.datamethods.org/)
+1)  [Statistical Problems to Document and to Avoid](https://discourse.datamethods.org/t/author-checklist/3407)
+2)  [Datamethods](https://discourse.datamethods.org/)
 
 ### Biostatistics
 

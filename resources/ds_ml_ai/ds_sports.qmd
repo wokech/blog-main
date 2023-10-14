@@ -3,13 +3,15 @@ title: "Sports Data Science"
 toc: true
 ---
 
+This page provides a comprehensive collection of resources on sports data science. The page includes links to tutorials, datasets, journal articles, and personal blogs focused on sports data science.
+
 ## Sports Data Science Blogs
 
 ### Multiple Sports
 
 1)  [Sweep Sports Analytics](https://sweepsportsanalytics.com/)
 2)  [Jason Zivkovic](https://www.dontblamethedata.com/)
-3) [SPORT DATA SCIENCE](https://theparttimeanalyst.com/)
+3)  [SPORT DATA SCIENCE](https://theparttimeanalyst.com/)
 
 ### Soccer
 
@@ -36,7 +38,7 @@ toc: true
 
 ### Basketball Analytics
 
-1) [Dribble analytics](https://dribbleanalytics.blog/)
+1)  [Dribble analytics](https://dribbleanalytics.blog/)
 
 ## Sports Data Science Stories
 
@@ -63,12 +65,12 @@ toc: true
 1)  [PySport](https://opensource.pysport.org/)
 2)  [DTAI SPORTS ANALYTICS LAB](https://dtai.cs.kuleuven.be/sports/)
 3)  [SportsDataVerse](https://sportsdataverse.org/)
-4) [Sports guideR](https://docs.google.com/spreadsheets/d/16Xvhl7fCKEs1JTr-VXPZDmctO2gq4TcmuNmAhoHQQs0/edit#gid=1034341673)
-5) [Sports Reference](https://www.sports-reference.com/)
-6) [SFU Sports Analytics Group Virtual Seminar](http://www.sfu.ca/sportsanalytics/Seminars.html)
-7) [Brescia BDAS Lab](https://bodai.unibs.it/bdsports/#block-1)
-8) [SPORT PERFORMANCE ANALYSIS](https://www.sportperformanceanalysis.com/)
-9) [Bruin Sports Analytics](https://www.bruinsportsanalytics.com/)
+4)  [Sports guideR](https://docs.google.com/spreadsheets/d/16Xvhl7fCKEs1JTr-VXPZDmctO2gq4TcmuNmAhoHQQs0/edit#gid=1034341673)
+5)  [Sports Reference](https://www.sports-reference.com/)
+6)  [SFU Sports Analytics Group Virtual Seminar](http://www.sfu.ca/sportsanalytics/Seminars.html)
+7)  [Brescia BDAS Lab](https://bodai.unibs.it/bdsports/#block-1)
+8)  [SPORT PERFORMANCE ANALYSIS](https://www.sportperformanceanalysis.com/)
+9)  [Bruin Sports Analytics](https://www.bruinsportsanalytics.com/)
 10) [Spotrac](https://www.spotrac.com/)
 11) [THE GREAT ANALYTICS RANKINGS](http://www.espn.com/espn/feature/story/_/id/12331388/the-great-analytics-rankings)
 12) [Sport Informatics and Analytics](https://wikieducator.org/Sport_Informatics_and_Analytics/Pattern_Recognition/Using_R#cite_note-45)
@@ -77,8 +79,8 @@ toc: true
 
 #### Curated list of soccer resources
 
-1) [Awesome Soccer Analytics](https://github.com/matiasmascioto/awesome-soccer-analytics)
-2) [Edd Webster Football Analytics](https://github.com/eddwebster/football_analytics)
+1)  [Awesome Soccer Analytics](https://github.com/matiasmascioto/awesome-soccer-analytics)
+2)  [Edd Webster Football Analytics](https://github.com/eddwebster/football_analytics)
 3)  [Soccer Analytics Handbook](https://github.com/devinpleuler/analytics-handbook/)
 
 #### Individual resources
@@ -86,39 +88,39 @@ toc: true
 1)  [Soccermatics](https://soccermatics.readthedocs.io/en/latest/)
 2)  [MPL Soccer](https://mplsoccer.readthedocs.io/en/latest/index.html)
 3)  [American Soccer Analysis](https://www.americansocceranalysis.com/)
-4) [Total Football Analysis](https://totalfootballanalysis.com/)
-5) [Learn Python & Data Science With Football](https://fcpython.com/)
-6) [Learn R & Data Science With Football](http://www.fcrstats.com/)
-7) [Experimental 361](https://experimental361.com/)
-8) [Barca Innovation Hub](https://barcainnovationhub.com/)
-9) [Training Ground Guru](https://trainingground.guru/)
+4)  [Total Football Analysis](https://totalfootballanalysis.com/)
+5)  [Learn Python & Data Science With Football](https://fcpython.com/)
+6)  [Learn R & Data Science With Football](http://www.fcrstats.com/)
+7)  [Experimental 361](https://experimental361.com/)
+8)  [Barca Innovation Hub](https://barcainnovationhub.com/)
+9)  [Training Ground Guru](https://trainingground.guru/)
 10) [SportSciData](https://sportscidata.com/)
 11) [FourFourTwo](https://www.fourfourtwo.com/)
 12) [Twelve Football](https://twelve.football/premierleague)
 13) [Football Science](https://www.footballscience.net/)
 14) [THE DATA CRUNCHING FOOTBALL EXPERT](https://analytics.twelve.football/analytics)
-15)  [worldfootballR](https://jaseziv.github.io/worldfootballR/index.html)
+15) [worldfootballR](https://jaseziv.github.io/worldfootballR/index.html)
 16) [Languages and tools to learn for sports analytics](https://www.brendankent.com/blog/languages-and-tools-to-learn-for-sports-analytics)
 17) [Coding for sports analytics](https://www.brendankent.com/blog/coding-for-sports-analytics-resources-to-get-started)
 
 #### Databases
 
-1) [CIES Football Observatory](https://football-observatory.com/)
+1)  [CIES Football Observatory](https://football-observatory.com/)
 2)  [The Fjelstul English Football Database](https://github.com/jfjelstul/englishfootball)
 3)  [The Fjelstul World Cup Database](https://github.com/jfjelstul/worldcup)
-4) [StatsBomb Open Data](https://github.com/statsbomb/open-data)
-5) [Football Data UK](https://www.football-data.co.uk/data.php)
-6) [SoFIFA](https://sofifa.com/)
+4)  [StatsBomb Open Data](https://github.com/statsbomb/open-data)
+5)  [Football Data UK](https://www.football-data.co.uk/data.php)
+6)  [SoFIFA](https://sofifa.com/)
 
 #### American Football
 
-1) [Big Data Bowl '21 Submission](https://midsprint.io/portfolio/index.html)
-2) [Modeling Player Biomechanics](https://www.kaggle.com/code/haljordan/modeling-player-biomechanics/notebook)
-3) [Fantasy Football Analytics](https://fantasyfootballanalytics.net/)
+1)  [Big Data Bowl '21 Submission](https://midsprint.io/portfolio/index.html)
+2)  [Modeling Player Biomechanics](https://www.kaggle.com/code/haljordan/modeling-player-biomechanics/notebook)
+3)  [Fantasy Football Analytics](https://fantasyfootballanalytics.net/)
 
 #### Basketball
 
-1) [NBAstuffer](https://www.nbastuffer.com/)
+1)  [NBAstuffer](https://www.nbastuffer.com/)
 
 ### Tutorials
 
@@ -132,7 +134,7 @@ toc: true
 6)  [Getting Started with Free StatsBomb Event Data](https://thelastmananalytics.home.blog/2019/06/16/15-getting-started-with-free-statsbomb-event-data-xg-shot-map-tutorial/)
 7)  [Predicting Football Results With Statistical Modelling](https://dashee87.github.io/data%20science/football/r/predicting-football-results-with-statistical-modelling/)
 8)  [Liverpool 20-21 EPL Performance](https://rodserr.github.io/logbook/posts/2021-05-31-liverpool-20-21-epl-performance/?panelset=diogo-jota)
-9) [Explaining Expected Threat](https://soccermatics.medium.com/explaining-expected-threat-cbc775d97935)
+9)  [Explaining Expected Threat](https://soccermatics.medium.com/explaining-expected-threat-cbc775d97935)
 10) [Working with data in elite sport](https://jacquietran.github.io/2019_may_rladies_akl/R/#1)
 11) [Mathematical Modelling of Football](https://henrikwarne.com/2020/11/25/mathematical-modelling-of-football/)
 12) [10 Steps to Get Started in Sports Analytics](https://www.r-bloggers.com/2021/08/10-steps-to-get-started-in-sports-analytics/)
@@ -146,5 +148,5 @@ toc: true
 
 #### Basketball
 
-1) [How to make NBA shots charts in R](https://www.owenlhjphillips.com/new-blog/2020/6/25/how-to-make-nba-shots-charts-in-r)
-2) [Animating NBA Play by Play using R](http://curleylab.psych.columbia.edu/nba.html)
+1)  [How to make NBA shots charts in R](https://www.owenlhjphillips.com/new-blog/2020/6/25/how-to-make-nba-shots-charts-in-r)
+2)  [Animating NBA Play by Play using R](http://curleylab.psych.columbia.edu/nba.html)

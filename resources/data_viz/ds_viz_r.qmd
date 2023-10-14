@@ -3,6 +3,8 @@ title: "Data Visualization (R)"
 toc: true
 ---
 
+This page contains a list of resources focused on data visualization in R. There are links to books, templates, tutorials, and courses. Additionally, for those interested in using coding for art, there is a section on \"Data aRtistry.\"
+
 ## Curated Links by other data viz specialists
 
 1)  [Awesome ggplot2](https://github.com/erikgahner/awesome-ggplot2)

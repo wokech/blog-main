@@ -3,6 +3,8 @@ title: "Data Visualization (General)"
 toc: true
 ---
 
+On this page, you will find a list of general data visualization resources. First, there is a list of data visualization specialists and companies to follow. Additionally, there are practical introductions to data visualization, style guidelines, and books.
+
 ## Data Visualization (Blogs)
 
 A listing of data visualization specialists and companies to follow:

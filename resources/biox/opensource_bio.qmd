@@ -3,7 +3,9 @@ title: "Open-Source Bio"
 toc: true
 ---
 
-## Open-Source Science, Medicine, and Technology
+This page provides resources focused on open-source science, medicine, and technology. There are personal blogs and websites, tools, projects, and publications that highlight progress in this field.
+
+## Science, Medicine, and Technology
 
 ### Personal Blogs and Websites
 
@@ -16,18 +18,18 @@ toc: true
 
 ### Labs and Groups
 
-1) [DIY BIO - Listing of local groups](https://diybio.org/local/)
+1)  [DIY BIO - Listing of local groups](https://diybio.org/local/)
 
 ### Projects
 
 1)  [Open Labware](https://badenlab.org/open-labware-net/)
 2)  [Open Neuroscience](https://open-neuroscience.com/)
 3)  [Open Source BioArt](https://www.hackteria.org/)
-4) [Open Source Bioreactor](https://sites.google.com/site/opensourcebioreactor/)
-5) [Open Source Bioreactor Project](https://openbioeconomy.org/projects/open-source-bioreactor/)
-6) [Farma: a Home Bioreactor for Pharmaceutical Drugs](https://www.instructables.com/Farma-an-at-home-bioreactor-for-pharmaceutical-dru/)
-7) [Gaudi Labs Open Culture Technology](http://www.gaudi.ch/GaudiLabs/)
-8) [Raspberry Pi: a versatile tool for biological sciences](https://www.raspberrypi.com/news/raspberry-pi-a-versatile-tool-for-biological-sciences/)
+4)  [Open Source Bioreactor](https://sites.google.com/site/opensourcebioreactor/)
+5)  [Open Source Bioreactor Project](https://openbioeconomy.org/projects/open-source-bioreactor/)
+6)  [Farma: a Home Bioreactor for Pharmaceutical Drugs](https://www.instructables.com/Farma-an-at-home-bioreactor-for-pharmaceutical-dru/)
+7)  [Gaudi Labs Open Culture Technology](http://www.gaudi.ch/GaudiLabs/)
+8)  [Raspberry Pi: a versatile tool for biological sciences](https://www.raspberrypi.com/news/raspberry-pi-a-versatile-tool-for-biological-sciences/)
 9)  [Open sourcing bioinstruments](https://liorpachter.wordpress.com/2019/01/18/open-sourcing-bioinstruments/)
 10) [Appropedia: Open Source Technology](https://www.appropedia.org/Welcome_to_Appropedia)
 11) [IFIXIT Medical Device Repair](https://www.ifixit.com/Device/Medical_Device)
@@ -41,11 +43,10 @@ toc: true
 1)  [PloS Open Source Toolkit](https://collections.plos.org/channel/open-source-toolkit/)
 2)  [Open Source Hardware Journal](https://www.hardware-x.com/)
 3)  [Open Source Biomaker](https://www.biomaker.org/)
-4) [TREND Africa Open Source Training](https://trendinafrica.org/)
+4)  [TREND Africa Open Source Training](https://trendinafrica.org/)
 
-### mHealth 
+### mHealth
 
-1) [Open Data Kit](https://opendatakit.org/)
-2) [Open mHealth](https://www.openmhealth.org/)
-3) [Mobile Sensor Data to Knowledge](https://md2k.org/)
-
+1)  [Open Data Kit](https://opendatakit.org/)
+2)  [Open mHealth](https://www.openmhealth.org/)
+3)  [Mobile Sensor Data to Knowledge](https://md2k.org/)

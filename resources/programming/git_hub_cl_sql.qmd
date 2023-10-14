@@ -3,6 +3,8 @@ title: "Git, GitHub, Command Line, and SQL"
 toc: true
 ---
 
+This page provides a comprehensive collection of resources focused on Git, GitHub, the Command Line, and SQL. On this page, you will find tutorials, books, and training materials that can get you started on the tools listed above.
+
 ## Git
 
 ### Basics and Summaries
@@ -20,8 +22,8 @@ toc: true
 
 ### Books
 
-1) [Pro Git Book](https://git-scm.com/book/en/v2)
-2) [Happy Git and GitHub for the user](https://happygitwithr.com/)
+1)  [Pro Git Book](https://git-scm.com/book/en/v2)
+2)  [Happy Git and GitHub for the user](https://happygitwithr.com/)
 
 ### Tutorials
 
@@ -33,17 +35,17 @@ toc: true
 
 ### Git Troubleshooting
 
-1) [On undoing, fixing, or removing commits in git](https://sethrobertson.github.io/GitFixUm/fixup.html)
-2) [git pretty](http://justinhileman.info/article/git-pretty/)
-3) [Fixing Common Git Mistakes](https://maggieappleton.com/git-mistakes)
+1)  [On undoing, fixing, or removing commits in git](https://sethrobertson.github.io/GitFixUm/fixup.html)
+2)  [git pretty](http://justinhileman.info/article/git-pretty/)
+3)  [Fixing Common Git Mistakes](https://maggieappleton.com/git-mistakes)
 
 ## GitHub
 
 ### Basics
 
-1) [Getting started with Git and GitHub: the complete beginner's guide](https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6)
+1)  [Getting started with Git and GitHub: the complete beginner's guide](https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6)
 2)  [An Intro to Git and GitHub for Beginners (Tutorial)](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners)
-3) [Get started with Git and GitHub](https://aosmith16.github.io/spring-r-topics/slides/week01_introduction_git_and_github.html#1)
+3)  [Get started with Git and GitHub](https://aosmith16.github.io/spring-r-topics/slides/week01_introduction_git_and_github.html#1)
 4)  [Mastering GitHub in 4 Steps](https://frontenddoctor.hashnode.dev/mastering-github-in-4-steps)
 5)  [GitHub for supporting, reusing, contributing, and failing safely](https://www.openscapes.org/blog/2022/05/27/github-illustrated-series/)
 
@@ -56,9 +58,9 @@ toc: true
 ### Applications
 
 1)  [Introduction to GitHub Actions to R users](https://beamilz.com/posts/series-gha/2022-series-gha-1-what-is/en/)
-2) [How to effortlessly create a website for free with GitHub Pages](https://towardsdatascience.com/how-to-create-a-free-github-pages-website-53743d7524e1)
-3) [Introducing Jekyll Now for GitHub-hosted blogs](https://www.jekyllnow.com/)
-4) [Software development practices](https://r-pkgs.org/software-development-practices.html)
+2)  [How to effortlessly create a website for free with GitHub Pages](https://towardsdatascience.com/how-to-create-a-free-github-pages-website-53743d7524e1)
+3)  [Introducing Jekyll Now for GitHub-hosted blogs](https://www.jekyllnow.com/)
+4)  [Software development practices](https://r-pkgs.org/software-development-practices.html)
 
 ## Command Line (Bash, UNIX, and Linux)
 

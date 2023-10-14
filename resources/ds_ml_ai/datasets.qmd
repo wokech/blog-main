@@ -1,7 +1,9 @@
 ---
-title: "Datasets for Statistical Analysis and Machine Learning"
+title: "Public Datasets"
 toc: true
 ---
+
+This page provides a comprehensive collection of resources on datasets that can be used for statistical analysis, machine learning, and data journalism. The page includes curated collections of free and open data sources, industry-specific data, and multiple public data sources.
 
 ## Working with Data
 

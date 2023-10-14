@@ -3,6 +3,8 @@ title: "Data Science, Machine Learning, and Artificial Intelligence"
 toc: true
 ---
 
+This page provides a comprehensive collection of resources on data science, machine learning, and artificial intelligence. It includes links to courses, books, and tutorials.
+
 ## Data Science
 
 ### Courses
