@@ -7,14 +7,14 @@ The data science, machine learning, and artificial intelligence page provides a 
 
 ## A curated collection of resources
 
-### 1. [Data Science, Machine Learning, and Artificial Intelligence](ds_ml_ai_all.qmd)
+##### 1. [Data Science, Machine Learning, and Artificial Intelligence](ds_ml_ai_all.qmd)
 
-### 2. [Datasets for Statistical Analysis and Machine Learning](datasets.qmd)
+##### 2. [Datasets for Statistical Analysis and Machine Learning](datasets.qmd)
 
-### 3. [Statistics](statistics.qmd)
+##### 3. [Statistics](statistics.qmd)
 
-### 4. [Data Science Interview Prep](ds_interview.qmd)
+##### 4. [Data Science Interview Prep](ds_interview.qmd)
 
-### 5. [Sports Data Science](ds_sports.qmd)
+##### 5. [Sports Data Science](ds_sports.qmd)
 
-### 6. [Social Media and Music Analysis](soc_med_music_analysis.qmd)
+##### 6. [Social Media and Music Analysis](soc_med_music_analysis.qmd)

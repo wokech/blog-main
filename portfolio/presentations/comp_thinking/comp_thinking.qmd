@@ -82,7 +82,7 @@ https://www.bls.gov/ooh/computer-and-information-technology/software-developers.
 
 **Where can computational research be applied in the humanities?**
 
--   Text analysis for Literature Students
+Text analysis for Literature Students
 
 ::: footer
 Jockers and Thalken (2020) Text Analysis with R for Students of Literature
@@ -94,7 +94,6 @@ Jockers and Thalken (2020) Text Analysis with R for Students of Literature
 
 -   Text analysis for Literature Students
 
-
 ::: footer
 https://kennedyhq.com/wp/2016/11/19/shakespeare-through-digital-humanities-textual-analysis/
 :::
@@ -105,7 +104,6 @@ https://kennedyhq.com/wp/2016/11/19/shakespeare-through-digital-humanities-textu
 
 -   Image Processing for Artist Identification (useful in Fine Arts)
 
-
 ::: footer
 C. R. Johnson et al. (2008) IEEE Signal Processing Magazine, 25(4): 37-48
 :::
@@ -115,7 +113,6 @@ C. R. Johnson et al. (2008) IEEE Signal Processing Magazine, 25(4): 37-48
 **Where can computational research be applied in the humanities?**
 
 -   Sentiment Analysis and Social Media (useful in Political Science & Journalism)
-
 
 ::: footer
 https://github.com/Mazen72/Twitter_Sentiment_Analysis_Dashboard
@@ -173,7 +170,6 @@ Martyn Jessop (2004) Ubiquity, ACM
 ## Effective teaching of computational research skills
 
 **Recognize the diversity of needs**
-
 
 ## Effective teaching of computational research skills
 
@@ -237,11 +233,9 @@ Scratch: https://scratch.mit.edu/
 
 **What should novice coders learn? (My personal opinion)**
 
-
 ## Effective teaching of computational research skills
 
 **What should intermediate coders learn? (My personal opinion)**
-
 
 ## Effective teaching of computational research skills
 
@@ -268,7 +262,6 @@ Scratch: https://scratch.mit.edu/
 
 **Data Manipulation in R**
 
-
 ::: footer
 www.tidyverse.org
 :::
@@ -277,7 +270,6 @@ www.tidyverse.org
 
 **Data Manipulation in R**
 
-
 ::: footer
 www.carpentries.org
 :::
@@ -285,7 +277,6 @@ www.carpentries.org
 ## Sample Lesson and Problem
 
 **Data Visualization in R**
-
 
 ::: footer
 www.tidyverse.org

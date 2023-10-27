@@ -7,8 +7,8 @@ The recommended readings page contains articles, stories, and books that I have 
 
 ## STEM students
 
-### 1. [Recommended Readings](reading_stem.qmd)
+##### 1. [Recommended Readings](reading_stem.qmd)
 
-## Everyone
+## For Everyone
 
-### 1. [Recommended Readings](reading_general.qmd)
+##### 1. [Recommended Readings](reading_general.qmd)

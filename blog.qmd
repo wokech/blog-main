@@ -3,7 +3,7 @@ title: "Blog posts"
 listing:
   contents: posts
   sort: "date desc"
-  type: default
+  type: grid
   categories: true
   sort-ui: true
   filter-ui: true
@@ -13,15 +13,3 @@ page-layout: full
 title-block-banner: false
 comments: false
 ---
-
-::: {.column width="80%"}
-# Series
-
-1.  [R and RStudio: Getting Started and The Basics](series/series_1.qmd)
-2.  [Data Stories](series/series_2.qmd)
-:::
-
-::: {.column width="20%"}
-:::
-
-# All Blog Posts

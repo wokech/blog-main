@@ -5,8 +5,8 @@ toc: true
 
 On this page, I provide a curated collection of resources focused on all things related to biotechnology. The main topics that I focus on include open-source bio, biomechanics, and bioinformatics.
 
-### 1. [Biomechanics and Sports Engineering](biomech_sports_be.qmd)
+##### 1. [Biomechanics and Sports Engineering](biomech_sports_be.qmd)
 
-### 2. [Open-Source Bio](opensource_bio.qmd)
+##### 2. [Open-Source Bio](opensource_bio.qmd)
 
-### 3. [Bioinformatics and Computational Biology](bioinf.qmd)
+##### 3. [Bioinformatics and Computational Biology](bioinf.qmd)

@@ -5,6 +5,7 @@ website:
   title: "William Okech"
   site-url: "https://williamokech.com/"
   description: "This is William Okech's personal Blog."
+  favicon: william_profile.jpg
   navbar:
     right:
       - text: Resume
