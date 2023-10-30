@@ -1,0 +1,242 @@
+---
+title: "Biotechnology for the Global South"
+subtitle: "Developing alternative proteins to reduce childhood hunger and improve food production in low-income countries"
+author: "William Okech"
+date: "2023-10-27"
+image: "images/bioreactor.jpeg"
+categories: [RStudio, R, Biotech for the Global South, Blog, Data Visualization]
+format: html
+toc: false
+draft: false
+warning: false
+---
+
+![*Bioreactor image created using "Bing Image Creator" with the prompt keywords "bioreactor, computer screen, bubbling liquids, cabinet, with a dark purple, sky-blue, neon lights, carpetpunk, backlit photography, and trillwave theme."*](images/Bioreactor.jpeg){fig-align="center" width="80%" fig-alt="Futuristic Bioreactor"}
+
+# Key Points
+
+-   Hunger is a significant problem that affects close to one-tenth (1/10) of the world's population.
+-   Low-income countries, particularly in Africa, bear the brunt of the global childhood hunger crisis.
+-   Alternative protein technologies have the potential to transform the way humans produce and consume proteins.
+-   Increased consumer education, reduced production costs, and innovative technologies are key to the widespread acceptance and consumption of alternative proteins.
+
+# Introduction
+
+In the year 2022, between 691 and 783 million people were hungry [^1]. This alarming figure indicates that almost one-tenth (1/10) of the world's population (in 2022) did not consume enough calories to maintain a healthy and active lifestyle. Hunger (also referred to as undernutrition) is "an uncomfortable or painful physical sensation caused by insufficient consumption of dietary energy." [^2] The United Nations Children's Fund (UNICEF) estimates that for children under 5, 148.1 million suffered from stunting (low height-for-age) and 45 million from wasting (low weight-for-height), which placed them at increased risk for physical and/or mental disabilities [^3]. Moreover, in 2019, protein-energy undernutrition (an energy deficit resulting from the deficiencies of many macronutrients, primarily proteins) contributed to the deaths of 100,000 children (between 0--14 years), with approximately two-thirds from Africa [^4] [^5]. That a large proportion of the human population still faces the dual challenges of hunger and food insecurity is very disheartening. This is despite the continual increases in global agricultural productivity (resulting from the expansion of agricultural land area, better yielding crops, and improved animal production methods) that have been witnessed over the past century.
+
+[^1]: Hunger \| FAO \| Food and Agriculture Organization of the United Nations. https://www.fao.org/hunger/en/.
+
+[^2]: I am hungry. What does it mean? https://unric.org/en/i-am-hungry-what-does-it-mean/.
+
+[^3]: Malnutrition. https://www.who.int/health-topics/malnutrition#tab=tab_1.
+
+[^4]: Deaths from protein-energy malnutrition, by age, World, 1990 to 2019. https://ourworldindata.org/grapher/malnutrition-deaths-by-age.
+
+[^5]: Protein-Energy Undernutrition (PEU) - Nutritional Disorders - MSD Manual Professional Edition. https://www.msdmanuals.com/professional/nutritional-disorders/undernutrition/protein-energy-undernutrition-peu.
+
+The problem of hunger/undernourishment affects the world in an income-/region-dependent manner. Between the year 2000 and 2020, low-income countries had the highest share of their populations (25%--35%) that were undernourished, which was significantly above the world average (5%--15%) (@fig-undernourished-income).
+
+::: {#fig-undernourished-income fig-align="center" width="80%" fig-alt="Graph depicting the share of the population that is undernourished (grouped by income)"}
+![](images/undernourished_income.png)
+
+Share of the population that is undernourished (grouped by income)
+:::
+
+Additionally, we observe that the two regions that had the highest share of the population that was undernourished were Sub-Saharan Africa (20.9%) and South Asia (15.9%) (@fig-undernourished-region).
+
+::: {#fig-undernourished-region fig-align="center" width="80%" fig-alt="Graph depicting the share of the population that is undernourished (grouped by region)"}
+![](images/undernourished_region.png)
+
+Share of the population that is undernourished (grouped by region)
+:::
+
+To reduce the share of the population that is undernourished, various countries and development institutions have introduced interventions and technologies that can boost crop yields and enhance livestock production. These interventions include irrigation, fertilizers, improved seed, better insect and pest control strategies, and gene-editing. However, in Sub-Saharan Africa (which has the greatest burden of undernourishment and lowest crop yields), only 6% of cultivated land was irrigated and the rate of fertilizer application was approximately 17 kg/hectare, in 2018, which was significantly below the world average of 135 kg/hectare [^6]. Additionally, improved livestock rearing methods (such as selective breeding and improved nutrition), and fish and seafood harvesting techniques (such as selective harvesting and aquaculture systems) have increased global production. Sadly, we note that the continent of Africa has seen very little improvement in its livestock, fish, and seafood production capacity (@fig-meat_fish), and this may leave its fast-growing population susceptible to protein deficiencies if not addressed in a timely manner.
+
+[^6]: Africa Fertilizer Map 2020 -- AF-AP Partnership. https://afap-partnership.org/news/africa-fertilizer-map-2020/.
+
+::: {#fig-meat_fish layout-ncol="2"}
+![Global Meat Production](images/continent_meat_1.png){#fig-meat}
+
+![Global Fish Production](images/africa_fish.png){#fig-fish}
+
+Global Meat and Fish Production
+:::
+
+It is widely believed that promoting technologies that can improve crop yields and enhance livestock production in low-income countries is the best method to boost food production and subsequently reduce undernourishment. However, many of these interventions have been detrimental to the climate and local environment. With regard to enhancing crop production, some of these effects include:
+
+1.  Land degradation and deforestation [^7],
+2.  Poisoning of fresh water/marine ecosystems by chemical runoff, and,
+3.  Depletion of fresh water sources resulting from overconsumption.
+
+[^7]: Impact of Sustainable Agriculture and Farming Practices. https://www.worldwildlife.org/industries/sustainable-agriculture/.
+
+Moreover, boosting output in the livestock sector has contributed to a number of major environmental challenges and resource conflicts. These include:
+
+1.  Overgrazing, soil erosion, and deforestation [^8],[^9],
+2.  Contributing up to 15% of human-induced greenhouse gas (GHG) emissions [^10],
+3.  Conflict between pastoralists/farmers over grazing land/water [^11], and
+4.  Increased prevalence of antimicrobial resistance in livestock resulting from antibiotic misuse/overuse [^12].
+
+[^8]: How Industrialized Meat Production Causes Land Degradation. https://populationeducation.org/industrialized-meat-production-and-land-degradation-3-reasons-to-shift-to-a-plant-based-diet/.
+
+[^9]: Feltran-Barbieri, R. & Féres, J. G. Degraded pastures in Brazil: improving livestock production and forest restoration. R Soc Open Sci 8, (2021).
+
+[^10]: Moving Towards Sustainability: The Livestock Sector and the World Bank. https://www.worldbank.org/en/topic/agriculture/brief/moving-towards-sustainability-the-livestock-sector-and-the-world-bank.
+
+[^11]: Pastoral conflict in Kenya -- ACCORD. https://www.accord.org.za/ajcr-issues/pastoral-conflict-in-kenya/.
+
+[^12]: Antimicrobial resistance and agriculture - OECD. https://www.oecd.org/agriculture/topics/antimicrobial-resistance-and-agriculture/.
+
+Overall, these findings suggest that enhancing livestock production and boosting crop yields to reduce undernourishment may not be the panacea we envision and may cause more long-term harm than good. Additionally, with more extreme weather events (such as heat waves, floods, and droughts) resulting from climate change [^13], volatility in global crop and food prices, and rapidly increasing world populations, there is a major need to develop and adopt alternative protein sources that can reduce childhood hunger and increase food production in low-income countries. In this essay, I will examine new and innovative alternative protein production technologies that can aid in generating foods with sufficient dietary energy and nutrients to meet human consumption requirements while reducing dependence on animal-based proteins.
+
+[^13]: Extreme Weather \| Facts -- Climate Change: Vital Signs of the Planet. https://climate.nasa.gov/extreme-weather/.
+
+# What are alternative proteins?
+
+Alternative proteins are plant-based and food technology alternatives to animal-based proteins [^14]. Proteins are large, complex molecules made up of smaller units called amino acids, and they are a key component of quality nutrition that promotes normal growth and maintenance [^15]. A significant advantage of alternative protein production is the reduced impact on the environment resulting from a decreased dependence on livestock-based protein production. This reduced impact is seen in the decreased greenhouse gas emissions and environmental pollution as well as the decline in the amounts of land and water required for livestock. Major sources of alternative proteins include plant proteins, insects, cultured meat, and fermentation-derived proteins [^16]. Generally, plant, insect, and fermentation-derived proteins are commercially available, while cultivated meats are still in the research and development phase [^17].
+
+[^14]: Alternative proteins. https://sustainablecampus.unimelb.edu.au/sustainable-research/case-studies/alternative-proteins.
+
+[^15]: Protein. https://www.genome.gov/genetics-glossary/Protein.
+
+[^16]: The market for alternative protein: Pea protein, cultured meat, and more \| McKinsey. https://www.mckinsey.com/industries/agriculture/our-insights/alternative-proteins-the-race-for-market-share-is-on.
+
+[^17]: Defining alternative protein \| GFI. https://gfi.org/defining-alternative-protein/.
+
+# Plant proteins
+
+Plant proteins are harnessed directly from protein-rich seeds, and the main sources include leguminous (such as soy and pea), cereal (such as wheat and corn), and oilseed (such as peanut and flaxseed) proteins [^18]. The three major processing steps include protein extraction (centrifugation), protein purification (precipitation and ultrafiltration), and heat treatment (pasteurization) [^19]. Using the isolated proteins, specific products such as plant-based meats can be developed. To create these meats, the proteins are mixed with fibers and fats, then structured using heat and agitation, and lastly color, flavor, and aroma components are added to make the product more palatable.
+
+[^18]: Chandran, A. S., Suri, S. & Choudhary, P. Sustainable plant protein: an up-to-date overview of sources, extraction techniques and utilization. Sustainable Food Technology 1, 466--483 (2023).
+
+[^19]: Plant-based protein processing \| Alfa Laval. https://www.alfalaval.com/industries/food-dairy-beverage/food-processing/protein-processing/plant-based-protein-processing/.
+
+## Notable Companies
+
+1.  Fry Family Food (South Africa)
+2.  Moolec Science (Luxembourg)
+3.  Beyond Meat (Los Angeles, California, USA)
+4.  Impossible Foods (Redwood City, California, USA)
+5.  New Wave Foods (Stamford, Connecticut, USA)
+6.  Eat Just (Alameda, California, USA)
+
+## Challenges to be addressed
+
+1.  Develop crops optimized for plant-based meat that produce higher quantities of high-quality protein,
+2.  Improve protein extraction and processing methods,
+3.  Confirm that the taste, texture, and nutritional value are similar to conventional meats, and,
+4.  Ensure that the cost of production is competitive, and the process is energy-efficient [^20].
+
+[^20]: The science of plant-based meat \| GFI APAC. https://gfi-apac.org/science/the-science-of-plant-based-meat/.
+
+# Insect proteins
+
+Proteins derived from insects are referred to as insect proteins. Insects are rich in essential nutrients such as amino acids, vitamins, and minerals. Insect-derived proteins have a dual role, as they can be eaten directly by humans or used as animal feed. A significant advantage of insect-derived proteins is their negligible environmental footprint, low cost of production, and absence of disease-causing pathogens (post-processing) [^21]. Numerous people groups across the world have traditionally consumed insects, and it is estimated that approximately 2,000 insect species are consumed in at least 113 countries [^22]. However, the reluctance to eat insects in many high-income countries and the abundance of other protein sources has prevented widespread acceptance. In contrast, insect-based proteins have shown great promise in the animal feed industry. Both black soldier fly and housefly-larvae have been used to replace fish meal and broiler feed, significantly reducing costs while not compromising final product quality [^23].
+
+[^21]: How Insect Protein can Revolutionize the Food Industry. https://mindthegraph.com/blog/insect-protein/.
+
+[^22]: Yen, A. L. Edible insects: Traditional knowledge or western phobia? Entomol Res 39, 289--298 (2009).
+
+[^23]: Kim, T. K., Yong, H. I., Kim, Y. B., Kim, H. W. & Choi, Y. S. Edible Insects as a Protein Source: A Review of Public Perception, Processing Technology, and Research Trends. Food Sci Anim Resour 39, 521 (2019).
+
+## Notable Companies
+
+1.  Next Protein (France/Tunisia)
+2.  Biobuu (Tanzania)
+3.  Inseco (Cape Town, South Africa)
+4.  InsectiPro (Limuru, Kenya)
+5.  Entocycle (United Kingdom)\
+6.  Ecodudu (Nairobi, Kenya)
+7.  Ynsect (Paris, France)
+8.  Protix (Dongen, Netherlands)
+9.  All Things Bugs (Oklahoma City, Oklahoma, USA)
+
+## Challenges to be addressed
+
+1.  Develop tools for product scale-up,
+2.  Lower the production costs, and,
+3.  Change negative consumer attitudes towards insect-based foods [^24].
+
+[^24]: The Growing Animal Feed Insect Protein Market. https://nutrinews.com/en/the-growing-animal-feed-insect-protein-market-opportunities-and-challenges/.
+
+# Fermentation-derived proteins
+
+Fermentation involves the transformation of sugars into new products via chemical reactions carried out by microorganisms. This process has been referred to as "humanity's oldest biotechnological tool" because humans have previously used it to create foods, medicines, and fuels [^25]. The three main categories of fermentation include traditional, biomass, and precision fermentation [^26].
+
+[^25]: Taveira, I. C., Nogueira, K. M. V., Oliveira, D. L. G. de & Silva, R. do N. Fermentation: Humanity's Oldest Biotechnological Tool. Front Young Minds 9, (2021).
+
+[^26]: Fermentation for alternative proteins 101 \| Resource guide \| GFI. https://gfi.org/fermentation/.
+
+1.  Traditional fermentation uses intact live microorganisms and microbial anaerobic digestion to process plant-based foods. This results in a change in the flavor and function of plant-based foods and ingredients.
+2.  Biomass fermentation uses the microorganisms that reproduce during the fermentation process as ingredients. The microorganisms naturally have high-protein content, and allowing them to reproduce efficiently makes large amounts of protein-rich food.
+3.  Precision fermentation uses programmed microorganisms as "cellular production factories" to develop proteins, fats, and other nutrients [^27].
+
+[^27]: Fermentation for alternative proteins 101 \| Resource guide \| GFI. https://gfi.org/fermentation/.
+
+## Notable Companies
+
+1.  Essential Impact (East Africa)
+2.  De Novo Foodlabs (Cape Town, South Africa)
+3.  MycoTechnology (Aurora, Colorado, USA)
+4.  Quorn (Stokesley, UK)
+5.  Perfect Day (Berkeley, California, USA)
+
+## Challenges to be addressed
+
+1.  Identify the correct molecules to manufacture in a cost-effective manner,
+2.  Develop the appropriate microbial strains for the relevant products,
+3.  Determine the appropriate feedstocks,
+4.  Design low-cost bioreactors and systems for scaling-up processes, and,
+5.  Improve end-product formulation to allow for better taste/texture [^28].
+
+[^28]: The science of fermentation (2023) \| GFI. https://gfi.org/science/the-science-of-fermentation/.
+
+# Animal proteins from cultivated meat
+
+The cultivated meat industry develops animal proteins that are grown from animal cells directly. Here, tissue-engineering techniques commonly used in regenerative medicine aid in product development [^29]. Cells obtained from an animal are put into a bioreactor to replicate, and when they reach the optimal density, they are harvested via centrifugation, and the resulting muscle and fat tissue are formed into the recognizable meat structure. The advantages of producing meat in this way include: reduced contamination, decreased antibiotic use, and a lower environmental footprint [^30].
+
+[^29]: What is cultivated meat? \| McKinsey. https://www.mckinsey.com/featured-insights/mckinsey-explainers/what-is-cultivated-meat.
+
+[^30]: The science of cultivated meat \| GFI. https://gfi.org/science/the-science-of-cultivated-meat/.
+
+## Notable Companies
+
+1.  WildBio (formerly Mogale Meat; Pretoria, South Africa)
+2.  Newform Foods (formerly Mzansi Meat; Cape Town, South Africa)
+3.  Mosa Meat (Maastricht, Netherlands)
+4.  Bluu Seafood (Berlin, Germany)
+5.  Eat Just (Singapore)
+6.  Clear Meat (Delhi NCR, India)
+7.  Sea-Stematic (Cape Town, South Africa)
+
+## Challenges to be addressed
+
+Even though many companies have entered the cultivated meat space, not many have received the requisite regulatory approval to sell their products with some countries temporarily halting development [^31]. Other challenges include: 
+
+1. Insufficient bioreactor capacity, 
+2. High cost of growth media and factors required for cultivation, 
+3. Lack of products in the market despite large investments [^32], and, 
+4. High final product cost [^33] and a major need for consumer education [^34].
+
+[^31]: Che Sorpresa! Italy U-Turns on Cultivated Meat Ban -- For Now. https://www.greenqueen.com.hk/italy-cultivated-meat-ban-lab-grown-food-cultured-protein-eu-tris-notification-francesco-lollobrigida/.
+
+[^32]: Is overhype dooming the cultivated meat industry? https://www.fastcompany.com/90966338/hype-built-the-cultivated-meat-industry-now-it-could-end-it.
+
+[^33]: Meat substitutes need to get a lot cheaper. https://www.sustainabilitybynumbers.com/p/meat-substitutes-price.
+
+[^34]: What is cultivated meat? \| McKinsey. https://www.mckinsey.com/featured-insights/mckinsey-explainers/what-is-cultivated-meat.
+
+# What factors will influence the adoption of alternative proteins in low-income countries?
+
+The insect-based protein market has the potential to grow faster than the other three alternative protein segments (plant-based, fermentation-based, and cultivated meat) in low-income countries. This is because of fewer barriers to entry and lower setup costs. Therefore, to enhance the adoption of the other alternative protein segments in low-income countries, there is a need to build biomanufacturing capacity, increase R&D funding, and develop a strong workforce by recruiting more students and researchers to the field. Additionally, it would be important for national-level regulations and policies that support the sector to be implemented. On an individual level, several factors will affect the large-scale adoption of alternative proteins in low-income countries [^35]. These include:
+
+[^35]: The market for alternative protein: Pea protein, cultured meat, and more \| McKinsey. https://www.mckinsey.com/industries/agriculture/our-insights/alternative-proteins-the-race-for-market-share-is-on.
+
+1.  Cost (dollars per kilogram of 100% protein), which will need to be similar or lower than that for conventional animal-derived proteins,
+2.  The protein digestibility-corrected amino acid score (PDCAAS) which is a tool used to measure a protein by its amino acid requirements and the ability of humans to digest it,
+3.  The economic impact on agricultural workers in the livestock and fishing industry, and,
+4.  Consumer adoption [^33] (which is dependent on perception, taste, texture, safety, and convenience).
+
+# Conclusion
+
+In summary, I hope that I have convinced you that there is an urgent need to address the crisis of hunger and undernourishment worldwide. Second, this essay should have demonstrated to you that optimizing conventional agricultural practices may also simultaneously negatively impact the environment. Third, the reader should now have a basic understanding of alternative proteins and their potential to address undernutrition. Lastly, to tackle the problem of hunger and undernourishment, it is imperative for society to embrace novel alternative protein production technologies that can enhance food production while minimizing the environmental impact and contribution to climate change.
