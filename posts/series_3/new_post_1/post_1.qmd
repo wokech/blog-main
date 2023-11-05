@@ -3,8 +3,8 @@ title: "Biotechnology for the Global South"
 subtitle: "Developing alternative proteins to reduce childhood hunger and improve food production in low-income countries"
 author: "William Okech"
 date: "2023-10-27"
-image: "images/bioreactor.jpeg"
-categories: [RStudio, R, Biotech for the Global South, Blog, Data Visualization]
+image: "biotech_cover.png"
+categories: [RStudio, R, Biotechnology, Blog, Data Visualization]
 format: html
 toc: false
 draft: false
@@ -211,14 +211,14 @@ The cultivated meat industry develops animal proteins that are grown from animal
 
 ## Challenges to be addressed
 
-Even though many companies have entered the cultivated meat space, not many have received the requisite regulatory approval to sell their products with some countries temporarily halting development [^31]. Other challenges include: 
-
-1. Insufficient bioreactor capacity, 
-2. High cost of growth media and factors required for cultivation, 
-3. Lack of products in the market despite large investments [^32], and, 
-4. High final product cost [^33] and a major need for consumer education [^34].
+Even though many companies have entered the cultivated meat space, not many have received the requisite regulatory approval to sell their products with some countries temporarily halting development [^31]. Other challenges include:
 
 [^31]: Che Sorpresa! Italy U-Turns on Cultivated Meat Ban -- For Now. https://www.greenqueen.com.hk/italy-cultivated-meat-ban-lab-grown-food-cultured-protein-eu-tris-notification-francesco-lollobrigida/.
+
+1.  Insufficient bioreactor capacity,
+2.  High cost of growth media and factors required for cultivation,
+3.  Lack of products in the market despite large investments [^32], and,
+4.  High final product cost [^33] and a major need for consumer education [^34].
 
 [^32]: Is overhype dooming the cultivated meat industry? https://www.fastcompany.com/90966338/hype-built-the-cultivated-meat-industry-now-it-could-end-it.
 
@@ -235,7 +235,9 @@ The insect-based protein market has the potential to grow faster than the other 
 1.  Cost (dollars per kilogram of 100% protein), which will need to be similar or lower than that for conventional animal-derived proteins,
 2.  The protein digestibility-corrected amino acid score (PDCAAS) which is a tool used to measure a protein by its amino acid requirements and the ability of humans to digest it,
 3.  The economic impact on agricultural workers in the livestock and fishing industry, and,
-4.  Consumer adoption [^33] (which is dependent on perception, taste, texture, safety, and convenience).
+4.  Consumer adoption [^36] (which is dependent on perception, taste, texture, safety, and convenience).
+
+[^36]: Meat substitutes need to get a lot cheaper. https://www.sustainabilitybynumbers.com/p/meat-substitutes-price.
 
 # Conclusion
 

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>William Okech - Blog posts</title>
+<title>William Okech - Blog Posts</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -67,20 +67,105 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    const listingTargetEl = window.document.querySelector('#listing-posts .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-reading-time','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-date','listing-title','listing-subtitle','listing-author','listing-reading-time','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
       searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+    window['quarto-listings']['listing-posts'] = new List('listing-posts', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-posts_r_rstudio .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-date','listing-title','listing-subtitle','listing-author','listing-reading-time','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      page: 3,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-posts_r_rstudio'] = new List('listing-posts_r_rstudio', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-posts_data_stories .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-date','listing-title','listing-subtitle','listing-author','listing-reading-time','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-posts_data_stories'] = new List('listing-posts_data_stories', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-posts_biotech .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-date','listing-title','listing-subtitle','listing-author','listing-reading-time','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-posts_biotech'] = new List('listing-posts_biotech', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -148,7 +233,7 @@ cookieconsent.run({
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="./blog.html" rel="" target="" aria-current="page">
- <span class="menu-text">Blog posts</span></a>
+ <span class="menu-text">Blog Posts</span></a>
   </li>  
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-portfolio" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
@@ -233,14 +318,23 @@ cookieconsent.run({
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(12)</span></div><div class="category" data-category="Biotech for the Global South">Biotech for the Global South <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Blog">Blog <span class="quarto-category-count">(12)</span></div><div class="category" data-category="Data Stories">Data Stories <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Data Visualization">Data Visualization <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Kenya Census">Kenya Census <span class="quarto-category-count">(2)</span></div><div class="category" data-category="R">R <span class="quarto-category-count">(12)</span></div><div class="category" data-category="RStudio">RStudio <span class="quarto-category-count">(12)</span></div><div class="category" data-category="Tutorial">Tutorial <span class="quarto-category-count">(8)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#biotechnology" id="toc-biotechnology" class="nav-link active" data-scroll-target="#biotechnology">Biotechnology</a></li>
+  <li><a href="#data-stories" id="toc-data-stories" class="nav-link" data-scroll-target="#data-stories">Data Stories</a></li>
+  <li><a href="#r-and-rstudio" id="toc-r-and-rstudio" class="nav-link" data-scroll-target="#r-and-rstudio">R and RStudio</a></li>
+  <li><a href="#all-posts" id="toc-all-posts" class="nav-link" data-scroll-target="#all-posts">All Posts</a></li>
+  </ul>
+</nav>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(24)</span></div><div class="category" data-category="Biotechnology">Biotechnology <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Blog">Blog <span class="quarto-category-count">(24)</span></div><div class="category" data-category="Data Stories">Data Stories <span class="quarto-category-count">(6)</span></div><div class="category" data-category="Data Visualization">Data Visualization <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Kenya Census">Kenya Census <span class="quarto-category-count">(4)</span></div><div class="category" data-category="R">R <span class="quarto-category-count">(24)</span></div><div class="category" data-category="RStudio">RStudio <span class="quarto-category-count">(24)</span></div><div class="category" data-category="Tutorial">Tutorial <span class="quarto-category-count">(16)</span></div></div></div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Blog posts</h1>
+<h1 class="title">Blog Posts</h1>
 </div>
 
 
@@ -255,15 +349,13 @@ cookieconsent.run({
 
 </header>
 
-
-
-
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<section id="biotechnology" class="level2">
+<h2 class="anchored" data-anchor-id="biotechnology">Biotechnology</h2>
+<div id="listing-posts_biotech" class="quarto-listing quarto-listing-container-grid">
 <div class="listing-actions-group">
    <div class="input-group input-group-sm quarto-listing-sort">
      <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+     <select id="listing-posts_biotech-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-posts_biotech'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
        <option value="" disabled="" selected="" hidden="">Order By</option>
        <option value="index" data-direction="asc">Default</option>
          <option value="listing-title" data-direction="asc">
@@ -275,6 +367,9 @@ cookieconsent.run({
          <option value="listing-date-sort" data-direction="desc">
           Date - Newest
         </option>
+         <option value="listing-author" data-direction="asc">
+          Author
+        </option>
      </select>
   </div>
     <div class="input-group input-group-sm quarto-listing-filter">
@@ -283,13 +378,19 @@ cookieconsent.run({
     </div>
 </div>
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="RStudio,R,Biotech for the Global South,Blog,Data Visualization" data-listing-date-sort="1698354000000" data-listing-file-modified-sort="1698671358601" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="13">
+<div class="g-col-1" data-index="0" data-categories="RStudio,R,Biotechnology,Blog,Data Visualization" data-listing-date-sort="1698354000000" data-listing-file-modified-sort="1699198295715" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="13">
 <a href="./posts/series_3/new_post_1/post_1.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/series_3/new_post_1/biotech_cover.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Biotechnology for the Global South
 </h5>
+<div class="card-subtitle listing-subtitle">
+Developing alternative proteins to reduce childhood hunger and improve food production in low-income countries
+</div>
 <div class="listing-reading-time card-text text-muted">
 13 min
 </div>
@@ -300,8 +401,8 @@ RStudio
 <div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
 R
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('Biotech for the Global South'); return false;">
-Biotech for the Global South
+<div class="listing-category" onclick="window.quartoListingCategory('Biotechnology'); return false;">
+Biotechnology
 </div>
 <div class="listing-category" onclick="window.quartoListingCategory('Blog'); return false;">
 Blog
@@ -313,7 +414,10 @@ Data Visualization
 <div class="card-text listing-description">
 In the year 2022, between 691 and 783 million people were hungry <sup>1</sup>. This alarming figure indicates that almost one-tenth (1/10) of the world’s population (in 2022) did not consume enough calories to maintain a healthy and active lifestyle.…<sup></sup><sup></sup><sup></sup><sup></sup>
 </div>
-<div class="card-attribution card-text-small end">
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+William Okech
+</div>
 <div class="listing-date">
 Oct 27, 2023
 </div>
@@ -322,13 +426,55 @@ Oct 27, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="RStudio,R,Data Stories,Blog,Data Visualization" data-listing-date-sort="1681333200000" data-listing-file-modified-sort="1696586158028" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5">
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+<p><br></p>
+</section>
+<section id="data-stories" class="level2">
+<h2 class="anchored" data-anchor-id="data-stories">Data Stories</h2>
+<div id="listing-posts_data_stories" class="quarto-listing quarto-listing-container-grid">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-posts_data_stories-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-posts_data_stories'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-title" data-direction="asc">
+          Title
+        </option>
+         <option value="listing-date-sort" data-direction="asc">
+          Date - Oldest
+        </option>
+         <option value="listing-date-sort" data-direction="desc">
+          Date - Newest
+        </option>
+         <option value="listing-author" data-direction="asc">
+          Author
+        </option>
+     </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="RStudio,R,Data Stories,Blog,Data Visualization" data-listing-date-sort="1681333200000" data-listing-file-modified-sort="1699196785853" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5">
 <a href="./posts/series_2/new_post_3/post_3.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/series_2/new_post_3/data_story_headline.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Data Visualization for Government
 </h5>
+<div class="card-subtitle listing-subtitle">
+Visualizing HR data from the Chief Administrative Secretary recruitment process in Kenya
+</div>
 <div class="listing-reading-time card-text text-muted">
 5 min
 </div>
@@ -352,7 +498,10 @@ Data Visualization
 <div class="card-text listing-description">
 In January 2018, former President Uhuru Kenyatta announced the creation of the Chief Administrative…<sup></sup><sup></sup><sup></sup>
 </div>
-<div class="card-attribution card-text-small end">
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+William Okech
+</div>
 <div class="listing-date">
 Apr 13, 2023
 </div>
@@ -361,13 +510,19 @@ Apr 13, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="RStudio,R,Data Stories,Blog,Kenya Census" data-listing-date-sort="1669842000000" data-listing-file-modified-sort="1698400132100" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5">
+<div class="g-col-1" data-index="1" data-categories="RStudio,R,Data Stories,Blog,Kenya Census" data-listing-date-sort="1669842000000" data-listing-file-modified-sort="1699196783248" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5">
 <a href="./posts/series_2/new_post_2/post_2.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/series_2/new_post_2/data_story_headline.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 A roof over your head
 </h5>
+<div class="card-subtitle listing-subtitle">
+The prevalence of asbestos-based roofing in Kenya and its potential effects
+</div>
 <div class="listing-reading-time card-text text-muted">
 5 min
 </div>
@@ -391,7 +546,10 @@ Kenya Census
 <div class="card-text listing-description">
 An aerial view of most settlements in Kenya will demonstrate that many residential home roofs are constructed using iron sheets.
 </div>
-<div class="card-attribution card-text-small end">
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+William Okech
+</div>
 <div class="listing-date">
 Dec 1, 2022
 </div>
@@ -400,157 +558,19 @@ Dec 1, 2022
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="RStudio,R,Tutorial,Blog" data-listing-date-sort="1668546000000" data-listing-file-modified-sort="1696586157828" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
-<a href="./posts/series_1/new_post_8/post_8.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-The Basics of R and RStudio
-</h5>
-<div class="listing-reading-time card-text text-muted">
-3 min
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('RStudio'); return false;">
-RStudio
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
-R
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Tutorial'); return false;">
-Tutorial
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Blog'); return false;">
-Blog
-</div>
-</div>
-<div class="card-text listing-description">
-Data structures in R are tools for storing and organizing multiple values.
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Nov 16, 2022
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="RStudio,R,Tutorial,Blog" data-listing-date-sort="1668373200000" data-listing-file-modified-sort="1696586157828" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<a href="./posts/series_1/new_post_7/post_7.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-The Basics of R and RStudio
-</h5>
-<div class="listing-reading-time card-text text-muted">
-1 min
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('RStudio'); return false;">
-RStudio
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
-R
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Tutorial'); return false;">
-Tutorial
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Blog'); return false;">
-Blog
-</div>
-</div>
-<div class="card-text listing-description">
-R has two types of missing data, NA and NULL.<sup>1</sup>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Nov 14, 2022
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="5" data-categories="RStudio,R,Tutorial,Blog" data-listing-date-sort="1668200400000" data-listing-file-modified-sort="1696586157828" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
-<a href="./posts/series_1/new_post_6/post_6.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-The Basics of R and RStudio
-</h5>
-<div class="listing-reading-time card-text text-muted">
-3 min
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('RStudio'); return false;">
-RStudio
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
-R
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Tutorial'); return false;">
-Tutorial
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Blog'); return false;">
-Blog
-</div>
-</div>
-<div class="card-text listing-description">
-A vector is a collection of elements of the same data type, and they are a basic data structure in R programming.
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Nov 12, 2022
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="6" data-categories="RStudio,R,Tutorial,Blog" data-listing-date-sort="1667941200000" data-listing-file-modified-sort="1696586157828" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5">
-<a href="./posts/series_1/new_post_5/post_5.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-The Basics of R and RStudio
-</h5>
-<div class="listing-reading-time card-text text-muted">
-5 min
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('RStudio'); return false;">
-RStudio
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
-R
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Tutorial'); return false;">
-Tutorial
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Blog'); return false;">
-Blog
-</div>
-</div>
-<div class="card-text listing-description">
-R has many different types of operators that can perform different tasks.
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Nov 9, 2022
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="7" data-categories="RStudio,R,Data Stories,Blog,Kenya Census" data-listing-date-sort="1656536400000" data-listing-file-modified-sort="1696586157928" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5">
+<div class="g-col-1" data-index="2" data-categories="RStudio,R,Data Stories,Blog,Kenya Census" data-listing-date-sort="1656536400000" data-listing-file-modified-sort="1699196778437" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5">
 <a href="./posts/series_2/new_post_1/post_1.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/series_2/new_post_1/data_story_headline.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Exploring gender distributions in Kenya: Are there more women than men?
 </h5>
+<div class="card-subtitle listing-subtitle">
+Insights from the Kenya Population and Housing Census (2019)
+</div>
 <div class="listing-reading-time card-text text-muted">
 5 min
 </div>
@@ -574,7 +594,10 @@ Kenya Census
 <div class="card-text listing-description">
 To answer this question, I reviewed the Kenya Population and Housing Census (2019)<sup>1</sup><sup>2</sup> report, which provides data on population by sex and age at the county and subcounty levels. This analysis was inspired…<sup></sup>
 </div>
-<div class="card-attribution card-text-small end">
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+William Okech
+</div>
 <div class="listing-date">
 Jun 30, 2022
 </div>
@@ -583,13 +606,235 @@ Jun 30, 2022
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="8" data-categories="RStudio,R,Tutorial,Blog" data-listing-date-sort="1655931600000" data-listing-file-modified-sort="1696586157824" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7">
-<a href="./posts/series_1/new_post_4/post_4.html" class="quarto-grid-link">
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+<p><br></p>
+</section>
+<section id="r-and-rstudio" class="level2">
+<h2 class="anchored" data-anchor-id="r-and-rstudio">R and RStudio</h2>
+<div id="listing-posts_r_rstudio" class="quarto-listing quarto-listing-container-grid">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-posts_r_rstudio-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-posts_r_rstudio'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-title" data-direction="asc">
+          Title
+        </option>
+         <option value="listing-date-sort" data-direction="asc">
+          Date - Oldest
+        </option>
+         <option value="listing-date-sort" data-direction="desc">
+          Date - Newest
+        </option>
+         <option value="listing-author" data-direction="asc">
+          Author
+        </option>
+     </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="RStudio,R,Tutorial,Blog" data-listing-date-sort="1668546000000" data-listing-file-modified-sort="1696586157828" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<a href="./posts/series_1/new_post_8/post_8.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/series_1/new_post_8/r_and_rstudio.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 The Basics of R and RStudio
 </h5>
+<div class="card-subtitle listing-subtitle">
+Part 7: Data Structures
+</div>
+<div class="listing-reading-time card-text text-muted">
+3 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('RStudio'); return false;">
+RStudio
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
+R
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Tutorial'); return false;">
+Tutorial
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Blog'); return false;">
+Blog
+</div>
+</div>
+<div class="card-text listing-description">
+Data structures in R are tools for storing and organizing multiple values.
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+William Okech
+</div>
+<div class="listing-date">
+Nov 16, 2022
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="RStudio,R,Tutorial,Blog" data-listing-date-sort="1668373200000" data-listing-file-modified-sort="1696586157828" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="./posts/series_1/new_post_7/post_7.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/series_1/new_post_7/r_and_rstudio.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+The Basics of R and RStudio
+</h5>
+<div class="card-subtitle listing-subtitle">
+Part 6: Missing Data
+</div>
+<div class="listing-reading-time card-text text-muted">
+1 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('RStudio'); return false;">
+RStudio
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
+R
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Tutorial'); return false;">
+Tutorial
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Blog'); return false;">
+Blog
+</div>
+</div>
+<div class="card-text listing-description">
+R has two types of missing data, NA and NULL.<sup>1</sup>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+William Okech
+</div>
+<div class="listing-date">
+Nov 14, 2022
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="RStudio,R,Tutorial,Blog" data-listing-date-sort="1668200400000" data-listing-file-modified-sort="1696586157828" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<a href="./posts/series_1/new_post_6/post_6.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/series_1/new_post_6/r_and_rstudio.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+The Basics of R and RStudio
+</h5>
+<div class="card-subtitle listing-subtitle">
+Part 5: Vectors
+</div>
+<div class="listing-reading-time card-text text-muted">
+3 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('RStudio'); return false;">
+RStudio
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
+R
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Tutorial'); return false;">
+Tutorial
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Blog'); return false;">
+Blog
+</div>
+</div>
+<div class="card-text listing-description">
+A vector is a collection of elements of the same data type, and they are a basic data structure in R programming.
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+William Okech
+</div>
+<div class="listing-date">
+Nov 12, 2022
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="RStudio,R,Tutorial,Blog" data-listing-date-sort="1667941200000" data-listing-file-modified-sort="1696586157828" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5">
+<a href="./posts/series_1/new_post_5/post_5.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="./posts/series_1/new_post_5/r_and_rstudio.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+The Basics of R and RStudio
+</h5>
+<div class="card-subtitle listing-subtitle">
+Part 4: Operators
+</div>
+<div class="listing-reading-time card-text text-muted">
+5 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('RStudio'); return false;">
+RStudio
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
+R
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Tutorial'); return false;">
+Tutorial
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Blog'); return false;">
+Blog
+</div>
+</div>
+<div class="card-text listing-description">
+R has many different types of operators that can perform different tasks.
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+William Okech
+</div>
+<div class="listing-date">
+Nov 9, 2022
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-categories="RStudio,R,Tutorial,Blog" data-listing-date-sort="1655931600000" data-listing-file-modified-sort="1696586157824" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7">
+<a href="./posts/series_1/new_post_4/post_4.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="./posts/series_1/new_post_4/r_and_rstudio.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+The Basics of R and RStudio
+</h5>
+<div class="card-subtitle listing-subtitle">
+Part 3: Data Types
+</div>
 <div class="listing-reading-time card-text text-muted">
 7 min
 </div>
@@ -610,7 +855,10 @@ Blog
 <div class="card-text listing-description">
 R and RStudio utilize multiple data types to store different kinds of data.
 </div>
-<div class="card-attribution card-text-small end">
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+William Okech
+</div>
 <div class="listing-date">
 Jun 23, 2022
 </div>
@@ -619,13 +867,19 @@ Jun 23, 2022
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="9" data-categories="RStudio,R,Tutorial,Blog" data-listing-date-sort="1655845200000" data-listing-file-modified-sort="1696586157819" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="g-col-1" data-index="5" data-categories="RStudio,R,Tutorial,Blog" data-listing-date-sort="1655845200000" data-listing-file-modified-sort="1696586157819" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
 <a href="./posts/series_1/new_post_3/post_3.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="./posts/series_1/new_post_3/r_and_rstudio.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 The Basics of R and RStudio
 </h5>
+<div class="card-subtitle listing-subtitle">
+Part 2: Variables
+</div>
 <div class="listing-reading-time card-text text-muted">
 2 min
 </div>
@@ -646,7 +900,10 @@ Blog
 <div class="card-text listing-description">
 Variables are instrumental in programming because they are used as “containers” to store data values.
 </div>
-<div class="card-attribution card-text-small end">
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+William Okech
+</div>
 <div class="listing-date">
 Jun 22, 2022
 </div>
@@ -655,13 +912,19 @@ Jun 22, 2022
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="10" data-categories="RStudio,R,Tutorial,Blog" data-listing-date-sort="1655240400000" data-listing-file-modified-sort="1696586157807" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<div class="g-col-1" data-index="6" data-categories="RStudio,R,Tutorial,Blog" data-listing-date-sort="1655240400000" data-listing-file-modified-sort="1696586157807" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
 <a href="./posts/series_1/new_post_2/post_2.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="./posts/series_1/new_post_2/r_and_rstudio.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 The Basics of R and RStudio
 </h5>
+<div class="card-subtitle listing-subtitle">
+Part 1: Simple Arithmetic
+</div>
 <div class="listing-reading-time card-text text-muted">
 3 min
 </div>
@@ -682,7 +945,10 @@ Blog
 <div class="card-text listing-description">
 This is the first in a series of blog posts looking at the basics of R and RStudio. These programs allow us to perform various basic and complex calculations.
 </div>
-<div class="card-attribution card-text-small end">
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+William Okech
+</div>
 <div class="listing-date">
 Jun 15, 2022
 </div>
@@ -691,13 +957,19 @@ Jun 15, 2022
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="11" data-categories="RStudio,R,Tutorial,Blog" data-listing-date-sort="1654635600000" data-listing-file-modified-sort="1697280068853" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
+<div class="g-col-1" data-index="7" data-categories="RStudio,R,Tutorial,Blog" data-listing-date-sort="1654635600000" data-listing-file-modified-sort="1699195364187" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
 <a href="./posts/series_1/new_post_1/post_1.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="./posts/series_1/new_post_1/r_and_rstudio.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Getting Started with R and RStudio
 </h5>
+<div class="card-subtitle listing-subtitle">
+Software Installation
+</div>
 <div class="listing-reading-time card-text text-muted">
 4 min
 </div>
@@ -718,7 +990,10 @@ Blog
 <div class="card-text listing-description">
 In this 1st post, the reader will be introduced to the R programming language and RStudio software.
 </div>
-<div class="card-attribution card-text-small end">
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+William Okech
+</div>
 <div class="listing-date">
 Jun 8, 2022
 </div>
@@ -731,7 +1006,605 @@ Jun 8, 2022
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-</div></main> <!-- /main -->
+<nav id="posts_r_rstudio-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
+</div>
+<p><br></p>
+</section>
+<section id="all-posts" class="level2">
+<h2 class="anchored" data-anchor-id="all-posts">All Posts</h2>
+<div id="listing-posts" class="quarto-listing quarto-listing-container-grid">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-posts-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-posts'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-title" data-direction="asc">
+          Title
+        </option>
+         <option value="listing-date-sort" data-direction="asc">
+          Date - Oldest
+        </option>
+         <option value="listing-date-sort" data-direction="desc">
+          Date - Newest
+        </option>
+         <option value="listing-author" data-direction="asc">
+          Author
+        </option>
+     </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="RStudio,R,Biotechnology,Blog,Data Visualization" data-listing-date-sort="1698354000000" data-listing-file-modified-sort="1699198295715" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="13">
+<a href="./posts/series_3/new_post_1/post_1.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/series_3/new_post_1/biotech_cover.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Biotechnology for the Global South
+</h5>
+<div class="card-subtitle listing-subtitle">
+Developing alternative proteins to reduce childhood hunger and improve food production in low-income countries
+</div>
+<div class="listing-reading-time card-text text-muted">
+13 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('RStudio'); return false;">
+RStudio
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
+R
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Biotechnology'); return false;">
+Biotechnology
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Blog'); return false;">
+Blog
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Data Visualization'); return false;">
+Data Visualization
+</div>
+</div>
+<div class="card-text listing-description">
+In the year 2022, between 691 and 783 million people were hungry <sup>1</sup>. This alarming figure indicates that almost one-tenth (1/10) of the world’s population (in 2022) did not consume enough calories to maintain a healthy and active lifestyle.…<sup></sup><sup></sup><sup></sup><sup></sup>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+William Okech
+</div>
+<div class="listing-date">
+Oct 27, 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="RStudio,R,Data Stories,Blog,Data Visualization" data-listing-date-sort="1681333200000" data-listing-file-modified-sort="1699196785853" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5">
+<a href="./posts/series_2/new_post_3/post_3.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/series_2/new_post_3/data_story_headline.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Data Visualization for Government
+</h5>
+<div class="card-subtitle listing-subtitle">
+Visualizing HR data from the Chief Administrative Secretary recruitment process in Kenya
+</div>
+<div class="listing-reading-time card-text text-muted">
+5 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('RStudio'); return false;">
+RStudio
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
+R
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Data Stories'); return false;">
+Data Stories
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Blog'); return false;">
+Blog
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Data Visualization'); return false;">
+Data Visualization
+</div>
+</div>
+<div class="card-text listing-description">
+In January 2018, former President Uhuru Kenyatta announced the creation of the Chief Administrative…<sup></sup><sup></sup><sup></sup>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+William Okech
+</div>
+<div class="listing-date">
+Apr 13, 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="RStudio,R,Data Stories,Blog,Kenya Census" data-listing-date-sort="1669842000000" data-listing-file-modified-sort="1699196783248" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5">
+<a href="./posts/series_2/new_post_2/post_2.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/series_2/new_post_2/data_story_headline.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+A roof over your head
+</h5>
+<div class="card-subtitle listing-subtitle">
+The prevalence of asbestos-based roofing in Kenya and its potential effects
+</div>
+<div class="listing-reading-time card-text text-muted">
+5 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('RStudio'); return false;">
+RStudio
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
+R
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Data Stories'); return false;">
+Data Stories
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Blog'); return false;">
+Blog
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Kenya Census'); return false;">
+Kenya Census
+</div>
+</div>
+<div class="card-text listing-description">
+An aerial view of most settlements in Kenya will demonstrate that many residential home roofs are constructed using iron sheets.
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+William Okech
+</div>
+<div class="listing-date">
+Dec 1, 2022
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="RStudio,R,Tutorial,Blog" data-listing-date-sort="1668546000000" data-listing-file-modified-sort="1696586157828" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<a href="./posts/series_1/new_post_8/post_8.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/series_1/new_post_8/r_and_rstudio.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+The Basics of R and RStudio
+</h5>
+<div class="card-subtitle listing-subtitle">
+Part 7: Data Structures
+</div>
+<div class="listing-reading-time card-text text-muted">
+3 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('RStudio'); return false;">
+RStudio
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
+R
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Tutorial'); return false;">
+Tutorial
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Blog'); return false;">
+Blog
+</div>
+</div>
+<div class="card-text listing-description">
+Data structures in R are tools for storing and organizing multiple values.
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+William Okech
+</div>
+<div class="listing-date">
+Nov 16, 2022
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-categories="RStudio,R,Tutorial,Blog" data-listing-date-sort="1668373200000" data-listing-file-modified-sort="1696586157828" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="./posts/series_1/new_post_7/post_7.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/series_1/new_post_7/r_and_rstudio.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+The Basics of R and RStudio
+</h5>
+<div class="card-subtitle listing-subtitle">
+Part 6: Missing Data
+</div>
+<div class="listing-reading-time card-text text-muted">
+1 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('RStudio'); return false;">
+RStudio
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
+R
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Tutorial'); return false;">
+Tutorial
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Blog'); return false;">
+Blog
+</div>
+</div>
+<div class="card-text listing-description">
+R has two types of missing data, NA and NULL.<sup>1</sup>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+William Okech
+</div>
+<div class="listing-date">
+Nov 14, 2022
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="5" data-categories="RStudio,R,Tutorial,Blog" data-listing-date-sort="1668200400000" data-listing-file-modified-sort="1696586157828" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<a href="./posts/series_1/new_post_6/post_6.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/series_1/new_post_6/r_and_rstudio.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+The Basics of R and RStudio
+</h5>
+<div class="card-subtitle listing-subtitle">
+Part 5: Vectors
+</div>
+<div class="listing-reading-time card-text text-muted">
+3 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('RStudio'); return false;">
+RStudio
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
+R
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Tutorial'); return false;">
+Tutorial
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Blog'); return false;">
+Blog
+</div>
+</div>
+<div class="card-text listing-description">
+A vector is a collection of elements of the same data type, and they are a basic data structure in R programming.
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+William Okech
+</div>
+<div class="listing-date">
+Nov 12, 2022
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="6" data-categories="RStudio,R,Tutorial,Blog" data-listing-date-sort="1667941200000" data-listing-file-modified-sort="1696586157828" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5">
+<a href="./posts/series_1/new_post_5/post_5.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/series_1/new_post_5/r_and_rstudio.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+The Basics of R and RStudio
+</h5>
+<div class="card-subtitle listing-subtitle">
+Part 4: Operators
+</div>
+<div class="listing-reading-time card-text text-muted">
+5 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('RStudio'); return false;">
+RStudio
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
+R
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Tutorial'); return false;">
+Tutorial
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Blog'); return false;">
+Blog
+</div>
+</div>
+<div class="card-text listing-description">
+R has many different types of operators that can perform different tasks.
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+William Okech
+</div>
+<div class="listing-date">
+Nov 9, 2022
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="7" data-categories="RStudio,R,Data Stories,Blog,Kenya Census" data-listing-date-sort="1656536400000" data-listing-file-modified-sort="1699196778437" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5">
+<a href="./posts/series_2/new_post_1/post_1.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/series_2/new_post_1/data_story_headline.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Exploring gender distributions in Kenya: Are there more women than men?
+</h5>
+<div class="card-subtitle listing-subtitle">
+Insights from the Kenya Population and Housing Census (2019)
+</div>
+<div class="listing-reading-time card-text text-muted">
+5 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('RStudio'); return false;">
+RStudio
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
+R
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Data Stories'); return false;">
+Data Stories
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Blog'); return false;">
+Blog
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Kenya Census'); return false;">
+Kenya Census
+</div>
+</div>
+<div class="card-text listing-description">
+To answer this question, I reviewed the Kenya Population and Housing Census (2019)<sup>1</sup><sup>2</sup> report, which provides data on population by sex and age at the county and subcounty levels. This analysis was inspired…<sup></sup>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+William Okech
+</div>
+<div class="listing-date">
+Jun 30, 2022
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="8" data-categories="RStudio,R,Tutorial,Blog" data-listing-date-sort="1655931600000" data-listing-file-modified-sort="1696586157824" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7">
+<a href="./posts/series_1/new_post_4/post_4.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/series_1/new_post_4/r_and_rstudio.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+The Basics of R and RStudio
+</h5>
+<div class="card-subtitle listing-subtitle">
+Part 3: Data Types
+</div>
+<div class="listing-reading-time card-text text-muted">
+7 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('RStudio'); return false;">
+RStudio
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
+R
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Tutorial'); return false;">
+Tutorial
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Blog'); return false;">
+Blog
+</div>
+</div>
+<div class="card-text listing-description">
+R and RStudio utilize multiple data types to store different kinds of data.
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+William Okech
+</div>
+<div class="listing-date">
+Jun 23, 2022
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="9" data-categories="RStudio,R,Tutorial,Blog" data-listing-date-sort="1655845200000" data-listing-file-modified-sort="1696586157819" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<a href="./posts/series_1/new_post_3/post_3.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/series_1/new_post_3/r_and_rstudio.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+The Basics of R and RStudio
+</h5>
+<div class="card-subtitle listing-subtitle">
+Part 2: Variables
+</div>
+<div class="listing-reading-time card-text text-muted">
+2 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('RStudio'); return false;">
+RStudio
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
+R
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Tutorial'); return false;">
+Tutorial
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Blog'); return false;">
+Blog
+</div>
+</div>
+<div class="card-text listing-description">
+Variables are instrumental in programming because they are used as “containers” to store data values.
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+William Okech
+</div>
+<div class="listing-date">
+Jun 22, 2022
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="10" data-categories="RStudio,R,Tutorial,Blog" data-listing-date-sort="1655240400000" data-listing-file-modified-sort="1696586157807" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<a href="./posts/series_1/new_post_2/post_2.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/series_1/new_post_2/r_and_rstudio.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+The Basics of R and RStudio
+</h5>
+<div class="card-subtitle listing-subtitle">
+Part 1: Simple Arithmetic
+</div>
+<div class="listing-reading-time card-text text-muted">
+3 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('RStudio'); return false;">
+RStudio
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
+R
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Tutorial'); return false;">
+Tutorial
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Blog'); return false;">
+Blog
+</div>
+</div>
+<div class="card-text listing-description">
+This is the first in a series of blog posts looking at the basics of R and RStudio. These programs allow us to perform various basic and complex calculations.
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+William Okech
+</div>
+<div class="listing-date">
+Jun 15, 2022
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="11" data-categories="RStudio,R,Tutorial,Blog" data-listing-date-sort="1654635600000" data-listing-file-modified-sort="1699195364187" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
+<a href="./posts/series_1/new_post_1/post_1.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/series_1/new_post_1/r_and_rstudio.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Getting Started with R and RStudio
+</h5>
+<div class="card-subtitle listing-subtitle">
+Software Installation
+</div>
+<div class="listing-reading-time card-text text-muted">
+4 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('RStudio'); return false;">
+RStudio
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
+R
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Tutorial'); return false;">
+Tutorial
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Blog'); return false;">
+Blog
+</div>
+</div>
+<div class="card-text listing-description">
+In this 1st post, the reader will be introduced to the R programming language and RStudio software.
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+William Okech
+</div>
+<div class="listing-date">
+Jun 8, 2022
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+<p><br></p>
+
+
+
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

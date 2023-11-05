@@ -262,12 +262,12 @@
 </section></div> ]]></description>
   <category>RStudio</category>
   <category>R</category>
-  <category>Biotech for the Global South</category>
+  <category>Biotechnology</category>
   <category>Blog</category>
   <category>Data Visualization</category>
   <guid>https://williamokech.com/posts/series_3/new_post_1/post_1.html</guid>
   <pubDate>Thu, 26 Oct 2023 21:00:00 GMT</pubDate>
-  <media:content url="https://williamokech.com/posts/series_3/new_post_1/images/bioreactor.jpeg" medium="image" type="image/jpeg"/>
+  <media:content url="https://williamokech.com/posts/series_3/new_post_1/biotech_cover.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 <item>
   <title>Data Visualization for Government</title>
@@ -373,7 +373,7 @@
   <category>Data Visualization</category>
   <guid>https://williamokech.com/posts/series_2/new_post_3/post_3.html</guid>
   <pubDate>Wed, 12 Apr 2023 21:00:00 GMT</pubDate>
-  <media:content url="https://williamokech.com/posts/series_2/new_post_3" medium="image"/>
+  <media:content url="https://williamokech.com/posts/series_2/new_post_3/data_story_headline.png" medium="image" type="image/png" height="75" width="144"/>
 </item>
 <item>
   <title>A roof over your head</title>
@@ -448,7 +448,7 @@
   <category>Kenya Census</category>
   <guid>https://williamokech.com/posts/series_2/new_post_2/post_2.html</guid>
   <pubDate>Wed, 30 Nov 2022 21:00:00 GMT</pubDate>
-  <media:content url="https://williamokech.com/posts/series_2/new_post_2" medium="image"/>
+  <media:content url="https://williamokech.com/posts/series_2/new_post_2/data_story_headline.png" medium="image" type="image/png" height="75" width="144"/>
 </item>
 <item>
   <title>The Basics of R and RStudio</title>
@@ -1275,7 +1275,7 @@ font-style: inherit;">as.numeric</span>(factor_2)</span></code></pre></div>
   <category>Blog</category>
   <guid>https://williamokech.com/posts/series_1/new_post_8/post_8.html</guid>
   <pubDate>Tue, 15 Nov 2022 21:00:00 GMT</pubDate>
-  <media:content url="https://williamokech.com/posts/series_1/new_post_8/r_and_rstudio.png" medium="image" type="image/png" height="26" width="144"/>
+  <media:content url="https://williamokech.com/posts/series_1/new_post_8/r_and_rstudio.png" medium="image" type="image/png" height="102" width="144"/>
 </item>
 <item>
   <title>The Basics of R and RStudio</title>
@@ -1322,7 +1322,7 @@ font-style: inherit;">as.numeric</span>(factor_2)</span></code></pre></div>
   <category>Blog</category>
   <guid>https://williamokech.com/posts/series_1/new_post_7/post_7.html</guid>
   <pubDate>Sun, 13 Nov 2022 21:00:00 GMT</pubDate>
-  <media:content url="https://williamokech.com/posts/series_1/new_post_7/r_and_rstudio.png" medium="image" type="image/png" height="26" width="144"/>
+  <media:content url="https://williamokech.com/posts/series_1/new_post_7/r_and_rstudio.png" medium="image" type="image/png" height="102" width="144"/>
 </item>
 <item>
   <title>The Basics of R and RStudio</title>
@@ -2004,7 +2004,7 @@ font-style: inherit;">1000</span></span>
   <category>Blog</category>
   <guid>https://williamokech.com/posts/series_1/new_post_6/post_6.html</guid>
   <pubDate>Fri, 11 Nov 2022 21:00:00 GMT</pubDate>
-  <media:content url="https://williamokech.com/posts/series_1/new_post_6/r_and_rstudio.png" medium="image" type="image/png" height="26" width="144"/>
+  <media:content url="https://williamokech.com/posts/series_1/new_post_6/r_and_rstudio.png" medium="image" type="image/png" height="102" width="144"/>
 </item>
 <item>
   <title>The Basics of R and RStudio</title>
@@ -2382,7 +2382,7 @@ font-style: inherit;">%in%</span> a</span></code></pre></div>
   <category>Blog</category>
   <guid>https://williamokech.com/posts/series_1/new_post_5/post_5.html</guid>
   <pubDate>Tue, 08 Nov 2022 21:00:00 GMT</pubDate>
-  <media:content url="https://williamokech.com/posts/series_1/new_post_5/r_and_rstudio.png" medium="image" type="image/png" height="26" width="144"/>
+  <media:content url="https://williamokech.com/posts/series_1/new_post_5/r_and_rstudio.png" medium="image" type="image/png" height="102" width="144"/>
 </item>
 <item>
   <title>Exploring gender distributions in Kenya: Are there more women than men?</title>
@@ -2436,7 +2436,7 @@ font-style: inherit;">%in%</span> a</span></code></pre></div>
   <category>Kenya Census</category>
   <guid>https://williamokech.com/posts/series_2/new_post_1/post_1.html</guid>
   <pubDate>Wed, 29 Jun 2022 21:00:00 GMT</pubDate>
-  <media:content url="https://williamokech.com/posts/series_2/new_post_1/male-female-ratio.png" medium="image" type="image/png" height="133" width="144"/>
+  <media:content url="https://williamokech.com/posts/series_2/new_post_1/data_story_headline.png" medium="image" type="image/png" height="75" width="144"/>
 </item>
 <item>
   <title>The Basics of R and RStudio</title>
@@ -2822,7 +2822,7 @@ font-style: inherit;">nchar</span>(e)</span></code></pre></div>
   <category>Blog</category>
   <guid>https://williamokech.com/posts/series_1/new_post_4/post_4.html</guid>
   <pubDate>Wed, 22 Jun 2022 21:00:00 GMT</pubDate>
-  <media:content url="https://williamokech.com/posts/series_1/new_post_4/r_and_rstudio.png" medium="image" type="image/png" height="26" width="144"/>
+  <media:content url="https://williamokech.com/posts/series_1/new_post_4/r_and_rstudio.png" medium="image" type="image/png" height="102" width="144"/>
 </item>
 <item>
   <title>The Basics of R and RStudio</title>
@@ -3009,7 +3009,7 @@ font-style: inherit;">rm</span>(variable_7)</span></code></pre></div>
   <category>Blog</category>
   <guid>https://williamokech.com/posts/series_1/new_post_3/post_3.html</guid>
   <pubDate>Tue, 21 Jun 2022 21:00:00 GMT</pubDate>
-  <media:content url="https://williamokech.com/posts/series_1/new_post_3/r_and_rstudio.png" medium="image" type="image/png" height="26" width="144"/>
+  <media:content url="https://williamokech.com/posts/series_1/new_post_3/r_and_rstudio.png" medium="image" type="image/png" height="102" width="144"/>
 </item>
 <item>
   <title>The Basics of R and RStudio</title>
@@ -3243,7 +3243,7 @@ font-style: inherit;">3</span></span></code></pre></div>
   <category>Blog</category>
   <guid>https://williamokech.com/posts/series_1/new_post_2/post_2.html</guid>
   <pubDate>Tue, 14 Jun 2022 21:00:00 GMT</pubDate>
-  <media:content url="https://williamokech.com/posts/series_1/new_post_2/r_and_rstudio.png" medium="image" type="image/png" height="26" width="144"/>
+  <media:content url="https://williamokech.com/posts/series_1/new_post_2/r_and_rstudio.png" medium="image" type="image/png" height="102" width="144"/>
 </item>
 <item>
   <title>Getting Started with R and RStudio</title>
@@ -3325,7 +3325,7 @@ font-style: inherit;">3</span></span></code></pre></div>
   <category>Blog</category>
   <guid>https://williamokech.com/posts/series_1/new_post_1/post_1.html</guid>
   <pubDate>Tue, 07 Jun 2022 21:00:00 GMT</pubDate>
-  <media:content url="https://williamokech.com/posts/series_1/new_post_1/r_and_rstudio.png" medium="image" type="image/png" height="26" width="144"/>
+  <media:content url="https://williamokech.com/posts/series_1/new_post_1/r_and_rstudio.png" medium="image" type="image/png" height="102" width="144"/>
 </item>
 </channel>
 </rss>

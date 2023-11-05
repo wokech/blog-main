@@ -3,7 +3,7 @@ title: "Exploring gender distributions in Kenya: Are there more women than men?"
 subtitle: "Insights from the Kenya Population and Housing Census (2019)"
 author: "William Okech"
 date: "2022-06-30"
-image: "male-female-ratio.png"
+image: "data_story_headline.png"
 categories: [RStudio, R, Data Stories, Blog, Kenya Census]
 format: html
 toc: false

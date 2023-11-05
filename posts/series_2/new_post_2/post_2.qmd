@@ -3,7 +3,7 @@ title: "A roof over your head"
 subtitle: "The prevalence of asbestos-based roofing in Kenya and its potential effects"
 author: "William Okech"
 date: "2022-12-01"
-image: ""
+image: "data_story_headline.png"
 categories: [RStudio, R, Data Stories, Blog, Kenya Census]
 format: html
 toc: false

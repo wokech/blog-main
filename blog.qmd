@@ -1,15 +1,75 @@
 ---
-title: "Blog posts"
+title: "Blog Posts"
 listing:
-  contents: posts
-  sort: "date desc"
-  type: grid
-  categories: true
-  sort-ui: true
-  filter-ui: true
-  fields: [date, title, reading-time, description, categories]
-  feed: true
+  - id: posts
+    contents: posts
+    sort: "date desc"
+    type: grid
+    categories: true
+    sort-ui: true
+    filter-ui: true
+    fields: [image, date, title, subtitle, author, reading-time, description, categories]
+    feed: true
+  - id: posts_r_rstudio
+    contents: posts/series_1
+    sort: "date desc"
+    type: grid
+    categories: true
+    sort-ui: true
+    filter-ui: true
+    fields: [image, date, title, subtitle, author, reading-time, description, categories]
+    feed: true
+    page-size: 3
+  - id: posts_data_stories
+    contents: posts/series_2
+    sort: "date desc"
+    type: grid
+    categories: true
+    sort-ui: true
+    filter-ui: true
+    fields: [image, date, title, subtitle, author, reading-time, description, categories]
+    feed: true
+    page-size: 3
+  - id: posts_biotech
+    contents: posts/series_3
+    sort: "date desc"
+    type: grid
+    categories: true
+    sort-ui: true
+    filter-ui: true
+    fields: [image, date, title, subtitle, author, reading-time, description, categories]
+    feed: true
+    page-size: 3
 page-layout: full
 title-block-banner: false
 comments: false
+toc: true
 ---
+
+## Biotechnology
+
+::: {#posts_biotech}
+:::
+
+<br>
+
+## Data Stories
+
+::: {#posts_data_stories}
+:::
+
+<br>
+
+## R and RStudio
+
+::: {#posts_r_rstudio}
+:::
+
+<br>
+
+## All Posts
+
+::: {#posts}
+:::
+
+<br>

@@ -3,7 +3,7 @@ title: "Data Visualization for Government"
 subtitle: "Visualizing HR data from the Chief Administrative Secretary recruitment process in Kenya"
 author: "William Okech"
 date: "2023-04-13"
-image: ""
+image: "data_story_headline.png"
 categories: [RStudio, R, Data Stories, Blog, Data Visualization]
 format: html
 toc: false
