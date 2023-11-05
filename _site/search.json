@@ -1173,14 +1173,14 @@
     "href": "series/series_1.html",
     "title": "R and RStudio: Getting Started and The Basics",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nNo matching items\n\n\n See all"
   },
   {
     "objectID": "series/series_2.html",
     "href": "series/series_2.html",
     "title": "Data Stories",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nNo matching items\n\n\n See all"
   },
   {
     "objectID": "portfolio/soc_med.html",
@@ -2153,7 +2153,7 @@
     "href": "series/series_3.html",
     "title": "Biotech for the Global South",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/series_3/new_post_1/post_1.html",
@@ -2847,5 +2847,26 @@
     "title": "Blog Posts",
     "section": "",
     "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n\nDeveloping alternative proteins to reduce childhood hunger and improve food production in low-income countries\n\n\n13 min\n\n\n\nRStudio\n\n\nR\n\n\nBiotechnology\n\n\nBlog\n\n\nData Visualization\n\n\n\n\n\n\n\nWilliam Okech\n\n\nOct 27, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "series/series_3.html#biotechnology",
+    "href": "series/series_3.html#biotechnology",
+    "title": "Biotech for the Global South",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "series/series_1.html#r-and-rstudio",
+    "href": "series/series_1.html#r-and-rstudio",
+    "title": "R and RStudio: Getting Started and The Basics",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nNo matching items\n\n\n See all"
+  },
+  {
+    "objectID": "series/series_2.html#data-stories",
+    "href": "series/series_2.html#data-stories",
+    "title": "Data Stories",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nNo matching items\n\n\n See all"
   }
 ]
