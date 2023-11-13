@@ -15,7 +15,7 @@ website:
         menu:
           - href: portfolio/apps.qmd
           - href: portfolio/soc_med.qmd
-#         - href: portfolio/open_sci_repro.qmd
+          - href: portfolio/open_sci_repro.qmd
       - text: Resources 
         menu: 
           - href: resources/programming/programming.qmd

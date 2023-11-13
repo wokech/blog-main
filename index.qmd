@@ -23,11 +23,15 @@ comments: false
 ---
 
 ::: {#hero-heading style="text-align:left"}
-I am a research scientist with a background in Biomedical Engineering. My primary interests include:
+I am a research scientist, science editor, and data literacy trainer ([here](https://digital-research.academy/trainers/WilliamOkech/) and [here](https://carpentries.org/instructors/)) with a background in Biomedical Engineering. My primary interests include:
 
-• [Biotechnology and Biomechanics](resources/biox/biox.qmd)
+• Biotechnology and Bioengineering
 
-• [Data Visualization](resources/data_viz/ds_viz.qmd). See samples of my work [here](portfolio/soc_med.qmd)
+• Data Visualization (See samples of my work [here](portfolio/soc_med.qmd))
 
-In the [**blog**](blog.qmd) section, I hope to introduce readers to the basics of [data](resources/ds_ml_ai/ds_ml_ai.qmd) [analysis](resources/programming/programming.qmd) and [visualization](resources/data_viz/ds_viz.qmd) and provide a periodic summary of recent advances in [biotechnology and biomechanics](resources/biox/biox.qmd).
+In the [**blog**](blog.qmd) section, I hope to introduce readers to the basics of data analysis and visualization, and provide a periodic summary of recent advances in biotechnology and bioengineering.
+
+Additionally, the portfolio section showcases some of my [**projects**](portfolio/apps.qmd) and work on [**social media**](portfolio/soc_med.qmd).
+
+Lastly, the resources section offers a list of curated website links that address a wide variety of topics in STEM.
 :::
