@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "William Okech",
     "section": "",
-    "text": "I am a research scientist with a background in Biomedical Engineering. My primary interests include:\n• Biotechnology and Biomechanics\n• Data Visualization. See samples of my work here\nIn the blog section, I hope to introduce readers to the basics of data analysis and visualization and provide a periodic summary of recent advances in biotechnology and biomechanics."
+    "text": "I am a research scientist, science editor, and data literacy trainer (here and here) with a background in Biomedical Engineering. My primary interests include:\n• Biotechnology and Bioengineering\n• Data Visualization (See samples of my work here)\nIn the blog section, I hope to introduce readers to the basics of data analysis and visualization, and provide a periodic summary of recent advances in biotechnology and bioengineering.\nAdditionally, the portfolio section showcases some of my projects and work on social media.\nLastly, the resources section offers a list of curated website links that address a wide variety of topics in STEM."
   },
   {
     "objectID": "posts/series_1/new_post_1/post_1.html",
@@ -1173,14 +1173,14 @@
     "href": "series/series_1.html",
     "title": "R and RStudio: Getting Started and The Basics",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nNo matching items\n\n\n See all"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "series/series_2.html",
     "href": "series/series_2.html",
     "title": "Data Stories",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nNo matching items\n\n\n See all"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "portfolio/soc_med.html",
@@ -1592,8 +1592,8 @@
     "objectID": "portfolio/presentations/comp_thinking/comp_thinking.html#overall-goal",
     "href": "portfolio/presentations/comp_thinking/comp_thinking.html#overall-goal",
     "title": "Developing library-based computational research skill instruction programs",
-    "section": "",
-    "text": "To outline a methodology for developing a computational research skill instruction program centered in libraries that will support learners with diverse disciplinary and educational backgrounds."
+    "section": "Overall Goal",
+    "text": "Overall Goal\nTo outline a methodology for developing a computational research skill instruction program centered in libraries that will support learners with diverse disciplinary and educational backgrounds."
   },
   {
     "objectID": "portfolio/presentations/comp_thinking/comp_thinking.html#outline",
@@ -1642,21 +1642,21 @@
     "href": "portfolio/presentations/comp_thinking/comp_thinking.html#importance-of-computational-research-skills-6",
     "title": "Developing library-based computational research skill instruction programs",
     "section": "Importance of Computational Research Skills",
-    "text": "Importance of Computational Research Skills\nWhere can computational research be applied in the humanities?\nText analysis for Literature Students\n\nJockers and Thalken (2020) Text Analysis with R for Students of Literature"
+    "text": "Importance of Computational Research Skills\nWhere can computational research be applied in the humanities?\nText analysis for Literature Students\n\n\nJockers and Thalken (2020) Text Analysis with R for Students of Literature"
   },
   {
     "objectID": "portfolio/presentations/comp_thinking/comp_thinking.html#importance-of-computational-research-skills-7",
     "href": "portfolio/presentations/comp_thinking/comp_thinking.html#importance-of-computational-research-skills-7",
     "title": "Developing library-based computational research skill instruction programs",
     "section": "Importance of Computational Research Skills",
-    "text": "Importance of Computational Research Skills\nWhere can computational research be applied in the humanities?\n\nText analysis for Literature Students\n\n\nhttps://kennedyhq.com/wp/2016/11/19/shakespeare-through-digital-humanities-textual-analysis/"
+    "text": "Importance of Computational Research Skills\nWhere can computational research be applied in the humanities?\n\nText analysis for Literature Students\n\n\n\nhttps://kennedyhq.com/wp/2016/11/19/shakespeare-through-digital-humanities-textual-analysis/"
   },
   {
     "objectID": "portfolio/presentations/comp_thinking/comp_thinking.html#importance-of-computational-research-skills-8",
     "href": "portfolio/presentations/comp_thinking/comp_thinking.html#importance-of-computational-research-skills-8",
     "title": "Developing library-based computational research skill instruction programs",
     "section": "Importance of Computational Research Skills",
-    "text": "Importance of Computational Research Skills\nWhere can computational research be applied in the humanities?\n\nImage Processing for Artist Identification (useful in Fine Arts)\n\n\nC. R. Johnson et al. (2008) IEEE Signal Processing Magazine, 25(4): 37-48"
+    "text": "Importance of Computational Research Skills\nWhere can computational research be applied in the humanities?\n\nImage Processing for Artist Identification (useful in Fine Arts)\n\n\n\n\nC. R. Johnson et al. (2008) IEEE Signal Processing Magazine, 25(4): 37-48"
   },
   {
     "objectID": "portfolio/presentations/comp_thinking/comp_thinking.html#summary",
@@ -1691,56 +1691,56 @@
     "href": "portfolio/presentations/comp_thinking/comp_thinking.html#effective-teaching-of-computational-research-skills-4",
     "title": "Developing library-based computational research skill instruction programs",
     "section": "Effective teaching of computational research skills",
-    "text": "Effective teaching of computational research skills\n\nA number of independent initiatives exist to train the general public in basic data and computational skills. These include:\n\n\nhttps://carpentries.org/"
+    "text": "Effective teaching of computational research skills\n\nA number of independent initiatives exist to train the general public in basic data and computational skills. These include:\n\n\n\nhttps://carpentries.org/"
   },
   {
     "objectID": "portfolio/presentations/comp_thinking/comp_thinking.html#effective-teaching-of-computational-research-skills-5",
     "href": "portfolio/presentations/comp_thinking/comp_thinking.html#effective-teaching-of-computational-research-skills-5",
     "title": "Developing library-based computational research skill instruction programs",
     "section": "Effective teaching of computational research skills",
-    "text": "Effective teaching of computational research skills\n\nA number of independent initiatives exist to train the general public in basic data and computational skills. These include:\n\n\nhttps://carpentries.org/"
+    "text": "Effective teaching of computational research skills\n\nA number of independent initiatives exist to train the general public in basic data and computational skills. These include:\n\n\n\n\n\nhttps://carpentries.org/"
   },
   {
     "objectID": "portfolio/presentations/comp_thinking/comp_thinking.html#effective-teaching-of-computational-research-skills-6",
     "href": "portfolio/presentations/comp_thinking/comp_thinking.html#effective-teaching-of-computational-research-skills-6",
     "title": "Developing library-based computational research skill instruction programs",
     "section": "Effective teaching of computational research skills",
-    "text": "Effective teaching of computational research skills\n\nA number of independent initiatives exist to train the general public in basic data and computational skills. These include:\n\n\nhttps://coderefinery.org/"
+    "text": "Effective teaching of computational research skills\n\nA number of independent initiatives exist to train the general public in basic data and computational skills. These include:\n\n\n\nhttps://coderefinery.org/"
   },
   {
     "objectID": "portfolio/presentations/comp_thinking/comp_thinking.html#effective-teaching-of-computational-research-skills-7",
     "href": "portfolio/presentations/comp_thinking/comp_thinking.html#effective-teaching-of-computational-research-skills-7",
     "title": "Developing library-based computational research skill instruction programs",
     "section": "Effective teaching of computational research skills",
-    "text": "Effective teaching of computational research skills\n\nA number of independent initiatives exist to train the general public in basic data and computational skills. These include:\n\n\nhttps://forrt.org/"
+    "text": "Effective teaching of computational research skills\n\nA number of independent initiatives exist to train the general public in basic data and computational skills. These include:\n\n\n\nhttps://forrt.org/"
   },
   {
     "objectID": "portfolio/presentations/comp_thinking/comp_thinking.html#effective-teaching-of-computational-research-skills-8",
     "href": "portfolio/presentations/comp_thinking/comp_thinking.html#effective-teaching-of-computational-research-skills-8",
     "title": "Developing library-based computational research skill instruction programs",
     "section": "Effective teaching of computational research skills",
-    "text": "Effective teaching of computational research skills\nWhat should novice coders learn? (My personal opinion)\n\nScratch (block-based visual programming language) for complete novices.\nHelp new coders learn the basics of programming, such as loops, conditionals, and variables.\n\n\nScratch: https://scratch.mit.edu/"
+    "text": "Effective teaching of computational research skills\nWhat should novice coders learn? (My personal opinion)\n\nScratch (block-based visual programming language) for complete novices.\nHelp new coders learn the basics of programming, such as loops, conditionals, and variables.\n\n\n\nScratch: https://scratch.mit.edu/"
   },
   {
     "objectID": "portfolio/presentations/comp_thinking/comp_thinking.html#sample-lesson-and-problem-1",
     "href": "portfolio/presentations/comp_thinking/comp_thinking.html#sample-lesson-and-problem-1",
     "title": "Developing library-based computational research skill instruction programs",
     "section": "Sample Lesson and Problem",
-    "text": "Sample Lesson and Problem\nData Manipulation in R\n\nwww.tidyverse.org"
+    "text": "Sample Lesson and Problem\nData Manipulation in R\n\n\n\nwww.tidyverse.org"
   },
   {
     "objectID": "portfolio/presentations/comp_thinking/comp_thinking.html#sample-lesson-and-problem-2",
     "href": "portfolio/presentations/comp_thinking/comp_thinking.html#sample-lesson-and-problem-2",
     "title": "Developing library-based computational research skill instruction programs",
     "section": "Sample Lesson and Problem",
-    "text": "Sample Lesson and Problem\nData Manipulation in R\n\nwww.carpentries.org"
+    "text": "Sample Lesson and Problem\nData Manipulation in R\n \n\nwww.carpentries.org"
   },
   {
     "objectID": "portfolio/presentations/comp_thinking/comp_thinking.html#sample-lesson-and-problem-3",
     "href": "portfolio/presentations/comp_thinking/comp_thinking.html#sample-lesson-and-problem-3",
     "title": "Developing library-based computational research skill instruction programs",
     "section": "Sample Lesson and Problem",
-    "text": "Sample Lesson and Problem\nData Visualization in R\n\nwww.tidyverse.org"
+    "text": "Sample Lesson and Problem\nData Visualization in R\n \n\nwww.tidyverse.org"
   },
   {
     "objectID": "portfolio/presentations/comp_thinking/comp_thinking.html#challenges-associated-with-teaching-computational-research-skills-1",
@@ -1789,35 +1789,35 @@
     "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#example-prof.-xs-biochemistry-101-lecture",
     "title": "Designing courses that minimize cognitive overload in learners",
     "section": "Example: Prof. X’s Biochemistry 101 Lecture",
-    "text": "Example: Prof. X’s Biochemistry 101 Lecture\n\nhttps://monicanasseri.wixsite.com/biochemical-pathways/biochemical-pathways"
+    "text": "Example: Prof. X’s Biochemistry 101 Lecture\n ## Example: Prof. X’s Biochemistry 101 Lecture\n\n\nhttps://monicanasseri.wixsite.com/biochemical-pathways/biochemical-pathways"
   },
   {
     "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#information-processing-theory",
     "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#information-processing-theory",
     "title": "Designing courses that minimize cognitive overload in learners",
     "section": "1. Information Processing Theory",
-    "text": "1. Information Processing Theory\n\nA framework for understanding how information is encoded into memory\n\n\n\nAtkinson and Shiffrin (1968) Psychology of Learning and Motivation (2) 89-195\nhttps://www.simplypsychology.org/multi-store.html"
+    "text": "1. Information Processing Theory\n\nA framework for understanding how information is encoded into memory\n\n\n\n\nAtkinson and Shiffrin (1968) Psychology of Learning and Motivation (2) 89-195\nhttps://www.simplypsychology.org/multi-store.html"
   },
   {
     "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#cognitive-load",
     "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#cognitive-load",
     "title": "Designing courses that minimize cognitive overload in learners",
     "section": "2. Cognitive Load",
-    "text": "2. Cognitive Load\n\nAvailable amount of information that the working / short-term memory can hold at a specific time (7 +/- 2 chunks of info at a time)\n\n\n\nAtkinson and Shiffrin (1968) Psychology of Learning and Motivation (2) 89-195\nhttps://www.simplypsychology.org/multi-store.html"
+    "text": "2. Cognitive Load\n\nAvailable amount of information that the working / short-term memory can hold at a specific time (7 +/- 2 chunks of info at a time)\n\n\n\n\nAtkinson and Shiffrin (1968) Psychology of Learning and Motivation (2) 89-195\nhttps://www.simplypsychology.org/multi-store.html"
   },
   {
     "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#cognitive-load-theory",
     "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#cognitive-load-theory",
     "title": "Designing courses that minimize cognitive overload in learners",
     "section": "3. Cognitive Load Theory",
-    "text": "3. Cognitive Load Theory\n\nDescribes how the human mind processes new information\n3 Main Types of Cognitive Load\n\n\n\nSweller, J. (1998) Cognitive Science 12(2): 257-285\nhttps://mcdreeamiemusings.com/blog/2019/10/15/the-good-the-bad-and-the-can-be-ugly-the-three-parts-of-cognitive-load"
+    "text": "3. Cognitive Load Theory\n\nDescribes how the human mind processes new information\n3 Main Types of Cognitive Load\n\n\n\n\n\n\nSweller, J. (1998) Cognitive Science 12(2): 257-285\nhttps://mcdreeamiemusings.com/blog/2019/10/15/the-good-the-bad-and-the-can-be-ugly-the-three-parts-of-cognitive-load"
   },
   {
     "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#cognitive-load-theory-1",
     "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#cognitive-load-theory-1",
     "title": "Designing courses that minimize cognitive overload in learners",
     "section": "3. Cognitive Load Theory",
-    "text": "3. Cognitive Load Theory\nIntrinsic\n\nInnate difficulty of a task and complexity of new information.\nInfluenced by age and/or educational background.\n\n\n\nSweller, J. (1998) Cognitive Science 12(2): 257-285\nhttps://mcdreeamiemusings.com/blog/2019/10/15/the-good-the-bad-and-the-can-be-ugly-the-three-parts-of-cognitive-load"
+    "text": "3. Cognitive Load Theory\nIntrinsic\n\nInnate difficulty of a task and complexity of new information.\nInfluenced by age and/or educational background.\n\n\n\n\nSweller, J. (1998) Cognitive Science 12(2): 257-285\nhttps://mcdreeamiemusings.com/blog/2019/10/15/the-good-the-bad-and-the-can-be-ugly-the-three-parts-of-cognitive-load"
   },
   {
     "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#cognitive-load-theory-2",
@@ -1831,7 +1831,7 @@
     "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#cognitive-load-theory-3",
     "title": "Designing courses that minimize cognitive overload in learners",
     "section": "3. Cognitive Load Theory",
-    "text": "3. Cognitive Load Theory\nExtraneous\n\nExamples\n\n\n\nSweller, J. (1998) Cognitive Science 12(2): 257-285\nhttps://mcdreeamiemusings.com/blog/2019/10/15/the-good-the-bad-and-the-can-be-ugly-the-three-parts-of-cognitive-load"
+    "text": "3. Cognitive Load Theory\nExtraneous\n\nExamples\n\n\n\n\nSweller, J. (1998) Cognitive Science 12(2): 257-285\nhttps://mcdreeamiemusings.com/blog/2019/10/15/the-good-the-bad-and-the-can-be-ugly-the-three-parts-of-cognitive-load"
   },
   {
     "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#cognitive-load-theory-4",
@@ -1845,7 +1845,7 @@
     "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#cognitive-load-theory-5",
     "title": "Designing courses that minimize cognitive overload in learners",
     "section": "3. Cognitive Load Theory",
-    "text": "3. Cognitive Load Theory\nSummary\n\nhttps://mcdreeamiemusings.com/blog/2019/10/15/the-good-the-bad-and-the-can-be-ugly-the-three-parts-of-cognitive-load"
+    "text": "3. Cognitive Load Theory\nSummary\n  \n\nhttps://mcdreeamiemusings.com/blog/2019/10/15/the-good-the-bad-and-the-can-be-ugly-the-three-parts-of-cognitive-load"
   },
   {
     "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#formative-assessment",
@@ -1866,21 +1866,21 @@
     "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#identify-learner-personas-types",
     "title": "Designing courses that minimize cognitive overload in learners",
     "section": "1. Identify Learner Personas / Types",
-    "text": "1. Identify Learner Personas / Types\n\nLearners can be distinguished by the mental models they use to solve problem.\n\n\n\nhttps://carpentries.github.io/instructor-training/\nBenner P. (2004) Bulletin of Science, Technology & Society, 24(3), 188–199"
+    "text": "1. Identify Learner Personas / Types\n\nLearners can be distinguished by the mental models they use to solve problem.\n\n\n\n\nhttps://carpentries.github.io/instructor-training/\nBenner P. (2004) Bulletin of Science, Technology & Society, 24(3), 188–199"
   },
   {
     "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#mental-models",
     "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#mental-models",
     "title": "Designing courses that minimize cognitive overload in learners",
     "section": "2. Mental models",
-    "text": "2. Mental models\n\n“A simplified representation of the most important parts of some problem domain that is good enough to enable problem solving.”\nLimitations\n\nSimplified representation.\nAtoms are not balls and sticks are not bonds.\n\n\n\n\nhttps://commoncog.com/teaching-tech-together/\nhttps://education.riaus.org.au/a-better-way-to-see-molecules/"
+    "text": "2. Mental models\n\n“A simplified representation of the most important parts of some problem domain that is good enough to enable problem solving.”\n\n\n\nLimitations\n\nSimplified representation.\nAtoms are not balls\nSticks are not bonds.\n\n\n\n\nhttps://commoncog.com/teaching-tech-together/\nhttps://education.riaus.org.au/a-better-way-to-see-molecules/"
   },
   {
     "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#mental-models-1",
     "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#mental-models-1",
     "title": "Designing courses that minimize cognitive overload in learners",
     "section": "2. Mental models",
-    "text": "2. Mental models\n\nhttps://carpentries.github.io/instructor-training/"
+    "text": "2. Mental models\n  \n\nhttps://carpentries.github.io/instructor-training/"
   },
   {
     "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#mental-models-2",
@@ -1901,35 +1901,35 @@
     "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#formative-assessments-1",
     "title": "Designing courses that minimize cognitive overload in learners",
     "section": "3. Formative Assessments",
-    "text": "3. Formative Assessments\nExample\nEach incorrect answer has diagnostic power and will guide correction\n\nhttps://carpentries.github.io/instructor-training/"
+    "text": "3. Formative Assessments\nExample\n\nEach incorrect answer has diagnostic power and will guide correction\n\nhttps://carpentries.github.io/instructor-training/"
   },
   {
     "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#formative-assessments-2",
     "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#formative-assessments-2",
     "title": "Designing courses that minimize cognitive overload in learners",
     "section": "3. Formative Assessments",
-    "text": "3. Formative Assessments\nMemory management\n\nhttps://taylorda01.weebly.com/backward-faded-maths.html\n\nParson’s Problem"
+    "text": "3. Formative Assessments\nMemory management\n\n\nhttps://taylorda01.weebly.com/backward-faded-maths.html"
   },
   {
     "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#improving-course-content-and-delivery",
     "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#improving-course-content-and-delivery",
     "title": "Designing courses that minimize cognitive overload in learners",
     "section": "4. Improving course content and delivery",
-    "text": "4. Improving course content and delivery\nChunking\n\nhttps://carpentries.github.io/instructor-training/"
+    "text": "4. Improving course content and delivery\nChunking\n\n\nhttps://carpentries.github.io/instructor-training/"
   },
   {
     "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#improving-course-content-and-delivery-1",
     "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#improving-course-content-and-delivery-1",
     "title": "Designing courses that minimize cognitive overload in learners",
     "section": "4. Improving course content and delivery",
-    "text": "4. Improving course content and delivery\nReduce split-attention effect\n\nMindTools: https://www.mindtools.com/aqxwcpa/cognitive-load-theory"
+    "text": "4. Improving course content and delivery\nReduce split-attention effect\n\n\n\nMindTools: https://www.mindtools.com/aqxwcpa/cognitive-load-theory"
   },
   {
     "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#improving-course-content-and-delivery-2",
     "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#improving-course-content-and-delivery-2",
     "title": "Designing courses that minimize cognitive overload in learners",
     "section": "4. Improving course content and delivery",
-    "text": "4. Improving course content and delivery\nEncourage the use of concept maps\nExample Discussion: Renewable and Non-renewable Energy Sources\n\nhttps://visme.co/blog/how-to-make-a-concept-map/"
+    "text": "4. Improving course content and delivery\nEncourage the use of concept maps\nExample Discussion: Renewable and Non-renewable Energy Sources\n\n\nhttps://visme.co/blog/how-to-make-a-concept-map/"
   },
   {
     "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#improving-course-content-and-delivery-3",
@@ -1950,7 +1950,7 @@
     "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#references",
     "title": "Designing courses that minimize cognitive overload in learners",
     "section": "References",
-    "text": "References\n\nhttps://teachtogether.tech/"
+    "text": "References\n\n\nhttps://teachtogether.tech/"
   },
   {
     "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#discussion-questions",
@@ -1971,7 +1971,7 @@
     "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#formative-assessments-3",
     "title": "Designing courses that minimize cognitive overload in learners",
     "section": "3. Formative Assessments",
-    "text": "3. Formative Assessments\nMemory management\nFaded Example\n\nhttps://taylorda01.weebly.com/backward-faded-maths.html"
+    "text": "3. Formative Assessments\nMemory management\n\n\nhttps://taylorda01.weebly.com/backward-faded-maths.html"
   },
   {
     "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#references-1",
@@ -2006,7 +2006,7 @@
     "href": "portfolio/presentations/comp_thinking/comp_thinking.html#importance-of-computational-research-skills-9",
     "title": "Developing library-based computational research skill instruction programs",
     "section": "Importance of Computational Research Skills",
-    "text": "Importance of Computational Research Skills\nWhere can computational research be applied in the humanities?\n\nSentiment Analysis and Social Media (useful in Political Science & Journalism)\n\n\nhttps://github.com/Mazen72/Twitter_Sentiment_Analysis_Dashboard"
+    "text": "Importance of Computational Research Skills\nWhere can computational research be applied in the humanities?\n\nSentiment Analysis and Social Media (useful in Political Science & Journalism)\n\n\n\nhttps://github.com/Mazen72/Twitter_Sentiment_Analysis_Dashboard"
   },
   {
     "objectID": "portfolio/presentations/comp_thinking/comp_thinking.html#importance-of-computational-research-skills-10",
@@ -2027,7 +2027,7 @@
     "href": "portfolio/presentations/comp_thinking/comp_thinking.html#effective-teaching-of-computational-research-skills-10",
     "title": "Developing library-based computational research skill instruction programs",
     "section": "Effective teaching of computational research skills",
-    "text": "Effective teaching of computational research skills\nWhat should intermediate coders learn? (My personal opinion)"
+    "text": "Effective teaching of computational research skills\nKey points for teaching novice coders"
   },
   {
     "objectID": "portfolio/presentations/comp_thinking/comp_thinking.html#effective-teaching-of-computational-research-skills-11",
@@ -2860,13 +2860,34 @@
     "href": "series/series_1.html#r-and-rstudio",
     "title": "R and RStudio: Getting Started and The Basics",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nNo matching items\n\n\n See all"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "series/series_2.html#data-stories",
     "href": "series/series_2.html#data-stories",
     "title": "Data Stories",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nNo matching items\n\n\n See all"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#example-prof.-xs-biochemistry-101-lecture-1",
+    "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#example-prof.-xs-biochemistry-101-lecture-1",
+    "title": "Designing courses that minimize cognitive overload in learners",
+    "section": "Example: Prof. X’s Biochemistry 101 Lecture",
+    "text": "Example: Prof. X’s Biochemistry 101 Lecture\n\n\nhttps://monicanasseri.wixsite.com/biochemical-pathways/biochemical-pathways"
+  },
+  {
+    "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#example-prof.-xs-biochemistry-101-lecture-a",
+    "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#example-prof.-xs-biochemistry-101-lecture-a",
+    "title": "Designing courses that minimize cognitive overload in learners",
+    "section": "Example: Prof. X’s Biochemistry 101 Lecture (A)",
+    "text": "Example: Prof. X’s Biochemistry 101 Lecture (A)"
+  },
+  {
+    "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#example-prof.-xs-biochemistry-101-lecture-b",
+    "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#example-prof.-xs-biochemistry-101-lecture-b",
+    "title": "Designing courses that minimize cognitive overload in learners",
+    "section": "Example: Prof. X’s Biochemistry 101 Lecture (B)",
+    "text": "Example: Prof. X’s Biochemistry 101 Lecture (B)\n\n\nhttps://monicanasseri.wixsite.com/biochemical-pathways/biochemical-pathways"
   }
 ]
