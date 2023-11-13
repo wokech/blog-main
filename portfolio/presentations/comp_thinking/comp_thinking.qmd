@@ -84,7 +84,7 @@ https://www.bls.gov/ooh/computer-and-information-technology/software-developers.
 
 Text analysis for Literature Students
 
-![](comp_thinking_images/text_analysis_r.png){.absolute top=250 left=400 width="300" height="400"}
+![](comp_thinking_images/text_analysis_r.png){.absolute top="250" left="400" width="300" height="400"}
 
 ::: footer
 Jockers and Thalken (2020) Text Analysis with R for Students of Literature
@@ -96,7 +96,7 @@ Jockers and Thalken (2020) Text Analysis with R for Students of Literature
 
 -   Text analysis for Literature Students
 
-![](comp_thinking_images/shakespeare.png){.absolute top=300 left=300 width="550" height="350"}
+![](comp_thinking_images/shakespeare.png){.absolute top="300" left="300" width="550" height="350"}
 
 ::: footer
 https://kennedyhq.com/wp/2016/11/19/shakespeare-through-digital-humanities-textual-analysis/
@@ -108,9 +108,9 @@ https://kennedyhq.com/wp/2016/11/19/shakespeare-through-digital-humanities-textu
 
 -   Image Processing for Artist Identification (useful in Fine Arts)
 
-![](comp_thinking_images/van_gogh.png){.absolute top=350 left=100 width="350" height="300"}
+![](comp_thinking_images/van_gogh.png){.absolute top="350" left="100" width="350" height="300"}
 
-![](comp_thinking_images/brushstroke.png){.absolute top=350 right=0 width="550" height="300"}
+![](comp_thinking_images/brushstroke.png){.absolute top="350" right="0" width="550" height="300"}
 
 ::: footer
 C. R. Johnson et al. (2008) IEEE Signal Processing Magazine, 25(4): 37-48
@@ -122,7 +122,7 @@ C. R. Johnson et al. (2008) IEEE Signal Processing Magazine, 25(4): 37-48
 
 -   Sentiment Analysis and Social Media (useful in Political Science & Journalism)
 
-![](comp_thinking_images/sentiment_analysis.png){.absolute top=350 left=300 width="500" height="300"}
+![](comp_thinking_images/sentiment_analysis.png){.absolute top="350" left="300" width="500" height="300"}
 
 ::: footer
 https://github.com/Mazen72/Twitter_Sentiment_Analysis_Dashboard
@@ -212,11 +212,11 @@ https://carpentries.org/
 
 -   A number of independent initiatives exist to train the general public in basic data and computational skills. These include:
 
-![](comp_thinking_images/carpentries_2.png){.absolute top=300 left=0 width="350" height="250"}
+![](comp_thinking_images/carpentries_2.png){.absolute top="300" left="0" width="350" height="250"}
 
-![](comp_thinking_images/carpentries_3.png){.absolute top=300 left=400 width="350" height="250"}
+![](comp_thinking_images/carpentries_3.png){.absolute top="300" left="400" width="350" height="250"}
 
-![](comp_thinking_images/carpentries_4.png){.absolute top=300 left=800 width="350" height="250"}
+![](comp_thinking_images/carpentries_4.png){.absolute top="300" left="800" width="350" height="250"}
 
 ::: footer
 https://carpentries.org/
@@ -249,7 +249,7 @@ https://forrt.org/
 -   Scratch (block-based visual programming language) for complete novices.
 -   Help new coders learn the basics of programming, such as loops, conditionals, and variables.
 
-![](comp_thinking_images/scratch.png){.absolute top=400 left=300 width="450" height="250"}
+![](comp_thinking_images/scratch.png){.absolute top="400" left="300" width="450" height="250"}
 
 ::: footer
 Scratch: https://scratch.mit.edu/
@@ -259,14 +259,13 @@ Scratch: https://scratch.mit.edu/
 
 **What should novice coders learn? (My personal opinion)**
 
-![](comp_thinking_images/effec_teaching.png){.absolute top=150 left=400 width="350" height="550"}
+![](comp_thinking_images/effec_teaching.png){.absolute top="150" left="400" width="350" height="550"}
 
 ## Effective teaching of computational research skills
 
 **Key points for teaching novice coders**
 
-![](comp_thinking_images/teach_tech_tog.png){.absolute top=200 left=400 width="350" height="500"}
-
+![](comp_thinking_images/teach_tech_tog.png){.absolute top="200" left="400" width="350" height="500"}
 
 ## Effective teaching of computational research skills
 
@@ -277,7 +276,6 @@ Scratch: https://scratch.mit.edu/
 -   Use "worked examples" and pace learning to avoid cognitive overload.
 -   Encourage working in pairs and group coding.
 -   Promote daily practice.
-
 
 ## Effective teaching of computational research skills
 
@@ -294,12 +292,12 @@ Scratch: https://scratch.mit.edu/
 
 **Data Manipulation in R**
 
-![](comp_thinking_images/dplyr.png){.absolute top=150 left=200 width="350" height="500"}
+![](comp_thinking_images/dplyr.png){.absolute top="150" left="200" width="350" height="500"}
 
-![](comp_thinking_images/pipe.png){.absolute top=150 left=600 width="500" height="500"}
+![](comp_thinking_images/pipe.png){.absolute top="150" left="600" width="500" height="500"}
 
-::: footer 
-www.tidyverse.org 
+::: footer
+www.tidyverse.org
 :::
 
 ## Sample Lesson and Problem
@@ -316,8 +314,7 @@ www.carpentries.org
 
 **Data Visualization in R**
 
-![](comp_thinking_images/ggplot.png){.absolute top=150 left=100 width="350" height="500"}
-![](comp_thinking_images/parsons_1.png){.absolute top=200 left=500 width="500" height="300"}
+![](comp_thinking_images/ggplot.png){.absolute top="150" left="100" width="350" height="500"} ![](comp_thinking_images/parsons_1.png){.absolute top="200" left="500" width="500" height="300"}
 
 ::: footer
 www.tidyverse.org
