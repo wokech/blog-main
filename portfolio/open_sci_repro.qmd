@@ -7,12 +7,12 @@ toc: true
 
 ## 1. Developing library-based computational research skill instruction programs.
 
--   [HTML]()
+-   [HTML](presentations/comp_thinking/comp_thinking.qmd)
 
--   [PPT](presentations/comp_thinking.pptx)
+-   [PPT](presentations/comp_thinking/comp_thinking.pptx)
 
 ## 2. Designing courses that minimize cognitive overload in learners.
 
--   [HTML]()
+-   [HTML](presentations/min_cog_overload/min_cog_overload.qmd)
 
--   [PPT](presentations/min_cog_overload.pptx)
+-   [PPT](presentations/min_cog_overload/min_cog_overload.pptx)
