@@ -1,5 +1,13 @@
 [
   {
+    "listing": "/series/series_3.html",
+    "items": []
+  },
+  {
+    "listing": "/series/series_1.html",
+    "items": []
+  },
+  {
     "listing": "/blog.html",
     "items": [
       "/posts/series_1/new_post_8/post_8.html",
@@ -17,15 +25,7 @@
     ]
   },
   {
-    "listing": "/series/series_1.html",
-    "items": []
-  },
-  {
     "listing": "/series/series_2.html",
-    "items": []
-  },
-  {
-    "listing": "/series/series_3.html",
     "items": []
   }
 ]
