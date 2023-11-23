@@ -14,6 +14,8 @@ Additionally, the portfolio section showcases some of my projects and work on so
 
 Lastly, the resources section offers a list of curated website links that address a wide variety of topics in STEM.
 
+Hosted on: [NameCheap](https://www.williamokech.com/) and [Netlify](https://williamokech.netlify.app/)
+
 ## Notes
 
 Render the project with:
