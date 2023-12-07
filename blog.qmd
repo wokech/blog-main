@@ -1,8 +1,8 @@
 ---
 title: "Blog Posts"
 listing:
-  - id: posts_r_rstudio
-    contents: posts/series_1/
+  - id: posts_r_rstudio_basics
+    contents: posts/r_rstudio_basics/
     sort: "date desc"
     type: grid
     categories: true
@@ -12,7 +12,17 @@ listing:
     feed: true
     #page-size: 3
   - id: posts_data_stories
-    contents: posts/series_2/
+    contents: posts/data_stories/
+    sort: "date desc"
+    type: grid
+    categories: true
+    sort-ui: true
+    filter-ui: true
+    fields: [image, date, title, subtitle, author, reading-time, description, categories]
+    feed: true
+    #page-size: 3
+  - id: posts_code_along_with_me
+    contents: posts/code_along_with_me/
     sort: "date desc"
     type: grid
     categories: true
@@ -22,7 +32,7 @@ listing:
     feed: true
     #page-size: 3
   - id: posts_biotech
-    contents: posts/series_3/
+    contents: posts/biotech/
     sort: "date desc"
     type: grid
     categories: true
@@ -37,9 +47,9 @@ comments: false
 toc: true
 ---
 
-## Biotechnology
+## R and RStudio Basics
 
-::: {#posts_biotech}
+::: {#posts_r_rstudio_basics}
 :::
 
 ## Data Stories
@@ -47,7 +57,12 @@ toc: true
 ::: {#posts_data_stories}
 :::
 
-## R and RStudio
+## Code Along With Me
 
-::: {#posts_r_rstudio}
+::: {#posts_code_along_with_me}
+:::
+
+## Biotechnology
+
+::: {#posts_biotech}
 :::
