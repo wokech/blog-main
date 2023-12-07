@@ -1,5 +1,5 @@
 ---
-title: "Biotechnology for the Global South"
+title: "Biotechnology for the Global South (Part 1)"
 subtitle: "Developing alternative proteins to reduce childhood hunger and improve food production in low-income countries"
 author: "William Okech"
 date: "2023-10-27"
