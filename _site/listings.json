@@ -10,18 +10,20 @@
   {
     "listing": "/blog.html",
     "items": [
-      "/posts/series_1/new_post_8/post_8.html",
-      "/posts/series_1/new_post_7/post_7.html",
-      "/posts/series_1/new_post_6/post_6.html",
-      "/posts/series_1/new_post_5/post_5.html",
-      "/posts/series_1/new_post_4/post_4.html",
-      "/posts/series_1/new_post_3/post_3.html",
-      "/posts/series_1/new_post_2/post_2.html",
-      "/posts/series_1/new_post_1/post_1.html",
-      "/posts/series_2/new_post_3/post_3.html",
-      "/posts/series_2/new_post_2/post_2.html",
-      "/posts/series_2/new_post_1/post_1.html",
-      "/posts/series_3/new_post_1/post_1.html"
+      "/posts/r_rstudio_basics/data_structures/data_structures.html",
+      "/posts/r_rstudio_basics/missing_data/missing_data.html",
+      "/posts/r_rstudio_basics/vectors/vectors.html",
+      "/posts/r_rstudio_basics/operators/operators.html",
+      "/posts/r_rstudio_basics/data_types/data_types.html",
+      "/posts/r_rstudio_basics/variables/post_3.html",
+      "/posts/r_rstudio_basics/arithmetic/arithmetic.html",
+      "/posts/r_rstudio_basics/software_install/software_install.html",
+      "/posts/data_stories/cas_kenya_viz/cas_kenya_viz.html",
+      "/posts/data_stories/asbestos_roof_kenya/asbestos_roof_kenya.html",
+      "/posts/data_stories/kenya_gender_dist/kenya_gender_dist.html",
+      "/posts/code_along_with_me/danger_disturb/danger_disturb.html",
+      "/posts/biotech/alt_protein/alt_protein_intro.html",
+      "/posts/biotech/alt_protein/post_1.html"
     ]
   },
   {
