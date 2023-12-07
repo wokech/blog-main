@@ -1,0 +1,153 @@
+---
+title: "The Basics of R and RStudio"
+subtitle: "Part 4: Operators"
+author: "William Okech"
+date: "2022-11-09"
+image: "r_and_rstudio.png"
+categories: [RStudio, R, Tutorial, Blog]
+toc: true
+draft: false
+---
+
+## Introduction
+
+R has many different types of operators that can perform different tasks.
+
+Here we will focus on 5 major types of operators. The major types of operators are:
+
+1.  Arithmetic,
+
+2.  Relational,
+
+3.  Logical,
+
+4.  Assignment, and
+
+5.  Miscellaneous.
+
+## 1. Arithmetic Operators
+
+Arithmetic operators are used to perform mathematical operations. These operators have been highlighted in [Part 1](/posts/series_1/new_post_2/post_2.html) of the series.
+
+## 2. Relational Operators
+
+Relational operators are used to find the relationship between 2 variables and compare objects. The output of these comparisons is Boolean (`TRUE` or `FALSE`). The table below describes the most common relational operators.
+
+| Relational Operator |       Description        |
+|:-------------------:|:------------------------:|
+|         \<          |        Less than         |
+|         \>          |       Greater than       |
+|         \<=         |  Less than or equal to   |
+|         \>=         | Greater than or equal to |
+|         ==          |         Equal to         |
+|         !=          |       Not Equal to       |
+
+Assign values to variables
+
+```{r}
+x <- 227
+y <- 639
+```
+
+### a. Less than
+
+```{r}
+x < y
+```
+
+### b. Greater than
+
+```{r}
+x > y
+```
+
+### c. Less than or equal to
+
+```{r}
+x <= 300
+```
+
+### d. Greater than or equal to
+
+```{r}
+y >= 700
+```
+
+### e. Equal to
+
+```{r}
+y == 639
+```
+
+### f. Not Equal to
+
+```{r}
+x != 227
+```
+
+## 3. Logical Operators
+
+Logical operators are used to specify multiple conditions between objects. Logical operators work with basic data types such as logical, numeric, and complex data types. This returns `TRUE` or `FALSE` values. Numbers greater that `1` are `TRUE` and `0` equals `FALSE`. The table below describes the most common logical operators.
+
+| Logical Operator |       Description        |
+|:----------------:|:------------------------:|
+|        !         |       Logical NOT        |
+|        \|        | Element-wise logical OR  |
+|        &         | Element-wise logical AND |
+
+Assign vectors to variables
+
+```{r}
+vector_1 <- c(0,2)
+vector_2 <- c(1,0)
+```
+
+### a. Logical NOT
+
+```{r}
+!vector_1
+!vector_2
+```
+
+### b. Element-wise Logical OR
+
+```{r}
+vector_1 | vector_2
+```
+
+### c. Element-wise Logical AND
+
+```{r}
+vector_1 & vector_2
+```
+## 4. Assignment Operators
+
+These operators assign values to variables. A more comprehensive review can be obtained in [Part 2](/posts/series_1/new_post_3/post_3.html) of the series.
+
+## 5. Miscellaneous Operators
+
+These are helpful operators for working in that can perform a variety of functions. A few common miscellaneous operators are described below.
+
+| Miscellaneous Operator |                          Description                           |
+|:-------------------:|:-------------------------------------------------:|
+|          %\*%          | Matrix multiplication (to be discussed in subsequent chapters) |
+|          %in%          |               Does an element belong to a vector               |
+|           :            |                      Generate a sequence                       |
+
+### a. Sequence
+
+```{r}
+a <- 1:8
+a
+b <- 4:10
+b
+```
+
+### b. Element in a vector
+
+```{r}
+a %in% b
+9 %in% b
+9 %in% a
+
+```

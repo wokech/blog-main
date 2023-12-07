@@ -1,0 +1,97 @@
+---
+title: "The Basics of R and RStudio"
+subtitle: "Part 1: Simple Arithmetic"
+author: "William Okech"
+date: "2022-06-15"
+image: "r_and_rstudio.png"
+categories: [RStudio, R, Tutorial, Blog]
+toc: true
+draft: false
+---
+
+## Introduction
+
+This is the first in a series of blog posts looking at the basics of R and RStudio. These programs allow us to perform various basic and complex calculations.
+
+To get started, first, we will open R or RStudio. In R, go to the console, and in RStudio, head to the console pane. Next, type in a basic arithmetic calculation such as "1 + 1" after the angle bracket (\>) and hit "Enter."
+
+An example of a basic calculation:
+
+```{r}
+1+1
+```
+
+The output will be observed next to the square bracket containing the number 1 (\[1\]).
+
+![](r_console_1plus1.png){fig-align="center" width="90%"}
+
+Additionally, to include comments into the code block we use the hash (#) symbol. Anything written after the code block will be commented out and not run.
+
+```{r}
+# A simple arithmetic calculation (which is not run because of the hash symbol)
+1+1
+```
+
+## Arithmetic operators available in R/RStudio
+
+Various arithmetic operators (listed below) can be used in R/RStudio.
+
+| Arithmetic Operator |            Description             |
+|:-------------------:|:----------------------------------:|
+|         \+          |              Addition              |
+|         \-          |            Subtraction             |
+|         \*          |           Multiplication           |
+|          /          |              Division              |
+|     \*\* or \^      |           Exponentiation           |
+|         %%          | Modulus (remainder after division) |
+|         %/%         |          Integer division          |
+
+## Examples
+
+### Addition
+
+```{r}
+10+30
+```
+
+### Subtraction
+
+```{r}
+30-24
+```
+
+### Multiplication
+
+```{r}
+20*4
+```
+
+### Division
+
+```{r}
+93/4
+```
+
+### Exponentiation
+
+```{r}
+3^6
+```
+
+### Modulus (remainder with division)
+
+```{r}
+94%%5
+```
+
+### Integer Division
+
+```{r}
+54%/%7
+```
+
+### Slightly more complex arithmetic operations
+
+```{r}
+5-1+(4*3)/16*3
+```
