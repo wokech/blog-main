@@ -75,7 +75,8 @@ ul.task-list li input[type="checkbox"] {
 
     const options = {
       valueNames: ['listing-image','listing-date','listing-title','listing-subtitle','listing-author','listing-reading-time','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
+      page: 3,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
     };
 
@@ -520,7 +521,7 @@ Nov 12, 2022
 <a href="./posts/r_rstudio_basics/operators/operators.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./posts/r_rstudio_basics/operators/r_and_rstudio.png" class="thumbnail-image card-img" style="height: 150px;">
+<img data-src="./posts/r_rstudio_basics/operators/r_and_rstudio.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -565,7 +566,7 @@ Nov 9, 2022
 <a href="./posts/r_rstudio_basics/data_types/data_types.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./posts/r_rstudio_basics/data_types/r_and_rstudio.png" class="thumbnail-image card-img" style="height: 150px;">
+<img data-src="./posts/r_rstudio_basics/data_types/r_and_rstudio.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -610,7 +611,7 @@ Jun 23, 2022
 <a href="./posts/r_rstudio_basics/variables/post_3.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./posts/r_rstudio_basics/variables/r_and_rstudio.png" class="thumbnail-image card-img" style="height: 150px;">
+<img data-src="./posts/r_rstudio_basics/variables/r_and_rstudio.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -655,7 +656,7 @@ Jun 22, 2022
 <a href="./posts/r_rstudio_basics/arithmetic/arithmetic.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./posts/r_rstudio_basics/arithmetic/r_and_rstudio.png" class="thumbnail-image card-img" style="height: 150px;">
+<img data-src="./posts/r_rstudio_basics/arithmetic/r_and_rstudio.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -700,7 +701,7 @@ Jun 15, 2022
 <a href="./posts/r_rstudio_basics/software_install/software_install.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./posts/r_rstudio_basics/software_install/r_and_rstudio.png" class="thumbnail-image card-img" style="height: 150px;">
+<img data-src="./posts/r_rstudio_basics/software_install/r_and_rstudio.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -745,6 +746,9 @@ Jun 8, 2022
 <div class="listing-no-matching d-none">
 No matching items
 </div>
+<nav id="posts_r_rstudio_basics-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
 </div>
 </section>
 <section id="data-stories" class="level2">

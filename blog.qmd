@@ -10,7 +10,7 @@ listing:
     filter-ui: true
     fields: [image, date, title, subtitle, author, reading-time, description, categories]
     feed: true
-    #page-size: 3
+    page-size: 3
   - id: posts_data_stories
     contents: posts/data_stories/
     sort: "date desc"
@@ -20,7 +20,7 @@ listing:
     filter-ui: true
     fields: [image, date, title, subtitle, author, reading-time, description, categories]
     feed: true
-    #page-size: 3
+    page-size: 3
   - id: posts_code_along_with_me
     contents: posts/code_along_with_me/
     sort: "date desc"
@@ -30,7 +30,7 @@ listing:
     filter-ui: true
     fields: [image, date, title, subtitle, author, reading-time, description, categories]
     feed: true
-    #page-size: 3
+    page-size: 3
   - id: posts_biotech
     contents: posts/biotech/
     sort: "date desc"
@@ -40,7 +40,7 @@ listing:
     filter-ui: true
     fields: [image, date, title, subtitle, author, reading-time, description, categories]
     feed: true
-    #page-size: 3
+    page-size: 3
 page-layout: full
 title-block-banner: false
 comments: false
