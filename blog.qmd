@@ -31,6 +31,16 @@ listing:
     fields: [image, date, title, subtitle, author, reading-time, description, categories]
     feed: true
     page-size: 3
+  - id: posts_r_tistry
+    contents: posts/r_tistry/
+    sort: "date desc"
+    type: grid
+    categories: true
+    sort-ui: true
+    filter-ui: true
+    fields: [image, date, title, subtitle, author, reading-time, description, categories]
+    feed: true
+    page-size: 3    
   - id: posts_biotech
     contents: posts/biotech/
     sort: "date desc"

@@ -152,6 +152,34 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-posts_r_tistry .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-date','listing-title','listing-subtitle','listing-author','listing-reading-time','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-posts_r_tistry'] = new List('listing-posts_r_tistry', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
     const listingTargetEl = window.document.querySelector('#listing-posts_biotech .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
@@ -332,7 +360,7 @@ cookieconsent.run({
   <li><a href="#biotechnology" id="toc-biotechnology" class="nav-link" data-scroll-target="#biotechnology">Biotechnology</a></li>
   </ul>
 </nav>
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(13)</span></div><div class="category" data-category="Biotechnology">Biotechnology <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Blog">Blog <span class="quarto-category-count">(13)</span></div><div class="category" data-category="Data Stories">Data Stories <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Data Visualization">Data Visualization <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Kenya Census">Kenya Census <span class="quarto-category-count">(2)</span></div><div class="category" data-category="R">R <span class="quarto-category-count">(13)</span></div><div class="category" data-category="RStudio">RStudio <span class="quarto-category-count">(13)</span></div><div class="category" data-category="Tutorial">Tutorial <span class="quarto-category-count">(9)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(15)</span></div><div class="category" data-category="Biotechnology">Biotechnology <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Blog">Blog <span class="quarto-category-count">(15)</span></div><div class="category" data-category="Data Stories">Data Stories <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Data Visualization">Data Visualization <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Kenya Census">Kenya Census <span class="quarto-category-count">(2)</span></div><div class="category" data-category="R">R <span class="quarto-category-count">(15)</span></div><div class="category" data-category="R-tistry">R-tistry <span class="quarto-category-count">(2)</span></div><div class="category" data-category="RStudio">RStudio <span class="quarto-category-count">(15)</span></div><div class="category" data-category="Tutorial">Tutorial <span class="quarto-category-count">(11)</span></div></div></div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
@@ -1097,7 +1125,134 @@ No matching items
 
 </section>
 
-</main> <!-- /main -->
+<div class="quarto-listing quarto-listing-container-grid" id="listing-posts_r_tistry">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-posts_r_tistry-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-posts_r_tistry'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-title" data-direction="asc">
+          Title
+        </option>
+         <option value="listing-date-sort" data-direction="asc">
+          Date - Oldest
+        </option>
+         <option value="listing-date-sort" data-direction="desc">
+          Date - Newest
+        </option>
+         <option value="listing-author" data-direction="asc">
+          Author
+        </option>
+     </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="RStudio,R,Tutorial,Blog,R-tistry" data-listing-date-sort="1701810000000" data-listing-file-modified-sort="1702129986630" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="23">
+<a href="./posts/r_tistry/aRt_2/aRt_eac_2.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/r_tistry/aRt_2/r_tistry.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+R-tistry (Part 2)
+</h5>
+<div class="card-subtitle listing-subtitle">
+Using geom_segment() to generate images depicting the flags of the East African Community
+</div>
+<div class="listing-reading-time card-text text-muted">
+23 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('RStudio'); return false;">
+RStudio
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
+R
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Tutorial'); return false;">
+Tutorial
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Blog'); return false;">
+Blog
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R-tistry'); return false;">
+R-tistry
+</div>
+</div>
+<div class="card-text listing-description">
+In this post, I will use geom_segment() to generate images depicting the flags of the East African Community.
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+William Okech
+</div>
+<div class="listing-date">
+Dec 6, 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="RStudio,R,Tutorial,Blog,R-tistry" data-listing-date-sort="1701464400000" data-listing-file-modified-sort="1702129870110" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
+<a href="./posts/r_tistry/aRt_1/aRt_eac_1.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/r_tistry/aRt_1/r_tistry.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+R-tistry (Part 1)
+</h5>
+<div class="card-subtitle listing-subtitle">
+Using ggforce and geom_voronoi_tile() to generate Voronoi diagrams depicting the flags of the East African Community
+</div>
+<div class="listing-reading-time card-text text-muted">
+4 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('RStudio'); return false;">
+RStudio
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
+R
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Tutorial'); return false;">
+Tutorial
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Blog'); return false;">
+Blog
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R-tistry'); return false;">
+R-tistry
+</div>
+</div>
+<div class="card-text listing-description">
+The East African Community is a regional intergovernmental organization comprising eight (8) partner states, namely: Kenya, Tanzania, Uganda, Burundi, Rwanda, South Sudan…
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+William Okech
+</div>
+<div class="listing-date">
+Dec 2, 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

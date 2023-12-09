@@ -1,0 +1,684 @@
+---
+title: "R-tistry (Part 2)"
+subtitle: "Using geom_segment() to generate images depicting the flags of the East African Community"
+author: "William Okech"
+date: "2023-12-06"
+image: "r_tistry.png"
+categories: [RStudio, R, Tutorial, Blog, R-tistry]
+toc: true
+format: 
+  html:
+    code-fold: show
+    code-overflow: wrap
+    warning: false
+---
+
+# Introduction
+
+In this post, I will use geom_segment() to generate images depicting the flags of the East African Community.
+
+For a background of this post, review [Part 1]() of the series.
+
+# Section 1: Load all the required libraries
+
+```{r}
+library(tidyverse) # collection of packages for preparing, wrangling and visualizing data
+library(ggplot2) # package for data visualization
+library(ggthemes) # ggplot themes
+```
+
+# \# Section 2: Flags of the East African Community and Individual Countries
+
+## a) Kenya
+
+Generate the lines required for the plot
+
+```{r}
+lines1 = tibble(
+  x = seq(0, 38, by = 2),
+  xend=x,
+  y=rep(0, 20),
+  yend=c(rep(c(2.5), 19), 2.5))
+
+lines2 = tibble(
+  x = seq(0, 38, by = 2),
+  xend=x,
+  y=rep(0, 20),
+  yend=c(rep(c(4.5), 19), 4.5))
+
+lines3 = tibble(
+  x = seq(0, 38, by = 2),
+  xend=x,
+  y=rep(0, 20),
+  yend=c(rep(c(7), 19), 7))
+
+lines4 = tibble(
+  x = seq(0, 38, by = 2),
+  xend=x,
+  y=rep(0, 20),
+  yend=c(rep(c(8), 19), 8))
+
+lines5 = tibble(
+  x = seq(0, 38, by = 2),
+  xend=x,
+  y=rep(0, 20),
+  yend=c(rep(c(10.5), 19), 10.5))
+```
+
+Plot the image
+
+```{r}
+ggplot() + 
+  geom_segment(data=lines5, color = "#000000", size = 3, lineend = "round",
+               aes(x=x, xend=xend,
+                   y=y, yend=yend)) + 
+  geom_segment(data=lines4, color = "#FFFFFF", size = 3.4,lineend = "round",
+               aes(x=x, xend=xend,
+                   y=y, yend=yend)) +
+  geom_segment(data=lines3, color = "#BB0000", size = 3.4, lineend = "round",
+               aes(x=x, xend=xend,
+                   y=y, yend=yend)) + 
+  geom_segment(data=lines2, color = "#FFFFFF", size = 3.8,lineend = "round",
+               aes(x=x, xend=xend,
+                   y=y, yend=yend)) + 
+  geom_segment(data=lines1, color = "#006600", size = 3.8, lineend = "round",
+               aes(x=x, xend=xend,
+                   y=y, yend=yend)) + 
+  ylim(-5, 15)  +
+  coord_polar() +                       # allows for the drawing of a polar plot
+  labs(title = "Kenya") +
+  theme(axis.title.x=element_blank(),
+        axis.text.x=element_blank(),
+        axis.ticks.x=element_blank(),
+        axis.title.y=element_blank(),
+        axis.text.y=element_blank(),
+        axis.ticks.y=element_blank(), 
+        panel.background = element_rect(fill = "white", colour = "white"),
+        plot.title = element_text(size = 12, hjust = 0.5)) 
+
+```
+
+## b) Tanzania
+
+Generate the lines required for the plot
+
+```{r}
+lines1 = tibble(
+  x = seq(0, 38, by = 2),
+  xend=x,
+  y=rep(0, 20),
+  yend=c(rep(c(2.5), 19), 2.5))
+
+lines2 = tibble(
+  x = seq(0, 38, by = 2),
+  xend=x,
+  y=rep(0, 20),
+  yend=c(rep(c(3.5), 19), 3.5))
+
+lines3 = tibble(
+  x = seq(0, 38, by = 2),
+  xend=x,
+  y=rep(0, 20),
+  yend=c(rep(c(6), 19), 6))
+
+lines4 = tibble(
+  x = seq(0, 38, by = 2),
+  xend=x,
+  y=rep(0, 20),
+  yend=c(rep(c(7), 19), 7))
+
+lines5 = tibble(
+  x = seq(0, 38, by = 2),
+  xend=x,
+  y=rep(0, 20),
+  yend=c(rep(c(9.5), 19), 9.5))
+```
+
+Plot the image
+
+```{r}
+ggplot() + 
+  geom_segment(data=lines5, color = "#1EB53A", size = 3, lineend = "round",
+               aes(x=x, xend=xend,
+                   y=y, yend=yend)) + 
+  geom_segment(data=lines4, color = "#FBD016", size = 3.2, lineend = "round",
+               aes(x=x, xend=xend,
+                   y=y, yend=yend)) +
+  geom_segment(data=lines3, color = "#000000", size = 3.4, lineend = "round",
+               aes(x=x, xend=xend,
+                   y=y, yend=yend)) + 
+  geom_segment(data=lines2, color = "#FBD016", size = 3.6, lineend = "round",
+               aes(x=x, xend=xend,
+                   y=y, yend=yend)) + 
+  geom_segment(data=lines1, color = "#00A3DD", size = 3.8, lineend = "round",
+               aes(x=x, xend=xend,
+                   y=y, yend=yend)) + 
+  ylim(-5, 10) +
+  coord_polar() +                    # allows for the drawing of a polar plot
+  labs(title = "Tanzania") +
+  theme(axis.title.x=element_blank(),
+        axis.text.x=element_blank(),
+        axis.ticks.x=element_blank(),
+        axis.title.y=element_blank(),
+        axis.text.y=element_blank(),
+        axis.ticks.y=element_blank(), 
+        panel.background = element_rect(fill = "white", colour = "white"),
+        plot.title = element_text(size = 12, hjust = 0.5)) 
+
+```
+
+## c) Uganda
+
+Generate the lines required for the plot
+
+```{r}
+lines1 = tibble(
+  x = seq(0, 38, by = 2),
+  xend=x,
+  y=rep(0, 20),
+  yend=c(rep(c(1.5), 19), 1.5))
+
+lines2 = tibble(
+  x = seq(0, 38, by = 2),
+  xend=x,
+  y=rep(0, 20),
+  yend=c(rep(c(3), 19), 3))
+
+lines3 = tibble(
+  x = seq(0, 38, by = 2),
+  xend=x,
+  y=rep(0, 20),
+  yend=c(rep(c(4.5), 19), 4.5))
+
+lines4 = tibble(
+  x = seq(0, 38, by = 2),
+  xend=x,
+  y=rep(0, 20),
+  yend=c(rep(c(6), 19), 6))
+
+lines5 = tibble(
+  x = seq(0, 38, by = 2),
+  xend=x,
+  y=rep(0, 20),
+  yend=c(rep(c(7.5), 19), 7.5))
+
+lines6 = tibble(
+  x = seq(0, 38, by = 2),
+  xend=x,
+  y=rep(0, 20),
+  yend=c(rep(c(9), 19), 9))
+
+```
+
+Plot the image
+
+```{r}
+ggplot() + 
+  geom_segment(data=lines6, color = "#000000", size = 3, lineend = "round",
+               aes(x=x, xend=xend,
+                   y=y, yend=yend)) + 
+  geom_segment(data=lines5, color = "#FCDC04", size = 3.2, lineend = "round",
+               aes(x=x, xend=xend,
+                   y=y, yend=yend)) + 
+  geom_segment(data=lines4, color = "#D90000", size = 3.4, lineend = "round",
+               aes(x=x, xend=xend,
+                   y=y, yend=yend)) +
+  geom_segment(data=lines3, color = "#000000", size = 3.6, lineend = "round",
+               aes(x=x, xend=xend,
+                   y=y, yend=yend)) + 
+  geom_segment(data=lines2, color = "#FCDC04", size = 3.8, lineend = "round",
+               aes(x=x, xend=xend,
+                   y=y, yend=yend)) + 
+  geom_segment(data=lines1, color = "#D90000", size = 4.0, lineend = "round",
+               aes(x=x, xend=xend,
+                   y=y, yend=yend)) + 
+  ylim(-5, 15) +
+  coord_polar() +                     # allows for the drawing of a polar plot
+  labs(title = "Uganda") +
+  theme(axis.title.x=element_blank(),
+        axis.text.x=element_blank(),
+        axis.ticks.x=element_blank(),
+        axis.title.y=element_blank(),
+        axis.text.y=element_blank(),
+        axis.ticks.y=element_blank(), 
+        panel.background = element_rect(fill = "white", colour = "white"),
+        plot.title = element_text(size = 12, hjust = 0.5)) 
+
+```
+
+## d) Burundi
+
+Generate the lines required for the plot
+
+```{r}
+lines1 = tibble(
+  x = seq(0, 38, by = 2),
+  xend=x,
+  y=rep(0, 20),
+  yend=c(rep(c(3), 19), 3))
+
+lines2 = tibble(
+  x = seq(0, 38, by = 2),
+  xend=x,
+  y=rep(0, 20),
+  yend=c(rep(c(6), 19), 6))
+
+lines3 = tibble(
+  x = seq(0, 38, by = 2),
+  xend=x,
+  y=rep(0, 20),
+  yend=c(rep(c(10), 19), 10))
+
+```
+
+Plot the image
+
+```{r}
+ggplot() + 
+  geom_segment(data=lines3, color = "#CE1126", size = 3.6, lineend = "round",
+               aes(x=x, xend=xend,
+                   y=y, yend=yend)) + 
+  geom_segment(data=lines2, color = "#FFFFFF", size = 4.0, lineend = "round",
+               aes(x=x, xend=xend,
+                   y=y, yend=yend)) + 
+  geom_segment(data=lines1, color = "#1EB53A", size = 3.6, lineend = "round",
+               aes(x=x, xend=xend,
+                   y=y, yend=yend)) + 
+  ylim(-5, 15) +
+  coord_polar() +                     # allows for the drawing of a polar plot
+  labs(title = "Burundi") +
+  theme(axis.title.x=element_blank(),
+        axis.text.x=element_blank(),
+        axis.ticks.x=element_blank(),
+        axis.title.y=element_blank(),
+        axis.text.y=element_blank(),
+        axis.ticks.y=element_blank(), 
+        panel.background = element_rect(fill = "white", colour = "white"),
+        plot.title = element_text(size = 12, hjust = 0.5)) 
+
+```
+
+## e) Rwanda
+
+Generate the lines required for the plot
+
+```{r}
+lines1 = tibble(
+  x = seq(0, 38, by = 2),
+  xend=x,
+  y=rep(0, 20),
+  yend=c(rep(c(2), 19), 2))
+
+lines2 = tibble(
+  x = seq(0, 38, by = 2),
+  xend=x,
+  y=rep(0, 20),
+  yend=c(rep(c(4), 19), 4))
+
+lines3 = tibble(
+  x = seq(0, 38, by = 2),
+  xend=x,
+  y=rep(0, 20),
+  yend=c(rep(c(6), 19), 6))
+
+lines4 = tibble(
+  x = seq(0, 38, by = 2),
+  xend=x,
+  y=rep(0, 20),
+  yend=c(rep(c(8), 19), 8))
+
+```
+
+Plot the image
+
+```{r}
+ggplot() + 
+  geom_segment(data=lines4, color = "#00A1DE", size = 3.4, lineend = "round",
+               aes(x=x, xend=xend,
+                   y=y, yend=yend)) +
+  geom_segment(data=lines3, color = "#00A1DE", size = 3.6, lineend = "round",
+               aes(x=x, xend=xend,
+                   y=y, yend=yend)) + 
+  geom_segment(data=lines2, color = "#FAD201", size = 3.8, lineend = "round",
+               aes(x=x, xend=xend,
+                   y=y, yend=yend)) + 
+  geom_segment(data=lines1, color = "#20603D", size = 4.0, lineend = "round",
+               aes(x=x, xend=xend,
+                   y=y, yend=yend)) + 
+  ylim(-5, 15) +
+  coord_polar() +                     # allows for the drawing of a polar plot
+  labs(title = "Rwanda") +
+  theme(axis.title.x=element_blank(),
+        axis.text.x=element_blank(),
+        axis.ticks.x=element_blank(),
+        axis.title.y=element_blank(),
+        axis.text.y=element_blank(),
+        axis.ticks.y=element_blank(), 
+        panel.background = element_rect(fill = "white", colour = "white"),
+        plot.title = element_text(size = 12, hjust = 0.5))  
+
+```
+
+## f) South Sudan
+
+Generate the lines required for the plot
+
+```{r}
+lines00 = tibble(
+  x = seq(0, 38, by = 2),
+  xend=x,
+  y=rep(0, 20),
+  yend=c(rep(c(1), 19), 1))
+
+lines0 = tibble(
+  x = seq(0, 38, by = 2),
+  xend=x,
+  y=rep(0, 20),
+  yend=c(rep(c(2), 19), 2))
+
+lines1 = tibble(
+  x = seq(0, 38, by = 2),
+  xend=x,
+  y=rep(0, 20),
+  yend=c(rep(c(4.5), 19), 4.5))
+
+lines2 = tibble(
+  x = seq(0, 38, by = 2),
+  xend=x,
+  y=rep(0, 20),
+  yend=c(rep(c(5.5), 19), 5.5))
+
+lines3 = tibble(
+  x = seq(0, 38, by = 2),
+  xend=x,
+  y=rep(0, 20),
+  yend=c(rep(c(8), 19), 8))
+
+lines4 = tibble(
+  x = seq(0, 38, by = 2),
+  xend=x,
+  y=rep(0, 20),
+  yend=c(rep(c(9), 19), 9))
+
+lines5 = tibble(
+  x = seq(0, 38, by = 2),
+  xend=x,
+  y=rep(0, 20),
+  yend=c(rep(c(11.5), 19), 11.5))
+
+```
+
+Plot the image
+
+```{r}
+ggplot() + 
+  geom_segment(data=lines5, color = "#000000", size = 3, lineend = "round",
+               aes(x=x, xend=xend,
+                   y=y, yend=yend)) + 
+  geom_segment(data=lines4, color = "#FFFFFF", size = 4,lineend = "round",
+               aes(x=x, xend=xend,
+                   y=y, yend=yend)) +
+  geom_segment(data=lines3, color = "#DA121A", size = 3.4, lineend = "round",
+               aes(x=x, xend=xend,
+                   y=y, yend=yend)) + 
+  geom_segment(data=lines2, color = "#FFFFFF", size = 4,lineend = "round",
+               aes(x=x, xend=xend,
+                   y=y, yend=yend)) + 
+  geom_segment(data=lines1, color = "#078930", size = 3.8, lineend = "round",
+               aes(x=x, xend=xend,
+                   y=y, yend=yend)) + 
+  geom_segment(data=lines0, color = "#0F47AF", size = 3.8, lineend = "round",
+               aes(x=x, xend=xend,
+                   y=y, yend=yend)) + 
+  geom_segment(data=lines00, color = "#FCDD09", size = 3.8, lineend = "round",
+               aes(x=x, xend=xend,
+                   y=y, yend=yend)) + 
+  ylim(-5, 15)  +
+  coord_polar() +                     # allows for the drawing of a polar plot
+  labs(title = "South Sudan") +
+  theme(axis.title.x=element_blank(),
+        axis.text.x=element_blank(),
+        axis.ticks.x=element_blank(),
+        axis.title.y=element_blank(),
+        axis.text.y=element_blank(),
+        axis.ticks.y=element_blank(), 
+        panel.background = element_rect(fill = "white", colour = "white"),
+        plot.title = element_text(size = 12, hjust = 0.5)) 
+
+```
+
+## g) Democratic Republic of the Congo
+
+Generate the lines required for the plot
+
+```{r}
+lines1 = tibble(
+  x = seq(0, 38, by = 2),
+  xend=x,
+  y=rep(0, 20),
+  yend=c(rep(c(2.5), 19), 2.5))
+
+lines2 = tibble(
+  x = seq(0, 38, by = 2),
+  xend=x,
+  y=rep(0, 20),
+  yend=c(rep(c(3.5), 19), 3.5))
+
+lines3 = tibble(
+  x = seq(0, 38, by = 2),
+  xend=x,
+  y=rep(0, 20),
+  yend=c(rep(c(6), 19), 6))
+
+lines4 = tibble(
+  x = seq(0, 38, by = 2),
+  xend=x,
+  y=rep(0, 20),
+  yend=c(rep(c(7), 19), 7))
+
+lines5 = tibble(
+  x = seq(0, 38, by = 2),
+  xend=x,
+  y=rep(0, 20),
+  yend=c(rep(c(9.5), 19), 9.5))
+
+```
+
+Plot the image
+
+```{r}
+ggplot() + 
+  geom_segment(data=lines5, color = "#007FFF", size = 3, lineend = "round",
+               aes(x=x, xend=xend,
+                   y=y, yend=yend)) + 
+  geom_segment(data=lines4, color = "#F7D518", size = 3.2, lineend = "round",
+               aes(x=x, xend=xend,
+                   y=y, yend=yend)) +
+  geom_segment(data=lines3, color = "#CE1021", size = 3.4, lineend = "round",
+               aes(x=x, xend=xend,
+                   y=y, yend=yend)) + 
+  geom_segment(data=lines2, color = "#F7D518", size = 3.6, lineend = "round",
+               aes(x=x, xend=xend,
+                   y=y, yend=yend)) + 
+  geom_segment(data=lines1, color = "#007FFF", size = 3.8, lineend = "round",
+               aes(x=x, xend=xend,
+                   y=y, yend=yend)) + 
+  ylim(-5, 10) +
+  coord_polar() +                     # allows for the drawing of a polar plot
+  labs(title = "Democratic Republic of the Congo") +
+  theme(axis.title.x=element_blank(),
+        axis.text.x=element_blank(),
+        axis.ticks.x=element_blank(),
+        axis.title.y=element_blank(),
+        axis.text.y=element_blank(),
+        axis.ticks.y=element_blank(), 
+        panel.background = element_rect(fill = "white", colour = "white"),
+        plot.title = element_text(size = 12, hjust = 0.5))  
+
+```
+
+## h) Somalia
+
+Generate the lines required for the plot
+
+```{r}
+lines1 = tibble(
+  x = seq(0, 38, by = 2),
+  xend=x,
+  y=rep(0, 20),
+  yend=c(rep(c(3), 19), 3))
+
+lines2 = tibble(
+  x = seq(0, 38, by = 2),
+  xend=x,
+  y=rep(0, 20),
+  yend=c(rep(c(6), 19), 6))
+
+lines3 = tibble(
+  x = seq(0, 38, by = 2),
+  xend=x,
+  y=rep(0, 20),
+  yend=c(rep(c(10), 19), 10))
+
+```
+
+Plot the image
+
+```{r}
+ggplot() + 
+  geom_segment(data=lines3, color = "#418FDE", size = 3.6, lineend = "round",
+               aes(x=x, xend=xend,
+                   y=y, yend=yend)) + 
+  geom_segment(data=lines2, color = "#FFFFFF", size = 4.0, lineend = "round",
+               aes(x=x, xend=xend,
+                   y=y, yend=yend)) + 
+  geom_segment(data=lines1, color = "#418FDE", size = 3.6, lineend = "round",
+               aes(x=x, xend=xend,
+                   y=y, yend=yend)) + 
+  ylim(-5, 15) +
+  coord_polar() +                     # allows for the drawing of a polar plot
+  labs(title = "Somalia") +
+  theme(axis.title.x=element_blank(),
+        axis.text.x=element_blank(),
+        axis.ticks.x=element_blank(),
+        axis.title.y=element_blank(),
+        axis.text.y=element_blank(),
+        axis.ticks.y=element_blank(), 
+        panel.background = element_rect(fill = "white", colour = "white"),
+        plot.title = element_text(size = 12, hjust = 0.5)) 
+
+```
+
+## i) East African Community
+
+Generate the lines required for the plot
+
+```{r}
+lines1 = tibble(
+  x = seq(0, 38, by = 2),
+  xend=x,
+  y=rep(0, 20),
+  yend=c(rep(c(3), 19), 3))
+
+lines2 = tibble(
+  x = seq(0, 38, by = 2),
+  xend=x,
+  y=rep(0, 20),
+  yend=c(rep(c(3.5), 19), 3.5))
+
+lines3 = tibble(
+  x = seq(0, 38, by = 2),
+  xend=x,
+  y=rep(0, 20),
+  yend=c(rep(c(4.5), 19), 4.5))
+
+lines4 = tibble(
+  x = seq(0, 38, by = 2),
+  xend=x,
+  y=rep(0, 20),
+  yend=c(rep(c(5), 19), 5))
+
+lines5 = tibble(
+  x = seq(0, 38, by = 2),
+  xend=x,
+  y=rep(0, 20),
+  yend=c(rep(c(7), 19), 7))
+
+lines6 = tibble(
+  x = seq(0, 38, by = 2),
+  xend=x,
+  y=rep(0, 20),
+  yend=c(rep(c(7.5), 19), 7.5))
+
+lines7 = tibble(
+  x = seq(0, 38, by = 2),
+  xend=x,
+  y=rep(0, 20),
+  yend=c(rep(c(8.5), 19), 8.5))
+
+lines8 = tibble(
+  x = seq(0, 38, by = 2),
+  xend=x,
+  y=rep(0, 20),
+  yend=c(rep(c(9), 19), 9))
+
+lines9 = tibble(
+  x = seq(0, 38, by = 2),
+  xend=x,
+  y=rep(0, 20),
+  yend=c(rep(c(12), 19), 12))
+
+```
+
+Plot the image
+
+```{r}
+ggplot() + 
+  geom_segment(data=lines9, color = "#418FDE", size = 3, lineend = "round",
+               aes(x=x, xend=xend,
+                   y=y, yend=yend)) + 
+  geom_segment(data=lines8, color = "#FFFFFF", size = 3, lineend = "round",
+               aes(x=x, xend=xend,
+                   y=y, yend=yend)) + 
+  geom_segment(data=lines7, color = "#000000", size = 3, lineend = "round",
+               aes(x=x, xend=xend,
+                   y=y, yend=yend)) + 
+  geom_segment(data=lines6, color = "#006600", size = 3, lineend = "round",
+               aes(x=x, xend=xend,
+                   y=y, yend=yend)) + 
+  geom_segment(data=lines5, color = "#FBD016", size = 3.4, lineend = "round",
+               aes(x=x, xend=xend,
+                   y=y, yend=yend)) + 
+  geom_segment(data=lines4, color = "#006600", size = 3.4, lineend = "round",
+               aes(x=x, xend=xend,
+                   y=y, yend=yend)) +
+  geom_segment(data=lines3, color = "#D90000", size = 3.6, lineend = "round",
+               aes(x=x, xend=xend,
+                   y=y, yend=yend)) + 
+  geom_segment(data=lines2, color = "#FFFFFF", size = 3.8, lineend = "round",
+               aes(x=x, xend=xend,
+                   y=y, yend=yend)) + 
+  geom_segment(data=lines1, color = "#418FDE", size = 4.0, lineend = "round",
+               aes(x=x, xend=xend,
+                   y=y, yend=yend)) + 
+  ylim(-5, 15) +
+  coord_polar() +                   # allows for the drawing of a polar plot
+  labs(title = "Somalia") +
+  theme(axis.title.x=element_blank(),
+        axis.text.x=element_blank(),
+        axis.ticks.x=element_blank(),
+        axis.title.y=element_blank(),
+        axis.text.y=element_blank(),
+        axis.ticks.y=element_blank(), 
+        panel.background = element_rect(fill = "white", colour = "white"),
+        plot.title = element_text(size = 12, hjust = 0.5))  
+
+```
+
+# Conclusion
+
+In this post, ggplot2 and geom_segment(), available in R/RStudio, were used to generate images depicting the flags of East Africa. To compare the generated diagrams with the original flags look at the Flags of the World page on [Worldometer](https://www.worldometers.info/geography/flags-of-the-world/)
+
+# Assignment
+
+Try and generate your own image, preferably the flag of your home country or country of residence, save with ggsave() using the correct dimensions and dpi, and the share on social media #aRt
