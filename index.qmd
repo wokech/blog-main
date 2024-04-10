@@ -1,6 +1,6 @@
 ---
 title: "Hello, I'm William!"
-subtitle: "Biomedical Engineer | Research Scientist | Editor"
+subtitle: "Biomedical Engineer | Research Scientist | Digital Skills Trainer"
 image: william_profile.jpg
 about:
   template: jolla

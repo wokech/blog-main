@@ -1,18 +1,33 @@
 ---
-title: "Open Science and Reproducibility"
+title: "Training Materials"
+listing:
+  - id: posts_comp_thinking
+    contents: presentations/comp_thinking/comp_thinking.qmd
+    sort: "date desc"
+    type: grid
+    feed: true
+    page-size: 3
+  - id: posts_min_cog_overload
+    contents: presentations/min_cog_overload/min_cog_overload.qmd
+    sort: "date desc"
+    type: grid
+    feed: true
+    page-size: 3
+page-layout: full
+title-block-banner: false
+comments: false
 toc: true
+
 ---
 
-# Presentations
+## Computational Thinking
 
-## 1. Developing library-based computational research skill instruction programs.
+::: {#posts_comp_thinking}
+:::
+[Download PowerPoint Presentation](presentations/comp_thinking/comp_thinking.pptx)
 
--   [HTML](presentations/comp_thinking/comp_thinking.qmd)
+## Minimizing Cognitive Overload
 
--   [PPT](presentations/comp_thinking/comp_thinking.pptx)
-
-## 2. Designing courses that minimize cognitive overload in learners.
-
--   [HTML](presentations/min_cog_overload/min_cog_overload.qmd)
-
--   [PPT](presentations/min_cog_overload/min_cog_overload.pptx)
+::: {#posts_min_cog_overload}
+:::
+[Download PowerPoint Presentation](presentations/min_cog_overload/min_cog_overload.pptx)

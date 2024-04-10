@@ -11,19 +11,12 @@ website:
       - text: Resume
         file: blog_cv/Resume_William_Okech_Website_2023.pdf
       - blog.qmd
-      - text: Portfolio
-        menu:
-          - href: portfolio/apps.qmd
-          - href: portfolio/soc_med.qmd
-          - href: portfolio/open_sci_repro.qmd
-      - text: Resources 
-        menu: 
-          - href: resources/programming/programming.qmd
-          - href: resources/ds_ml_ai/ds_ml_ai.qmd
-          - href: resources/data_viz/ds_viz.qmd
-          - href: resources/biox/biox.qmd
-          - href: resources/readings/readings.qmd
-          - href: resources/teaching/teach_res.qmd
+      - text: Data Visualization
+        file: portfolio/soc_med.qmd
+      - text: Projects
+        file: portfolio/apps.qmd
+      - text: Training Materials
+        file: portfolio/open_sci_repro.qmd
       - icon: github
         href: https://github.com/wokech
         aria-label: Github

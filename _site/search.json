@@ -627,7 +627,7 @@
     "href": "portfolio/soc_med.html",
     "title": "Social Media",
     "section": "",
-    "text": "A. Linktree\nTo see some of my data visualization work look at the social media websites in the link.tree website below. These include links to Instagram, X (formerly Twitter), Threads, TikTok, YouTube, Reddit, and Pinterest webpages.\nAfrican Data Visualization Hub (afro_dataviz)\nOR look at previews of some of the social medial links below\n\n\nB. Instagram\n        View this profile on Instagram            African Data Visualizations (@afro_dataviz) • Instagram photos and videos \n\n\nC. Twitter\nTweets by afro_dataviz \n\n\nD. Tiktok\n  @afro_dataviz"
+    "text": "A. Linktree\nTo see some of my data visualization work look at the social media websites in the link.tree website below.\nAfrican Data Visualization Hub (afro_dataviz)\nOR look at previews of some of the social media links below\n\n\nB. Instagram\n        View this profile on Instagram            African Data Visualizations (@afro_dataviz) • Instagram photos and videos \n\n\nC. Twitter\nTweets by afro_dataviz \n\n\nD. Tiktok\n  @afro_dataviz"
   },
   {
     "objectID": "portfolio/presentations/comp_thinking/comp_thinking.html#overall-goal",
@@ -900,14 +900,14 @@
     "href": "index.html",
     "title": "Hello, I’m William!",
     "section": "",
-    "text": "::: icon-links      \n\n:::"
+    "text": "h"
   },
   {
     "objectID": "portfolio/open_sci_repro.html",
     "href": "portfolio/open_sci_repro.html",
-    "title": "Open Science and Reproducibility",
+    "title": "Training Materials",
     "section": "",
-    "text": "HTML\nPPT\n\n\n\n\n\nHTML\nPPT"
+    "text": "William Okech, PhD\n\n\nMay 15, 2023\n\n\n\n\n\n\n\n\nNo matching items\n\n\nDownload PowerPoint Presentation"
   },
   {
     "objectID": "portfolio/open_sci_repro.html#developing-library-based-computational-research-skill-instruction-programs.",
@@ -2959,5 +2959,19 @@
     "title": "R-tistry (Part 1)",
     "section": "i) East African Community",
     "text": "i) East African Community\n\n\nCode\neac &lt;- voronoi_1 +\n  scale_fill_gradientn(colours = c(\"#418FDE\", \"#FFFFFF\", \"#D90000\", \"#006600\",\"#FBD016\", \"#006600\", \"#000000\",  \"#FFFFFF\",  \"#418FDE\")) +\n  theme_void() + \n  theme(legend.position = 'none',\n        plot.title = element_text(size = 12, hjust = 0.5)) +\n  labs(title = \"East African Community\")\neac"
+  },
+  {
+    "objectID": "portfolio/open_sci_repro.html#computational-thinking",
+    "href": "portfolio/open_sci_repro.html#computational-thinking",
+    "title": "Training Materials",
+    "section": "",
+    "text": "William Okech, PhD\n\n\nMay 15, 2023\n\n\n\n\n\n\n\n\nNo matching items\n\n\nDownload PowerPoint Presentation"
+  },
+  {
+    "objectID": "portfolio/open_sci_repro.html#minimizing-cognitive-overload",
+    "href": "portfolio/open_sci_repro.html#minimizing-cognitive-overload",
+    "title": "Training Materials",
+    "section": "Minimizing Cognitive Overload",
+    "text": "Minimizing Cognitive Overload\n\n\n\n\n\n\n\n\nDesigning courses that minimize cognitive overload in learners\n\n\n\n\n\n\nWilliam Okech, PhD\n\n\nAug 29, 2023\n\n\n\n\n\n\n\n\nNo matching items\n\n\nDownload PowerPoint Presentation"
   }
 ]

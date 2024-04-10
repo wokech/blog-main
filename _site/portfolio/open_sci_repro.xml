@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>William Okech</title>
+<link>https://williamokech.com/portfolio/open_sci_repro.html</link>
+<atom:link href="https://williamokech.com/portfolio/open_sci_repro.xml" rel="self" type="application/rss+xml"/>
+<description>This is William Okech&#39;s personal Blog.</description>
+<generator>quarto-1.4.549</generator>
+<lastBuildDate>Mon, 28 Aug 2023 21:00:00 GMT</lastBuildDate>
+<item>
+  <title></title>
+  <dc:creator>William Okech, PhD</dc:creator>
+  <link>https://williamokech.com/portfolio/presentations/min_cog_overload/min_cog_overload.html</link>
+  <description><![CDATA[ undefined ]]></description>
+  <guid>https://williamokech.com/portfolio/presentations/min_cog_overload/min_cog_overload.html</guid>
+  <pubDate>Mon, 28 Aug 2023 21:00:00 GMT</pubDate>
+</item>
+<item>
+  <title></title>
+  <dc:creator>William Okech, PhD</dc:creator>
+  <link>https://williamokech.com/portfolio/presentations/comp_thinking/comp_thinking.html</link>
+  <description><![CDATA[ undefined ]]></description>
+  <guid>https://williamokech.com/portfolio/presentations/comp_thinking/comp_thinking.html</guid>
+  <pubDate>Sun, 14 May 2023 21:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

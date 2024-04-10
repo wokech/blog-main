@@ -30,5 +30,12 @@
   {
     "listing": "/series/series_2.html",
     "items": []
+  },
+  {
+    "listing": "/portfolio/open_sci_repro.html",
+    "items": [
+      "/portfolio/presentations/comp_thinking/comp_thinking.html",
+      "/portfolio/presentations/min_cog_overload/min_cog_overload.html"
+    ]
   }
 ]

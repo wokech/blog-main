@@ -5,11 +5,11 @@ toc: true
 
 # A. Linktree
 
-To see some of my data visualization work look at the social media websites in the link.tree website below. These include links to **Instagram, X (formerly Twitter), Threads, TikTok, YouTube, Reddit, and Pinterest** webpages.
+To see some of my data visualization work look at the social media websites in the link.tree website below. 
 
 [African Data Visualization Hub (afro_dataviz)](https://linktr.ee/afro_dataviz)
 
-OR look at previews of some of the social medial links below
+OR look at previews of some of the social media links below
 
 # B. Instagram
 
@@ -21,7 +21,6 @@ OR look at previews of some of the social medial links below
 ```{=html}
 <a class="twitter-timeline" href="https://twitter.com/afro_dataviz?ref_src=twsrc%5Etfw">Tweets by afro_dataviz</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 ```
-
 # D. Tiktok
 
 ```{=html}
