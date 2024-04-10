@@ -10,16 +10,16 @@ about:
       href: mailto:willyokech@gmail.com
 comments: false
 ---
+
 ::: {#hero-heading style="text-align:center"}
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-<div class="icon-links">
-  <a href="blog_cv/Resume_William_Okech_Website_2023.pdf" target="_blank" title = "Resume"><i class="fas fa-file-alt"></i></a>
-  <a href="https://www.linkedin.com/in/williamokech/" target="_blank" title = "LinkedIn"><i class="fab fa-linkedin"></i></a>
-  <a href="https://github.com/wokech" target="_blank" title = "GitHub"><i class="fab fa-github"></i></a>
-  <a href="blog.qmd" target="_blank" title = "Blog"><i class="fas fa-blog"></i></a>
-  <a href="portfolio/apps.qmd" target="_blank" title = "Portfolio"><i class="fas fa-briefcase"></i></a>
-  <a href="portfolio/soc_med.qmd" target="_blank" title = "Social Media"><i class="fab fa-instagram"></i></a>
-</div>
+
+::: icon-links
+<a href="blog_cv/Resume_William_Okech_Website_2023.pdf" target="_blank" title = "Resume"><i class="fas fa-file-alt"></i></a> 
+<a href="https://www.linkedin.com/in/williamokech/" target="_blank" title = "LinkedIn"><i class="fab fa-linkedin"></i></a> 
+<a href="https://github.com/wokech" target="_blank" title = "GitHub"><i class="fab fa-github"></i></a> 
+<a href="blog.qmd" target="_blank" title = "Blog"><i class="fas fa-blog"></i></a> 
+<a href="portfolio/apps.qmd" target="_blank" title = "My Apps"><i class="fas fa-briefcase"></i></a> 
+<a href="portfolio/soc_med.qmd" target="_blank" title = "Data Visualization"><i class="fab fa-instagram"></i></a>
 :::
-
-
+:::

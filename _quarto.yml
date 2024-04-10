@@ -46,25 +46,8 @@ website:
     tracking-id: "G-1VX0Q2FQEV"
     anonymize-ip: true
   page-footer:
-    left: "Blog made using [Quarto](https://quarto.org/), by William Okech. License: [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/)"
-    right:
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com/willyokech
-    - icon: linkedin
-      text: LinkedIn
-      href: https://www.linkedin.com/in/williamokech/
-    - icon: github
-      text: Github
-      href: https://github.com/wokech
-    - icon: medium
-      text: Medium
-      href: https://medium.com/@willyokech
-    - icon: envelope
-      text: Email
-      href: mailto:willyokech@gmail.com
-    
-      
+    left: "Website made using [Quarto](https://quarto.org/), by William Okech. License: [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/)"
+
 format:
   html:
     theme: journal
