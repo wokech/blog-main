@@ -1,37 +1,25 @@
 ---
-title: "William Okech"
+title: "Hello, I'm William!"
+subtitle: "Biomedical Engineer | Research Scientist | Editor"
 image: william_profile.jpg
 about:
   template: jolla
   links:
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com/willyokech
-    - icon: linkedin
-      text: LinkedIn
-      href: https://www.linkedin.com/in/williamokech/
-    - icon: github
-      text: Github
-      href: https://github.com/wokech
-    - icon: medium
-      text: Medium
-      href: https://medium.com/@willyokech
     - icon: envelope
       text: Email
       href: mailto:willyokech@gmail.com
 comments: false
 ---
-
-::: {#hero-heading style="text-align:left"}
-I am a research scientist, science editor, and data literacy trainer ([here](https://digital-research.academy/trainers/WilliamOkech/) and [here](https://carpentries.org/instructors/)) with a background in Biomedical Engineering. My primary interests include:
-
-• Biotechnology and Bioengineering
-
-• Data Visualization (See samples of my work [here](portfolio/soc_med.qmd))
-
-In the [**blog**](blog.qmd) section, I hope to introduce readers to the basics of data analysis and visualization, and provide a periodic summary of recent advances in biotechnology and bioengineering.
-
-Additionally, the portfolio section showcases some of my [**projects**](portfolio/apps.qmd) and work on [**social media**](portfolio/soc_med.qmd).
-
-Lastly, the resources section offers a list of curated website links that address a wide variety of topics in STEM.
+::: {#hero-heading style="text-align:center"}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<div class="icon-links">
+  <a href="blog_cv/Resume_William_Okech_Website_2023.pdf" target="_blank" title = "Resume"><i class="fas fa-file-alt"></i></a>
+  <a href="https://www.linkedin.com/in/williamokech/" target="_blank" title = "LinkedIn"><i class="fab fa-linkedin"></i></a>
+  <a href="https://github.com/wokech" target="_blank" title = "GitHub"><i class="fab fa-github"></i></a>
+  <a href="blog.qmd" target="_blank" title = "Blog"><i class="fas fa-blog"></i></a>
+  <a href="portfolio/apps.qmd" target="_blank" title = "Portfolio"><i class="fas fa-briefcase"></i></a>
+  <a href="portfolio/soc_med.qmd" target="_blank" title = "Social Media"><i class="fab fa-instagram"></i></a>
+</div>
 :::
+
+

@@ -18,7 +18,7 @@ To get started, first, we will open R or RStudio. In R, go to the console, and i
 An example of a basic calculation:
 
 ```{r}
-1+1
+1 + 1
 ```
 
 The output will be observed next to the square bracket containing the number 1 (\[1\]).
@@ -29,7 +29,7 @@ Additionally, to include comments into the code block we use the hash (#) symbol
 
 ```{r}
 # A simple arithmetic calculation (which is not run because of the hash symbol)
-1+1
+1 + 1
 ```
 
 ## Arithmetic operators available in R/RStudio
@@ -51,25 +51,25 @@ Various arithmetic operators (listed below) can be used in R/RStudio.
 ### Addition
 
 ```{r}
-10+30
+10 + 30
 ```
 
 ### Subtraction
 
 ```{r}
-30-24
+30 - 24
 ```
 
 ### Multiplication
 
 ```{r}
-20*4
+20 * 4
 ```
 
 ### Division
 
 ```{r}
-93/4
+93 / 4
 ```
 
 ### Exponentiation
@@ -81,17 +81,17 @@ Various arithmetic operators (listed below) can be used in R/RStudio.
 ### Modulus (remainder with division)
 
 ```{r}
-94%%5
+94 %% 5
 ```
 
 ### Integer Division
 
 ```{r}
-54%/%7
+54 %/% 7
 ```
 
 ### Slightly more complex arithmetic operations
 
 ```{r}
-5-1+(4*3)/16*3
+5 - 1 + (4 * 3) / 16 * 3
 ```
