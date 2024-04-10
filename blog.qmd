@@ -1,6 +1,26 @@
 ---
-title: "Blog Posts"
+title: "Blog"
 listing:
+  - id: posts_biotech
+    contents: posts/biotech/
+    sort: "date desc"
+    type: grid
+    categories: true
+    sort-ui: true
+    filter-ui: true
+    fields: [image, date, title, subtitle, author, reading-time, description, categories]
+    feed: true
+    page-size: 3
+  - id: posts_code_along_with_me
+    contents: posts/code_along_with_me/
+    sort: "date desc"
+    type: grid
+    categories: true
+    sort-ui: true
+    filter-ui: true
+    fields: [image, date, title, subtitle, author, reading-time, description, categories]
+    feed: true
+    page-size: 3
   - id: posts_r_rstudio_basics
     contents: posts/r_rstudio_basics/
     sort: "date desc"
@@ -21,28 +41,8 @@ listing:
     fields: [image, date, title, subtitle, author, reading-time, description, categories]
     feed: true
     page-size: 3
-  - id: posts_code_along_with_me
-    contents: posts/code_along_with_me/
-    sort: "date desc"
-    type: grid
-    categories: true
-    sort-ui: true
-    filter-ui: true
-    fields: [image, date, title, subtitle, author, reading-time, description, categories]
-    feed: true
-    page-size: 3
   - id: posts_r_tistry
     contents: posts/r_tistry/
-    sort: "date desc"
-    type: grid
-    categories: true
-    sort-ui: true
-    filter-ui: true
-    fields: [image, date, title, subtitle, author, reading-time, description, categories]
-    feed: true
-    page-size: 3    
-  - id: posts_biotech
-    contents: posts/biotech/
     sort: "date desc"
     type: grid
     categories: true
@@ -57,6 +57,18 @@ comments: false
 toc: true
 ---
 
+Currently, my blog has two main focus areas: (1) Biotechnology, and (2) R Programming and Data Visualization. It provides my personal thoughts on the potential of biotechnology, as well as tutorials for those getting started with R programming and data visualization.
+
+## Biotechnology
+
+::: {#posts_biotech}
+:::
+
+## Code Along With Me
+
+::: {#posts_code_along_with_me}
+:::
+
 ## R and RStudio Basics
 
 ::: {#posts_r_rstudio_basics}
@@ -65,14 +77,4 @@ toc: true
 ## Data Stories
 
 ::: {#posts_data_stories}
-:::
-
-## Code Along With Me
-
-::: {#posts_code_along_with_me}
-:::
-
-## Biotechnology
-
-::: {#posts_biotech}
 :::

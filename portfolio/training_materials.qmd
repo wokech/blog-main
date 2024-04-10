@@ -17,17 +17,20 @@ page-layout: full
 title-block-banner: false
 comments: false
 toc: true
-
 ---
+
+Here, I provide selected presentations focused on the principles of teaching STEM subjects and computational thinking.
 
 ## Computational Thinking
 
 ::: {#posts_comp_thinking}
 :::
+
 [Download PowerPoint Presentation](presentations/comp_thinking/comp_thinking.pptx)
 
 ## Minimizing Cognitive Overload
 
 ::: {#posts_min_cog_overload}
 :::
+
 [Download PowerPoint Presentation](presentations/min_cog_overload/min_cog_overload.pptx)

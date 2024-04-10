@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>William Okech - Blog Posts</title>
+<title>William Okech - Blog</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -74,6 +74,62 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-posts_biotech .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-date','listing-title','listing-subtitle','listing-author','listing-reading-time','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-posts_biotech'] = new List('listing-posts_biotech', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-posts_code_along_with_me .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-date','listing-title','listing-subtitle','listing-author','listing-reading-time','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-posts_code_along_with_me'] = new List('listing-posts_code_along_with_me', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
     const listingTargetEl = window.document.querySelector('#listing-posts_r_rstudio_basics .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
@@ -131,34 +187,6 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-posts_code_along_with_me .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-date','listing-title','listing-subtitle','listing-author','listing-reading-time','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-posts_code_along_with_me'] = new List('listing-posts_code_along_with_me', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
     const listingTargetEl = window.document.querySelector('#listing-posts_r_tistry .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
@@ -173,34 +201,6 @@ ul.task-list li input[type="checkbox"] {
 
     window['quarto-listings'] = window['quarto-listings'] || {};
     window['quarto-listings']['listing-posts_r_tistry'] = new List('listing-posts_r_tistry', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-posts_biotech .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-date','listing-title','listing-subtitle','listing-author','listing-reading-time','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-posts_biotech'] = new List('listing-posts_biotech', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -297,39 +297,19 @@ window.Quarto = {
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="./blog.html" aria-current="page"> 
-<span class="menu-text">Blog Posts</span></a>
+<span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./portfolio/soc_med.html"> 
+    <a class="nav-link" href="./portfolio/data_viz.html"> 
 <span class="menu-text">Data Visualization</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./portfolio/apps.html"> 
+    <a class="nav-link" href="./portfolio/projects.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./portfolio/open_sci_repro.html"> 
+    <a class="nav-link" href="./portfolio/training_materials.html"> 
 <span class="menu-text">Training Materials</span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/wokech"> <i class="bi bi-github" role="img" aria-label="Github">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com/willyokech"> <i class="bi bi-twitter" role="img" aria-label="Twitter">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://medium.com/@willyokech"> <i class="bi bi-medium" role="img" aria-label="Medium">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://www.linkedin.com/in/williamokech/"> <i class="bi bi-linkedin" role="img" aria-label="LinkedIn">
-</i> 
-<span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="./blog.xml"> <i class="bi bi-rss" role="img">
@@ -352,10 +332,10 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#r-and-rstudio-basics" id="toc-r-and-rstudio-basics" class="nav-link active" data-scroll-target="#r-and-rstudio-basics">R and RStudio Basics</a></li>
-  <li><a href="#data-stories" id="toc-data-stories" class="nav-link" data-scroll-target="#data-stories">Data Stories</a></li>
+  <li><a href="#biotechnology" id="toc-biotechnology" class="nav-link active" data-scroll-target="#biotechnology">Biotechnology</a></li>
   <li><a href="#code-along-with-me" id="toc-code-along-with-me" class="nav-link" data-scroll-target="#code-along-with-me">Code Along With Me</a></li>
-  <li><a href="#biotechnology" id="toc-biotechnology" class="nav-link" data-scroll-target="#biotechnology">Biotechnology</a></li>
+  <li><a href="#r-and-rstudio-basics" id="toc-r-and-rstudio-basics" class="nav-link" data-scroll-target="#r-and-rstudio-basics">R and RStudio Basics</a></li>
+  <li><a href="#data-stories" id="toc-data-stories" class="nav-link" data-scroll-target="#data-stories">Data Stories</a></li>
   </ul>
 </nav>
     <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(15)</span></div><div class="category" data-category="Biotechnology">Biotechnology <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Blog">Blog <span class="quarto-category-count">(15)</span></div><div class="category" data-category="Data Stories">Data Stories <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Data Visualization">Data Visualization <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Kenya Census">Kenya Census <span class="quarto-category-count">(2)</span></div><div class="category" data-category="R">R <span class="quarto-category-count">(15)</span></div><div class="category" data-category="R-tistry">R-tistry <span class="quarto-category-count">(2)</span></div><div class="category" data-category="RStudio">RStudio <span class="quarto-category-count">(15)</span></div><div class="category" data-category="Tutorial">Tutorial <span class="quarto-category-count">(11)</span></div></div></div>
@@ -364,7 +344,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Blog Posts</h1>
+<h1 class="title">Blog</h1>
 </div>
 
 
@@ -381,6 +361,170 @@ window.Quarto = {
 </header>
 
 
+<p>Currently, my blog has two main focus areas: (1) Biotechnology, and (2) R Programming and Data Visualization. It provides my personal thoughts on the potential of biotechnology, as well as tutorials for those getting started with R programming and data visualization.</p>
+<section id="biotechnology" class="level2">
+<h2 class="anchored" data-anchor-id="biotechnology">Biotechnology</h2>
+<div id="listing-posts_biotech" class="quarto-listing quarto-listing-container-grid">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-posts_biotech-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-posts_biotech'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-title" data-direction="asc">
+          Title
+        </option>
+         <option value="listing-date-sort" data-direction="asc">
+          Date - Oldest
+        </option>
+         <option value="listing-date-sort" data-direction="desc">
+          Date - Newest
+        </option>
+         <option value="listing-author" data-direction="asc">
+          Author
+        </option>
+     </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="RStudio,R,Biotechnology,Blog,Data Visualization" data-listing-date-sort="1698354000000" data-listing-file-modified-sort="1701972700130" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="13" data-listing-word-count-sort="2505">
+<a href="./posts/biotech/alt_protein/alt_protein_intro.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/biotech/alt_protein/images/biotech_cover.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Biotechnology for the Global South (Part 1)
+</h5>
+<div class="card-subtitle listing-subtitle">
+Developing alternative proteins to reduce childhood hunger and improve food production in low-income countries
+</div>
+<div class="listing-reading-time card-text text-muted">
+13 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('RStudio'); return false;">
+RStudio
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
+R
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Biotechnology'); return false;">
+Biotechnology
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Blog'); return false;">
+Blog
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Data Visualization'); return false;">
+Data Visualization
+</div>
+</div>
+<div class="card-text listing-description">
+In the year 2022, between 691 and 783 million people were hungry <sup>1</sup>. This alarming figure indicates that almost one-tenth (1/10) of the world’s population (in 2022) did not…<sup></sup><sup></sup><sup></sup><sup></sup>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+William Okech
+</div>
+<div class="listing-date">
+Oct 27, 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="code-along-with-me" class="level2">
+<h2 class="anchored" data-anchor-id="code-along-with-me">Code Along With Me</h2>
+<div id="listing-posts_code_along_with_me" class="quarto-listing quarto-listing-container-grid">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-posts_code_along_with_me-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-posts_code_along_with_me'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-title" data-direction="asc">
+          Title
+        </option>
+         <option value="listing-date-sort" data-direction="asc">
+          Date - Oldest
+        </option>
+         <option value="listing-date-sort" data-direction="desc">
+          Date - Newest
+        </option>
+         <option value="listing-author" data-direction="asc">
+          Author
+        </option>
+     </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="RStudio,R,Tutorial,Blog" data-listing-date-sort="1701118800000" data-listing-file-modified-sort="1701950637687" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="19" data-listing-word-count-sort="3607">
+<a href="./posts/code_along_with_me/danger_disturb/danger_disturb.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/code_along_with_me/danger_disturb/images/code_along_with_me_cover.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Code Along With Me (Episode 1)
+</h5>
+<div class="card-subtitle listing-subtitle">
+An assessment of the livestock numbers in the six counties declared to be ‘disturbed and dangerous’ in Kenya
+</div>
+<div class="listing-reading-time card-text text-muted">
+19 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('RStudio'); return false;">
+RStudio
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
+R
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Tutorial'); return false;">
+Tutorial
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Blog'); return false;">
+Blog
+</div>
+</div>
+<div class="card-text listing-description">
+In February 2023, the government of Kenya described six counties as “disturbed” and “dangerous.” This is because in the preceding six months, over 100 civilians and 16…
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+William Okech
+</div>
+<div class="listing-date">
+Nov 28, 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
 <section id="r-and-rstudio-basics" class="level2">
 <h2 class="anchored" data-anchor-id="r-and-rstudio-basics">R and RStudio Basics</h2>
 <div id="listing-posts_r_rstudio_basics" class="quarto-listing quarto-listing-container-grid">
@@ -946,169 +1090,6 @@ William Okech
 </div>
 <div class="listing-date">
 Jun 30, 2022
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-</section>
-<section id="code-along-with-me" class="level2">
-<h2 class="anchored" data-anchor-id="code-along-with-me">Code Along With Me</h2>
-<div id="listing-posts_code_along_with_me" class="quarto-listing quarto-listing-container-grid">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-posts_code_along_with_me-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-posts_code_along_with_me'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Order By</option>
-       <option value="index" data-direction="asc">Default</option>
-         <option value="listing-title" data-direction="asc">
-          Title
-        </option>
-         <option value="listing-date-sort" data-direction="asc">
-          Date - Oldest
-        </option>
-         <option value="listing-date-sort" data-direction="desc">
-          Date - Newest
-        </option>
-         <option value="listing-author" data-direction="asc">
-          Author
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="RStudio,R,Tutorial,Blog" data-listing-date-sort="1701118800000" data-listing-file-modified-sort="1701950637687" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="19" data-listing-word-count-sort="3607">
-<a href="./posts/code_along_with_me/danger_disturb/danger_disturb.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./posts/code_along_with_me/danger_disturb/images/code_along_with_me_cover.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Code Along With Me (Episode 1)
-</h5>
-<div class="card-subtitle listing-subtitle">
-An assessment of the livestock numbers in the six counties declared to be ‘disturbed and dangerous’ in Kenya
-</div>
-<div class="listing-reading-time card-text text-muted">
-19 min
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('RStudio'); return false;">
-RStudio
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
-R
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Tutorial'); return false;">
-Tutorial
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Blog'); return false;">
-Blog
-</div>
-</div>
-<div class="card-text listing-description">
-In February 2023, the government of Kenya described six counties as “disturbed” and “dangerous.” This is because in the preceding six months, over 100 civilians and 16…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-William Okech
-</div>
-<div class="listing-date">
-Nov 28, 2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-</section>
-<section id="biotechnology" class="level2">
-<h2 class="anchored" data-anchor-id="biotechnology">Biotechnology</h2>
-<div id="listing-posts_biotech" class="quarto-listing quarto-listing-container-grid">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-posts_biotech-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-posts_biotech'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Order By</option>
-       <option value="index" data-direction="asc">Default</option>
-         <option value="listing-title" data-direction="asc">
-          Title
-        </option>
-         <option value="listing-date-sort" data-direction="asc">
-          Date - Oldest
-        </option>
-         <option value="listing-date-sort" data-direction="desc">
-          Date - Newest
-        </option>
-         <option value="listing-author" data-direction="asc">
-          Author
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="RStudio,R,Biotechnology,Blog,Data Visualization" data-listing-date-sort="1698354000000" data-listing-file-modified-sort="1701972700130" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="13" data-listing-word-count-sort="2505">
-<a href="./posts/biotech/alt_protein/alt_protein_intro.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./posts/biotech/alt_protein/images/biotech_cover.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Biotechnology for the Global South (Part 1)
-</h5>
-<div class="card-subtitle listing-subtitle">
-Developing alternative proteins to reduce childhood hunger and improve food production in low-income countries
-</div>
-<div class="listing-reading-time card-text text-muted">
-13 min
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('RStudio'); return false;">
-RStudio
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
-R
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Biotechnology'); return false;">
-Biotechnology
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Blog'); return false;">
-Blog
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Data Visualization'); return false;">
-Data Visualization
-</div>
-</div>
-<div class="card-text listing-description">
-In the year 2022, between 691 and 783 million people were hungry <sup>1</sup>. This alarming figure indicates that almost one-tenth (1/10) of the world’s population (in 2022) did not…<sup></sup><sup></sup><sup></sup><sup></sup>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-William Okech
-</div>
-<div class="listing-date">
-Oct 27, 2023
 </div>
 </div>
 </div>

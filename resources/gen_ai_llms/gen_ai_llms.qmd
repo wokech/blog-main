@@ -1,6 +1,0 @@
----
-title: "Generative AI and Large Language Models"
-toc: true
----
-
-This page contains a comprehensive collection of guides and resources to help you learn about generative AI and large language models (LLM). 

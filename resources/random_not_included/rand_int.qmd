@@ -1,8 +1,0 @@
----
-title: "Random Interests"
-toc: true
----
-
-## A curated collection of resources
-
-## 1. [Agriculture and Farming Stories](agric_farm.qmd)

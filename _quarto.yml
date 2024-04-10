@@ -10,25 +10,14 @@ website:
     right:
       - text: Resume
         file: blog_cv/Resume_William_Okech_Website_2023.pdf
-      - blog.qmd
+      - text: Blog
+        file: blog.qmd
       - text: Data Visualization
-        file: portfolio/soc_med.qmd
+        file: portfolio/data_viz.qmd
       - text: Projects
-        file: portfolio/apps.qmd
+        file: portfolio/projects.qmd
       - text: Training Materials
-        file: portfolio/open_sci_repro.qmd
-      - icon: github
-        href: https://github.com/wokech
-        aria-label: Github
-      - icon: twitter
-        href: https://twitter.com/willyokech
-        aria-label: Twitter
-      - icon: medium
-        href: https://medium.com/@willyokech
-        aria-label: Medium
-      - icon: linkedin
-        href: https://www.linkedin.com/in/williamokech/
-        aria-label: LinkedIn
+        file: portfolio/training_materials.qmd
       - icon: rss
         href: blog.xml
   cookie-consent:
