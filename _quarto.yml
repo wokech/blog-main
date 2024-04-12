@@ -9,7 +9,7 @@ website:
   navbar:
     right:
       - text: Resume
-        file: blog_cv/Resume_William_Okech_Website_2023.pdf
+        file: blog_cv/Resume_William_Okech_Website_2024.pdf
       - text: Blog
         file: blog.qmd
       - text: Data Visualization
