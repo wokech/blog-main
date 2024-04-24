@@ -20,10 +20,10 @@ website:
         file: portfolio/training_materials.qmd
       - icon: rss
         href: blog.xml
-  cookie-consent:
-    type: express
-    style: headline
-    palette: dark
+#  cookie-consent:
+#    type: express
+#    style: headline
+#    palette: dark
   google-analytics:
     tracking-id: "G-1VX0Q2FQEV"
     anonymize-ip: true
