@@ -3043,5 +3043,117 @@
     "title": "Social Media",
     "section": "ii. Tiktok",
     "text": "ii. Tiktok\n  @afro_dataviz"
+  },
+  {
+    "objectID": "readings/readings.html",
+    "href": "readings/readings.html",
+    "title": "Recommended Readings",
+    "section": "",
+    "text": "The recommended readings page contains articles, stories, and books that I have read and enjoyed. There is a specific focus on STEM and another general section for everyone."
+  },
+  {
+    "objectID": "readings/readings.html#stem-students",
+    "href": "readings/readings.html#stem-students",
+    "title": "Recommended Readings",
+    "section": "STEM students",
+    "text": "STEM students\n\n1. Recommended Readings"
+  },
+  {
+    "objectID": "readings/readings.html#for-everyone",
+    "href": "readings/readings.html#for-everyone",
+    "title": "Recommended Readings",
+    "section": "For Everyone",
+    "text": "For Everyone\n\n1. Recommended Readings"
+  },
+  {
+    "objectID": "readings/reading_stem.html",
+    "href": "readings/reading_stem.html",
+    "title": "Recommended Readings (STEM)",
+    "section": "",
+    "text": "This page contains a list of readings that I would recommend for upper-level undergraduate and graduate students getting started in STEM research. It includes articles focused on best practices, important research papers, and science integrity."
+  },
+  {
+    "objectID": "readings/reading_stem.html#best-practices",
+    "href": "readings/reading_stem.html#best-practices",
+    "title": "Recommended Readings (STEM)",
+    "section": "Best Practices",
+    "text": "Best Practices\n\nHow to succeed in science: a concise guide for young biomedical scientists. Part I: taking the plunge. Yewdell JW, Nat Rev Mol Cell Biol. (2008).\nHow to succeed in science: a concise guide for young biomedical scientists. Part II: making discoveries. Yewdell JW, Nat Rev Mol Cell Biol. (2008).\nThe importance of stupidity in scientific research. Schwartz MA, J Cell Sci. (2008).\nUnskilled and unaware of it: how difficulties in recognizing one’s own incompetence lead to inflated self-assessments (Dunning-Kruger Effect). Kruger J and Dunning D, J Pers Soc Psychol. (1999).\nHow to choose a good scientific problem. Alon U, Mol Cell. (2009).\nPLOS “Ten Simple Rules” Collection provides a quick, concentrated guide for mastering some of the professional challenges research scientists face in their careers. PloS.\nResources for PhD Students Guillaume Dalle."
+  },
+  {
+    "objectID": "readings/reading_stem.html#challenges",
+    "href": "readings/reading_stem.html#challenges",
+    "title": "Recommended Readings (STEM)",
+    "section": "Challenges",
+    "text": "Challenges\n\nThe Emotional Toll of Graduate School. Puri P, Sci Am. (2019).\nPhDs: the tortuous truth. Woolston C, Nature (2019).\nWhy doing a PhD is often a waste of time The Economist, Medium (2016).\nThere’s an awful cost to getting a PhD that no one talks about Walker J, Quartz (2015).\nStrategies for Supporting Engineering Student Mental Health Wilson & Goldberg, CEE (2023).\nPrioritizing mental health and wellness in engineering S. Wilson, ASEE (2022)"
+  },
+  {
+    "objectID": "readings/reading_stem.html#transformative-research-papers-in-biomedical-science",
+    "href": "readings/reading_stem.html#transformative-research-papers-in-biomedical-science",
+    "title": "Recommended Readings (STEM)",
+    "section": "Transformative Research Papers in Biomedical Science",
+    "text": "Transformative Research Papers in Biomedical Science\n\nA Programmable Dual-RNA-Guided DNA Endonuclease in Adaptive Bacterial Immunity Jinek et al., Science (2012) from the Doudna and Charpentier Lab\nInduction of pluripotent stem cells from mouse embryonic and adult fibroblast cultures by defined factors Takahashi et al., Cell (2006) from the Yamanaka Lab\nInduction of pluripotent stem cells from adult human fibroblasts by defined factors Takahashi et al., Cell (2006) from the Yamanaka Lab\nMatrix Elasticity Directs Stem Cell Lineage Specification Engler et al., Cell (2006) from the Discher Lab"
+  },
+  {
+    "objectID": "readings/reading_stem.html#statistics",
+    "href": "readings/reading_stem.html#statistics",
+    "title": "Recommended Readings (STEM)",
+    "section": "Statistics",
+    "text": "Statistics\n\nWhat exactly is ‘N’ in cell culture and animal experiments? Lazic SE et al., PloS Biol. (2018).\nSuperPlots: Communicating reproducibility and variability in cell biology. Lord SJ et al., J Cell Biol. (2020).\nTen common statistical mistakes to watch out for when writing or reviewing a manuscript. Makin TR et al. eLife (2019).\nBeyond bar and line graphs: time for a new data presentation paradigm. Weissgerber TL et al. PloS Biol. (2015).\nStatistical relevance—relevant statistics, part I. Klaus B EMBO J. (2015).\nStatistical relevance-relevant statistics, part II: presenting experimental data. Klaus B EMBO J. (2015).\nTen simple rules for getting started with statistics in graduate school Zitomer RA et al. PloS Comput Biol. (2022)."
+  },
+  {
+    "objectID": "readings/reading_stem.html#writing",
+    "href": "readings/reading_stem.html#writing",
+    "title": "Recommended Readings (STEM)",
+    "section": "Writing",
+    "text": "Writing\n\nACS Guide to Scholarly Communication. ACS. (2020).\nThe art of writing science. Plaxco KW, Prot. Sci. (2010).\nWhitesides’ Group: Writing a Paper. Whitesides GM, Adv. Mat. (2004).\nHow to write a first-class paper. Gewin V, Nature (2018).\nWriting readable prose: When planning a scientific manuscript, following a few simple rules has a large impact. Bredan AS & van Roy F, EMBO Rep. (2006).\nTen simple rules for structuring papers Mensh B & Kording K, PLoS Comp Biol. (2017).\nWrite accessibly Editors, Nat Biomed Eng. (2021)."
+  },
+  {
+    "objectID": "readings/reading_stem.html#science-integrity",
+    "href": "readings/reading_stem.html#science-integrity",
+    "title": "Recommended Readings (STEM)",
+    "section": "Science Integrity",
+    "text": "Science Integrity\n\nScience Integrity Digest Bik E\nBrookes Lab Brookes P. Sample Post focused on “Fake Data”\nPubPeer: The Online Journal Club\nFor Better Science Schneider L\nRetraction Watch\nAutomatic detection of image manipulations in the biomedical literature Bucci EM, Cell Death and Disease (2018).\nLearning to identify image manipulations in scientific publications Mazaheri G et al., arXiv (2021).\nPublishing ethics in the era of paper mills Hackett R and Kelly S, Biol Open (2020)."
+  },
+  {
+    "objectID": "readings/reading_general.html",
+    "href": "readings/reading_general.html",
+    "title": "Recommended Readings (General)",
+    "section": "",
+    "text": "This page contains a list of readings that I would recommend for anyone. It includes articles with topics that range from religion, mental health, classic books and short stories."
+  },
+  {
+    "objectID": "readings/reading_general.html#interesting-articles-and-speeches",
+    "href": "readings/reading_general.html#interesting-articles-and-speeches",
+    "title": "Recommended Readings (General)",
+    "section": "Interesting Articles and Speeches",
+    "text": "Interesting Articles and Speeches\n\nHow Will You Measure Your Life? Clayton Christensen (2010)\nA World Split Apart. Alexander Solzhenitsyn (1978)\nThe Inner Ring. CS Lewis (1944)"
+  },
+  {
+    "objectID": "readings/reading_general.html#my-favorite-short-stories",
+    "href": "readings/reading_general.html#my-favorite-short-stories",
+    "title": "Recommended Readings (General)",
+    "section": "My Favorite Short Stories",
+    "text": "My Favorite Short Stories\n\nHow Much Land Does a Man Require? Leo Tolstoy (1886)\nThe Americanization of Kambili. Tochi Eze (2022) Link\nThe Street Sweep. Meron Hadero (2018) Link"
+  },
+  {
+    "objectID": "readings/reading_general.html#classics",
+    "href": "readings/reading_general.html#classics",
+    "title": "Recommended Readings (General)",
+    "section": "Classics",
+    "text": "Classics\n\nNight (Elie Wiesel)\nGilead (Marilynne Robinson)"
+  },
+  {
+    "objectID": "readings/reading_general.html#mental-health-counseling-peace-of-mind",
+    "href": "readings/reading_general.html#mental-health-counseling-peace-of-mind",
+    "title": "Recommended Readings (General)",
+    "section": "Mental Health / Counseling / Peace of Mind",
+    "text": "Mental Health / Counseling / Peace of Mind\n\nWhen People Are Big and God Is Small: Overcoming Peer Pressure, Codependency, and the Fear of Man (Edward T. Welch)\nSeeing with New Eyes: Counseling and the Human Condition Through the Lens of Scripture (David A. Powlison)\nMan’s Search for Meaning (Viktor E. Frankl)\nAbsence of Mind: The Dispelling of Inwardness from the Modern Myth of the Self (Marilynne Robinson)"
+  },
+  {
+    "objectID": "readings/reading_general.html#religious",
+    "href": "readings/reading_general.html#religious",
+    "title": "Recommended Readings (General)",
+    "section": "Religious",
+    "text": "Religious\n\nThe Reason for God: Belief in an Age of Skepticism (Timothy J. Keller)\nThe Cost of Discipleship (Dietrich Bonhoeffer)\nA Treatise of Earthly-Mindedness (Jeremiah Burroughs)\nThe Knowledge of the Holy (A.W. Tozer)\nThe Pursuit of God: The Human Thirst for the Divine (A.W. Tozer)\nA Bunch of Everlastings; Or, Texts That Made History (F.W. Boreham)\nA Packet of Surprises: The Best Essays and Sermons of F. W. Boreham (F.W. Boreham)\nThe Screwtape Letters (C.S. Lewis)\nThe Last Sin Eater (Francine Rivers)\nMere Christianity (C.S. Lewis)"
   }
 ]
