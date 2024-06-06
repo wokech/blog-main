@@ -24,7 +24,7 @@ This page contains a list of readings that I would recommend for upper-level und
 5)  [Strategies for Supporting Engineering Student Mental Health](https://journals.flvc.org/cee/article/view/132290) Wilson & Goldberg, CEE (2023).
 6)  [Prioritizing mental health and wellness in engineering](https://diversity.asee.org/deicommittee/2022/03/29/prioritizing-mental-health-and-wellness-in-engineering/) S. Wilson, ASEE (2022)
 
-## Transformative Research Papers in Biomedical Science
+## Transformative Research Papers in Biomedical Science (in progress)
 
 1)  [A Programmable Dual-RNA-Guided DNA Endonuclease in Adaptive Bacterial Immunity](https://www.science.org/doi/10.1126/science.1225829) Jinek et al., Science (2012) from the Doudna and Charpentier Lab
 2)  [Induction of pluripotent stem cells from mouse embryonic and adult fibroblast cultures by defined factors](https://www.cell.com/cell/fulltext/S0092-8674(06)00976-7) Takahashi et al., Cell (2006) from the Yamanaka Lab
