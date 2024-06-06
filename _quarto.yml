@@ -18,6 +18,8 @@ website:
         file: portfolio/projects.qmd
       - text: Training Materials
         file: portfolio/training_materials.qmd
+      - text: Readings
+        file: readings/readings.qmd
       - icon: rss
         href: blog.xml
 #  cookie-consent:
