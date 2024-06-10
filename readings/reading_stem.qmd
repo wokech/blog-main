@@ -14,6 +14,8 @@ This page contains a list of readings that I would recommend for upper-level und
 5)  [How to choose a good scientific problem.](https://pubmed.ncbi.nlm.nih.gov/19782018/) Alon U, Mol Cell. (2009).
 6)  [PLOS "Ten Simple Rules" Collection provides a quick, concentrated guide for mastering some of the professional challenges research scientists face in their careers.](https://collections.plos.org/collection/ten-simple-rules/) PloS.
 7)  [Resources for PhD Students](https://gdalle.github.io/phd-resources/) Guillaume Dalle.
+8) [Pessimistic scientific articles by Abhishaike Mahajan](https://www.abhishaike.com/p/a-primer-on-my-favorite-pessimistic)
+9) [The Codon Guide to Synthetic Biology](https://www.asimov.press/p/synbio-guide)
 
 ## Challenges
 
@@ -23,6 +25,7 @@ This page contains a list of readings that I would recommend for upper-level und
 4)  [There's an awful cost to getting a PhD that no one talks about](https://qz.com/547641/theres-an-awful-cost-to-getting-a-phd-that-no-one-talks-about) Walker J, Quartz (2015).
 5)  [Strategies for Supporting Engineering Student Mental Health](https://journals.flvc.org/cee/article/view/132290) Wilson & Goldberg, CEE (2023).
 6)  [Prioritizing mental health and wellness in engineering](https://diversity.asee.org/deicommittee/2022/03/29/prioritizing-mental-health-and-wellness-in-engineering/) S. Wilson, ASEE (2022)
+7) [Falling behind: postdocs in their thirties tire of putting life on hold](https://www.nature.com/articles/d41586-023-03296-9)
 
 ## Transformative Research Papers in Biomedical Science (in progress)
 
