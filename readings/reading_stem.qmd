@@ -16,6 +16,8 @@ This page contains a list of readings that I would recommend for upper-level und
 7)  [Resources for PhD Students](https://gdalle.github.io/phd-resources/) Guillaume Dalle.
 8) [Pessimistic scientific articles by Abhishaike Mahajan](https://www.abhishaike.com/p/a-primer-on-my-favorite-pessimistic)
 9) [The Codon Guide to Synthetic Biology](https://www.asimov.press/p/synbio-guide)
+10) [How to Read a Scientific Paper](https://www.theopennotebook.com/2018/11/06/how-to-read-a-scientific-paper/)
+11) [How To Read Scientific And Research Papers: Advice For Journalists](https://www.journoresources.org.uk/how-to-read-scientific-papers-science-journalism/)
 
 ## Challenges
 
@@ -53,6 +55,8 @@ This page contains a list of readings that I would recommend for upper-level und
 5)  [Writing readable prose: When planning a scientific manuscript, following a few simple rules has a large impact.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1559667/) Bredan AS & van Roy F, EMBO Rep. (2006).
 6)  [Ten simple rules for structuring papers](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005619) Mensh B & Kording K, PLoS Comp Biol. (2017).
 7)  [Write accessibly](https://www.nature.com/articles/s41551-021-00816-8) Editors, Nat Biomed Eng. (2021).
+8) [Ten simple rules for scientists engaging in science communication](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011251)
+9) [Science communication in experimental biology: experiences and recommendations](https://journals.biologists.com/jeb/article/226/16/jeb245780/325883/Science-communication-in-experimental-biology)
 
 ## Science Integrity
 
@@ -64,3 +68,10 @@ This page contains a list of readings that I would recommend for upper-level und
 6)  [Automatic detection of image manipulations in the biomedical literature](https://www.nature.com/articles/s41419-018-0430-3) Bucci EM, Cell Death and Disease (2018).
 7)  [Learning to identify image manipulations in scientific publications](https://arxiv.org/abs/2102.01874) Mazaheri G et al., arXiv (2021).
 8)  [Publishing ethics in the era of paper mills](https://journals.biologists.com/bio/article/9/10/bio056556/222806/Publishing-ethics-in-the-era-of-paper-mills) Hackett R and Kelly S, Biol Open (2020).
+
+## Clear Thinking and Better Decision-Making
+
+1) [Tools for better thinking](https://untools.co/)
+2) [How to choose the right thinking tool](https://untools.co/thinking-tools-guide/#problem-solving-tools)
+3) [Strategies for Disciplined Choice Making](https://thesystemsthinker.com/habits-of-mind-strategies-for-disciplined-choice-making/)
+
