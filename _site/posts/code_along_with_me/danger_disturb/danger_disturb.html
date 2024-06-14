@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.4.549">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -24,7 +24,7 @@ ul.task-list li input[type="checkbox"] {
 }
 /* CSS for syntax highlighting */
 pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span { line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
@@ -67,8 +67,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../../">
 <link href="../../../william_profile.jpg" rel="icon" type="image/jpeg">
-<script src="../../../site_libs/cookie-consent/cookie-consent.js"></script>
-<link href="../../../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="../../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -84,7 +82,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -93,6 +97,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -100,30 +105,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }</script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-1VX0Q2FQEV"></script>
 
-<script type="text/plain" cookie-consent="tracking">
+<script type="text/javascript">
 
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-1VX0Q2FQEV', { 'anonymize_ip': true});
 </script>
-
-<script type="text/javascript" charset="UTF-8">
-document.addEventListener('DOMContentLoaded', function () {
-cookieconsent.run({
-  "notice_banner_type":"headline",
-  "consent_type":"express",
-  "palette":"dark",
-  "language":"en",
-  "page_load_consent_levels":["strictly-necessary"],
-  "notice_banner_reject_button_hide":false,
-  "preferences_center_close_button_hide":false,
-  "website_name":""
-  });
-});
-</script> 
-  
-
 <script src="../../../site_libs/kePrint-0.0.1/kePrint.js"></script>
 <link href="../../../site_libs/lightable-0.0.1/lightable.css" rel="stylesheet">
 
@@ -134,10 +122,10 @@ cookieconsent.run({
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">William Okech</span>
     </a>
@@ -149,92 +137,38 @@ cookieconsent.run({
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../../blog_cv/Resume_William_Okech_Website_2023.pdf" rel="" target="">
- <span class="menu-text">Resume</span></a>
+    <a class="nav-link" href="../../../blog_cv/Resume_William_Okech_Website_2024.pdf"> 
+<span class="menu-text">Resume</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../blog.html" rel="" target="">
- <span class="menu-text">Blog Posts</span></a>
+    <a class="nav-link" href="../../../blog.html"> 
+<span class="menu-text">Blog</span></a>
   </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-portfolio" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
- <span class="menu-text">Portfolio</span>
-    </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-portfolio">    
-        <li>
-    <a class="dropdown-item" href="../../../portfolio/apps.html" rel="" target="">
- <span class="dropdown-text">Projects</span></a>
+  <li class="nav-item">
+    <a class="nav-link" href="../../../portfolio/data_viz.html"> 
+<span class="menu-text">Data Visualization</span></a>
   </li>  
-        <li>
-    <a class="dropdown-item" href="../../../portfolio/soc_med.html" rel="" target="">
- <span class="dropdown-text">Social Media</span></a>
+  <li class="nav-item">
+    <a class="nav-link" href="../../../portfolio/projects.html"> 
+<span class="menu-text">Projects</span></a>
   </li>  
-        <li>
-    <a class="dropdown-item" href="../../../portfolio/open_sci_repro.html" rel="" target="">
- <span class="dropdown-text">Open Science and Reproducibility</span></a>
+  <li class="nav-item">
+    <a class="nav-link" href="../../../portfolio/training_materials.html"> 
+<span class="menu-text">Training Materials</span></a>
   </li>  
-    </ul>
-  </li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-resources" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
- <span class="menu-text">Resources</span>
-    </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-resources">    
-        <li>
-    <a class="dropdown-item" href="../../../resources/programming/programming.html" rel="" target="">
- <span class="dropdown-text">Programming</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../../../resources/ds_ml_ai/ds_ml_ai.html" rel="" target="">
- <span class="dropdown-text">Data Science, Machine Learning, and Artificial Intelligence</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../../../resources/data_viz/ds_viz.html" rel="" target="">
- <span class="dropdown-text">Data Visualization and Storytelling</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../../../resources/biox/biox.html" rel="" target="">
- <span class="dropdown-text">Bio-X: All things Bio</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../../../resources/readings/readings.html" rel="" target="">
- <span class="dropdown-text">Recommended Readings</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../../../resources/teaching/teach_res.html" rel="" target="">
- <span class="dropdown-text">Teaching Resources</span></a>
-  </li>  
-    </ul>
-  </li>
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/wokech" rel="" target=""><i class="bi bi-github" role="img" aria-label="Github">
-</i> 
- <span class="menu-text"></span></a>
+  <li class="nav-item">
+    <a class="nav-link" href="../../../readings/readings.html"> 
+<span class="menu-text">Readings</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com/willyokech" rel="" target=""><i class="bi bi-twitter" role="img" aria-label="Twitter">
+    <a class="nav-link" href="../../../blog.xml"> <i class="bi bi-rss" role="img">
 </i> 
- <span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://medium.com/@willyokech" rel="" target=""><i class="bi bi-medium" role="img" aria-label="Medium">
-</i> 
- <span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://www.linkedin.com/in/williamokech/" rel="" target=""><i class="bi bi-linkedin" role="img" aria-label="LinkedIn">
-</i> 
- <span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="../../../blog.xml" rel="" target=""><i class="bi bi-rss" role="img">
-</i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools">
-</div>
           </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -321,10 +255,11 @@ cookieconsent.run({
 
 
 
+
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/running_livestock.jpeg" class="img-fluid figure-img" style="width:80.0%" alt="Pastoral livestock running through a dry savanna followed by a traditional herder on horseback"></p>
-<figcaption class="figure-caption"><em>Image created using “Bing Image Creator” with the prompt keywords “cows, sheep, indigenous cattle, running, dry savanna, river bed, traditional herdsman, nature photography, –ar 5:4 –style raw”</em></figcaption>
+<p><img src="images/running_livestock.jpeg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="Pastoral livestock running through a dry savanna followed by a traditional herder on horseback"></p>
+<figcaption><em>Image created using “Bing Image Creator” with the prompt keywords “cows, sheep, indigenous cattle, running, dry savanna, river bed, traditional herdsman, nature photography, –ar 5:4 –style raw”</em></figcaption>
 </figure>
 </div>
 <section id="introduction" class="level1">
@@ -339,7 +274,7 @@ cookieconsent.run({
 <section id="section-1-load-all-the-required-libraries" class="level1">
 <h1>Section 1: Load all the required libraries</h1>
 <div class="cell">
-<details open="">
+<details open="" class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse) <span class="co"># a collection of packages used to model, transform, and visualize data</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(rKenyaCensus) <span class="co"># tidy datasets obtained from the Kenya Population and Housing Census results</span></span>
@@ -370,7 +305,7 @@ cookieconsent.run({
 <section id="a-sample-plot-of-the-map-of-kenya" class="level2">
 <h2 class="anchored" data-anchor-id="a-sample-plot-of-the-map-of-kenya">a) Sample plot of the map of Kenya</h2>
 <div class="cell">
-<details open="">
+<details open="" class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Load the shapefile</span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>kenya_counties_sf <span class="ot">&lt;-</span> <span class="fu">st_as_sf</span>(KenyaCounties_SHP)</span>
@@ -382,14 +317,18 @@ cookieconsent.run({
 <span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>p0</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output-display">
-<p><img src="danger_disturb_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid" width="672"></p>
+<div>
+<figure class="figure">
+<p><img src="danger_disturb_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
 </div>
 </div>
 </section>
 <section id="b-highlight-the-dangerous-and-disturbed-counties-in-kenya" class="level2">
 <h2 class="anchored" data-anchor-id="b-highlight-the-dangerous-and-disturbed-counties-in-kenya">b) Highlight the dangerous and disturbed counties in Kenya</h2>
 <div class="cell">
-<details open="">
+<details open="" class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># First, remove the "/" from the county names</span></span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
@@ -411,14 +350,18 @@ cookieconsent.run({
 <span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>p1</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output-display">
-<p><img src="danger_disturb_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid" width="672"></p>
+<div>
+<figure class="figure">
+<p><img src="danger_disturb_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
 </div>
 </div>
 </section>
 <section id="c-plot-only-the-required-counties" class="level2">
 <h2 class="anchored" data-anchor-id="c-plot-only-the-required-counties">c) Plot only the required counties</h2>
 <div class="cell">
-<details open="">
+<details open="" class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>p2 <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(<span class="at">data =</span> highlighted) <span class="sc">+</span></span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_sf</span>(<span class="fu">aes</span>(<span class="at">fill =</span> County), <span class="at">linewidth =</span> <span class="dv">1</span>, <span class="at">show.legend =</span> <span class="cn">FALSE</span>) <span class="sc">+</span></span>
@@ -439,9 +382,13 @@ cookieconsent.run({
 <span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a>p2</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output-display">
-<p><img src="danger_disturb_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid" width="672"></p>
+<div>
+<figure class="figure">
+<p><img src="danger_disturb_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
 </div>
-<details open="">
+</div>
+<details open="" class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Notes: geom_label_repel() with geometry and stat defined can be used as an </span></span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="co"># alternative to geom_sf_label_repel()</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -451,7 +398,7 @@ cookieconsent.run({
 <section id="d-combine-the-plots-using-patchwork-to-clearly-highlight-the-counties-of-interest" class="level2">
 <h2 class="anchored" data-anchor-id="d-combine-the-plots-using-patchwork-to-clearly-highlight-the-counties-of-interest">d) Combine the plots using patchwork to clearly highlight the counties of interest</h2>
 <div class="cell">
-<details open="">
+<details open="" class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>p1 <span class="sc">+</span> </span>
 <span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>  p2 <span class="sc">+</span> </span>
@@ -463,7 +410,11 @@ cookieconsent.run({
 <span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>                                <span class="at">plot.caption =</span> <span class="fu">element_text</span>(<span class="at">family =</span> <span class="st">"Helvetica"</span>,<span class="at">size =</span> <span class="dv">12</span>, <span class="at">face =</span> <span class="st">"bold"</span>)))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output-display">
-<p><img src="danger_disturb_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid" width="672"></p>
+<div>
+<figure class="figure">
+<p><img src="danger_disturb_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
 </div>
 </div>
 </section>
@@ -473,7 +424,7 @@ cookieconsent.run({
 <section id="a-view-the-data-available-in-the-data-catalogue" class="level2">
 <h2 class="anchored" data-anchor-id="a-view-the-data-available-in-the-data-catalogue">a) View the data available in the data catalogue</h2>
 <div class="cell">
-<details open="">
+<details open="" class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">data</span>(<span class="st">"DataCatalogue"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
@@ -483,7 +434,7 @@ cookieconsent.run({
 <h2 class="anchored" data-anchor-id="b-load-the-livestock-data">b) Load the livestock data</h2>
 <p>Here, pastoral livestock are defined as sheep, goats, and indigenous cattle.</p>
 <div class="cell">
-<details open="">
+<details open="" class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Select the livestock data from the census report</span></span>
 <span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>df_livestock <span class="ot">&lt;-</span> V4_T2<span class="fl">.24</span></span>
@@ -519,7 +470,7 @@ cookieconsent.run({
 <section id="c-filter-data-for-the-selected-disturbed-and-dangerous-counties" class="level2">
 <h2 class="anchored" data-anchor-id="c-filter-data-for-the-selected-disturbed-and-dangerous-counties">c) Filter data for the selected “disturbed and dangerous” counties</h2>
 <div class="cell">
-<details open="">
+<details open="" class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Select the data for the "dangerous and disturbed" counties</span></span>
 <span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>dan_dist <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"TURKANA"</span>, <span class="st">"WEST POKOT"</span>, <span class="st">"ELGEYO MARAKWET"</span>, <span class="st">"BARINGO"</span>, <span class="st">"LAIKIPIA"</span>, <span class="st">"SAMBURU"</span>)</span>
@@ -541,7 +492,7 @@ cookieconsent.run({
 </details>
 </div>
 <div class="cell">
-<details open="">
+<details open="" class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a function to remove the "/", " County" from label, and change the label to UPPERCASE</span></span>
 <span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a></span>
@@ -562,7 +513,7 @@ cookieconsent.run({
 </details>
 </div>
 <div class="cell">
-<details open="">
+<details open="" class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Obtain the area data for "disturbed and dangerous" counties</span></span>
 <span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>land_area_county <span class="ot">&lt;-</span> land_area <span class="sc">%&gt;%</span></span>
@@ -582,7 +533,7 @@ cookieconsent.run({
 <section id="d-create-the-final-datasets-to-be-used-for-analysis.-use-inner_join-and-creating-new-variables." class="level2">
 <h2 class="anchored" data-anchor-id="d-create-the-final-datasets-to-be-used-for-analysis.-use-inner_join-and-creating-new-variables.">d) Create the final datasets to be used for analysis. Use inner_join() and creating new variables.</h2>
 <div class="cell">
-<details open="">
+<details open="" class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a county dataset with area and livestock numbers for the disturbed and dangerous regions</span></span>
 <span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a></span>
@@ -624,7 +575,7 @@ cookieconsent.run({
 <h1>Section 4: Create a table with land area (sq. km) for the six counties</h1>
 <p><strong>These six counties cover approximately one-fifth (1/5) of Kenya</strong></p>
 <div class="cell">
-<details open="">
+<details open="" class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>livestock_area_county <span class="sc">%&gt;%</span></span>
 <span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(county, land_area_in_sq_km) <span class="sc">%&gt;%</span></span>
@@ -689,7 +640,7 @@ cookieconsent.run({
 <section id="a-number-of-farming-households-at-the-county-level" class="level2">
 <h2 class="anchored" data-anchor-id="a-number-of-farming-households-at-the-county-level">a) Number of Farming Households at the County Level</h2>
 <div class="cell">
-<details open="">
+<details open="" class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>lac_1 <span class="ot">&lt;-</span> livestock_area_county <span class="sc">%&gt;%</span></span>
 <span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>() <span class="sc">+</span> </span>
@@ -725,14 +676,18 @@ cookieconsent.run({
 <span id="cb14-32"><a href="#cb14-32" aria-hidden="true" tabindex="-1"></a>lac_1 <span class="sc">+</span> p2</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output-display">
-<p><img src="danger_disturb_files/figure-html/unnamed-chunk-13-1.png" class="img-fluid" width="672"></p>
+<div>
+<figure class="figure">
+<p><img src="danger_disturb_files/figure-html/unnamed-chunk-13-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
 </div>
 </div>
 </section>
 <section id="b-number-of-farming-households-at-the-subcounty-level" class="level2">
 <h2 class="anchored" data-anchor-id="b-number-of-farming-households-at-the-subcounty-level">b) Number of Farming Households at the Subcounty Level</h2>
 <div class="cell">
-<details open="">
+<details open="" class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>livestock_area_subcounty <span class="sc">%&gt;%</span></span>
 <span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>() <span class="sc">+</span> </span>
@@ -764,7 +719,11 @@ cookieconsent.run({
 <span id="cb15-28"><a href="#cb15-28" aria-hidden="true" tabindex="-1"></a>        <span class="at">legend.position =</span> <span class="st">"top"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output-display">
-<p><img src="danger_disturb_files/figure-html/unnamed-chunk-14-1.png" class="img-fluid" width="864"></p>
+<div>
+<figure class="figure">
+<p><img src="danger_disturb_files/figure-html/unnamed-chunk-14-1.png" class="img-fluid figure-img" width="864"></p>
+</figure>
+</div>
 </div>
 </div>
 </section>
@@ -773,7 +732,7 @@ cookieconsent.run({
 <section id="treemap" class="level3">
 <h3 class="anchored" data-anchor-id="treemap">Treemap</h3>
 <div class="cell">
-<details open="">
+<details open="" class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(livestock_area_county, <span class="fu">aes</span>(<span class="at">area =</span> pasto_livestock, <span class="at">fill =</span> county, <span class="at">label =</span> <span class="fu">comma</span>(pasto_livestock)</span>
 <span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>                              )) <span class="sc">+</span></span>
@@ -799,7 +758,11 @@ cookieconsent.run({
 <span id="cb16-22"><a href="#cb16-22" aria-hidden="true" tabindex="-1"></a>        <span class="at">legend.position =</span> <span class="st">"bottom"</span>) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output-display">
-<p><img src="danger_disturb_files/figure-html/unnamed-chunk-15-1.png" class="img-fluid" width="672"></p>
+<div>
+<figure class="figure">
+<p><img src="danger_disturb_files/figure-html/unnamed-chunk-15-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
 </div>
 </div>
 </section>
@@ -807,7 +770,7 @@ cookieconsent.run({
 <section id="d-number-of-pastoral-livestock-per-subcounty" class="level2">
 <h2 class="anchored" data-anchor-id="d-number-of-pastoral-livestock-per-subcounty">d) Number of pastoral livestock per subcounty</h2>
 <div class="cell">
-<details open="">
+<details open="" class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>livestock_area_subcounty <span class="sc">%&gt;%</span></span>
 <span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>() <span class="sc">+</span> </span>
@@ -839,14 +802,18 @@ cookieconsent.run({
 <span id="cb17-28"><a href="#cb17-28" aria-hidden="true" tabindex="-1"></a>        <span class="at">legend.position =</span> <span class="st">"top"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output-display">
-<p><img src="danger_disturb_files/figure-html/unnamed-chunk-16-1.png" class="img-fluid" width="864"></p>
+<div>
+<figure class="figure">
+<p><img src="danger_disturb_files/figure-html/unnamed-chunk-16-1.png" class="img-fluid figure-img" width="864"></p>
+</figure>
+</div>
 </div>
 </div>
 </section>
 <section id="e-number-of-pastoral-livestock-per-household-at-the-county-level" class="level2">
 <h2 class="anchored" data-anchor-id="e-number-of-pastoral-livestock-per-household-at-the-county-level">e) Number of pastoral livestock per household at the county level</h2>
 <div class="cell">
-<details open="">
+<details open="" class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb18"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>lac_2 <span class="ot">&lt;-</span> livestock_area_county <span class="sc">%&gt;%</span></span>
 <span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>() <span class="sc">+</span> </span>
@@ -878,14 +845,18 @@ cookieconsent.run({
 <span id="cb18-28"><a href="#cb18-28" aria-hidden="true" tabindex="-1"></a>lac_2 <span class="sc">+</span> p2</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output-display">
-<p><img src="danger_disturb_files/figure-html/unnamed-chunk-17-1.png" class="img-fluid" width="672"></p>
+<div>
+<figure class="figure">
+<p><img src="danger_disturb_files/figure-html/unnamed-chunk-17-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
 </div>
 </div>
 </section>
 <section id="f-number-of-pastoral-livestock-per-household-at-the-subcounty-level" class="level2">
 <h2 class="anchored" data-anchor-id="f-number-of-pastoral-livestock-per-household-at-the-subcounty-level">f) Number of pastoral livestock per household at the subcounty level</h2>
 <div class="cell">
-<details open="">
+<details open="" class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>livestock_area_subcounty <span class="sc">%&gt;%</span></span>
 <span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>() <span class="sc">+</span> </span>
@@ -917,7 +888,11 @@ cookieconsent.run({
 <span id="cb19-28"><a href="#cb19-28" aria-hidden="true" tabindex="-1"></a>        <span class="at">legend.position =</span> <span class="st">"top"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output-display">
-<p><img src="danger_disturb_files/figure-html/unnamed-chunk-18-1.png" class="img-fluid" width="864"></p>
+<div>
+<figure class="figure">
+<p><img src="danger_disturb_files/figure-html/unnamed-chunk-18-1.png" class="img-fluid figure-img" width="864"></p>
+</figure>
+</div>
 </div>
 </div>
 </section>
@@ -1011,10 +986,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -1024,8 +998,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -1038,6 +1021,125 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -1081,6 +1183,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -1106,6 +1209,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -1167,32 +1296,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <script src="https://giscus.app/client.js" data-repo="wokech/blog-main" data-repo-id="R_kgDOHeENyQ" data-category="General" data-category-id="DIC_kwDOHeENyc4CPinB" data-mapping="title" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" crossorigin="anonymous" async="">
 </script>
+<input type="hidden" id="giscus-base-theme" value="light">
+<input type="hidden" id="giscus-alt-theme" value="dark">
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">Blog made using <a href="https://quarto.org/">Quarto</a>, by William Okech. License: <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></div>   
-    <div class="nav-footer-center"><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+    <div class="nav-footer-left">
+<p>Website made using <a href="https://quarto.org/">Quarto</a>, by William Okech. License: <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
     <div class="nav-footer-right">
-      <ul class="footer-items list-unstyled">
-    <li class="nav-item">
-    <a class="nav-link" href="https://twitter.com/willyokech">Twitter</a>
-  </li>  
-    <li class="nav-item">
-    <a class="nav-link" href="https://www.linkedin.com/in/williamokech/">LinkedIn</a>
-  </li>  
-    <li class="nav-item">
-    <a class="nav-link" href="https://github.com/wokech">Github</a>
-  </li>  
-    <li class="nav-item">
-    <a class="nav-link" href="https://medium.com/@willyokech">Medium</a>
-  </li>  
-    <li class="nav-item">
-    <a class="nav-link" href="mailto:willyokech@gmail.com">Email</a>
-  </li>  
-</ul>
+      &nbsp;
     </div>
   </div>
 </footer>
+
 
 
 
