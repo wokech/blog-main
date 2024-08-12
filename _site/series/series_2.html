@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Training Materials – William Okech</title>
+<title>Data Stories – William Okech</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -72,48 +72,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-posts_comp_thinking .list');
+    const listingTargetEl = window.document.querySelector('#listing-posts_data_stories .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-date','listing-title','listing-subtitle','listing-author','listing-reading-time','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+      searchColumns: ["listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-posts_comp_thinking'] = new List('listing-posts_comp_thinking', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-posts_min_cog_overload .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-posts_min_cog_overload'] = new List('listing-posts_min_cog_overload', options);
+    window['quarto-listings']['listing-posts_data_stories'] = new List('listing-posts_data_stories', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -167,7 +139,7 @@ window.Quarto = {
 </script>
 
 <link rel="stylesheet" href="../styles.css">
-<link rel="alternate" type="application/rss+xml" title="William Okech" href="training_materials.xml" data-external="1"></head>
+<link rel="alternate" type="application/rss+xml" title="William Okech" href="series_2.xml" data-external="1"></head>
 
 <body class="nav-fixed">
 
@@ -203,7 +175,7 @@ window.Quarto = {
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../portfolio/training_materials.html" aria-current="page"> 
+    <a class="nav-link" href="../portfolio/training_materials.html"> 
 <span class="menu-text">Training Materials</span></a>
   </li>  
   <li class="nav-item">
@@ -227,26 +199,14 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#books" id="toc-books" class="nav-link active" data-scroll-target="#books">Books</a></li>
-  <li><a href="#my-free-ebooks-2024" id="toc-my-free-ebooks-2024" class="nav-link" data-scroll-target="#my-free-ebooks-2024">My Free EBooks (2024)</a></li>
-  <li><a href="#presentations" id="toc-presentations" class="nav-link" data-scroll-target="#presentations">Presentations</a>
-  <ul class="collapse">
-  <li><a href="#computational-thinking" id="toc-computational-thinking" class="nav-link" data-scroll-target="#computational-thinking">Computational Thinking</a></li>
-  <li><a href="#minimizing-cognitive-overload" id="toc-minimizing-cognitive-overload" class="nav-link" data-scroll-target="#minimizing-cognitive-overload">Minimizing Cognitive Overload</a></li>
-  </ul></li>
-  </ul>
-</nav>
-    </div>
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(0)</span></div></div></div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Training Materials</h1>
+<h1 class="title">Data Stories</h1>
 </div>
 
 
@@ -263,110 +223,44 @@ window.Quarto = {
 </header>
 
 
-<section id="books" class="level1">
-<h1>Books</h1>
-</section>
-<section id="my-free-ebooks-2024" class="level1">
-<h1>My Free EBooks (2024)</h1>
-<p><strong>Note: Click on cover image to access the book</strong></p>
-<div>
-
+<section id="data-stories" class="level2">
+<h2 class="anchored" data-anchor-id="data-stories">Data Stories</h2>
+<div id="listing-posts_data_stories" class="quarto-listing quarto-listing-container-grid">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-posts_data_stories-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-posts_data_stories'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-title" data-direction="asc">
+          Title
+        </option>
+         <option value="listing-date-sort" data-direction="asc">
+          Date - Oldest
+        </option>
+         <option value="listing-date-sort" data-direction="desc">
+          Date - Newest
+        </option>
+         <option value="listing-author" data-direction="asc">
+          Author
+        </option>
+     </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
 </div>
-<div class="quarto-layout-panel" data-layout-ncol="2">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="https://wokech.github.io/r4novice/"><img src="free_ebooks/Cover_R4NP.png" class="img-fluid figure-img" alt="R for Novice Programmers: First Steps with R and RStudio"></a></p>
-<figcaption>R for Novice Programmers: First Steps with R and RStudio</figcaption>
-</figure>
-</div>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="https://wokech.github.io/essential_websites/"><img src="free_ebooks/essential_websites_cover.png" class="img-fluid figure-img" alt="Essential Websites for Learning Digital Skills and Biotechnology"></a></p>
-<figcaption>Essential Websites for Learning Digital Skills and Biotechnology</figcaption>
-</figure>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="presentations" class="level1">
-<h1>Presentations</h1>
-<p>Here, I provide selected presentations focused on the principles of teaching STEM subjects and computational thinking.</p>
-<section id="computational-thinking" class="level2">
-<h2 class="anchored" data-anchor-id="computational-thinking">Computational Thinking</h2>
-<div id="listing-posts_comp_thinking" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-date-sort="1684098000000" data-listing-file-modified-sort="1699897644881" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1401">
-<a href="../portfolio/presentations/comp_thinking/comp_thinking.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Developing library-based computational research skill instruction programs
-</h5>
-<div class="card-text listing-description">
 
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-William Okech, PhD
-</div>
-<div class="listing-date">
-May 15, 2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
 </div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
 </div>
-<p><a href="presentations/comp_thinking/comp_thinking.pptx">Download PowerPoint Presentation</a></p>
-</section>
-<section id="minimizing-cognitive-overload" class="level2">
-<h2 class="anchored" data-anchor-id="minimizing-cognitive-overload">Minimizing Cognitive Overload</h2>
-<div id="listing-posts_min_cog_overload" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-date-sort="1693256400000" data-listing-file-modified-sort="1699897655502" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="876">
-<a href="../portfolio/presentations/min_cog_overload/min_cog_overload.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Designing courses that minimize cognitive overload in learners
-</h5>
-<div class="card-text listing-description">
-
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-William Okech, PhD
-</div>
-<div class="listing-date">
-Aug 29, 2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-<p><a href="presentations/min_cog_overload/min_cog_overload.pptx">Download PowerPoint Presentation</a></p>
 
 
 
-</section>
 </section>
 
 </main> <!-- /main -->

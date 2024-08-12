@@ -18,13 +18,3 @@ comments: false
 <a href="blog_cv/Resume_William_Okech_Website_2024.pdf" target="_blank" title = "Resume"><i class="fas fa-file-alt"></i></a> <a href="https://www.linkedin.com/in/williamokech/" target="_blank" title = "LinkedIn"><i class="fab fa-linkedin"></i></a> <a href="https://github.com/wokech" target="_blank" title = "GitHub"><i class="fab fa-github"></i></a> <a href="blog.qmd" target="_blank" title = "Blog"><i class="fas fa-blog"></i></a> <a href="portfolio/projects.qmd" target="_blank" title = "My Apps"><i class="fas fa-briefcase"></i></a> <a href="portfolio/data_viz.qmd" target="_blank" title = "Data Visualization"><i class="fab fa-instagram"></i></a>
 :::
 :::
-
-# My Free EBooks (2024)
-
-**Note: Click on cover image to access the book**
-
-::: {layout-ncol="2"}
-[![R for Novice Programmers: First Steps with R and RStudio](free_ebooks/Cover_R4NP.png)](https://wokech.github.io/r4novice/)
-
-[![Essential Websites for Learning Digital Skills and Biotechnology](free_ebooks/essential_websites_cover.png)](https://wokech.github.io/essential_websites/)
-:::
