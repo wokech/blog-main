@@ -19,18 +19,6 @@ comments: false
 toc: true
 ---
 
-# Books
-
-# My Free EBooks (2024)
-
-**Note: Click on cover image to access the book**
-
-::: {layout-ncol="2"}
-[![R for Novice Programmers: First Steps with R and RStudio](C:/R_Files/blog-main/free_ebooks/Cover_R4NP.png)](https://wokech.github.io/r4novice/)
-
-[![Essential Websites for Learning Digital Skills and Biotechnology](C:/R_Files/blog-main/free_ebooks/essential_websites_cover.png)](https://wokech.github.io/essential_websites/)
-:::
-
 # Presentations
 
 Here, I provide selected presentations focused on the principles of teaching STEM subjects and computational thinking.
@@ -48,3 +36,15 @@ Here, I provide selected presentations focused on the principles of teaching STE
 :::
 
 [Download PowerPoint Presentation](presentations/min_cog_overload/min_cog_overload.pptx)
+
+# Books
+
+## My Free EBooks (2024)
+
+**Note: Click on cover image to access the book**
+
+::: {layout-ncol="2"}
+[![R for Novice Programmers: First Steps with R and RStudio](free_ebooks/Cover_R4NP.png)](https://wokech.github.io/r4novice/)
+
+[![Essential Websites for Learning Digital Skills and Biotechnology](free_ebooks/essential_websites_cover.png)](https://wokech.github.io/essential_websites/)
+:::
