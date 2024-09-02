@@ -16,3 +16,7 @@ toc: true
 <iframe height="1200" width="100%" frameborder="yes" src="https://wokech.shinyapps.io/natl_parks_kenya_app/">
 
 </iframe>
+
+# Interactive Tables
+
+# Streamlit Apps
