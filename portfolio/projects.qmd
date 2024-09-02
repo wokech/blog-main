@@ -17,6 +17,6 @@ toc: true
 
 </iframe>
 
-# Interactive Tables
-
 # Streamlit Apps
+
+Coming soon...
