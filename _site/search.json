@@ -123,21 +123,21 @@
     "href": "index.html",
     "title": "Hello, I’m William!",
     "section": "",
-    "text": "R for Novice Programmers: First Steps with R and RStudio\n\n\n\n\n\n\n\nEssential Websites for Learning Digital Skills and Biotechnology"
+    "text": "&lt;i class=“fa-solid fa-person-chalkboard&gt;"
   },
   {
     "objectID": "portfolio/training_materials.html",
     "href": "portfolio/training_materials.html",
     "title": "Training Materials",
     "section": "",
-    "text": "Note: Click on cover image to access the book\n\n\n\n\n\n\n\n\n\nR for Novice Programmers: First Steps with R and RStudio\n\n\n\n\n\n\n\nEssential Websites for Learning Digital Skills and Biotechnology"
+    "text": "New to data analysis? No prior programming experience?\nSign up for my free email course!\nR for Novices Email Course"
   },
   {
     "objectID": "portfolio/training_materials.html#my-free-ebooks-2024",
     "href": "portfolio/training_materials.html#my-free-ebooks-2024",
     "title": "Training Materials",
-    "section": "",
-    "text": "Note: Click on cover image to access the book\n\n\n\n\n\n\n\n\n\nR for Novice Programmers: First Steps with R and RStudio\n\n\n\n\n\n\n\nEssential Websites for Learning Digital Skills and Biotechnology"
+    "section": "My Free EBooks (2024)",
+    "text": "My Free EBooks (2024)\nNote: Click on cover image to access the book\n\n\n\n\n\n\n\n\n\nR for Novice Programmers: First Steps with R and RStudio\n\n\n\n\n\n\n\nEssential Websites for Learning Digital Skills and Biotechnology"
   },
   {
     "objectID": "index.html#my-free-ebooks-2024",
@@ -180,5 +180,47 @@
     "title": "Projects",
     "section": "2: Kenya National Parks Visitor Data",
     "text": "2: Kenya National Parks Visitor Data"
+  },
+  {
+    "objectID": "portfolio/training_materials.html#r-for-novices",
+    "href": "portfolio/training_materials.html#r-for-novices",
+    "title": "Training Materials",
+    "section": "",
+    "text": "New to data analysis? No prior programming experience?\nSign up for my free email course!\nR for Novices Email Course"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Currently, my blog has two main focus areas: (1) Biotechnology, and (2) R Programming and Data Visualization. It provides my personal thoughts on the potential of biotechnology, as well as tutorials for those getting started with R programming and data visualization."
+  },
+  {
+    "objectID": "blog.html#biotechnology",
+    "href": "blog.html#biotechnology",
+    "title": "Blog",
+    "section": "Biotechnology",
+    "text": "Biotechnology\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nBiotechnology for the Global South (Part 1)\n\n\nDeveloping alternative proteins to reduce childhood hunger and improve food production in low-income countries\n\n\n13 min\n\n\n\nRStudio\n\n\nR\n\n\nBiotechnology\n\n\nBlog\n\n\nData Visualization\n\n\n\n\n\n\n\nWilliam Okech\n\n\nOct 27, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "blog.html#code-along-with-me",
+    "href": "blog.html#code-along-with-me",
+    "title": "Blog",
+    "section": "Code Along With Me",
+    "text": "Code Along With Me\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nCode Along With Me (Episode 1)\n\n\nAn assessment of the livestock numbers in the six counties declared to be ‘disturbed and dangerous’ in Kenya\n\n\n19 min\n\n\n\nRStudio\n\n\nR\n\n\nTutorial\n\n\nBlog\n\n\n\n\n\n\n\nWilliam Okech\n\n\nNov 28, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "blog.html#r-and-rstudio-basics",
+    "href": "blog.html#r-and-rstudio-basics",
+    "title": "Blog",
+    "section": "R and RStudio Basics",
+    "text": "R and RStudio Basics\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nThe Basics of R and RStudio\n\n\nPart 7: Data Structures\n\n\n3 min\n\n\n\nRStudio\n\n\nR\n\n\nTutorial\n\n\nBlog\n\n\n\n\n\n\n\nWilliam Okech\n\n\nNov 16, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Basics of R and RStudio\n\n\nPart 6: Missing Data\n\n\n1 min\n\n\n\nRStudio\n\n\nR\n\n\nTutorial\n\n\nBlog\n\n\n\n\n\n\n\nWilliam Okech\n\n\nNov 14, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Basics of R and RStudio\n\n\nPart 5: Vectors\n\n\n3 min\n\n\n\nRStudio\n\n\nR\n\n\nTutorial\n\n\nBlog\n\n\n\n\n\n\n\nWilliam Okech\n\n\nNov 12, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Basics of R and RStudio\n\n\nPart 4: Operators\n\n\n4 min\n\n\n\nRStudio\n\n\nR\n\n\nTutorial\n\n\nBlog\n\n\n\n\n\n\n\nWilliam Okech\n\n\nNov 9, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Basics of R and RStudio\n\n\nPart 3: Data Types\n\n\n7 min\n\n\n\nRStudio\n\n\nR\n\n\nTutorial\n\n\nBlog\n\n\n\n\n\n\n\nWilliam Okech\n\n\nJun 23, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Basics of R and RStudio\n\n\nPart 2: Variables\n\n\n2 min\n\n\n\nRStudio\n\n\nR\n\n\nTutorial\n\n\nBlog\n\n\n\n\n\n\n\nWilliam Okech\n\n\nJun 22, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Basics of R and RStudio\n\n\nPart 1: Simple Arithmetic\n\n\n3 min\n\n\n\nRStudio\n\n\nR\n\n\nTutorial\n\n\nBlog\n\n\n\n\n\n\n\nWilliam Okech\n\n\nJun 15, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGetting Started with R and RStudio\n\n\nSoftware Installation\n\n\n4 min\n\n\n\nRStudio\n\n\nR\n\n\nTutorial\n\n\nBlog\n\n\n\n\n\n\n\nWilliam Okech\n\n\nJun 8, 2022\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "blog.html#data-stories",
+    "href": "blog.html#data-stories",
+    "title": "Blog",
+    "section": "Data Stories",
+    "text": "Data Stories\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nData Visualization for Government\n\n\nVisualizing HR data from the Chief Administrative Secretary recruitment process in Kenya\n\n\n5 min\n\n\n\nRStudio\n\n\nR\n\n\nData Stories\n\n\nBlog\n\n\nData Visualization\n\n\n\n\n\n\n\nWilliam Okech\n\n\nApr 13, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA roof over your head\n\n\nThe prevalence of asbestos-based roofing in Kenya and its potential effects\n\n\n5 min\n\n\n\nRStudio\n\n\nR\n\n\nData Stories\n\n\nBlog\n\n\nKenya Census\n\n\n\n\n\n\n\nWilliam Okech\n\n\nDec 1, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nExploring gender distributions in Kenya: Are there more women than men?\n\n\nInsights from the Kenya Population and Housing Census (2019)\n\n\n5 min\n\n\n\nRStudio\n\n\nR\n\n\nData Stories\n\n\nBlog\n\n\nKenya Census\n\n\n\n\n\n\n\nWilliam Okech\n\n\nJun 30, 2022\n\n\n\n\n\n\n\n\nNo matching items"
   }
 ]

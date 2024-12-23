@@ -19,6 +19,16 @@ comments: false
 toc: true
 ---
 
+# Email Courses
+
+## R for Novices
+
+New to data analysis? No prior programming experience?
+
+Sign up for my free email course!
+
+[R for Novices Email Course](https://heidiseibold.kit.com/d949a4d18c)
+
 # Books
 
 ## My Free EBooks (2024)

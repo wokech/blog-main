@@ -11,10 +11,10 @@ about:
 comments: false
 ---
 
-::: {#hero-heading style="text-align:center"}
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+:::: {#hero-heading style="text-align:center"}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
 ::: icon-links
-<a href="blog_cv/Resume_William_Okech_Website_2024.pdf" target="_blank" title = "Resume"><i class="fas fa-file-alt"></i></a> <a href="https://www.linkedin.com/in/williamokech/" target="_blank" title = "LinkedIn"><i class="fab fa-linkedin"></i></a> <a href="https://github.com/wokech" target="_blank" title = "GitHub"><i class="fab fa-github"></i></a> <a href="blog.qmd" target="_blank" title = "Blog"><i class="fas fa-blog"></i></a> <a href="portfolio/projects.qmd" target="_blank" title = "My Apps"><i class="fas fa-briefcase"></i></a> <a href="portfolio/data_viz.qmd" target="_blank" title = "Data Visualization"><i class="fab fa-instagram"></i></a>
+<a href="blog_cv/Resume_William_Okech_Website_2024.pdf" target="_blank" title = "Resume"><i class="fa-solid fa-file-lines"></i></a> <a href="https://www.linkedin.com/in/williamokech/" target="_blank" title = "LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a> <a href="https://github.com/wokech" target="_blank" title = "GitHub"><i class="fa-brands fa-square-github"></i></a> <a href="blog.qmd" target="_blank" title = "Blog"><i class="fa-solid fa-blog"></i></a> <a href="portfolio/projects.qmd" target="_blank" title = "My Apps"><i class="fa-solid fa-briefcase"></i></a> <a href="portfolio/data_viz.qmd" target="_blank" title = "Data Visualization"><i class="fa-brands fa-instagram"></i></a> <a href="portfolio/training_materials.qmd" target="_blank" title = "Training Materials"><i class="fa-solid fa-person-chalkboard"></i></a>
 :::
-:::
+::::
