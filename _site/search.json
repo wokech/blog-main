@@ -222,5 +222,222 @@
     "title": "Blog",
     "section": "Data Stories",
     "text": "Data Stories\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nData Visualization for Government\n\n\nVisualizing HR data from the Chief Administrative Secretary recruitment process in Kenya\n\n\n5 min\n\n\n\nRStudio\n\n\nR\n\n\nData Stories\n\n\nBlog\n\n\nData Visualization\n\n\n\n\n\n\n\nWilliam Okech\n\n\nApr 13, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA roof over your head\n\n\nThe prevalence of asbestos-based roofing in Kenya and its potential effects\n\n\n5 min\n\n\n\nRStudio\n\n\nR\n\n\nData Stories\n\n\nBlog\n\n\nKenya Census\n\n\n\n\n\n\n\nWilliam Okech\n\n\nDec 1, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nExploring gender distributions in Kenya: Are there more women than men?\n\n\nInsights from the Kenya Population and Housing Census (2019)\n\n\n5 min\n\n\n\nRStudio\n\n\nR\n\n\nData Stories\n\n\nBlog\n\n\nKenya Census\n\n\n\n\n\n\n\nWilliam Okech\n\n\nJun 30, 2022\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#overall-goal",
+    "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#overall-goal",
+    "title": "Designing courses that minimize cognitive overload in learners",
+    "section": "Overall Goal",
+    "text": "Overall Goal\n\nTo outline a methodology for designing courses that minimize cognitive overload in learners"
+  },
+  {
+    "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#outline",
+    "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#outline",
+    "title": "Designing courses that minimize cognitive overload in learners",
+    "section": "Outline",
+    "text": "Outline\nPart I: Theories of Memory Processing and Learning\n\nInformation Processing Theory\nCognitive Load Theory\n\nPart II: Cognitive Load Theory and Course Design\n\nIdentify Learner Personas / Types\nMental Models\nFormative Assessments\nImproving Course Content and Delivery"
+  },
+  {
+    "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#learning-objectives",
+    "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#learning-objectives",
+    "title": "Designing courses that minimize cognitive overload in learners",
+    "section": "Learning Objectives",
+    "text": "Learning Objectives\n\nDescribe the main types of cognitive load and the limits of human memory.\nExplain the differences between various learner types / personas.\nDefine mental models and create concept maps.\nCreate formative assessments that diagnose flawed mental models."
+  },
+  {
+    "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#example-prof.-xs-biochemistry-101-lecture-a",
+    "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#example-prof.-xs-biochemistry-101-lecture-a",
+    "title": "Designing courses that minimize cognitive overload in learners",
+    "section": "Example: Prof. X’s Biochemistry 101 Lecture (A)",
+    "text": "Example: Prof. X’s Biochemistry 101 Lecture (A)"
+  },
+  {
+    "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#example-prof.-xs-biochemistry-101-lecture-b",
+    "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#example-prof.-xs-biochemistry-101-lecture-b",
+    "title": "Designing courses that minimize cognitive overload in learners",
+    "section": "Example: Prof. X’s Biochemistry 101 Lecture (B)",
+    "text": "Example: Prof. X’s Biochemistry 101 Lecture (B)\n\n\nhttps://monicanasseri.wixsite.com/biochemical-pathways/biochemical-pathways"
+  },
+  {
+    "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#information-processing-theory",
+    "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#information-processing-theory",
+    "title": "Designing courses that minimize cognitive overload in learners",
+    "section": "1. Information Processing Theory",
+    "text": "1. Information Processing Theory\n\nA framework for understanding how information is encoded into memory\n\n\n\n\nAtkinson and Shiffrin (1968) Psychology of Learning and Motivation (2) 89-195\nhttps://www.simplypsychology.org/multi-store.html"
+  },
+  {
+    "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#cognitive-load",
+    "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#cognitive-load",
+    "title": "Designing courses that minimize cognitive overload in learners",
+    "section": "2. Cognitive Load",
+    "text": "2. Cognitive Load\n\nAvailable amount of information that the working / short-term memory can hold at a specific time (7 +/- 2 chunks of info at a time)\n\n\n\n\nAtkinson and Shiffrin (1968) Psychology of Learning and Motivation (2) 89-195\nhttps://www.simplypsychology.org/multi-store.html"
+  },
+  {
+    "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#cognitive-load-theory",
+    "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#cognitive-load-theory",
+    "title": "Designing courses that minimize cognitive overload in learners",
+    "section": "3. Cognitive Load Theory",
+    "text": "3. Cognitive Load Theory\n\nDescribes how the human mind processes new information\n3 Main Types of Cognitive Load\n\n\n\n\n\n\nSweller, J. (1998) Cognitive Science 12(2): 257-285\nhttps://mcdreeamiemusings.com/blog/2019/10/15/the-good-the-bad-and-the-can-be-ugly-the-three-parts-of-cognitive-load"
+  },
+  {
+    "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#cognitive-load-theory-1",
+    "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#cognitive-load-theory-1",
+    "title": "Designing courses that minimize cognitive overload in learners",
+    "section": "3. Cognitive Load Theory",
+    "text": "3. Cognitive Load Theory\nIntrinsic\n\nInnate difficulty of a task and complexity of new information.\nInfluenced by age and/or educational background.\n\n\n\n\nSweller, J. (1998) Cognitive Science 12(2): 257-285\nhttps://mcdreeamiemusings.com/blog/2019/10/15/the-good-the-bad-and-the-can-be-ugly-the-three-parts-of-cognitive-load"
+  },
+  {
+    "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#cognitive-load-theory-2",
+    "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#cognitive-load-theory-2",
+    "title": "Designing courses that minimize cognitive overload in learners",
+    "section": "3. Cognitive Load Theory",
+    "text": "3. Cognitive Load Theory\nExtraneous\n\nLoad due to poorly designed instructional material.\nDistracts working memory from processing the required information.\n\n\n\nSweller, J. (1998) Cognitive Science 12(2): 257-285\nhttps://mcdreeamiemusings.com/blog/2019/10/15/the-good-the-bad-and-the-can-be-ugly-the-three-parts-of-cognitive-load"
+  },
+  {
+    "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#cognitive-load-theory-3",
+    "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#cognitive-load-theory-3",
+    "title": "Designing courses that minimize cognitive overload in learners",
+    "section": "3. Cognitive Load Theory",
+    "text": "3. Cognitive Load Theory\nExtraneous\n\nExamples\n\n\n\n\nSweller, J. (1998) Cognitive Science 12(2): 257-285\nhttps://mcdreeamiemusings.com/blog/2019/10/15/the-good-the-bad-and-the-can-be-ugly-the-three-parts-of-cognitive-load"
+  },
+  {
+    "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#cognitive-load-theory-4",
+    "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#cognitive-load-theory-4",
+    "title": "Designing courses that minimize cognitive overload in learners",
+    "section": "3. Cognitive Load Theory",
+    "text": "3. Cognitive Load Theory\nGermane\n\nMental capacity used to integrate new information with existing knowledge\nEffort required to learn and retain the material\nInfluenced by level of training (Math Professor vs 1st grader)\n\n\n\nSweller, J. (1998) Cognitive Science 12(2): 257-285\nhttps://mcdreeamiemusings.com/blog/2019/10/15/the-good-the-bad-and-the-can-be-ugly-the-three-parts-of-cognitive-load"
+  },
+  {
+    "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#cognitive-load-theory-5",
+    "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#cognitive-load-theory-5",
+    "title": "Designing courses that minimize cognitive overload in learners",
+    "section": "3. Cognitive Load Theory",
+    "text": "3. Cognitive Load Theory\nSummary\n  \n\nhttps://mcdreeamiemusings.com/blog/2019/10/15/the-good-the-bad-and-the-can-be-ugly-the-three-parts-of-cognitive-load"
+  },
+  {
+    "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#formative-assessment",
+    "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#formative-assessment",
+    "title": "Designing courses that minimize cognitive overload in learners",
+    "section": "Formative Assessment",
+    "text": "Formative Assessment\n\nLink to be provided"
+  },
+  {
+    "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#extra-credit-short-test-of-working-memory",
+    "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#extra-credit-short-test-of-working-memory",
+    "title": "Designing courses that minimize cognitive overload in learners",
+    "section": "Extra credit: Short test of working memory",
+    "text": "Extra credit: Short test of working memory\nTry during the break: https://miku.github.io/activememory/"
+  },
+  {
+    "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#identify-learner-personas-types",
+    "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#identify-learner-personas-types",
+    "title": "Designing courses that minimize cognitive overload in learners",
+    "section": "1. Identify Learner Personas / Types",
+    "text": "1. Identify Learner Personas / Types\n\nLearners can be distinguished by the mental models they use to solve problem.\n\n\n\n\nhttps://carpentries.github.io/instructor-training/\nBenner P. (2004) Bulletin of Science, Technology & Society, 24(3), 188–199"
+  },
+  {
+    "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#mental-models",
+    "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#mental-models",
+    "title": "Designing courses that minimize cognitive overload in learners",
+    "section": "2. Mental models",
+    "text": "2. Mental models\n\n“A simplified representation of the most important parts of some problem domain that is good enough to enable problem solving.”\n\n\n\nLimitations\n\nSimplified representation.\nAtoms are not balls\nSticks are not bonds.\n\n\n\n\nhttps://commoncog.com/teaching-tech-together/\nhttps://education.riaus.org.au/a-better-way-to-see-molecules/"
+  },
+  {
+    "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#mental-models-1",
+    "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#mental-models-1",
+    "title": "Designing courses that minimize cognitive overload in learners",
+    "section": "2. Mental models",
+    "text": "2. Mental models\n  \n\nhttps://carpentries.github.io/instructor-training/"
+  },
+  {
+    "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#mental-models-2",
+    "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#mental-models-2",
+    "title": "Designing courses that minimize cognitive overload in learners",
+    "section": "2. Mental models",
+    "text": "2. Mental models"
+  },
+  {
+    "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#formative-assessments",
+    "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#formative-assessments",
+    "title": "Designing courses that minimize cognitive overload in learners",
+    "section": "3. Formative Assessments",
+    "text": "3. Formative Assessments\n\nhttps://carpentries.github.io/instructor-training/\n\nHelp to identify common misconceptions and broken mental models.\n\nFactual errors: The Capital City of Sweden is Doha.\nBroken models: Motion and acceleration must always be in the same direction.\nFundamental beliefs: Some people are computational and others are not."
+  },
+  {
+    "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#formative-assessments-1",
+    "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#formative-assessments-1",
+    "title": "Designing courses that minimize cognitive overload in learners",
+    "section": "3. Formative Assessments",
+    "text": "3. Formative Assessments\nExample\n\nEach incorrect answer has diagnostic power and will guide correction\n\nhttps://carpentries.github.io/instructor-training/"
+  },
+  {
+    "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#formative-assessments-2",
+    "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#formative-assessments-2",
+    "title": "Designing courses that minimize cognitive overload in learners",
+    "section": "3. Formative Assessments",
+    "text": "3. Formative Assessments\nMemory management\n\n\nhttps://taylorda01.weebly.com/backward-faded-maths.html"
+  },
+  {
+    "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#improving-course-content-and-delivery",
+    "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#improving-course-content-and-delivery",
+    "title": "Designing courses that minimize cognitive overload in learners",
+    "section": "4. Improving course content and delivery",
+    "text": "4. Improving course content and delivery\nChunking\n\n\nhttps://carpentries.github.io/instructor-training/"
+  },
+  {
+    "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#improving-course-content-and-delivery-1",
+    "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#improving-course-content-and-delivery-1",
+    "title": "Designing courses that minimize cognitive overload in learners",
+    "section": "4. Improving course content and delivery",
+    "text": "4. Improving course content and delivery\nReduce split-attention effect\n\n\n\nMindTools: https://www.mindtools.com/aqxwcpa/cognitive-load-theory"
+  },
+  {
+    "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#improving-course-content-and-delivery-2",
+    "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#improving-course-content-and-delivery-2",
+    "title": "Designing courses that minimize cognitive overload in learners",
+    "section": "4. Improving course content and delivery",
+    "text": "4. Improving course content and delivery\nEncourage the use of concept maps\nExample Discussion: Renewable and Non-renewable Energy Sources\n\n\nhttps://visme.co/blog/how-to-make-a-concept-map/"
+  },
+  {
+    "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#improving-course-content-and-delivery-3",
+    "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#improving-course-content-and-delivery-3",
+    "title": "Designing courses that minimize cognitive overload in learners",
+    "section": "4. Improving course content and delivery",
+    "text": "4. Improving course content and delivery\n\nGo slow and repeat if necessary\nBe aware of expert blind spots\nUse authentic tasks and examples to teach\nGive and receive appropriate feedback\n\n\nhttps://carpentries.github.io/instructor-training/"
+  },
+  {
+    "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#conclusions",
+    "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#conclusions",
+    "title": "Designing courses that minimize cognitive overload in learners",
+    "section": "Conclusions",
+    "text": "Conclusions\n\nCognitive load and working / short-term memory have a significant impact on learning outcomes.\nKnowledge of learner types and personas and the mental models they use is critical for effective teaching.\nFormative assessments should be incorporated into lessons to identify misconceptions and receive teaching feedback."
+  },
+  {
+    "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#references",
+    "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#references",
+    "title": "Designing courses that minimize cognitive overload in learners",
+    "section": "References",
+    "text": "References\n\n\nhttps://teachtogether.tech/"
+  },
+  {
+    "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#references-1",
+    "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#references-1",
+    "title": "Designing courses that minimize cognitive overload in learners",
+    "section": "References",
+    "text": "References\n\nhttps://monicanasseri.wixsite.com/biochemical-pathways/biochemical-pathways\nAtkinson and Shiffrin (1968) Psychology of Learning and Motivation (2) 89-195\nhttps://www.simplypsychology.org/multi-store.html\nSweller, J. (1998) Cognitive Science 12(2): 257-285\nhttps://mcdreeamiemusings.com/blog/2019/10/15/the-good-the-bad-and-the-can-be-ugly-the-three-parts-of-cognitive-load"
+  },
+  {
+    "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#references-2",
+    "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#references-2",
+    "title": "Designing courses that minimize cognitive overload in learners",
+    "section": "References",
+    "text": "References\n\nhttps://carpentries.github.io/instructor-training/\nBenner P. (2004) Bulletin of Science, Technology & Society, 24(3), 188–199\nhttps://commoncog.com/teaching-tech-together/\nhttps://education.riaus.org.au/a-better-way-to-see-molecules\nhttps://www.mindtools.com/aqxwcpa/cognitive-load-theory\nhttps://visme.co/blog/how-to-make-a-concept-map/"
+  },
+  {
+    "objectID": "portfolio/presentations/min_cog_overload/min_cog_overload.html#discussion-questions",
+    "href": "portfolio/presentations/min_cog_overload/min_cog_overload.html#discussion-questions",
+    "title": "Designing courses that minimize cognitive overload in learners",
+    "section": "Discussion Questions",
+    "text": "Discussion Questions\n\nWhere have you identified “expert blind spots” in your own teaching?\nHow can you reduce cognitive overload in the subjects that you teach?\nBased on what you have learnt, how will you structure your courses differently?"
   }
 ]

@@ -241,16 +241,6 @@ https://carpentries.github.io/instructor-training/
 https://taylorda01.weebly.com/backward-faded-maths.html
 :::
 
-## 3. Formative Assessments
-
-**Memory management**
-
-![](min_cog_overload_images/faded_example.png)
-
-::: footer
-https://taylorda01.weebly.com/backward-faded-maths.html
-:::
-
 ## 4. Improving course content and delivery
 
 **Chunking**
