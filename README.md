@@ -1,4 +1,4 @@
-# William Okech's blog developed using Quarto by Posit/RStudio
+# William Okech's Personal Website
 
 ## Summary
 
@@ -16,26 +16,6 @@ Lastly, the resources section offers a list of curated website links that addres
 
 ![website home page](readme_blog_website.png)
 
+Developed using Quarto by Posit/RStudio
+
 Hosted on: [NameCheap](https://www.williamokech.com/) and [Netlify](https://williamokech.netlify.app/)
-
-## Notes
-
-Render the project with:
-
-a)  **Terminal**
-
-b)  render project in current directory ==\> quarto render
-
-<!-- -->
-
-ii) render project in 'myproject' ==\> quarto render myproject
-
-iii) render only documents in the 'articles' sub-directory ==\> quarto render articles
-
-<!-- -->
-
-b)  **Console**
-
-library(quarto)
-
-Use quarto_render() function to render the whole project
