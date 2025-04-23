@@ -12,8 +12,6 @@ website:
         file: blog_cv/Resume_William_Okech_Website_2024.pdf
       - text: Blog
         file: blog.qmd
-      - text: Data Visualization
-        file: portfolio/data_viz.qmd
       - text: Projects
         file: portfolio/projects.qmd
       - text: Training Materials
