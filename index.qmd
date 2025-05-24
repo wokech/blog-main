@@ -15,8 +15,6 @@ comments: false
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
 ::: icon-links
-<a href="blog_cv/Resume_William_Okech_Website_2024.pdf" target="_blank" title = "Resume"><i class="fa-solid fa-file-lines"></i></a> <a href="https://www.linkedin.com/in/williamokech/" target="_blank" title = "LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a> <a href="https://github.com/wokech" target="_blank" title = "GitHub"><i class="fa-brands fa-square-github"></i></a>
-
-<a href="blog.qmd" target="_blank" title = "Blog"><i class="fa-solid fa-blog"></i></a> <a href="portfolio/projects.qmd" target="_blank" title = "My Apps"><i class="fa-solid fa-briefcase"></i></a> <a href="portfolio/training_materials.qmd" target="_blank" title = "Training Materials"><i class="fa-solid fa-person-chalkboard"></i></a>
+<a href="blog_cv/Resume_William_Okech_Website_2024.pdf" target="_blank" title = "Resume"><i class="fa-solid fa-file-lines"></i></a> <a href="https://www.linkedin.com/in/williamokech/" target="_blank" title = "LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a> <a href="https://github.com/wokech" target="_blank" title = "GitHub"><i class="fa-brands fa-square-github"></i></a> <a href="https://bsky.app/profile/willyokech.bsky.social" target="_blank" title = "GitHub"><i class="fa-brands fa-bluesky"></i></a> <a href="blog.qmd" target="_blank" title = "Blog"><i class="fa-solid fa-blog"></i></a> <a href="portfolio/projects.qmd" target="_blank" title = "My Apps"><i class="fa-solid fa-briefcase"></i></a> <a href="portfolio/training_materials.qmd" target="_blank" title = "Training Materials"><i class="fa-solid fa-person-chalkboard"></i></a>
 :::
 ::::
