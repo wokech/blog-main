@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>reading_stem – William Okech</title>
+<title>presentations – William Okech</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,6 +31,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
 <link href="../william_profile.jpg" rel="icon" type="image/jpeg">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -68,6 +70,63 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-posts_comp_thinking .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-posts_comp_thinking'] = new List('listing-posts_comp_thinking', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-posts_min_cog_overload .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-posts_min_cog_overload'] = new List('listing-posts_min_cog_overload', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-1VX0Q2FQEV"></script>
 
 <script type="text/javascript">
@@ -78,9 +137,38 @@ gtag('js', new Date());
 gtag('config', 'G-1VX0Q2FQEV', { 'anonymize_ip': true});
 </script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../styles.css">
-</head>
+<link rel="alternate" type="application/rss+xml" title="William Okech" href="presentations.xml" data-external="1"></head>
 
 <body class="nav-fixed quarto-light">
 
@@ -169,7 +257,7 @@ gtag('config', 'G-1VX0Q2FQEV', { 'anonymize_ip': true});
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
@@ -177,111 +265,85 @@ gtag('config', 'G-1VX0Q2FQEV', { 'anonymize_ip': true});
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#recommended-readings-stem" id="toc-recommended-readings-stem" class="nav-link active" data-scroll-target="#recommended-readings-stem">Recommended Readings (STEM)</a>
+  <li><a href="#presentations" id="toc-presentations" class="nav-link active" data-scroll-target="#presentations">Presentations</a>
   <ul class="collapse">
-  <li><a href="#best-practices" id="toc-best-practices" class="nav-link" data-scroll-target="#best-practices">Best Practices</a></li>
-  <li><a href="#challenges" id="toc-challenges" class="nav-link" data-scroll-target="#challenges">Challenges</a></li>
-  <li><a href="#transformative-research-papers-in-biomedical-science-in-progress" id="toc-transformative-research-papers-in-biomedical-science-in-progress" class="nav-link" data-scroll-target="#transformative-research-papers-in-biomedical-science-in-progress">Transformative Research Papers in Biomedical Science (in progress)</a></li>
-  <li><a href="#statistics" id="toc-statistics" class="nav-link" data-scroll-target="#statistics">Statistics</a></li>
-  <li><a href="#writing" id="toc-writing" class="nav-link" data-scroll-target="#writing">Writing</a></li>
-  <li><a href="#science-integrity" id="toc-science-integrity" class="nav-link" data-scroll-target="#science-integrity">Science Integrity</a></li>
-  <li><a href="#clear-thinking-and-better-decision-making" id="toc-clear-thinking-and-better-decision-making" class="nav-link" data-scroll-target="#clear-thinking-and-better-decision-making">Clear Thinking and Better Decision-Making</a></li>
+  <li><a href="#computational-thinking" id="toc-computational-thinking" class="nav-link" data-scroll-target="#computational-thinking">Computational Thinking</a></li>
+  <li><a href="#minimizing-cognitive-overload" id="toc-minimizing-cognitive-overload" class="nav-link" data-scroll-target="#minimizing-cognitive-overload">Minimizing Cognitive Overload</a></li>
   </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content column-page-left" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
 
-<section id="recommended-readings-stem" class="level1">
-<h1>Recommended Readings (STEM)</h1>
-<p>This page contains a list of readings that I would recommend for upper-level undergraduate and graduate students getting started in STEM research. It includes articles focused on best practices, important research papers, and science integrity.</p>
-<section id="best-practices" class="level2">
-<h2 class="anchored" data-anchor-id="best-practices">Best Practices</h2>
-<ol type="1">
-<li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2685175/">How to succeed in science: a concise guide for young biomedical scientists. Part I: taking the plunge.</a> Yewdell JW, Nat Rev Mol Cell Biol. (2008).</li>
-<li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2675886/">How to succeed in science: a concise guide for young biomedical scientists. Part II: making discoveries.</a> Yewdell JW, Nat Rev Mol Cell Biol. (2008).</li>
-<li><a href="https://pubmed.ncbi.nlm.nih.gov/18492790/">The importance of stupidity in scientific research.</a> Schwartz MA, J Cell Sci. (2008).</li>
-<li><a href="https://pubmed.ncbi.nlm.nih.gov/10626367/">Unskilled and unaware of it: how difficulties in recognizing one’s own incompetence lead to inflated self-assessments (Dunning-Kruger Effect).</a> Kruger J and Dunning D, J Pers Soc Psychol. (1999).</li>
-<li><a href="https://pubmed.ncbi.nlm.nih.gov/19782018/">How to choose a good scientific problem.</a> Alon U, Mol Cell. (2009).</li>
-<li><a href="https://collections.plos.org/collection/ten-simple-rules/">PLOS “Ten Simple Rules” Collection provides a quick, concentrated guide for mastering some of the professional challenges research scientists face in their careers.</a> PloS.</li>
-<li><a href="https://gdalle.github.io/phd-resources/">Resources for PhD Students</a> Guillaume Dalle.</li>
-<li><a href="https://www.abhishaike.com/p/a-primer-on-my-favorite-pessimistic">Pessimistic scientific articles by Abhishaike Mahajan</a></li>
-<li><a href="https://www.asimov.press/p/synbio-guide">The Codon Guide to Synthetic Biology</a></li>
-<li><a href="https://www.theopennotebook.com/2018/11/06/how-to-read-a-scientific-paper/">How to Read a Scientific Paper</a></li>
-<li><a href="https://www.journoresources.org.uk/how-to-read-scientific-papers-science-journalism/">How To Read Scientific And Research Papers: Advice For Journalists</a></li>
-</ol>
+<section id="presentations" class="level1">
+<h1>Presentations</h1>
+<p>Here, I provide selected presentations focused on the principles of teaching STEM subjects and computational thinking.</p>
+<section id="computational-thinking" class="level2">
+<h2 class="anchored" data-anchor-id="computational-thinking">Computational Thinking</h2>
+<div id="listing-posts_comp_thinking" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1684098000000" data-listing-file-modified-sort="1699897644881" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1401">
+<a href="../portfolio/presentations/comp_thinking/comp_thinking.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Developing library-based computational research skill instruction programs
+</h5>
+<div class="card-text listing-description delink">
+
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+William Okech, PhD
+</div>
+<div class="listing-date">
+May 15, 2023
+</div>
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<p><a href="presentations/comp_thinking/comp_thinking.pptx">Download PowerPoint Presentation</a></p>
 </section>
-<section id="challenges" class="level2">
-<h2 class="anchored" data-anchor-id="challenges">Challenges</h2>
-<ol type="1">
-<li><a href="https://blogs.scientificamerican.com/observations/the-emotional-toll-of-graduate-school/">The Emotional Toll of Graduate School.</a> Puri P, Sci Am. (2019).</li>
-<li><a href="https://www.nature.com/articles/d41586-019-03459-7">PhDs: the tortuous truth.</a> Woolston C, Nature (2019).</li>
-<li><a href="https://medium.economist.com/why-doing-a-phd-is-often-a-waste-of-time-349206f9addb">Why doing a PhD is often a waste of time</a> The Economist, Medium (2016).</li>
-<li><a href="https://qz.com/547641/theres-an-awful-cost-to-getting-a-phd-that-no-one-talks-about">There’s an awful cost to getting a PhD that no one talks about</a> Walker J, Quartz (2015).</li>
-<li><a href="https://journals.flvc.org/cee/article/view/132290">Strategies for Supporting Engineering Student Mental Health</a> Wilson &amp; Goldberg, CEE (2023).</li>
-<li><a href="https://diversity.asee.org/deicommittee/2022/03/29/prioritizing-mental-health-and-wellness-in-engineering/">Prioritizing mental health and wellness in engineering</a> S. Wilson, ASEE (2022)</li>
-<li><a href="https://www.nature.com/articles/d41586-023-03296-9">Falling behind: postdocs in their thirties tire of putting life on hold</a></li>
-</ol>
-</section>
-<section id="transformative-research-papers-in-biomedical-science-in-progress" class="level2">
-<h2 class="anchored" data-anchor-id="transformative-research-papers-in-biomedical-science-in-progress">Transformative Research Papers in Biomedical Science (in progress)</h2>
-<ol type="1">
-<li><a href="https://www.science.org/doi/10.1126/science.1225829">A Programmable Dual-RNA-Guided DNA Endonuclease in Adaptive Bacterial Immunity</a> Jinek et al., Science (2012) from the Doudna and Charpentier Lab</li>
-<li><a href="https://www.cell.com/cell/fulltext/S0092-8674(06)00976-7">Induction of pluripotent stem cells from mouse embryonic and adult fibroblast cultures by defined factors</a> Takahashi et al., Cell (2006) from the Yamanaka Lab</li>
-<li><a href="https://www.cell.com/cell/fulltext/S0092-8674(07)01471-7">Induction of pluripotent stem cells from adult human fibroblasts by defined factors</a> Takahashi et al., Cell (2006) from the Yamanaka Lab</li>
-<li><a href="https://www.sciencedirect.com/science/article/pii/S0092867406009615">Matrix Elasticity Directs Stem Cell Lineage Specification</a> Engler et al., Cell (2006) from the Discher Lab</li>
-</ol>
-</section>
-<section id="statistics" class="level2">
-<h2 class="anchored" data-anchor-id="statistics">Statistics</h2>
-<ol type="1">
-<li><a href="https://pubmed.ncbi.nlm.nih.gov/29617358/">What exactly is ‘N’ in cell culture and animal experiments?</a> Lazic SE et al., PloS Biol. (2018).</li>
-<li><a href="https://pubmed.ncbi.nlm.nih.gov/32346721/">SuperPlots: Communicating reproducibility and variability in cell biology.</a> Lord SJ et al., J Cell Biol. (2020).</li>
-<li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6785265/">Ten common statistical mistakes to watch out for when writing or reviewing a manuscript.</a> Makin TR et al.&nbsp;eLife (2019).</li>
-<li><a href="https://pubmed.ncbi.nlm.nih.gov/25901488/">Beyond bar and line graphs: time for a new data presentation paradigm.</a> Weissgerber TL et al.&nbsp;PloS Biol. (2015).</li>
-<li><a href="https://pubmed.ncbi.nlm.nih.gov/26392568/">Statistical relevance—relevant statistics, part I.</a> Klaus B EMBO J. (2015).</li>
-<li><a href="https://pubmed.ncbi.nlm.nih.gov/27436873/">Statistical relevance-relevant statistics, part II: presenting experimental data.</a> Klaus B EMBO J. (2015).</li>
-<li><a href="https://pubmed.ncbi.nlm.nih.gov/35446846/">Ten simple rules for getting started with statistics in graduate school</a> Zitomer RA et al.&nbsp;PloS Comput Biol. (2022).</li>
-</ol>
-</section>
-<section id="writing" class="level2">
-<h2 class="anchored" data-anchor-id="writing">Writing</h2>
-<ol type="1">
-<li><a href="https://pubs.acs.org/doi/book/10.1021/acsguide">ACS Guide to Scholarly Communication.</a> ACS. (2020).</li>
-<li><a href="https://onlinelibrary.wiley.com/doi/10.1002/pro.514">The art of writing science.</a> Plaxco KW, Prot. Sci. (2010).</li>
-<li><a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/adma.200400767">Whitesides’ Group: Writing a Paper.</a> Whitesides GM, Adv. Mat. (2004).</li>
-<li><a href="https://www.nature.com/articles/d41586-018-02404-4">How to write a first-class paper.</a> Gewin V, Nature (2018).</li>
-<li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1559667/">Writing readable prose: When planning a scientific manuscript, following a few simple rules has a large impact.</a> Bredan AS &amp; van Roy F, EMBO Rep.&nbsp;(2006).</li>
-<li><a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005619">Ten simple rules for structuring papers</a> Mensh B &amp; Kording K, PLoS Comp Biol. (2017).</li>
-<li><a href="https://www.nature.com/articles/s41551-021-00816-8">Write accessibly</a> Editors, Nat Biomed Eng. (2021).</li>
-<li><a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011251">Ten simple rules for scientists engaging in science communication</a></li>
-<li><a href="https://journals.biologists.com/jeb/article/226/16/jeb245780/325883/Science-communication-in-experimental-biology">Science communication in experimental biology: experiences and recommendations</a></li>
-</ol>
-</section>
-<section id="science-integrity" class="level2">
-<h2 class="anchored" data-anchor-id="science-integrity">Science Integrity</h2>
-<ol type="1">
-<li><a href="https://scienceintegritydigest.com/">Science Integrity Digest</a> Bik E</li>
-<li><a href="https://psblab.org/">Brookes Lab</a> Brookes P. <a href="https://psblab.org/?p=651">Sample Post focused on “Fake Data”</a></li>
-<li><a href="https://pubpeer.com/">PubPeer: The Online Journal Club</a></li>
-<li><a href="https://forbetterscience.com/">For Better Science</a> Schneider L</li>
-<li><a href="https://retractionwatch.com/">Retraction Watch</a></li>
-<li><a href="https://www.nature.com/articles/s41419-018-0430-3">Automatic detection of image manipulations in the biomedical literature</a> Bucci EM, Cell Death and Disease (2018).</li>
-<li><a href="https://arxiv.org/abs/2102.01874">Learning to identify image manipulations in scientific publications</a> Mazaheri G et al., arXiv (2021).</li>
-<li><a href="https://journals.biologists.com/bio/article/9/10/bio056556/222806/Publishing-ethics-in-the-era-of-paper-mills">Publishing ethics in the era of paper mills</a> Hackett R and Kelly S, Biol Open (2020).</li>
-</ol>
-</section>
-<section id="clear-thinking-and-better-decision-making" class="level2">
-<h2 class="anchored" data-anchor-id="clear-thinking-and-better-decision-making">Clear Thinking and Better Decision-Making</h2>
-<ol type="1">
-<li><a href="https://untools.co/">Tools for better thinking</a></li>
-<li><a href="https://untools.co/thinking-tools-guide/#problem-solving-tools">How to choose the right thinking tool</a></li>
-<li><a href="https://thesystemsthinker.com/habits-of-mind-strategies-for-disciplined-choice-making/">Strategies for Disciplined Choice Making</a></li>
-</ol>
+<section id="minimizing-cognitive-overload" class="level2">
+<h2 class="anchored" data-anchor-id="minimizing-cognitive-overload">Minimizing Cognitive Overload</h2>
+<div id="listing-posts_min_cog_overload" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1693256400000" data-listing-file-modified-sort="1736173842051" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="871">
+<a href="../portfolio/presentations/min_cog_overload/min_cog_overload.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Designing courses that minimize cognitive overload in learners
+</h5>
+<div class="card-text listing-description delink">
+
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+William Okech, PhD
+</div>
+<div class="listing-date">
+Aug 29, 2023
+</div>
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<p><a href="presentations/min_cog_overload/min_cog_overload.pptx">Download PowerPoint Presentation</a></p>
+
 
 
 </section>
@@ -687,35 +749,6 @@ gtag('config', 'G-1VX0Q2FQEV', { 'anonymize_ip': true});
     }
   });
   </script>
-<input type="hidden" id="giscus-base-theme" value="light">
-<input type="hidden" id="giscus-alt-theme" value="dark">
-<script>
-  function loadGiscus() {
-    // Function to get the theme based on body class
-    const getTheme = () => {
-      let baseTheme = document.getElementById('giscus-base-theme').value;
-      let altTheme = document.getElementById('giscus-alt-theme').value;
-      return document.body.classList.contains('quarto-dark') ? altTheme : baseTheme;
-    };
-    const script = document.createElement("script");
-    script.src = "https://giscus.app/client.js";
-    script.async = true;
-    script.dataset.repo = "wokech/blog-main";
-    script.dataset.repoId = "R_kgDOHeENyQ";
-    script.dataset.category = "General";
-    script.dataset.categoryId = "DIC_kwDOHeENyc4CPinB";
-    script.dataset.mapping = "title";
-    script.dataset.reactionsEnabled = "1";
-    script.dataset.emitMetadata = "0";
-    script.dataset.inputPosition = "top";
-    script.dataset.theme = getTheme();
-    script.dataset.lang = "en";
-    script.crossOrigin = "anonymous";
-    // Append the script to the desired div instead of at the end of the body
-    document.getElementById("quarto-content").appendChild(script);
-  }
-  loadGiscus();
-</script>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">

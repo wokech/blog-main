@@ -1,7 +1,9 @@
 ---
-title: "Recommended Readings (STEM)"
+title: ""
 toc: true
 ---
+
+# Recommended Readings (STEM)
 
 This page contains a list of readings that I would recommend for upper-level undergraduate and graduate students getting started in STEM research. It includes articles focused on best practices, important research papers, and science integrity.
 
@@ -14,8 +16,8 @@ This page contains a list of readings that I would recommend for upper-level und
 5)  [How to choose a good scientific problem.](https://pubmed.ncbi.nlm.nih.gov/19782018/) Alon U, Mol Cell. (2009).
 6)  [PLOS "Ten Simple Rules" Collection provides a quick, concentrated guide for mastering some of the professional challenges research scientists face in their careers.](https://collections.plos.org/collection/ten-simple-rules/) PloS.
 7)  [Resources for PhD Students](https://gdalle.github.io/phd-resources/) Guillaume Dalle.
-8) [Pessimistic scientific articles by Abhishaike Mahajan](https://www.abhishaike.com/p/a-primer-on-my-favorite-pessimistic)
-9) [The Codon Guide to Synthetic Biology](https://www.asimov.press/p/synbio-guide)
+8)  [Pessimistic scientific articles by Abhishaike Mahajan](https://www.abhishaike.com/p/a-primer-on-my-favorite-pessimistic)
+9)  [The Codon Guide to Synthetic Biology](https://www.asimov.press/p/synbio-guide)
 10) [How to Read a Scientific Paper](https://www.theopennotebook.com/2018/11/06/how-to-read-a-scientific-paper/)
 11) [How To Read Scientific And Research Papers: Advice For Journalists](https://www.journoresources.org.uk/how-to-read-scientific-papers-science-journalism/)
 
@@ -27,7 +29,7 @@ This page contains a list of readings that I would recommend for upper-level und
 4)  [There's an awful cost to getting a PhD that no one talks about](https://qz.com/547641/theres-an-awful-cost-to-getting-a-phd-that-no-one-talks-about) Walker J, Quartz (2015).
 5)  [Strategies for Supporting Engineering Student Mental Health](https://journals.flvc.org/cee/article/view/132290) Wilson & Goldberg, CEE (2023).
 6)  [Prioritizing mental health and wellness in engineering](https://diversity.asee.org/deicommittee/2022/03/29/prioritizing-mental-health-and-wellness-in-engineering/) S. Wilson, ASEE (2022)
-7) [Falling behind: postdocs in their thirties tire of putting life on hold](https://www.nature.com/articles/d41586-023-03296-9)
+7)  [Falling behind: postdocs in their thirties tire of putting life on hold](https://www.nature.com/articles/d41586-023-03296-9)
 
 ## Transformative Research Papers in Biomedical Science (in progress)
 
@@ -55,8 +57,8 @@ This page contains a list of readings that I would recommend for upper-level und
 5)  [Writing readable prose: When planning a scientific manuscript, following a few simple rules has a large impact.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1559667/) Bredan AS & van Roy F, EMBO Rep. (2006).
 6)  [Ten simple rules for structuring papers](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005619) Mensh B & Kording K, PLoS Comp Biol. (2017).
 7)  [Write accessibly](https://www.nature.com/articles/s41551-021-00816-8) Editors, Nat Biomed Eng. (2021).
-8) [Ten simple rules for scientists engaging in science communication](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011251)
-9) [Science communication in experimental biology: experiences and recommendations](https://journals.biologists.com/jeb/article/226/16/jeb245780/325883/Science-communication-in-experimental-biology)
+8)  [Ten simple rules for scientists engaging in science communication](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011251)
+9)  [Science communication in experimental biology: experiences and recommendations](https://journals.biologists.com/jeb/article/226/16/jeb245780/325883/Science-communication-in-experimental-biology)
 
 ## Science Integrity
 
@@ -71,7 +73,6 @@ This page contains a list of readings that I would recommend for upper-level und
 
 ## Clear Thinking and Better Decision-Making
 
-1) [Tools for better thinking](https://untools.co/)
-2) [How to choose the right thinking tool](https://untools.co/thinking-tools-guide/#problem-solving-tools)
-3) [Strategies for Disciplined Choice Making](https://thesystemsthinker.com/habits-of-mind-strategies-for-disciplined-choice-making/)
-
+1)  [Tools for better thinking](https://untools.co/)
+2)  [How to choose the right thinking tool](https://untools.co/thinking-tools-guide/#problem-solving-tools)
+3)  [Strategies for Disciplined Choice Making](https://thesystemsthinker.com/habits-of-mind-strategies-for-disciplined-choice-making/)

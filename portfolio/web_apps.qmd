@@ -1,0 +1,24 @@
+---
+title: ""
+toc: true
+---
+
+# Web Apps
+
+## 1: Shiny
+
+### A: Nairobi Land Prices
+
+<iframe height="1200" width="100%" frameborder="yes" src="https://wokech.shinyapps.io/hass_land_price_app/">
+
+</iframe>
+
+### B: Kenya National Parks Visitor Data
+
+<iframe height="1200" width="100%" frameborder="yes" src="https://wokech.shinyapps.io/natl_parks_kenya_app/">
+
+</iframe>
+
+## 2: Streamlit
+
+Coming soon...

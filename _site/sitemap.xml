@@ -1,60 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://williamokech.com/series/series_3.html</loc>
-    <lastmod>2025-05-02T18:13:00.734Z</lastmod>
+    <loc>https://williamokech.com/readings/reading_stem.html</loc>
+    <lastmod>2025-06-07T11:33:04.114Z</lastmod>
   </url>
   <url>
-    <loc>https://williamokech.com/series/series_1.html</loc>
-    <lastmod>2025-05-02T18:13:05.574Z</lastmod>
+    <loc>https://williamokech.com/readings/readings.html</loc>
+    <lastmod>2024-06-06T21:51:49.672Z</lastmod>
   </url>
   <url>
-    <loc>https://williamokech.com/readings/reading_general.html</loc>
-    <lastmod>2024-06-14T21:09:33.565Z</lastmod>
+    <loc>https://williamokech.com/posts/r_tistry/aRt_1/aRt_eac_1.html</loc>
+    <lastmod>2023-12-09T13:51:10.110Z</lastmod>
   </url>
   <url>
-    <loc>https://williamokech.com/posts/r_tistry/aRt_2/aRt_eac_2.html</loc>
-    <lastmod>2023-12-09T13:53:06.630Z</lastmod>
+    <loc>https://williamokech.com/posts/r_rstudio_basics/variables/post_3.html</loc>
+    <lastmod>2023-10-06T09:55:57.819Z</lastmod>
   </url>
   <url>
-    <loc>https://williamokech.com/posts/r_rstudio_basics/vectors/vectors.html</loc>
-    <lastmod>2023-10-06T09:55:57.828Z</lastmod>
+    <loc>https://williamokech.com/posts/r_rstudio_basics/operators/operators.html</loc>
+    <lastmod>2023-12-07T11:51:14.793Z</lastmod>
   </url>
   <url>
-    <loc>https://williamokech.com/posts/r_rstudio_basics/software_install/software_install.html</loc>
-    <lastmod>2023-11-05T14:42:44.187Z</lastmod>
+    <loc>https://williamokech.com/posts/r_rstudio_basics/data_types/data_types.html</loc>
+    <lastmod>2023-10-06T09:55:57.824Z</lastmod>
   </url>
   <url>
-    <loc>https://williamokech.com/posts/r_rstudio_basics/missing_data/missing_data.html</loc>
-    <lastmod>2023-10-06T09:55:57.828Z</lastmod>
+    <loc>https://williamokech.com/posts/r_rstudio_basics/arithmetic/arithmetic.html</loc>
+    <lastmod>2024-03-04T21:10:22.662Z</lastmod>
   </url>
   <url>
-    <loc>https://williamokech.com/posts/r_rstudio_basics/data_structures/data_structures.html</loc>
-    <lastmod>2023-10-06T09:55:57.828Z</lastmod>
+    <loc>https://williamokech.com/posts/data_stories/cas_kenya_viz/cas_kenya_viz.html</loc>
+    <lastmod>2023-11-05T15:06:25.853Z</lastmod>
   </url>
   <url>
-    <loc>https://williamokech.com/posts/data_stories/kenya_gender_dist/kenya_gender_dist.html</loc>
-    <lastmod>2023-11-05T15:06:18.437Z</lastmod>
+    <loc>https://williamokech.com/posts/code_along_with_me/danger_disturb/danger_disturb.html</loc>
+    <lastmod>2023-12-07T12:03:57.687Z</lastmod>
   </url>
   <url>
-    <loc>https://williamokech.com/posts/data_stories/asbestos_roof_kenya/asbestos_roof_kenya.html</loc>
-    <lastmod>2023-12-09T14:10:05.582Z</lastmod>
-  </url>
-  <url>
-    <loc>https://williamokech.com/posts/biotech/alt_protein/alt_protein_intro.html</loc>
-    <lastmod>2023-12-07T18:11:40.130Z</lastmod>
+    <loc>https://williamokech.com/portfolio/web_apps.html</loc>
+    <lastmod>2025-06-07T11:34:24.556Z</lastmod>
   </url>
   <url>
     <loc>https://williamokech.com/portfolio/projects.html</loc>
-    <lastmod>2025-05-07T14:11:39.189Z</lastmod>
+    <lastmod>2025-06-07T09:49:06.852Z</lastmod>
   </url>
   <url>
-    <loc>https://williamokech.com/portfolio/presentations/comp_thinking/comp_thinking.html</loc>
-    <lastmod>2023-11-13T17:47:24.881Z</lastmod>
+    <loc>https://williamokech.com/portfolio/presentations/min_cog_overload/min_cog_overload.html</loc>
+    <lastmod>2025-01-06T14:30:42.051Z</lastmod>
+  </url>
+  <url>
+    <loc>https://williamokech.com/portfolio/email.html</loc>
+    <lastmod>2025-06-07T11:35:49.835Z</lastmod>
+  </url>
+  <url>
+    <loc>https://williamokech.com/portfolio/books.html</loc>
+    <lastmod>2025-06-07T11:35:55.108Z</lastmod>
   </url>
   <url>
     <loc>https://williamokech.com/blog.html</loc>
-    <lastmod>2024-12-23T09:18:47.864Z</lastmod>
+    <lastmod>2025-06-07T09:49:25.500Z</lastmod>
   </url>
   <url>
     <loc>https://williamokech.com/0_unpublished/data_viz.html</loc>
@@ -66,54 +70,58 @@
   </url>
   <url>
     <loc>https://williamokech.com/index.html</loc>
-    <lastmod>2025-05-24T19:59:17.275Z</lastmod>
+    <lastmod>2025-06-07T12:01:52.429Z</lastmod>
   </url>
   <url>
-    <loc>https://williamokech.com/portfolio/presentations/min_cog_overload/min_cog_overload.html</loc>
-    <lastmod>2025-01-06T14:30:42.051Z</lastmod>
+    <loc>https://williamokech.com/portfolio/data_viz.html</loc>
+    <lastmod>2025-06-07T11:35:52.395Z</lastmod>
+  </url>
+  <url>
+    <loc>https://williamokech.com/portfolio/presentations/comp_thinking/comp_thinking.html</loc>
+    <lastmod>2023-11-13T17:47:24.881Z</lastmod>
+  </url>
+  <url>
+    <loc>https://williamokech.com/portfolio/presentations.html</loc>
+    <lastmod>2025-06-07T11:35:46.278Z</lastmod>
   </url>
   <url>
     <loc>https://williamokech.com/portfolio/training_materials.html</loc>
     <lastmod>2024-12-23T09:47:31.478Z</lastmod>
   </url>
   <url>
-    <loc>https://williamokech.com/posts/code_along_with_me/danger_disturb/danger_disturb.html</loc>
-    <lastmod>2023-12-07T12:03:57.687Z</lastmod>
+    <loc>https://williamokech.com/posts/biotech/alt_protein/alt_protein_intro.html</loc>
+    <lastmod>2023-12-07T18:11:40.130Z</lastmod>
   </url>
   <url>
-    <loc>https://williamokech.com/posts/data_stories/cas_kenya_viz/cas_kenya_viz.html</loc>
-    <lastmod>2023-11-05T15:06:25.853Z</lastmod>
+    <loc>https://williamokech.com/posts/data_stories/asbestos_roof_kenya/asbestos_roof_kenya.html</loc>
+    <lastmod>2023-12-09T14:10:05.582Z</lastmod>
   </url>
   <url>
-    <loc>https://williamokech.com/posts/r_rstudio_basics/arithmetic/arithmetic.html</loc>
-    <lastmod>2024-03-04T21:10:22.662Z</lastmod>
+    <loc>https://williamokech.com/posts/data_stories/kenya_gender_dist/kenya_gender_dist.html</loc>
+    <lastmod>2023-11-05T15:06:18.437Z</lastmod>
   </url>
   <url>
-    <loc>https://williamokech.com/posts/r_rstudio_basics/data_types/data_types.html</loc>
-    <lastmod>2023-10-06T09:55:57.824Z</lastmod>
+    <loc>https://williamokech.com/posts/r_rstudio_basics/data_structures/data_structures.html</loc>
+    <lastmod>2023-10-06T09:55:57.828Z</lastmod>
   </url>
   <url>
-    <loc>https://williamokech.com/posts/r_rstudio_basics/operators/operators.html</loc>
-    <lastmod>2023-12-07T11:51:14.793Z</lastmod>
+    <loc>https://williamokech.com/posts/r_rstudio_basics/missing_data/missing_data.html</loc>
+    <lastmod>2023-10-06T09:55:57.828Z</lastmod>
   </url>
   <url>
-    <loc>https://williamokech.com/posts/r_rstudio_basics/variables/post_3.html</loc>
-    <lastmod>2023-10-06T09:55:57.819Z</lastmod>
+    <loc>https://williamokech.com/posts/r_rstudio_basics/software_install/software_install.html</loc>
+    <lastmod>2023-11-05T14:42:44.187Z</lastmod>
   </url>
   <url>
-    <loc>https://williamokech.com/posts/r_tistry/aRt_1/aRt_eac_1.html</loc>
-    <lastmod>2023-12-09T13:51:10.110Z</lastmod>
+    <loc>https://williamokech.com/posts/r_rstudio_basics/vectors/vectors.html</loc>
+    <lastmod>2023-10-06T09:55:57.828Z</lastmod>
   </url>
   <url>
-    <loc>https://williamokech.com/readings/readings.html</loc>
-    <lastmod>2024-06-06T21:51:49.672Z</lastmod>
+    <loc>https://williamokech.com/posts/r_tistry/aRt_2/aRt_eac_2.html</loc>
+    <lastmod>2023-12-09T13:53:06.630Z</lastmod>
   </url>
   <url>
-    <loc>https://williamokech.com/readings/reading_stem.html</loc>
-    <lastmod>2024-06-11T20:21:52.179Z</lastmod>
-  </url>
-  <url>
-    <loc>https://williamokech.com/series/series_2.html</loc>
-    <lastmod>2023-11-05T18:41:23.055Z</lastmod>
+    <loc>https://williamokech.com/readings/reading_general.html</loc>
+    <lastmod>2025-06-07T11:31:44.879Z</lastmod>
   </url>
 </urlset>

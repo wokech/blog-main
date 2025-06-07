@@ -1,0 +1,16 @@
+---
+title: ""
+toc: true
+---
+
+# Books
+
+## My Free EBooks (2024)
+
+**Note: Click on cover image to access the book**
+
+::: {layout-ncol="2"}
+[![R for Novice Programmers: First Steps with R and RStudio](free_ebooks/Cover_R4NP.png)](https://wokech.github.io/r4novice/)
+
+[![Essential Websites for Learning Digital Skills and Biotechnology](free_ebooks/essential_websites_cover.png)](https://wokech.github.io/essential_websites/)
+:::

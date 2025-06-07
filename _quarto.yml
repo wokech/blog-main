@@ -9,15 +9,29 @@ website:
   navbar:
     right:
       - text: Resume
-        file: blog_cv/Resume_William_Okech_Website_2024.pdf
+        href: blog_cv/Resume_William_Okech_Website_2024.pdf
       - text: Blog
-        file: blog.qmd
+        href: blog.qmd
       - text: Projects
-        file: portfolio/projects.qmd
+        menu:
+          - text: Web Apps
+            href: portfolio/web_apps.qmd
+          - text: Data Visualization  
+            href: portfolio/data_viz.qmd
       - text: Training Materials
-        file: portfolio/training_materials.qmd
+        menu:
+          - text: Books
+            href: portfolio/books.qmd
+          - text: Email Courses
+            href: portfolio/email.qmd
+          - text: Presentations
+            href: portfolio/presentations.qmd
       - text: Readings
-        file: readings/readings.qmd
+        menu:
+          - text: STEM-specific
+            href: readings/reading_stem.qmd
+          - text: For Everyone
+            href: readings/reading_general.qmd
       - icon: rss
         href: blog.xml
 #  cookie-consent:

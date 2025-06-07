@@ -1,7 +1,9 @@
 ---
-title: "Recommended Readings (General)"
+title: ""
 toc: true
 ---
+
+# Recommended Readings (General)
 
 This page contains a list of readings that I would recommend for anyone. It includes articles with topics that range from religion, mental health, classic books and short stories.
 
