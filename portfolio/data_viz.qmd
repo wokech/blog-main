@@ -15,7 +15,7 @@ Links available via Linktree: [Afro Data Visualization Hub (afro_dataviz)](https
 
 ### 2: Instagram
 
-![Instagram QR Code for afro_dataviz](qr_codes/afro_dataviz_qr.png){fig-align="center" width="40%"}
+![](qr_codes/afro_dataviz_qr.png){fig-align="center" width="40%" fig-alt="Instagram QR Code for afro_dataviz"}
 
 ## Kenya in Numbers
 
@@ -27,4 +27,4 @@ Links available via Linktree: [Kenya In Numbers (kenya.in.numbers)](https://link
 
 ### 2: Instagram
 
-![Instagram QR Code for kenya.in.numbers](qr_codes/kenya.in.numbers_qr.png){fig-align="center" width="40%"}
+![](qr_codes/kenya.in.numbers_qr.png){fig-align="center" width="40%" fig-alt="Instagram QR Code for kenya.in.numbers"}
