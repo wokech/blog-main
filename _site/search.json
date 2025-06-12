@@ -760,21 +760,21 @@
     "href": "portfolio/data_viz.html",
     "title": "Data Visualization",
     "section": "",
-    "text": "All data visualizations are showcased on various social media websites.\nLinks available via Linktree: Afro Data Visualization Hub (afro_dataviz)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAll data visualizations are showcased on various social media websites.\nLinks available via Linktree: Kenya In Numbers (kenya.in.numbers)"
+    "text": "All data visualizations are showcased on various social media websites.\nLinks available via Linktree: Afro Data Visualization Hub (afro_dataviz)\n\n\n\n\n\n\n\n\n 📷 Follow the Afro Data Visualization Hub on Instagram \n\n\n\n\n\n\n\nAll data visualizations are showcased on various social media websites.\nLinks available via Linktree: Kenya In Numbers (kenya.in.numbers)\n\n\n\n\n\n\n\n\n 📷 Follow Kenya in Numbers on Instagram"
   },
   {
     "objectID": "portfolio/data_viz.html#afrodata-visualization-hub",
     "href": "portfolio/data_viz.html#afrodata-visualization-hub",
     "title": "Data Visualization",
     "section": "",
-    "text": "All data visualizations are showcased on various social media websites.\nLinks available via Linktree: Afro Data Visualization Hub (afro_dataviz)"
+    "text": "All data visualizations are showcased on various social media websites.\nLinks available via Linktree: Afro Data Visualization Hub (afro_dataviz)\n\n\n\n\n\n\n\n\n 📷 Follow the Afro Data Visualization Hub on Instagram"
   },
   {
     "objectID": "portfolio/data_viz.html#kenya-in-numbers",
     "href": "portfolio/data_viz.html#kenya-in-numbers",
     "title": "Data Visualization",
     "section": "",
-    "text": "All data visualizations are showcased on various social media websites.\nLinks available via Linktree: Kenya In Numbers (kenya.in.numbers)"
+    "text": "All data visualizations are showcased on various social media websites.\nLinks available via Linktree: Kenya In Numbers (kenya.in.numbers)\n\n\n\n\n\n\n\n\n 📷 Follow Kenya in Numbers on Instagram"
   },
   {
     "objectID": "portfolio/presentations/comp_thinking/comp_thinking.html#overall-goal",
@@ -1440,5 +1440,82 @@
     "title": "Recommended Readings (General)",
     "section": "",
     "text": "The Reason for God: Belief in an Age of Skepticism (Timothy J. Keller)\nThe Cost of Discipleship (Dietrich Bonhoeffer)\nA Treatise of Earthly-Mindedness (Jeremiah Burroughs)\nThe Knowledge of the Holy (A.W. Tozer)\nThe Pursuit of God: The Human Thirst for the Divine (A.W. Tozer)\nA Bunch of Everlastings; Or, Texts That Made History (F.W. Boreham)\nA Packet of Surprises: The Best Essays and Sermons of F. W. Boreham (F.W. Boreham)\nThe Screwtape Letters (C.S. Lewis)\nThe Last Sin Eater (Francine Rivers)\nMere Christianity (C.S. Lewis)"
+  },
+  {
+    "objectID": "0_unpublished/slide_show_test_file.html#slide-1-title",
+    "href": "0_unpublished/slide_show_test_file.html#slide-1-title",
+    "title": "Your Presentation Title",
+    "section": "Slide 1 Title",
+    "text": "Slide 1 Title\n\nBullet point 1\nBullet point 2\nBullet point 3"
+  },
+  {
+    "objectID": "0_unpublished/slide_show_test_file.html#slide-2-with-code",
+    "href": "0_unpublished/slide_show_test_file.html#slide-2-with-code",
+    "title": "Your Presentation Title",
+    "section": "Slide 2 with Code",
+    "text": "Slide 2 with Code"
+  },
+  {
+    "objectID": "0_unpublished/slide_show_test_file.html#slide-3-with-columns",
+    "href": "0_unpublished/slide_show_test_file.html#slide-3-with-columns",
+    "title": "Your Presentation Title",
+    "section": "Slide 3 with Columns",
+    "text": "Slide 3 with Columns\n\n\nLeft Column\n\nPoint 1\nPoint 2\n\n\nRight Column\n\nPoint A\nPoint B"
+  },
+  {
+    "objectID": "0_unpublished/slide_show_test_file.html#slide-4-with-image",
+    "href": "0_unpublished/slide_show_test_file.html#slide-4-with-image",
+    "title": "Your Presentation Title",
+    "section": "Slide 4 with Image",
+    "text": "Slide 4 with Image\n\nCaption for image"
+  },
+  {
+    "objectID": "0_unpublished/slide_show_test_file.html#slide-5-with-incremental-content",
+    "href": "0_unpublished/slide_show_test_file.html#slide-5-with-incremental-content",
+    "title": "Your Presentation Title",
+    "section": "Slide 5 with Incremental Content",
+    "text": "Slide 5 with Incremental Content\n\nFirst item appears\nThen second item\nFinally third item"
+  },
+  {
+    "objectID": "0_unpublished/slide_show_test_file.html#slide-6-with-fragments",
+    "href": "0_unpublished/slide_show_test_file.html#slide-6-with-fragments",
+    "title": "Your Presentation Title",
+    "section": "Slide 6 with Fragments",
+    "text": "Slide 6 with Fragments\n\nThis appears first\n\n\nThis appears second"
+  },
+  {
+    "objectID": "0_unpublished/slide_show_test_file.html#slide-7-with-notes",
+    "href": "0_unpublished/slide_show_test_file.html#slide-7-with-notes",
+    "title": "Your Presentation Title",
+    "section": "Slide 7 with Notes",
+    "text": "Slide 7 with Notes\nContent visible to audience\n\nThese are speaker notes - only visible in presenter mode"
+  },
+  {
+    "objectID": "0_unpublished/slide_show_test_file.html#mathematical-expressions",
+    "href": "0_unpublished/slide_show_test_file.html#mathematical-expressions",
+    "title": "Your Presentation Title",
+    "section": "Mathematical Expressions",
+    "text": "Mathematical Expressions\nInline math: \\(E = mc^2\\)\nDisplay math: \\[\n\\int_{-\\infty}^{\\infty} e^{-x^2} dx = \\sqrt{\\pi}\n\\]"
+  },
+  {
+    "objectID": "0_unpublished/slide_show_test_file.html#tables",
+    "href": "0_unpublished/slide_show_test_file.html#tables",
+    "title": "Your Presentation Title",
+    "section": "Tables",
+    "text": "Tables\n\n\n\nColumn 1\nColumn 2\nColumn 3\n\n\n\n\nCell 1\nCell 2\nCell 3\n\n\nCell 4\nCell 5\nCell 6"
+  },
+  {
+    "objectID": "0_unpublished/slide_show_test_file.html#custom-css-classes",
+    "href": "0_unpublished/slide_show_test_file.html#custom-css-classes",
+    "title": "Your Presentation Title",
+    "section": "Custom CSS Classes",
+    "text": "Custom CSS Classes\n\nContent with custom styling"
+  },
+  {
+    "objectID": "0_unpublished/slide_show_test_file.html#conclusion",
+    "href": "0_unpublished/slide_show_test_file.html#conclusion",
+    "title": "Your Presentation Title",
+    "section": "Conclusion",
+    "text": "Conclusion\n\nSummary point 1\nSummary point 2\nThank you!"
   }
 ]

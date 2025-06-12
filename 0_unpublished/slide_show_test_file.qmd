@@ -1,0 +1,109 @@
+---
+title: "Your Presentation Title"
+author: "Your Name"
+date: today
+format:
+  revealjs:
+    theme: default
+    transition: slide
+    background-transition: fade
+    highlight-style: github
+    code-line-numbers: true
+    incremental: true
+---
+
+# Introduction
+
+## Slide 1 Title
+
+-   Bullet point 1
+-   Bullet point 2
+-   Bullet point 3
+
+## Slide 2 with Code
+
+```{r}
+# R code example
+library(ggplot2)
+data(mtcars)
+ggplot(mtcars, aes(x = wt, y = mpg)) +
+  geom_point() +
+  theme_minimal()
+```
+
+## Slide 3 with Columns
+
+::::: columns
+::: {.column width="50%"}
+**Left Column**
+
+-   Point 1
+-   Point 2
+:::
+
+::: {.column width="50%"}
+**Right Column**
+
+-   Point A
+-   Point B
+:::
+:::::
+
+## Slide 4 with Image
+
+![Caption for image](path/to/image.png){width="80%"}
+
+## Slide 5 with Incremental Content
+
+::: incremental
+-   First item appears
+-   Then second item
+-   Finally third item
+:::
+
+## Slide 6 with Fragments
+
+::: fragment
+This appears first
+:::
+
+::: fragment
+This appears second
+:::
+
+## Slide 7 with Notes
+
+Content visible to audience
+
+::: notes
+These are speaker notes - only visible in presenter mode
+:::
+
+# Section Header
+
+## Mathematical Expressions
+
+Inline math: $E = mc^2$
+
+Display math: $$
+\int_{-\infty}^{\infty} e^{-x^2} dx = \sqrt{\pi}
+$$
+
+## Tables
+
+| Column 1 | Column 2 | Column 3 |
+|----------|----------|----------|
+| Cell 1   | Cell 2   | Cell 3   |
+| Cell 4   | Cell 5   | Cell 6   |
+
+## Custom CSS Classes
+
+::: custom-class
+Content with custom styling
+:::
+
+## Conclusion
+
+-   Summary point 1
+-   Summary point 2
+-   Thank you!
