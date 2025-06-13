@@ -17,7 +17,11 @@ Links available via Linktree: [Afro Data Visualization Hub (afro_dataviz)](https
 
 ![](qr_codes/afro_dataviz_qr.png){fig-align="center" width="40%" fig-alt="Instagram QR Code for afro_dataviz"}
 
-<a href="https://www.instagram.com/afro_dataviz/" target="_blank" class="ig-button"> 📷 Follow the Afro Data Visualization Hub on Instagram </a> <style> .ig-button { display: inline-block; background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); color: white; padding: 15px 30px; text-decoration: none; border-radius: 25px; font-weight: bold; text-align: center; transition: transform 0.3s ease; } .ig-button:hover { transform: translateY(-2px); } </style>
+<a href="https://www.instagram.com/afro_dataviz/" target="_blank" class="ig-button"> 📷 Follow the Afro Data Visualization Hub on Instagram </a>
+
+```{=html}
+<style> .ig-button { display: inline-block; background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); color: white; padding: 15px 30px; text-decoration: none; border-radius: 25px; font-weight: bold; text-align: center; transition: transform 0.3s ease; } .ig-button:hover { transform: translateY(-2px); } </style>
+```
 
 ## Kenya in Numbers
 
@@ -31,4 +35,8 @@ Links available via Linktree: [Kenya In Numbers (kenya.in.numbers)](https://link
 
 ![](qr_codes/kenya.in.numbers_qr.png){fig-align="center" width="40%" fig-alt="Instagram QR Code for kenya.in.numbers"}
 
-<a href="https://www.instagram.com/kenya.in.numbers/" target="_blank" class="ig-button"> 📷 Follow Kenya in Numbers on Instagram </a> <style> .ig-button { display: inline-block; background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); color: white; padding: 15px 30px; text-decoration: none; border-radius: 25px; font-weight: bold; text-align: center; transition: transform 0.3s ease; } .ig-button:hover { transform: translateY(-2px); } </style>
+<a href="https://www.instagram.com/kenya.in.numbers/" target="_blank" class="ig-button"> 📷 Follow Kenya in Numbers on Instagram </a>
+
+```{=html}
+<style> .ig-button { display: inline-block; background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); color: white; padding: 15px 30px; text-decoration: none; border-radius: 25px; font-weight: bold; text-align: center; transition: transform 0.3s ease; } .ig-button:hover { transform: translateY(-2px); } </style>
+```
