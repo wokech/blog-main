@@ -28,21 +28,19 @@ Here, I provide selected presentations focused on the principles of teaching STE
 ::: {#posts_comp_thinking}
 :::
 
-{{< pdf portfolio/presentations/comp_thinking/comp_thinking.pdf
- width=100% >}}
-
+{{< pdf presentations/comp_thinking/comp_thinking.pdf width=800 height=450 >}}
 
 ## Minimizing Cognitive Overload
 
 ::: {#posts_min_cog_overload}
 :::
 
-{{< pdf portfolio/presentations/min_cog_overload/min_cog_overload.pdf >}}
+{{< pdf presentations/min_cog_overload/min_cog_overload.pdf width=800 height=450 >}}
 
 ## Biostatistics
 
-{{< pdf portfolio/presentations/biostatistics/William_Okech_Biostatistics_Primer_2025.pdf >}}
+{{< pdf presentations/biostatistics/William_Okech_Biostatistics_Primer_2025.pdf width=800 height=450 >}}
 
 ## Data Structures in Bioinformatics
 
-{{< pdf portfolio/presentations/data_struct_bioinf/William_Okech_Data_Structures_for_Bioinformatics_2025.pdf >}}
+{{< pdf presentations/data_struct_bioinf/William_Okech_Data_Structures_for_Bioinformatics_2025.pdf width=800 height=450 >}}
