@@ -57,3 +57,6 @@ editor: visual
 comments:
   giscus:
     repo: wokech/blog-main
+    
+extensions:
+  - jmgirard/embedpdf

@@ -21,18 +21,28 @@ toc: true
 
 # Presentations
 
-Here, I provide selected presentations focused on the principles of teaching STEM subjects and computational thinking.
+Here, I provide selected presentations focused on the principles of teaching STEM subjects, computational thinking, and the basics of bioengineering and bioinformatics.
 
 ## Computational Thinking
 
 ::: {#posts_comp_thinking}
 :::
 
-[Download PowerPoint Presentation](presentations/comp_thinking/comp_thinking.pptx)
+{{< pdf portfolio/presentations/comp_thinking/comp_thinking.pdf
+ width=100% >}}
+
 
 ## Minimizing Cognitive Overload
 
 ::: {#posts_min_cog_overload}
 :::
 
-[Download PowerPoint Presentation](presentations/min_cog_overload/min_cog_overload.pptx)
+{{< pdf portfolio/presentations/min_cog_overload/min_cog_overload.pdf >}}
+
+## Biostatistics
+
+{{< pdf portfolio/presentations/biostatistics/William_Okech_Biostatistics_Primer_2025.pdf >}}
+
+## Data Structures in Bioinformatics
+
+{{< pdf portfolio/presentations/data_struct_bioinf/William_Okech_Data_Structures_for_Bioinformatics_2025.pdf >}}
