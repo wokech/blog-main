@@ -17,4 +17,7 @@ comments: false
 ::: icon-links
 <a href="blog_cv/Resume_William_Okech_Website_2024.pdf" target="_blank" title = "Resume"><i class="fa-solid fa-file-lines"></i></a> <a href="https://www.linkedin.com/in/williamokech/" target="_blank" title = "LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a> <a href="https://github.com/wokech" target="_blank" title = "GitHub"><i class="fa-brands fa-square-github"></i></a> <a href="https://bsky.app/profile/willyokech.bsky.social" target="_blank" title = "Bluesky"><i class="fa-brands fa-bluesky"></i></a> <a href="blog.qmd" target="_blank" title = "Blog"><i class="fa-solid fa-blog"></i></a>
 :::
+<iframe src="https://afrobiotech.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+
+
 ::::
