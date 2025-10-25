@@ -23,6 +23,10 @@ Links available via Linktree: [Afro Data Visualization Hub (afro_dataviz)](https
 <style> .ig-button { display: inline-block; background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); color: white; padding: 15px 30px; text-decoration: none; border-radius: 25px; font-weight: bold; text-align: center; transition: transform 0.3s ease; } .ig-button:hover { transform: translateY(-2px); } </style>
 ```
 
+### 3: TikTok
+
+<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@afro_dataviz" data-unique-id="afro_dataviz" data-embed-from="embed_page" data-embed-type="creator" style="max-width:780px; min-width:288px;"> <section> <a target="_blank" href="https://www.tiktok.com/@afro_dataviz?refer=creator_embed">@afro_dataviz</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+
 ## Kenya in Numbers
 
 ### 1: Linktree
@@ -40,3 +44,7 @@ Links available via Linktree: [Kenya In Numbers (kenya.in.numbers)](https://link
 ```{=html}
 <style> .ig-button { display: inline-block; background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); color: white; padding: 15px 30px; text-decoration: none; border-radius: 25px; font-weight: bold; text-align: center; transition: transform 0.3s ease; } .ig-button:hover { transform: translateY(-2px); } </style>
 ```
+
+### 3: TikTok
+
+<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@kenya.in.numbers" data-unique-id="kenya.in.numbers" data-embed-from="embed_page" data-embed-type="creator" style="max-width:780px; min-width:288px;"> <section> <a target="_blank" href="https://www.tiktok.com/@kenya.in.numbers?refer=creator_embed">@kenya.in.numbers</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
