@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.31">
+<meta name="generator" content="quarto-1.8.24">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -33,14 +33,15 @@ ul.task-list li input[type="checkbox"] {
 <link href="../william_profile.jpg" rel="icon" type="image/jpeg">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-36055dde38e1c66a85944b0e21486264.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-edea2f37dd155b60faf08ba51f9639de.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -89,6 +90,8 @@ gtag('config', 'G-1VX0Q2FQEV', { 'anonymize_ip': true});
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    </a>
     <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">William Okech</span>
     </a>
@@ -183,6 +186,7 @@ gtag('config', 'G-1VX0Q2FQEV', { 'anonymize_ip': true});
   <ul class="collapse">
   <li><a href="#a-nairobi-land-prices" id="toc-a-nairobi-land-prices" class="nav-link" data-scroll-target="#a-nairobi-land-prices">A: Nairobi Land Prices</a></li>
   <li><a href="#b-kenya-national-parks-visitor-data" id="toc-b-kenya-national-parks-visitor-data" class="nav-link" data-scroll-target="#b-kenya-national-parks-visitor-data">B: Kenya National Parks Visitor Data</a></li>
+  <li><a href="#c-kenyan-universities-map-explorer" id="toc-c-kenyan-universities-map-explorer" class="nav-link" data-scroll-target="#c-kenyan-universities-map-explorer">C: Kenyan Universities Map Explorer</a></li>
   </ul></li>
   <li><a href="#streamlit" id="toc-streamlit" class="nav-link" data-scroll-target="#streamlit">2: Streamlit</a></li>
   </ul></li>
@@ -207,6 +211,11 @@ gtag('config', 'G-1VX0Q2FQEV', { 'anonymize_ip': true});
 <section id="b-kenya-national-parks-visitor-data" class="level3">
 <h3 class="anchored" data-anchor-id="b-kenya-national-parks-visitor-data">B: Kenya National Parks Visitor Data</h3>
 <iframe height="1200" width="100%" frameborder="yes" src="https://wokech.shinyapps.io/natl_parks_kenya_app/">
+</iframe>
+</section>
+<section id="c-kenyan-universities-map-explorer" class="level3">
+<h3 class="anchored" data-anchor-id="c-kenyan-universities-map-explorer">C: Kenyan Universities Map Explorer</h3>
+<iframe height="1200" width="100%" frameborder="yes" src="https://wokech.shinyapps.io/university_kenya_app/">
 </iframe>
 </section>
 </section>
@@ -270,13 +279,14 @@ gtag('config', 'G-1VX0Q2FQEV', { 'anonymize_ip': true});
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
