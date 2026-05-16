@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.31">
+<meta name="generator" content="quarto-1.8.24">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -33,14 +33,15 @@ ul.task-list li input[type="checkbox"] {
 <link href="../william_profile.jpg" rel="icon" type="image/jpeg">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-36055dde38e1c66a85944b0e21486264.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-edea2f37dd155b60faf08ba51f9639de.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -89,6 +90,8 @@ gtag('config', 'G-1VX0Q2FQEV', { 'anonymize_ip': true});
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    </a>
     <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">William Okech</span>
     </a>
@@ -100,7 +103,7 @@ gtag('config', 'G-1VX0Q2FQEV', { 'anonymize_ip': true});
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../blog_cv/Resume_William_Okech_Website_2024.pdf"> 
+    <a class="nav-link" href="../blog_cv/Resume_William_Okech_Website_jan_2026.pdf"> 
 <span class="menu-text">Resume</span></a>
   </li>  
   <li class="nav-item">
@@ -147,7 +150,7 @@ gtag('config', 'G-1VX0Q2FQEV', { 'anonymize_ip': true});
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-readings">    
         <li>
-    <a class="dropdown-item" href="../readings/reading_stem.html">
+    <a class="dropdown-item" href="../readings/reading_stem.qmd">
  <span class="dropdown-text">STEM-specific</span></a>
   </li>  
         <li>
@@ -177,8 +180,7 @@ gtag('config', 'G-1VX0Q2FQEV', { 'anonymize_ip': true});
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#stem-specific" id="toc-stem-specific" class="nav-link active" data-scroll-target="#stem-specific">STEM-specific</a></li>
-  <li><a href="#for-everyone" id="toc-for-everyone" class="nav-link" data-scroll-target="#for-everyone">For Everyone</a></li>
+  <li><a href="#for-everyone" id="toc-for-everyone" class="nav-link active" data-scroll-target="#for-everyone">For Everyone</a></li>
   </ul>
 </nav>
     </div>
@@ -205,16 +207,10 @@ gtag('config', 'G-1VX0Q2FQEV', { 'anonymize_ip': true});
 
 
 <p>The recommended readings page contains articles, stories, and books that I have read and enjoyed. There is a specific focus on STEM and another general section for everyone.</p>
-<section id="stem-specific" class="level2">
-<h2 class="anchored" data-anchor-id="stem-specific">STEM-specific</h2>
-<section id="recommended-readings" class="level5">
-<h5 class="anchored" data-anchor-id="recommended-readings">1. <a href="../readings/reading_stem.html">Recommended Readings</a></h5>
-</section>
-</section>
 <section id="for-everyone" class="level2">
 <h2 class="anchored" data-anchor-id="for-everyone">For Everyone</h2>
-<section id="recommended-readings-1" class="level5">
-<h5 class="anchored" data-anchor-id="recommended-readings-1">1. <a href="../readings/reading_general.html">Recommended Readings</a></h5>
+<section id="recommended-readings" class="level5">
+<h5 class="anchored" data-anchor-id="recommended-readings">1. <a href="../readings/reading_general.html">Recommended Readings</a></h5>
 
 
 </section>
@@ -272,13 +268,14 @@ gtag('config', 'G-1VX0Q2FQEV', { 'anonymize_ip': true});
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

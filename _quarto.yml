@@ -9,31 +9,15 @@ website:
   navbar:
     right:
       - text: Resume
-        href: blog_cv/Resume_William_Okech_Website_2024.pdf
+        href: blog_cv/Resume_William_Okech_Website_jan_2026.pdf
       - text: Blog
         href: blog.qmd
       - text: Projects
-        menu:
-          - text: Web Apps
-            href: portfolio/web_apps.qmd
-          - text: Data Visualization  
-            href: portfolio/data_viz.qmd
-      - text: Training Materials
-        menu:
-          - text: Books
-            href: portfolio/books.qmd
-          - text: Email Courses
-            href: portfolio/email.qmd
-          - text: Presentations
-            href: portfolio/presentations.qmd
+        href: portfolio/web_apps.qmd
+      - text: Teaching Website
+        href: https://wokech.github.io/
       - text: Readings
-        menu:
-          - text: STEM-specific
-            href: readings/reading_stem.qmd
-          - text: For Everyone
-            href: readings/reading_general.qmd
-      - icon: rss
-        href: blog.xml
+        href: readings/reading_general.qmd
 #  cookie-consent:
 #    type: express
 #    style: headline
@@ -42,7 +26,7 @@ website:
     tracking-id: "G-1VX0Q2FQEV"
     anonymize-ip: true
   page-footer:
-    left: "Website made using [Quarto](https://quarto.org/), by William Okech. License: [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/)"
+    left: "Website made using [Quarto](https://quarto.org/), by William Okech. The views and opinions expressed on this website are solely those of the author and do not necessarily reflect the views of the author’s employer or any affiliated organizations. License: [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/)"
 
 format:
   html:

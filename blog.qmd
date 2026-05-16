@@ -1,80 +1,14 @@
 ---
 title: "Blog"
-listing:
-  - id: posts_biotech
-    contents: posts/biotech/
-    sort: "date desc"
-    type: grid
-    categories: true
-    sort-ui: true
-    filter-ui: true
-    fields: [image, date, title, subtitle, author, reading-time, description, categories]
-    feed: true
-    page-size: 3
-  - id: posts_code_along_with_me
-    contents: posts/code_along_with_me/
-    sort: "date desc"
-    type: grid
-    categories: true
-    sort-ui: true
-    filter-ui: true
-    fields: [image, date, title, subtitle, author, reading-time, description, categories]
-    feed: true
-    page-size: 3
-  - id: posts_r_rstudio_basics
-    contents: posts/r_rstudio_basics/
-    sort: "date desc"
-    type: grid
-    categories: true
-    sort-ui: true
-    filter-ui: true
-    fields: [image, date, title, subtitle, author, reading-time, description, categories]
-    feed: true
-    page-size: 3
-  - id: posts_data_stories
-    contents: posts/data_stories/
-    sort: "date desc"
-    type: grid
-    categories: true
-    sort-ui: true
-    filter-ui: true
-    fields: [image, date, title, subtitle, author, reading-time, description, categories]
-    feed: true
-    page-size: 3
-  - id: posts_r_tistry
-    contents: posts/r_tistry/
-    sort: "date desc"
-    type: grid
-    categories: true
-    sort-ui: true
-    filter-ui: true
-    fields: [image, date, title, subtitle, author, reading-time, description, categories]
-    feed: true
-    page-size: 3
-page-layout: full
-title-block-banner: false
-comments: false
 toc: true
 ---
 
-Currently, my blog has two main focus areas: (1) Biotechnology, and (2) R Programming and Data Visualization. It provides my personal thoughts on the potential of biotechnology, as well as tutorials for those getting started with R programming and data visualization.
+## AfroBiotech Roundup
 
-## Biotechnology
+::: {#hero-heading style="text-align:center"}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
-::: {#posts_biotech}
-:::
+<iframe src="https://afrobiotech.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no">
 
-## Code Along With Me
-
-::: {#posts_code_along_with_me}
-:::
-
-## R and RStudio Basics
-
-::: {#posts_r_rstudio_basics}
-:::
-
-## Data Stories
-
-::: {#posts_data_stories}
+</iframe>
 :::

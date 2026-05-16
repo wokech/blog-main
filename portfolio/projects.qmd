@@ -3,7 +3,7 @@ title: "Projects"
 toc: true
 ---
 
-The project page contains links to my web apps and data visualizations that I am currently working on. 
+The project page contains links to my web apps and data visualizations that I am currently working on.
 
 ## Web Apps
 
