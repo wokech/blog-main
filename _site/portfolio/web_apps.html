@@ -110,10 +110,21 @@ gtag('config', 'G-1VX0Q2FQEV', { 'anonymize_ip': true});
     <a class="nav-link" href="../blog.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link active" href="../portfolio/web_apps.html" aria-current="page"> 
-<span class="menu-text">Projects</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-projects" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Projects</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-projects">    
+        <li>
+    <a class="dropdown-item" href="../portfolio/data_viz.html">
+ <span class="dropdown-text">Data Visualization</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="../portfolio/web_apps.html">
+ <span class="dropdown-text">Web Apps</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="https://wokech.github.io/"> 
 <span class="menu-text">Teaching Website</span></a>
@@ -140,16 +151,9 @@ gtag('config', 'G-1VX0Q2FQEV', { 'anonymize_ip': true});
   <ul>
   <li><a href="#web-apps" id="toc-web-apps" class="nav-link active" data-scroll-target="#web-apps">Web Apps</a>
   <ul class="collapse">
-  <li><a href="#shiny" id="toc-shiny" class="nav-link" data-scroll-target="#shiny">1: Shiny</a>
-  <ul class="collapse">
   <li><a href="#a-nairobi-land-prices" id="toc-a-nairobi-land-prices" class="nav-link" data-scroll-target="#a-nairobi-land-prices">A: Nairobi Land Prices</a></li>
   <li><a href="#b-kenya-national-parks-visitor-data" id="toc-b-kenya-national-parks-visitor-data" class="nav-link" data-scroll-target="#b-kenya-national-parks-visitor-data">B: Kenya National Parks Visitor Data</a></li>
   <li><a href="#c-kenyan-universities-map-explorer" id="toc-c-kenyan-universities-map-explorer" class="nav-link" data-scroll-target="#c-kenyan-universities-map-explorer">C: Kenyan Universities Map Explorer</a></li>
-  </ul></li>
-  <li><a href="#streamlit" id="toc-streamlit" class="nav-link" data-scroll-target="#streamlit">2: Streamlit</a>
-  <ul class="collapse">
-  <li><a href="#a-african-football-legends-1990---present" id="toc-a-african-football-legends-1990---present" class="nav-link" data-scroll-target="#a-african-football-legends-1990---present">A: African Football Legends (1990 - Present)</a></li>
-  </ul></li>
   </ul></li>
   </ul>
 </nav>
@@ -162,8 +166,6 @@ gtag('config', 'G-1VX0Q2FQEV', { 'anonymize_ip': true});
 
 <section id="web-apps" class="level1">
 <h1>Web Apps</h1>
-<section id="shiny" class="level2">
-<h2 class="anchored" data-anchor-id="shiny">1: Shiny</h2>
 <section id="a-nairobi-land-prices" class="level3">
 <h3 class="anchored" data-anchor-id="a-nairobi-land-prices">A: Nairobi Land Prices</h3>
 <iframe height="1200" width="100%" frameborder="yes" src="https://wokech.shinyapps.io/hass_land_price_app/">
@@ -178,17 +180,8 @@ gtag('config', 'G-1VX0Q2FQEV', { 'anonymize_ip': true});
 <h3 class="anchored" data-anchor-id="c-kenyan-universities-map-explorer">C: Kenyan Universities Map Explorer</h3>
 <iframe height="1200" width="100%" frameborder="yes" src="https://wokech.shinyapps.io/university_kenya_app/">
 </iframe>
-</section>
-</section>
-<section id="streamlit" class="level2">
-<h2 class="anchored" data-anchor-id="streamlit">2: Streamlit</h2>
-<section id="a-african-football-legends-1990---present" class="level3">
-<h3 class="anchored" data-anchor-id="a-african-football-legends-1990---present">A: African Football Legends (1990 - Present)</h3>
-<iframe src="https://african-football-legends.streamlit.app/?embed=true" style="height: 450px; width: 100%;">
-</iframe>
 
 
-</section>
 </section>
 </section>
 

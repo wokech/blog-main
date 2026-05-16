@@ -5,8 +5,6 @@ toc: true
 
 # Web Apps
 
-## 1: Shiny
-
 ### A: Nairobi Land Prices
 
 <iframe height="1200" width="100%" frameborder="yes" src="https://wokech.shinyapps.io/hass_land_price_app/">
@@ -22,13 +20,5 @@ toc: true
 ### C: Kenyan Universities Map Explorer
 
 <iframe height="1200" width="100%" frameborder="yes" src="https://wokech.shinyapps.io/university_kenya_app/">
-
-</iframe>
-
-## 2: Streamlit
-
-### A: African Football Legends (1990 - Present)
-
-<iframe src="https://african-football-legends.streamlit.app/?embed=true" style="height: 450px; width: 100%;">
 
 </iframe>

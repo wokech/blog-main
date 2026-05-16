@@ -12,3 +12,9 @@ toc: true
 
 </iframe>
 :::
+
+## Medium
+
+::: text-center
+[Read My Articles on Medium](https://medium.com/@willyokech){.btn .btn-primary .btn-lg target="_blank"}
+:::

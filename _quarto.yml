@@ -4,7 +4,7 @@ project:
 website:
   title: "William Okech"
   site-url: "https://williamokech.com/"
-  description: "This is William Okech's personal Blog."
+  description: "This is William Okech's Personal Blog."
   favicon: william_profile.jpg
   navbar:
     right:
@@ -13,7 +13,11 @@ website:
       - text: Blog
         href: blog.qmd
       - text: Projects
-        href: portfolio/web_apps.qmd
+        menu:
+        - text: Data Visualization
+          href: portfolio/data_viz.qmd
+        - text: Web Apps
+          href: portfolio/web_apps.qmd
       - text: Teaching Website
         href: https://wokech.github.io/
       - text: Readings

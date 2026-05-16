@@ -1,13 +1,9 @@
 ---
-title: ""
+title: "Data Visualization"
 toc: true
 ---
 
-# Data Visualization
-
 ## AfroData Visualization Hub
-
-### Instagram
 
 <a href="https://www.instagram.com/afro_dataviz/" target="_blank" class="ig-button"> 📷 Afro Data Visualization Hub on Instagram </a>
 
@@ -16,8 +12,6 @@ toc: true
 ```
 
 ## Kenya in Numbers
-
-### Instagram
 
 <a href="https://www.instagram.com/kenya.in.numbers/" target="_blank" class="ig-button"> 📷 Kenya in Numbers on Instagram </a>
 
