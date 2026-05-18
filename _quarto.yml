@@ -18,7 +18,7 @@ website:
           href: portfolio/data_viz.qmd
         - text: Web Apps
           href: portfolio/web_apps.qmd
-      - text: Teaching Website
+      - text: Teaching
         href: https://wokech.github.io/
       - text: Readings
         href: readings/reading_general.qmd
