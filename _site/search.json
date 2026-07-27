@@ -49,25 +49,67 @@
     "text": "Web Apps\n\nA: Nairobi Land Prices\n\n\n\n\nB: Kenya National Parks Visitor Data\n\n\n\n\nC: Kenyan Universities Map Explorer"
   },
   {
-    "objectID": "portfolio/projects.html",
-    "href": "portfolio/projects.html",
-    "title": "Projects",
+    "objectID": "portfolio/sports_data_visualization.html",
+    "href": "portfolio/sports_data_visualization.html",
+    "title": "Sports Data Analysis and Visualization",
     "section": "",
-    "text": "The project page contains links to my web apps and data visualizations that I am currently working on."
+    "text": "Fig. 1: Analysis of the relationship between average player value (Euros) and FIFA ranking. Data Source: transfermarkt | FIFA\n\n\n\n\n\n\n\n\n\n\n\n\nFig. 1: Average player value is correlated with FIFA ranking in East and West Africa. Data Source: transfermarkt | FIFA\n\n\n\n\n\n\n\nFig. 2: Top player market value is correlated with FIFA ranking. Data Source: transfermarkt | FIFA\n\n\n\n\n\n\n\nFig. 3: Top players in West Africa have higher market values compared to East Africa. Data Source: transfermarkt\n\n\n\n\n\n\n\n\n\n\n*Best = highest goals (minus penalty kicks) + assists\n\n\n\n\n\nFig. 1: Best Season for Selected African Players in Top 5 European Leagues (1990-2000).\n\n\n\n\n\n\n\nFig. 2: Best Season for Selected African Players in Top 5 European Leagues (2000-2010).\n\n\n\n\n\n\n\nFig. 3: Best Season for Selected African Players in Top 5 European Leagues (2010-2020).\n\n\n\n\n\n\n\nFig. 4: Best Season for Selected African Players in Top 5 European Leagues (2020-2025).\n\n\n\n\n\n\n\n\n\n\n\n\nFig. 1: Number of minutes played by Africans in Top 5 European Leagues\n\n\n\n\n\n\n\nFig. 2: Number of Africans playing in the Top 5 European Leagues\n\n\n\n\n\n\n\nFig. 3: Number of minutes played per African player in Top 5 European Leagues\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFig. 1: Relationship between FIFA Ranking Points and Elo Rating. Data Source: FIFA | Elo\n\n\n\n\n\n\n\nFig. 2: Percentage of Foreign-Based Players. Data Source: transfermarkt\n\n\n\n\n\n\n\nFig. 3: Team Market Value (Euros) for African World Cup Teams. Data Source: transfermarkt\n\n\n\n\n\n\n\nFig. 4: Relationship between Team Market Value (Euros) and FIFA Ranking Points. Data Source: transfermarkt | FIFA\n\n\n\n\n\n\n\nComing Soon…\n\n\n\n\n\n\n\n\n\n\n\nFig. 1: FIFA Ranking for teams participating in the 2026 Women’s Africa. Data Source: FIFA\n\n\n\n\n\n\n\nFig. 2: Relationship between GDP per Capita ($) and FIFA Ranking Points. Data Source: worldometer | FIFA\n\n\n\n\n\n\n\nFig. 3: Relationship between Percentage of Women in the Labor Force and FIFA Ranking Points. Data Source: World Bank | FIFA\n\n\n\n\n\n\n\nComing Soon…"
   },
   {
-    "objectID": "portfolio/projects.html#web-apps",
-    "href": "portfolio/projects.html#web-apps",
-    "title": "Projects",
-    "section": "Web Apps",
-    "text": "Web Apps\n\n1. Web Apps"
+    "objectID": "portfolio/sports_data_visualization.html#section",
+    "href": "portfolio/sports_data_visualization.html#section",
+    "title": "Sports Data Analysis and Visualization",
+    "section": "",
+    "text": "Fig. 1: Analysis of the relationship between average player value (Euros) and FIFA ranking. Data Source: transfermarkt | FIFA\n\n\n\n\n\n\n\n\n\n\n\n\nFig. 1: Average player value is correlated with FIFA ranking in East and West Africa. Data Source: transfermarkt | FIFA\n\n\n\n\n\n\n\nFig. 2: Top player market value is correlated with FIFA ranking. Data Source: transfermarkt | FIFA\n\n\n\n\n\n\n\nFig. 3: Top players in West Africa have higher market values compared to East Africa. Data Source: transfermarkt"
   },
   {
-    "objectID": "portfolio/projects.html#data-visualization-portfolio",
-    "href": "portfolio/projects.html#data-visualization-portfolio",
-    "title": "Projects",
-    "section": "Data Visualization Portfolio",
-    "text": "Data Visualization Portfolio\n\n1. Data Visualizations"
+    "objectID": "portfolio/sports_data_visualization.html#section-1",
+    "href": "portfolio/sports_data_visualization.html#section-1",
+    "title": "Sports Data Analysis and Visualization",
+    "section": "",
+    "text": "*Best = highest goals (minus penalty kicks) + assists\n\n\n\n\n\nFig. 1: Best Season for Selected African Players in Top 5 European Leagues (1990-2000).\n\n\n\n\n\n\n\nFig. 2: Best Season for Selected African Players in Top 5 European Leagues (2000-2010).\n\n\n\n\n\n\n\nFig. 3: Best Season for Selected African Players in Top 5 European Leagues (2010-2020).\n\n\n\n\n\n\n\nFig. 4: Best Season for Selected African Players in Top 5 European Leagues (2020-2025).\n\n\n\n\n\n\n\n\n\n\n\n\nFig. 1: Number of minutes played by Africans in Top 5 European Leagues\n\n\n\n\n\n\n\nFig. 2: Number of Africans playing in the Top 5 European Leagues\n\n\n\n\n\n\n\nFig. 3: Number of minutes played per African player in Top 5 European Leagues"
+  },
+  {
+    "objectID": "portfolio/sports_data_visualization.html#section-2",
+    "href": "portfolio/sports_data_visualization.html#section-2",
+    "title": "Sports Data Analysis and Visualization",
+    "section": "",
+    "text": "Fig. 1: Relationship between FIFA Ranking Points and Elo Rating. Data Source: FIFA | Elo\n\n\n\n\n\n\n\nFig. 2: Percentage of Foreign-Based Players. Data Source: transfermarkt\n\n\n\n\n\n\n\nFig. 3: Team Market Value (Euros) for African World Cup Teams. Data Source: transfermarkt\n\n\n\n\n\n\n\nFig. 4: Relationship between Team Market Value (Euros) and FIFA Ranking Points. Data Source: transfermarkt | FIFA\n\n\n\n\n\n\n\nComing Soon…\n\n\n\n\n\n\n\n\n\n\n\nFig. 1: FIFA Ranking for teams participating in the 2026 Women’s Africa. Data Source: FIFA\n\n\n\n\n\n\n\nFig. 2: Relationship between GDP per Capita ($) and FIFA Ranking Points. Data Source: worldometer | FIFA\n\n\n\n\n\n\n\nFig. 3: Relationship between Percentage of Women in the Labor Force and FIFA Ranking Points. Data Source: World Bank | FIFA\n\n\n\n\n\n\n\nComing Soon…"
+  },
+  {
+    "objectID": "portfolio/email.html",
+    "href": "portfolio/email.html",
+    "title": "Email Courses",
+    "section": "",
+    "text": "New to data analysis? No prior programming experience?\nSign up for my free email course!\nR for Novices Email Course"
+  },
+  {
+    "objectID": "portfolio/email.html#r-for-novices",
+    "href": "portfolio/email.html#r-for-novices",
+    "title": "Email Courses",
+    "section": "",
+    "text": "New to data analysis? No prior programming experience?\nSign up for my free email course!\nR for Novices Email Course"
+  },
+  {
+    "objectID": "portfolio/books.html",
+    "href": "portfolio/books.html",
+    "title": "Books",
+    "section": "",
+    "text": "Note: Click on cover image to access the book\n\n\n\n\n\n\nR for Novice Programmers: First Steps with R and RStudio\n\n\n\n\n\n\n\nEssential Websites for Learning Digital Skills and Biotechnology"
+  },
+  {
+    "objectID": "portfolio/books.html#my-free-ebooks-2024",
+    "href": "portfolio/books.html#my-free-ebooks-2024",
+    "title": "Books",
+    "section": "",
+    "text": "Note: Click on cover image to access the book\n\n\n\n\n\n\nR for Novice Programmers: First Steps with R and RStudio\n\n\n\n\n\n\n\nEssential Websites for Learning Digital Skills and Biotechnology"
+  },
+  {
+    "objectID": "blog.html#medium",
+    "href": "blog.html#medium",
+    "title": "Blog",
+    "section": "Medium",
+    "text": "Medium\n\nRead My Articles on Medium"
   },
   {
     "objectID": "portfolio/data_viz.html",
@@ -91,39 +133,25 @@
     "text": "Kenya in Numbers\n 📷 Kenya in Numbers on Instagram"
   },
   {
-    "objectID": "blog.html#medium",
-    "href": "blog.html#medium",
-    "title": "Blog",
-    "section": "Medium",
-    "text": "Medium\n\nRead My Articles on Medium"
+    "objectID": "portfolio/projects.html",
+    "href": "portfolio/projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "The project page contains links to my web apps and data visualizations that I am currently working on."
   },
   {
-    "objectID": "portfolio/books.html",
-    "href": "portfolio/books.html",
-    "title": "Books",
-    "section": "",
-    "text": "Note: Click on cover image to access the book\n\n\n\n\n\n\nR for Novice Programmers: First Steps with R and RStudio\n\n\n\n\n\n\n\nEssential Websites for Learning Digital Skills and Biotechnology"
+    "objectID": "portfolio/projects.html#web-apps",
+    "href": "portfolio/projects.html#web-apps",
+    "title": "Projects",
+    "section": "Web Apps",
+    "text": "Web Apps\n\n1. Web Apps"
   },
   {
-    "objectID": "portfolio/books.html#my-free-ebooks-2024",
-    "href": "portfolio/books.html#my-free-ebooks-2024",
-    "title": "Books",
-    "section": "",
-    "text": "Note: Click on cover image to access the book\n\n\n\n\n\n\nR for Novice Programmers: First Steps with R and RStudio\n\n\n\n\n\n\n\nEssential Websites for Learning Digital Skills and Biotechnology"
-  },
-  {
-    "objectID": "portfolio/email.html",
-    "href": "portfolio/email.html",
-    "title": "Email Courses",
-    "section": "",
-    "text": "New to data analysis? No prior programming experience?\nSign up for my free email course!\nR for Novices Email Course"
-  },
-  {
-    "objectID": "portfolio/email.html#r-for-novices",
-    "href": "portfolio/email.html#r-for-novices",
-    "title": "Email Courses",
-    "section": "",
-    "text": "New to data analysis? No prior programming experience?\nSign up for my free email course!\nR for Novices Email Course"
+    "objectID": "portfolio/projects.html#data-visualization-portfolio",
+    "href": "portfolio/projects.html#data-visualization-portfolio",
+    "title": "Projects",
+    "section": "Data Visualization Portfolio",
+    "text": "Data Visualization Portfolio\n\n1. Data Visualizations"
   },
   {
     "objectID": "portfolio/training_materials.html",

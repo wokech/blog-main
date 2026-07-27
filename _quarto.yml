@@ -14,7 +14,9 @@ website:
         href: blog.qmd
       - text: Projects
         menu:
-        - text: Data Visualization
+        - text: Sports Data Viz
+          href: portfolio/sports_data_visualization.qmd
+        - text: Social Data Viz
           href: portfolio/data_viz.qmd
         - text: Web Apps
           href: portfolio/web_apps.qmd

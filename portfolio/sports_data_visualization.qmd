@@ -1,0 +1,135 @@
+---
+title: "Sports Data Analysis and Visualization"
+format: 
+  html:
+    lightbox: true
+toc: true
+---
+
+# 1. Static Visualizations
+
+## 2023
+
+### A. Relationship between the average player value (Euros) and FIFA rankings (2023)
+
+:::: grid
+::: g-col-4
+![Fig. 1: Analysis of the relationship between average player value (Euros) and FIFA ranking. Data Source: transfermarkt \| FIFA](sports_data_visualization/fifa_ranking_avg_player_values_2023/1.png)
+:::
+::::
+
+### B. East vs West: Analysis of FIFA Ranking and Player Values in Africa (2023)
+
+:::::: grid
+::: g-col-4
+![Fig. 1: Average player value is correlated with FIFA ranking in East and West Africa. Data Source: transfermarkt \| FIFA](sports_data_visualization/east_west_fifa_ranking_avg_player_values_2023/1.png){group="my-gallery"}
+:::
+
+::: g-col-4
+![Fig. 2: Top player market value is correlated with FIFA ranking. Data Source: transfermarkt \| FIFA](sports_data_visualization/east_west_fifa_ranking_avg_player_values_2023/2.png){group="my-gallery"}
+:::
+
+::: g-col-4
+![Fig. 3: Top players in West Africa have higher market values compared to East Africa. Data Source: transfermarkt](sports_data_visualization/east_west_fifa_ranking_avg_player_values_2023/3.png){group="my-gallery"}
+:::
+::::::
+
+## 2025
+
+### A. Best\* Season for Selected African Players in Top 5 European Leagues (2025)
+
+**\*Best = highest goals (minus penalty kicks) + assists**
+
+::::::: grid
+::: g-col-4
+![Fig. 1: Best Season for Selected African Players in Top 5 European Leagues (1990-2000).](sports_data_visualization/best_season_af_football_players_top_5_euro_2025/1.png){group="my-gallery2"}
+:::
+
+::: g-col-4
+![Fig. 2: Best Season for Selected African Players in Top 5 European Leagues (2000-2010).](sports_data_visualization/best_season_af_football_players_top_5_euro_2025/2.png){group="my-gallery2"}
+:::
+
+::: g-col-4
+![Fig. 3: Best Season for Selected African Players in Top 5 European Leagues (2010-2020).](sports_data_visualization/best_season_af_football_players_top_5_euro_2025/3.png){group="my-gallery2"}
+:::
+
+::: g-col-4
+![Fig. 4: Best Season for Selected African Players in Top 5 European Leagues (2020-2025).](sports_data_visualization/best_season_af_football_players_top_5_euro_2025/4.png){group="my-gallery2"}
+:::
+:::::::
+
+### B. African Football Players in the Top 5 European Leagues (2025)
+
+:::::: grid
+::: g-col-4
+![Fig. 1: Number of minutes played by Africans in Top 5 European Leagues](sports_data_visualization/af_football_players_top_5_euro_2025/1.png){group="my-gallery3"}
+:::
+
+::: g-col-4
+![Fig. 2: Number of Africans playing in the Top 5 European Leagues](sports_data_visualization/af_football_players_top_5_euro_2025/2.png){group="my-gallery3"}
+:::
+
+::: g-col-4
+![Fig. 3: Number of minutes played per African player in Top 5 European Leagues](sports_data_visualization/af_football_players_top_5_euro_2025/3.png){group="my-gallery3"}
+:::
+::::::
+
+## 2026
+
+### A. Africa at the World Cup (2026)
+
+#### Part 1: Pre-Tournament Analysis
+
+::::::: grid
+::: g-col-4
+![Fig. 1: Relationship between FIFA Ranking Points and Elo Rating. Data Source: FIFA \| Elo](sports_data_visualization/africa_wc_2026/1.png){group="my-gallery4"}
+:::
+
+::: g-col-4
+![Fig. 2: Percentage of Foreign-Based Players. Data Source: transfermarkt](sports_data_visualization/africa_wc_2026/2.png){group="my-gallery4"}
+:::
+
+::: g-col-4
+![Fig. 3: Team Market Value (Euros) for African World Cup Teams. Data Source: transfermarkt](sports_data_visualization/africa_wc_2026/3.png){group="my-gallery4"}
+:::
+
+::: g-col-4
+![Fig. 4: Relationship between Team Market Value (Euros) and FIFA Ranking Points. Data Source: transfermarkt \| FIFA](sports_data_visualization/africa_wc_2026/4.png){group="my-gallery4"}
+:::
+:::::::
+
+#### Part 2: Post-Tournament Analysis
+
+Coming Soon...
+
+### B. Women's Africa Cup of Nations (2026)
+
+#### Part 1: Pre-Tournament Analysis
+
+:::::: grid
+::: g-col-4
+![Fig. 1: FIFA Ranking for teams participating in the 2026 Women's Africa. Data Source: FIFA](sports_data_visualization/wafcon_2026/1.png){group="my-gallery4"}
+:::
+
+::: g-col-4
+![Fig. 2: Relationship between GDP per Capita (\$) and FIFA Ranking Points. Data Source: worldometer \| FIFA](sports_data_visualization/wafcon_2026/2.png){group="my-gallery4"}
+:::
+
+::: g-col-4
+![Fig. 3: Relationship between Percentage of Women in the Labor Force and FIFA Ranking Points. Data Source: World Bank \| FIFA](sports_data_visualization/wafcon_2026/3.png){group="my-gallery4"}
+:::
+::::::
+
+#### Part 2: Post-Tournament Analysis
+
+Coming Soon...
+
+# 2. Data Dashboards
+
+### A: African Football Legends (1990 - Present)
+
+<iframe src="https://african-football-legends.streamlit.app/?embed=true" style="height: 450px; width: 100%;">
+
+</iframe>
+
+[Link to App](https://african-football-legends.streamlit.app)
